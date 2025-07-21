@@ -1,0 +1,241 @@
+{
+  "story_title": "When the Pope Was Almost Snatched in 1981",
+  "original_story": "[dramatic] Imagine this: on May 13, 1981, in St. Peter's Square, Pope John Paul II was shot four times! [pause:0.5s] As chaos erupted, a heroic bystander, Anna de Fiori, intervened, tackling the assassin, Mehmet Ali Ağca, before he could drag the Pope away. [pause:1s] This shocking moment left 100,000 spectators frozen in disbelief. [pause:0.5s] If Anna hadn’t acted, it could have changed the papacy forever, influencing global politics and religious dialogue. [pause:1s] How close did we come to a different history?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.215,
+      "audio_content": "Imagine this. On May 13, 1981",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9915386835734049
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.215,
+      "timestamp_end": 4.43,
+      "audio_content": "St. Peter Square, Pope John Paul",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8910656273365021
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.43,
+      "timestamp_end": 6.645,
+      "audio_content": "was shot four times. As",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9776614904403687
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.645,
+      "timestamp_end": 8.86,
+      "audio_content": "erupted, a heroic bystander, Anna",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9545879662036896
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.86,
+      "timestamp_end": 11.075,
+      "audio_content": "Fiori intervened, tackling the assassin,",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9476473391056061
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.075,
+      "timestamp_end": 13.29,
+      "audio_content": "Mehmet Ali Akka, before he could drag the Pope away.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9048252046108246
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.29,
+      "timestamp_end": 15.504999999999999,
+      "audio_content": "This shocking moment left",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9963281899690628
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.504999999999999,
+      "timestamp_end": 17.72,
+      "audio_content": ",000 spectators frozen in",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9917760863900185
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 17.72,
+      "timestamp_end": 19.935,
+      "audio_content": "If Anna hadn't acted, it",
+      "words_in_segment": 5,
+      "confidence_avg": 0.994988203048706
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 19.935,
+      "timestamp_end": 22.15,
+      "audio_content": "have changed the papacy forever, influencing global",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9517676532268524
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.15,
+      "timestamp_end": 24.365,
+      "audio_content": "and religious dialogue.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9837028384208679
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.365,
+      "timestamp_end": 26.58,
+      "audio_content": "How close did we come to a different history?",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9964476293987699
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.215,
+      "audio_content": "Imagine this. On May 13, 1981",
+      "image_prompt": "Medium shot capturing the intense moment as Anna de Fiori lunges towards Mehmet Ali Ağca, her face a mix of determination and fear. The Pope looms in the background, chaos swirling around them, with stunned onlookers frozen in disbelief. Dramatic chiaroscuro lighting highlights the urgency of the scene.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9915386835734049,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.215,
+      "timestamp_end": 4.43,
+      "audio_content": "St. Peter Square, Pope John Paul",
+      "image_prompt": "Medium shot capturing the tense moment in St. Peter's Square, with Pope John Paul II in the foreground, shocked and wounded, and Anna de Fiori heroically tackling Mehmet Ali Ağca, surrounded by gasping onlookers, dramatic chiaroscuro lighting amplifying the chaos and intensity.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8910656273365021,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.43,
+      "timestamp_end": 6.645,
+      "audio_content": "was shot four times. As",
+      "image_prompt": "Medium shot of Anna de Fiori, a determined expression on her face, lunging towards Mehmet Ali Ağca as he raises his weapon. In the background, shocked spectators freeze in horror amidst the dramatic chiaroscuro lighting, capturing the chaos of St. Peter's Square.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9776614904403687,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.645,
+      "timestamp_end": 8.86,
+      "audio_content": "erupted, a heroic bystander, Anna",
+      "image_prompt": "Medium shot of Anna de Fiori, a determined expression on her face, lunging towards Mehmet Ali Ağca in St. Peter's Square, with the Pope visible in the background. The chaos unfolds around them, illuminated by dramatic chiaroscuro lighting, capturing the intensity of the moment.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9545879662036896,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.86,
+      "timestamp_end": 11.075,
+      "audio_content": "Fiori intervened, tackling the assassin,",
+      "image_prompt": "Medium shot of Anna de Fiori, a determined look on her face, as she tackles the assassin Mehmet Ali Ağca in St. Peter's Square. The chaos of the crowd captures the shock and disbelief, with dramatic chiaroscuro lighting highlighting their intense expressions.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9476473391056061,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.075,
+      "timestamp_end": 13.29,
+      "audio_content": "Mehmet Ali Akka, before he could drag the Pope away.",
+      "image_prompt": "Medium shot capturing the intense moment in St. Peter's Square as Anna de Fiori heroically tackles Mehmet Ali Ağca, chaos swirling around them. Focus on their determined expressions, dramatic chiaroscuro lighting highlighting the tension, with shocked bystanders in the blurred background.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9048252046108246,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.29,
+      "timestamp_end": 15.504999999999999,
+      "audio_content": "This shocking moment left",
+      "image_prompt": "Medium shot of Anna de Fiori, eyes wide with determination, tackling Mehmet Ali Ağca as chaos erupts in St. Peter's Square, with stunned spectators frozen in disbelief. The dramatic chiaroscuro lighting casts sharp shadows, highlighting the tension of the moment.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9963281899690628,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.504999999999999,
+      "timestamp_end": 17.72,
+      "audio_content": ",000 spectators frozen in",
+      "image_prompt": "Medium shot capturing the intense moment in St. Peter's Square as Anna de Fiori heroically tackles Mehmet Ali Ağca. The faces of shocked spectators are illuminated by dramatic chiaroscuro lighting, their expressions frozen in disbelief amidst the chaos of the unfolding scene.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9917760863900185,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 17.72,
+      "timestamp_end": 19.935,
+      "audio_content": "If Anna hadn't acted, it",
+      "image_prompt": "Medium shot capturing Anna de Fiori grappling with Mehmet Ali Ağca amidst the chaos in St. Peter's Square. The tension in her face contrasts with the shocked expressions of the surrounding spectators. Dramatic chiaroscuro lighting highlights the urgency and heroism of the moment.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.994988203048706,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 19.935,
+      "timestamp_end": 22.15,
+      "audio_content": "have changed the papacy forever, influencing global",
+      "image_prompt": "Medium shot of Anna de Fiori, a determined expression on her face, lunging towards Mehmet Ali Ağca in the chaotic St. Peter's Square, with shocked onlookers frozen in disbelief, dramatic chiaroscuro lighting casting sharp shadows across the scene.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9517676532268524,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.15,
+      "timestamp_end": 24.365,
+      "audio_content": "and religious dialogue.",
+      "image_prompt": "Medium shot capturing Anna de Fiori lunging towards the assassin, her face filled with determination and fear, while the chaos of St. Peter's Square unfolds behind her. Dramatic chiaroscuro lighting casts sharp shadows, emphasizing the urgency of the moment.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9837028384208679,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.365,
+      "timestamp_end": 26.58,
+      "audio_content": "How close did we come to a different history?",
+      "image_prompt": "Close-up of Anna de Fiori's determined face as she lunges towards the assassin in St. Peter's Square, amidst the chaos of shocked onlookers, dramatic chiaroscuro lighting highlighting her bravery, with sharp shadows casting a tense atmosphere around the scene.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9964476293987699,
+      "content_type": "character_action",
+      "shot_type": "close_up"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 26.58,
+    "whisper_model": "base"
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "story_title": "How a Tornado Spared the Wright Brothers' Workshop",
+  "original_story": "[shocked] You won't believe this! In 1905, a fierce tornado roared through Dayton, Ohio, just blocks away from the Wright brothers' workshop. This wasn't just any storm; it was powerful enough to uproot trees and tear roofs off homes! But somehow, their vital experiments in aviation were untouched. Imagine if that tornado had struck? The invention of flight could have been delayed! Instead, the brothers continued their groundbreaking work, eventually making history with the first powered flight just two years later. Isn’t that wild?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.396666666666667,
+      "audio_content": "you won't believe this. In",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8434003293514252
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.396666666666667,
+      "timestamp_end": 4.793333333333334,
+      "audio_content": "a fierce tornado roared through Dayton,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9829160273075104
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.793333333333334,
+      "timestamp_end": 7.190000000000001,
+      "audio_content": "just blocks away from the Wright Brothers",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9211159859384809
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.190000000000001,
+      "timestamp_end": 9.586666666666668,
+      "audio_content": "This wasn't just any storm,",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9951782345771789
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.586666666666668,
+      "timestamp_end": 11.983333333333334,
+      "audio_content": "it was powerful enough to uproot trees and tear",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9928819139798483
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.983333333333334,
+      "timestamp_end": 14.380000000000003,
+      "audio_content": "off homes. But somehow, their",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9808328151702881
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.380000000000003,
+      "timestamp_end": 16.776666666666667,
+      "audio_content": "experiments and aviation were untouched.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8977268278598786
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.776666666666667,
+      "timestamp_end": 19.173333333333336,
+      "audio_content": "Imagine if that tornado had struck. The",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9954762203352792
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.173333333333336,
+      "timestamp_end": 21.570000000000004,
+      "audio_content": "of flight could have been delayed.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9660900433858236
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.570000000000004,
+      "timestamp_end": 23.96666666666667,
+      "audio_content": "the brothers continued their groundbreaking",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9614981889724732
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.96666666666667,
+      "timestamp_end": 26.363333333333337,
+      "audio_content": "eventually making history with the first",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9967735310395559
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 26.363333333333337,
+      "timestamp_end": 28.760000000000005,
+      "audio_content": "flight just two years later. Isn't that wild?",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9898961596190929
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.396666666666667,
+      "audio_content": "you won't believe this. In",
+      "image_prompt": "Wide shot of a dark, ominous sky swirling with storm clouds above Dayton, Ohio, as lightning strikes nearby. In the foreground, the Wright brothers' workshop stands resilient, illuminated by flashes of light, hinting at the chaos that could unfold. Trees bend dramatically in the wind.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8434003293514252,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.396666666666667,
+      "timestamp_end": 4.793333333333334,
+      "audio_content": "a fierce tornado roared through Dayton,",
+      "image_prompt": "Wide shot capturing the devastating scene of a fierce tornado swirling through Dayton, Ohio, uprooting trees and tearing roofs off homes in the foreground, while the Wright brothers' workshop stands resilient in the background, bathed in dramatic chiaroscuro lighting.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9829160273075104,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.793333333333334,
+      "timestamp_end": 7.190000000000001,
+      "audio_content": "just blocks away from the Wright Brothers",
+      "image_prompt": "Wide shot of the Wright brothers' workshop in Dayton, Ohio, with dark storm clouds swirling ominously overhead, trees bending in the fierce wind. The scene captures the tension of the approaching tornado, while the workshop stands resilient, untouched by the chaos surrounding it.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9211159859384809,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.190000000000001,
+      "timestamp_end": 9.586666666666668,
+      "audio_content": "This wasn't just any storm,",
+      "image_prompt": "Medium shot of the Wright brothers in their workshop, focused intently on their aircraft model, the winds howling outside. Dark clouds loom ominously through the window, with shadows dancing on their determined faces, embodying the tension of an impending storm.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9951782345771789,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.586666666666668,
+      "timestamp_end": 11.983333333333334,
+      "audio_content": "it was powerful enough to uproot trees and tear",
+      "image_prompt": "Wide shot of the devastated streets of Dayton, Ohio, post-tornado. Uprooted trees lie scattered, roofs are torn from homes, while in the distance, the Wright brothers' workshop stands resilient against the storm's wrath, the sky ominously dark with swirling clouds.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9928819139798483,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.983333333333334,
+      "timestamp_end": 14.380000000000003,
+      "audio_content": "off homes. But somehow, their",
+      "image_prompt": "Medium shot of the Wright brothers in their workshop, surrounded by blueprints and aviation models, as dark storm clouds loom outside the window. Their focused expressions hint at determination amidst the threat of the approaching tornado, dramatic chiaroscuro lighting casting sharp shadows around them.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9808328151702881,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.380000000000003,
+      "timestamp_end": 16.776666666666667,
+      "audio_content": "experiments and aviation were untouched.",
+      "image_prompt": "Medium shot of the Wright brothers in their workshop, surrounded by blueprints and unfinished aircraft models, with a fierce tornado raging outside the window. The brothers are focused and determined, their faces lit by dramatic chiaroscuro lighting, emphasizing their commitment to flight despite the chaos beyond.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8977268278598786,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.776666666666667,
+      "timestamp_end": 19.173333333333336,
+      "audio_content": "Imagine if that tornado had struck. The",
+      "image_prompt": "Medium shot of the Wright brothers in their workshop, surrounded by blueprints and early flying machines, with expressions of determination. Outside the window, dark storm clouds gather ominously, contrasting with their focused work. Dramatic chiaroscuro lighting highlights their resolve amid looming danger.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9954762203352792,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.173333333333336,
+      "timestamp_end": 21.570000000000004,
+      "audio_content": "of flight could have been delayed.",
+      "image_prompt": "Wide shot of a turbulent sky over Dayton, Ohio, with a fierce tornado churning in the distance. The Wright brothers' workshop stands resilient amidst the chaos, surrounded by uprooted trees and debris, showcasing the contrast of innovation and nature's fury, illuminated by dramatic chiaroscuro lighting.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9660900433858236,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.570000000000004,
+      "timestamp_end": 23.96666666666667,
+      "audio_content": "the brothers continued their groundbreaking",
+      "image_prompt": "Medium shot of the Wright brothers, focused and determined, adjusting their aircraft in the workshop, sunlight filtering through dusty windows, shadows cast dramatically across blueprints and tools, capturing their unwavering spirit amidst the looming threat of the tornado outside.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9614981889724732,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.96666666666667,
+      "timestamp_end": 26.363333333333337,
+      "audio_content": "eventually making history with the first",
+      "image_prompt": "Wide shot of a turbulent sky over Dayton, Ohio, with dark storm clouds swirling ominously. In the foreground, the Wright brothers' workshop stands resilient, untouched by the chaos. Uprooted trees and debris scatter the ground, highlighting the tornado's ferocity, while the anticipation of history hangs in the air.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9967735310395559,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 26.363333333333337,
+      "timestamp_end": 28.760000000000005,
+      "audio_content": "flight just two years later. Isn't that wild?",
+      "image_prompt": "Medium shot of the Wright brothers in their workshop, surrounded by blueprints and wooden models. Outside, dark storm clouds gather ominously, hinting at the tornado's approach. The brothers look determined, their faces illuminated by soft, dramatic lighting, embodying the tension between innovation and nature.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9898961596190929,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 28.760000000000005,
+    "whisper_model": "base"
+  }
+}

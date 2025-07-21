@@ -1,0 +1,395 @@
+2025-07-21 11:43:14,041 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-21 11:43:14,042 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250721_114314.log
+2025-07-21 11:43:14,042 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-21 11:43:14,043 - autotube.full_pipeline - INFO - ============================================================
+2025-07-21 11:43:14,044 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-21 11:43:14,046 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-21 11:43:16,518 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:43:20,725 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:43:21,066 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:43:21,084 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Hidden Story of the Etruscan Civilization: Masters of the Underrated  
+**Summary:** Long before the rise of Rome, the mysterious Etruscans thrived in Italy, leaving behind intricate artworks, advanced engineering, and cultural practices that still puzzle historians today.
+2025-07-21 11:43:21,084 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheHiddenStoryoftheEtruscanCivilizationMaster_content_gen_2025-07-21_11-43-21.log
+2025-07-21 11:43:21,084 - autotube.content_gen - INFO - 📁 Sanitized folder name: SecretsoftheEtruscansItalysMysteriousMasters
+2025-07-21 11:43:21,085 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 85 words
+2025-07-21 11:43:21,099 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsoftheEtruscansItalysMysteriousMasters\story.json (1,362 bytes)
+2025-07-21 11:43:21,100 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsoftheEtruscansItalysMysteriousMasters\topic.txt (288 bytes)
+2025-07-21 11:43:21,100 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsoftheEtruscansItalysMysteriousMasters\metadata.json (799 bytes)
+2025-07-21 11:43:21,101 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsoftheEtruscansItalysMysteriousMasters\story.txt (1,282 bytes)
+2025-07-21 11:43:21,102 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsoftheEtruscansItalysMysteriousMasters
+2025-07-21 11:43:30,191 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsoftheEtruscansItalysMysteriousMasters\audio_SecretsoftheEtruscansItalysMysteriousMasters.mp3 (257,688 bytes)
+2025-07-21 11:43:30,319 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 32.18s duration
+2025-07-21 11:43:30,436 - src.utils.high_quality_audio_processor - INFO - 🎵 High-quality speed adjustment: 1.1x
+2025-07-21 11:43:30,436 - src.utils.high_quality_audio_processor - INFO - 📁 Input: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsoftheEtruscansItalysMysteriousMasters\audio_SecretsoftheEtruscansItalysMysteriousMasters.mp3
+2025-07-21 11:43:30,436 - src.utils.high_quality_audio_processor - INFO - 📁 Output: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsoftheEtruscansItalysMysteriousMasters\audio_SecretsoftheEtruscansItalysMysteriousMasters_sped_up.mp3
+2025-07-21 11:43:30,553 - src.utils.high_quality_audio_processor - INFO - 📊 Original duration: 32.132s
+2025-07-21 11:43:30,554 - src.utils.high_quality_audio_processor - INFO - 📊 Expected duration: 29.210s
+2025-07-21 11:43:30,556 - src.utils.high_quality_audio_processor - INFO - 🔧 Added 200ms fade-out
+2025-07-21 11:43:31,151 - src.utils.high_quality_audio_processor - INFO - ✅ Used pydub speedup (better quality for small speed factors)
+2025-07-21 11:43:31,151 - src.utils.high_quality_audio_processor - INFO - ✅ Voice quality preserved - no robotic sound
+2025-07-21 11:43:31,152 - src.utils.high_quality_audio_processor - INFO - ✂️ Trimmed to exact duration: 29.210s
+2025-07-21 11:43:31,152 - src.utils.high_quality_audio_processor - INFO - ✅ Perfect duration match: 0.000s difference
+2025-07-21 11:43:31,505 - src.utils.high_quality_audio_processor - INFO - ✅ High-quality speed adjustment completed
+2025-07-21 11:43:31,505 - src.utils.high_quality_audio_processor - INFO - 📊 Output file size: 491,042 bytes (0.5 MB)
+2025-07-21 11:43:31,505 - src.utils.high_quality_audio_processor - INFO - ⏱️ Final duration: 29.210s
+2025-07-21 11:43:31,644 - autotube.content_gen - INFO - ✅ High-quality audio speed adjustment: 1.1x, new duration: 33.42s
+2025-07-21 11:43:31,645 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsoftheEtruscansItalysMysteriousMasters\audio_SecretsoftheEtruscansItalysMysteriousMasters_sped_up.mp3 (257,688 bytes, 33.42s)
+2025-07-21 11:43:31,646 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-21 11:43:31,646 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-21 11:43:31,647 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsoftheEtruscansItalysMysteriousMasters\audio_SecretsoftheEtruscansItalysMysteriousMasters_sped_up.mp3
+2025-07-21 11:43:31,647 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-21 11:43:32,924 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-21 11:43:33,049 - faster_whisper - INFO - Processing audio with duration 00:29.257
+2025-07-21 11:43:34,273 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-21 11:43:39,790 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 28.84s
+2025-07-21 11:43:39,792 - whisper_audio_synchronizer - INFO - 📝 Extracted 84 words with timestamps
+2025-07-21 11:43:39,793 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 28.84s, Image duration: 2.40s
+2025-07-21 11:43:39,794 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-21 11:43:39,795 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-21 11:43:42,496 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:43:42,498 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/wide_shot): Wide shot of an ancient Etruscan city, with vibran...
+2025-07-21 11:43:44,138 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:43:44,140 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of an ancient Etruscan landscape, showca...
+2025-07-21 11:43:47,933 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:43:47,935 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of an ancient Etruscan underground tomb,...
+2025-07-21 11:43:49,935 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:43:49,938 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/medium_shot): Medium shot of an Etruscan artisan chiseling intri...
+2025-07-21 11:43:51,759 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:43:51,761 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/medium_shot): Medium shot of an Etruscan artisan carefully chise...
+2025-07-21 11:43:53,408 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:43:53,409 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/medium_shot): Medium shot of an archaeological team excavating a...
+2025-07-21 11:43:55,355 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:43:55,358 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of an Etruscan artisan chiseling intri...
+2025-07-21 11:43:57,743 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:43:57,745 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/medium_shot): Medium shot of skilled Etruscan artisans at work, ...
+2025-07-21 11:44:00,101 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:44:00,104 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of a historian, contemplatively examin...
+2025-07-21 11:44:02,912 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:44:02,917 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/medium_shot): Medium shot of an archaeologist examining intricat...
+2025-07-21 11:44:04,689 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:44:04,691 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/medium_shot): Medium shot of an Etruscan artisan chiseling intri...
+2025-07-21 11:44:08,193 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:44:08,195 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/close_up): Close-up of an Etruscan artifact, glinting in dim ...
+2025-07-21 11:44:08,197 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Secrets_of_the_Etruscans_Italys_Mysterious_Masters_whisper_sync.json
+2025-07-21 11:44:08,198 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-21 11:44:08,198 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-21 11:44:08,200 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-21 11:44:08,200 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-21 11:44:08,211 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\epic-action-overture-majestic-action-cinematic-detective-245050.mp3 (6,752,548 bytes)
+2025-07-21 11:44:08,213 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\SecretsoftheEtruscansItalysMysteriousMasters\music_selection.json (415 bytes)
+2025-07-21 11:44:08,213 - autotube.content_gen - INFO - ✅ Music selected: epic-action-overture-majestic-action-cinematic-detective-245050.mp3
+2025-07-21 11:44:08,216 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-21 11:44:08,216 - src.replicate_image_generator - INFO - Generating images for story: Secrets of the Etruscans: Italy's Mysterious Masters
+2025-07-21 11:44:08,217 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-21 11:44:08,217 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-21 11:44:08,217 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-21 11:44:09,608 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:44:11,425 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:44:13,135 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:44:14,859 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:44:16,592 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:44:18,498 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:44:20,273 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:44:22,020 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:44:23,672 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:44:25,303 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:44:26,860 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:44:28,388 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:44:29,343 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-21 11:44:29,344 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-21 11:44:29,345 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-21 11:44:29,347 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-21 11:44:29,350 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-21 11:44:29,350 - autotube.content_gen - INFO - 📊 Total time: 75.30s, Cost: $0.0360
+2025-07-21 11:44:29,350 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Hidden Story of the Etruscan Civilization: Masters of the Underrated  
+**Summary:** Long before the rise of Rome, the mysterious Etruscans thrived in Italy, leaving behind intricate artworks, advanced engineering, and cultural practices that still puzzle historians today.
+2025-07-21 11:44:29,376 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (75.33s)
+2025-07-21 11:44:29,376 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-21 11:44:29,377 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-21 11:44:29,377 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: SecretsoftheEtruscansItalysMysteriousMasters
+2025-07-21 11:44:29,377 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: SecretsoftheEtruscansItalysMysteriousMasters
+2025-07-21 11:44:29,378 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsoftheEtruscansItalysMysteriousMasters\audio_SecretsoftheEtruscansItalysMysteriousMasters_sped_up.mp3
+2025-07-21 11:44:29,378 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\SecretsoftheEtruscansItalysMysteriousMasters\music_selection.json
+2025-07-21 11:44:29,385 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\epic-action-overture-majestic-action-cinematic-detective-245050.mp3
+2025-07-21 11:44:29,403 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-21 11:44:29,403 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsoftheEtruscansItalysMysteriousMasters\audio_SecretsoftheEtruscansItalysMysteriousMasters_sped_up.mp3
+2025-07-21 11:44:29,499 - src.audio_mixer - INFO - Loaded audio: 29257ms (29.257s), 44100Hz, 2 channels
+2025-07-21 11:44:29,499 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\epic-action-overture-majestic-action-cinematic-detective-245050.mp3
+2025-07-21 11:44:29,972 - src.audio_mixer - INFO - Loaded audio: 211017ms (211.017s), 44100Hz, 2 channels
+2025-07-21 11:44:29,973 - src.audio_mixer - INFO - Voice duration: 29257ms
+2025-07-21 11:44:29,973 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-21 11:44:29,973 - src.audio_mixer - INFO - Target duration: 29257ms
+2025-07-21 11:44:29,975 - src.audio_mixer - INFO - Trimmed music from 29257ms to 29257ms
+2025-07-21 11:44:29,975 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-21 11:44:30,021 - src.audio_mixer - INFO - Voice adjusted by 9.7dB, Music by -7.1dB
+2025-07-21 11:44:30,036 - src.audio_mixer - INFO - Added 500ms fade-out to prevent end artifacts
+2025-07-21 11:44:30,061 - src.audio_mixer - INFO - ✅ Perfect duration match: 29257ms
+2025-07-21 11:44:30,062 - src.audio_mixer - INFO - Audio mixing completed: 29257ms
+2025-07-21 11:44:30,629 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\SecretsoftheEtruscansItalysMysteriousMasters\mixed_audio_SecretsoftheEtruscansItalysMysteriousMasters.mp3
+2025-07-21 11:44:30,631 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\SecretsoftheEtruscansItalysMysteriousMasters\mixed_audio_SecretsoftheEtruscansItalysMysteriousMasters.mp3
+2025-07-21 11:44:30,632 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 944,422 bytes (0.9 MB)
+2025-07-21 11:44:30,633 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: SecretsoftheEtruscansItalysMysteriousMasters
+2025-07-21 11:44:30,777 - autotube.full_pipeline - INFO - 🎵 Mixed audio duration: 29.283 seconds
+2025-07-21 11:44:30,890 - autotube.full_pipeline - INFO - 🎵 TTS audio duration: 29.257 seconds
+2025-07-21 11:44:30,890 - autotube.full_pipeline - INFO - 🎯 Exact target duration: 29.257 seconds
+2025-07-21 11:44:31,963 - autotube.full_pipeline - INFO - 🔧 Trimmed audio duration: 29.257s
+2025-07-21 11:44:31,963 - autotube.full_pipeline - INFO - ✅ Perfect audio trimming: 29.257s
+2025-07-21 11:44:31,964 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-21 11:44:31,965 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-21 11:44:31,965 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: SecretsoftheEtruscansItalysMysteriousMasters
+2025-07-21 11:44:32,166 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-21 11:44:32,167 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-21 11:44:32,167 - autotube.full_pipeline - INFO - 🎵 Audio duration: 29.280s
+2025-07-21 11:44:32,168 - autotube.full_pipeline - INFO - 📸 Number of images: 12
+2025-07-21 11:44:32,168 - autotube.full_pipeline - INFO - ⏱️ Calculated image duration: 2.440s
+2025-07-21 11:44:32,168 - autotube.full_pipeline - INFO - 📐 Expected total video duration: 29.280s
+2025-07-21 11:44:32,169 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.44 seconds per image
+2025-07-21 11:44:32,170 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsoftheEtruscansItalysMysteriousMasters\SecretsoftheEtruscansItalysMysteriousMasters_kenburns.mp4
+2025-07-21 11:44:32,171 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['zoom_out', 'pan_left', 'zoom_out', 'zoom_in', 'pan_left']...
+2025-07-21 11:44:32,171 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-21 11:44:32,172 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 11:44:32,213 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-21 11:44:32,214 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-21 11:44:32,242 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-21 11:44:32,243 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 11:44:32,279 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-21 11:44:32,280 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-21 11:44:32,333 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-21 11:44:32,333 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-21 11:44:32,374 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-21 11:44:32,375 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-21 11:44:32,416 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-21 11:44:32,416 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 11:44:32,475 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-21 11:44:32,475 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-21 11:44:32,517 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-21 11:44:32,517 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 11:44:32,564 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-21 11:44:32,564 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-21 11:44:32,605 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-21 11:44:32,606 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-21 11:44:32,651 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-21 11:44:32,651 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 11:44:32,705 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-21 11:44:32,834 - autotube.full_pipeline - INFO - 📐 Expected video duration: 29.280s
+2025-07-21 11:44:32,835 - autotube.full_pipeline - INFO - 📹 Actual video duration: 29.280s
+2025-07-21 11:44:32,836 - autotube.full_pipeline - INFO - ✅ Video duration matches expected: 29.280s
+2025-07-21 11:44:32,838 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-21 11:44:33,091 - autotube.full_pipeline - INFO - 📹 Video duration: 29.280s
+2025-07-21 11:44:33,092 - autotube.full_pipeline - INFO - 🎵 Audio duration: 29.280s
+2025-07-21 11:44:33,092 - autotube.full_pipeline - INFO - ✅ Perfect duration match: 29.280s
+2025-07-21 11:44:33,153 - autotube.full_pipeline - INFO - 🔧 CRITICAL FIX: Video 29.280s → 29.280s
+2025-07-21 11:44:33,153 - autotube.full_pipeline - INFO - 🔧 This ensures video ends exactly when audio ends
+2025-07-21 11:44:33,154 - autotube.full_pipeline - INFO - 🔍 Final verification - Audio: 29.280s, Video: 29.280s
+2025-07-21 11:44:33,154 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 29.280s
+2025-07-21 11:44:33,154 - autotube.full_pipeline - INFO - ✅ Video will end exactly when audio ends
+2025-07-21 11:44:33,156 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsoftheEtruscansItalysMysteriousMasters\SecretsoftheEtruscansItalysMysteriousMasters_kenburns.mp4
+2025-07-21 11:45:50,052 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-21 11:45:50,053 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-21 11:45:50,054 - autotube.full_pipeline - INFO - ✅ Video duration: 29.30 seconds
+2025-07-21 11:45:50,054 - autotube.full_pipeline - INFO - ✅ Video file size: 8.8 MB
+2025-07-21 11:45:50,055 - autotube.full_pipeline - WARNING - ⚠️  Resolution seems low for HD: 768x1344
+2025-07-21 11:45:50,055 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-21 11:45:50,090 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsoftheEtruscansItalysMysteriousMasters\SecretsoftheEtruscansItalysMysteriousMasters_kenburns.mp4
+2025-07-21 11:45:50,091 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-21 11:45:50,093 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsoftheEtruscansItalysMysteriousMasters\SecretsoftheEtruscansItalysMysteriousMasters_kenburns.mp4
+2025-07-21 11:45:50,831 - autotube.full_pipeline - INFO - 📹 Ken Burns video duration: 29.300s
+2025-07-21 11:45:50,831 - autotube.full_pipeline - WARNING - ⚠️ Ken Burns video duration mismatch: 0.043s
+2025-07-21 11:45:50,832 - autotube.full_pipeline - INFO - ✂️ AGGRESSIVE TRIM: Ken Burns video 29.300s → 29.257s
+2025-07-21 11:46:17,001 - autotube.full_pipeline - INFO - ✅ Ken Burns video trimmed to exact duration: 29.257s
+2025-07-21 11:46:17,002 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-21 11:46:17,004 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-21 11:46:17,006 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-21 11:46:17,007 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-21 11:46:20,071 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-21 11:46:20,073 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-21 11:46:20,074 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-21 11:46:20,398 - faster_whisper - INFO - Processing audio with duration 00:29.283
+2025-07-21 11:46:25,450 - faster_whisper - INFO - Detected language 'en' with probability 0.99
+2025-07-21 11:46:39,385 - autotube.full_pipeline - INFO - Extracted 84 words with timing
+2025-07-21 11:46:39,386 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 19.31s
+2025-07-21 11:46:39,870 - autotube.full_pipeline - INFO - Video loading took 0.48s
+2025-07-21 11:46:39,871 - autotube.full_pipeline - INFO - Original video - Duration: 29.27s, FPS: 30.0, Audio: True
+2025-07-21 11:46:39,871 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 84 words...
+2025-07-21 11:46:39,872 - autotube.full_pipeline - INFO - Group 1: 4 words (24 chars), 0.00s - 1.64s
+2025-07-21 11:46:39,872 - autotube.full_pipeline - INFO - Group 2: 3 words (21 chars), 1.62s - 2.48s
+2025-07-21 11:46:39,873 - autotube.full_pipeline - INFO - Group 3: 3 words (20 chars), 2.46s - 3.62s
+2025-07-21 11:46:39,873 - autotube.full_pipeline - INFO - Group 4: 3 words (17 chars), 3.60s - 4.60s
+2025-07-21 11:46:39,873 - autotube.full_pipeline - INFO - Group 5: 3 words (26 chars), 4.58s - 5.68s
+2025-07-21 11:46:39,874 - autotube.full_pipeline - INFO - Group 6: 3 words (18 chars), 5.66s - 6.56s
+2025-07-21 11:46:39,874 - autotube.full_pipeline - INFO - Group 7: 4 words (20 chars), 7.20s - 8.40s
+2025-07-21 11:46:39,875 - autotube.full_pipeline - INFO - Group 8: 3 words (15 chars), 8.38s - 9.42s
+2025-07-21 11:46:39,875 - autotube.full_pipeline - INFO - Group 9: 3 words (22 chars), 9.40s - 10.50s
+2025-07-21 11:46:39,875 - autotube.full_pipeline - INFO - Group 10: 4 words (25 chars), 10.48s - 11.80s
+2025-07-21 11:46:39,876 - autotube.full_pipeline - INFO - Group 11: 4 words (20 chars), 11.78s - 12.66s
+2025-07-21 11:46:39,876 - autotube.full_pipeline - INFO - Group 12: 3 words (25 chars), 12.64s - 14.02s
+2025-07-21 11:46:39,877 - autotube.full_pipeline - INFO - Group 13: 3 words (32 chars), 14.00s - 15.50s
+2025-07-21 11:46:39,877 - autotube.full_pipeline - INFO - Group 14: 3 words (21 chars), 15.66s - 16.52s
+2025-07-21 11:46:39,878 - autotube.full_pipeline - INFO - Group 15: 3 words (19 chars), 16.50s - 17.38s
+2025-07-21 11:46:39,878 - autotube.full_pipeline - INFO - Group 16: 3 words (25 chars), 17.36s - 18.36s
+2025-07-21 11:46:39,878 - autotube.full_pipeline - INFO - Group 17: 4 words (17 chars), 18.80s - 19.32s
+2025-07-21 11:46:39,879 - autotube.full_pipeline - INFO - Group 18: 4 words (25 chars), 19.30s - 20.60s
+2025-07-21 11:46:39,879 - autotube.full_pipeline - INFO - Group 19: 3 words (27 chars), 21.02s - 22.08s
+2025-07-21 11:46:39,879 - autotube.full_pipeline - INFO - Group 20: 3 words (22 chars), 22.06s - 23.30s
+2025-07-21 11:46:39,880 - autotube.full_pipeline - INFO - Group 21: 4 words (25 chars), 23.28s - 24.72s
+2025-07-21 11:46:39,880 - autotube.full_pipeline - INFO - Group 22: 3 words (22 chars), 24.70s - 25.62s
+2025-07-21 11:46:39,881 - autotube.full_pipeline - INFO - Group 23: 3 words (18 chars), 25.60s - 26.62s
+2025-07-21 11:46:39,881 - autotube.full_pipeline - INFO - Group 24: 4 words (24 chars), 26.60s - 27.94s
+2025-07-21 11:46:39,881 - autotube.full_pipeline - INFO - Group 25: 3 words (18 chars), 27.92s - 28.54s
+2025-07-21 11:46:39,882 - autotube.full_pipeline - INFO - Group 26: 1 words (9 chars), 28.52s - 28.86s
+2025-07-21 11:46:39,882 - autotube.full_pipeline - INFO - Created 26 word groups with smart length limiting
+2025-07-21 11:46:39,882 - autotube.full_pipeline - INFO - Creating clips for group 1: 4 words
+2025-07-21 11:46:41,604 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.36s
+2025-07-21 11:46:43,103 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.32s - 1.06s
+2025-07-21 11:46:44,334 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 1.02s - 1.16s
+2025-07-21 11:46:45,432 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 1: 1.12s - 1.57s
+2025-07-21 11:46:45,433 - autotube.full_pipeline - INFO - Created clips for 1/26 word groups - ETA: 6s
+2025-07-21 11:46:45,433 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-21 11:46:46,377 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 1.62s - 2.14s
+2025-07-21 11:46:47,373 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 2.10s - 2.30s
+2025-07-21 11:46:48,481 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 2.26s - 2.41s
+2025-07-21 11:46:48,481 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-21 11:46:49,860 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 2.46s - 2.84s
+2025-07-21 11:46:51,551 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 2.80s - 3.16s
+2025-07-21 11:46:53,234 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 3.12s - 3.55s
+2025-07-21 11:46:53,234 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-21 11:46:54,524 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 3.60s - 4.22s
+2025-07-21 11:46:55,604 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 4.18s - 4.46s
+2025-07-21 11:46:56,868 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 4.42s - 4.53s
+2025-07-21 11:46:56,868 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-21 11:46:59,435 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 4.58s - 4.92s
+2025-07-21 11:47:01,803 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 4.88s - 5.42s
+2025-07-21 11:47:04,445 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 5.38s - 5.61s
+2025-07-21 11:47:04,445 - autotube.full_pipeline - INFO - Creating clips for group 6: 3 words
+2025-07-21 11:47:06,080 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 5.66s - 5.96s
+2025-07-21 11:47:07,624 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 5.92s - 6.28s
+2025-07-21 11:47:09,259 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 6.24s - 6.86s
+2025-07-21 11:47:09,260 - autotube.full_pipeline - INFO - Creating clips for group 7: 4 words
+2025-07-21 11:47:11,382 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 7.20s - 7.44s
+2025-07-21 11:47:13,223 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 7.40s - 7.90s
+2025-07-21 11:47:15,044 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 7.86s - 8.08s
+2025-07-21 11:47:16,884 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 7: 8.04s - 8.33s
+2025-07-21 11:47:16,885 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-21 11:47:18,057 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 8.38s - 9.18s
+2025-07-21 11:47:19,595 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 9.14s - 9.24s
+2025-07-21 11:47:21,061 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 9.20s - 9.35s
+2025-07-21 11:47:21,062 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-21 11:47:23,971 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 9.40s - 9.84s
+2025-07-21 11:47:26,827 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 9.80s - 10.40s
+2025-07-21 11:47:29,279 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 10.36s - 10.43s
+2025-07-21 11:47:29,279 - autotube.full_pipeline - INFO - Creating clips for group 10: 4 words
+2025-07-21 11:47:31,833 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 10.48s - 10.66s
+2025-07-21 11:47:34,549 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 10.62s - 10.92s
+2025-07-21 11:47:37,790 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 10.88s - 11.66s
+2025-07-21 11:47:40,719 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 10: 11.62s - 11.73s
+2025-07-21 11:47:40,720 - autotube.full_pipeline - INFO - Creating clips for group 11: 4 words
+2025-07-21 11:47:42,765 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 11.78s - 12.04s
+2025-07-21 11:47:44,626 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 12.00s - 12.22s
+2025-07-21 11:47:46,153 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 12.18s - 12.38s
+2025-07-21 11:47:48,215 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 11: 12.34s - 12.59s
+2025-07-21 11:47:48,216 - autotube.full_pipeline - INFO - Created clips for 11/26 word groups - ETA: 68s
+2025-07-21 11:47:48,216 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-21 11:47:51,767 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 12.64s - 13.22s
+2025-07-21 11:47:55,546 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 13.18s - 13.90s
+2025-07-21 11:47:58,867 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 13.86s - 13.95s
+2025-07-21 11:47:58,867 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-21 11:48:01,773 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 14.00s - 14.32s
+2025-07-21 11:48:04,869 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 14.28s - 14.76s
+2025-07-21 11:48:07,819 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 14.72s - 15.61s
+2025-07-21 11:48:07,820 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-21 11:48:09,507 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 15.66s - 15.80s
+2025-07-21 11:48:11,013 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 15.76s - 16.06s
+2025-07-21 11:48:12,864 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 16.02s - 16.45s
+2025-07-21 11:48:12,864 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-21 11:48:14,974 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 16.50s - 16.76s
+2025-07-21 11:48:17,004 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 16.72s - 17.14s
+2025-07-21 11:48:18,885 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 17.10s - 17.31s
+2025-07-21 11:48:18,886 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-21 11:48:20,996 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 17.36s - 17.50s
+2025-07-21 11:48:23,321 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 17.46s - 17.82s
+2025-07-21 11:48:26,665 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 17.78s - 18.66s
+2025-07-21 11:48:26,666 - autotube.full_pipeline - INFO - Creating clips for group 17: 4 words
+2025-07-21 11:48:28,493 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 18.80s - 18.94s
+2025-07-21 11:48:30,231 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 18.90s - 19.08s
+2025-07-21 11:48:31,974 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 19.04s - 19.20s
+2025-07-21 11:48:33,623 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 17: 19.16s - 19.25s
+2025-07-21 11:48:33,623 - autotube.full_pipeline - INFO - Creating clips for group 18: 4 words
+2025-07-21 11:48:36,358 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 19.30s - 20.02s
+2025-07-21 11:48:38,922 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 19.98s - 20.18s
+2025-07-21 11:48:41,306 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 20.14s - 20.28s
+2025-07-21 11:48:43,773 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 18: 20.24s - 20.90s
+2025-07-21 11:48:43,774 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-21 11:48:47,296 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 21.02s - 21.78s
+2025-07-21 11:48:50,584 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 21.74s - 21.84s
+2025-07-21 11:48:53,202 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 21.80s - 22.01s
+2025-07-21 11:48:53,202 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-21 11:48:55,409 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 22.06s - 22.86s
+2025-07-21 11:48:57,364 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 22.82s - 22.96s
+2025-07-21 11:48:59,434 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 22.92s - 23.23s
+2025-07-21 11:48:59,434 - autotube.full_pipeline - INFO - Creating clips for group 21: 4 words
+2025-07-21 11:49:01,834 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 23.28s - 23.68s
+2025-07-21 11:49:04,396 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 23.64s - 23.90s
+2025-07-21 11:49:06,838 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 23.86s - 24.32s
+2025-07-21 11:49:08,946 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 21: 24.28s - 24.65s
+2025-07-21 11:49:08,947 - autotube.full_pipeline - INFO - Created clips for 21/26 word groups - ETA: 149s
+2025-07-21 11:49:08,947 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-21 11:49:10,888 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 24.70s - 25.06s
+2025-07-21 11:49:12,788 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 25.02s - 25.20s
+2025-07-21 11:49:14,550 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 25.16s - 25.55s
+2025-07-21 11:49:14,551 - autotube.full_pipeline - INFO - Creating clips for group 23: 3 words
+2025-07-21 11:49:16,217 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 25.60s - 26.00s
+2025-07-21 11:49:17,925 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 25.96s - 26.34s
+2025-07-21 11:49:19,643 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 26.30s - 26.55s
+2025-07-21 11:49:19,643 - autotube.full_pipeline - INFO - Creating clips for group 24: 4 words
+2025-07-21 11:49:21,915 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 26.60s - 26.82s
+2025-07-21 11:49:24,069 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 26.78s - 27.42s
+2025-07-21 11:49:26,132 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 27.38s - 27.82s
+2025-07-21 11:49:28,252 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 24: 27.78s - 27.87s
+2025-07-21 11:49:28,252 - autotube.full_pipeline - INFO - Creating clips for group 25: 3 words
+2025-07-21 11:49:29,779 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 27.92s - 28.28s
+2025-07-21 11:49:31,402 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 28.24s - 28.42s
+2025-07-21 11:49:33,111 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 28.38s - 28.47s
+2025-07-21 11:49:33,112 - autotube.full_pipeline - INFO - Creating clips for group 26: 1 words
+2025-07-21 11:49:34,085 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 26: 28.52s - 29.06s
+2025-07-21 11:49:34,086 - autotube.full_pipeline - INFO - Created 84 individual subtitle clips
+2025-07-21 11:49:34,089 - autotube.full_pipeline - INFO - Viral subtitle creation took 174.22s
+2025-07-21 11:49:34,089 - autotube.full_pipeline - INFO - Subtitle clips count: 84
+2025-07-21 11:49:34,115 - autotube.full_pipeline - INFO - Video composition took 0.03s
+2025-07-21 11:49:34,199 - autotube.full_pipeline - INFO - 📊 Mixed audio duration (target): 34.300s
+2025-07-21 11:49:34,200 - autotube.full_pipeline - INFO - Original video audio duration: 29.270s
+2025-07-21 11:49:34,200 - autotube.full_pipeline - INFO - Target mixed audio duration: 34.300s
+2025-07-21 11:49:34,200 - autotube.full_pipeline - INFO - Final video duration: 29.270s
+2025-07-21 11:49:34,200 - autotube.full_pipeline - INFO - Final audio duration: 29.270s
+2025-07-21 11:49:34,200 - autotube.full_pipeline - WARNING - ⚠️ Audio duration mismatch: 29.270s vs target 34.300s
+2025-07-21 11:49:34,200 - autotube.full_pipeline - INFO - Final video - Duration: 29.27s, Audio: True
+2025-07-21 11:49:34,202 - autotube.full_pipeline - INFO - Writing HD viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretsoftheEtruscansItalysMysteriousMasters\SecretsoftheEtruscansItalysMysteriousMasters_final.mp4
+2025-07-21 11:50:51,557 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsoftheEtruscansItalysMysteriousMasters\SecretsoftheEtruscansItalysMysteriousMasters_kenburns.mp4, 3096576 bytes wanted but 0 bytes read,at frame 878/879, at time 29.27/29.27 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-07-21 11:50:56,323 - autotube.full_pipeline - INFO - Video writing took 82.12s
+2025-07-21 11:50:56,323 - autotube.full_pipeline - INFO - Validating output file with duration verification...
+2025-07-21 11:50:57,179 - autotube.full_pipeline - INFO - Output file - Video Duration: 29.300s, Audio Duration: 29.300s
+2025-07-21 11:50:57,180 - autotube.full_pipeline - ERROR - ❌ CRITICAL: Final audio duration mismatch! Expected: 34.300s, Got: 29.300s
+2025-07-21 11:50:57,185 - autotube.full_pipeline - ERROR - This will cause end audio repetition issues!
+2025-07-21 11:50:57,187 - autotube.full_pipeline - ERROR - ❌ CRITICAL: Final video duration mismatch! Expected: 34.300s, Got: 29.300s
+2025-07-21 11:50:57,245 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretsoftheEtruscansItalysMysteriousMasters\SecretsoftheEtruscansItalysMysteriousMasters_final.mp4
+2025-07-21 11:50:57,246 - autotube.full_pipeline - INFO - Total processing time: 277.17s
+2025-07-21 11:50:57,247 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretsoftheEtruscansItalysMysteriousMasters\SecretsoftheEtruscansItalysMysteriousMasters_final.mp4
+2025-07-21 11:50:57,247 - autotube.full_pipeline - INFO - 📊 Final video size: 8,214,939 bytes (7.8 MB)
+2025-07-21 11:50:58,288 - autotube.full_pipeline - INFO - 📹 Final video duration: 29.300s
+2025-07-21 11:50:58,289 - autotube.full_pipeline - WARNING - ⚠️ FINAL VIDEO DURATION MISMATCH: 0.043s
+2025-07-21 11:50:58,289 - autotube.full_pipeline - INFO - ✂️ AGGRESSIVE FINAL TRIM: Final video 29.300s → 29.257s
+2025-07-21 11:51:31,063 - autotube.full_pipeline - INFO - ✅ Final video trimmed to exact duration: 29.257s
+2025-07-21 11:51:31,064 - autotube.full_pipeline - INFO - ✅ No repetitive ending issues expected!
+2025-07-21 11:51:31,064 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-21 11:51:31,065 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsoftheEtruscansItalysMysteriousMasters\SecretsoftheEtruscansItalysMysteriousMasters_kenburns.mp4
+2025-07-21 11:51:31,066 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretsoftheEtruscansItalysMysteriousMasters\SecretsoftheEtruscansItalysMysteriousMasters_final.mp4
+2025-07-21 11:51:31,143 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (421.76s)
+2025-07-21 11:51:31,144 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-21 11:51:31,169 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_SecretsoftheEtruscansItalysMysteriousMasters_20250721_115131.json
+2025-07-21 11:51:31,173 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-21 11:51:31,175 - autotube.full_pipeline - INFO - ============================================================
+2025-07-21 11:51:31,177 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 497.10s
+2025-07-21 11:51:31,177 - autotube.full_pipeline - INFO - 📁 Story Title: SecretsoftheEtruscansItalysMysteriousMasters
+2025-07-21 11:51:31,179 - autotube.full_pipeline - INFO - 📁 Sanitized Title: SecretsoftheEtruscansItalysMysteriousMasters
+2025-07-21 11:51:31,179 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_SecretsoftheEtruscansItalysMysteriousMasters_20250721_115131.json

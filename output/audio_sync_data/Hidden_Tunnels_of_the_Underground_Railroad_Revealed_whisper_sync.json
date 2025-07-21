@@ -1,0 +1,241 @@
+{
+  "story_title": "Hidden Tunnels of the Underground Railroad Revealed",
+  "original_story": "[mysterious] What if I told you there were secret tunnels weaving through America? In the 19th century, abolitionists like Harriet Tubman used these hidden passages to guide over 70 enslaved individuals to freedom each trip. With multiple safe houses, like the one in Philadelphia, these intricate networks were crucial for escaping bondage. Many tunnels were cleverly disguised beneath ordinary homes, making them invisible to pursuers. These remarkable efforts were pivotal in the fight against slavery, showing just how far people went for freedom. Can you imagine these hidden paths still out there today?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.5933333333333333,
+      "audio_content": "What if I told you there were secret tunnels weaving",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9538857817649842
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.5933333333333333,
+      "timestamp_end": 5.1866666666666665,
+      "audio_content": "America? In the 19th century,",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9801077723503113
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.1866666666666665,
+      "timestamp_end": 7.779999999999999,
+      "audio_content": "like Harriet Tubman used these hidden passages",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9774991742202214
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.779999999999999,
+      "timestamp_end": 10.373333333333333,
+      "audio_content": "guide over 70 enslaved individuals",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9841969728469848
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.373333333333333,
+      "timestamp_end": 12.966666666666667,
+      "audio_content": "freedom each trip. With multiple safe houses",
+      "words_in_segment": 7,
+      "confidence_avg": 0.914473124912807
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.966666666666667,
+      "timestamp_end": 15.559999999999999,
+      "audio_content": "the one in Philadelphia, these intricate networks",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9600707973752703
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 15.559999999999999,
+      "timestamp_end": 18.153333333333332,
+      "audio_content": "crucial for escaping bondage. Many",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9926493465900421
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 18.153333333333332,
+      "timestamp_end": 20.746666666666666,
+      "audio_content": "were cleverly disguised beneath ordinary homes,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9968898296356201
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 20.746666666666666,
+      "timestamp_end": 23.34,
+      "audio_content": "making them invisible to pursuers. These",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9918988545735677
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 23.34,
+      "timestamp_end": 25.933333333333334,
+      "audio_content": "efforts were pivotal in the fight against slavery,",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9983910545706749
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 25.933333333333334,
+      "timestamp_end": 28.526666666666667,
+      "audio_content": "showing just how far people went for freedom.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9963216856122017
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 28.526666666666667,
+      "timestamp_end": 31.119999999999997,
+      "audio_content": "you imagine these hidden paths still out there",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9804010316729546
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.5933333333333333,
+      "audio_content": "What if I told you there were secret tunnels weaving",
+      "image_prompt": "Establishing shot of a shadowy underground tunnel entrance, partially hidden behind overgrown vines and an old wooden door. Dim light filters through cracks, casting eerie shadows. The air is thick with mystery, inviting viewers to explore the secrets of the 19th-century abolitionist movement.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9538857817649842,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.5933333333333333,
+      "timestamp_end": 5.1866666666666665,
+      "audio_content": "America? In the 19th century,",
+      "image_prompt": "Wide shot of a dimly lit, secret tunnel entrance hidden beneath a modest home, showcasing brick walls and shadows dancing in the flickering candlelight. A figure emerges cautiously, silhouetted against the light, suggesting the urgency of the journey to freedom.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9801077723503113,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.1866666666666665,
+      "timestamp_end": 7.779999999999999,
+      "audio_content": "like Harriet Tubman used these hidden passages",
+      "image_prompt": "Wide shot of a dimly lit underground tunnel, lined with rough-hewn wooden beams and faintly glowing lanterns. Shadows loom as Harriet Tubman guides a group of weary, determined escapees, their faces illuminated by hope and fear, emphasizing the perilous journey to freedom.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9774991742202214,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.779999999999999,
+      "timestamp_end": 10.373333333333333,
+      "audio_content": "guide over 70 enslaved individuals",
+      "image_prompt": "Medium shot of a determined Harriet Tubman guiding a group of weary enslaved individuals through a dimly lit underground tunnel, shadows cast by flickering lanterns, their faces reflecting hope and fear as they navigate the hidden path to freedom.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9841969728469848,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.373333333333333,
+      "timestamp_end": 12.966666666666667,
+      "audio_content": "freedom each trip. With multiple safe houses",
+      "image_prompt": "Wide shot of a dimly lit underground tunnel, with wooden beams supporting the ceiling. Shadows dance along the walls, hinting at hidden passages. A single lantern flickers, casting a warm glow, revealing the entrance of a secret safe house concealed behind a false wall.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.914473124912807,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.966666666666667,
+      "timestamp_end": 15.559999999999999,
+      "audio_content": "the one in Philadelphia, these intricate networks",
+      "image_prompt": "Wide shot of a dimly lit underground tunnel, with rough stone walls and flickering lanterns casting shadows. A figure, cloaked in mystery, stands at the tunnel's entrance, gazing towards the distant flicker of light ahead, symbolizing hope and freedom.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9600707973752703,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 15.559999999999999,
+      "timestamp_end": 18.153333333333332,
+      "audio_content": "crucial for escaping bondage. Many",
+      "image_prompt": "Medium shot of an underground tunnel entrance hidden beneath a wooden floorboard in a dimly lit room, shadows dancing across the walls. A figure stands at the entrance, peering cautiously into the darkness, symbolizing the hope and danger of the escape routes used by abolitionists.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9926493465900421,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 18.153333333333332,
+      "timestamp_end": 20.746666666666666,
+      "audio_content": "were cleverly disguised beneath ordinary homes,",
+      "image_prompt": "Wide shot of a quaint 19th-century neighborhood, showcasing ordinary homes with an air of secrecy. Shadows cast dramatically across the cobblestone streets, hinting at hidden tunnels beneath. A sense of mystery lingers as the sun sets, illuminating the facade of a seemingly normal house.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9968898296356201,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 20.746666666666666,
+      "timestamp_end": 23.34,
+      "audio_content": "making them invisible to pursuers. These",
+      "image_prompt": "Medium shot of a hidden tunnel entrance beneath a modest home, shadows dancing on the walls, evoking mystery. A faint glow of lantern light illuminates an abolitionist's determined face, revealing the gravity of their mission to guide seekers of freedom through the darkness.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9918988545735677,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 23.34,
+      "timestamp_end": 25.933333333333334,
+      "audio_content": "efforts were pivotal in the fight against slavery,",
+      "image_prompt": "Wide shot of a dimly lit underground tunnel, with rough-hewn walls and shadows stretching across the floor. In the foreground, a group of determined abolitionists whisper plans, their faces illuminated by flickering lantern light, evoking a sense of urgency and hope in their mission to guide the enslaved to freedom.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9983910545706749,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 25.933333333333334,
+      "timestamp_end": 28.526666666666667,
+      "audio_content": "showing just how far people went for freedom.",
+      "image_prompt": "Wide shot of a dimly lit underground tunnel, with rough stone walls and faint light illuminating the path. Shadows stretch across the ground, hinting at hidden figures navigating the passage. The atmosphere is tense yet hopeful, evoking the perilous journey to freedom.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9963216856122017,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 28.526666666666667,
+      "timestamp_end": 31.119999999999997,
+      "audio_content": "you imagine these hidden paths still out there",
+      "image_prompt": "Wide shot of a dimly lit, rustic underground tunnel, revealing an intricate network of hidden paths. Shadows dance along the stone walls, hinting at the secretive journeys of the past. A faint light glimmers in the distance, evoking a sense of mystery and hope.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9804010316729546,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 31.119999999999997,
+    "whisper_model": "base"
+  }
+}

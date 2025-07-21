@@ -1,0 +1,241 @@
+{
+  "story_title": "Nazca Lines: Ancient Art or Astronomical Calendar?",
+  "original_story": "[curious] You won't believe these massive geoglyphs in Peru! The Nazca Lines cover 500 square kilometers, depicting creatures like monkeys and hummingbirds. Created between 500 BCE and 500 CE, their purpose is a mystery. Some experts believe these lines served as an astronomical calendar to track celestial events, crucial for agricultural cycles. Others argue they were part of ancient rituals. Over 70 years after their discovery, we’re still searching for answers—who created them, and why? This unsolved puzzle is mind-blowing!",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.4383333333333335,
+      "audio_content": "You won't believe these massive geoglyphs in Peru.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9636260122060776
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.4383333333333335,
+      "timestamp_end": 4.876666666666667,
+      "audio_content": "The Nazca lines cover 500 square",
+      "words_in_segment": 6,
+      "confidence_avg": 0.919727181394895
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.876666666666667,
+      "timestamp_end": 7.315,
+      "audio_content": "depicting creatures like monkeys and hummingbirds.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9926390250523885
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.315,
+      "timestamp_end": 9.753333333333334,
+      "audio_content": "Created between 500 BCE",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9813610687851906
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.753333333333334,
+      "timestamp_end": 12.191666666666666,
+      "audio_content": "500 CE, their purpose is a",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9875778257846832
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.191666666666666,
+      "timestamp_end": 14.63,
+      "audio_content": "Some experts believe these lines served as",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9944936462811061
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.63,
+      "timestamp_end": 17.068333333333335,
+      "audio_content": "astronomical calendar to track celestial",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9891569018363953
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.068333333333335,
+      "timestamp_end": 19.506666666666668,
+      "audio_content": "crucial for agricultural cycles.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9965155720710754
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.506666666666668,
+      "timestamp_end": 21.945,
+      "audio_content": "argue they were part of ancient rituals.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9925733464104789
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.945,
+      "timestamp_end": 24.383333333333333,
+      "audio_content": "Over 70 years after their discovery, we're still",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9838244058191776
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 24.383333333333333,
+      "timestamp_end": 26.82166666666667,
+      "audio_content": "for answers, who created them and",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8817533403635025
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 26.82166666666667,
+      "timestamp_end": 29.26,
+      "audio_content": "This unsolved puzzle is mind -blowing.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8757824748754501
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.4383333333333335,
+      "audio_content": "You won't believe these massive geoglyphs in Peru.",
+      "image_prompt": "Wide shot of the breathtaking Nazca Lines, revealing intricate geoglyphs of monkeys and hummingbirds etched into the arid Peruvian landscape, bathed in dramatic chiaroscuro lighting, casting sharp shadows that evoke a sense of mystery and awe, inviting viewers to ponder their ancient origins.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9636260122060776,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.4383333333333335,
+      "timestamp_end": 4.876666666666667,
+      "audio_content": "The Nazca lines cover 500 square",
+      "image_prompt": "Establishing shot of the vast Nazca desert, revealing intricate geoglyphs of monkeys and hummingbirds etched into the arid landscape, under a dramatic sky. The lines stretch into the horizon, casting long shadows, evoking mystery and ancient rituals, with the sun casting a warm glow over the earth.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.919727181394895,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.876666666666667,
+      "timestamp_end": 7.315,
+      "audio_content": "depicting creatures like monkeys and hummingbirds.",
+      "image_prompt": "Wide shot of the sprawling Nazca desert, showcasing the vast geoglyphs of monkeys and hummingbirds etched into the earth. The sun casts dramatic shadows, highlighting the intricate designs against the arid landscape, evoking a sense of mystery and ancient purpose.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9926390250523885,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.315,
+      "timestamp_end": 9.753333333333334,
+      "audio_content": "Created between 500 BCE",
+      "image_prompt": "Wide shot of the Nazca Lines sprawling across the arid Peruvian desert, intricate geoglyphs of monkeys and hummingbirds etched into the earth, bathed in dramatic chiaroscuro lighting as the sun sets, casting long shadows and highlighting the mysterious patterns, evoking a sense of ancient wonder.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9813610687851906,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.753333333333334,
+      "timestamp_end": 12.191666666666666,
+      "audio_content": "500 CE, their purpose is a",
+      "image_prompt": "Wide shot of the vast Nazca desert, showcasing the intricate Nazca Lines etched into the earth. Monkeys and hummingbirds depicted in the geoglyphs stretch across the landscape, bathed in dramatic chiaroscuro lighting, with sharp shadows emphasizing the mystery of their origins.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9875778257846832,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.191666666666666,
+      "timestamp_end": 14.63,
+      "audio_content": "Some experts believe these lines served as",
+      "image_prompt": "Medium shot of a researcher examining a vibrant aerial view of the Nazca Lines, with intricate geoglyphs of monkeys and hummingbirds etched into the arid landscape. The sun casts dramatic shadows, highlighting the mystery of their creation, while the researcher contemplates their significance.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9944936462811061,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.63,
+      "timestamp_end": 17.068333333333335,
+      "audio_content": "astronomical calendar to track celestial",
+      "image_prompt": "Medium shot of an ancient astronomer, eyes wide with wonder, kneeling beside intricate geoglyphs in the Peruvian desert. The sun sets behind him, casting sharp shadows over the lines, as he traces celestial patterns in the sand, embodying the mystery of the Nazca Lines.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9891569018363953,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.068333333333335,
+      "timestamp_end": 19.506666666666668,
+      "audio_content": "crucial for agricultural cycles.",
+      "image_prompt": "Wide shot of the breathtaking Nazca Lines etched into the arid Peruvian desert, showcasing giant figures of monkeys and hummingbirds under a bright blue sky, casting elongated shadows that hint at their mysterious purpose and connection to ancient agricultural cycles.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9965155720710754,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.506666666666668,
+      "timestamp_end": 21.945,
+      "audio_content": "argue they were part of ancient rituals.",
+      "image_prompt": "Medium shot of an archaeologist examining a section of the Nazca Lines, with intricate geoglyphs of monkeys and hummingbirds visible in the background. The archaeologist's face reflects curiosity and wonder, illuminated by dramatic chiaroscuro lighting, revealing sharp shadows and deep contrasts.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9925733464104789,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.945,
+      "timestamp_end": 24.383333333333333,
+      "audio_content": "Over 70 years after their discovery, we're still",
+      "image_prompt": "Wide shot of the vast, arid Nazca desert, showcasing the intricate and mysterious Nazca Lines spreading across the landscape, with dramatic chiaroscuro lighting casting sharp shadows on the ancient geoglyphs, hinting at their enigmatic purpose beneath a clear blue sky.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9838244058191776,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 24.383333333333333,
+      "timestamp_end": 26.82166666666667,
+      "audio_content": "for answers, who created them and",
+      "image_prompt": "Wide shot of the vast Nazca desert, showcasing the intricate geoglyphs of monkeys and hummingbirds etched into the earth, under a dramatic sky. The sun casts sharp shadows, emphasizing the scale of the figures, while mysterious clouds loom overhead, hinting at the unsolved mysteries of their creation.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8817533403635025,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 26.82166666666667,
+      "timestamp_end": 29.26,
+      "audio_content": "This unsolved puzzle is mind -blowing.",
+      "image_prompt": "Wide shot of the Nazca desert, showcasing the vast, intricate geoglyphs of monkeys and hummingbirds etched into the arid landscape, with dramatic chiaroscuro lighting emphasizing the shadows and contours of the lines, evoking a sense of mystery and wonder.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8757824748754501,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 29.26,
+    "whisper_model": "base"
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "story_title": "Togas: Colors That Changed Roman Society Forever",
+  "original_story": "[excited] You won’t believe how togas defined ancient Roman life! In 44 BC, Julius Caesar turned heads in a striking red toga, symbolizing his power. But did you know toga colors revealed your social status? The plain white toga signified a citizen, while the purple-bordered toga was reserved for senators! Plus, victorious generals flaunted a special crimson toga picta during parades. This colorful fashion spoke volumes about politics and prestige. So, next time you think of a toga, remember—it's more than just draped fabric—it's a story of ambition and identity!",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.5683333333333334,
+      "audio_content": "You won't believe how Toga's defined ancient Roman",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8871113645533721
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.5683333333333334,
+      "timestamp_end": 5.136666666666667,
+      "audio_content": "In 44 BC, Julius Caesar",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8835827231407165
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.136666666666667,
+      "timestamp_end": 7.705,
+      "audio_content": "heads in a striking red Toga,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9648163070281347
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.705,
+      "timestamp_end": 10.273333333333333,
+      "audio_content": "his power. But did you know Toga colors revealed",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9538263976573944
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.273333333333333,
+      "timestamp_end": 12.841666666666667,
+      "audio_content": "social status? The plain white Toga",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9834384669860204
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.841666666666667,
+      "timestamp_end": 15.41,
+      "audio_content": "a citizen while the purple -bordered Toga was",
+      "words_in_segment": 8,
+      "confidence_avg": 0.921596996486187
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 15.41,
+      "timestamp_end": 17.97833333333333,
+      "audio_content": "for senators. Plus, victorious",
+      "words_in_segment": 4,
+      "confidence_avg": 0.918177604675293
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.97833333333333,
+      "timestamp_end": 20.546666666666667,
+      "audio_content": "flaunted a special crimson Toga pica during",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8721333050302097
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 20.546666666666667,
+      "timestamp_end": 23.115000000000002,
+      "audio_content": "This colorful fashion spoke volumes",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9923094034194946
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 23.115000000000002,
+      "timestamp_end": 25.683333333333334,
+      "audio_content": "politics and prestige. So next",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9498869776725769
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 25.683333333333334,
+      "timestamp_end": 28.251666666666665,
+      "audio_content": "you think of a Toga, remember, it's more than just",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9879746109247207
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 28.251666666666665,
+      "timestamp_end": 30.82,
+      "audio_content": "fabric. It's a story of ambition and identity.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9648229330778122
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.5683333333333334,
+      "audio_content": "You won't believe how Toga's defined ancient Roman",
+      "image_prompt": "Wide shot of a bustling ancient Roman marketplace, vibrant togas in red, white, and purple draped on citizens and senators alike. Dramatic chiaroscuro lighting highlights the vivid colors and intricate patterns, capturing the essence of Roman social hierarchy and the energy of daily life in 44 BC.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8871113645533721,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.5683333333333334,
+      "timestamp_end": 5.136666666666667,
+      "audio_content": "In 44 BC, Julius Caesar",
+      "image_prompt": "Wide shot of an ancient Roman forum bustling with citizens in colorful togas. In the foreground, Julius Caesar stands prominently in a striking red toga, the sun casting dramatic shadows, showcasing the vibrant colors of various togas worn by senators and citizens, symbolizing their social statuses.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8835827231407165,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.136666666666667,
+      "timestamp_end": 7.705,
+      "audio_content": "heads in a striking red Toga,",
+      "image_prompt": "Medium shot of Julius Caesar in a striking red toga, confidently addressing an assembly in the Roman Forum. The vibrant fabric drapes elegantly, reflecting the chiaroscuro lighting, while the captivated crowd, adorned in various togas, gazes at him with expressions of admiration and intrigue.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9648163070281347,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.705,
+      "timestamp_end": 10.273333333333333,
+      "audio_content": "his power. But did you know Toga colors revealed",
+      "image_prompt": "Medium shot of Julius Caesar adorned in a striking red toga, standing confidently before a crowd in ancient Rome. His expression reflects ambition and power, while onlookers in various colorful togas illustrate the social hierarchy, with dramatic chiaroscuro lighting enhancing the scene's grandeur.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9538263976573944,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.273333333333333,
+      "timestamp_end": 12.841666666666667,
+      "audio_content": "social status? The plain white Toga",
+      "image_prompt": "Medium shot of a Roman marketplace bustling with citizens wearing various togas. A man in a plain white toga stands proudly, while a senator in a purple-bordered toga gestures authoritatively. Dramatic chiaroscuro lighting highlights their contrasting social statuses, with sharp shadows deepening the atmosphere.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9834384669860204,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.841666666666667,
+      "timestamp_end": 15.41,
+      "audio_content": "a citizen while the purple -bordered Toga was",
+      "image_prompt": "Medium shot of a Roman citizen proudly wearing a plain white toga, juxtaposed with a senator draped in a purple-bordered toga. The vivid colors contrast against the backdrop of a bustling Roman forum, with dramatic chiaroscuro lighting highlighting their distinct social statuses.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.921596996486187,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 15.41,
+      "timestamp_end": 17.97833333333333,
+      "audio_content": "for senators. Plus, victorious",
+      "image_prompt": "Medium shot of a Roman senator draped in a purple-bordered toga, standing proudly in a bustling forum, surrounded by citizens and soldiers. Dramatic chiaroscuro lighting highlights the senator's stern expression, with sharp shadows cast by ancient columns, showcasing the vibrant colors of togas that signify power and status.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.918177604675293,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.97833333333333,
+      "timestamp_end": 20.546666666666667,
+      "audio_content": "flaunted a special crimson Toga pica during",
+      "image_prompt": "Medium shot of a victorious Roman general adorned in a vibrant crimson toga picta, confidently marching through a jubilant crowd during a grand parade, with sunlight casting dramatic shadows, emphasizing the toga's rich color and the general's proud expression.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8721333050302097,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 20.546666666666667,
+      "timestamp_end": 23.115000000000002,
+      "audio_content": "This colorful fashion spoke volumes",
+      "image_prompt": "Medium shot of a Roman senator in a purple-bordered toga, confidently addressing a crowd in a bustling forum, with vivid colors highlighting the intricate fabric. Dramatic chiaroscuro lighting casts sharp shadows, emphasizing the senator's expression of authority and ambition.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9923094034194946,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 23.115000000000002,
+      "timestamp_end": 25.683333333333334,
+      "audio_content": "politics and prestige. So next",
+      "image_prompt": "Medium shot of Julius Caesar clad in a striking red toga, standing confidently in a Roman forum, surrounded by senators in white and purple-bordered togas. The chiaroscuro lighting casts sharp shadows, highlighting the tension and prestige of Roman politics.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9498869776725769,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 25.683333333333334,
+      "timestamp_end": 28.251666666666665,
+      "audio_content": "you think of a Toga, remember, it's more than just",
+      "image_prompt": "Medium shot of a Roman forum bustling with citizens in various togas, showcasing the vivid colors: a plain white toga on one man, a senator in a purple-bordered toga, and a victorious general in a crimson toga picta, all against dramatic chiaroscuro lighting.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9879746109247207,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 28.251666666666665,
+      "timestamp_end": 30.82,
+      "audio_content": "fabric. It's a story of ambition and identity.",
+      "image_prompt": "Wide shot of a bustling ancient Roman marketplace, vivid togas in various colors flowing through the crowd, with Julius Caesar in a striking red toga at the forefront. Dramatic chiaroscuro lighting highlights the fabric's texture, casting sharp shadows that emphasize the vibrant social hierarchy of the era.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9648229330778122,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 30.82,
+    "whisper_model": "base"
+  }
+}

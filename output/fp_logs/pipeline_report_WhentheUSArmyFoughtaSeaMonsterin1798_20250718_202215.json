@@ -1,0 +1,65 @@
+{
+  "pipeline_info": {
+    "story_title": "WhentheUSArmyFoughtaSeaMonsterin1798",
+    "sanitized_title": "WhentheUSArmyFoughtaSeaMonsterin1798",
+    "start_time": "2025-07-18T20:15:39.745399",
+    "end_time": "2025-07-18T20:22:15.418491",
+    "total_duration": 395.67309308052063,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1752884139.7483964,
+      "end": 1752884239.0210404,
+      "duration": 99.27264404296875,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1752884239.0210404,
+      "end": 1752884535.417493,
+      "duration": 296.396452665329,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\WhentheUSArmyFoughtaSeaMonsterin1798\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\WhentheUSArmyFoughtaSeaMonsterin1798\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\WhentheUSArmyFoughtaSeaMonsterin1798\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\WhentheUSArmyFoughtaSeaMonsterin1798\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\audio\\WhentheUSArmyFoughtaSeaMonsterin1798\\audio_WhentheUSArmyFoughtaSeaMonsterin1798.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\mixed_audio\\WhentheUSArmyFoughtaSeaMonsterin1798\\mixed_audio_WhentheUSArmyFoughtaSeaMonsterin1798.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_12.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_13.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_14.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_15.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_16.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_17.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_18.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_19.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhentheUSArmyFoughtaSeaMonsterin1798\\image_20.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory\\output\\videos\\WhentheUSArmyFoughtaSeaMonsterin1798_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory\\output\\subtitles_processed_video\\WhentheUSArmyFoughtaSeaMonsterin1798_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

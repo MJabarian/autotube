@@ -1,0 +1,334 @@
+2025-07-19 23:41:52,446 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-19 23:41:52,446 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250719_234152.log
+2025-07-19 23:41:52,447 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-19 23:41:52,448 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 23:41:52,449 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 23:41:52,450 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 23:41:53,995 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:41:56,159 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:41:56,505 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:41:56,525 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: The Hidden Treasure of the Lost Aztec Empire
+2025-07-19 23:41:56,525 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TheHiddenTreasureoftheLostAztecEmpire_content_gen_2025-07-19_23-41-56.log
+2025-07-19 23:41:56,526 - autotube.content_gen - INFO - 📁 Sanitized folder name: UncoveringtheAztecEmpiresHiddenTreasure
+2025-07-19 23:41:56,526 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 89 words
+2025-07-19 23:41:56,533 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\UncoveringtheAztecEmpiresHiddenTreasure\story.json (1,213 bytes)
+2025-07-19 23:41:56,535 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\UncoveringtheAztecEmpiresHiddenTreasure\topic.txt (44 bytes)
+2025-07-19 23:41:56,536 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\UncoveringtheAztecEmpiresHiddenTreasure\metadata.json (683 bytes)
+2025-07-19 23:41:56,537 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\UncoveringtheAztecEmpiresHiddenTreasure\story.txt (1,119 bytes)
+2025-07-19 23:41:56,539 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\UncoveringtheAztecEmpiresHiddenTreasure
+2025-07-19 23:42:04,755 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\UncoveringtheAztecEmpiresHiddenTreasure\audio_UncoveringtheAztecEmpiresHiddenTreasure.mp3 (560,946 bytes)
+2025-07-19 23:42:04,898 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 35.06s duration
+2025-07-19 23:42:06,691 - autotube.content_gen - INFO - ✅ Audio speed adjustment: 1.15x, new duration: 30.64s
+2025-07-19 23:42:06,692 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\UncoveringtheAztecEmpiresHiddenTreasure\audio_UncoveringtheAztecEmpiresHiddenTreasure_sped_up.mp3 (560,946 bytes, 30.64s)
+2025-07-19 23:42:06,693 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-19 23:42:06,694 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-19 23:42:06,695 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\UncoveringtheAztecEmpiresHiddenTreasure\audio_UncoveringtheAztecEmpiresHiddenTreasure_sped_up.mp3
+2025-07-19 23:42:06,695 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-19 23:42:08,369 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-19 23:42:08,521 - faster_whisper - INFO - Processing audio with duration 00:30.611
+2025-07-19 23:42:09,888 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-19 23:42:17,757 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 30.30s
+2025-07-19 23:42:17,758 - whisper_audio_synchronizer - INFO - 📝 Extracted 87 words with timestamps
+2025-07-19 23:42:17,759 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 30.30s, Image duration: 2.52s
+2025-07-19 23:42:17,760 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-19 23:42:17,761 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-19 23:42:20,246 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:42:20,252 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): Establishing shot of a dense jungle with ancient r...
+2025-07-19 23:42:22,428 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:42:22,432 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of a bustling modern-day Mexico City, wi...
+2025-07-19 23:42:24,220 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:42:24,224 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of a bustling modern cityscape of Mexico...
+2025-07-19 23:42:25,827 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:42:25,829 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/wide_shot): Wide shot of Mexico City, with modern buildings to...
+2025-07-19 23:42:27,240 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:42:27,242 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/wide_shot): Wide shot of a bustling modern cityscape, with Mex...
+2025-07-19 23:42:28,909 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:42:28,916 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/wide_shot): Wide shot of a dense, lush jungle landscape, parti...
+2025-07-19 23:42:30,448 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:42:30,450 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of an archaeologist kneeling on a dust...
+2025-07-19 23:42:31,879 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:42:31,882 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/wide_shot): Wide shot of modern-day Mexico City with towering ...
+2025-07-19 23:42:33,253 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:42:33,259 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/wide_shot): Wide shot of modern Mexico City, bustling with lif...
+2025-07-19 23:42:34,789 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:42:34,791 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/wide_shot): Wide shot of a bustling modern cityscape, with Mex...
+2025-07-19 23:42:36,434 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:42:36,450 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/wide_shot): Wide shot of a bustling Mexico City, blending mode...
+2025-07-19 23:42:37,949 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:42:37,952 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/medium_shot): Medium shot of an explorer standing atop ancient r...
+2025-07-19 23:42:37,955 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Uncovering_the_Aztec_Empires_Hidden_Treasure_whisper_sync.json
+2025-07-19 23:42:37,956 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-19 23:42:37,956 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-19 23:42:37,958 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-19 23:42:37,958 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-19 23:42:37,968 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\zero-hour-362876.mp3 (1,337,856 bytes)
+2025-07-19 23:42:37,971 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\UncoveringtheAztecEmpiresHiddenTreasure\music_selection.json (314 bytes)
+2025-07-19 23:42:37,971 - autotube.content_gen - INFO - ✅ Music selected: zero-hour-362876.mp3
+2025-07-19 23:42:37,973 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-19 23:42:37,974 - src.replicate_image_generator - INFO - Generating images for story: Uncovering the Aztec Empire's Hidden Treasure
+2025-07-19 23:42:37,974 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-19 23:42:37,975 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-19 23:42:37,975 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-19 23:42:39,220 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:42:41,239 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:42:43,082 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:42:45,252 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:42:47,147 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:42:48,902 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:42:51,146 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:42:53,716 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:42:56,065 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:42:58,215 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:43:00,556 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:43:02,752 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:43:04,276 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-19 23:43:04,277 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-19 23:43:04,280 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-19 23:43:04,285 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-19 23:43:04,293 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-19 23:43:04,294 - autotube.content_gen - INFO - 📊 Total time: 71.84s, Cost: $0.0360
+2025-07-19 23:43:04,295 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: The Hidden Treasure of the Lost Aztec Empire
+2025-07-19 23:43:04,348 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (71.90s)
+2025-07-19 23:43:04,349 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-19 23:43:04,350 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-19 23:43:04,352 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: UncoveringtheAztecEmpiresHiddenTreasure
+2025-07-19 23:43:04,352 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: UncoveringtheAztecEmpiresHiddenTreasure
+2025-07-19 23:43:04,353 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\UncoveringtheAztecEmpiresHiddenTreasure\audio_UncoveringtheAztecEmpiresHiddenTreasure_sped_up.mp3
+2025-07-19 23:43:04,354 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\UncoveringtheAztecEmpiresHiddenTreasure\music_selection.json
+2025-07-19 23:43:04,374 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\zero-hour-362876.mp3
+2025-07-19 23:43:04,421 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-19 23:43:04,422 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\UncoveringtheAztecEmpiresHiddenTreasure\audio_UncoveringtheAztecEmpiresHiddenTreasure_sped_up.mp3
+2025-07-19 23:43:04,708 - src.audio_mixer - INFO - Loaded audio: 30611ms (30.611s), 44100Hz, 2 channels
+2025-07-19 23:43:04,709 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\zero-hour-362876.mp3
+2025-07-19 23:43:05,287 - src.audio_mixer - INFO - Loaded audio: 41808ms (41.808s), 44100Hz, 2 channels
+2025-07-19 23:43:05,288 - src.audio_mixer - INFO - Voice duration: 30611ms
+2025-07-19 23:43:05,288 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-19 23:43:05,289 - src.audio_mixer - INFO - Target duration: 30611ms
+2025-07-19 23:43:05,292 - src.audio_mixer - INFO - Trimmed music from 30611ms to 30611ms
+2025-07-19 23:43:05,293 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-19 23:43:05,379 - src.audio_mixer - INFO - Voice adjusted by 10.4dB, Music by -12.1dB
+2025-07-19 23:43:05,407 - src.audio_mixer - INFO - Added 500ms fade-out to prevent end artifacts
+2025-07-19 23:43:05,448 - src.audio_mixer - INFO - ✅ Exact duration match: 30611ms
+2025-07-19 23:43:05,448 - src.audio_mixer - INFO - Audio mixing completed: 30611ms
+2025-07-19 23:43:07,589 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\UncoveringtheAztecEmpiresHiddenTreasure\mixed_audio_UncoveringtheAztecEmpiresHiddenTreasure.mp3
+2025-07-19 23:43:07,591 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\UncoveringtheAztecEmpiresHiddenTreasure\mixed_audio_UncoveringtheAztecEmpiresHiddenTreasure.mp3
+2025-07-19 23:43:07,592 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 917,658 bytes (0.9 MB)
+2025-07-19 23:43:07,594 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: UncoveringtheAztecEmpiresHiddenTreasure
+2025-07-19 23:43:07,596 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-19 23:43:07,597 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-19 23:43:07,599 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: UncoveringtheAztecEmpiresHiddenTreasure
+2025-07-19 23:43:08,009 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-19 23:43:08,010 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-19 23:43:08,011 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.99 seconds per image
+2025-07-19 23:43:08,012 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\UncoveringtheAztecEmpiresHiddenTreasure_kenburns.mp4
+2025-07-19 23:43:08,013 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['pan_right', 'pan_left', 'pan_right', 'pan_left', 'zoom_in']...
+2025-07-19 23:43:08,013 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-19 23:43:08,014 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 23:43:08,069 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-19 23:43:08,070 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 23:43:08,124 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-19 23:43:08,124 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 23:43:08,175 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-19 23:43:08,175 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 23:43:08,237 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-19 23:43:08,238 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 23:43:08,303 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-19 23:43:08,304 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 23:43:08,379 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-19 23:43:08,380 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-19 23:43:08,461 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-19 23:43:08,462 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 23:43:08,530 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-19 23:43:08,531 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 23:43:08,619 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-19 23:43:08,620 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 23:43:08,691 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-19 23:43:08,692 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 23:43:08,762 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-19 23:43:08,763 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 23:43:08,842 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-19 23:43:09,020 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-19 23:43:09,287 - autotube.full_pipeline - INFO - 📹 Video duration: 35.890s
+2025-07-19 23:43:09,288 - autotube.full_pipeline - INFO - 🎵 Audio duration: 35.890s
+2025-07-19 23:43:09,288 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 35.890s
+2025-07-19 23:43:09,289 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\UncoveringtheAztecEmpiresHiddenTreasure_kenburns.mp4
+2025-07-19 23:44:27,360 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-19 23:44:27,361 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-19 23:44:27,362 - autotube.full_pipeline - INFO - ✅ Video duration: 35.90 seconds
+2025-07-19 23:44:27,362 - autotube.full_pipeline - INFO - ✅ Video file size: 8.4 MB
+2025-07-19 23:44:27,363 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-19 23:44:27,398 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\UncoveringtheAztecEmpiresHiddenTreasure_kenburns.mp4
+2025-07-19 23:44:27,398 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-19 23:44:27,399 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\UncoveringtheAztecEmpiresHiddenTreasure_kenburns.mp4
+2025-07-19 23:44:27,400 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-19 23:44:27,401 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-19 23:44:27,402 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-19 23:44:27,403 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-19 23:44:29,170 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-19 23:44:29,171 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-19 23:44:29,172 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-19 23:44:29,374 - faster_whisper - INFO - Processing audio with duration 00:30.642
+2025-07-19 23:44:32,651 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-19 23:44:47,523 - autotube.full_pipeline - INFO - Extracted 79 words with timing
+2025-07-19 23:44:47,524 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 18.35s
+2025-07-19 23:44:47,967 - autotube.full_pipeline - INFO - Video loading took 0.44s
+2025-07-19 23:44:47,967 - autotube.full_pipeline - INFO - Original video - Duration: 35.90s, FPS: 30.0, Audio: True
+2025-07-19 23:44:47,968 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 79 words...
+2025-07-19 23:44:47,968 - autotube.full_pipeline - INFO - Group 1: 3 words (10 chars), 0.00s - 0.44s
+2025-07-19 23:44:47,969 - autotube.full_pipeline - INFO - Group 2: 3 words (13 chars), 0.42s - 0.94s
+2025-07-19 23:44:47,969 - autotube.full_pipeline - INFO - Group 3: 4 words (19 chars), 0.92s - 2.12s
+2025-07-19 23:44:47,969 - autotube.full_pipeline - INFO - Group 4: 3 words (19 chars), 2.10s - 3.02s
+2025-07-19 23:44:47,969 - autotube.full_pipeline - INFO - Group 5: 3 words (20 chars), 3.00s - 4.72s
+2025-07-19 23:44:47,970 - autotube.full_pipeline - INFO - Group 6: 3 words (16 chars), 4.70s - 6.02s
+2025-07-19 23:44:47,970 - autotube.full_pipeline - INFO - Group 7: 3 words (25 chars), 6.00s - 7.30s
+2025-07-19 23:44:47,970 - autotube.full_pipeline - INFO - Group 8: 3 words (25 chars), 7.28s - 8.78s
+2025-07-19 23:44:47,970 - autotube.full_pipeline - INFO - Group 9: 4 words (19 chars), 8.76s - 9.74s
+2025-07-19 23:44:47,971 - autotube.full_pipeline - INFO - Group 10: 3 words (16 chars), 9.72s - 10.80s
+2025-07-19 23:44:47,971 - autotube.full_pipeline - INFO - Group 11: 3 words (16 chars), 10.78s - 11.44s
+2025-07-19 23:44:47,971 - autotube.full_pipeline - INFO - Group 12: 3 words (16 chars), 11.42s - 12.14s
+2025-07-19 23:44:47,971 - autotube.full_pipeline - INFO - Group 13: 3 words (22 chars), 12.76s - 13.78s
+2025-07-19 23:44:47,971 - autotube.full_pipeline - INFO - Group 14: 4 words (24 chars), 13.76s - 15.00s
+2025-07-19 23:44:47,972 - autotube.full_pipeline - INFO - Group 15: 4 words (19 chars), 15.26s - 16.06s
+2025-07-19 23:44:47,972 - autotube.full_pipeline - INFO - Group 16: 3 words (22 chars), 16.04s - 17.12s
+2025-07-19 23:44:47,972 - autotube.full_pipeline - INFO - Group 17: 3 words (20 chars), 17.10s - 17.88s
+2025-07-19 23:44:47,972 - autotube.full_pipeline - INFO - Group 18: 3 words (22 chars), 17.86s - 19.50s
+2025-07-19 23:44:47,973 - autotube.full_pipeline - INFO - Group 19: 3 words (17 chars), 19.48s - 20.50s
+2025-07-19 23:44:47,973 - autotube.full_pipeline - INFO - Group 20: 3 words (17 chars), 20.48s - 21.38s
+2025-07-19 23:44:47,973 - autotube.full_pipeline - INFO - Group 21: 3 words (27 chars), 21.36s - 23.18s
+2025-07-19 23:44:47,974 - autotube.full_pipeline - INFO - Group 22: 4 words (24 chars), 23.16s - 24.24s
+2025-07-19 23:44:47,974 - autotube.full_pipeline - INFO - Group 23: 3 words (16 chars), 24.22s - 29.52s
+2025-07-19 23:44:47,974 - autotube.full_pipeline - INFO - Group 24: 4 words (18 chars), 29.50s - 30.12s
+2025-07-19 23:44:47,975 - autotube.full_pipeline - INFO - Group 25: 1 words (7 chars), 30.10s - 30.34s
+2025-07-19 23:44:47,975 - autotube.full_pipeline - INFO - Created 25 word groups with smart length limiting
+2025-07-19 23:44:47,975 - autotube.full_pipeline - INFO - Creating clips for group 1: 3 words
+2025-07-19 23:44:48,515 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.24s
+2025-07-19 23:44:48,986 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.20s - 0.34s
+2025-07-19 23:44:49,404 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.30s - 0.37s
+2025-07-19 23:44:49,405 - autotube.full_pipeline - INFO - Created clips for 1/25 word groups - ETA: 1s
+2025-07-19 23:44:49,405 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-19 23:44:50,013 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 0.42s - 0.60s
+2025-07-19 23:44:50,592 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 0.56s - 0.82s
+2025-07-19 23:44:51,186 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 0.78s - 0.87s
+2025-07-19 23:44:51,187 - autotube.full_pipeline - INFO - Creating clips for group 3: 4 words
+2025-07-19 23:44:51,993 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 0.92s - 1.40s
+2025-07-19 23:44:52,696 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 1.36s - 1.74s
+2025-07-19 23:44:53,337 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 1.70s - 2.02s
+2025-07-19 23:44:53,971 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 3: 1.98s - 2.05s
+2025-07-19 23:44:53,972 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-19 23:44:54,835 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 2.10s - 2.36s
+2025-07-19 23:44:55,676 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 2.32s - 2.72s
+2025-07-19 23:44:56,434 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 2.68s - 2.95s
+2025-07-19 23:44:56,435 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-19 23:44:57,167 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 3.00s - 3.34s
+2025-07-19 23:44:58,073 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 3.30s - 4.56s
+2025-07-19 23:44:59,566 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 4.52s - 4.65s
+2025-07-19 23:44:59,567 - autotube.full_pipeline - INFO - Creating clips for group 6: 3 words
+2025-07-19 23:45:00,585 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 4.70s - 5.68s
+2025-07-19 23:45:01,622 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 5.64s - 5.88s
+2025-07-19 23:45:02,401 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 5.84s - 5.95s
+2025-07-19 23:45:02,402 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-19 23:45:04,009 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 6.00s - 6.32s
+2025-07-19 23:45:05,796 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 6.28s - 7.14s
+2025-07-19 23:45:07,534 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 7.10s - 7.23s
+2025-07-19 23:45:07,535 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-19 23:45:08,974 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 7.28s - 7.62s
+2025-07-19 23:45:10,087 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 7.58s - 8.04s
+2025-07-19 23:45:11,100 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 8.00s - 8.71s
+2025-07-19 23:45:11,101 - autotube.full_pipeline - INFO - Creating clips for group 9: 4 words
+2025-07-19 23:45:11,988 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 8.76s - 8.98s
+2025-07-19 23:45:12,891 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 8.94s - 9.24s
+2025-07-19 23:45:13,903 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 9.20s - 9.56s
+2025-07-19 23:45:15,016 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 9: 9.52s - 9.67s
+2025-07-19 23:45:15,016 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-19 23:45:15,803 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 9.72s - 9.98s
+2025-07-19 23:45:16,434 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 9.94s - 10.68s
+2025-07-19 23:45:17,105 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 10.64s - 10.73s
+2025-07-19 23:45:17,105 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-19 23:45:17,868 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 10.78s - 10.98s
+2025-07-19 23:45:18,509 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 10.94s - 11.12s
+2025-07-19 23:45:19,170 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 11.08s - 11.37s
+2025-07-19 23:45:19,171 - autotube.full_pipeline - INFO - Created clips for 11/25 word groups - ETA: 31s
+2025-07-19 23:45:19,171 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-19 23:45:19,833 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 11.42s - 11.68s
+2025-07-19 23:45:20,456 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 11.64s - 11.86s
+2025-07-19 23:45:21,069 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 11.82s - 12.44s
+2025-07-19 23:45:21,069 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-19 23:45:22,114 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 12.76s - 13.34s
+2025-07-19 23:45:23,210 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 13.30s - 13.50s
+2025-07-19 23:45:24,422 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 13.46s - 13.71s
+2025-07-19 23:45:24,422 - autotube.full_pipeline - INFO - Creating clips for group 14: 4 words
+2025-07-19 23:45:25,553 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 13.76s - 14.24s
+2025-07-19 23:45:26,735 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 14.20s - 14.58s
+2025-07-19 23:45:27,995 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 14.54s - 14.82s
+2025-07-19 23:45:29,234 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 14: 14.78s - 15.21s
+2025-07-19 23:45:29,234 - autotube.full_pipeline - INFO - Creating clips for group 15: 4 words
+2025-07-19 23:45:30,716 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 15.26s - 15.40s
+2025-07-19 23:45:31,816 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 15.36s - 15.54s
+2025-07-19 23:45:32,768 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 15.50s - 15.82s
+2025-07-19 23:45:33,998 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 15: 15.78s - 15.99s
+2025-07-19 23:45:33,998 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-19 23:45:35,496 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 16.04s - 16.18s
+2025-07-19 23:45:36,529 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 16.14s - 16.60s
+2025-07-19 23:45:38,118 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 16.56s - 17.05s
+2025-07-19 23:45:38,118 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-19 23:45:39,592 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 17.10s - 17.42s
+2025-07-19 23:45:40,756 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 17.38s - 17.58s
+2025-07-19 23:45:41,869 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 17.54s - 17.81s
+2025-07-19 23:45:41,870 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-19 23:45:42,776 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 17.86s - 18.82s
+2025-07-19 23:45:43,569 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 18.78s - 19.32s
+2025-07-19 23:45:44,353 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 19.28s - 19.43s
+2025-07-19 23:45:44,354 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-19 23:45:45,238 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 19.48s - 19.80s
+2025-07-19 23:45:45,996 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 19.76s - 20.10s
+2025-07-19 23:45:46,634 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 20.06s - 20.43s
+2025-07-19 23:45:46,634 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-19 23:45:47,292 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 20.48s - 20.76s
+2025-07-19 23:45:47,912 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 20.72s - 21.06s
+2025-07-19 23:45:48,532 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 21.02s - 21.31s
+2025-07-19 23:45:48,532 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-19 23:45:49,586 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 21.36s - 22.12s
+2025-07-19 23:45:50,737 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 22.08s - 22.36s
+2025-07-19 23:45:51,869 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 22.32s - 23.11s
+2025-07-19 23:45:51,869 - autotube.full_pipeline - INFO - Created clips for 21/25 word groups - ETA: 64s
+2025-07-19 23:45:51,869 - autotube.full_pipeline - INFO - Creating clips for group 22: 4 words
+2025-07-19 23:45:53,142 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 23.16s - 23.48s
+2025-07-19 23:45:54,519 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 23.44s - 23.76s
+2025-07-19 23:45:56,100 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 23.72s - 24.02s
+2025-07-19 23:45:57,479 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 22: 23.98s - 24.17s
+2025-07-19 23:45:57,479 - autotube.full_pipeline - INFO - Creating clips for group 23: 3 words
+2025-07-19 23:45:58,260 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 24.22s - 28.78s
+2025-07-19 23:45:59,258 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 28.74s - 29.34s
+2025-07-19 23:46:00,831 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 29.30s - 29.45s
+2025-07-19 23:46:00,832 - autotube.full_pipeline - INFO - Creating clips for group 24: 4 words
+2025-07-19 23:46:02,573 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 29.50s - 29.66s
+2025-07-19 23:46:04,928 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 29.62s - 29.82s
+2025-07-19 23:46:06,862 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 29.78s - 29.98s
+2025-07-19 23:46:08,665 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 24: 29.94s - 30.05s
+2025-07-19 23:46:08,666 - autotube.full_pipeline - INFO - Creating clips for group 25: 1 words
+2025-07-19 23:46:09,099 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 30.10s - 30.54s
+2025-07-19 23:46:09,100 - autotube.full_pipeline - INFO - Created 79 individual subtitle clips
+2025-07-19 23:46:09,102 - autotube.full_pipeline - INFO - Viral subtitle creation took 81.13s
+2025-07-19 23:46:09,102 - autotube.full_pipeline - INFO - Subtitle clips count: 79
+2025-07-19 23:46:09,122 - autotube.full_pipeline - INFO - Video composition took 0.02s
+2025-07-19 23:46:09,122 - autotube.full_pipeline - INFO - Final video - Duration: 35.90s, Audio: True
+2025-07-19 23:46:09,123 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\UncoveringtheAztecEmpiresHiddenTreasure_final.mp4
+2025-07-19 23:46:55,182 - autotube.full_pipeline - INFO - Video writing took 46.06s
+2025-07-19 23:46:55,182 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-19 23:46:55,720 - autotube.full_pipeline - INFO - Output file - Duration: 35.90s, Audio: True, Playable: True
+2025-07-19 23:46:55,755 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\UncoveringtheAztecEmpiresHiddenTreasure_final.mp4
+2025-07-19 23:46:55,756 - autotube.full_pipeline - INFO - Total processing time: 146.58s
+2025-07-19 23:46:55,757 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\UncoveringtheAztecEmpiresHiddenTreasure_final.mp4
+2025-07-19 23:46:55,757 - autotube.full_pipeline - INFO - 📊 Final video size: 5,925,491 bytes (5.7 MB)
+2025-07-19 23:46:55,758 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-19 23:46:55,758 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\UncoveringtheAztecEmpiresHiddenTreasure_kenburns.mp4
+2025-07-19 23:46:55,759 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\UncoveringtheAztecEmpiresHiddenTreasure_final.mp4
+2025-07-19 23:46:55,812 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (231.46s)
+2025-07-19 23:46:55,813 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-19 23:46:55,822 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_UncoveringtheAztecEmpiresHiddenTreasure_20250719_234655.json
+2025-07-19 23:46:55,823 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-19 23:46:55,824 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 23:46:55,824 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 303.37s
+2025-07-19 23:46:55,825 - autotube.full_pipeline - INFO - 📁 Story Title: UncoveringtheAztecEmpiresHiddenTreasure
+2025-07-19 23:46:55,825 - autotube.full_pipeline - INFO - 📁 Sanitized Title: UncoveringtheAztecEmpiresHiddenTreasure
+2025-07-19 23:46:55,826 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_UncoveringtheAztecEmpiresHiddenTreasure_20250719_234655.json

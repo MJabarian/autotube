@@ -1,0 +1,55 @@
+{
+  "pipeline_info": {
+    "story_title": "WhereDidtheRoanokeColonyDisappearTo",
+    "sanitized_title": "WhereDidtheRoanokeColonyDisappearTo",
+    "start_time": "2025-07-21T13:42:27.507732",
+    "end_time": "2025-07-21T13:47:04.086803",
+    "total_duration": 276.57907128334045,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753119747.5107388,
+      "end": 1753119816.548352,
+      "duration": 69.03761315345764,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753119816.5493472,
+      "end": 1753120024.084801,
+      "duration": 207.53545379638672,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhereDidtheRoanokeColonyDisappearTo\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhereDidtheRoanokeColonyDisappearTo\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhereDidtheRoanokeColonyDisappearTo\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhereDidtheRoanokeColonyDisappearTo\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\WhereDidtheRoanokeColonyDisappearTo\\audio_WhereDidtheRoanokeColonyDisappearTo.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\WhereDidtheRoanokeColonyDisappearTo\\mixed_audio_WhereDidtheRoanokeColonyDisappearTo.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhereDidtheRoanokeColonyDisappearTo\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhereDidtheRoanokeColonyDisappearTo\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhereDidtheRoanokeColonyDisappearTo\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhereDidtheRoanokeColonyDisappearTo\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhereDidtheRoanokeColonyDisappearTo\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhereDidtheRoanokeColonyDisappearTo\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhereDidtheRoanokeColonyDisappearTo\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhereDidtheRoanokeColonyDisappearTo\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhereDidtheRoanokeColonyDisappearTo\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhereDidtheRoanokeColonyDisappearTo\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhereDidtheRoanokeColonyDisappearTo\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhereDidtheRoanokeColonyDisappearTo\\image_12.jpg"
+    ]
+  },
+  "pipeline_status": "SUCCESS"
+}

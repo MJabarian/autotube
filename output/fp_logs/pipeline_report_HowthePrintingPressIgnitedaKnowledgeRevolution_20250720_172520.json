@@ -1,0 +1,56 @@
+{
+  "pipeline_info": {
+    "story_title": "HowthePrintingPressIgnitedaKnowledgeRevolution",
+    "sanitized_title": "HowthePrintingPressIgnitedaKnowledgeRevolution",
+    "start_time": "2025-07-20T17:21:22.461227",
+    "end_time": "2025-07-20T17:25:20.446910",
+    "total_duration": 237.98568272590637,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753046482.4632282,
+      "end": 1753046548.2302635,
+      "duration": 65.76703524589539,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753046548.2322567,
+      "end": 1753046720.445906,
+      "duration": 172.2136492729187,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowthePrintingPressIgnitedaKnowledgeRevolution\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowthePrintingPressIgnitedaKnowledgeRevolution\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowthePrintingPressIgnitedaKnowledgeRevolution\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowthePrintingPressIgnitedaKnowledgeRevolution\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\HowthePrintingPressIgnitedaKnowledgeRevolution\\audio_HowthePrintingPressIgnitedaKnowledgeRevolution.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\HowthePrintingPressIgnitedaKnowledgeRevolution\\audio_HowthePrintingPressIgnitedaKnowledgeRevolution_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\HowthePrintingPressIgnitedaKnowledgeRevolution\\mixed_audio_HowthePrintingPressIgnitedaKnowledgeRevolution.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowthePrintingPressIgnitedaKnowledgeRevolution\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowthePrintingPressIgnitedaKnowledgeRevolution\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowthePrintingPressIgnitedaKnowledgeRevolution\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowthePrintingPressIgnitedaKnowledgeRevolution\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowthePrintingPressIgnitedaKnowledgeRevolution\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowthePrintingPressIgnitedaKnowledgeRevolution\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowthePrintingPressIgnitedaKnowledgeRevolution\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowthePrintingPressIgnitedaKnowledgeRevolution\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowthePrintingPressIgnitedaKnowledgeRevolution\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowthePrintingPressIgnitedaKnowledgeRevolution\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowthePrintingPressIgnitedaKnowledgeRevolution\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowthePrintingPressIgnitedaKnowledgeRevolution\\image_12.jpg"
+    ]
+  },
+  "pipeline_status": "SUCCESS"
+}

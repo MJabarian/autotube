@@ -1,0 +1,58 @@
+{
+  "pipeline_info": {
+    "story_title": "WhenPotatoesCausedaNationsCollapse",
+    "sanitized_title": "WhenPotatoesCausedaNationsCollapse",
+    "start_time": "2025-07-19T19:02:58.527005",
+    "end_time": "2025-07-19T19:06:29.176723",
+    "total_duration": 210.6497185230255,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1752966178.5300653,
+      "end": 1752966233.5154724,
+      "duration": 54.98540711402893,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1752966233.5166407,
+      "end": 1752966389.1757312,
+      "duration": 155.65909051895142,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhenPotatoesCausedaNationsCollapse\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhenPotatoesCausedaNationsCollapse\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhenPotatoesCausedaNationsCollapse\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhenPotatoesCausedaNationsCollapse\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\WhenPotatoesCausedaNationsCollapse\\audio_WhenPotatoesCausedaNationsCollapse.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\WhenPotatoesCausedaNationsCollapse\\audio_WhenPotatoesCausedaNationsCollapse_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\WhenPotatoesCausedaNationsCollapse\\mixed_audio_WhenPotatoesCausedaNationsCollapse.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenPotatoesCausedaNationsCollapse\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenPotatoesCausedaNationsCollapse\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenPotatoesCausedaNationsCollapse\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenPotatoesCausedaNationsCollapse\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenPotatoesCausedaNationsCollapse\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenPotatoesCausedaNationsCollapse\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenPotatoesCausedaNationsCollapse\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenPotatoesCausedaNationsCollapse\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenPotatoesCausedaNationsCollapse\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenPotatoesCausedaNationsCollapse\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenPotatoesCausedaNationsCollapse\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenPotatoesCausedaNationsCollapse\\image_12.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\videos\\WhenPotatoesCausedaNationsCollapse_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\subtitles_processed_video\\WhenPotatoesCausedaNationsCollapse_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

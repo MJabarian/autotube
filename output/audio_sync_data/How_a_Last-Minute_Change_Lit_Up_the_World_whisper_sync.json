@@ -1,0 +1,241 @@
+{
+  "story_title": "How a Last-Minute Change Lit Up the World",
+  "original_story": "[excited] Believe it or not, in 1879, Thomas Edison was ready to throw in the towel on the light bulb! But then, a random tweak in his filament material ignited a monumental breakthrough! He swapped out carbon for a new bamboo filament, which lasted over 1,200 hours. This flicker of innovation illuminated homes and transformed industries. Edison's perseverance turned an almost abandoned project into the foundation of modern lighting. Who knew one small change could light up the world and spark an electrical revolution?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.3249999999999997,
+      "audio_content": "Believe it or not, in 1879,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.947546124458313
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.3249999999999997,
+      "timestamp_end": 4.6499999999999995,
+      "audio_content": "Thomas Edison was ready to throw in the",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9965709447860718
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.6499999999999995,
+      "timestamp_end": 6.975,
+      "audio_content": "on the light bulb, but then, a random",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9665466845035553
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.975,
+      "timestamp_end": 9.299999999999999,
+      "audio_content": "in his filament material ignited a",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9955341021219889
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.299999999999999,
+      "timestamp_end": 11.624999999999998,
+      "audio_content": "breakthrough. He swapped out carbon",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9832663536071777
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.624999999999998,
+      "timestamp_end": 13.95,
+      "audio_content": "a new bamboo filament, which lasted over",
+      "words_in_segment": 7,
+      "confidence_avg": 0.985449526991163
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.95,
+      "timestamp_end": 16.275,
+      "audio_content": "to two hundred hours. This flicker",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9293099840482076
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.275,
+      "timestamp_end": 18.599999999999998,
+      "audio_content": "innovation illuminated homes and transformed",
+      "words_in_segment": 5,
+      "confidence_avg": 0.987945806980133
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.599999999999998,
+      "timestamp_end": 20.924999999999997,
+      "audio_content": "Edison's perseverance turned an almost",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9879164218902587
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 20.924999999999997,
+      "timestamp_end": 23.249999999999996,
+      "audio_content": "project into the foundation of modern",
+      "words_in_segment": 6,
+      "confidence_avg": 0.997590184211731
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.249999999999996,
+      "timestamp_end": 25.574999999999996,
+      "audio_content": "Who knew one small change",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9742451429367065
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 25.574999999999996,
+      "timestamp_end": 27.9,
+      "audio_content": "light up the world and spark an electrical revolution?",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9951367775599161
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.3249999999999997,
+      "audio_content": "Believe it or not, in 1879,",
+      "image_prompt": "Medium shot of Thomas Edison in his dimly lit workshop, surrounded by an array of failed light bulb experiments. His expression is a mix of frustration and determination as he inspects a bamboo filament, the glow of a flickering bulb casting sharp shadows across his focused face.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.947546124458313,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.3249999999999997,
+      "timestamp_end": 4.6499999999999995,
+      "audio_content": "Thomas Edison was ready to throw in the",
+      "image_prompt": "Wide shot of Thomas Edison in his dimly lit workshop, surrounded by tangled wires and filament materials. He stands at a workbench, contemplating his failed light bulbs, with a flickering candle casting dramatic shadows, hinting at the breakthrough that awaits him.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9965709447860718,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.6499999999999995,
+      "timestamp_end": 6.975,
+      "audio_content": "on the light bulb, but then, a random",
+      "image_prompt": "Wide shot of Thomas Edison in his dimly lit workshop, surrounded by tools and failed light bulb prototypes. A single filament glows softly, casting dramatic shadows, symbolizing his pivotal moment of innovation as he contemplates the bamboo filament that will change the world.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9665466845035553,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.975,
+      "timestamp_end": 9.299999999999999,
+      "audio_content": "in his filament material ignited a",
+      "image_prompt": "Medium shot of Thomas Edison in his dimly lit workshop, surrounded by various light bulb prototypes, his face illuminated by a flickering bulb. Behind him, shadows dance on the walls, encapsulating his moment of revelation as he inspects a bamboo filament with a look of determination.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9955341021219889,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.299999999999999,
+      "timestamp_end": 11.624999999999998,
+      "audio_content": "breakthrough. He swapped out carbon",
+      "image_prompt": "Medium shot of Thomas Edison in his dimly lit workshop, intently examining a glowing bamboo filament, surrounded by cluttered workbenches and tools. The dramatic chiaroscuro lighting highlights his focused expression, capturing the pivotal moment of innovation that sparked the electrical revolution.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9832663536071777,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.624999999999998,
+      "timestamp_end": 13.95,
+      "audio_content": "a new bamboo filament, which lasted over",
+      "image_prompt": "Medium shot of Thomas Edison in his dimly lit workshop, surrounded by various light bulb prototypes. His face, illuminated by a glowing filament, reflects a mix of determination and excitement as he carefully examines a new bamboo filament, shadows playing dramatically across the walls.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.985449526991163,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.95,
+      "timestamp_end": 16.275,
+      "audio_content": "to two hundred hours. This flicker",
+      "image_prompt": "Medium shot of Thomas Edison in his cluttered workshop, examining a glowing bamboo filament. The flicker of light casts dramatic shadows across his determined face, embodying his moment of breakthrough and unwavering perseverance as he stands amidst tools and inventions.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9293099840482076,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.275,
+      "timestamp_end": 18.599999999999998,
+      "audio_content": "innovation illuminated homes and transformed",
+      "image_prompt": "Medium shot of Thomas Edison in his workshop, surrounded by flickering light bulbs, his face lit with determination. Shadows dance across the walls, reflecting the intensity of his focus as he adjusts the bamboo filament, symbolizing the birth of modern lighting.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.987945806980133,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.599999999999998,
+      "timestamp_end": 20.924999999999997,
+      "audio_content": "Edison's perseverance turned an almost",
+      "image_prompt": "Medium shot of Thomas Edison in his dimly lit workshop, surrounded by scattered light bulb prototypes. His focused expression reveals determination as he adjusts the bamboo filament, casting sharp shadows that highlight the tools of innovation. The flickering light bulb glows, symbolizing hope and transformation.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9879164218902587,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 20.924999999999997,
+      "timestamp_end": 23.249999999999996,
+      "audio_content": "project into the foundation of modern",
+      "image_prompt": "Medium shot of Thomas Edison in his cluttered workshop, determinedly adjusting a glowing bamboo filament in an old-fashioned light bulb. Dramatic chiaroscuro lighting casts sharp shadows, highlighting his focused expression and the surrounding tools, capturing the moment of innovation that would illuminate the world.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.997590184211731,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.249999999999996,
+      "timestamp_end": 25.574999999999996,
+      "audio_content": "Who knew one small change",
+      "image_prompt": "Medium shot of Thomas Edison in his workshop, surrounded by flickering light bulbs and tools. His face reflects determination as he examines a bamboo filament under dramatic chiaroscuro lighting, shadows casting across the cluttered workbench, signifying the moment before his breakthrough.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9742451429367065,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 25.574999999999996,
+      "timestamp_end": 27.9,
+      "audio_content": "light up the world and spark an electrical revolution?",
+      "image_prompt": "Medium shot of Thomas Edison in his workshop, surrounded by glowing light bulbs. His focused expression reflects determination, while shadows dance across the walls, illuminated by the soft flicker of the successful bamboo filament, symbolizing the birth of modern lighting.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9951367775599161,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 27.9,
+    "whisper_model": "base"
+  }
+}

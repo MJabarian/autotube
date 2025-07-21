@@ -1,0 +1,241 @@
+{
+  "story_title": "last week tonight show history and now that it is being cancelled",
+  "original_story": "[shocked] Did you hear? Last Week Tonight is officially cancelled! John Oliver's satirical brilliance, which tackled everything from net neutrality to corruption, is ending after an incredible 10 seasons. Since its debut in 2014, the show has amassed over 30 Emmy nominations, winning 11. Fans loved Oliver's deep dives into social issues, often making complex topics accessible. But now, HBO is shifting gears, leaving viewers wondering – what will fill that late-night void? Will we ever see Oliver tackle those burning issues again? The suspense is real!",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.478333333333333,
+      "audio_content": "Did you hear? Last week tonight is officially canceled.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.8755254149436951
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.478333333333333,
+      "timestamp_end": 4.956666666666666,
+      "audio_content": "John Oliver's satirical brilliance, which tackled",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9510499603218502
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.956666666666666,
+      "timestamp_end": 7.434999999999999,
+      "audio_content": "from net neutrality to corruption, is ending after",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9889907911419868
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.434999999999999,
+      "timestamp_end": 9.913333333333332,
+      "audio_content": "incredible 10 seasons. Since its debut in",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9364612698554993
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.913333333333332,
+      "timestamp_end": 12.391666666666666,
+      "audio_content": "the show has amassed over 30 Emmy",
+      "words_in_segment": 7,
+      "confidence_avg": 0.987111576965877
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.391666666666666,
+      "timestamp_end": 14.869999999999997,
+      "audio_content": "winning 11. Fans loved",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9731380343437195
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.869999999999997,
+      "timestamp_end": 17.348333333333333,
+      "audio_content": "deep dives into social issues, often",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9852509399255117
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.348333333333333,
+      "timestamp_end": 19.826666666666664,
+      "audio_content": "complex topics accessible. But",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9884518980979919
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.826666666666664,
+      "timestamp_end": 22.304999999999996,
+      "audio_content": "HBO is shifting gears, leaving",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9903059244155884
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 22.304999999999996,
+      "timestamp_end": 24.78333333333333,
+      "audio_content": "wondering, what will fill that late -night",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8892025968858174
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 24.78333333333333,
+      "timestamp_end": 27.261666666666663,
+      "audio_content": "Will we ever see Oliver tackle",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9954869250456492
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 27.261666666666663,
+      "timestamp_end": 29.739999999999995,
+      "audio_content": "burning issues again? The suspense is",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8525189508994421
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.478333333333333,
+      "audio_content": "Did you hear? Last week tonight is officially canceled.",
+      "image_prompt": "Close-up of a shocked fan's face illuminated by the glow of a TV screen, tears welling in their eyes, reflecting the disbelief of Last Week Tonight's cancellation, dramatic shadows enhancing the emotional turmoil in the room.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.8755254149436951,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.478333333333333,
+      "timestamp_end": 4.956666666666666,
+      "audio_content": "John Oliver's satirical brilliance, which tackled",
+      "image_prompt": "Medium shot of a group of fans sitting together in a living room, their faces displaying shock and disbelief as they hear the news of Last Week Tonight's cancellation. The soft glow of a television screen illuminates their expressions, casting dramatic shadows in the dimly lit room.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9510499603218502,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.956666666666666,
+      "timestamp_end": 7.434999999999999,
+      "audio_content": "from net neutrality to corruption, is ending after",
+      "image_prompt": "Medium shot of a diverse group of fans in a dimly lit living room, faces illuminated by the flickering screen, expressions of shock and disbelief as they process the cancellation of Last Week Tonight, with somber shadows enhancing their emotional reactions.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9889907911419868,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.434999999999999,
+      "timestamp_end": 9.913333333333332,
+      "audio_content": "incredible 10 seasons. Since its debut in",
+      "image_prompt": "Medium shot of a group of fans in a dimly lit living room, faces illuminated by the flicker of a TV screen, expressions of shock and disbelief as they react to the news of John Oliver's show's cancellation, dramatic chiaroscuro lighting casting deep shadows across their concerned features.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9364612698554993,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.913333333333332,
+      "timestamp_end": 12.391666666666666,
+      "audio_content": "the show has amassed over 30 Emmy",
+      "image_prompt": "Medium shot of a diverse group of fans in a dimly lit living room, their faces reflecting shock and disbelief as they absorb the news of 'Last Week Tonight' cancellation. Shadows play across their expressions, highlighting the mix of sadness and uncertainty in the air.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.987111576965877,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.391666666666666,
+      "timestamp_end": 14.869999999999997,
+      "audio_content": "winning 11. Fans loved",
+      "image_prompt": "Medium shot of a diverse group of fans, their faces a mix of shock and sadness, illuminated by the soft glow of their screens as they react to the news of Last Week Tonight's cancellation. Dramatic chiaroscuro lighting emphasizes their emotional expressions, capturing the moment's intensity.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9731380343437195,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.869999999999997,
+      "timestamp_end": 17.348333333333333,
+      "audio_content": "deep dives into social issues, often",
+      "image_prompt": "Medium shot of a diverse group of fans sitting together in a dimly lit living room, their expressions a mix of shock and disappointment as they react to the news of Last Week Tonight's cancellation, the glow of the TV illuminating their faces, casting deep shadows that highlight their emotional turmoil.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9852509399255117,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.348333333333333,
+      "timestamp_end": 19.826666666666664,
+      "audio_content": "complex topics accessible. But",
+      "image_prompt": "Medium shot of a diverse group of fans gathered in a dimly lit living room, their faces illuminated by the glow of a TV screen displaying the 'Last Week Tonight' logo. Expressions of shock and disbelief reflect their emotional turmoil over the show's cancellation, with shadows deepening the atmosphere.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9884518980979919,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.826666666666664,
+      "timestamp_end": 22.304999999999996,
+      "audio_content": "HBO is shifting gears, leaving",
+      "image_prompt": "Close-up of a fan's shocked expression as they watch the announcement of Last Week Tonight's cancellation on their TV, tears welling in their eyes, illuminated by the flickering screen light, capturing the disbelief and sadness of losing John Oliver's satirical voice.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9903059244155884,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 22.304999999999996,
+      "timestamp_end": 24.78333333333333,
+      "audio_content": "wondering, what will fill that late -night",
+      "image_prompt": "Close-up of a distraught fan sitting in a dimly lit living room, eyes wide in disbelief, reflecting the glow of the TV screen showing John Oliver's final episode. Shadows cast across the face emphasize the emotional turmoil, as they clutch a mug, lost in thought about the show's legacy.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8892025968858174,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 24.78333333333333,
+      "timestamp_end": 27.261666666666663,
+      "audio_content": "Will we ever see Oliver tackle",
+      "image_prompt": "Close-up of a diverse group of fans, their faces a mix of shock and disbelief as they react to the news of Last Week Tonight's cancellation, dramatic chiaroscuro lighting highlighting their expressive eyes and furrowed brows, sharp shadows adding depth to the emotional weight of the moment.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9954869250456492,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 27.261666666666663,
+      "timestamp_end": 29.739999999999995,
+      "audio_content": "burning issues again? The suspense is",
+      "image_prompt": "Close-up of a distraught fan's face, eyes wide with shock and disbelief, reflecting the news of John Oliver's show cancellation. Dramatic chiaroscuro lighting highlights tears glistening on their cheeks, casting intense shadows that emphasize their emotional turmoil.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8525189508994421,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 29.739999999999995,
+    "whisper_model": "base"
+  }
+}

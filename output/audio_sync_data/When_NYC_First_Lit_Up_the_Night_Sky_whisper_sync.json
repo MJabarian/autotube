@@ -1,0 +1,241 @@
+{
+  "story_title": "When NYC First Lit Up the Night Sky",
+  "original_story": "[excited] Get this—on September 4, 1882, New York City flipped the switch on its first commercial power plant! Thomas Edison’s Pearl Street Station lit up the streets, transforming the dark with electric lights. Imagine the thrill of seeing bright bulbs glowing in the night for the first time ever! This groundbreaking moment marked the dawn of the electric age, leading to the electrification of homes and businesses. In just a few years, nearly 90% of NYC would be powered by electricity. Crazy, right?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.475,
+      "audio_content": "Get this! On September 4,",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9500837206840516
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.475,
+      "timestamp_end": 4.95,
+      "audio_content": "New York City flipped the",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9889191508293151
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.95,
+      "timestamp_end": 7.425000000000001,
+      "audio_content": "on its first commercial power plant.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9889558653036753
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.425000000000001,
+      "timestamp_end": 9.9,
+      "audio_content": "Thomas Edison's Pearl Street station lit up",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9102335359369006
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.9,
+      "timestamp_end": 12.375,
+      "audio_content": "streets, transforming the dark with electric",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9922239482402802
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.375,
+      "timestamp_end": 14.850000000000001,
+      "audio_content": "Imagine the thrill of seeing",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9977327704429626
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.850000000000001,
+      "timestamp_end": 17.325,
+      "audio_content": "bulbs glowing in the night for the first time",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9964902930789523
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.325,
+      "timestamp_end": 19.8,
+      "audio_content": "This groundbreaking moment marked the",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9875685811042786
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.8,
+      "timestamp_end": 22.275000000000002,
+      "audio_content": "of the electric age, leading to the electrification",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9693774804472923
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 22.275000000000002,
+      "timestamp_end": 24.75,
+      "audio_content": "homes and businesses. In just a",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9945477346579233
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 24.75,
+      "timestamp_end": 27.225,
+      "audio_content": "years nearly 90 percent of NYC would be",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8786989785730839
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 27.225,
+      "timestamp_end": 29.700000000000003,
+      "audio_content": "by electricity. Crazy, right?",
+      "words_in_segment": 4,
+      "confidence_avg": 0.8844899982213974
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.475,
+      "audio_content": "Get this! On September 4,",
+      "image_prompt": "Wide shot of bustling New York City streets on September 4, 1882, illuminated by the first electric lights from Edison's Pearl Street Station. The glowing bulbs cast dramatic shadows, showcasing astonished faces of onlookers, capturing the electrifying moment as the darkness transforms into a vibrant spectacle.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9500837206840516,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.475,
+      "timestamp_end": 4.95,
+      "audio_content": "New York City flipped the",
+      "image_prompt": "Wide shot of New York City at night, 1882, with the first electric lights illuminating bustling streets. Eager crowds gaze in awe at glowing bulbs, casting sharp shadows and creating a dramatic atmosphere. The Pearl Street Station stands proudly in the background, symbolizing innovation.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9889191508293151,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.95,
+      "timestamp_end": 7.425000000000001,
+      "audio_content": "on its first commercial power plant.",
+      "image_prompt": "Establishing shot of New York City at night, streets illuminated by the warm glow of electric lights from Thomas Edison's Pearl Street Station. The skyline contrasts with deep shadows, capturing the excitement and transformation of the city as pedestrians marvel at the brilliant bulbs lighting their way.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9889558653036753,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.425000000000001,
+      "timestamp_end": 9.9,
+      "audio_content": "Thomas Edison's Pearl Street station lit up",
+      "image_prompt": "Wide shot of New York City on a September night in 1882, illuminated by the glow of bright electric lights from Thomas Edison's Pearl Street Station. The excitement of citizens marveling at the transformation of the darkened streets, showcasing the dawn of the electric age with sharp shadows and dramatic chiaroscuro lighting.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9102335359369006,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.9,
+      "timestamp_end": 12.375,
+      "audio_content": "streets, transforming the dark with electric",
+      "image_prompt": "Medium shot of a bustling New York City street at night in 1882, illuminated by the warm glow of electric lights. People in period clothing gaze in awe, their faces lit by the bright bulbs, capturing the excitement and wonder of the electric age's dawn.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9922239482402802,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.375,
+      "timestamp_end": 14.850000000000001,
+      "audio_content": "Imagine the thrill of seeing",
+      "image_prompt": "Wide shot of a bustling 1882 New York City street at night, illuminated by the warm glow of newly installed electric bulbs. People gaze in awe, their faces lit by the bright lights, casting dramatic shadows as the dawn of the electric age begins.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9977327704429626,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.850000000000001,
+      "timestamp_end": 17.325,
+      "audio_content": "bulbs glowing in the night for the first time",
+      "image_prompt": "Wide shot of New York City at night on September 4, 1882, with Edison's Pearl Street Station glowing brightly. The first electric bulbs illuminate the streets, casting dramatic shadows of excited citizens marveling at the bright lights, transforming the once dark landscape into a vibrant scene of wonder.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9964902930789523,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.325,
+      "timestamp_end": 19.8,
+      "audio_content": "This groundbreaking moment marked the",
+      "image_prompt": "Wide shot of New York City in 1882, streets illuminated by the first electric lights, with people marveling at the glowing bulbs. Dramatic chiaroscuro lighting casts sharp shadows, capturing the excitement and wonder of the city's transformation into a bright, electrified landscape.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9875685811042786,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.8,
+      "timestamp_end": 22.275000000000002,
+      "audio_content": "of the electric age, leading to the electrification",
+      "image_prompt": "Wide shot of bustling New York City streets illuminated for the first time by glowing electric bulbs, with awe-struck citizens gazing upwards in wonder, shadows dancing in the light against historic buildings, capturing the thrill of the electric age's dawn.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9693774804472923,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 22.275000000000002,
+      "timestamp_end": 24.75,
+      "audio_content": "homes and businesses. In just a",
+      "image_prompt": "Wide shot of New York City streets illuminated for the first time by electric lights from Edison's Pearl Street Station, showcasing amazed citizens gazing upwards with expressions of wonder, dramatic chiaroscuro lighting casting sharp shadows against historic buildings.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9945477346579233,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 24.75,
+      "timestamp_end": 27.225,
+      "audio_content": "years nearly 90 percent of NYC would be",
+      "image_prompt": "Wide shot of the bustling streets of New York City at night, illuminated by the first electric bulbs. Edison’s Pearl Street Station glows in the background, with awestruck citizens gazing up at the bright lights, their faces lit with excitement and wonder, casting dramatic shadows.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8786989785730839,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 27.225,
+      "timestamp_end": 29.700000000000003,
+      "audio_content": "by electricity. Crazy, right?",
+      "image_prompt": "Medium shot of a bustling late 19th-century New York street, illuminated by the warm glow of electric bulbs. People gather in awe, their faces reflecting excitement and wonder, as the stark contrast of light and shadow creates an electrifying atmosphere of transformation.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.8844899982213974,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 29.700000000000003,
+    "whisper_model": "base"
+  }
+}

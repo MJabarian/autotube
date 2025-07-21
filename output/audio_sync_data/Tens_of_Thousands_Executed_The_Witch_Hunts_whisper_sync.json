@@ -1,0 +1,241 @@
+{
+  "story_title": "Tens of Thousands Executed: The Witch Hunts",
+  "original_story": "[shocked] Imagine 60,000 innocent lives lost! Between 1450 and 1750, Europe was gripped by witch hunts fueled by paranoia. Get this: in 1589, the Pendle witch trials in England saw twelve accused, leading to ten executions. Entire communities turned against women, often scapegoated during crises. Fear of the unknown morphed neighbors into enemies. These hunts exposed societal fractures, where superstition reigned over reason. What if I told you fear can turn a village into a killing ground? The truth about humanity's dark side is chilling.",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.595,
+      "audio_content": "Imagine 60 ,000 innocent lives",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9295320868492126
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.595,
+      "timestamp_end": 5.19,
+      "audio_content": "between 1450 and 1750,",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9828935787081718
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.19,
+      "timestamp_end": 7.785,
+      "audio_content": "Europe was gripped by witch hunts fueled by paranoia.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9541669289271036
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.785,
+      "timestamp_end": 10.38,
+      "audio_content": "Get this. In 1589, the",
+      "words_in_segment": 5,
+      "confidence_avg": 0.96338369846344
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.38,
+      "timestamp_end": 12.975000000000001,
+      "audio_content": "Witch Trials in England saw 12 accused,",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8814400945390973
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.975000000000001,
+      "timestamp_end": 15.57,
+      "audio_content": "leading to 10 executions. Entire communities",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9604261219501495
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 15.57,
+      "timestamp_end": 18.165000000000003,
+      "audio_content": "against women, often scapegoated during",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9922561585903168
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 18.165000000000003,
+      "timestamp_end": 20.76,
+      "audio_content": "fear of the unknown morphed neighbors into",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9554304267678942
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 20.76,
+      "timestamp_end": 23.355,
+      "audio_content": "These hunts exposed societal",
+      "words_in_segment": 4,
+      "confidence_avg": 0.991098091006279
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 23.355,
+      "timestamp_end": 25.950000000000003,
+      "audio_content": "where superstition reigned over reason.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8092633366584778
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 25.950000000000003,
+      "timestamp_end": 28.545,
+      "audio_content": "if I told you fear can turn a village into a killing ground?",
+      "words_in_segment": 13,
+      "confidence_avg": 0.9904351417834942
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 28.545,
+      "timestamp_end": 31.14,
+      "audio_content": "truth about humanity's dark side is chilling.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9742736177785056
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.595,
+      "audio_content": "Imagine 60 ,000 innocent lives",
+      "image_prompt": "Establishing shot of a dark, foreboding village square under a stormy sky, villagers gathered in hushed whispers, casting fearful glances towards a gallows. The atmosphere is thick with tension, shadows of suspicion loom as the fear of witch hunts grips the community.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9295320868492126,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.595,
+      "timestamp_end": 5.19,
+      "audio_content": "between 1450 and 1750,",
+      "image_prompt": "Wide shot of a grim, eerie village square at dusk, villagers whispering in fear, casting suspicious glances at a central gallows. Shadows loom large, with a darkened sky overhead, embodying the paranoia of witch hunts that turned neighbors into enemies during the turbulent years of 1450 to 1750.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9828935787081718,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.19,
+      "timestamp_end": 7.785,
+      "audio_content": "Europe was gripped by witch hunts fueled by paranoia.",
+      "image_prompt": "Wide shot of a dark, foreboding village square, villagers with stern faces gathering in hushed whispers, shadows stretching across cobblestone streets, an ominous gallows looming in the background, capturing the atmosphere of paranoia and fear that envelops the community.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9541669289271036,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.785,
+      "timestamp_end": 10.38,
+      "audio_content": "Get this. In 1589, the",
+      "image_prompt": "Medium shot of a somber village square in 1589, where townspeople whisper in fear, casting suspicious glances at a woman accused of witchcraft. Dramatic chiaroscuro lighting highlights their anxious faces, while deep shadows loom, symbolizing the paranoia turning neighbors into enemies.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.96338369846344,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.38,
+      "timestamp_end": 12.975000000000001,
+      "audio_content": "Witch Trials in England saw 12 accused,",
+      "image_prompt": "Medium shot of a tense village square, villagers whispering in fear. Shadows loom over their faces, reflecting suspicion and paranoia. A woman stands isolated, eyes wide with dread, as dark clouds gather overhead, hinting at the storm of accusations about to unfold.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8814400945390973,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.975000000000001,
+      "timestamp_end": 15.57,
+      "audio_content": "leading to 10 executions. Entire communities",
+      "image_prompt": "Medium shot of a tense village meeting, faces illuminated by flickering torchlight. Men and women whisper accusations, eyes filled with fear and suspicion. Shadows dance on the walls, revealing the fracture of community unity as paranoia grips the atmosphere, a dark foreshadowing of impending tragedy.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9604261219501495,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 15.57,
+      "timestamp_end": 18.165000000000003,
+      "audio_content": "against women, often scapegoated during",
+      "image_prompt": "Medium shot of a dimly lit village square, where frightened villagers whisper among themselves, casting wary glances at a lone woman in tattered clothing. Shadows dance across their faces, reflecting the paranoia and fear that grips the community as accusations hang heavy in the air.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9922561585903168,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 18.165000000000003,
+      "timestamp_end": 20.76,
+      "audio_content": "fear of the unknown morphed neighbors into",
+      "image_prompt": "Medium shot of a tense village square, villagers whispering in shadows, their faces a mix of fear and suspicion, as a lone woman stands accused at the center, dramatic chiaroscuro lighting highlighting the tension and despair, sharp shadows casting doubt and distrust.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9554304267678942,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 20.76,
+      "timestamp_end": 23.355,
+      "audio_content": "These hunts exposed societal",
+      "image_prompt": "Medium shot of a fearful village gathering, villagers with tense expressions and sharp shadows cast by flickering torches. In the background, a woman stands accused, her face a mix of terror and defiance, encapsulating the paranoia of the witch hunts.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.991098091006279,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 23.355,
+      "timestamp_end": 25.950000000000003,
+      "audio_content": "where superstition reigned over reason.",
+      "image_prompt": "Medium shot of a tense village meeting, faces illuminated by flickering torchlight, shadows stretching ominously. Fearful eyes of villagers dart towards a woman accused of witchcraft, suspicion palpable in the air, capturing the moment when superstition eclipses reason.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8092633366584778,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 25.950000000000003,
+      "timestamp_end": 28.545,
+      "audio_content": "if I told you fear can turn a village into a killing ground?",
+      "image_prompt": "Close-up of a terrified woman, her face illuminated by flickering torchlight, wide eyes reflecting fear of accusation. Shadows loom behind her, hinting at a gathering mob. The atmosphere is thick with tension, capturing the chilling reality of paranoia in a village on the brink.",
+      "words_in_segment": 13,
+      "confidence_avg": 0.9904351417834942,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 28.545,
+      "timestamp_end": 31.14,
+      "audio_content": "truth about humanity's dark side is chilling.",
+      "image_prompt": "Medium shot of a tense village gathering, faces illuminated by flickering torchlight, casting sharp shadows. Fear etched on the townsfolk's faces as they accuse a lone woman, highlighting the chilling paranoia of the witch hunts, evoking a sense of impending doom.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9742736177785056,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 31.14,
+    "whisper_model": "base"
+  }
+}

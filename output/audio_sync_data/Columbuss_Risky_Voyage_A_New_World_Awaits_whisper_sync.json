@@ -1,0 +1,241 @@
+{
+  "story_title": "Columbus's Risky Voyage: A New World Awaits",
+  "original_story": "[excited] You won’t believe this—in 1492, Columbus set sail with just three ships! He aimed for Asia but stumbled upon the Caribbean instead. Imagine the surprise when he landed in what he thought was India! His arrival sparked an era of exploration and cultural exchange that reshaped history. By 1493, his return voyage shocked Europe with tales of gold and new lands. This one journey ignited a global curiosity that led to centuries of exploration. Who knew a wrong turn could change the world? [pause:1s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.2033333333333336,
+      "audio_content": "You won't believe this. In",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9441716432571411
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.2033333333333336,
+      "timestamp_end": 4.406666666666667,
+      "audio_content": "Columbus set sail with just three",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9623863101005554
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.406666666666667,
+      "timestamp_end": 6.610000000000001,
+      "audio_content": "He aimed for Asia, but stumbled",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9829266965389252
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.610000000000001,
+      "timestamp_end": 8.813333333333334,
+      "audio_content": "the Caribbean instead. Imagine the",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9946616411209106
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.813333333333334,
+      "timestamp_end": 11.016666666666667,
+      "audio_content": "when he landed in what he thought was India.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9907626973258125
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.016666666666667,
+      "timestamp_end": 13.220000000000002,
+      "audio_content": "His arrival sparked an era of exploration",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9914468271391732
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.220000000000002,
+      "timestamp_end": 15.423333333333336,
+      "audio_content": "cultural exchange that reshaped",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9892633110284805
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.423333333333336,
+      "timestamp_end": 17.62666666666667,
+      "audio_content": "By 1493, his return",
+      "words_in_segment": 4,
+      "confidence_avg": 0.990976594388485
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 17.62666666666667,
+      "timestamp_end": 19.830000000000002,
+      "audio_content": "shocked Europe with tales of gold and new",
+      "words_in_segment": 8,
+      "confidence_avg": 0.978808157145977
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 19.830000000000002,
+      "timestamp_end": 22.033333333333335,
+      "audio_content": "This one journey ignited a global",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9952146609624227
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.033333333333335,
+      "timestamp_end": 24.236666666666668,
+      "audio_content": "that led to centuries of",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9868958234786988
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.236666666666668,
+      "timestamp_end": 26.440000000000005,
+      "audio_content": "Who knew a wrong turn could change the world?",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9918546080589294
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.2033333333333336,
+      "audio_content": "You won't believe this. In",
+      "image_prompt": "Dramatic wide shot of Columbus's three ships sailing through stormy seas, dark clouds swirling above, with lightning illuminating the horizon. The ships' sails billow fiercely, hinting at the tumultuous journey ahead, evoking a sense of adventure and uncertainty.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9441716432571411,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.2033333333333336,
+      "timestamp_end": 4.406666666666667,
+      "audio_content": "Columbus set sail with just three",
+      "image_prompt": "An expansive view of Columbus's three ships sailing across a vast ocean, the sun setting on the horizon. Dramatic chiaroscuro lighting highlights the waves crashing against the hulls, with sharp shadows creating a sense of adventure and anticipation. The ships are silhouetted against the fiery sky, hinting at the journey ahead.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9623863101005554,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.406666666666667,
+      "timestamp_end": 6.610000000000001,
+      "audio_content": "He aimed for Asia, but stumbled",
+      "image_prompt": "Wide shot of Columbus's three ships sailing across a vibrant ocean, their sails billowing in the wind. In the background, a dramatic sunrise casts golden light over the horizon, hinting at the unknown lands ahead, while gentle waves reflect the early morning glow.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9829266965389252,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.610000000000001,
+      "timestamp_end": 8.813333333333334,
+      "audio_content": "the Caribbean instead. Imagine the",
+      "image_prompt": "Wide shot of Columbus' three ships sailing toward the lush Caribbean coastline, with vibrant blue waters and a dramatic sunset casting golden hues on the horizon. The ships, filled with eager explorers, contrast against the serene beauty of the uncharted land, embodying the spirit of discovery.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9946616411209106,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.813333333333334,
+      "timestamp_end": 11.016666666666667,
+      "audio_content": "when he landed in what he thought was India.",
+      "image_prompt": "Wide shot of Columbus's three ships anchored off a lush Caribbean shore, vibrant palm trees swaying in the breeze. The crew gathers on deck, eyes wide with astonishment as they gaze at the unfamiliar landscape, believing they have reached India, with dramatic chiaroscuro lighting casting deep shadows.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9907626973258125,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.016666666666667,
+      "timestamp_end": 13.220000000000002,
+      "audio_content": "His arrival sparked an era of exploration",
+      "image_prompt": "Wide shot of Columbus's ships sailing across a vast ocean, with a vibrant sunset illuminating the sky. In the distance, lush Caribbean islands emerge, hinting at the adventure that awaits. The scene captures the spirit of exploration and the unknown, with dramatic chiaroscuro lighting enhancing the atmosphere.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9914468271391732,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.220000000000002,
+      "timestamp_end": 15.423333333333336,
+      "audio_content": "cultural exchange that reshaped",
+      "image_prompt": "Wide shot of Columbus's three ships sailing into the Caribbean sunset, golden light reflecting on the water. In the distance, lush islands rise from the ocean, hinting at the unknown adventures ahead. The sky is painted with vibrant hues, signifying the dawn of a new era.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9892633110284805,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.423333333333336,
+      "timestamp_end": 17.62666666666667,
+      "audio_content": "By 1493, his return",
+      "image_prompt": "Wide shot of Christopher Columbus on the deck of his ship, gazing out at the vast ocean, with sails billowing in the wind. The horizon glows with the golden light of dawn, reflecting his awe and anticipation, as distant Caribbean islands emerge against a vibrant sky.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.990976594388485,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 17.62666666666667,
+      "timestamp_end": 19.830000000000002,
+      "audio_content": "shocked Europe with tales of gold and new",
+      "image_prompt": "Medium shot of Columbus aboard his ship, eyes wide with astonishment as he gazes at the distant shores of the Caribbean, golden sunlight illuminating his face. The ocean waves crash against the hull, creating a sense of adventure and uncertainty, shadowy sails billowing in the background.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.978808157145977,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 19.830000000000002,
+      "timestamp_end": 22.033333333333335,
+      "audio_content": "This one journey ignited a global",
+      "image_prompt": "Wide shot of Columbus's three ships sailing across a vibrant blue ocean, with dramatic clouds overhead. The ships are silhouetted against the sun, creating sharp shadows, capturing the moment of discovery and the vastness of the unknown horizon ahead.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9952146609624227,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.033333333333335,
+      "timestamp_end": 24.236666666666668,
+      "audio_content": "that led to centuries of",
+      "image_prompt": "Wide shot of Columbus's three ships sailing across a vivid blue sea, the horizon filled with the promise of new lands. Dramatic clouds loom overhead, casting shadows on the ships, symbolizing both adventure and uncertainty as they approach the unknown Caribbean islands.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9868958234786988,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.236666666666668,
+      "timestamp_end": 26.440000000000005,
+      "audio_content": "Who knew a wrong turn could change the world?",
+      "image_prompt": "Wide shot of Columbus's three ships sailing into a vibrant, sunlit Caribbean bay, lush greenery in the background. The ocean sparkles under the sun, and a sense of awe fills the air as crew members lean over the sides, gazing at the unfamiliar land ahead.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9918546080589294,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 26.440000000000005,
+    "whisper_model": "base"
+  }
+}

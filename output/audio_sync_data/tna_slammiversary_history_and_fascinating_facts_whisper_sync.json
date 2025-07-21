@@ -1,0 +1,241 @@
+{
+  "story_title": "tna slammiversary history and fascinating facts",
+  "original_story": "[excited] You won’t believe this – TNA Slammiversary II in 2004 was a game-changer! Not only did it feature the first-ever NWA World Heavyweight title match outside WWE, but it also introduced a shocking debut: the legendary Jeff Hardy! The event was held in Orlando, Florida, and drew over 2,000 fans. Slammiversary became a yearly tradition, showcasing iconic moments like the 2017 surprise return of Austin Aries, proving TNA's resilience. What if I told you these events changed wrestling forever?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.265,
+      "audio_content": "You won't believe this. TNA",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9647499680519104
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.265,
+      "timestamp_end": 4.53,
+      "audio_content": "2 in 2004 was a game",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9411368866761526
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.53,
+      "timestamp_end": 6.795,
+      "audio_content": "Not only did it feature the first -ever",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9738996513187885
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.795,
+      "timestamp_end": 9.06,
+      "audio_content": "World Heavyweight title match outside WWE,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9426635056734085
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.06,
+      "timestamp_end": 11.325000000000001,
+      "audio_content": "but it also introduced a shocking",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9894539713859558
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.325000000000001,
+      "timestamp_end": 13.59,
+      "audio_content": "the legendary Jeff Hardy, the",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9557088136672973
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.59,
+      "timestamp_end": 15.855,
+      "audio_content": "was held in Orlando, Florida, and drew over",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9825421795248985
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.855,
+      "timestamp_end": 18.12,
+      "audio_content": ",000 fans. Slamiversary became",
+      "words_in_segment": 4,
+      "confidence_avg": 0.989935465157032
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.12,
+      "timestamp_end": 20.385,
+      "audio_content": "yearly tradition, showcasing iconic",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9985333234071732
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 20.385,
+      "timestamp_end": 22.650000000000002,
+      "audio_content": "like the 2017 surprise return of",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9491851528485616
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.650000000000002,
+      "timestamp_end": 24.915000000000003,
+      "audio_content": "Aries, proving TNA's resilience.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9046426663796107
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.915000000000003,
+      "timestamp_end": 27.18,
+      "audio_content": "if I told you these events changed wrestling forever?",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9922453098826938
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.265,
+      "audio_content": "You won't believe this. TNA",
+      "image_prompt": "Establishing shot of a packed arena in Orlando, Florida, under dramatic lighting. The energy is palpable as fans cheer wildly, their faces illuminated by vibrant colors. In the ring, shadows dance as a silhouette of a wrestler hints at an impending legendary debut, creating an atmosphere of anticipation and excitement.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9647499680519104,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.265,
+      "timestamp_end": 4.53,
+      "audio_content": "2 in 2004 was a game",
+      "image_prompt": "Wide shot of a packed arena in Orlando, Florida, showcasing the excitement of TNA Slammiversary II in 2004. Fans wave signs and cheer as the lights illuminate the ring, capturing the historic atmosphere of the first-ever NWA World Heavyweight title match outside WWE.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9411368866761526,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.53,
+      "timestamp_end": 6.795,
+      "audio_content": "Not only did it feature the first -ever",
+      "image_prompt": "Wide shot of the TNA Slammiversary II event, showcasing a vibrant arena filled with over 2,000 excited fans in Orlando, Florida. The atmosphere buzzes with anticipation, dramatic lighting highlighting the ring as the iconic NWA World Heavyweight title is set to be contested.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9738996513187885,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.795,
+      "timestamp_end": 9.06,
+      "audio_content": "World Heavyweight title match outside WWE,",
+      "image_prompt": "Medium shot capturing the electric atmosphere of TNA Slammiversary II in 2004, with fans cheering wildly as Jeff Hardy makes his iconic debut against a backdrop of vibrant lights and dramatic shadows, showcasing the excitement of the first-ever NWA World Heavyweight title match outside WWE.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9426635056734085,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.06,
+      "timestamp_end": 11.325000000000001,
+      "audio_content": "but it also introduced a shocking",
+      "image_prompt": "Medium shot of a roaring crowd in the arena, captivated by the atmosphere as the lights dim and tension builds. The camera captures excited fans, their faces illuminated by vibrant colors, as they anticipate the shocking debut of Jeff Hardy, setting the stage for a historic moment in wrestling.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9894539713859558,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.325000000000001,
+      "timestamp_end": 13.59,
+      "audio_content": "the legendary Jeff Hardy, the",
+      "image_prompt": "Medium shot of Jeff Hardy standing in the center of a vibrant wrestling ring, surrounded by roaring fans in a packed arena. His colorful attire glimmers under dramatic lighting, capturing the electric atmosphere of TNA Slammiversary II in 2004, a moment that forever changed wrestling.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9557088136672973,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.59,
+      "timestamp_end": 15.855,
+      "audio_content": "was held in Orlando, Florida, and drew over",
+      "image_prompt": "Wide shot of the TNA Slammiversary II event in Orlando, Florida, showcasing a vibrant crowd of over 2,000 excited fans, colorful lights illuminating the wrestling ring, and an atmosphere charged with anticipation as the legendary Jeff Hardy prepares for his debut.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9825421795248985,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.855,
+      "timestamp_end": 18.12,
+      "audio_content": ",000 fans. Slamiversary became",
+      "image_prompt": "Medium shot of a vibrant wrestling ring in Orlando, filled with over 2,000 excited fans. Jeff Hardy makes his electrifying debut, the crowd erupting in cheers, dramatic chiaroscuro lighting highlighting his determined expression and the energy of the moment.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.989935465157032,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.12,
+      "timestamp_end": 20.385,
+      "audio_content": "yearly tradition, showcasing iconic",
+      "image_prompt": "Wide shot of a vibrant wrestling arena in Orlando, Florida, filled with over 2,000 excited fans. The ring is illuminated under dramatic lighting, capturing the energy of TNA Slammiversary II. Jeff Hardy's silhouette stands in the center, poised for an iconic debut.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9985333234071732,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 20.385,
+      "timestamp_end": 22.650000000000002,
+      "audio_content": "like the 2017 surprise return of",
+      "image_prompt": "Medium shot capturing a packed arena in Orlando, Florida, with fans on their feet, faces filled with excitement. The spotlight beams down on the ring as a silhouette of Austin Aries emerges, showcasing a moment of electrifying anticipation and the spirit of TNA's resilient journey.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9491851528485616,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.650000000000002,
+      "timestamp_end": 24.915000000000003,
+      "audio_content": "Aries, proving TNA's resilience.",
+      "image_prompt": "Medium shot of a packed arena in Orlando, Florida, filled with excited fans. In the foreground, a spotlight illuminates a determined Austin Aries, poised in the ring, showcasing TNA's resilience. Dramatic chiaroscuro lighting creates an electrifying atmosphere.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9046426663796107,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.915000000000003,
+      "timestamp_end": 27.18,
+      "audio_content": "if I told you these events changed wrestling forever?",
+      "image_prompt": "Medium shot of a packed arena in Orlando, 2004, as excited fans cheer, spotlight illuminating the ring. Jeff Hardy, in vibrant attire, stands poised at the entrance, ready to make his legendary debut, capturing the electric atmosphere that changed wrestling forever.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9922453098826938,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 27.18,
+    "whisper_model": "base"
+  }
+}

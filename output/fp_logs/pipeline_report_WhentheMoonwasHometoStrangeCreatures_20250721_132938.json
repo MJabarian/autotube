@@ -1,0 +1,55 @@
+{
+  "pipeline_info": {
+    "story_title": "WhentheMoonwasHometoStrangeCreatures",
+    "sanitized_title": "WhentheMoonwasHometoStrangeCreatures",
+    "start_time": "2025-07-21T13:25:06.097676",
+    "end_time": "2025-07-21T13:29:38.402162",
+    "total_duration": 272.3044865131378,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753118706.107806,
+      "end": 1753118778.827013,
+      "duration": 72.71920704841614,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753118778.828003,
+      "end": 1753118978.4011612,
+      "duration": 199.57315826416016,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhentheMoonwasHometoStrangeCreatures\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhentheMoonwasHometoStrangeCreatures\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhentheMoonwasHometoStrangeCreatures\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhentheMoonwasHometoStrangeCreatures\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\WhentheMoonwasHometoStrangeCreatures\\audio_WhentheMoonwasHometoStrangeCreatures.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\WhentheMoonwasHometoStrangeCreatures\\mixed_audio_WhentheMoonwasHometoStrangeCreatures.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhentheMoonwasHometoStrangeCreatures\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhentheMoonwasHometoStrangeCreatures\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhentheMoonwasHometoStrangeCreatures\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhentheMoonwasHometoStrangeCreatures\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhentheMoonwasHometoStrangeCreatures\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhentheMoonwasHometoStrangeCreatures\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhentheMoonwasHometoStrangeCreatures\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhentheMoonwasHometoStrangeCreatures\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhentheMoonwasHometoStrangeCreatures\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhentheMoonwasHometoStrangeCreatures\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhentheMoonwasHometoStrangeCreatures\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhentheMoonwasHometoStrangeCreatures\\image_12.jpg"
+    ]
+  },
+  "pipeline_status": "SUCCESS"
+}

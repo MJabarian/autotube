@@ -1,0 +1,501 @@
+2025-07-18 20:15:39,746 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-18 20:15:39,746 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory\output\fp_logs\full_pipeline_20250718_201539.log
+2025-07-18 20:15:39,746 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-18 20:15:39,747 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 20:15:39,747 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 20:15:39,748 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 20:15:41,433 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:15:47,695 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:15:48,237 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:15:48,249 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Time the U.S. Army Defended a Town from a Giant Sea Creature  
+**Summary:** In 1798, residents of a Massachusetts town reported sightings of a monstrous sea serpent, leading to a bizarre military mobilization to protect them from the perceived threat.
+2025-07-18 20:15:48,250 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory\output\content_gen_logs\TitleTheTimetheUSArmyDefendedaTownfromaGiantSeaCre_content_gen_2025-07-18_20-15-48.log
+2025-07-18 20:15:48,250 - autotube.content_gen - INFO - 📁 Sanitized folder name: WhentheUSArmyFoughtaSeaMonsterin1798
+2025-07-18 20:15:48,250 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 161 words
+2025-07-18 20:15:48,261 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\WhentheUSArmyFoughtaSeaMonsterin1798\story.json (1,671 bytes)
+2025-07-18 20:15:48,262 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\WhentheUSArmyFoughtaSeaMonsterin1798\topic.txt (267 bytes)
+2025-07-18 20:15:48,262 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\WhentheUSArmyFoughtaSeaMonsterin1798\metadata.json (645 bytes)
+2025-07-18 20:15:48,263 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\WhentheUSArmyFoughtaSeaMonsterin1798\story.txt (1,592 bytes)
+2025-07-18 20:15:48,263 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory\output\stories\WhentheUSArmyFoughtaSeaMonsterin1798
+2025-07-18 20:16:01,521 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory\output\audio\WhentheUSArmyFoughtaSeaMonsterin1798\audio_WhentheUSArmyFoughtaSeaMonsterin1798.mp3 (933,765 bytes)
+2025-07-18 20:16:01,611 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 58.36s duration
+2025-07-18 20:16:01,683 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory\output\audio\WhentheUSArmyFoughtaSeaMonsterin1798\audio_WhentheUSArmyFoughtaSeaMonsterin1798.mp3 (933,765 bytes, 58.36s)
+2025-07-18 20:16:01,684 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-18 20:16:01,684 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-18 20:16:01,684 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory\output\audio\WhentheUSArmyFoughtaSeaMonsterin1798\audio_WhentheUSArmyFoughtaSeaMonsterin1798.mp3
+2025-07-18 20:16:01,685 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-18 20:16:03,036 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-18 20:16:03,191 - faster_whisper - INFO - Processing audio with duration 00:58.358
+2025-07-18 20:16:03,763 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 20:16:08,937 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 57.42s
+2025-07-18 20:16:08,937 - whisper_audio_synchronizer - INFO - 📝 Extracted 162 words with timestamps
+2025-07-18 20:16:08,937 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 57.42s, Image duration: 2.87s
+2025-07-18 20:16:08,938 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 20 images
+2025-07-18 20:16:08,938 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-18 20:16:11,293 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:11,295 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): Establishing shot of a coastal Massachusetts town ...
+2025-07-18 20:16:13,175 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:13,176 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of the coastal town of Gloucester, Massa...
+2025-07-18 20:16:15,376 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:15,378 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of the coastline of Gloucester in 1798, ...
+2025-07-18 20:16:17,612 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:17,613 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/wide_shot): Wide shot of Gloucester's coastline in 1798, with ...
+2025-07-18 20:16:19,564 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:19,566 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/wide_shot): Wide shot of Gloucester harbor under a stormy sky,...
+2025-07-18 20:16:21,585 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:21,586 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/wide_shot): Wide shot of the stormy Gloucester coastline, with...
+2025-07-18 20:16:23,580 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:23,582 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/wide_shot): Wide shot of the coastal town of Gloucester in 179...
+2025-07-18 20:16:26,096 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:26,098 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/wide_shot): Wide shot of a coastal Massachusetts town in 1798,...
+2025-07-18 20:16:28,150 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:28,151 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/wide_shot): Wide shot of the coastal town of Gloucester in 179...
+2025-07-18 20:16:29,889 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:29,890 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/wide_shot): Wide shot of Gloucester's coastal shoreline in 179...
+2025-07-18 20:16:31,583 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:31,585 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (character_action/medium_shot): Medium shot of anxious fishermen returning to the ...
+2025-07-18 20:16:33,312 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:33,314 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/wide_shot): Wide shot of the stormy Gloucester coast, with fis...
+2025-07-18 20:16:35,044 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:35,046 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 13 (exposition_setup/wide_shot): Wide shot of Gloucester's coastline at dusk, fishe...
+2025-07-18 20:16:36,817 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:36,818 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 14 (exposition_setup/wide_shot): Wide shot of the rocky Gloucester coastline at dus...
+2025-07-18 20:16:38,671 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:38,673 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 15 (exposition_setup/wide_shot): Wide shot of Gloucester's coastline at dusk, with ...
+2025-07-18 20:16:41,082 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:41,084 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 16 (character_action/medium_shot): Medium shot of brave townsfolk on a fishing boat, ...
+2025-07-18 20:16:42,764 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:42,767 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 17 (exposition_setup/wide_shot): Wide shot of the stormy Gloucester coastline at du...
+2025-07-18 20:16:44,586 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:44,588 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 18 (exposition_setup/wide_shot): Wide shot of a stormy Gloucester coastline, turbul...
+2025-07-18 20:16:46,743 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:46,775 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 19 (exposition_setup/wide_shot): Wide shot of the rocky Gloucester coastline under ...
+2025-07-18 20:16:48,673 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 20:16:48,674 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 20 (emotional_moment/medium_shot): Medium shot of anxious Gloucester fishermen on the...
+2025-07-18 20:16:48,677 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory\output\audio_sync_data\When_the_US_Army_Fought_a_Sea_Monster_in_1798_whisper_sync.json
+2025-07-18 20:16:48,677 - whisper_audio_synchronizer - INFO - ✅ Generated 20 story-driven synchronized image prompts with enhanced diversity
+2025-07-18 20:16:48,678 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-18 20:16:48,679 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 20 synchronized segments
+2025-07-18 20:16:48,679 - autotube.content_gen - INFO - ✅ Whisper sync completed: 20 prompts
+2025-07-18 20:16:48,692 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory\data\music\Mystery\cinematic-calm-dramatic-theme-170162.mp3 (2,531,996 bytes)
+2025-07-18 20:16:48,693 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory\output\music_selections\WhentheUSArmyFoughtaSeaMonsterin1798\music_selection.json (346 bytes)
+2025-07-18 20:16:48,693 - autotube.content_gen - INFO - ✅ Music selected: cinematic-calm-dramatic-theme-170162.mp3
+2025-07-18 20:16:48,694 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-18 20:16:48,694 - src.replicate_image_generator - INFO - Generating images for story: When the U.S. Army Fought a Sea Monster in 1798
+2025-07-18 20:16:48,695 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-18 20:16:48,695 - src.replicate_image_generator - INFO - Generating 20 images with mvp_testing quality
+2025-07-18 20:16:48,695 - src.replicate_image_generator - INFO - Estimated cost: $0.060
+2025-07-18 20:16:49,634 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:16:51,103 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:16:52,602 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:16:54,092 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:16:55,625 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:16:57,146 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:16:58,646 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:17:00,181 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:17:01,665 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:17:03,214 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:17:04,717 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:17:06,184 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:17:07,874 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:17:09,361 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:17:10,836 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:17:12,277 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:17:13,759 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:17:15,216 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:17:16,682 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:17:18,136 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 20:17:18,991 - src.replicate_image_generator - INFO - Generation complete: 20/20 successful
+2025-07-18 20:17:18,992 - src.replicate_image_generator - INFO - Total cost: $0.060 (avg: $0.0030/image)
+2025-07-18 20:17:18,994 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 20/20 images generated
+2025-07-18 20:17:18,997 - autotube.content_gen - INFO - ✅ Image generation: 20/20 images, cost: $0.0600
+2025-07-18 20:17:18,999 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-18 20:17:18,999 - autotube.content_gen - INFO - 📊 Total time: 99.25s, Cost: $0.0600
+2025-07-18 20:17:18,999 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Time the U.S. Army Defended a Town from a Giant Sea Creature  
+**Summary:** In 1798, residents of a Massachusetts town reported sightings of a monstrous sea serpent, leading to a bizarre military mobilization to protect them from the perceived threat.
+2025-07-18 20:17:19,021 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (99.27s)
+2025-07-18 20:17:19,021 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 20:17:19,021 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 20:17:19,022 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: WhentheUSArmyFoughtaSeaMonsterin1798
+2025-07-18 20:17:19,022 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: WhentheUSArmyFoughtaSeaMonsterin1798
+2025-07-18 20:17:19,022 - autotube.full_pipeline - INFO - ✅ Found source TTS audio: C:\autotube\ThroughTheLensofHistory\output\audio\WhentheUSArmyFoughtaSeaMonsterin1798\audio_WhentheUSArmyFoughtaSeaMonsterin1798.mp3
+2025-07-18 20:17:19,023 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory\output\music_selections\WhentheUSArmyFoughtaSeaMonsterin1798\music_selection.json
+2025-07-18 20:17:19,030 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory\data\music\Mystery\cinematic-calm-dramatic-theme-170162.mp3
+2025-07-18 20:17:19,229 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-18 20:17:19,229 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory\output\audio\WhentheUSArmyFoughtaSeaMonsterin1798\audio_WhentheUSArmyFoughtaSeaMonsterin1798.mp3
+2025-07-18 20:17:19,328 - src.audio_mixer - INFO - Loaded audio: 58358ms, 44100Hz, 2 channels
+2025-07-18 20:17:19,328 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory\data\music\Mystery\cinematic-calm-dramatic-theme-170162.mp3
+2025-07-18 20:17:19,481 - src.audio_mixer - INFO - Loaded audio: 79125ms, 44100Hz, 2 channels
+2025-07-18 20:17:19,482 - src.audio_mixer - INFO - Mixing audio (simple, mobile-optimized)...
+2025-07-18 20:17:19,484 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-18 20:17:19,517 - src.audio_mixer - INFO - Voice adjusted by 9.2dB, Music by -9.0dB
+2025-07-18 20:17:19,550 - src.audio_mixer - INFO - Audio mixing completed: 58358ms
+2025-07-18 20:17:20,168 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory\output\mixed_audio\WhentheUSArmyFoughtaSeaMonsterin1798\mixed_audio_WhentheUSArmyFoughtaSeaMonsterin1798.mp3
+2025-07-18 20:17:20,171 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory\output\mixed_audio\WhentheUSArmyFoughtaSeaMonsterin1798\mixed_audio_WhentheUSArmyFoughtaSeaMonsterin1798.mp3
+2025-07-18 20:17:20,171 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 1,886,016 bytes (1.8 MB)
+2025-07-18 20:17:20,171 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: WhentheUSArmyFoughtaSeaMonsterin1798
+2025-07-18 20:17:20,172 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-18 20:17:20,172 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-18 20:17:20,172 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: WhentheUSArmyFoughtaSeaMonsterin1798
+2025-07-18 20:17:20,354 - autotube.full_pipeline - INFO - 📸 Loaded 20 images for video
+2025-07-18 20:17:20,355 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-18 20:17:20,355 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.92 seconds per image
+2025-07-18 20:17:20,356 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory\output\videos\WhentheUSArmyFoughtaSeaMonsterin1798_kenburns.mp4
+2025-07-18 20:17:20,356 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['pan_left', 'zoom_in', 'pan_right', 'zoom_in', 'pan_left']...
+2025-07-18 20:17:20,356 - autotube.full_pipeline - INFO - 📸 Processing image 1/20: image_01.jpg
+2025-07-18 20:17:20,357 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 20:17:20,380 - autotube.full_pipeline - INFO - 📸 Processing image 2/20: image_02.jpg
+2025-07-18 20:17:20,381 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 20:17:20,392 - autotube.full_pipeline - INFO - 📸 Processing image 3/20: image_03.jpg
+2025-07-18 20:17:20,392 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 20:17:20,404 - autotube.full_pipeline - INFO - 📸 Processing image 4/20: image_04.jpg
+2025-07-18 20:17:20,404 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 20:17:20,429 - autotube.full_pipeline - INFO - 📸 Processing image 5/20: image_05.jpg
+2025-07-18 20:17:20,429 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 20:17:20,455 - autotube.full_pipeline - INFO - 📸 Processing image 6/20: image_06.jpg
+2025-07-18 20:17:20,455 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 20:17:20,480 - autotube.full_pipeline - INFO - 📸 Processing image 7/20: image_07.jpg
+2025-07-18 20:17:20,480 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 20:17:20,505 - autotube.full_pipeline - INFO - 📸 Processing image 8/20: image_08.jpg
+2025-07-18 20:17:20,505 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 20:17:20,530 - autotube.full_pipeline - INFO - 📸 Processing image 9/20: image_09.jpg
+2025-07-18 20:17:20,531 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 20:17:20,555 - autotube.full_pipeline - INFO - 📸 Processing image 10/20: image_10.jpg
+2025-07-18 20:17:20,555 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 20:17:20,580 - autotube.full_pipeline - INFO - 📸 Processing image 11/20: image_11.jpg
+2025-07-18 20:17:20,580 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 20:17:20,608 - autotube.full_pipeline - INFO - 📸 Processing image 12/20: image_12.jpg
+2025-07-18 20:17:20,608 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 20:17:20,633 - autotube.full_pipeline - INFO - 📸 Processing image 13/20: image_13.jpg
+2025-07-18 20:17:20,633 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 20:17:20,659 - autotube.full_pipeline - INFO - 📸 Processing image 14/20: image_14.jpg
+2025-07-18 20:17:20,660 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 20:17:20,683 - autotube.full_pipeline - INFO - 📸 Processing image 15/20: image_15.jpg
+2025-07-18 20:17:20,684 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 20:17:20,706 - autotube.full_pipeline - INFO - 📸 Processing image 16/20: image_16.jpg
+2025-07-18 20:17:20,706 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 20:17:20,729 - autotube.full_pipeline - INFO - 📸 Processing image 17/20: image_17.jpg
+2025-07-18 20:17:20,729 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 20:17:20,758 - autotube.full_pipeline - INFO - 📸 Processing image 18/20: image_18.jpg
+2025-07-18 20:17:20,758 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 20:17:20,783 - autotube.full_pipeline - INFO - 📸 Processing image 19/20: image_19.jpg
+2025-07-18 20:17:20,783 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 20:17:20,806 - autotube.full_pipeline - INFO - 📸 Processing image 20/20: image_20.jpg
+2025-07-18 20:17:20,806 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 20:17:20,830 - autotube.full_pipeline - INFO - 🔗 Concatenating 20 clips...
+2025-07-18 20:17:20,881 - autotube.full_pipeline - INFO - 🎵 Adding audio to video...
+2025-07-18 20:17:20,954 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory\output\videos\WhentheUSArmyFoughtaSeaMonsterin1798_kenburns.mp4
+2025-07-18 20:18:20,101 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-18 20:18:20,102 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-18 20:18:20,102 - autotube.full_pipeline - INFO - ✅ Video duration: 58.43 seconds
+2025-07-18 20:18:20,103 - autotube.full_pipeline - INFO - ✅ Video file size: 13.1 MB
+2025-07-18 20:18:20,103 - autotube.full_pipeline - INFO - 🎯 HD Quality: Excellent file size indicates high quality
+2025-07-18 20:18:20,128 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory\output\videos\WhentheUSArmyFoughtaSeaMonsterin1798_kenburns.mp4
+2025-07-18 20:18:20,128 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-18 20:18:20,129 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory\output\videos\WhentheUSArmyFoughtaSeaMonsterin1798_kenburns.mp4
+2025-07-18 20:18:20,129 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-18 20:18:20,130 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-18 20:18:20,130 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-18 20:18:20,131 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-18 20:18:21,962 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-18 20:18:21,963 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-18 20:18:21,964 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-18 20:18:22,254 - faster_whisper - INFO - Processing audio with duration 00:58.359
+2025-07-18 20:18:25,291 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 20:18:47,764 - autotube.full_pipeline - INFO - Extracted 163 words with timing
+2025-07-18 20:18:47,764 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 25.80s
+2025-07-18 20:18:48,101 - autotube.full_pipeline - INFO - Video loading took 0.34s
+2025-07-18 20:18:48,101 - autotube.full_pipeline - INFO - Original video - Duration: 58.43s, FPS: 30.0, Audio: True
+2025-07-18 20:18:48,102 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 163 words...
+2025-07-18 20:18:48,102 - autotube.full_pipeline - INFO - Group 1: 4 words (25 chars), 0.00s - 1.86s
+2025-07-18 20:18:48,102 - autotube.full_pipeline - INFO - Group 2: 3 words (13 chars), 1.84s - 2.94s
+2025-07-18 20:18:48,103 - autotube.full_pipeline - INFO - Group 3: 3 words (20 chars), 2.92s - 4.32s
+2025-07-18 20:18:48,103 - autotube.full_pipeline - INFO - Group 4: 3 words (22 chars), 4.30s - 5.76s
+2025-07-18 20:18:48,103 - autotube.full_pipeline - INFO - Group 5: 3 words (24 chars), 6.20s - 7.22s
+2025-07-18 20:18:48,104 - autotube.full_pipeline - INFO - Group 6: 4 words (24 chars), 7.20s - 8.38s
+2025-07-18 20:18:48,104 - autotube.full_pipeline - INFO - Group 7: 4 words (23 chars), 8.36s - 9.76s
+2025-07-18 20:18:48,104 - autotube.full_pipeline - INFO - Group 8: 4 words (25 chars), 9.74s - 10.98s
+2025-07-18 20:18:48,105 - autotube.full_pipeline - INFO - Group 9: 3 words (20 chars), 11.22s - 12.12s
+2025-07-18 20:18:48,105 - autotube.full_pipeline - INFO - Group 10: 4 words (21 chars), 12.10s - 13.12s
+2025-07-18 20:18:48,105 - autotube.full_pipeline - INFO - Group 11: 4 words (20 chars), 13.10s - 14.24s
+2025-07-18 20:18:48,105 - autotube.full_pipeline - INFO - Group 12: 4 words (23 chars), 14.22s - 15.64s
+2025-07-18 20:18:48,105 - autotube.full_pipeline - INFO - Group 13: 3 words (24 chars), 15.62s - 17.06s
+2025-07-18 20:18:48,106 - autotube.full_pipeline - INFO - Group 14: 3 words (20 chars), 17.04s - 18.10s
+2025-07-18 20:18:48,106 - autotube.full_pipeline - INFO - Group 15: 3 words (9 chars), 18.08s - 18.60s
+2025-07-18 20:18:48,106 - autotube.full_pipeline - INFO - Group 16: 4 words (20 chars), 18.60s - 19.98s
+2025-07-18 20:18:48,106 - autotube.full_pipeline - INFO - Group 17: 3 words (15 chars), 20.30s - 20.84s
+2025-07-18 20:18:48,106 - autotube.full_pipeline - INFO - Group 18: 3 words (22 chars), 20.82s - 22.18s
+2025-07-18 20:18:48,107 - autotube.full_pipeline - INFO - Group 19: 4 words (23 chars), 22.16s - 23.26s
+2025-07-18 20:18:48,107 - autotube.full_pipeline - INFO - Group 20: 3 words (18 chars), 23.24s - 24.16s
+2025-07-18 20:18:48,107 - autotube.full_pipeline - INFO - Group 21: 3 words (21 chars), 24.14s - 25.30s
+2025-07-18 20:18:48,107 - autotube.full_pipeline - INFO - Group 22: 3 words (18 chars), 25.56s - 26.30s
+2025-07-18 20:18:48,107 - autotube.full_pipeline - INFO - Group 23: 3 words (21 chars), 26.28s - 27.34s
+2025-07-18 20:18:48,107 - autotube.full_pipeline - INFO - Group 24: 3 words (23 chars), 27.32s - 28.82s
+2025-07-18 20:18:48,108 - autotube.full_pipeline - INFO - Group 25: 3 words (24 chars), 29.18s - 30.16s
+2025-07-18 20:18:48,108 - autotube.full_pipeline - INFO - Group 26: 3 words (23 chars), 30.14s - 31.44s
+2025-07-18 20:18:48,108 - autotube.full_pipeline - INFO - Group 27: 3 words (23 chars), 31.42s - 32.84s
+2025-07-18 20:18:48,108 - autotube.full_pipeline - INFO - Group 28: 4 words (24 chars), 32.82s - 34.24s
+2025-07-18 20:18:48,109 - autotube.full_pipeline - INFO - Group 29: 3 words (20 chars), 34.22s - 35.14s
+2025-07-18 20:18:48,109 - autotube.full_pipeline - INFO - Group 30: 3 words (30 chars), 35.12s - 36.72s
+2025-07-18 20:18:48,109 - autotube.full_pipeline - INFO - Group 31: 4 words (25 chars), 36.70s - 38.02s
+2025-07-18 20:18:48,109 - autotube.full_pipeline - INFO - Group 32: 3 words (9 chars), 38.00s - 38.44s
+2025-07-18 20:18:48,110 - autotube.full_pipeline - INFO - Group 33: 4 words (22 chars), 38.42s - 39.82s
+2025-07-18 20:18:48,110 - autotube.full_pipeline - INFO - Group 34: 3 words (17 chars), 39.80s - 40.78s
+2025-07-18 20:18:48,110 - autotube.full_pipeline - INFO - Group 35: 3 words (17 chars), 40.76s - 42.10s
+2025-07-18 20:18:48,110 - autotube.full_pipeline - INFO - Group 36: 3 words (20 chars), 42.08s - 43.22s
+2025-07-18 20:18:48,111 - autotube.full_pipeline - INFO - Group 37: 4 words (22 chars), 43.20s - 44.22s
+2025-07-18 20:18:48,111 - autotube.full_pipeline - INFO - Group 38: 4 words (19 chars), 44.20s - 45.20s
+2025-07-18 20:18:48,111 - autotube.full_pipeline - INFO - Group 39: 4 words (25 chars), 45.18s - 46.82s
+2025-07-18 20:18:48,112 - autotube.full_pipeline - INFO - Group 40: 3 words (19 chars), 46.80s - 47.52s
+2025-07-18 20:18:48,112 - autotube.full_pipeline - INFO - Group 41: 4 words (22 chars), 47.50s - 48.80s
+2025-07-18 20:18:48,112 - autotube.full_pipeline - INFO - Group 42: 3 words (20 chars), 48.78s - 49.68s
+2025-07-18 20:18:48,112 - autotube.full_pipeline - INFO - Group 43: 3 words (18 chars), 49.66s - 50.60s
+2025-07-18 20:18:48,113 - autotube.full_pipeline - INFO - Group 44: 3 words (22 chars), 50.82s - 51.62s
+2025-07-18 20:18:48,113 - autotube.full_pipeline - INFO - Group 45: 3 words (19 chars), 52.06s - 53.00s
+2025-07-18 20:18:48,113 - autotube.full_pipeline - INFO - Group 46: 3 words (21 chars), 52.98s - 53.96s
+2025-07-18 20:18:48,113 - autotube.full_pipeline - INFO - Group 47: 4 words (24 chars), 53.94s - 55.48s
+2025-07-18 20:18:48,113 - autotube.full_pipeline - INFO - Group 48: 3 words (22 chars), 55.46s - 56.90s
+2025-07-18 20:18:48,114 - autotube.full_pipeline - INFO - Group 49: 2 words (11 chars), 56.88s - 57.44s
+2025-07-18 20:18:48,114 - autotube.full_pipeline - INFO - Created 49 word groups with smart length limiting
+2025-07-18 20:18:48,114 - autotube.full_pipeline - INFO - Creating clips for group 1: 4 words
+2025-07-18 20:18:49,573 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.18s
+2025-07-18 20:18:50,625 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.14s - 1.36s
+2025-07-18 20:18:51,596 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 1.32s - 1.44s
+2025-07-18 20:18:52,492 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 1: 1.40s - 1.79s
+2025-07-18 20:18:52,492 - autotube.full_pipeline - INFO - Created clips for 1/49 word groups - ETA: 4s
+2025-07-18 20:18:52,493 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-18 20:18:53,001 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 1.84s - 2.40s
+2025-07-18 20:18:53,436 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 2.36s - 2.70s
+2025-07-18 20:18:53,970 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 2.66s - 2.87s
+2025-07-18 20:18:53,971 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-18 20:18:54,717 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 2.92s - 3.42s
+2025-07-18 20:18:55,511 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 3.38s - 4.22s
+2025-07-18 20:18:56,337 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 4.18s - 4.25s
+2025-07-18 20:18:56,337 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-18 20:18:57,272 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 4.30s - 4.84s
+2025-07-18 20:18:58,137 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 4.80s - 5.36s
+2025-07-18 20:18:59,053 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 5.32s - 6.06s
+2025-07-18 20:18:59,053 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-18 20:18:59,988 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 6.20s - 6.60s
+2025-07-18 20:19:01,243 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 6.56s - 6.76s
+2025-07-18 20:19:02,330 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 6.72s - 7.15s
+2025-07-18 20:19:02,330 - autotube.full_pipeline - INFO - Creating clips for group 6: 4 words
+2025-07-18 20:19:03,274 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 7.20s - 7.58s
+2025-07-18 20:19:04,364 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 7.54s - 8.16s
+2025-07-18 20:19:05,310 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 8.12s - 8.28s
+2025-07-18 20:19:06,177 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 6: 8.24s - 8.31s
+2025-07-18 20:19:06,177 - autotube.full_pipeline - INFO - Creating clips for group 7: 4 words
+2025-07-18 20:19:07,168 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 8.36s - 8.84s
+2025-07-18 20:19:08,130 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 8.80s - 9.08s
+2025-07-18 20:19:09,132 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 9.04s - 9.36s
+2025-07-18 20:19:10,126 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 7: 9.32s - 9.69s
+2025-07-18 20:19:10,126 - autotube.full_pipeline - INFO - Creating clips for group 8: 4 words
+2025-07-18 20:19:11,089 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 9.74s - 10.18s
+2025-07-18 20:19:11,962 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 10.14s - 10.42s
+2025-07-18 20:19:12,775 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 10.38s - 10.60s
+2025-07-18 20:19:13,565 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 8: 10.56s - 11.17s
+2025-07-18 20:19:13,566 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-18 20:19:14,350 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 11.22s - 11.60s
+2025-07-18 20:19:15,140 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 11.56s - 11.80s
+2025-07-18 20:19:16,252 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 11.76s - 12.05s
+2025-07-18 20:19:16,253 - autotube.full_pipeline - INFO - Creating clips for group 10: 4 words
+2025-07-18 20:19:17,431 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 12.10s - 12.26s
+2025-07-18 20:19:18,378 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 12.22s - 12.56s
+2025-07-18 20:19:19,147 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 12.52s - 12.74s
+2025-07-18 20:19:19,955 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 10: 12.70s - 13.05s
+2025-07-18 20:19:19,955 - autotube.full_pipeline - INFO - Creating clips for group 11: 4 words
+2025-07-18 20:19:20,599 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 13.10s - 13.38s
+2025-07-18 20:19:21,301 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 13.34s - 13.50s
+2025-07-18 20:19:22,035 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 13.46s - 13.84s
+2025-07-18 20:19:22,728 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 11: 13.80s - 14.17s
+2025-07-18 20:19:22,729 - autotube.full_pipeline - INFO - Created clips for 11/49 word groups - ETA: 35s
+2025-07-18 20:19:22,729 - autotube.full_pipeline - INFO - Creating clips for group 12: 4 words
+2025-07-18 20:19:23,716 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 14.22s - 15.02s
+2025-07-18 20:19:24,555 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 14.98s - 15.10s
+2025-07-18 20:19:25,473 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 15.06s - 15.42s
+2025-07-18 20:19:26,272 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 12: 15.38s - 15.57s
+2025-07-18 20:19:26,273 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-18 20:19:27,111 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 15.62s - 15.96s
+2025-07-18 20:19:28,015 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 15.92s - 16.88s
+2025-07-18 20:19:28,777 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 16.84s - 16.99s
+2025-07-18 20:19:28,778 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-18 20:19:29,529 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 17.04s - 17.44s
+2025-07-18 20:19:30,356 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 17.40s - 17.88s
+2025-07-18 20:19:31,732 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 17.84s - 18.03s
+2025-07-18 20:19:31,733 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-18 20:19:32,620 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 18.08s - 18.22s
+2025-07-18 20:19:33,071 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 18.18s - 18.44s
+2025-07-18 20:19:33,579 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 18.40s - 18.55s
+2025-07-18 20:19:33,580 - autotube.full_pipeline - INFO - Creating clips for group 16: 4 words
+2025-07-18 20:19:34,651 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 18.60s - 18.86s
+2025-07-18 20:19:35,386 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 18.82s - 19.06s
+2025-07-18 20:19:36,013 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 19.02s - 19.70s
+2025-07-18 20:19:36,681 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 16: 19.66s - 20.25s
+2025-07-18 20:19:36,681 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-18 20:19:37,240 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 20.30s - 20.46s
+2025-07-18 20:19:37,775 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 20.42s - 20.66s
+2025-07-18 20:19:38,337 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 20.62s - 20.77s
+2025-07-18 20:19:38,338 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-18 20:19:39,101 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 20.82s - 21.46s
+2025-07-18 20:19:39,830 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 21.42s - 21.58s
+2025-07-18 20:19:40,641 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 21.54s - 22.11s
+2025-07-18 20:19:40,641 - autotube.full_pipeline - INFO - Creating clips for group 19: 4 words
+2025-07-18 20:19:41,525 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 22.16s - 22.54s
+2025-07-18 20:19:42,567 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 22.50s - 22.80s
+2025-07-18 20:19:43,441 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 22.76s - 23.10s
+2025-07-18 20:19:44,181 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 19: 23.06s - 23.19s
+2025-07-18 20:19:44,182 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-18 20:19:44,828 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 23.24s - 23.58s
+2025-07-18 20:19:45,552 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 23.54s - 23.96s
+2025-07-18 20:19:46,268 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 23.92s - 24.09s
+2025-07-18 20:19:46,268 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-18 20:19:47,082 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 24.14s - 24.48s
+2025-07-18 20:19:47,851 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 24.44s - 24.78s
+2025-07-18 20:19:48,621 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 24.74s - 25.51s
+2025-07-18 20:19:48,621 - autotube.full_pipeline - INFO - Created clips for 21/49 word groups - ETA: 61s
+2025-07-18 20:19:48,621 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-18 20:19:49,325 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 25.56s - 25.76s
+2025-07-18 20:19:49,983 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 25.72s - 25.94s
+2025-07-18 20:19:50,588 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 25.90s - 26.23s
+2025-07-18 20:19:50,589 - autotube.full_pipeline - INFO - Creating clips for group 23: 3 words
+2025-07-18 20:19:51,319 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 26.28s - 26.56s
+2025-07-18 20:19:52,095 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 26.52s - 26.90s
+2025-07-18 20:19:52,821 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 26.86s - 27.27s
+2025-07-18 20:19:52,821 - autotube.full_pipeline - INFO - Creating clips for group 24: 3 words
+2025-07-18 20:19:53,659 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 27.32s - 28.20s
+2025-07-18 20:19:54,483 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 28.16s - 28.32s
+2025-07-18 20:19:55,318 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 28.28s - 29.12s
+2025-07-18 20:19:55,318 - autotube.full_pipeline - INFO - Creating clips for group 25: 3 words
+2025-07-18 20:19:56,215 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 29.18s - 29.28s
+2025-07-18 20:19:57,086 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 29.24s - 29.56s
+2025-07-18 20:19:57,995 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 29.52s - 30.09s
+2025-07-18 20:19:57,995 - autotube.full_pipeline - INFO - Creating clips for group 26: 3 words
+2025-07-18 20:19:58,758 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 26: 30.14s - 30.50s
+2025-07-18 20:19:59,595 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 26: 30.46s - 31.32s
+2025-07-18 20:20:00,475 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 26: 31.28s - 31.37s
+2025-07-18 20:20:00,475 - autotube.full_pipeline - INFO - Creating clips for group 27: 3 words
+2025-07-18 20:20:01,263 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 27: 31.42s - 31.60s
+2025-07-18 20:20:02,075 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 27: 31.56s - 32.48s
+2025-07-18 20:20:02,887 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 27: 32.44s - 32.77s
+2025-07-18 20:20:02,887 - autotube.full_pipeline - INFO - Creating clips for group 28: 4 words
+2025-07-18 20:20:03,821 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 28: 32.82s - 33.42s
+2025-07-18 20:20:04,703 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 28: 33.38s - 33.72s
+2025-07-18 20:20:05,562 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 28: 33.68s - 33.92s
+2025-07-18 20:20:06,428 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 28: 33.88s - 34.17s
+2025-07-18 20:20:06,428 - autotube.full_pipeline - INFO - Creating clips for group 29: 3 words
+2025-07-18 20:20:07,221 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 29: 34.22s - 34.40s
+2025-07-18 20:20:07,970 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 29: 34.36s - 34.64s
+2025-07-18 20:20:08,774 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 29: 34.60s - 35.07s
+2025-07-18 20:20:08,774 - autotube.full_pipeline - INFO - Creating clips for group 30: 3 words
+2025-07-18 20:20:09,787 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 30: 35.12s - 35.62s
+2025-07-18 20:20:10,804 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 30: 35.58s - 36.16s
+2025-07-18 20:20:11,927 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 30: 36.12s - 36.65s
+2025-07-18 20:20:11,927 - autotube.full_pipeline - INFO - Creating clips for group 31: 4 words
+2025-07-18 20:20:12,833 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 31: 36.70s - 37.00s
+2025-07-18 20:20:13,880 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 31: 36.96s - 37.14s
+2025-07-18 20:20:14,722 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 31: 37.10s - 37.78s
+2025-07-18 20:20:15,831 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 31: 37.74s - 37.95s
+2025-07-18 20:20:15,832 - autotube.full_pipeline - INFO - Created clips for 31/49 word groups - ETA: 88s
+2025-07-18 20:20:15,832 - autotube.full_pipeline - INFO - Creating clips for group 32: 3 words
+2025-07-18 20:20:16,205 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 32: 38.00s - 38.22s
+2025-07-18 20:20:16,588 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 32: 38.18s - 38.32s
+2025-07-18 20:20:17,018 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 32: 38.28s - 38.37s
+2025-07-18 20:20:17,018 - autotube.full_pipeline - INFO - Creating clips for group 33: 4 words
+2025-07-18 20:20:17,950 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 33: 38.42s - 38.94s
+2025-07-18 20:20:18,796 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 33: 38.90s - 39.16s
+2025-07-18 20:20:19,710 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 33: 39.12s - 39.42s
+2025-07-18 20:20:21,598 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 33: 39.38s - 39.75s
+2025-07-18 20:20:21,599 - autotube.full_pipeline - INFO - Creating clips for group 34: 3 words
+2025-07-18 20:20:23,804 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 34: 39.80s - 40.34s
+2025-07-18 20:20:24,852 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 34: 40.30s - 40.48s
+2025-07-18 20:20:25,532 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 34: 40.44s - 40.71s
+2025-07-18 20:20:25,532 - autotube.full_pipeline - INFO - Creating clips for group 35: 3 words
+2025-07-18 20:20:26,132 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 35: 40.76s - 41.66s
+2025-07-18 20:20:26,902 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 35: 41.62s - 41.76s
+2025-07-18 20:20:27,459 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 35: 41.72s - 42.03s
+2025-07-18 20:20:27,459 - autotube.full_pipeline - INFO - Creating clips for group 36: 3 words
+2025-07-18 20:20:28,195 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 36: 42.08s - 42.46s
+2025-07-18 20:20:29,098 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 36: 42.42s - 42.78s
+2025-07-18 20:20:29,916 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 36: 42.74s - 43.15s
+2025-07-18 20:20:29,917 - autotube.full_pipeline - INFO - Creating clips for group 37: 4 words
+2025-07-18 20:20:30,693 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 37: 43.20s - 43.48s
+2025-07-18 20:20:31,500 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 37: 43.44s - 43.68s
+2025-07-18 20:20:32,285 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 37: 43.64s - 43.92s
+2025-07-18 20:20:33,131 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 37: 43.88s - 44.15s
+2025-07-18 20:20:33,131 - autotube.full_pipeline - INFO - Creating clips for group 38: 4 words
+2025-07-18 20:20:33,785 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 38: 44.20s - 44.60s
+2025-07-18 20:20:34,392 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 38: 44.56s - 44.90s
+2025-07-18 20:20:35,018 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 38: 44.86s - 45.06s
+2025-07-18 20:20:35,658 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 38: 45.02s - 45.13s
+2025-07-18 20:20:35,658 - autotube.full_pipeline - INFO - Creating clips for group 39: 4 words
+2025-07-18 20:20:36,542 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 39: 45.18s - 45.30s
+2025-07-18 20:20:37,349 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 39: 45.26s - 46.00s
+2025-07-18 20:20:38,137 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 39: 45.96s - 46.75s
+2025-07-18 20:20:38,961 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 39: 46.72s - 46.75s
+2025-07-18 20:20:38,962 - autotube.full_pipeline - INFO - Creating clips for group 40: 3 words
+2025-07-18 20:20:39,679 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 40: 46.80s - 47.06s
+2025-07-18 20:20:40,558 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 40: 47.02s - 47.28s
+2025-07-18 20:20:41,645 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 40: 47.24s - 47.45s
+2025-07-18 20:20:41,645 - autotube.full_pipeline - INFO - Creating clips for group 41: 4 words
+2025-07-18 20:20:42,405 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 41: 47.50s - 48.22s
+2025-07-18 20:20:43,174 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 41: 48.18s - 48.40s
+2025-07-18 20:20:43,958 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 41: 48.36s - 48.52s
+2025-07-18 20:20:44,691 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 41: 48.48s - 48.73s
+2025-07-18 20:20:44,691 - autotube.full_pipeline - INFO - Created clips for 41/49 word groups - ETA: 117s
+2025-07-18 20:20:44,691 - autotube.full_pipeline - INFO - Creating clips for group 42: 3 words
+2025-07-18 20:20:45,498 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 42: 48.78s - 48.96s
+2025-07-18 20:20:46,257 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 42: 48.92s - 49.54s
+2025-07-18 20:20:47,037 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 42: 49.50s - 49.61s
+2025-07-18 20:20:47,038 - autotube.full_pipeline - INFO - Creating clips for group 43: 3 words
+2025-07-18 20:20:47,657 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 43: 49.66s - 49.98s
+2025-07-18 20:20:48,261 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 43: 49.94s - 50.26s
+2025-07-18 20:20:48,958 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 43: 50.22s - 50.77s
+2025-07-18 20:20:48,959 - autotube.full_pipeline - INFO - Creating clips for group 44: 3 words
+2025-07-18 20:20:49,808 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 44: 50.82s - 51.04s
+2025-07-18 20:20:50,738 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 44: 51.00s - 51.26s
+2025-07-18 20:20:51,708 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 44: 51.22s - 51.92s
+2025-07-18 20:20:51,709 - autotube.full_pipeline - INFO - Creating clips for group 45: 3 words
+2025-07-18 20:20:52,550 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 45: 52.06s - 52.22s
+2025-07-18 20:20:53,335 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 45: 52.18s - 52.62s
+2025-07-18 20:20:54,210 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 45: 52.58s - 52.93s
+2025-07-18 20:20:54,210 - autotube.full_pipeline - INFO - Creating clips for group 46: 3 words
+2025-07-18 20:20:55,161 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 46: 52.98s - 53.26s
+2025-07-18 20:20:56,012 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 46: 53.22s - 53.56s
+2025-07-18 20:20:56,897 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 46: 53.52s - 53.89s
+2025-07-18 20:20:56,898 - autotube.full_pipeline - INFO - Creating clips for group 47: 4 words
+2025-07-18 20:20:57,820 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 47: 53.94s - 54.72s
+2025-07-18 20:20:58,765 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 47: 54.68s - 55.02s
+2025-07-18 20:20:59,641 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 47: 54.98s - 55.24s
+2025-07-18 20:21:00,579 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 47: 55.20s - 55.41s
+2025-07-18 20:21:00,579 - autotube.full_pipeline - INFO - Creating clips for group 48: 3 words
+2025-07-18 20:21:01,472 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 48: 55.46s - 56.36s
+2025-07-18 20:21:02,439 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 48: 56.32s - 56.68s
+2025-07-18 20:21:03,321 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 48: 56.64s - 56.83s
+2025-07-18 20:21:03,322 - autotube.full_pipeline - INFO - Creating clips for group 49: 2 words
+2025-07-18 20:21:03,727 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 49: 56.88s - 57.18s
+2025-07-18 20:21:04,146 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 49: 57.14s - 57.64s
+2025-07-18 20:21:04,146 - autotube.full_pipeline - INFO - Created 163 individual subtitle clips
+2025-07-18 20:21:04,148 - autotube.full_pipeline - INFO - Viral subtitle creation took 136.05s
+2025-07-18 20:21:04,148 - autotube.full_pipeline - INFO - Subtitle clips count: 163
+2025-07-18 20:21:04,160 - autotube.full_pipeline - INFO - Video composition took 0.01s
+2025-07-18 20:21:04,160 - autotube.full_pipeline - INFO - Final video - Duration: 58.43s, Audio: True
+2025-07-18 20:21:04,160 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\WhentheUSArmyFoughtaSeaMonsterin1798_final.mp4
+2025-07-18 20:22:14,937 - autotube.full_pipeline - INFO - Video writing took 70.78s
+2025-07-18 20:22:14,938 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-18 20:22:15,347 - autotube.full_pipeline - INFO - Output file - Duration: 58.43s, Audio: True, Playable: True
+2025-07-18 20:22:15,377 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\WhentheUSArmyFoughtaSeaMonsterin1798_final.mp4
+2025-07-18 20:22:15,378 - autotube.full_pipeline - INFO - Total processing time: 233.41s
+2025-07-18 20:22:15,379 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\WhentheUSArmyFoughtaSeaMonsterin1798_final.mp4
+2025-07-18 20:22:15,380 - autotube.full_pipeline - INFO - 📊 Final video size: 9,394,388 bytes (9.0 MB)
+2025-07-18 20:22:15,380 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-18 20:22:15,381 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory\output\videos\WhentheUSArmyFoughtaSeaMonsterin1798_kenburns.mp4
+2025-07-18 20:22:15,381 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\WhentheUSArmyFoughtaSeaMonsterin1798_final.mp4
+2025-07-18 20:22:15,417 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (296.40s)
+2025-07-18 20:22:15,418 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-18 20:22:15,421 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory\output\fp_logs\pipeline_report_WhentheUSArmyFoughtaSeaMonsterin1798_20250718_202215.json
+2025-07-18 20:22:15,422 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-18 20:22:15,422 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 20:22:15,422 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 395.67s
+2025-07-18 20:22:15,423 - autotube.full_pipeline - INFO - 📁 Story Title: WhentheUSArmyFoughtaSeaMonsterin1798
+2025-07-18 20:22:15,423 - autotube.full_pipeline - INFO - 📁 Sanitized Title: WhentheUSArmyFoughtaSeaMonsterin1798
+2025-07-18 20:22:15,423 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory\output\fp_logs\pipeline_report_WhentheUSArmyFoughtaSeaMonsterin1798_20250718_202215.json

@@ -1,0 +1,58 @@
+{
+  "pipeline_info": {
+    "story_title": "SicilianKnightsLastStandABloodyRevolt",
+    "sanitized_title": "SicilianKnightsLastStandABloodyRevolt",
+    "start_time": "2025-07-19T19:18:21.419063",
+    "end_time": "2025-07-19T19:24:09.634438",
+    "total_duration": 348.21537613868713,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1752967101.4321582,
+      "end": 1752967159.7840438,
+      "duration": 58.35188555717468,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1752967159.7840438,
+      "end": 1752967449.5891242,
+      "duration": 289.80508041381836,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\SicilianKnightsLastStandABloodyRevolt\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\SicilianKnightsLastStandABloodyRevolt\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\SicilianKnightsLastStandABloodyRevolt\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\SicilianKnightsLastStandABloodyRevolt\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\SicilianKnightsLastStandABloodyRevolt\\audio_SicilianKnightsLastStandABloodyRevolt.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\SicilianKnightsLastStandABloodyRevolt\\audio_SicilianKnightsLastStandABloodyRevolt_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\SicilianKnightsLastStandABloodyRevolt\\mixed_audio_SicilianKnightsLastStandABloodyRevolt.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\SicilianKnightsLastStandABloodyRevolt\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\SicilianKnightsLastStandABloodyRevolt\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\SicilianKnightsLastStandABloodyRevolt\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\SicilianKnightsLastStandABloodyRevolt\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\SicilianKnightsLastStandABloodyRevolt\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\SicilianKnightsLastStandABloodyRevolt\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\SicilianKnightsLastStandABloodyRevolt\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\SicilianKnightsLastStandABloodyRevolt\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\SicilianKnightsLastStandABloodyRevolt\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\SicilianKnightsLastStandABloodyRevolt\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\SicilianKnightsLastStandABloodyRevolt\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\SicilianKnightsLastStandABloodyRevolt\\image_12.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\videos\\SicilianKnightsLastStandABloodyRevolt_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\subtitles_processed_video\\SicilianKnightsLastStandABloodyRevolt_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

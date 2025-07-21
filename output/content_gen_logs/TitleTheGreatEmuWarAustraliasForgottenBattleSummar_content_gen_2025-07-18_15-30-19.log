@@ -1,0 +1,10 @@
+2025-07-18 15:30:19,463 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Great Emu War: Australia's Forgotten Battle  
+**Summary:** In 1932, Australia waged an absurd yet real war against emus that were invading farmland, leading to a bizarre conflict that ultimately resulted in the defeat of the military by these flightless birds.
+2025-07-18 15:30:19,463 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory\output\content_gen_logs\TitleTheGreatEmuWarAustraliasForgottenBattleSummar_content_gen_2025-07-18_15-30-19.log
+2025-07-18 15:30:19,472 - autotube.content_gen - INFO - 📁 Sanitized folder name: TheGreatEmuWarAustraliasBizarreConflict
+2025-07-18 15:30:19,473 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 165 words
+2025-07-18 15:30:19,476 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\TheGreatEmuWarAustraliasBizarreConflict\story.json (1,602 bytes)
+2025-07-18 15:30:19,476 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\TheGreatEmuWarAustraliasBizarreConflict\topic.txt (276 bytes)
+2025-07-18 15:30:19,476 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\TheGreatEmuWarAustraliasBizarreConflict\metadata.json (586 bytes)
+2025-07-18 15:30:19,477 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\TheGreatEmuWarAustraliasBizarreConflict\story.txt (1,523 bytes)
+2025-07-18 15:30:19,477 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory\output\stories\TheGreatEmuWarAustraliasBizarreConflict

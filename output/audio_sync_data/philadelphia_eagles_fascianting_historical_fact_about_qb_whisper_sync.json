@@ -1,0 +1,241 @@
+{
+  "story_title": "philadelphia eagles fascianting historical fact about qb",
+  "original_story": "[excited] You won't believe this! In 2017, the Philadelphia Eagles' quarterback Nick Foles almost quit football completely! After struggling with injuries and lack of playing time, he was ready to hang up his cleats. But instead, he led the Eagles to their first Super Bowl win, throwing for 373 yards and three touchdowns against the New England Patriots! Foles became an unlikely hero, and his underdog story captivated fans everywhere. Turns out, sometimes a second chance is all you need to make history.",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.1,
+      "audio_content": "You won't believe this. In 2017,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9622461299101511
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.1,
+      "timestamp_end": 4.2,
+      "audio_content": "the Philadelphia Eagles quarterback Nick",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9681431531906128
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.2,
+      "timestamp_end": 6.300000000000001,
+      "audio_content": "almost quit football completely.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9836551994085312
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.300000000000001,
+      "timestamp_end": 8.4,
+      "audio_content": "struggling with injuries and lack of playing",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9868306517601013
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.4,
+      "timestamp_end": 10.5,
+      "audio_content": "he was ready to hang up his cleats. But",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9920801089869605
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 10.5,
+      "timestamp_end": 12.600000000000001,
+      "audio_content": "he led the Eagles to their first",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9897684710366386
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 12.600000000000001,
+      "timestamp_end": 14.700000000000001,
+      "audio_content": "Bowl win, throwing for",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9643355309963226
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 14.700000000000001,
+      "timestamp_end": 16.8,
+      "audio_content": "yards and three touchdowns against the New England",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9798824526369572
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 16.8,
+      "timestamp_end": 18.900000000000002,
+      "audio_content": "Foles became an unlikely",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9956568330526352
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 18.900000000000002,
+      "timestamp_end": 21.0,
+      "audio_content": "and his underdog story",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9843316897749901
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 21.0,
+      "timestamp_end": 23.1,
+      "audio_content": "fans everywhere. Turns out,",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9886193424463272
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 23.1,
+      "timestamp_end": 25.200000000000003,
+      "audio_content": "a second chance is all you need to make history.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9835334181785583
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.1,
+      "audio_content": "You won't believe this. In 2017,",
+      "image_prompt": "Medium shot of Nick Foles in full football gear, face determined and eyes focused, as he throws an intense pass in a packed stadium. Dramatic chiaroscuro lighting highlights the sweat on his brow, capturing the tension and stakes of the moment, while fans erupt in the background.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9622461299101511,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.1,
+      "timestamp_end": 4.2,
+      "audio_content": "the Philadelphia Eagles quarterback Nick",
+      "image_prompt": "Wide shot of a bustling Philadelphia street in 2017, filled with excited Eagles fans wearing green jerseys, celebrating a pivotal moment in sports history. The city skyline looms in the background, capturing the spirit of hope and determination as Nick Foles prepares to lead his team to victory.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9681431531906128,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.2,
+      "timestamp_end": 6.300000000000001,
+      "audio_content": "almost quit football completely.",
+      "image_prompt": "Medium shot of Nick Foles on the sidelines, helmet in hand, looking contemplative and vulnerable. Dim light casts shadows on his face, highlighting the weight of his decision as teammates rally in the background, capturing the tension between doubt and hope.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9836551994085312,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.300000000000001,
+      "timestamp_end": 8.4,
+      "audio_content": "struggling with injuries and lack of playing",
+      "image_prompt": "Medium shot of Nick Foles on the sidelines, brow furrowed in deep thought, as he watches his teammates play. The stadium lights cast dramatic shadows, highlighting his uncertainty and determination, capturing the weight of his injuries and the pressure of a second chance.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9868306517601013,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.4,
+      "timestamp_end": 10.5,
+      "audio_content": "he was ready to hang up his cleats. But",
+      "image_prompt": "Medium shot of Nick Foles on the football field, helmet in hand, looking contemplative. The stadium is bustling in the background, dramatic chiaroscuro lighting highlighting his determined expression, capturing the moment before he chooses to embrace his second chance.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9920801089869605,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 10.5,
+      "timestamp_end": 12.600000000000001,
+      "audio_content": "he led the Eagles to their first",
+      "image_prompt": "Medium shot of Nick Foles in a dramatic pose, wearing his Eagles uniform, intense focus in his eyes as he throws a football. Behind him, a blurred stadium filled with excited fans, dramatic chiaroscuro lighting highlighting his determination and the weight of the moment.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9897684710366386,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 12.600000000000001,
+      "timestamp_end": 14.700000000000001,
+      "audio_content": "Bowl win, throwing for",
+      "image_prompt": "Medium shot of Nick Foles on the football field, intense focus in his eyes, as he throws a perfect spiral pass under dramatic chiaroscuro lighting, with the crowd blurred in the background, capturing the electric atmosphere of the moment.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9643355309963226,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 14.700000000000001,
+      "timestamp_end": 16.8,
+      "audio_content": "yards and three touchdowns against the New England",
+      "image_prompt": "Medium shot of Nick Foles on the sidelines, helmet in hand, looking determined yet contemplative. Behind him, the roaring crowd in the stadium, illuminated by the stadium lights, creates a dramatic atmosphere. Shadows play across his focused expression, capturing the weight of his journey.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9798824526369572,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 16.8,
+      "timestamp_end": 18.900000000000002,
+      "audio_content": "Foles became an unlikely",
+      "image_prompt": "Medium shot of Nick Foles on the football field, a determined look on his face as he prepares to throw a pass, surrounded by teammates in their green Eagles uniforms, under dramatic chiaroscuro lighting, capturing the tension and anticipation of the moment.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9956568330526352,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 18.900000000000002,
+      "timestamp_end": 21.0,
+      "audio_content": "and his underdog story",
+      "image_prompt": "Medium shot of Nick Foles, determined yet contemplative, standing on the sidelines wearing his Eagles uniform, with the stadium's roaring crowd behind him. The chiaroscuro lighting highlights his focused expression, capturing the weight of his underdog journey as he prepares to lead his team to victory.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9843316897749901,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 21.0,
+      "timestamp_end": 23.1,
+      "audio_content": "fans everywhere. Turns out,",
+      "image_prompt": "Medium shot of Nick Foles standing on the football field, wearing his Eagles jersey, looking contemplative as he holds a football. The stadium looms behind him, filled with fans, shadows and light creating a dramatic atmosphere, capturing the weight of his decision to continue his journey.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9886193424463272,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 23.1,
+      "timestamp_end": 25.200000000000003,
+      "audio_content": "a second chance is all you need to make history.",
+      "image_prompt": "Close-up of Nick Foles, sweat glistening on his forehead, eyes filled with determination as he stands on the field, the stadium roaring behind him. Dramatic chiaroscuro lighting highlights his focused expression, capturing the weight of his second chance before the historic Super Bowl moment.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9835334181785583,
+      "content_type": "exposition_setup",
+      "shot_type": "close_up"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 25.200000000000003,
+    "whisper_model": "base"
+  }
+}

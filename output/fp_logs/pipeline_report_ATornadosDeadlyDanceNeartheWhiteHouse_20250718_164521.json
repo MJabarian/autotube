@@ -1,0 +1,65 @@
+{
+  "pipeline_info": {
+    "story_title": "ATornadosDeadlyDanceNeartheWhiteHouse",
+    "sanitized_title": "ATornadosDeadlyDanceNeartheWhiteHouse",
+    "start_time": "2025-07-18T16:39:01.766183",
+    "end_time": "2025-07-18T16:45:21.407652",
+    "total_duration": 379.64146995544434,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1752871141.7702057,
+      "end": 1752871258.5889318,
+      "duration": 116.81872606277466,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1752871258.5889318,
+      "end": 1752871521.4066532,
+      "duration": 262.8177213668823,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\ATornadosDeadlyDanceNeartheWhiteHouse\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\ATornadosDeadlyDanceNeartheWhiteHouse\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\ATornadosDeadlyDanceNeartheWhiteHouse\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\ATornadosDeadlyDanceNeartheWhiteHouse\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\audio\\ATornadosDeadlyDanceNeartheWhiteHouse\\audio_ATornadosDeadlyDanceNeartheWhiteHouse.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\mixed_audio\\ATornadosDeadlyDanceNeartheWhiteHouse\\mixed_audio_ATornadosDeadlyDanceNeartheWhiteHouse.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_12.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_13.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_14.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_15.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_16.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_17.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_18.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_19.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\ATornadosDeadlyDanceNeartheWhiteHouse\\image_20.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory\\output\\videos\\ATornadosDeadlyDanceNeartheWhiteHouse_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory\\output\\subtitles_processed_video\\ATornadosDeadlyDanceNeartheWhiteHouse_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

@@ -1,0 +1,394 @@
+2025-07-21 13:25:06,097 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-21 13:25:06,097 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250721_132506.log
+2025-07-21 13:25:06,097 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-21 13:25:06,098 - autotube.full_pipeline - INFO - ============================================================
+2025-07-21 13:25:06,098 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-21 13:25:06,107 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-21 13:25:07,682 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:11,860 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:12,411 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:12,437 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Great Moon Hoax of 1835  
+**Summary:** A series of fantastical articles published in the New York Sun claimed that life had been discovered on the Moon, complete with detailed descriptions of lunar creatures, capturing the public's imagination.
+2025-07-21 13:25:12,438 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheGreatMoonHoaxof1835SummaryAseriesoffantast_content_gen_2025-07-21_13-25-12.log
+2025-07-21 13:25:12,438 - autotube.content_gen - INFO - 📁 Sanitized folder name: WhentheMoonwasHometoStrangeCreatures
+2025-07-21 13:25:12,438 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 94 words
+2025-07-21 13:25:12,442 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\WhentheMoonwasHometoStrangeCreatures\story.json (1,241 bytes)
+2025-07-21 13:25:12,442 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\WhentheMoonwasHometoStrangeCreatures\topic.txt (260 bytes)
+2025-07-21 13:25:12,443 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\WhentheMoonwasHometoStrangeCreatures\metadata.json (686 bytes)
+2025-07-21 13:25:12,443 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\WhentheMoonwasHometoStrangeCreatures\story.txt (1,161 bytes)
+2025-07-21 13:25:12,443 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\WhentheMoonwasHometoStrangeCreatures
+2025-07-21 13:25:21,105 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\WhentheMoonwasHometoStrangeCreatures\audio_WhentheMoonwasHometoStrangeCreatures.mp3 (255,808 bytes)
+2025-07-21 13:25:21,203 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 31.95s duration
+2025-07-21 13:25:21,288 - autotube.content_gen - INFO - ✅ Using original TTS audio: 31.95s
+2025-07-21 13:25:21,288 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\WhentheMoonwasHometoStrangeCreatures\audio_WhentheMoonwasHometoStrangeCreatures.mp3 (255,808 bytes, 31.95s)
+2025-07-21 13:25:21,289 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-21 13:25:21,289 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-21 13:25:21,290 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\WhentheMoonwasHometoStrangeCreatures\audio_WhentheMoonwasHometoStrangeCreatures.mp3
+2025-07-21 13:25:21,290 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-21 13:25:22,037 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-21 13:25:22,123 - faster_whisper - INFO - Processing audio with duration 00:31.897
+2025-07-21 13:25:22,736 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-21 13:25:27,689 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 30.80s
+2025-07-21 13:25:27,690 - whisper_audio_synchronizer - INFO - 📝 Extracted 96 words with timestamps
+2025-07-21 13:25:27,691 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 30.80s, Image duration: 2.57s
+2025-07-21 13:25:27,693 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-21 13:25:27,693 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-21 13:25:30,004 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:30,007 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): Establishing shot of 1830s New York City bustling ...
+2025-07-21 13:25:31,844 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:31,845 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of a bustling 1830s New York street, wit...
+2025-07-21 13:25:34,158 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:34,160 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of a bustling 1830s New York City street...
+2025-07-21 13:25:36,966 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:36,968 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/medium_shot): Medium shot of a bustling 1830s newspaper office, ...
+2025-07-21 13:25:39,615 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:39,617 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/medium_shot): Medium shot of an excited crowd in 1835 New York, ...
+2025-07-21 13:25:42,121 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:42,123 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/medium_shot): Medium shot of an excited crowd gathered outside t...
+2025-07-21 13:25:44,678 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:44,679 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of a bustling 1830s New York street, w...
+2025-07-21 13:25:46,612 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:46,616 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (emotional_moment/medium_shot): Medium shot of a diverse group of 1830s New Yorker...
+2025-07-21 13:25:49,178 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:49,180 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of a crowded 1830s bookstore, patrons ...
+2025-07-21 13:25:54,717 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:54,718 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/medium_shot): Medium shot of a bustling 1835 New York City stree...
+2025-07-21 13:25:56,947 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:56,948 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/medium_shot): Medium shot of a bustling 1835 New York street fil...
+2025-07-21 13:25:59,660 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 13:25:59,661 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/medium_shot): Medium shot of a lively 19th-century newspaper off...
+2025-07-21 13:25:59,663 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\When_the_Moon_was_Home_to_Strange_Creatures_whisper_sync.json
+2025-07-21 13:25:59,663 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-21 13:25:59,663 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-21 13:25:59,664 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-21 13:25:59,664 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-21 13:25:59,667 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\epic-action-overture-majestic-action-cinematic-detective-245050.mp3 (6,752,548 bytes)
+2025-07-21 13:25:59,668 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\WhentheMoonwasHometoStrangeCreatures\music_selection.json (407 bytes)
+2025-07-21 13:25:59,669 - autotube.content_gen - INFO - ✅ Music selected: epic-action-overture-majestic-action-cinematic-detective-245050.mp3
+2025-07-21 13:25:59,670 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-21 13:25:59,670 - src.replicate_image_generator - INFO - Generating images for story: When the Moon was Home to Strange Creatures
+2025-07-21 13:25:59,670 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-21 13:25:59,671 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-21 13:25:59,671 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-21 13:26:00,631 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 13:26:02,249 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 13:26:03,831 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 13:26:05,394 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 13:26:07,004 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 13:26:08,506 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 13:26:10,014 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 13:26:11,489 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 13:26:12,951 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 13:26:14,530 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 13:26:16,094 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 13:26:17,824 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 13:26:18,800 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-21 13:26:18,800 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-21 13:26:18,803 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-21 13:26:18,804 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-21 13:26:18,806 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-21 13:26:18,806 - autotube.content_gen - INFO - 📊 Total time: 72.70s, Cost: $0.0360
+2025-07-21 13:26:18,806 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Great Moon Hoax of 1835  
+**Summary:** A series of fantastical articles published in the New York Sun claimed that life had been discovered on the Moon, complete with detailed descriptions of lunar creatures, capturing the public's imagination.
+2025-07-21 13:26:18,827 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (72.72s)
+2025-07-21 13:26:18,828 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-21 13:26:18,828 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-21 13:26:18,828 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: WhentheMoonwasHometoStrangeCreatures
+2025-07-21 13:26:18,828 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: WhentheMoonwasHometoStrangeCreatures
+2025-07-21 13:26:18,828 - autotube.full_pipeline - INFO - ✅ Using original TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\WhentheMoonwasHometoStrangeCreatures\audio_WhentheMoonwasHometoStrangeCreatures.mp3
+2025-07-21 13:26:18,828 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\WhentheMoonwasHometoStrangeCreatures\music_selection.json
+2025-07-21 13:26:18,834 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\epic-action-overture-majestic-action-cinematic-detective-245050.mp3
+2025-07-21 13:26:18,851 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-21 13:26:18,852 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\WhentheMoonwasHometoStrangeCreatures\audio_WhentheMoonwasHometoStrangeCreatures.mp3
+2025-07-21 13:26:18,932 - src.audio_mixer - INFO - Loaded audio: 31897ms (31.897s), 44100Hz, 2 channels
+2025-07-21 13:26:18,933 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\epic-action-overture-majestic-action-cinematic-detective-245050.mp3
+2025-07-21 13:26:19,334 - src.audio_mixer - INFO - Loaded audio: 211017ms (211.017s), 44100Hz, 2 channels
+2025-07-21 13:26:19,335 - src.audio_mixer - INFO - Voice duration: 31897ms
+2025-07-21 13:26:19,335 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-21 13:26:19,335 - src.audio_mixer - INFO - Target duration: 31897ms
+2025-07-21 13:26:19,336 - src.audio_mixer - INFO - Trimmed music from 31897ms to 31897ms
+2025-07-21 13:26:19,336 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-21 13:26:19,359 - src.audio_mixer - INFO - Voice adjusted by 9.5dB, Music by -7.2dB
+2025-07-21 13:26:19,373 - src.audio_mixer - INFO - Added 500ms fade-out to prevent end artifacts
+2025-07-21 13:26:19,392 - src.audio_mixer - INFO - ✅ Perfect duration match: 31897ms
+2025-07-21 13:26:19,393 - src.audio_mixer - INFO - Audio mixing completed: 31897ms
+2025-07-21 13:26:19,803 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\WhentheMoonwasHometoStrangeCreatures\mixed_audio_WhentheMoonwasHometoStrangeCreatures.mp3
+2025-07-21 13:26:19,807 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\WhentheMoonwasHometoStrangeCreatures\mixed_audio_WhentheMoonwasHometoStrangeCreatures.mp3
+2025-07-21 13:26:19,808 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 1,014,045 bytes (1.0 MB)
+2025-07-21 13:26:19,809 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: WhentheMoonwasHometoStrangeCreatures
+2025-07-21 13:26:19,929 - autotube.full_pipeline - INFO - 🎵 Mixed audio duration: 31.948 seconds
+2025-07-21 13:26:20,002 - autotube.full_pipeline - INFO - 🎵 TTS audio duration: 31.897 seconds
+2025-07-21 13:26:20,003 - autotube.full_pipeline - INFO - 🎯 Exact target duration: 31.897 seconds
+2025-07-21 13:26:20,671 - autotube.full_pipeline - INFO - 🔧 Trimmed audio duration: 31.897s
+2025-07-21 13:26:20,671 - autotube.full_pipeline - INFO - ✅ Perfect audio trimming: 31.897s
+2025-07-21 13:26:20,672 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-21 13:26:20,672 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-21 13:26:20,672 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: WhentheMoonwasHometoStrangeCreatures
+2025-07-21 13:26:20,784 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-21 13:26:20,784 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-21 13:26:20,784 - autotube.full_pipeline - INFO - 🎵 Audio duration: 31.950s
+2025-07-21 13:26:20,784 - autotube.full_pipeline - INFO - 📸 Number of images: 12
+2025-07-21 13:26:20,785 - autotube.full_pipeline - INFO - ⏱️ Calculated image duration: 2.663s
+2025-07-21 13:26:20,785 - autotube.full_pipeline - INFO - 📐 Expected total video duration: 31.950s
+2025-07-21 13:26:20,785 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.66 seconds per image
+2025-07-21 13:26:20,785 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\WhentheMoonwasHometoStrangeCreatures\WhentheMoonwasHometoStrangeCreatures_kenburns.mp4
+2025-07-21 13:26:20,786 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['zoom_out', 'pan_left', 'zoom_in', 'pan_right', 'pan_left']...
+2025-07-21 13:26:20,786 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-21 13:26:20,786 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 13:26:20,808 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-21 13:26:20,808 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-21 13:26:20,825 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-21 13:26:20,826 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-21 13:26:20,843 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-21 13:26:20,844 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-21 13:26:20,865 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-21 13:26:20,866 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-21 13:26:20,893 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-21 13:26:20,893 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-21 13:26:20,923 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-21 13:26:20,923 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-21 13:26:20,951 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-21 13:26:20,951 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-21 13:26:20,983 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-21 13:26:20,984 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-21 13:26:21,011 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-21 13:26:21,011 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 13:26:21,040 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-21 13:26:21,040 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-21 13:26:21,065 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-21 13:26:21,066 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-21 13:26:21,093 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-21 13:26:21,129 - autotube.full_pipeline - INFO - 📐 Expected video duration: 31.950s
+2025-07-21 13:26:21,130 - autotube.full_pipeline - INFO - 📹 Actual video duration: 31.950s
+2025-07-21 13:26:21,130 - autotube.full_pipeline - INFO - ✅ Video duration matches expected: 31.950s
+2025-07-21 13:26:21,130 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-21 13:26:21,215 - autotube.full_pipeline - INFO - 📹 Video duration: 31.950s
+2025-07-21 13:26:21,215 - autotube.full_pipeline - INFO - 🎵 Audio duration: 31.950s
+2025-07-21 13:26:21,215 - autotube.full_pipeline - INFO - ✅ Perfect duration match: 31.950s
+2025-07-21 13:26:21,235 - autotube.full_pipeline - INFO - 🔧 CRITICAL FIX: Video 31.950s → 31.950s
+2025-07-21 13:26:21,235 - autotube.full_pipeline - INFO - 🔧 This ensures video ends exactly when audio ends
+2025-07-21 13:26:21,235 - autotube.full_pipeline - INFO - 🔍 Final verification - Audio: 31.950s, Video: 31.950s
+2025-07-21 13:26:21,236 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 31.950s
+2025-07-21 13:26:21,236 - autotube.full_pipeline - INFO - ✅ Video will end exactly when audio ends
+2025-07-21 13:26:21,236 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\WhentheMoonwasHometoStrangeCreatures\WhentheMoonwasHometoStrangeCreatures_kenburns.mp4
+2025-07-21 13:27:01,061 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-21 13:27:01,061 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-21 13:27:01,062 - autotube.full_pipeline - INFO - ✅ Video duration: 31.97 seconds
+2025-07-21 13:27:01,062 - autotube.full_pipeline - INFO - ✅ Video file size: 8.6 MB
+2025-07-21 13:27:01,062 - autotube.full_pipeline - WARNING - ⚠️  Resolution seems low for HD: 768x1344
+2025-07-21 13:27:01,062 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-21 13:27:01,092 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\WhentheMoonwasHometoStrangeCreatures\WhentheMoonwasHometoStrangeCreatures_kenburns.mp4
+2025-07-21 13:27:01,092 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-21 13:27:01,093 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\WhentheMoonwasHometoStrangeCreatures\WhentheMoonwasHometoStrangeCreatures_kenburns.mp4
+2025-07-21 13:27:01,480 - autotube.full_pipeline - INFO - 📹 Ken Burns video duration: 31.970s
+2025-07-21 13:27:01,481 - autotube.full_pipeline - WARNING - ⚠️ Ken Burns video duration mismatch: 0.073s
+2025-07-21 13:27:01,481 - autotube.full_pipeline - INFO - ✂️ AGGRESSIVE TRIM: Ken Burns video 31.970s → 31.897s
+2025-07-21 13:27:15,032 - autotube.full_pipeline - INFO - ✅ Ken Burns video trimmed to exact duration: 31.897s
+2025-07-21 13:27:15,032 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-21 13:27:15,033 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-21 13:27:15,034 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-21 13:27:15,035 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-21 13:27:16,812 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-21 13:27:16,813 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-21 13:27:16,814 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-21 13:27:17,023 - faster_whisper - INFO - Processing audio with duration 00:31.948
+2025-07-21 13:27:20,348 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-21 13:27:32,163 - autotube.full_pipeline - INFO - Extracted 95 words with timing
+2025-07-21 13:27:32,164 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 15.35s
+2025-07-21 13:27:32,606 - autotube.full_pipeline - INFO - Video loading took 0.44s
+2025-07-21 13:27:32,607 - autotube.full_pipeline - INFO - Original video - Duration: 31.90s, FPS: 30.0, Audio: True
+2025-07-21 13:27:32,607 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 95 words...
+2025-07-21 13:27:32,607 - autotube.full_pipeline - INFO - Group 1: 4 words (24 chars), 0.00s - 0.92s
+2025-07-21 13:27:32,607 - autotube.full_pipeline - INFO - Group 2: 4 words (18 chars), 1.28s - 2.80s
+2025-07-21 13:27:32,607 - autotube.full_pipeline - INFO - Group 3: 4 words (17 chars), 2.78s - 3.64s
+2025-07-21 13:27:32,608 - autotube.full_pipeline - INFO - Group 4: 4 words (21 chars), 3.62s - 4.72s
+2025-07-21 13:27:32,608 - autotube.full_pipeline - INFO - Group 5: 3 words (14 chars), 4.70s - 5.48s
+2025-07-21 13:27:32,608 - autotube.full_pipeline - INFO - Group 6: 3 words (16 chars), 5.46s - 6.48s
+2025-07-21 13:27:32,608 - autotube.full_pipeline - INFO - Group 7: 3 words (24 chars), 6.46s - 7.92s
+2025-07-21 13:27:32,608 - autotube.full_pipeline - INFO - Group 8: 3 words (24 chars), 7.90s - 9.24s
+2025-07-21 13:27:32,608 - autotube.full_pipeline - INFO - Group 9: 4 words (22 chars), 9.22s - 10.64s
+2025-07-21 13:27:32,608 - autotube.full_pipeline - INFO - Group 10: 3 words (15 chars), 10.62s - 11.62s
+2025-07-21 13:27:32,608 - autotube.full_pipeline - INFO - Group 11: 3 words (20 chars), 11.60s - 13.14s
+2025-07-21 13:27:32,609 - autotube.full_pipeline - INFO - Group 12: 3 words (22 chars), 13.12s - 14.26s
+2025-07-21 13:27:32,609 - autotube.full_pipeline - INFO - Group 13: 3 words (20 chars), 14.24s - 15.36s
+2025-07-21 13:27:32,609 - autotube.full_pipeline - INFO - Group 14: 4 words (25 chars), 15.34s - 16.74s
+2025-07-21 13:27:32,609 - autotube.full_pipeline - INFO - Group 15: 3 words (15 chars), 16.98s - 17.48s
+2025-07-21 13:27:32,609 - autotube.full_pipeline - INFO - Group 16: 3 words (12 chars), 17.46s - 18.28s
+2025-07-21 13:27:32,609 - autotube.full_pipeline - INFO - Group 17: 3 words (24 chars), 18.26s - 19.42s
+2025-07-21 13:27:32,609 - autotube.full_pipeline - INFO - Group 18: 3 words (21 chars), 19.40s - 21.00s
+2025-07-21 13:27:32,609 - autotube.full_pipeline - INFO - Group 19: 3 words (16 chars), 20.98s - 22.16s
+2025-07-21 13:27:32,610 - autotube.full_pipeline - INFO - Group 20: 3 words (17 chars), 22.14s - 22.88s
+2025-07-21 13:27:32,610 - autotube.full_pipeline - INFO - Group 21: 4 words (23 chars), 23.14s - 24.36s
+2025-07-21 13:27:32,610 - autotube.full_pipeline - INFO - Group 22: 3 words (16 chars), 24.34s - 25.06s
+2025-07-21 13:27:32,610 - autotube.full_pipeline - INFO - Group 23: 4 words (21 chars), 25.04s - 26.24s
+2025-07-21 13:27:32,610 - autotube.full_pipeline - INFO - Group 24: 4 words (22 chars), 26.22s - 27.48s
+2025-07-21 13:27:32,610 - autotube.full_pipeline - INFO - Group 25: 3 words (15 chars), 27.46s - 28.22s
+2025-07-21 13:27:32,610 - autotube.full_pipeline - INFO - Group 26: 4 words (17 chars), 28.20s - 29.30s
+2025-07-21 13:27:32,611 - autotube.full_pipeline - INFO - Group 27: 3 words (15 chars), 29.28s - 29.86s
+2025-07-21 13:27:32,611 - autotube.full_pipeline - INFO - Group 28: 4 words (22 chars), 29.84s - 30.86s
+2025-07-21 13:27:32,611 - autotube.full_pipeline - INFO - Created 28 word groups with smart length limiting
+2025-07-21 13:27:32,611 - autotube.full_pipeline - INFO - Creating clips for group 1: 4 words
+2025-07-21 13:27:33,515 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.24s
+2025-07-21 13:27:34,350 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.20s - 0.40s
+2025-07-21 13:27:35,247 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.36s - 0.62s
+2025-07-21 13:27:35,917 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 1: 0.58s - 1.22s
+2025-07-21 13:27:35,918 - autotube.full_pipeline - INFO - Created clips for 1/28 word groups - ETA: 3s
+2025-07-21 13:27:35,918 - autotube.full_pipeline - INFO - Creating clips for group 2: 4 words
+2025-07-21 13:27:36,435 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 1.28s - 1.44s
+2025-07-21 13:27:36,952 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 1.40s - 1.58s
+2025-07-21 13:27:37,462 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 1.54s - 2.73s
+2025-07-21 13:27:37,974 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 2: 2.70s - 2.73s
+2025-07-21 13:27:37,974 - autotube.full_pipeline - INFO - Creating clips for group 3: 4 words
+2025-07-21 13:27:38,536 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 2.78s - 2.94s
+2025-07-21 13:27:39,118 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 2.90s - 3.10s
+2025-07-21 13:27:39,954 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 3.06s - 3.42s
+2025-07-21 13:27:40,665 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 3: 3.38s - 3.57s
+2025-07-21 13:27:40,666 - autotube.full_pipeline - INFO - Creating clips for group 4: 4 words
+2025-07-21 13:27:41,491 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 3.62s - 3.74s
+2025-07-21 13:27:42,278 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 3.70s - 4.08s
+2025-07-21 13:27:43,011 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 4.04s - 4.48s
+2025-07-21 13:27:43,829 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 4: 4.44s - 4.65s
+2025-07-21 13:27:43,829 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-21 13:27:44,331 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 4.70s - 4.98s
+2025-07-21 13:27:44,918 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 4.94s - 5.30s
+2025-07-21 13:27:45,457 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 5.26s - 5.41s
+2025-07-21 13:27:45,458 - autotube.full_pipeline - INFO - Creating clips for group 6: 3 words
+2025-07-21 13:27:46,090 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 5.46s - 5.60s
+2025-07-21 13:27:46,681 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 5.56s - 6.28s
+2025-07-21 13:27:47,248 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 6.24s - 6.41s
+2025-07-21 13:27:47,248 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-21 13:27:48,130 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 6.46s - 6.84s
+2025-07-21 13:27:48,944 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 6.80s - 7.34s
+2025-07-21 13:27:49,780 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 7.30s - 7.85s
+2025-07-21 13:27:49,781 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-21 13:27:50,664 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 7.90s - 8.42s
+2025-07-21 13:27:51,734 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 8.38s - 8.74s
+2025-07-21 13:27:53,117 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 8.70s - 9.17s
+2025-07-21 13:27:53,117 - autotube.full_pipeline - INFO - Creating clips for group 9: 4 words
+2025-07-21 13:27:54,237 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 9.22s - 9.58s
+2025-07-21 13:27:55,234 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 9.54s - 9.90s
+2025-07-21 13:27:56,223 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 9.86s - 10.12s
+2025-07-21 13:27:57,225 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 9: 10.08s - 10.57s
+2025-07-21 13:27:57,226 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-21 13:27:58,031 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 10.62s - 10.92s
+2025-07-21 13:27:58,819 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 10.88s - 11.30s
+2025-07-21 13:27:59,735 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 11.26s - 11.55s
+2025-07-21 13:27:59,736 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-21 13:28:00,635 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 11.60s - 12.20s
+2025-07-21 13:28:01,495 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 12.16s - 13.00s
+2025-07-21 13:28:02,372 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 12.96s - 13.07s
+2025-07-21 13:28:02,373 - autotube.full_pipeline - INFO - Created clips for 11/28 word groups - ETA: 30s
+2025-07-21 13:28:02,373 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-21 13:28:03,561 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 13.12s - 13.74s
+2025-07-21 13:28:04,710 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 13.70s - 13.90s
+2025-07-21 13:28:05,759 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 13.86s - 14.19s
+2025-07-21 13:28:05,759 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-21 13:28:06,697 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 14.24s - 14.94s
+2025-07-21 13:28:07,682 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 14.90s - 15.06s
+2025-07-21 13:28:08,701 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 15.02s - 15.29s
+2025-07-21 13:28:08,702 - autotube.full_pipeline - INFO - Creating clips for group 14: 4 words
+2025-07-21 13:28:09,924 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 15.34s - 15.86s
+2025-07-21 13:28:11,043 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 15.82s - 16.22s
+2025-07-21 13:28:11,983 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 16.18s - 16.40s
+2025-07-21 13:28:12,981 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 14: 16.36s - 16.93s
+2025-07-21 13:28:12,981 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-21 13:28:13,572 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 16.98s - 17.10s
+2025-07-21 13:28:14,266 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 17.06s - 17.20s
+2025-07-21 13:28:15,142 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 17.16s - 17.41s
+2025-07-21 13:28:15,142 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-21 13:28:15,762 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 17.46s - 17.72s
+2025-07-21 13:28:16,243 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 17.68s - 18.12s
+2025-07-21 13:28:16,656 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 18.08s - 18.21s
+2025-07-21 13:28:16,656 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-21 13:28:17,666 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 18.26s - 19.02s
+2025-07-21 13:28:18,564 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 18.98s - 19.24s
+2025-07-21 13:28:19,488 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 19.20s - 19.35s
+2025-07-21 13:28:19,489 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-21 13:28:20,298 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 19.40s - 20.36s
+2025-07-21 13:28:21,080 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 20.32s - 20.54s
+2025-07-21 13:28:21,964 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 20.50s - 20.93s
+2025-07-21 13:28:21,964 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-21 13:28:22,703 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 20.98s - 21.44s
+2025-07-21 13:28:23,415 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 21.40s - 21.82s
+2025-07-21 13:28:24,137 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 21.78s - 22.09s
+2025-07-21 13:28:24,137 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-21 13:28:24,808 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 22.14s - 22.36s
+2025-07-21 13:28:25,546 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 22.32s - 22.50s
+2025-07-21 13:28:26,277 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 22.46s - 23.09s
+2025-07-21 13:28:26,277 - autotube.full_pipeline - INFO - Creating clips for group 21: 4 words
+2025-07-21 13:28:27,432 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 23.14s - 23.38s
+2025-07-21 13:28:28,503 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 23.34s - 23.66s
+2025-07-21 13:28:29,537 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 23.62s - 24.08s
+2025-07-21 13:28:30,526 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 21: 24.04s - 24.29s
+2025-07-21 13:28:30,527 - autotube.full_pipeline - INFO - Created clips for 21/28 word groups - ETA: 58s
+2025-07-21 13:28:30,527 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-21 13:28:31,217 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 24.34s - 24.64s
+2025-07-21 13:28:31,891 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 24.60s - 24.90s
+2025-07-21 13:28:32,619 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 24.86s - 24.99s
+2025-07-21 13:28:32,619 - autotube.full_pipeline - INFO - Creating clips for group 23: 4 words
+2025-07-21 13:28:33,664 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 25.04s - 25.74s
+2025-07-21 13:28:34,697 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 25.70s - 25.92s
+2025-07-21 13:28:35,655 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 25.88s - 26.08s
+2025-07-21 13:28:36,525 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 23: 26.04s - 26.17s
+2025-07-21 13:28:36,526 - autotube.full_pipeline - INFO - Creating clips for group 24: 4 words
+2025-07-21 13:28:37,328 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 26.22s - 26.92s
+2025-07-21 13:28:38,051 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 26.88s - 27.08s
+2025-07-21 13:28:38,803 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 27.04s - 27.34s
+2025-07-21 13:28:39,531 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 24: 27.30s - 27.41s
+2025-07-21 13:28:39,532 - autotube.full_pipeline - INFO - Creating clips for group 25: 3 words
+2025-07-21 13:28:40,092 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 27.46s - 28.00s
+2025-07-21 13:28:40,628 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 27.96s - 28.08s
+2025-07-21 13:28:41,139 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 28.04s - 28.15s
+2025-07-21 13:28:41,140 - autotube.full_pipeline - INFO - Creating clips for group 26: 4 words
+2025-07-21 13:28:41,687 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 26: 28.20s - 28.46s
+2025-07-21 13:28:42,255 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 26: 28.42s - 28.56s
+2025-07-21 13:28:42,932 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 26: 28.52s - 28.92s
+2025-07-21 13:28:43,502 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 26: 28.88s - 29.23s
+2025-07-21 13:28:43,502 - autotube.full_pipeline - INFO - Creating clips for group 27: 3 words
+2025-07-21 13:28:43,935 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 27: 29.28s - 29.46s
+2025-07-21 13:28:44,365 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 27: 29.42s - 29.64s
+2025-07-21 13:28:44,791 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 27: 29.60s - 29.79s
+2025-07-21 13:28:44,791 - autotube.full_pipeline - INFO - Creating clips for group 28: 4 words
+2025-07-21 13:28:45,518 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 28: 29.84s - 30.24s
+2025-07-21 13:28:46,201 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 28: 30.20s - 30.56s
+2025-07-21 13:28:46,924 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 28: 30.52s - 30.64s
+2025-07-21 13:28:47,684 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 28: 30.60s - 31.06s
+2025-07-21 13:28:47,685 - autotube.full_pipeline - INFO - Created 95 individual subtitle clips
+2025-07-21 13:28:47,686 - autotube.full_pipeline - INFO - Viral subtitle creation took 75.08s
+2025-07-21 13:28:47,686 - autotube.full_pipeline - INFO - Subtitle clips count: 95
+2025-07-21 13:28:47,700 - autotube.full_pipeline - INFO - Video composition took 0.01s
+2025-07-21 13:28:47,797 - autotube.full_pipeline - INFO - 📊 Mixed audio duration (target): 38.030s
+2025-07-21 13:28:47,797 - autotube.full_pipeline - INFO - Original video audio duration: 31.900s
+2025-07-21 13:28:47,797 - autotube.full_pipeline - INFO - Target mixed audio duration: 38.030s
+2025-07-21 13:28:47,797 - autotube.full_pipeline - INFO - Final video duration: 31.900s
+2025-07-21 13:28:47,797 - autotube.full_pipeline - INFO - Final audio duration: 31.900s
+2025-07-21 13:28:47,798 - autotube.full_pipeline - WARNING - ⚠️ Audio duration mismatch: 31.900s vs target 38.030s
+2025-07-21 13:28:47,798 - autotube.full_pipeline - INFO - Final video - Duration: 31.90s, Audio: True
+2025-07-21 13:28:47,798 - autotube.full_pipeline - INFO - Writing HD viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\WhentheMoonwasHometoStrangeCreatures\WhentheMoonwasHometoStrangeCreatures_final.mp4
+2025-07-21 13:29:24,076 - autotube.full_pipeline - INFO - Video writing took 36.28s
+2025-07-21 13:29:24,076 - autotube.full_pipeline - INFO - Validating output file with duration verification...
+2025-07-21 13:29:24,403 - autotube.full_pipeline - INFO - Output file - Video Duration: 31.900s, Audio Duration: 31.900s
+2025-07-21 13:29:24,403 - autotube.full_pipeline - ERROR - ❌ CRITICAL: Final audio duration mismatch! Expected: 38.030s, Got: 31.900s
+2025-07-21 13:29:24,403 - autotube.full_pipeline - ERROR - This will cause end audio repetition issues!
+2025-07-21 13:29:24,404 - autotube.full_pipeline - ERROR - ❌ CRITICAL: Final video duration mismatch! Expected: 38.030s, Got: 31.900s
+2025-07-21 13:29:24,430 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\WhentheMoonwasHometoStrangeCreatures\WhentheMoonwasHometoStrangeCreatures_final.mp4
+2025-07-21 13:29:24,430 - autotube.full_pipeline - INFO - Total processing time: 127.62s
+2025-07-21 13:29:24,431 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\WhentheMoonwasHometoStrangeCreatures\WhentheMoonwasHometoStrangeCreatures_final.mp4
+2025-07-21 13:29:24,431 - autotube.full_pipeline - INFO - 📊 Final video size: 7,748,450 bytes (7.4 MB)
+2025-07-21 13:29:24,744 - autotube.full_pipeline - INFO - 📹 Final video duration: 31.900s
+2025-07-21 13:29:24,744 - autotube.full_pipeline - WARNING - ⚠️ FINAL VIDEO DURATION MISMATCH: 0.003s
+2025-07-21 13:29:24,744 - autotube.full_pipeline - INFO - ✂️ AGGRESSIVE FINAL TRIM: Final video 31.900s → 31.897s
+2025-07-21 13:29:38,353 - autotube.full_pipeline - INFO - ✅ Final video trimmed to exact duration: 31.897s
+2025-07-21 13:29:38,353 - autotube.full_pipeline - INFO - ✅ No repetitive ending issues expected!
+2025-07-21 13:29:38,354 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-21 13:29:38,354 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\WhentheMoonwasHometoStrangeCreatures\WhentheMoonwasHometoStrangeCreatures_kenburns.mp4
+2025-07-21 13:29:38,355 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\WhentheMoonwasHometoStrangeCreatures\WhentheMoonwasHometoStrangeCreatures_final.mp4
+2025-07-21 13:29:38,401 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (199.57s)
+2025-07-21 13:29:38,402 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-21 13:29:38,408 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_WhentheMoonwasHometoStrangeCreatures_20250721_132938.json
+2025-07-21 13:29:38,409 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-21 13:29:38,409 - autotube.full_pipeline - INFO - ============================================================
+2025-07-21 13:29:38,410 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 272.30s
+2025-07-21 13:29:38,410 - autotube.full_pipeline - INFO - 📁 Story Title: WhentheMoonwasHometoStrangeCreatures
+2025-07-21 13:29:38,411 - autotube.full_pipeline - INFO - 📁 Sanitized Title: WhentheMoonwasHometoStrangeCreatures
+2025-07-21 13:29:38,411 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_WhentheMoonwasHometoStrangeCreatures_20250721_132938.json

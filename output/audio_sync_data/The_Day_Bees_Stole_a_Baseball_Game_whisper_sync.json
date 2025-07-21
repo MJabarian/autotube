@@ -1,0 +1,393 @@
+{
+  "story_title": "The Day Bees Stole a Baseball Game",
+  "original_story": "[excited] Imagine the crack of the bat, the cheers of the crowd, then—chaos! In 1976, a swarm of bees descended on a baseball game in Massachusetts, turning America's favorite pastime into a frantic escape. Players dropped their bats, and fans scrambled for cover, ducking under seats and behind hot dog stands. The atmosphere shifted from excitement to panic as the buzzing cloud engulfed the field like an angry storm. Coaches waved their arms, trying to signal everyone to safety. A few brave souls even tried to shoo the bees away, but the buzzing beasts had other plans. After a tense suspension, players and fans alike watched in disbelief as nature interrupted their game. When the swarm finally dissipated, the game resumed—though I can assure you, a few players were playing a little more cautiously. It’s not every day that a baseball game takes a pause for a bee emergency! So, what’s the wildest thing you've seen disrupt a game? [pause:0.5s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.712,
+      "audio_content": "Imagine the crack of the bat, the cheers of the",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9716284692287445
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.712,
+      "timestamp_end": 5.424,
+      "audio_content": "then chaos. In",
+      "words_in_segment": 3,
+      "confidence_avg": 0.79218856493632
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.424,
+      "timestamp_end": 8.136000000000001,
+      "audio_content": "a swarm of bees descended on a baseball",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9912515729665756
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.136000000000001,
+      "timestamp_end": 10.848,
+      "audio_content": "in Massachusetts, turning America's",
+      "words_in_segment": 4,
+      "confidence_avg": 0.994664877653122
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.848,
+      "timestamp_end": 13.56,
+      "audio_content": "pastime into a frantic escape. Players",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9612023035685221
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 13.56,
+      "timestamp_end": 16.272000000000002,
+      "audio_content": "dropped their bats and fans scrambled for cover,",
+      "words_in_segment": 8,
+      "confidence_avg": 0.955645315349102
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 16.272000000000002,
+      "timestamp_end": 18.984,
+      "audio_content": "ducking under seats and behind hot dog stands.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8933293037116528
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 18.984,
+      "timestamp_end": 21.696,
+      "audio_content": "The atmosphere shifted from excitement to",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9949432710806528
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 21.696,
+      "timestamp_end": 24.408,
+      "audio_content": "as the buzzing cloud engulfed the field",
+      "words_in_segment": 7,
+      "confidence_avg": 0.942898432413737
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 24.408,
+      "timestamp_end": 27.12,
+      "audio_content": "an angry storm. Coaches waved their",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9194943507512411
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 27.12,
+      "timestamp_end": 29.832,
+      "audio_content": "trying to signal everyone to safety. A",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9079064386231559
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 29.832,
+      "timestamp_end": 32.544000000000004,
+      "audio_content": "brave souls even tried to shoe the bees away, but the",
+      "words_in_segment": 11,
+      "confidence_avg": 0.9594492749734358
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 32.544000000000004,
+      "timestamp_end": 35.256,
+      "audio_content": "beasts had other plans. After a tense",
+      "words_in_segment": 7,
+      "confidence_avg": 0.961812504700252
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 35.256,
+      "timestamp_end": 37.968,
+      "audio_content": "players and fans alike watched in",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9410327672958374
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 37.968,
+      "timestamp_end": 40.68,
+      "audio_content": "as nature interrupted their game.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9807024359703064
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 40.68,
+      "timestamp_end": 43.392,
+      "audio_content": "the swarm finally dissipated, the game",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9823218832413355
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 43.392,
+      "timestamp_end": 46.104000000000006,
+      "audio_content": "Though I can assure you, a few players were playing a",
+      "words_in_segment": 11,
+      "confidence_avg": 0.9889710491353815
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 46.104000000000006,
+      "timestamp_end": 48.816,
+      "audio_content": "more cautiously. It's not every day that a",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9820155650377274
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 48.816,
+      "timestamp_end": 51.528000000000006,
+      "audio_content": "game takes a pause for a bee emergency.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9368857592344284
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 51.528000000000006,
+      "timestamp_end": 54.24,
+      "audio_content": "So, what's the wildest thing you've seen disrupt a game?",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9864087581634522
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.712,
+      "audio_content": "Imagine the crack of the bat, the cheers of the",
+      "image_prompt": "Wide shot of a baseball field in Massachusetts, players frozen mid-action, bats dropping as a chaotic swarm of bees descends. Fans scramble, diving under seats and behind vendors, their expressions a mix of panic and disbelief, the atmosphere charged with tension and buzzing energy.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9716284692287445,
+      "content_type": "character_action",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.712,
+      "timestamp_end": 5.424,
+      "audio_content": "then chaos. In",
+      "image_prompt": "Medium shot of baseball players and fans mid-chaos, faces contorted in panic as they duck beneath seats and behind hot dog stands, a swirling cloud of bees looming ominously above the field, dramatic chiaroscuro lighting highlighting their expressions amidst the commotion.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.79218856493632,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.424,
+      "timestamp_end": 8.136000000000001,
+      "audio_content": "a swarm of bees descended on a baseball",
+      "image_prompt": "Medium shot capturing the frantic scene at a 1976 baseball game as players drop their bats and fans duck for cover. Bees swarm overhead, creating chaos, with expressive faces lit by dramatic chiaroscuro, highlighting the shock and urgency of the moment.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9912515729665756,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.136000000000001,
+      "timestamp_end": 10.848,
+      "audio_content": "in Massachusetts, turning America's",
+      "image_prompt": "Medium shot of a chaotic baseball field in Massachusetts, players dropping bats and fans ducking for cover amidst a swirling cloud of bees. Expressions of panic and disbelief on faces, with dramatic chiaroscuro lighting highlighting the frantic atmosphere, creating a tense yet cinematic scene.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.994664877653122,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.848,
+      "timestamp_end": 13.56,
+      "audio_content": "pastime into a frantic escape. Players",
+      "image_prompt": "Medium shot of baseball players frozen mid-action, bats dropping from their hands as they look up in panic. The chaotic scene is filled with fans diving for cover, shadows cast dramatically across the field with buzzing bees forming a dark cloud above, evoking tension and fear.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9612023035685221,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 13.56,
+      "timestamp_end": 16.272000000000002,
+      "audio_content": "dropped their bats and fans scrambled for cover,",
+      "image_prompt": "Medium shot of frantic baseball players dropping their bats, faces filled with panic as they rush for cover. Fans duck under seats and behind hot dog stands, shadows cast dramatically across the field, captured in chiaroscuro lighting reminiscent of a 1970s gangster film.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.955645315349102,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 16.272000000000002,
+      "timestamp_end": 18.984,
+      "audio_content": "ducking under seats and behind hot dog stands.",
+      "image_prompt": "Medium shot of fans crouching under seats and behind hot dog stands, faces wide with panic as a swarm of bees engulfs the baseball field. The chaos contrasts with the vibrant atmosphere of the game, highlighting expressions of fear and urgency amidst dramatic chiaroscuro lighting.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8933293037116528,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 18.984,
+      "timestamp_end": 21.696,
+      "audio_content": "The atmosphere shifted from excitement to",
+      "image_prompt": "Medium shot of startled baseball players and fans, faces contorted in fear and confusion as a swarm of bees engulfs the field. Chaotic movements as they duck behind seats and food stands, dramatic chiaroscuro lighting casting sharp shadows across the tense scene.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9949432710806528,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 21.696,
+      "timestamp_end": 24.408,
+      "audio_content": "as the buzzing cloud engulfed the field",
+      "image_prompt": "Medium shot capturing the chaos as players and fans scramble for safety, faces filled with panic and surprise. In the background, a buzzing cloud of bees engulfs the baseball field, dramatic chiaroscuro lighting casting sharp shadows on the frantic scene, evoking a 1970s gangster film aesthetic.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.942898432413737,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 24.408,
+      "timestamp_end": 27.12,
+      "audio_content": "an angry storm. Coaches waved their",
+      "image_prompt": "Medium shot of frantic baseball players and coaches on the field, arms waving in chaos as a dark, swirling cloud of bees descends. The players' expressions blend excitement and terror, with sharp shadows and dramatic lighting enhancing the urgency of the moment.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9194943507512411,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 27.12,
+      "timestamp_end": 29.832,
+      "audio_content": "trying to signal everyone to safety. A",
+      "image_prompt": "Medium shot of frantic baseball players and fans in a chaotic scene, arms raised in panic as they scatter for safety. The buzzing cloud of bees looms ominously above, casting sharp shadows across their startled faces, evoking a sense of urgency and confusion amidst the bright stadium lights.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9079064386231559,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 29.832,
+      "timestamp_end": 32.544000000000004,
+      "audio_content": "brave souls even tried to shoe the bees away, but the",
+      "image_prompt": "Medium shot of frantic baseball players and fans, faces filled with panic, as they scatter in all directions. The buzzing swarm of bees looms ominously in the background, with dramatic chiaroscuro lighting enhancing the chaos and urgency of this unexpected interruption.",
+      "words_in_segment": 11,
+      "confidence_avg": 0.9594492749734358,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 32.544000000000004,
+      "timestamp_end": 35.256,
+      "audio_content": "beasts had other plans. After a tense",
+      "image_prompt": "Medium shot of baseball players in mid-action, dropping their bats in panic as a swirling cloud of bees engulfs the field. Fans duck under seats, their faces a mix of terror and disbelief, captured in dramatic chiaroscuro lighting, highlighting sharp shadows and expressive emotions.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.961812504700252,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 35.256,
+      "timestamp_end": 37.968,
+      "audio_content": "players and fans alike watched in",
+      "image_prompt": "Medium shot of baseball players and fans in a chaotic scene, faces filled with panic as they scramble for cover. Hot dog stands are overturned, and shadows of buzzing bees loom overhead, capturing the tension of the moment under dramatic chiaroscuro lighting.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9410327672958374,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 37.968,
+      "timestamp_end": 40.68,
+      "audio_content": "as nature interrupted their game.",
+      "image_prompt": "Medium shot of players and fans in a chaotic baseball scene, faces filled with panic, as a massive swarm of bees engulfs the field. Coaches wave frantically, and spectators duck under seats, shadows creating a dramatic contrast against the vibrant diamond, capturing the wild interruption of nature.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9807024359703064,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 40.68,
+      "timestamp_end": 43.392,
+      "audio_content": "the swarm finally dissipated, the game",
+      "image_prompt": "Medium shot of panicked baseball players and fans scrambling for cover as a dark cloud of bees engulfs the field. Expressions of shock and fear on their faces, with hot dog stands and seats in disarray, dramatic chiaroscuro lighting casting sharp shadows across the chaotic scene.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9823218832413355,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 43.392,
+      "timestamp_end": 46.104000000000006,
+      "audio_content": "Though I can assure you, a few players were playing a",
+      "image_prompt": "Medium shot of startled baseball players dropping their bats in mid-action, wide-eyed and frozen in surprise, as a chaotic swarm of bees engulfs the field. Shadows of fans ducking under seats and behind food stands create a tense atmosphere, illuminated by dramatic chiaroscuro lighting.",
+      "words_in_segment": 11,
+      "confidence_avg": 0.9889710491353815,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 46.104000000000006,
+      "timestamp_end": 48.816,
+      "audio_content": "more cautiously. It's not every day that a",
+      "image_prompt": "Medium shot of a baseball player dropping his bat mid-swing, eyes wide with panic as a swarm of bees engulfs the field. In the background, fans duck behind hot dog stands, their expressions a mix of fear and disbelief, illuminated by dramatic chiaroscuro lighting that highlights the chaos.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9820155650377274,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 48.816,
+      "timestamp_end": 51.528000000000006,
+      "audio_content": "game takes a pause for a bee emergency.",
+      "image_prompt": "Medium shot of a frantic baseball player dropping his bat, eyes wide with shock as a swarm of bees engulfs the field. Fans duck under seats, faces filled with fear and excitement, dramatic chiaroscuro lighting casting sharp shadows across the chaotic scene.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9368857592344284,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 51.528000000000006,
+      "timestamp_end": 54.24,
+      "audio_content": "So, what's the wildest thing you've seen disrupt a game?",
+      "image_prompt": "Medium shot of a chaotic baseball field in 1976, players frozen mid-action, bats dropped, expressions of shock and fear on their faces as a dense swarm of bees fills the air, shadows cast dramatically by the stadium lights, fans diving for cover behind hot dog stands.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9864087581634522,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 20,
+    "total_duration": 54.24,
+    "whisper_model": "base"
+  }
+}

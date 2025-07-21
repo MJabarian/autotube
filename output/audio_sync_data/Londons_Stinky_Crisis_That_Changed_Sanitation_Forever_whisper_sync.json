@@ -1,0 +1,241 @@
+{
+  "story_title": "London's Stinky Crisis That Changed Sanitation Forever",
+  "original_story": "[dramatic] You won't believe this: in 1858, London was engulfed by the Great Stink! The Thames became a putrid cesspool, with raw sewage flowing into the river. Imagine a city gripped by a foul odor so intense it drove Parliament out of their sessions! This smelly crisis led to the development of a revolutionary sewer system designed by Joseph Bazalgette. He transformed public health, reducing cholera outbreaks by over 90%. Who knew a bad smell could spark such monumental change? [pause:0.5s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.19,
+      "audio_content": "You won't believe this. In 1858,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9483209351698557
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.19,
+      "timestamp_end": 4.38,
+      "audio_content": "London was engulfed by the great stink.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8940779126825787
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.38,
+      "timestamp_end": 6.57,
+      "audio_content": "The Thames became a putrid cesspool,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9208520452181498
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.57,
+      "timestamp_end": 8.76,
+      "audio_content": "with raw sewage flowing into the river.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9837550691195897
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.76,
+      "timestamp_end": 10.95,
+      "audio_content": "Imagine a city gripped by a foul",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9617241961615426
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 10.95,
+      "timestamp_end": 13.14,
+      "audio_content": "so intense it drove Parliament out of",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9277719514710563
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.14,
+      "timestamp_end": 15.33,
+      "audio_content": "their sessions. This smelly crisis",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9572283744812011
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.33,
+      "timestamp_end": 17.52,
+      "audio_content": "to the development of a revolutionary sewer",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9921209216117859
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 17.52,
+      "timestamp_end": 19.71,
+      "audio_content": "designed by Joseph Basiljet. He",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8931388020515442
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 19.71,
+      "timestamp_end": 21.9,
+      "audio_content": "public health, reducing cholera",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9916521608829498
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 21.9,
+      "timestamp_end": 24.09,
+      "audio_content": "by over 90 percent. Who",
+      "words_in_segment": 5,
+      "confidence_avg": 0.865652221441269
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.09,
+      "timestamp_end": 26.28,
+      "audio_content": "a bad smell could spark such monumental change?",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9952869862318039
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.19,
+      "audio_content": "You won't believe this. In 1858,",
+      "image_prompt": "Wide shot of a foggy, polluted Thames River in 1858, with dark, swirling mists rising from the murky water. Silhouetted figures of distressed citizens clutching their noses, while the imposing architecture of Parliament looms in the background, hinting at the chaos within. Dramatic chiaroscuro lighting accentuates the grim atmosphere.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9483209351698557,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.19,
+      "timestamp_end": 4.38,
+      "audio_content": "London was engulfed by the great stink.",
+      "image_prompt": "Wide shot of 1858 London, shrouded in thick, swirling fog with grimy buildings lining the Thames. The river appears dark and polluted, with debris floating on its surface. Citizens cover their noses in disgust, while distant figures of Parliament members flee from the stench, their expressions of horror captured in chiaroscuro lighting.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8940779126825787,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.38,
+      "timestamp_end": 6.57,
+      "audio_content": "The Thames became a putrid cesspool,",
+      "image_prompt": "Wide shot of the Thames River in 1858, overflowing with dark, murky sewage, surrounded by grimy buildings. The atmosphere is thick with fog, and distant figures hold their noses in disgust, hinting at the chaotic scene unfolding in London amidst the Great Stink.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9208520452181498,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.57,
+      "timestamp_end": 8.76,
+      "audio_content": "with raw sewage flowing into the river.",
+      "image_prompt": "Wide shot of the Thames River in 1858, polluted with raw sewage. The scene captures disheveled city dwellers holding their noses, while dark, swirling waters reflect the oppressive smog above, evoking the chaotic atmosphere of the Great Stink gripping London.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9837550691195897,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.76,
+      "timestamp_end": 10.95,
+      "audio_content": "Imagine a city gripped by a foul",
+      "image_prompt": "Wide shot of a foggy 1858 London, with the Thames River reflecting dark, murky waters. In the foreground, distraught citizens cover their noses, while in the background, the imposing silhouette of Parliament looms, shrouded in a haze of foul odor, evoking the Great Stink.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9617241961615426,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 10.95,
+      "timestamp_end": 13.14,
+      "audio_content": "so intense it drove Parliament out of",
+      "image_prompt": "Wide shot of a bustling 1850s London street, with citizens covering their noses, grimacing at the foul stench wafting from the Thames. Dark, swirling waters reflect the chaos of the Great Stink, while the distant silhouette of Parliament looms, abandoned in the haze.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9277719514710563,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.14,
+      "timestamp_end": 15.33,
+      "audio_content": "their sessions. This smelly crisis",
+      "image_prompt": "Medium shot of a grimy Thames River, with raw sewage visibly flowing into the water. In the background, distressed citizens cover their noses, while a group of Parliament members rushes out of the building, their expressions a mix of disgust and urgency, dramatic chiaroscuro lighting highlighting the chaos.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9572283744812011,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.33,
+      "timestamp_end": 17.52,
+      "audio_content": "to the development of a revolutionary sewer",
+      "image_prompt": "Wide shot of Victorian London, shrouded in a haze of steam and smog, with citizens covering their noses in disgust. In the foreground, the Thames flows dark and polluted, while Parliament buildings loom in the background, their windows boarded up, hinting at the city's crisis.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9921209216117859,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 17.52,
+      "timestamp_end": 19.71,
+      "audio_content": "designed by Joseph Basiljet. He",
+      "image_prompt": "Wide shot of Victorian London, shrouded in a haze of foul-smelling smoke, with citizens covering their noses in disgust. The Thames, murky and polluted, flows through the city, with Parliament buildings visible in the background, symbolizing the urgent need for change.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8931388020515442,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 19.71,
+      "timestamp_end": 21.9,
+      "audio_content": "public health, reducing cholera",
+      "image_prompt": "Wide shot of London streets in 1858, filled with dark, swirling fog, revealing people covering their noses in disgust as they navigate past the Thames, where raw sewage flows visibly. Dramatic chiaroscuro lighting casts sharp shadows, highlighting the grim atmosphere of the Great Stink.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9916521608829498,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 21.9,
+      "timestamp_end": 24.09,
+      "audio_content": "by over 90 percent. Who",
+      "image_prompt": "Wide shot of Victorian London, shrouded in a haze of thick, swirling fog. The Thames River flows with dark, murky water reflecting the grim atmosphere. Parliament buildings loom in the background, their windows darkened, as citizens cover their noses in disgust, capturing the essence of the Great Stink.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.865652221441269,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.09,
+      "timestamp_end": 26.28,
+      "audio_content": "a bad smell could spark such monumental change?",
+      "image_prompt": "Wide shot of Victorian London shrouded in fog, with the Thames River flowing polluted and dark. The silhouettes of men in top hats fleeing Parliament, their faces contorted in disgust, contrasting against the grimy backdrop of the city, illuminated by dramatic chiaroscuro lighting.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9952869862318039,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 26.28,
+    "whisper_model": "base"
+  }
+}

@@ -1,0 +1,379 @@
+2025-07-20 12:29:25,148 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-20 12:29:25,148 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250720_122925.log
+2025-07-20 12:29:25,148 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-20 12:29:25,149 - autotube.full_pipeline - INFO - ============================================================
+2025-07-20 12:29:25,149 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-20 12:29:25,150 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-20 12:29:26,479 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:29:29,183 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:29:29,532 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:29:29,547 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Discovery of the New World: Columbus’s Epic Voyage  
+**Summary:** In 1492, Christopher Columbus embarked on a daring journey across the Atlantic, forever changing the course of history with his encounter of the Americas, igniting a wave of exploration and cultural exchange.
+2025-07-20 12:29:29,548 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheDiscoveryoftheNewWorldColumbussEpicVoyageS_content_gen_2025-07-20_12-29-29.log
+2025-07-20 12:29:29,548 - autotube.content_gen - INFO - 📁 Sanitized folder name: ColumbussRiskyVoyageANewWorldAwaits
+2025-07-20 12:29:29,548 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 85 words
+2025-07-20 12:29:29,550 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\ColumbussRiskyVoyageANewWorldAwaits\story.json (1,098 bytes)
+2025-07-20 12:29:29,551 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\ColumbussRiskyVoyageANewWorldAwaits\topic.txt (292 bytes)
+2025-07-20 12:29:29,551 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\ColumbussRiskyVoyageANewWorldAwaits\metadata.json (595 bytes)
+2025-07-20 12:29:29,551 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\ColumbussRiskyVoyageANewWorldAwaits\story.txt (1,018 bytes)
+2025-07-20 12:29:29,552 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\ColumbussRiskyVoyageANewWorldAwaits
+2025-07-20 12:29:38,318 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\ColumbussRiskyVoyageANewWorldAwaits\audio_ColumbussRiskyVoyageANewWorldAwaits.mp3 (243,269 bytes)
+2025-07-20 12:29:38,405 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 30.38s duration
+2025-07-20 12:29:39,106 - autotube.content_gen - INFO - ✅ Audio speed adjustment: 1.1x, new duration: 27.64s
+2025-07-20 12:29:39,106 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\ColumbussRiskyVoyageANewWorldAwaits\audio_ColumbussRiskyVoyageANewWorldAwaits_sped_up.mp3 (243,269 bytes, 27.64s)
+2025-07-20 12:29:39,107 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-20 12:29:39,107 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-20 12:29:39,108 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\ColumbussRiskyVoyageANewWorldAwaits\audio_ColumbussRiskyVoyageANewWorldAwaits_sped_up.mp3
+2025-07-20 12:29:39,108 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-20 12:29:40,482 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-20 12:29:40,618 - faster_whisper - INFO - Processing audio with duration 00:27.594
+2025-07-20 12:29:41,221 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-20 12:29:43,218 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 26.44s
+2025-07-20 12:29:43,219 - whisper_audio_synchronizer - INFO - 📝 Extracted 84 words with timestamps
+2025-07-20 12:29:43,219 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 26.44s, Image duration: 2.20s
+2025-07-20 12:29:43,219 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-20 12:29:43,220 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-20 12:29:45,204 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:29:45,205 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): Dramatic wide shot of Columbus's three ships saili...
+2025-07-20 12:29:47,281 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:29:47,283 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/establishing_shot): An expansive view of Columbus's three ships sailin...
+2025-07-20 12:29:49,388 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:29:49,389 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of Columbus's three ships sailing across...
+2025-07-20 12:29:50,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:29:50,925 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/wide_shot): Wide shot of Columbus' three ships sailing toward ...
+2025-07-20 12:29:52,652 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:29:52,654 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/wide_shot): Wide shot of Columbus's three ships anchored off a...
+2025-07-20 12:29:54,239 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:29:54,241 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/wide_shot): Wide shot of Columbus's ships sailing across a vas...
+2025-07-20 12:29:55,711 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:29:55,713 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/wide_shot): Wide shot of Columbus's three ships sailing into t...
+2025-07-20 12:29:57,403 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:29:57,405 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/wide_shot): Wide shot of Christopher Columbus on the deck of h...
+2025-07-20 12:29:58,891 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:29:58,892 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of Columbus aboard his ship, eyes wide...
+2025-07-20 12:30:00,462 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:30:00,464 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/wide_shot): Wide shot of Columbus's three ships sailing across...
+2025-07-20 12:30:01,928 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:30:01,929 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/wide_shot): Wide shot of Columbus's three ships sailing across...
+2025-07-20 12:30:03,936 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 12:30:03,938 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/wide_shot): Wide shot of Columbus's three ships sailing into a...
+2025-07-20 12:30:03,948 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Columbuss_Risky_Voyage_A_New_World_Awaits_whisper_sync.json
+2025-07-20 12:30:03,948 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-20 12:30:03,949 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-20 12:30:03,950 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-20 12:30:03,950 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-20 12:30:03,963 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-114517.mp3 (2,688,313 bytes)
+2025-07-20 12:30:03,964 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\ColumbussRiskyVoyageANewWorldAwaits\music_selection.json (317 bytes)
+2025-07-20 12:30:03,964 - autotube.content_gen - INFO - ✅ Music selected: cinematic-114517.mp3
+2025-07-20 12:30:03,966 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-20 12:30:03,966 - src.replicate_image_generator - INFO - Generating images for story: Columbus's Risky Voyage: A New World Awaits
+2025-07-20 12:30:03,966 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-20 12:30:03,967 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-20 12:30:03,967 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-20 12:30:04,910 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 12:30:06,675 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 12:30:08,140 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 12:30:09,607 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 12:30:11,093 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 12:30:12,638 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 12:30:14,085 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 12:30:15,573 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 12:30:17,068 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 12:30:18,566 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 12:30:20,091 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 12:30:21,659 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 12:30:22,548 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-20 12:30:22,549 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-20 12:30:22,551 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-20 12:30:22,552 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-20 12:30:22,555 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-20 12:30:22,555 - autotube.content_gen - INFO - 📊 Total time: 57.40s, Cost: $0.0360
+2025-07-20 12:30:22,555 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Discovery of the New World: Columbus’s Epic Voyage  
+**Summary:** In 1492, Christopher Columbus embarked on a daring journey across the Atlantic, forever changing the course of history with his encounter of the Americas, igniting a wave of exploration and cultural exchange.
+2025-07-20 12:30:22,574 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (57.42s)
+2025-07-20 12:30:22,574 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-20 12:30:22,575 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-20 12:30:22,575 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: ColumbussRiskyVoyageANewWorldAwaits
+2025-07-20 12:30:22,576 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: ColumbussRiskyVoyageANewWorldAwaits
+2025-07-20 12:30:22,576 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\ColumbussRiskyVoyageANewWorldAwaits\audio_ColumbussRiskyVoyageANewWorldAwaits_sped_up.mp3
+2025-07-20 12:30:22,576 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\ColumbussRiskyVoyageANewWorldAwaits\music_selection.json
+2025-07-20 12:30:22,583 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-114517.mp3
+2025-07-20 12:30:22,705 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-20 12:30:22,705 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\ColumbussRiskyVoyageANewWorldAwaits\audio_ColumbussRiskyVoyageANewWorldAwaits_sped_up.mp3
+2025-07-20 12:30:22,801 - src.audio_mixer - INFO - Loaded audio: 27594ms (27.594s), 44100Hz, 2 channels
+2025-07-20 12:30:22,802 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-114517.mp3
+2025-07-20 12:30:22,978 - src.audio_mixer - INFO - Loaded audio: 84010ms (84.010s), 44100Hz, 2 channels
+2025-07-20 12:30:22,978 - src.audio_mixer - INFO - Voice duration: 27594ms
+2025-07-20 12:30:22,979 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-20 12:30:22,979 - src.audio_mixer - INFO - Target duration: 27594ms
+2025-07-20 12:30:22,979 - src.audio_mixer - INFO - Trimmed music from 27594ms to 27594ms
+2025-07-20 12:30:22,979 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-20 12:30:22,999 - src.audio_mixer - INFO - Voice adjusted by 9.7dB, Music by -7.4dB
+2025-07-20 12:30:23,006 - src.audio_mixer - INFO - Added 500ms fade-out to prevent end artifacts
+2025-07-20 12:30:23,013 - src.audio_mixer - INFO - ✅ Exact duration match: 27594ms
+2025-07-20 12:30:23,014 - src.audio_mixer - INFO - Audio mixing completed: 27594ms
+2025-07-20 12:30:23,337 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\ColumbussRiskyVoyageANewWorldAwaits\mixed_audio_ColumbussRiskyVoyageANewWorldAwaits.mp3
+2025-07-20 12:30:23,340 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\ColumbussRiskyVoyageANewWorldAwaits\mixed_audio_ColumbussRiskyVoyageANewWorldAwaits.mp3
+2025-07-20 12:30:23,340 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 760,876 bytes (0.7 MB)
+2025-07-20 12:30:23,341 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: ColumbussRiskyVoyageANewWorldAwaits
+2025-07-20 12:30:23,341 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-20 12:30:23,341 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-20 12:30:23,342 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: ColumbussRiskyVoyageANewWorldAwaits
+2025-07-20 12:30:23,543 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-20 12:30:23,543 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-20 12:30:23,543 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.34 seconds per image
+2025-07-20 12:30:23,544 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\ColumbussRiskyVoyageANewWorldAwaits_kenburns.mp4
+2025-07-20 12:30:23,544 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['pan_left', 'zoom_out', 'pan_left', 'zoom_out', 'zoom_in']...
+2025-07-20 12:30:23,545 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-20 12:30:23,545 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 12:30:23,564 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-20 12:30:23,564 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 12:30:23,578 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-20 12:30:23,578 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 12:30:23,590 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-20 12:30:23,590 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 12:30:23,618 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-20 12:30:23,618 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-20 12:30:23,642 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-20 12:30:23,642 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-20 12:30:23,669 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-20 12:30:23,669 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 12:30:23,692 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-20 12:30:23,693 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-20 12:30:23,718 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-20 12:30:23,719 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 12:30:23,743 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-20 12:30:23,743 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-20 12:30:23,771 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-20 12:30:23,771 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 12:30:23,798 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-20 12:30:23,799 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 12:30:23,824 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-20 12:30:23,858 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-20 12:30:23,927 - autotube.full_pipeline - INFO - 📹 Video duration: 28.120s
+2025-07-20 12:30:23,927 - autotube.full_pipeline - INFO - 🎵 Audio duration: 28.120s
+2025-07-20 12:30:23,927 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 28.120s
+2025-07-20 12:30:23,927 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\ColumbussRiskyVoyageANewWorldAwaits_kenburns.mp4
+2025-07-20 12:30:25,415 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\audio\io\readers.py:197: UserWarning: Error in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\ColumbussRiskyVoyageANewWorldAwaits\mixed_audio_ColumbussRiskyVoyageANewWorldAwaits.mp3, At time t=27.67-27.71 seconds, indices wanted: 98705-100701, but len(buffer)=98706
+index 98706 is out of bounds for axis 0 with size 98706
+  warnings.warn("Error in file %s, "%(self.filename)+
+
+2025-07-20 12:30:25,416 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\audio\io\readers.py:197: UserWarning: Error in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\ColumbussRiskyVoyageANewWorldAwaits\mixed_audio_ColumbussRiskyVoyageANewWorldAwaits.mp3, At time t=27.71-27.76 seconds, indices wanted: 98705-100701, but len(buffer)=98706
+index 98706 is out of bounds for axis 0 with size 98706
+  warnings.warn("Error in file %s, "%(self.filename)+
+
+2025-07-20 12:30:25,423 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\audio\io\readers.py:197: UserWarning: Error in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\ColumbussRiskyVoyageANewWorldAwaits\mixed_audio_ColumbussRiskyVoyageANewWorldAwaits.mp3, At time t=27.76-27.80 seconds, indices wanted: 98705-100701, but len(buffer)=98706
+index 98706 is out of bounds for axis 0 with size 98706
+  warnings.warn("Error in file %s, "%(self.filename)+
+
+2025-07-20 12:30:25,424 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\audio\io\readers.py:197: UserWarning: Error in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\ColumbussRiskyVoyageANewWorldAwaits\mixed_audio_ColumbussRiskyVoyageANewWorldAwaits.mp3, At time t=27.80-27.85 seconds, indices wanted: 98705-100701, but len(buffer)=98706
+index 98706 is out of bounds for axis 0 with size 98706
+  warnings.warn("Error in file %s, "%(self.filename)+
+
+2025-07-20 12:30:25,428 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\audio\io\readers.py:197: UserWarning: Error in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\ColumbussRiskyVoyageANewWorldAwaits\mixed_audio_ColumbussRiskyVoyageANewWorldAwaits.mp3, At time t=27.85-27.89 seconds, indices wanted: 98705-100701, but len(buffer)=98706
+index 98706 is out of bounds for axis 0 with size 98706
+  warnings.warn("Error in file %s, "%(self.filename)+
+
+2025-07-20 12:30:25,430 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\audio\io\readers.py:197: UserWarning: Error in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\ColumbussRiskyVoyageANewWorldAwaits\mixed_audio_ColumbussRiskyVoyageANewWorldAwaits.mp3, At time t=27.89-27.94 seconds, indices wanted: 98705-100701, but len(buffer)=98706
+index 98706 is out of bounds for axis 0 with size 98706
+  warnings.warn("Error in file %s, "%(self.filename)+
+
+2025-07-20 12:30:25,432 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\audio\io\readers.py:197: UserWarning: Error in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\ColumbussRiskyVoyageANewWorldAwaits\mixed_audio_ColumbussRiskyVoyageANewWorldAwaits.mp3, At time t=27.94-27.98 seconds, indices wanted: 98705-100701, but len(buffer)=98706
+index 98706 is out of bounds for axis 0 with size 98706
+  warnings.warn("Error in file %s, "%(self.filename)+
+
+2025-07-20 12:30:25,433 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\audio\io\readers.py:197: UserWarning: Error in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\ColumbussRiskyVoyageANewWorldAwaits\mixed_audio_ColumbussRiskyVoyageANewWorldAwaits.mp3, At time t=27.98-28.03 seconds, indices wanted: 98705-100701, but len(buffer)=98706
+index 98706 is out of bounds for axis 0 with size 98706
+  warnings.warn("Error in file %s, "%(self.filename)+
+
+2025-07-20 12:30:25,435 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\audio\io\readers.py:197: UserWarning: Error in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\ColumbussRiskyVoyageANewWorldAwaits\mixed_audio_ColumbussRiskyVoyageANewWorldAwaits.mp3, At time t=28.03-28.07 seconds, indices wanted: 98705-100701, but len(buffer)=98706
+index 98706 is out of bounds for axis 0 with size 98706
+  warnings.warn("Error in file %s, "%(self.filename)+
+
+2025-07-20 12:30:25,436 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\audio\io\readers.py:197: UserWarning: Error in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\ColumbussRiskyVoyageANewWorldAwaits\mixed_audio_ColumbussRiskyVoyageANewWorldAwaits.mp3, At time t=28.07-28.12 seconds, indices wanted: 98705-100701, but len(buffer)=98706
+index 98706 is out of bounds for axis 0 with size 98706
+  warnings.warn("Error in file %s, "%(self.filename)+
+
+2025-07-20 12:30:49,843 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-20 12:30:49,844 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-20 12:30:49,844 - autotube.full_pipeline - INFO - ✅ Video duration: 28.13 seconds
+2025-07-20 12:30:49,844 - autotube.full_pipeline - INFO - ✅ Video file size: 8.2 MB
+2025-07-20 12:30:49,845 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-20 12:30:49,872 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\ColumbussRiskyVoyageANewWorldAwaits_kenburns.mp4
+2025-07-20 12:30:49,872 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-20 12:30:49,873 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\ColumbussRiskyVoyageANewWorldAwaits_kenburns.mp4
+2025-07-20 12:30:49,873 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-20 12:30:49,874 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-20 12:30:49,875 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-20 12:30:49,875 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-20 12:30:51,243 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-20 12:30:51,245 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-20 12:30:51,246 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-20 12:30:51,392 - faster_whisper - INFO - Processing audio with duration 00:27.638
+2025-07-20 12:30:54,096 - faster_whisper - INFO - Detected language 'en' with probability 0.99
+2025-07-20 12:31:03,085 - autotube.full_pipeline - INFO - Extracted 84 words with timing
+2025-07-20 12:31:03,085 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 11.84s
+2025-07-20 12:31:03,537 - autotube.full_pipeline - INFO - Video loading took 0.45s
+2025-07-20 12:31:03,538 - autotube.full_pipeline - INFO - Original video - Duration: 28.13s, FPS: 30.0, Audio: True
+2025-07-20 12:31:03,538 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 84 words...
+2025-07-20 12:31:03,539 - autotube.full_pipeline - INFO - Group 1: 3 words (18 chars), 0.00s - 0.62s
+2025-07-20 12:31:03,539 - autotube.full_pipeline - INFO - Group 2: 3 words (15 chars), 0.60s - 2.32s
+2025-07-20 12:31:03,539 - autotube.full_pipeline - INFO - Group 3: 4 words (23 chars), 2.74s - 3.78s
+2025-07-20 12:31:03,540 - autotube.full_pipeline - INFO - Group 4: 3 words (18 chars), 3.76s - 4.74s
+2025-07-20 12:31:03,540 - autotube.full_pipeline - INFO - Group 5: 4 words (19 chars), 5.06s - 5.86s
+2025-07-20 12:31:03,540 - autotube.full_pipeline - INFO - Group 6: 4 words (22 chars), 6.10s - 6.94s
+2025-07-20 12:31:03,541 - autotube.full_pipeline - INFO - Group 7: 3 words (27 chars), 6.92s - 8.48s
+2025-07-20 12:31:03,541 - autotube.full_pipeline - INFO - Group 8: 3 words (18 chars), 8.46s - 9.38s
+2025-07-20 12:31:03,541 - autotube.full_pipeline - INFO - Group 9: 4 words (18 chars), 9.36s - 10.04s
+2025-07-20 12:31:03,542 - autotube.full_pipeline - INFO - Group 10: 4 words (22 chars), 10.02s - 10.80s
+2025-07-20 12:31:03,542 - autotube.full_pipeline - INFO - Group 11: 4 words (23 chars), 11.30s - 12.32s
+2025-07-20 12:31:03,542 - autotube.full_pipeline - INFO - Group 12: 4 words (23 chars), 12.30s - 13.56s
+2025-07-20 12:31:03,543 - autotube.full_pipeline - INFO - Group 13: 3 words (23 chars), 13.54s - 14.72s
+2025-07-20 12:31:03,543 - autotube.full_pipeline - INFO - Group 14: 3 words (21 chars), 14.70s - 15.92s
+2025-07-20 12:31:03,543 - autotube.full_pipeline - INFO - Group 15: 4 words (24 chars), 15.90s - 17.82s
+2025-07-20 12:31:03,544 - autotube.full_pipeline - INFO - Group 16: 3 words (20 chars), 17.80s - 18.64s
+2025-07-20 12:31:03,544 - autotube.full_pipeline - INFO - Group 17: 4 words (18 chars), 18.62s - 19.58s
+2025-07-20 12:31:03,545 - autotube.full_pipeline - INFO - Group 18: 3 words (16 chars), 19.56s - 20.46s
+2025-07-20 12:31:03,545 - autotube.full_pipeline - INFO - Group 19: 4 words (22 chars), 20.44s - 21.68s
+2025-07-20 12:31:03,546 - autotube.full_pipeline - INFO - Group 20: 3 words (22 chars), 21.66s - 22.88s
+2025-07-20 12:31:03,546 - autotube.full_pipeline - INFO - Group 21: 3 words (17 chars), 22.86s - 23.60s
+2025-07-20 12:31:03,546 - autotube.full_pipeline - INFO - Group 22: 4 words (25 chars), 23.58s - 25.04s
+2025-07-20 12:31:03,547 - autotube.full_pipeline - INFO - Group 23: 4 words (19 chars), 25.02s - 25.82s
+2025-07-20 12:31:03,547 - autotube.full_pipeline - INFO - Group 24: 3 words (18 chars), 25.80s - 26.46s
+2025-07-20 12:31:03,547 - autotube.full_pipeline - INFO - Created 24 word groups with smart length limiting
+2025-07-20 12:31:03,548 - autotube.full_pipeline - INFO - Creating clips for group 1: 3 words
+2025-07-20 12:31:04,530 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.24s
+2025-07-20 12:31:05,364 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.20s - 0.42s
+2025-07-20 12:31:06,088 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.38s - 0.55s
+2025-07-20 12:31:06,088 - autotube.full_pipeline - INFO - Created clips for 1/24 word groups - ETA: 3s
+2025-07-20 12:31:06,089 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-20 12:31:06,579 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 0.60s - 1.36s
+2025-07-20 12:31:07,069 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 1.32s - 1.46s
+2025-07-20 12:31:07,545 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 1.42s - 2.62s
+2025-07-20 12:31:07,545 - autotube.full_pipeline - INFO - Creating clips for group 3: 4 words
+2025-07-20 12:31:08,416 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 2.74s - 3.04s
+2025-07-20 12:31:09,277 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 3.00s - 3.34s
+2025-07-20 12:31:10,151 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 3.30s - 3.60s
+2025-07-20 12:31:11,042 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 3: 3.56s - 3.71s
+2025-07-20 12:31:11,043 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-20 12:31:11,685 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 3.76s - 4.02s
+2025-07-20 12:31:12,325 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 3.98s - 4.36s
+2025-07-20 12:31:12,967 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 4.32s - 5.01s
+2025-07-20 12:31:12,968 - autotube.full_pipeline - INFO - Creating clips for group 5: 4 words
+2025-07-20 12:31:13,638 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 5.06s - 5.18s
+2025-07-20 12:31:14,291 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 5.14s - 5.38s
+2025-07-20 12:31:14,918 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 5.34s - 5.58s
+2025-07-20 12:31:15,539 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 5: 5.54s - 6.05s
+2025-07-20 12:31:15,540 - autotube.full_pipeline - INFO - Creating clips for group 6: 4 words
+2025-07-20 12:31:16,362 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 6.10s - 6.20s
+2025-07-20 12:31:17,201 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 6.16s - 6.46s
+2025-07-20 12:31:18,037 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 6.42s - 6.74s
+2025-07-20 12:31:18,882 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 6: 6.70s - 6.87s
+2025-07-20 12:31:18,882 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-20 12:31:19,932 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 6.92s - 7.26s
+2025-07-20 12:31:21,004 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 7.22s - 8.20s
+2025-07-20 12:31:21,996 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 8.16s - 8.41s
+2025-07-20 12:31:21,996 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-20 12:31:22,678 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 8.46s - 8.72s
+2025-07-20 12:31:23,386 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 8.68s - 9.04s
+2025-07-20 12:31:24,078 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 9.00s - 9.31s
+2025-07-20 12:31:24,079 - autotube.full_pipeline - INFO - Creating clips for group 9: 4 words
+2025-07-20 12:31:24,745 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 9.36s - 9.54s
+2025-07-20 12:31:25,406 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 9.50s - 9.78s
+2025-07-20 12:31:26,069 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 9.74s - 9.94s
+2025-07-20 12:31:26,732 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 9: 9.90s - 9.97s
+2025-07-20 12:31:26,733 - autotube.full_pipeline - INFO - Creating clips for group 10: 4 words
+2025-07-20 12:31:27,548 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 10.02s - 10.16s
+2025-07-20 12:31:28,329 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 10.12s - 10.36s
+2025-07-20 12:31:29,106 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 10.32s - 10.52s
+2025-07-20 12:31:29,903 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 10: 10.48s - 11.10s
+2025-07-20 12:31:29,903 - autotube.full_pipeline - INFO - Creating clips for group 11: 4 words
+2025-07-20 12:31:30,780 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 11.30s - 11.44s
+2025-07-20 12:31:31,650 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 11.40s - 11.72s
+2025-07-20 12:31:32,507 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 11.68s - 12.14s
+2025-07-20 12:31:33,365 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 11: 12.10s - 12.25s
+2025-07-20 12:31:33,366 - autotube.full_pipeline - INFO - Created clips for 11/24 word groups - ETA: 30s
+2025-07-20 12:31:33,366 - autotube.full_pipeline - INFO - Creating clips for group 12: 4 words
+2025-07-20 12:31:34,213 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 12.30s - 12.56s
+2025-07-20 12:31:35,011 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 12.52s - 12.74s
+2025-07-20 12:31:35,836 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 12.70s - 13.14s
+2025-07-20 12:31:36,709 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 12: 13.10s - 13.49s
+2025-07-20 12:31:36,709 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-20 12:31:37,668 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 13.54s - 13.88s
+2025-07-20 12:31:38,638 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 13.84s - 14.46s
+2025-07-20 12:31:39,649 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 14.42s - 14.65s
+2025-07-20 12:31:39,650 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-20 12:31:40,485 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 14.70s - 15.16s
+2025-07-20 12:31:41,286 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 15.12s - 15.82s
+2025-07-20 12:31:42,167 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 15.78s - 15.85s
+2025-07-20 12:31:42,168 - autotube.full_pipeline - INFO - Creating clips for group 15: 4 words
+2025-07-20 12:31:43,091 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 15.90s - 17.08s
+2025-07-20 12:31:43,975 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 17.04s - 17.16s
+2025-07-20 12:31:44,859 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 17.12s - 17.48s
+2025-07-20 12:31:45,736 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 15: 17.44s - 17.75s
+2025-07-20 12:31:45,737 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-20 12:31:46,551 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 17.80s - 18.14s
+2025-07-20 12:31:47,378 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 18.10s - 18.46s
+2025-07-20 12:31:48,158 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 18.42s - 18.57s
+2025-07-20 12:31:48,159 - autotube.full_pipeline - INFO - Creating clips for group 17: 4 words
+2025-07-20 12:31:48,785 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 18.62s - 18.86s
+2025-07-20 12:31:49,415 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 18.82s - 19.06s
+2025-07-20 12:31:50,076 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 19.02s - 19.36s
+2025-07-20 12:31:50,745 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 17: 19.32s - 19.51s
+2025-07-20 12:31:50,745 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-20 12:31:51,336 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 19.56s - 19.76s
+2025-07-20 12:31:51,924 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 19.72s - 20.36s
+2025-07-20 12:31:52,503 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 20.32s - 20.39s
+2025-07-20 12:31:52,504 - autotube.full_pipeline - INFO - Creating clips for group 19: 4 words
+2025-07-20 12:31:53,303 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 20.44s - 20.72s
+2025-07-20 12:31:54,092 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 20.68s - 21.02s
+2025-07-20 12:31:54,831 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 20.98s - 21.56s
+2025-07-20 12:31:55,587 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 19: 21.52s - 21.61s
+2025-07-20 12:31:55,587 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-20 12:31:56,413 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 21.66s - 21.92s
+2025-07-20 12:31:57,233 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 21.88s - 22.56s
+2025-07-20 12:31:58,053 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 22.52s - 22.81s
+2025-07-20 12:31:58,053 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-20 12:31:58,651 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 22.86s - 23.04s
+2025-07-20 12:31:59,249 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 23.00s - 23.18s
+2025-07-20 12:31:59,868 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 23.14s - 23.53s
+2025-07-20 12:31:59,868 - autotube.full_pipeline - INFO - Created clips for 21/24 word groups - ETA: 56s
+2025-07-20 12:31:59,869 - autotube.full_pipeline - INFO - Creating clips for group 22: 4 words
+2025-07-20 12:32:00,859 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 23.58s - 23.86s
+2025-07-20 12:32:01,836 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 23.82s - 24.76s
+2025-07-20 12:32:02,880 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 24.72s - 24.88s
+2025-07-20 12:32:03,964 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 22: 24.84s - 24.97s
+2025-07-20 12:32:03,964 - autotube.full_pipeline - INFO - Creating clips for group 23: 4 words
+2025-07-20 12:32:04,790 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 25.02s - 25.16s
+2025-07-20 12:32:05,634 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 25.12s - 25.36s
+2025-07-20 12:32:06,466 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 25.32s - 25.62s
+2025-07-20 12:32:07,453 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 23: 25.58s - 25.75s
+2025-07-20 12:32:07,454 - autotube.full_pipeline - INFO - Creating clips for group 24: 3 words
+2025-07-20 12:32:08,509 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 25.80s - 26.06s
+2025-07-20 12:32:09,572 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 26.02s - 26.22s
+2025-07-20 12:32:10,807 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 26.18s - 26.66s
+2025-07-20 12:32:10,808 - autotube.full_pipeline - INFO - Created 84 individual subtitle clips
+2025-07-20 12:32:10,810 - autotube.full_pipeline - INFO - Viral subtitle creation took 67.27s
+2025-07-20 12:32:10,810 - autotube.full_pipeline - INFO - Subtitle clips count: 84
+2025-07-20 12:32:10,834 - autotube.full_pipeline - INFO - Video composition took 0.02s
+2025-07-20 12:32:10,834 - autotube.full_pipeline - INFO - Final video - Duration: 28.13s, Audio: True
+2025-07-20 12:32:10,835 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\ColumbussRiskyVoyageANewWorldAwaits_final.mp4
+2025-07-20 12:32:57,487 - autotube.full_pipeline - INFO - Video writing took 46.65s
+2025-07-20 12:32:57,488 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-20 12:32:58,219 - autotube.full_pipeline - INFO - Output file - Duration: 28.13s, Audio: True, Playable: True
+2025-07-20 12:32:58,283 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\ColumbussRiskyVoyageANewWorldAwaits_final.mp4
+2025-07-20 12:32:58,284 - autotube.full_pipeline - INFO - Total processing time: 127.04s
+2025-07-20 12:32:58,285 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\ColumbussRiskyVoyageANewWorldAwaits_final.mp4
+2025-07-20 12:32:58,287 - autotube.full_pipeline - INFO - 📊 Final video size: 5,596,867 bytes (5.3 MB)
+2025-07-20 12:32:58,287 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-20 12:32:58,288 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\ColumbussRiskyVoyageANewWorldAwaits_kenburns.mp4
+2025-07-20 12:32:58,288 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\ColumbussRiskyVoyageANewWorldAwaits_final.mp4
+2025-07-20 12:32:58,356 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (155.78s)
+2025-07-20 12:32:58,357 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-20 12:32:58,364 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_ColumbussRiskyVoyageANewWorldAwaits_20250720_123258.json
+2025-07-20 12:32:58,365 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-20 12:32:58,366 - autotube.full_pipeline - INFO - ============================================================
+2025-07-20 12:32:58,367 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 213.21s
+2025-07-20 12:32:58,367 - autotube.full_pipeline - INFO - 📁 Story Title: ColumbussRiskyVoyageANewWorldAwaits
+2025-07-20 12:32:58,368 - autotube.full_pipeline - INFO - 📁 Sanitized Title: ColumbussRiskyVoyageANewWorldAwaits
+2025-07-20 12:32:58,369 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_ColumbussRiskyVoyageANewWorldAwaits_20250720_123258.json

@@ -1,0 +1,345 @@
+2025-07-19 16:54:41,809 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-19 16:54:41,810 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250719_165441.log
+2025-07-19 16:54:41,810 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-19 16:54:41,810 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 16:54:41,810 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 16:54:41,820 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 16:54:43,012 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:54:45,518 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:54:45,795 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:54:45,810 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Secret Political Alliance of George Washington  
+**Summary:** Contrary to popular belief, George Washington was involved in clandestine discussions with prominent anti-monarchists in Europe, hinting at a desire for a global democratic revolution.
+2025-07-19 16:54:45,810 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheSecretPoliticalAllianceofGeorgeWashingtonS_content_gen_2025-07-19_16-54-45.log
+2025-07-19 16:54:45,810 - autotube.content_gen - INFO - 📁 Sanitized folder name: WashingtonsSecretTalksforGlobalDemocracy
+2025-07-19 16:54:45,811 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 84 words
+2025-07-19 16:54:45,814 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\WashingtonsSecretTalksforGlobalDemocracy\story.json (1,278 bytes)
+2025-07-19 16:54:45,815 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\WashingtonsSecretTalksforGlobalDemocracy\topic.txt (262 bytes)
+2025-07-19 16:54:45,815 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\WashingtonsSecretTalksforGlobalDemocracy\metadata.json (707 bytes)
+2025-07-19 16:54:45,816 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\WashingtonsSecretTalksforGlobalDemocracy\story.txt (1,198 bytes)
+2025-07-19 16:54:45,816 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\WashingtonsSecretTalksforGlobalDemocracy
+2025-07-19 16:54:54,016 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\WashingtonsSecretTalksforGlobalDemocracy\audio_WashingtonsSecretTalksforGlobalDemocracy.mp3 (522,911 bytes)
+2025-07-19 16:54:54,104 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 32.68s duration
+2025-07-19 16:54:54,841 - autotube.content_gen - INFO - ✅ Audio speed adjustment: 1.15x, new duration: 28.58s
+2025-07-19 16:54:54,842 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\WashingtonsSecretTalksforGlobalDemocracy\audio_WashingtonsSecretTalksforGlobalDemocracy_sped_up.mp3 (522,911 bytes, 28.58s)
+2025-07-19 16:54:54,842 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-19 16:54:54,843 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-19 16:54:54,843 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\WashingtonsSecretTalksforGlobalDemocracy\audio_WashingtonsSecretTalksforGlobalDemocracy_sped_up.mp3
+2025-07-19 16:54:54,843 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-19 16:54:55,567 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-19 16:54:55,640 - faster_whisper - INFO - Processing audio with duration 00:28.542
+2025-07-19 16:54:56,258 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-19 16:54:58,368 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 28.10s
+2025-07-19 16:54:58,368 - whisper_audio_synchronizer - INFO - 📝 Extracted 86 words with timestamps
+2025-07-19 16:54:58,369 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 28.10s, Image duration: 2.34s
+2025-07-19 16:54:58,369 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-19 16:54:58,369 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-19 16:54:59,928 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:54:59,930 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): Establishing shot of a dimly lit room in colonial ...
+2025-07-19 16:55:01,421 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:55:01,424 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of George Washington in a dimly lit room...
+2025-07-19 16:55:02,887 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:55:02,889 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/medium_shot): Medium shot of George Washington in a dimly lit ro...
+2025-07-19 16:55:04,599 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:55:04,603 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/medium_shot): Medium shot of George Washington in a dimly lit ro...
+2025-07-19 16:55:05,973 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:55:05,975 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/medium_shot): Medium shot of George Washington in a dimly lit ro...
+2025-07-19 16:55:09,974 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:55:09,976 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/medium_shot): Medium shot of George Washington engaged in a secr...
+2025-07-19 16:55:11,428 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:55:11,430 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of George Washington in a dimly lit ca...
+2025-07-19 16:55:13,422 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:55:13,424 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/medium_shot): Medium shot of George Washington in a dimly lit ro...
+2025-07-19 16:55:15,439 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:55:15,442 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of George Washington in a dimly lit ro...
+2025-07-19 16:55:17,090 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:55:17,093 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/medium_shot): Medium shot of George Washington, deep in conversa...
+2025-07-19 16:55:18,909 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:55:18,911 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/medium_shot): Medium shot of George Washington in a dimly lit ro...
+2025-07-19 16:55:20,828 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:55:20,829 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/medium_shot): Medium shot of George Washington in a dimly lit ro...
+2025-07-19 16:55:20,832 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Washingtons_Secret_Talks_for_Global_Democracy_whisper_sync.json
+2025-07-19 16:55:20,832 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-19 16:55:20,833 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-19 16:55:20,834 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-19 16:55:20,834 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-19 16:55:20,843 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\cinematic-calm-dramatic-theme-170162.mp3 (2,531,996 bytes)
+2025-07-19 16:55:20,845 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\WashingtonsSecretTalksforGlobalDemocracy\music_selection.json (355 bytes)
+2025-07-19 16:55:20,846 - autotube.content_gen - INFO - ✅ Music selected: cinematic-calm-dramatic-theme-170162.mp3
+2025-07-19 16:55:20,847 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-19 16:55:20,848 - src.replicate_image_generator - INFO - Generating images for story: Washington's Secret Talks for Global Democracy
+2025-07-19 16:55:20,848 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-19 16:55:20,849 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-19 16:55:20,849 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-19 16:55:21,934 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:55:23,615 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:55:25,345 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:55:26,916 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:55:28,410 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:55:30,019 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:55:31,562 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:55:33,262 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:55:34,817 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:55:36,374 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:55:37,954 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:55:39,509 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:55:40,379 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-19 16:55:40,380 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-19 16:55:40,382 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-19 16:55:40,384 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-19 16:55:40,384 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-19 16:55:40,385 - autotube.content_gen - INFO - 📊 Total time: 58.56s, Cost: $0.0360
+2025-07-19 16:55:40,385 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Secret Political Alliance of George Washington  
+**Summary:** Contrary to popular belief, George Washington was involved in clandestine discussions with prominent anti-monarchists in Europe, hinting at a desire for a global democratic revolution.
+2025-07-19 16:55:40,408 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (58.59s)
+2025-07-19 16:55:40,408 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-19 16:55:40,409 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-19 16:55:40,409 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: WashingtonsSecretTalksforGlobalDemocracy
+2025-07-19 16:55:40,409 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: WashingtonsSecretTalksforGlobalDemocracy
+2025-07-19 16:55:40,410 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\WashingtonsSecretTalksforGlobalDemocracy\audio_WashingtonsSecretTalksforGlobalDemocracy_sped_up.mp3
+2025-07-19 16:55:40,410 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\WashingtonsSecretTalksforGlobalDemocracy\music_selection.json
+2025-07-19 16:55:40,418 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\cinematic-calm-dramatic-theme-170162.mp3
+2025-07-19 16:55:40,443 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-19 16:55:40,444 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\WashingtonsSecretTalksforGlobalDemocracy\audio_WashingtonsSecretTalksforGlobalDemocracy_sped_up.mp3
+2025-07-19 16:55:40,539 - src.audio_mixer - INFO - Loaded audio: 28542ms (28.542s), 44100Hz, 2 channels
+2025-07-19 16:55:40,539 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\cinematic-calm-dramatic-theme-170162.mp3
+2025-07-19 16:55:40,735 - src.audio_mixer - INFO - Loaded audio: 79125ms (79.125s), 44100Hz, 2 channels
+2025-07-19 16:55:40,736 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-19 16:55:40,736 - src.audio_mixer - INFO - Target duration: 28542ms
+2025-07-19 16:55:40,737 - src.audio_mixer - INFO - Trimmed music from 28542ms to 28542ms
+2025-07-19 16:55:40,737 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-19 16:55:40,765 - src.audio_mixer - INFO - Voice adjusted by 9.9dB, Music by -10.1dB
+2025-07-19 16:55:40,779 - src.audio_mixer - INFO - ✅ Exact duration match: 28542ms
+2025-07-19 16:55:40,780 - src.audio_mixer - INFO - Audio mixing completed: 28542ms
+2025-07-19 16:55:41,248 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\WashingtonsSecretTalksforGlobalDemocracy\mixed_audio_WashingtonsSecretTalksforGlobalDemocracy.mp3
+2025-07-19 16:55:41,252 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\WashingtonsSecretTalksforGlobalDemocracy\mixed_audio_WashingtonsSecretTalksforGlobalDemocracy.mp3
+2025-07-19 16:55:41,253 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 896,555 bytes (0.9 MB)
+2025-07-19 16:55:41,254 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: WashingtonsSecretTalksforGlobalDemocracy
+2025-07-19 16:55:41,254 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-19 16:55:41,254 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-19 16:55:41,254 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: WashingtonsSecretTalksforGlobalDemocracy
+2025-07-19 16:55:41,455 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-19 16:55:41,456 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-19 16:55:41,457 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.38 seconds per image
+2025-07-19 16:55:41,458 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\WashingtonsSecretTalksforGlobalDemocracy_kenburns.mp4
+2025-07-19 16:55:41,458 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['pan_right', 'pan_left', 'pan_right', 'pan_left', 'zoom_in']...
+2025-07-19 16:55:41,458 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-19 16:55:41,459 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 16:55:41,486 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-19 16:55:41,486 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 16:55:41,509 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-19 16:55:41,511 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 16:55:41,537 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-19 16:55:41,537 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 16:55:41,580 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-19 16:55:41,581 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 16:55:41,621 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-19 16:55:41,621 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 16:55:41,662 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-19 16:55:41,663 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 16:55:41,695 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-19 16:55:41,696 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 16:55:41,731 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-19 16:55:41,732 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-19 16:55:41,768 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-19 16:55:41,769 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 16:55:41,811 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-19 16:55:41,811 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 16:55:41,852 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-19 16:55:41,853 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 16:55:41,890 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-19 16:55:41,992 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-19 16:55:42,117 - autotube.full_pipeline - INFO - 📹 Video duration: 28.580s
+2025-07-19 16:55:42,117 - autotube.full_pipeline - INFO - 🎵 Audio duration: 28.580s
+2025-07-19 16:55:42,117 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 28.580s
+2025-07-19 16:55:42,118 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\WashingtonsSecretTalksforGlobalDemocracy_kenburns.mp4
+2025-07-19 16:56:17,690 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-19 16:56:17,690 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-19 16:56:17,691 - autotube.full_pipeline - INFO - ✅ Video duration: 28.60 seconds
+2025-07-19 16:56:17,692 - autotube.full_pipeline - INFO - ✅ Video file size: 5.0 MB
+2025-07-19 16:56:17,692 - autotube.full_pipeline - WARNING - ⚠️  File size seems low for HD quality
+2025-07-19 16:56:17,723 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\WashingtonsSecretTalksforGlobalDemocracy_kenburns.mp4
+2025-07-19 16:56:17,724 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-19 16:56:17,724 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\WashingtonsSecretTalksforGlobalDemocracy_kenburns.mp4
+2025-07-19 16:56:17,725 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-19 16:56:17,726 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-19 16:56:17,727 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-19 16:56:17,728 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-19 16:56:19,477 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-19 16:56:19,478 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-19 16:56:19,479 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-19 16:56:19,700 - faster_whisper - INFO - Processing audio with duration 00:28.542
+2025-07-19 16:56:23,051 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-19 16:56:32,829 - autotube.full_pipeline - INFO - Extracted 86 words with timing
+2025-07-19 16:56:32,829 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 13.35s
+2025-07-19 16:56:33,138 - autotube.full_pipeline - INFO - Video loading took 0.31s
+2025-07-19 16:56:33,139 - autotube.full_pipeline - INFO - Original video - Duration: 28.60s, FPS: 30.0, Audio: True
+2025-07-19 16:56:33,139 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 86 words...
+2025-07-19 16:56:33,140 - autotube.full_pipeline - INFO - Group 1: 3 words (16 chars), 0.00s - 0.66s
+2025-07-19 16:56:33,140 - autotube.full_pipeline - INFO - Group 2: 3 words (25 chars), 0.64s - 2.10s
+2025-07-19 16:56:33,140 - autotube.full_pipeline - INFO - Group 3: 3 words (21 chars), 2.24s - 2.98s
+2025-07-19 16:56:33,140 - autotube.full_pipeline - INFO - Group 4: 3 words (22 chars), 3.16s - 4.00s
+2025-07-19 16:56:33,141 - autotube.full_pipeline - INFO - Group 5: 3 words (19 chars), 3.98s - 5.00s
+2025-07-19 16:56:33,141 - autotube.full_pipeline - INFO - Group 6: 4 words (25 chars), 4.98s - 7.94s
+2025-07-19 16:56:33,141 - autotube.full_pipeline - INFO - Group 7: 3 words (23 chars), 7.92s - 9.06s
+2025-07-19 16:56:33,141 - autotube.full_pipeline - INFO - Group 8: 3 words (31 chars), 9.04s - 10.24s
+2025-07-19 16:56:33,142 - autotube.full_pipeline - INFO - Group 9: 3 words (20 chars), 10.22s - 11.28s
+2025-07-19 16:56:33,142 - autotube.full_pipeline - INFO - Group 10: 4 words (24 chars), 11.26s - 12.44s
+2025-07-19 16:56:33,142 - autotube.full_pipeline - INFO - Group 11: 3 words (24 chars), 12.42s - 13.52s
+2025-07-19 16:56:33,142 - autotube.full_pipeline - INFO - Group 12: 4 words (19 chars), 13.50s - 14.34s
+2025-07-19 16:56:33,143 - autotube.full_pipeline - INFO - Group 13: 3 words (31 chars), 14.32s - 16.08s
+2025-07-19 16:56:33,143 - autotube.full_pipeline - INFO - Group 14: 4 words (22 chars), 16.06s - 17.16s
+2025-07-19 16:56:33,143 - autotube.full_pipeline - INFO - Group 15: 3 words (15 chars), 17.14s - 17.82s
+2025-07-19 16:56:33,143 - autotube.full_pipeline - INFO - Group 16: 3 words (23 chars), 17.80s - 18.90s
+2025-07-19 16:56:33,143 - autotube.full_pipeline - INFO - Group 17: 3 words (24 chars), 18.88s - 20.22s
+2025-07-19 16:56:33,144 - autotube.full_pipeline - INFO - Group 18: 3 words (24 chars), 20.20s - 21.26s
+2025-07-19 16:56:33,144 - autotube.full_pipeline - INFO - Group 19: 3 words (13 chars), 21.24s - 21.70s
+2025-07-19 16:56:33,144 - autotube.full_pipeline - INFO - Group 20: 4 words (23 chars), 21.68s - 22.68s
+2025-07-19 16:56:33,144 - autotube.full_pipeline - INFO - Group 21: 3 words (23 chars), 22.66s - 23.58s
+2025-07-19 16:56:33,145 - autotube.full_pipeline - INFO - Group 22: 3 words (12 chars), 23.82s - 24.42s
+2025-07-19 16:56:33,145 - autotube.full_pipeline - INFO - Group 23: 4 words (25 chars), 24.40s - 25.42s
+2025-07-19 16:56:33,145 - autotube.full_pipeline - INFO - Group 24: 4 words (22 chars), 25.40s - 26.36s
+2025-07-19 16:56:33,145 - autotube.full_pipeline - INFO - Group 25: 3 words (11 chars), 26.62s - 26.96s
+2025-07-19 16:56:33,145 - autotube.full_pipeline - INFO - Group 26: 3 words (13 chars), 26.94s - 27.52s
+2025-07-19 16:56:33,146 - autotube.full_pipeline - INFO - Group 27: 1 words (15 chars), 27.50s - 28.06s
+2025-07-19 16:56:33,146 - autotube.full_pipeline - INFO - Created 27 word groups with smart length limiting
+2025-07-19 16:56:33,146 - autotube.full_pipeline - INFO - Creating clips for group 1: 3 words
+2025-07-19 16:56:34,425 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.34s
+2025-07-19 16:56:35,300 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.30s - 0.42s
+2025-07-19 16:56:36,013 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.38s - 0.59s
+2025-07-19 16:56:36,014 - autotube.full_pipeline - INFO - Created clips for 1/27 word groups - ETA: 3s
+2025-07-19 16:56:36,014 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-19 16:56:37,123 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 0.64s - 1.42s
+2025-07-19 16:56:38,304 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 1.38s - 1.58s
+2025-07-19 16:56:39,627 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 1.54s - 2.19s
+2025-07-19 16:56:39,627 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-19 16:56:40,650 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 2.24s - 2.34s
+2025-07-19 16:56:41,419 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 2.30s - 2.60s
+2025-07-19 16:56:42,321 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 2.56s - 3.11s
+2025-07-19 16:56:42,321 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-19 16:56:43,394 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 3.16s - 3.28s
+2025-07-19 16:56:44,493 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 3.24s - 3.66s
+2025-07-19 16:56:45,647 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 3.62s - 3.93s
+2025-07-19 16:56:45,647 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-19 16:56:46,474 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 3.98s - 4.24s
+2025-07-19 16:56:47,248 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 4.20s - 4.68s
+2025-07-19 16:56:48,077 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 4.64s - 4.93s
+2025-07-19 16:56:48,078 - autotube.full_pipeline - INFO - Creating clips for group 6: 4 words
+2025-07-19 16:56:48,993 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 4.98s - 6.52s
+2025-07-19 16:56:49,951 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 6.48s - 6.78s
+2025-07-19 16:56:50,994 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 6.74s - 7.86s
+2025-07-19 16:56:51,980 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 6: 7.82s - 7.87s
+2025-07-19 16:56:51,980 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-19 16:56:53,090 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 7.92s - 8.32s
+2025-07-19 16:56:54,000 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 8.28s - 8.48s
+2025-07-19 16:56:54,769 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 8.44s - 8.99s
+2025-07-19 16:56:54,769 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-19 16:56:55,966 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 9.04s - 9.46s
+2025-07-19 16:56:57,252 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 9.42s - 9.76s
+2025-07-19 16:56:58,481 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 9.72s - 10.17s
+2025-07-19 16:56:58,481 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-19 16:56:59,351 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 10.22s - 10.72s
+2025-07-19 16:57:00,114 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 10.68s - 10.96s
+2025-07-19 16:57:00,881 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 10.92s - 11.21s
+2025-07-19 16:57:00,881 - autotube.full_pipeline - INFO - Creating clips for group 10: 4 words
+2025-07-19 16:57:01,696 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 11.26s - 12.00s
+2025-07-19 16:57:02,485 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 11.96s - 12.10s
+2025-07-19 16:57:03,258 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 12.06s - 12.28s
+2025-07-19 16:57:04,033 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 10: 12.24s - 12.37s
+2025-07-19 16:57:04,033 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-19 16:57:05,076 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 12.42s - 12.62s
+2025-07-19 16:57:06,019 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 12.58s - 13.38s
+2025-07-19 16:57:06,900 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 13.34s - 13.45s
+2025-07-19 16:57:06,900 - autotube.full_pipeline - INFO - Created clips for 11/27 word groups - ETA: 34s
+2025-07-19 16:57:06,900 - autotube.full_pipeline - INFO - Creating clips for group 12: 4 words
+2025-07-19 16:57:07,580 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 13.50s - 13.74s
+2025-07-19 16:57:08,286 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 13.70s - 13.92s
+2025-07-19 16:57:09,057 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 13.88s - 14.02s
+2025-07-19 16:57:10,015 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 12: 13.98s - 14.27s
+2025-07-19 16:57:10,016 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-19 16:57:12,134 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 14.32s - 14.98s
+2025-07-19 16:57:14,181 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 14.94s - 15.76s
+2025-07-19 16:57:15,842 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 15.72s - 16.01s
+2025-07-19 16:57:15,842 - autotube.full_pipeline - INFO - Creating clips for group 14: 4 words
+2025-07-19 16:57:16,850 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 16.06s - 16.58s
+2025-07-19 16:57:17,752 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 16.54s - 16.84s
+2025-07-19 16:57:18,695 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 16.80s - 17.02s
+2025-07-19 16:57:19,675 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 14: 16.98s - 17.09s
+2025-07-19 16:57:19,675 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-19 16:57:20,241 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 17.14s - 17.68s
+2025-07-19 16:57:20,787 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 17.64s - 17.74s
+2025-07-19 16:57:21,365 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 17.70s - 17.75s
+2025-07-19 16:57:21,366 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-19 16:57:22,169 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 17.80s - 18.14s
+2025-07-19 16:57:22,996 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 18.10s - 18.66s
+2025-07-19 16:57:23,823 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 18.62s - 18.83s
+2025-07-19 16:57:23,823 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-19 16:57:24,788 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 18.88s - 19.28s
+2025-07-19 16:57:25,669 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 19.24s - 20.12s
+2025-07-19 16:57:26,570 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 20.08s - 20.15s
+2025-07-19 16:57:26,570 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-19 16:57:27,431 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 20.20s - 20.52s
+2025-07-19 16:57:28,514 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 20.48s - 21.00s
+2025-07-19 16:57:29,423 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 20.96s - 21.19s
+2025-07-19 16:57:29,423 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-19 16:57:29,945 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 21.24s - 21.40s
+2025-07-19 16:57:30,486 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 21.36s - 21.50s
+2025-07-19 16:57:30,932 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 21.46s - 21.63s
+2025-07-19 16:57:30,932 - autotube.full_pipeline - INFO - Creating clips for group 20: 4 words
+2025-07-19 16:57:31,791 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 21.68s - 22.34s
+2025-07-19 16:57:32,605 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 22.30s - 22.44s
+2025-07-19 16:57:33,408 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 22.40s - 22.58s
+2025-07-19 16:57:34,256 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 20: 22.54s - 22.61s
+2025-07-19 16:57:34,257 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-19 16:57:35,071 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 22.66s - 22.82s
+2025-07-19 16:57:35,925 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 22.78s - 23.20s
+2025-07-19 16:57:36,965 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 23.16s - 23.77s
+2025-07-19 16:57:36,965 - autotube.full_pipeline - INFO - Created clips for 21/27 word groups - ETA: 64s
+2025-07-19 16:57:36,965 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-19 16:57:37,500 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 23.82s - 24.18s
+2025-07-19 16:57:38,099 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 24.14s - 24.32s
+2025-07-19 16:57:38,635 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 24.28s - 24.35s
+2025-07-19 16:57:38,636 - autotube.full_pipeline - INFO - Creating clips for group 23: 4 words
+2025-07-19 16:57:40,284 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 24.40s - 24.82s
+2025-07-19 16:57:41,747 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 24.78s - 25.08s
+2025-07-19 16:57:43,180 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 25.04s - 25.26s
+2025-07-19 16:57:44,661 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 23: 25.22s - 25.35s
+2025-07-19 16:57:44,662 - autotube.full_pipeline - INFO - Creating clips for group 24: 4 words
+2025-07-19 16:57:46,234 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 25.40s - 25.60s
+2025-07-19 16:57:48,505 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 25.56s - 25.72s
+2025-07-19 16:57:50,072 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 25.68s - 26.00s
+2025-07-19 16:57:51,465 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 24: 25.96s - 26.57s
+2025-07-19 16:57:51,466 - autotube.full_pipeline - INFO - Creating clips for group 25: 3 words
+2025-07-19 16:57:52,074 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 26.62s - 26.74s
+2025-07-19 16:57:52,618 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 26.70s - 26.86s
+2025-07-19 16:57:53,116 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 26.82s - 26.89s
+2025-07-19 16:57:53,116 - autotube.full_pipeline - INFO - Creating clips for group 26: 3 words
+2025-07-19 16:57:53,708 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 26: 26.94s - 27.12s
+2025-07-19 16:57:54,230 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 26: 27.08s - 27.22s
+2025-07-19 16:57:54,791 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 26: 27.18s - 27.45s
+2025-07-19 16:57:54,792 - autotube.full_pipeline - INFO - Creating clips for group 27: 1 words
+2025-07-19 16:57:55,559 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 27: 27.50s - 28.26s
+2025-07-19 16:57:55,560 - autotube.full_pipeline - INFO - Created 86 individual subtitle clips
+2025-07-19 16:57:55,561 - autotube.full_pipeline - INFO - Viral subtitle creation took 82.42s
+2025-07-19 16:57:55,561 - autotube.full_pipeline - INFO - Subtitle clips count: 86
+2025-07-19 16:57:55,583 - autotube.full_pipeline - INFO - Video composition took 0.02s
+2025-07-19 16:57:55,584 - autotube.full_pipeline - INFO - Final video - Duration: 28.60s, Audio: True
+2025-07-19 16:57:55,584 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\WashingtonsSecretTalksforGlobalDemocracy_final.mp4
+2025-07-19 16:58:27,979 - autotube.full_pipeline - INFO - Video writing took 32.39s
+2025-07-19 16:58:27,980 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-19 16:58:28,345 - autotube.full_pipeline - INFO - Output file - Duration: 28.60s, Audio: True, Playable: True
+2025-07-19 16:58:28,379 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\WashingtonsSecretTalksforGlobalDemocracy_final.mp4
+2025-07-19 16:58:28,379 - autotube.full_pipeline - INFO - Total processing time: 128.90s
+2025-07-19 16:58:28,380 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\WashingtonsSecretTalksforGlobalDemocracy_final.mp4
+2025-07-19 16:58:28,380 - autotube.full_pipeline - INFO - 📊 Final video size: 3,877,553 bytes (3.7 MB)
+2025-07-19 16:58:28,380 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-19 16:58:28,380 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\WashingtonsSecretTalksforGlobalDemocracy_kenburns.mp4
+2025-07-19 16:58:28,381 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\WashingtonsSecretTalksforGlobalDemocracy_final.mp4
+2025-07-19 16:58:28,415 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (168.01s)
+2025-07-19 16:58:28,416 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-19 16:58:28,419 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_WashingtonsSecretTalksforGlobalDemocracy_20250719_165828.json
+2025-07-19 16:58:28,419 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-19 16:58:28,420 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 16:58:28,420 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 226.61s
+2025-07-19 16:58:28,420 - autotube.full_pipeline - INFO - 📁 Story Title: WashingtonsSecretTalksforGlobalDemocracy
+2025-07-19 16:58:28,420 - autotube.full_pipeline - INFO - 📁 Sanitized Title: WashingtonsSecretTalksforGlobalDemocracy
+2025-07-19 16:58:28,421 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_WashingtonsSecretTalksforGlobalDemocracy_20250719_165828.json

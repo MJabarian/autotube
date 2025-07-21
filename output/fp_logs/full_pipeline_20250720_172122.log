@@ -1,0 +1,349 @@
+2025-07-20 17:21:22,461 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-20 17:21:22,462 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250720_172122.log
+2025-07-20 17:21:22,462 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-20 17:21:22,462 - autotube.full_pipeline - INFO - ============================================================
+2025-07-20 17:21:22,462 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-20 17:21:22,463 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-20 17:21:24,023 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:21:25,144 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:21:27,676 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:21:27,958 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:21:27,975 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Invention of the Printing Press: A Revolution in Knowledge  
+**Summary:** In 1440, Johannes Gutenberg introduced the printing press, transforming the dissemination of information and igniting the Renaissance by making books accessible to the masses for the first time.
+2025-07-20 17:21:27,976 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheInventionofthePrintingPressARevolutioninKn_content_gen_2025-07-20_17-21-27.log
+2025-07-20 17:21:27,976 - autotube.content_gen - INFO - 📁 Sanitized folder name: HowthePrintingPressIgnitedaKnowledgeRevolution
+2025-07-20 17:21:27,976 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 82 words
+2025-07-20 17:21:27,981 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowthePrintingPressIgnitedaKnowledgeRevolution\story.json (1,183 bytes)
+2025-07-20 17:21:27,982 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowthePrintingPressIgnitedaKnowledgeRevolution\topic.txt (284 bytes)
+2025-07-20 17:21:27,982 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowthePrintingPressIgnitedaKnowledgeRevolution\metadata.json (660 bytes)
+2025-07-20 17:21:27,983 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowthePrintingPressIgnitedaKnowledgeRevolution\story.txt (1,103 bytes)
+2025-07-20 17:21:27,984 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowthePrintingPressIgnitedaKnowledgeRevolution
+2025-07-20 17:21:36,762 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowthePrintingPressIgnitedaKnowledgeRevolution\audio_HowthePrintingPressIgnitedaKnowledgeRevolution.mp3 (244,523 bytes)
+2025-07-20 17:21:36,910 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 30.54s duration
+2025-07-20 17:21:38,814 - autotube.content_gen - INFO - ✅ Audio speed adjustment: 1.1x, new duration: 27.77s
+2025-07-20 17:21:38,814 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowthePrintingPressIgnitedaKnowledgeRevolution\audio_HowthePrintingPressIgnitedaKnowledgeRevolution_sped_up.mp3 (244,523 bytes, 27.77s)
+2025-07-20 17:21:38,817 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-20 17:21:38,817 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-20 17:21:38,818 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowthePrintingPressIgnitedaKnowledgeRevolution\audio_HowthePrintingPressIgnitedaKnowledgeRevolution_sped_up.mp3
+2025-07-20 17:21:38,819 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-20 17:21:40,417 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-20 17:21:40,567 - faster_whisper - INFO - Processing audio with duration 00:27.737
+2025-07-20 17:21:41,561 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-20 17:21:48,817 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 27.40s
+2025-07-20 17:21:48,818 - whisper_audio_synchronizer - INFO - 📝 Extracted 82 words with timestamps
+2025-07-20 17:21:48,819 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 27.40s, Image duration: 2.28s
+2025-07-20 17:21:48,820 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-20 17:21:48,821 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-20 17:21:50,695 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:21:50,701 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/wide_shot): Wide shot of a dimly lit medieval workshop, clutte...
+2025-07-20 17:21:52,383 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:21:52,385 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of a bustling 15th-century workshop, wit...
+2025-07-20 17:21:54,005 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:21:54,006 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of a bustling 15th-century workshop, art...
+2025-07-20 17:21:55,509 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:21:55,510 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/medium_shot): Medium shot of Johannes Gutenberg in his workshop,...
+2025-07-20 17:21:56,916 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:21:56,917 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/medium_shot): Medium shot of a workshop bustling with activity, ...
+2025-07-20 17:21:58,363 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:21:58,365 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/medium_shot): Medium shot of Johannes Gutenberg in his workshop,...
+2025-07-20 17:21:59,800 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:21:59,801 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of Johannes Gutenberg at his printing ...
+2025-07-20 17:22:01,282 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:22:01,285 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/medium_shot): Medium shot of a bustling 15th-century workshop, w...
+2025-07-20 17:22:02,915 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:22:02,920 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of Johannes Gutenberg in his workshop,...
+2025-07-20 17:22:04,571 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:22:04,574 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/medium_shot): Medium shot of Johannes Gutenberg in his workshop,...
+2025-07-20 17:22:06,189 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:22:06,191 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/medium_shot): Medium shot of Johannes Gutenberg in a dimly lit w...
+2025-07-20 17:22:07,605 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:22:07,607 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/medium_shot): Medium shot of Johannes Gutenberg in a dimly lit w...
+2025-07-20 17:22:07,608 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\How_the_Printing_Press_Ignited_a_Knowledge_Revolution_whisper_sync.json
+2025-07-20 17:22:07,608 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-20 17:22:07,609 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-20 17:22:07,609 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-20 17:22:07,609 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-20 17:22:07,613 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-trailer-music-05-cinematic-modern-orchestral-trailer-114622.mp3 (1,951,033 bytes)
+2025-07-20 17:22:07,615 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\HowthePrintingPressIgnitedaKnowledgeRevolution\music_selection.json (433 bytes)
+2025-07-20 17:22:07,615 - autotube.content_gen - INFO - ✅ Music selected: cinematic-trailer-music-05-cinematic-modern-orchestral-trailer-114622.mp3
+2025-07-20 17:22:07,616 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-20 17:22:07,616 - src.replicate_image_generator - INFO - Generating images for story: How the Printing Press Ignited a Knowledge Revolution
+2025-07-20 17:22:07,616 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-20 17:22:07,617 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-20 17:22:07,617 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-20 17:22:08,695 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:22:10,294 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:22:11,993 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:22:13,536 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:22:15,625 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:22:17,429 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:22:19,065 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:22:20,671 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:22:22,421 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:22:24,046 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:22:25,593 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:22:27,161 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:22:28,176 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-20 17:22:28,177 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-20 17:22:28,179 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-20 17:22:28,181 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-20 17:22:28,187 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-20 17:22:28,188 - autotube.content_gen - INFO - 📊 Total time: 65.72s, Cost: $0.0360
+2025-07-20 17:22:28,188 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Invention of the Printing Press: A Revolution in Knowledge  
+**Summary:** In 1440, Johannes Gutenberg introduced the printing press, transforming the dissemination of information and igniting the Renaissance by making books accessible to the masses for the first time.
+2025-07-20 17:22:28,231 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (65.77s)
+2025-07-20 17:22:28,231 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-20 17:22:28,232 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-20 17:22:28,232 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: HowthePrintingPressIgnitedaKnowledgeRevolution
+2025-07-20 17:22:28,233 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: HowthePrintingPressIgnitedaKnowledgeRevolution
+2025-07-20 17:22:28,233 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowthePrintingPressIgnitedaKnowledgeRevolution\audio_HowthePrintingPressIgnitedaKnowledgeRevolution_sped_up.mp3
+2025-07-20 17:22:28,234 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\HowthePrintingPressIgnitedaKnowledgeRevolution\music_selection.json
+2025-07-20 17:22:28,245 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-trailer-music-05-cinematic-modern-orchestral-trailer-114622.mp3
+2025-07-20 17:22:28,266 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-20 17:22:28,267 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowthePrintingPressIgnitedaKnowledgeRevolution\audio_HowthePrintingPressIgnitedaKnowledgeRevolution_sped_up.mp3
+2025-07-20 17:22:28,555 - src.audio_mixer - INFO - Loaded audio: 27737ms (27.737s), 44100Hz, 2 channels
+2025-07-20 17:22:28,555 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-trailer-music-05-cinematic-modern-orchestral-trailer-114622.mp3
+2025-07-20 17:22:28,919 - src.audio_mixer - INFO - Loaded audio: 60970ms (60.970s), 44100Hz, 2 channels
+2025-07-20 17:22:28,920 - src.audio_mixer - INFO - Voice duration: 27737ms
+2025-07-20 17:22:28,920 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-20 17:22:28,921 - src.audio_mixer - INFO - Target duration: 27737ms
+2025-07-20 17:22:28,922 - src.audio_mixer - INFO - Trimmed music from 27737ms to 27737ms
+2025-07-20 17:22:28,923 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-20 17:22:28,975 - src.audio_mixer - INFO - Voice adjusted by 9.4dB, Music by -10.5dB
+2025-07-20 17:22:28,989 - src.audio_mixer - INFO - Added 500ms fade-out to prevent end artifacts
+2025-07-20 17:22:29,010 - src.audio_mixer - INFO - ✅ Perfect duration match: 27737ms
+2025-07-20 17:22:29,011 - src.audio_mixer - INFO - Audio mixing completed: 27737ms
+2025-07-20 17:22:29,807 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\HowthePrintingPressIgnitedaKnowledgeRevolution\mixed_audio_HowthePrintingPressIgnitedaKnowledgeRevolution.mp3
+2025-07-20 17:22:29,810 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\HowthePrintingPressIgnitedaKnowledgeRevolution\mixed_audio_HowthePrintingPressIgnitedaKnowledgeRevolution.mp3
+2025-07-20 17:22:29,811 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 780,388 bytes (0.7 MB)
+2025-07-20 17:22:29,812 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: HowthePrintingPressIgnitedaKnowledgeRevolution
+2025-07-20 17:22:29,813 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-20 17:22:29,813 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-20 17:22:29,814 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: HowthePrintingPressIgnitedaKnowledgeRevolution
+2025-07-20 17:22:30,043 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-20 17:22:30,045 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-20 17:22:30,045 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.42 seconds per image
+2025-07-20 17:22:30,046 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowthePrintingPressIgnitedaKnowledgeRevolution\HowthePrintingPressIgnitedaKnowledgeRevolution_kenburns.mp4
+2025-07-20 17:22:30,046 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['pan_left', 'pan_right', 'pan_left', 'zoom_out', 'pan_left']...
+2025-07-20 17:22:30,047 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-20 17:22:30,047 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 17:22:30,071 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-20 17:22:30,071 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-20 17:22:30,093 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-20 17:22:30,094 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 17:22:30,110 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-20 17:22:30,110 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 17:22:30,152 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-20 17:22:30,153 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 17:22:30,188 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-20 17:22:30,188 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-20 17:22:30,227 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-20 17:22:30,228 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 17:22:30,261 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-20 17:22:30,262 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-20 17:22:30,301 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-20 17:22:30,301 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 17:22:30,341 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-20 17:22:30,342 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 17:22:30,376 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-20 17:22:30,377 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 17:22:30,410 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-20 17:22:30,411 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-20 17:22:30,447 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-20 17:22:30,532 - autotube.full_pipeline - INFO - 📐 Expected video duration: 29.070s
+2025-07-20 17:22:30,532 - autotube.full_pipeline - INFO - 📹 Actual video duration: 29.070s
+2025-07-20 17:22:30,533 - autotube.full_pipeline - INFO - ✅ Video duration matches expected: 29.070s
+2025-07-20 17:22:30,533 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-20 17:22:30,688 - autotube.full_pipeline - INFO - 📹 Video duration: 29.070s
+2025-07-20 17:22:30,689 - autotube.full_pipeline - INFO - 🎵 Audio duration: 29.070s
+2025-07-20 17:22:30,690 - autotube.full_pipeline - INFO - ✅ Perfect duration match: 29.070s
+2025-07-20 17:22:30,691 - autotube.full_pipeline - INFO - 🔧 Aggressive trim: Audio 29.070s → 29.070s
+2025-07-20 17:22:30,691 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 29.070s
+2025-07-20 17:22:30,692 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowthePrintingPressIgnitedaKnowledgeRevolution\HowthePrintingPressIgnitedaKnowledgeRevolution_kenburns.mp4
+2025-07-20 17:23:13,575 - autotube.full_pipeline - WARNING - ⚠️  Video dimensions: 844x1478, expected: 768x1344
+2025-07-20 17:23:13,575 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-20 17:23:13,576 - autotube.full_pipeline - INFO - ✅ Video duration: 29.10 seconds
+2025-07-20 17:23:13,576 - autotube.full_pipeline - INFO - ✅ Video file size: 7.5 MB
+2025-07-20 17:23:13,576 - autotube.full_pipeline - WARNING - ⚠️  Resolution seems low for HD: 844x1478
+2025-07-20 17:23:13,576 - autotube.full_pipeline - INFO - 🎯 HD Quality: Acceptable file size
+2025-07-20 17:23:13,601 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowthePrintingPressIgnitedaKnowledgeRevolution\HowthePrintingPressIgnitedaKnowledgeRevolution_kenburns.mp4
+2025-07-20 17:23:13,601 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-20 17:23:13,602 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowthePrintingPressIgnitedaKnowledgeRevolution\HowthePrintingPressIgnitedaKnowledgeRevolution_kenburns.mp4
+2025-07-20 17:23:13,602 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-20 17:23:13,603 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-20 17:23:13,604 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-20 17:23:13,604 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-20 17:23:14,925 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-20 17:23:14,925 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-20 17:23:14,926 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-20 17:23:15,050 - faster_whisper - INFO - Processing audio with duration 00:27.768
+2025-07-20 17:23:18,611 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-20 17:23:27,667 - autotube.full_pipeline - INFO - Extracted 82 words with timing
+2025-07-20 17:23:27,668 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 12.74s
+2025-07-20 17:23:28,070 - autotube.full_pipeline - INFO - Video loading took 0.40s
+2025-07-20 17:23:28,071 - autotube.full_pipeline - INFO - Original video - Duration: 29.10s, FPS: 30.0, Audio: True
+2025-07-20 17:23:28,071 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 82 words...
+2025-07-20 17:23:28,072 - autotube.full_pipeline - INFO - Group 1: 4 words (19 chars), 0.00s - 1.68s
+2025-07-20 17:23:28,072 - autotube.full_pipeline - INFO - Group 2: 3 words (27 chars), 1.92s - 3.06s
+2025-07-20 17:23:28,072 - autotube.full_pipeline - INFO - Group 3: 3 words (24 chars), 3.04s - 4.60s
+2025-07-20 17:23:28,073 - autotube.full_pipeline - INFO - Group 4: 3 words (20 chars), 4.58s - 5.42s
+2025-07-20 17:23:28,073 - autotube.full_pipeline - INFO - Group 5: 4 words (21 chars), 5.58s - 6.44s
+2025-07-20 17:23:28,073 - autotube.full_pipeline - INFO - Group 6: 4 words (22 chars), 6.42s - 7.34s
+2025-07-20 17:23:28,073 - autotube.full_pipeline - INFO - Group 7: 4 words (25 chars), 7.32s - 8.66s
+2025-07-20 17:23:28,074 - autotube.full_pipeline - INFO - Group 8: 3 words (18 chars), 8.86s - 9.66s
+2025-07-20 17:23:28,074 - autotube.full_pipeline - INFO - Group 9: 3 words (24 chars), 9.64s - 11.08s
+2025-07-20 17:23:28,074 - autotube.full_pipeline - INFO - Group 10: 4 words (23 chars), 11.06s - 12.46s
+2025-07-20 17:23:28,074 - autotube.full_pipeline - INFO - Group 11: 3 words (14 chars), 12.82s - 13.86s
+2025-07-20 17:23:28,075 - autotube.full_pipeline - INFO - Group 12: 4 words (19 chars), 13.84s - 14.56s
+2025-07-20 17:23:28,075 - autotube.full_pipeline - INFO - Group 13: 3 words (18 chars), 14.54s - 15.32s
+2025-07-20 17:23:28,075 - autotube.full_pipeline - INFO - Group 14: 4 words (23 chars), 15.30s - 16.60s
+2025-07-20 17:23:28,075 - autotube.full_pipeline - INFO - Group 15: 3 words (22 chars), 16.58s - 17.64s
+2025-07-20 17:23:28,075 - autotube.full_pipeline - INFO - Group 16: 3 words (29 chars), 17.62s - 18.90s
+2025-07-20 17:23:28,076 - autotube.full_pipeline - INFO - Group 17: 4 words (23 chars), 18.88s - 20.22s
+2025-07-20 17:23:28,076 - autotube.full_pipeline - INFO - Group 18: 3 words (16 chars), 20.20s - 20.92s
+2025-07-20 17:23:28,076 - autotube.full_pipeline - INFO - Group 19: 3 words (20 chars), 20.90s - 21.68s
+2025-07-20 17:23:28,077 - autotube.full_pipeline - INFO - Group 20: 3 words (20 chars), 21.66s - 22.62s
+2025-07-20 17:23:28,077 - autotube.full_pipeline - INFO - Group 21: 3 words (23 chars), 22.60s - 23.90s
+2025-07-20 17:23:28,077 - autotube.full_pipeline - INFO - Group 22: 3 words (23 chars), 23.88s - 25.20s
+2025-07-20 17:23:28,078 - autotube.full_pipeline - INFO - Group 23: 4 words (24 chars), 25.18s - 26.40s
+2025-07-20 17:23:28,078 - autotube.full_pipeline - INFO - Group 24: 4 words (22 chars), 26.38s - 27.36s
+2025-07-20 17:23:28,078 - autotube.full_pipeline - INFO - Created 24 word groups with smart length limiting
+2025-07-20 17:23:28,078 - autotube.full_pipeline - INFO - Creating clips for group 1: 4 words
+2025-07-20 17:23:28,907 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.26s
+2025-07-20 17:23:29,577 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.22s - 0.90s
+2025-07-20 17:23:30,225 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.86s - 0.96s
+2025-07-20 17:23:30,747 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 1: 0.92s - 1.87s
+2025-07-20 17:23:30,748 - autotube.full_pipeline - INFO - Created clips for 1/24 word groups - ETA: 3s
+2025-07-20 17:23:30,748 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-20 17:23:31,953 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 1.92s - 2.12s
+2025-07-20 17:23:33,054 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 2.08s - 2.64s
+2025-07-20 17:23:34,224 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 2.60s - 2.99s
+2025-07-20 17:23:34,225 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-20 17:23:35,044 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 3.04s - 4.16s
+2025-07-20 17:23:35,982 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 4.12s - 4.26s
+2025-07-20 17:23:37,034 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 4.22s - 4.53s
+2025-07-20 17:23:37,034 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-20 17:23:38,149 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 4.58s - 4.78s
+2025-07-20 17:23:39,353 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 4.74s - 5.02s
+2025-07-20 17:23:40,271 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 4.98s - 5.53s
+2025-07-20 17:23:40,271 - autotube.full_pipeline - INFO - Creating clips for group 5: 4 words
+2025-07-20 17:23:41,143 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 5.58s - 5.84s
+2025-07-20 17:23:41,961 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 5.80s - 6.16s
+2025-07-20 17:23:42,705 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 6.12s - 6.32s
+2025-07-20 17:23:43,572 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 5: 6.28s - 6.37s
+2025-07-20 17:23:43,572 - autotube.full_pipeline - INFO - Creating clips for group 6: 4 words
+2025-07-20 17:23:44,403 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 6.42s - 6.68s
+2025-07-20 17:23:45,372 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 6.64s - 6.96s
+2025-07-20 17:23:46,182 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 6.92s - 7.22s
+2025-07-20 17:23:47,017 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 6: 7.18s - 7.27s
+2025-07-20 17:23:47,017 - autotube.full_pipeline - INFO - Creating clips for group 7: 4 words
+2025-07-20 17:23:47,882 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 7.32s - 7.54s
+2025-07-20 17:23:48,674 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 7.50s - 8.24s
+2025-07-20 17:23:49,623 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 8.20s - 8.34s
+2025-07-20 17:23:50,526 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 7: 8.30s - 8.81s
+2025-07-20 17:23:50,527 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-20 17:23:51,187 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 8.86s - 9.18s
+2025-07-20 17:23:51,907 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 9.14s - 9.56s
+2025-07-20 17:23:52,630 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 9.52s - 9.59s
+2025-07-20 17:23:52,631 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-20 17:23:53,535 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 9.64s - 10.28s
+2025-07-20 17:23:54,477 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 10.24s - 10.68s
+2025-07-20 17:23:55,431 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 10.64s - 11.01s
+2025-07-20 17:23:55,431 - autotube.full_pipeline - INFO - Creating clips for group 10: 4 words
+2025-07-20 17:23:56,195 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 11.06s - 11.28s
+2025-07-20 17:23:57,060 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 11.24s - 11.40s
+2025-07-20 17:23:57,890 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 11.36s - 12.10s
+2025-07-20 17:23:58,644 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 10: 12.06s - 12.76s
+2025-07-20 17:23:58,644 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-20 17:23:59,147 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 12.82s - 13.08s
+2025-07-20 17:23:59,672 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 13.04s - 13.64s
+2025-07-20 17:24:00,203 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 13.60s - 13.79s
+2025-07-20 17:24:00,204 - autotube.full_pipeline - INFO - Created clips for 11/24 word groups - ETA: 32s
+2025-07-20 17:24:00,204 - autotube.full_pipeline - INFO - Creating clips for group 12: 4 words
+2025-07-20 17:24:00,789 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 13.84s - 13.94s
+2025-07-20 17:24:01,399 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 13.90s - 14.22s
+2025-07-20 17:24:02,087 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 14.18s - 14.44s
+2025-07-20 17:24:02,814 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 12: 14.40s - 14.49s
+2025-07-20 17:24:02,814 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-20 17:24:03,599 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 14.54s - 14.82s
+2025-07-20 17:24:04,377 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 14.78s - 15.06s
+2025-07-20 17:24:05,109 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 15.02s - 15.25s
+2025-07-20 17:24:05,109 - autotube.full_pipeline - INFO - Creating clips for group 14: 4 words
+2025-07-20 17:24:05,966 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 15.30s - 15.62s
+2025-07-20 17:24:06,748 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 15.58s - 15.76s
+2025-07-20 17:24:07,505 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 15.72s - 16.46s
+2025-07-20 17:24:08,316 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 14: 16.42s - 16.53s
+2025-07-20 17:24:08,316 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-20 17:24:09,270 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 16.58s - 17.00s
+2025-07-20 17:24:10,122 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 16.96s - 17.42s
+2025-07-20 17:24:11,091 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 17.38s - 17.57s
+2025-07-20 17:24:11,092 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-20 17:24:12,255 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 17.62s - 18.30s
+2025-07-20 17:24:13,424 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 18.26s - 18.46s
+2025-07-20 17:24:14,532 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 18.42s - 18.83s
+2025-07-20 17:24:14,533 - autotube.full_pipeline - INFO - Creating clips for group 17: 4 words
+2025-07-20 17:24:15,298 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 18.88s - 19.10s
+2025-07-20 17:24:16,046 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 19.06s - 20.00s
+2025-07-20 17:24:16,946 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 19.96s - 20.10s
+2025-07-20 17:24:17,683 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 17: 20.06s - 20.15s
+2025-07-20 17:24:17,684 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-20 17:24:18,268 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 20.20s - 20.48s
+2025-07-20 17:24:18,904 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 20.44s - 20.68s
+2025-07-20 17:24:19,483 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 20.64s - 20.85s
+2025-07-20 17:24:19,484 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-20 17:24:20,334 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 20.90s - 21.12s
+2025-07-20 17:24:21,149 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 21.08s - 21.46s
+2025-07-20 17:24:21,954 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 21.42s - 21.61s
+2025-07-20 17:24:21,955 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-20 17:24:22,713 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 21.66s - 21.94s
+2025-07-20 17:24:23,470 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 21.90s - 22.50s
+2025-07-20 17:24:24,244 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 22.46s - 22.55s
+2025-07-20 17:24:24,245 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-20 17:24:25,116 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 22.60s - 22.78s
+2025-07-20 17:24:25,938 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 22.74s - 23.54s
+2025-07-20 17:24:26,764 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 23.50s - 23.83s
+2025-07-20 17:24:26,764 - autotube.full_pipeline - INFO - Created clips for 21/24 word groups - ETA: 59s
+2025-07-20 17:24:26,764 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-20 17:24:27,632 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 23.88s - 24.94s
+2025-07-20 17:24:28,485 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 24.90s - 25.00s
+2025-07-20 17:24:29,460 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 24.96s - 25.13s
+2025-07-20 17:24:29,460 - autotube.full_pipeline - INFO - Creating clips for group 23: 4 words
+2025-07-20 17:24:30,360 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 25.18s - 25.40s
+2025-07-20 17:24:31,228 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 25.36s - 25.66s
+2025-07-20 17:24:32,066 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 25.62s - 26.24s
+2025-07-20 17:24:32,932 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 23: 26.20s - 26.33s
+2025-07-20 17:24:32,933 - autotube.full_pipeline - INFO - Creating clips for group 24: 4 words
+2025-07-20 17:24:33,748 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 26.38s - 26.66s
+2025-07-20 17:24:34,538 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 26.62s - 26.80s
+2025-07-20 17:24:35,347 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 26.76s - 27.08s
+2025-07-20 17:24:36,170 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 24: 27.04s - 27.56s
+2025-07-20 17:24:36,170 - autotube.full_pipeline - INFO - Created 82 individual subtitle clips
+2025-07-20 17:24:36,172 - autotube.full_pipeline - INFO - Viral subtitle creation took 68.10s
+2025-07-20 17:24:36,172 - autotube.full_pipeline - INFO - Subtitle clips count: 82
+2025-07-20 17:24:36,185 - autotube.full_pipeline - INFO - Video composition took 0.01s
+2025-07-20 17:24:36,186 - autotube.full_pipeline - INFO - Original audio duration: 29.100s
+2025-07-20 17:24:36,186 - autotube.full_pipeline - INFO - Final video duration: 29.100s
+2025-07-20 17:24:36,186 - autotube.full_pipeline - INFO - Final audio duration: 29.100s
+2025-07-20 17:24:36,187 - autotube.full_pipeline - INFO - Final video - Duration: 29.10s, Audio: True
+2025-07-20 17:24:36,187 - autotube.full_pipeline - INFO - Writing HD viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\HowthePrintingPressIgnitedaKnowledgeRevolution\HowthePrintingPressIgnitedaKnowledgeRevolution_final.mp4
+2025-07-20 17:25:19,916 - autotube.full_pipeline - INFO - Video writing took 43.73s
+2025-07-20 17:25:19,917 - autotube.full_pipeline - INFO - Validating output file with duration verification...
+2025-07-20 17:25:20,386 - autotube.full_pipeline - INFO - Output file - Video Duration: 29.100s, Audio Duration: 29.100s
+2025-07-20 17:25:20,386 - autotube.full_pipeline - INFO - ✅ Perfect audio duration match: 29.100s
+2025-07-20 17:25:20,386 - autotube.full_pipeline - INFO - ✅ Perfect video duration match: 29.100s
+2025-07-20 17:25:20,413 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\HowthePrintingPressIgnitedaKnowledgeRevolution\HowthePrintingPressIgnitedaKnowledgeRevolution_final.mp4
+2025-07-20 17:25:20,413 - autotube.full_pipeline - INFO - Total processing time: 125.49s
+2025-07-20 17:25:20,414 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\HowthePrintingPressIgnitedaKnowledgeRevolution\HowthePrintingPressIgnitedaKnowledgeRevolution_final.mp4
+2025-07-20 17:25:20,414 - autotube.full_pipeline - INFO - 📊 Final video size: 7,993,038 bytes (7.6 MB)
+2025-07-20 17:25:20,414 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-20 17:25:20,415 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowthePrintingPressIgnitedaKnowledgeRevolution\HowthePrintingPressIgnitedaKnowledgeRevolution_kenburns.mp4
+2025-07-20 17:25:20,415 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\HowthePrintingPressIgnitedaKnowledgeRevolution\HowthePrintingPressIgnitedaKnowledgeRevolution_final.mp4
+2025-07-20 17:25:20,445 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (172.21s)
+2025-07-20 17:25:20,446 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-20 17:25:20,448 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_HowthePrintingPressIgnitedaKnowledgeRevolution_20250720_172520.json
+2025-07-20 17:25:20,448 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-20 17:25:20,449 - autotube.full_pipeline - INFO - ============================================================
+2025-07-20 17:25:20,449 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 237.99s
+2025-07-20 17:25:20,449 - autotube.full_pipeline - INFO - 📁 Story Title: HowthePrintingPressIgnitedaKnowledgeRevolution
+2025-07-20 17:25:20,449 - autotube.full_pipeline - INFO - 📁 Sanitized Title: HowthePrintingPressIgnitedaKnowledgeRevolution
+2025-07-20 17:25:20,449 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_HowthePrintingPressIgnitedaKnowledgeRevolution_20250720_172520.json

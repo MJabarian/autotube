@@ -1,0 +1,241 @@
+{
+  "story_title": "Phantom Time: The 297-Year Historical Gap",
+  "original_story": "[mysterious] What if I told you 297 years of our history might be a total fabrication? Some theorists claim the early Middle Ages, from 614 to 911 AD, never actually happened! Historians like Heribert Illig argue this was a deliberate deception, possibly by the Holy Roman Empire to legitimize its rule. Imagine no Charlemagne, no Viking raids—just a blank slate! What’s shocking is that this theory challenges our entire timeline, making you question everything you think you know about history. Crazy, right?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.146666666666667,
+      "audio_content": "What if I told you 297 years of",
+      "words_in_segment": 8,
+      "confidence_avg": 0.965534795075655
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.146666666666667,
+      "timestamp_end": 4.293333333333334,
+      "audio_content": "history might be a total fabrication?",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9960371454556783
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.293333333333334,
+      "timestamp_end": 6.440000000000001,
+      "audio_content": "Some theorists claim the early Middle Ages,",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9500808162348611
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.440000000000001,
+      "timestamp_end": 8.586666666666668,
+      "audio_content": "614 to 911 AD, never",
+      "words_in_segment": 5,
+      "confidence_avg": 0.7808210909366607
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.586666666666668,
+      "timestamp_end": 10.733333333333334,
+      "audio_content": "happened. Historians like Haraburt",
+      "words_in_segment": 4,
+      "confidence_avg": 0.8293105897804102
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 10.733333333333334,
+      "timestamp_end": 12.880000000000003,
+      "audio_content": "argue this was a deliberate deception,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9906928340593973
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 12.880000000000003,
+      "timestamp_end": 15.026666666666669,
+      "audio_content": "by the Holy Roman Empire to",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9699568450450897
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.026666666666669,
+      "timestamp_end": 17.173333333333336,
+      "audio_content": "its rule. Imagine no Charlemagne,",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9676976879437765
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 17.173333333333336,
+      "timestamp_end": 19.320000000000004,
+      "audio_content": "no Viking raids, just a blank slate.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.981599041393825
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 19.320000000000004,
+      "timestamp_end": 21.46666666666667,
+      "audio_content": "What's shocking is that this theory challenges our",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9966266974806786
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 21.46666666666667,
+      "timestamp_end": 23.613333333333337,
+      "audio_content": "timeline, making you question everything",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9949947357177734
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 23.613333333333337,
+      "timestamp_end": 25.760000000000005,
+      "audio_content": "think you know about history. Crazy, right?",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9899512699672154
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.146666666666667,
+      "audio_content": "What if I told you 297 years of",
+      "image_prompt": "Wide shot of a darkened medieval landscape, shrouded in mist. Silhouetted ruins of an ancient castle loom in the background, while a lone figure stands at the forefront, gazing into the abyss. Dramatic chiaroscuro lighting casts sharp shadows, evoking a sense of mystery and forgotten history.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.965534795075655,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.146666666666667,
+      "timestamp_end": 4.293333333333334,
+      "audio_content": "history might be a total fabrication?",
+      "image_prompt": "Wide shot of a shadowy medieval landscape, an empty throne room with flickering candlelight casting eerie shadows. In the background, a ghostly figure representing a historian stands, gazing at faded tapestries depicting Charlemagne and Viking ships, as if contemplating the erased history.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9960371454556783,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.293333333333334,
+      "timestamp_end": 6.440000000000001,
+      "audio_content": "Some theorists claim the early Middle Ages,",
+      "image_prompt": "Wide shot of a dimly lit medieval library filled with ancient texts and scrolls, shadows dancing across stone walls, as a lone scholar examines a dusty manuscript, pondering the mystery of a fabricated history, dramatic chiaroscuro lighting highlighting the intrigue.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9500808162348611,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.440000000000001,
+      "timestamp_end": 8.586666666666668,
+      "audio_content": "614 to 911 AD, never",
+      "image_prompt": "Wide shot of a shadowy medieval landscape, shrouded in mist, with crumbling stone castles and empty cobblestone streets. Dramatic chiaroscuro lighting highlights the eerie silence of the era, evoking a sense of lost history and the weight of unanswered questions.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.7808210909366607,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.586666666666668,
+      "timestamp_end": 10.733333333333334,
+      "audio_content": "happened. Historians like Haraburt",
+      "image_prompt": "Medium shot of a shadowy historian in a dimly lit study, surrounded by ancient maps and artifacts. His intense gaze pierces through the darkness as he passionately gestures, revealing a hidden truth about the lost years of history, illuminated by dramatic chiaroscuro lighting.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.8293105897804102,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 10.733333333333334,
+      "timestamp_end": 12.880000000000003,
+      "audio_content": "argue this was a deliberate deception,",
+      "image_prompt": "Medium shot of a shadowy figure, a historian, passionately gesturing in a dimly lit room filled with ancient maps and artifacts, his face illuminated by a flickering candle, as he debates the potential deception of 297 years of history, creating an atmosphere thick with intrigue and skepticism.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9906928340593973,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 12.880000000000003,
+      "timestamp_end": 15.026666666666669,
+      "audio_content": "by the Holy Roman Empire to",
+      "image_prompt": "Medium shot of a historian passionately gesturing in a dimly lit room, surrounded by ancient maps and artifacts. Shadows dance across his face, highlighting the intensity of his conviction as he challenges the very fabric of history, evoking a sense of intrigue and mystery.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9699568450450897,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.026666666666669,
+      "timestamp_end": 17.173333333333336,
+      "audio_content": "its rule. Imagine no Charlemagne,",
+      "image_prompt": "Medium shot of a shadowy historian, deep in thought, surrounded by ancient manuscripts. The dimly lit room features dramatic chiaroscuro lighting, illuminating his furrowed brow as he contemplates the missing centuries of history, casting sharp shadows on the stone walls.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9676976879437765,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 17.173333333333336,
+      "timestamp_end": 19.320000000000004,
+      "audio_content": "no Viking raids, just a blank slate.",
+      "image_prompt": "Medium shot of a historian passionately gesturing in a dimly lit library, shadows dancing on ancient bookshelves. His intense expression conveys the weight of his claims about history, as the flickering candlelight highlights the dust motes in the air, evoking a sense of mystery.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.981599041393825,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 19.320000000000004,
+      "timestamp_end": 21.46666666666667,
+      "audio_content": "What's shocking is that this theory challenges our",
+      "image_prompt": "Medium shot of a group of historians gathered around a table, their expressions tense and contemplative, illuminated by dramatic chiaroscuro lighting. Shadows dance across ancient maps and artifacts as they discuss the shocking theory of a fabricated history, evoking a sense of intrigue and urgency.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9966266974806786,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 21.46666666666667,
+      "timestamp_end": 23.613333333333337,
+      "audio_content": "timeline, making you question everything",
+      "image_prompt": "Medium shot of a historian in a dimly lit study, surrounded by ancient scrolls and maps. His expressive face is illuminated by flickering candlelight, revealing a mix of intrigue and skepticism as he passionately discusses the missing centuries of history.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9949947357177734,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 23.613333333333337,
+      "timestamp_end": 25.760000000000005,
+      "audio_content": "think you know about history. Crazy, right?",
+      "image_prompt": "Medium shot of a medieval scholar in a dimly lit room, surrounded by ancient scrolls and manuscripts. His expressive face reveals shock and curiosity as he contemplates the possibility of a fabricated history, with deep shadows highlighting the intensity of the moment.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9899512699672154,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 25.760000000000005,
+    "whisper_model": "base"
+  }
+}

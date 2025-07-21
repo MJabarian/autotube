@@ -1,0 +1,58 @@
+{
+  "pipeline_info": {
+    "story_title": "UncoveringtheAztecEmpiresHiddenTreasure",
+    "sanitized_title": "UncoveringtheAztecEmpiresHiddenTreasure",
+    "start_time": "2025-07-19T23:41:52.444175",
+    "end_time": "2025-07-19T23:46:55.814576",
+    "total_duration": 303.37040162086487,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1752982912.450178,
+      "end": 1752982984.348767,
+      "duration": 71.89858913421631,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1752982984.3507648,
+      "end": 1752983215.812576,
+      "duration": 231.4618113040924,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\UncoveringtheAztecEmpiresHiddenTreasure\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\UncoveringtheAztecEmpiresHiddenTreasure\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\UncoveringtheAztecEmpiresHiddenTreasure\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\UncoveringtheAztecEmpiresHiddenTreasure\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\UncoveringtheAztecEmpiresHiddenTreasure\\audio_UncoveringtheAztecEmpiresHiddenTreasure.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\UncoveringtheAztecEmpiresHiddenTreasure\\audio_UncoveringtheAztecEmpiresHiddenTreasure_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\UncoveringtheAztecEmpiresHiddenTreasure\\mixed_audio_UncoveringtheAztecEmpiresHiddenTreasure.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\UncoveringtheAztecEmpiresHiddenTreasure\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\UncoveringtheAztecEmpiresHiddenTreasure\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\UncoveringtheAztecEmpiresHiddenTreasure\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\UncoveringtheAztecEmpiresHiddenTreasure\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\UncoveringtheAztecEmpiresHiddenTreasure\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\UncoveringtheAztecEmpiresHiddenTreasure\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\UncoveringtheAztecEmpiresHiddenTreasure\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\UncoveringtheAztecEmpiresHiddenTreasure\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\UncoveringtheAztecEmpiresHiddenTreasure\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\UncoveringtheAztecEmpiresHiddenTreasure\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\UncoveringtheAztecEmpiresHiddenTreasure\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\UncoveringtheAztecEmpiresHiddenTreasure\\image_12.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\videos\\UncoveringtheAztecEmpiresHiddenTreasure_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\subtitles_processed_video\\UncoveringtheAztecEmpiresHiddenTreasure_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

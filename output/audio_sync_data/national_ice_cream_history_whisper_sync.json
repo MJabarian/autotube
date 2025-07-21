@@ -1,0 +1,241 @@
+{
+  "story_title": "national ice cream history",
+  "original_story": "[excited] You won't believe that in 1776, ice cream became a national sensation at the signing of the Declaration of Independence! Founding Fathers like George Washington and Thomas Jefferson were obsessed with this frozen treat. Jefferson even brought back a recipe from France! By the 19th century, ice cream was a luxury enjoyed by the elite, with flavors like vanilla and chocolate. Now, it’s a $13 billion industry in the U.S. alone! Who knew such a simple delight could have such a rich history?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.2566666666666664,
+      "audio_content": "You won't believe that in 1776,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9650181780258814
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.2566666666666664,
+      "timestamp_end": 4.513333333333333,
+      "audio_content": "ice cream became a national sensation at the",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9523924961686134
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.513333333333333,
+      "timestamp_end": 6.77,
+      "audio_content": "of the declaration of independence.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.798367902636528
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.77,
+      "timestamp_end": 9.026666666666666,
+      "audio_content": "Founding fathers like George Washington and",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9833388129870096
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.026666666666666,
+      "timestamp_end": 11.283333333333331,
+      "audio_content": "Jefferson were obsessed with this frozen",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9931865235169729
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.283333333333331,
+      "timestamp_end": 13.54,
+      "audio_content": "Jefferson even brought back a",
+      "words_in_segment": 5,
+      "confidence_avg": 0.996666669845581
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.54,
+      "timestamp_end": 15.796666666666665,
+      "audio_content": "from France. By the 19th",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9841332077980042
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.796666666666665,
+      "timestamp_end": 18.05333333333333,
+      "audio_content": "ice cream was a luxury enjoyed by the",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9893339946866035
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.05333333333333,
+      "timestamp_end": 20.31,
+      "audio_content": "with flavors like vanilla and chocolate.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9839202960332235
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 20.31,
+      "timestamp_end": 22.566666666666663,
+      "audio_content": "Now, it's a $13 billion",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9559217631816864
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.566666666666663,
+      "timestamp_end": 24.82333333333333,
+      "audio_content": "in the US alone. Who knew",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9304141402244568
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.82333333333333,
+      "timestamp_end": 27.08,
+      "audio_content": "a simple delight could have such a rich history?",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9933412339952257
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.2566666666666664,
+      "audio_content": "You won't believe that in 1776,",
+      "image_prompt": "Wide shot of a bustling 18th-century market, with vendors showcasing ice cream in ornate bowls. Dramatic lighting highlights the expressions of excited townsfolk as they marvel at this new delicacy, capturing the intrigue and celebration surrounding ice cream's rise to fame in 1776.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9650181780258814,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.2566666666666664,
+      "timestamp_end": 4.513333333333333,
+      "audio_content": "ice cream became a national sensation at the",
+      "image_prompt": "Wide shot of a bustling 18th-century outdoor gathering, with excited colonists enjoying ice cream. Founding Fathers like George Washington and Thomas Jefferson converse animatedly, ice cream cups in hand. The sun casts dramatic shadows as laughter fills the air, embodying a moment of joy in history.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9523924961686134,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.513333333333333,
+      "timestamp_end": 6.77,
+      "audio_content": "of the declaration of independence.",
+      "image_prompt": "Wide shot of a vibrant 18th-century American marketplace, bustling with people. In the foreground, a cart displays colorful tubs of ice cream, while Founding Fathers, including George Washington and Thomas Jefferson, animatedly discuss their favorite flavors, under the warm glow of a setting sun.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.798367902636528,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.77,
+      "timestamp_end": 9.026666666666666,
+      "audio_content": "Founding fathers like George Washington and",
+      "image_prompt": "Medium shot of George Washington and Thomas Jefferson in a candlelit room, animatedly discussing a bowl of ice cream, with a vintage ice cream maker in the background. The soft glow of candlelight casts dramatic shadows, highlighting their expressions of delight and camaraderie over this luxurious treat.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9833388129870096,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.026666666666666,
+      "timestamp_end": 11.283333333333331,
+      "audio_content": "Jefferson were obsessed with this frozen",
+      "image_prompt": "Medium shot of Thomas Jefferson in a dimly lit kitchen, intently stirring a mixture in a wooden bowl, with ice and salt scattered around. His expression reveals excitement as he recalls the French recipe, with shadows dancing across the walls, evoking the fervor of 1776.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9931865235169729,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.283333333333331,
+      "timestamp_end": 13.54,
+      "audio_content": "Jefferson even brought back a",
+      "image_prompt": "Medium shot of Thomas Jefferson in a candle-lit kitchen, carefully studying a French ice cream recipe. His expression is a mix of curiosity and excitement, with a rustic ice cream maker in the background, capturing the essence of 18th-century culinary innovation.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.996666669845581,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.54,
+      "timestamp_end": 15.796666666666665,
+      "audio_content": "from France. By the 19th",
+      "image_prompt": "Medium shot of a candlelit room where Founding Fathers gather, animatedly discussing the signing of the Declaration of Independence. A lavish ice cream bowl sits on the table, reflecting their excitement. Dramatic chiaroscuro lighting enhances their expressions, highlighting the historical significance of the moment.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9841332077980042,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.796666666666665,
+      "timestamp_end": 18.05333333333333,
+      "audio_content": "ice cream was a luxury enjoyed by the",
+      "image_prompt": "Medium shot of a lavish 18th-century banquet, with elegantly dressed Founding Fathers enjoying bowls of ice cream. Rich textures of silk and lace surround them, as they laugh and toast, illuminated by warm candlelight, capturing the essence of a luxury treat shared among America's elite.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9893339946866035,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.05333333333333,
+      "timestamp_end": 20.31,
+      "audio_content": "with flavors like vanilla and chocolate.",
+      "image_prompt": "Medium shot of a lavish 19th-century gathering, elegantly dressed guests savoring ice cream in ornate bowls. Rich vanilla and chocolate flavors are showcased, with expressions of delight on their faces. Dramatic chiaroscuro lighting highlights the textures of the ice cream and the opulence of the setting.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9839202960332235,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 20.31,
+      "timestamp_end": 22.566666666666663,
+      "audio_content": "Now, it's a $13 billion",
+      "image_prompt": "Medium shot of elegantly dressed Founding Fathers gathered around a lavish table, animatedly discussing the Declaration of Independence. A bowl of ice cream sits prominently in the center, with light casting dramatic shadows, capturing their excitement and indulgence in this luxurious treat.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9559217631816864,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.566666666666663,
+      "timestamp_end": 24.82333333333333,
+      "audio_content": "in the US alone. Who knew",
+      "image_prompt": "Medium shot of Founding Fathers gathered around a lavish table, animatedly discussing the signing of the Declaration of Independence, with bowls of ice cream in the foreground. Dramatic chiaroscuro lighting highlights their expressions of excitement, showcasing a pivotal moment in American history.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9304141402244568,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.82333333333333,
+      "timestamp_end": 27.08,
+      "audio_content": "a simple delight could have such a rich history?",
+      "image_prompt": "Medium shot of a lively 18th-century gathering in a lavish parlor, gentlemen in powdered wigs and elegant dresses, animatedly discussing the signing of the Declaration of Independence, while a servant presents a bowl of ice cream, capturing their delight and curiosity about this decadent treat.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9933412339952257,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 27.08,
+    "whisper_model": "base"
+  }
+}

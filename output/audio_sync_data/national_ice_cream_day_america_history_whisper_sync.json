@@ -1,0 +1,241 @@
+{
+  "story_title": "national ice cream day america history",
+  "original_story": "[excited] Can you believe that in 1984, President Reagan declared July as National Ice Cream Month? This sweet celebration kicks off on the third Sunday of July! Get this—Reagan was a huge fan, and he wanted to promote dairy farmers. Ice cream consumption skyrocketed; Americans indulge in around 23 pounds per person annually! That's roughly 50 million gallons consumed on this day alone. With flavors ranging from classic vanilla to wild lavender, it’s a day dedicated to joy. So, what's your favorite scoop?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.271666666666667,
+      "audio_content": "Can you believe that in 1984,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9657601912816366
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.271666666666667,
+      "timestamp_end": 4.543333333333334,
+      "audio_content": "Reagan declared July as National",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9309002757072449
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.543333333333334,
+      "timestamp_end": 6.815000000000001,
+      "audio_content": "Cream Month, this sweet celebration kicks",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9497243960698446
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.815000000000001,
+      "timestamp_end": 9.086666666666668,
+      "audio_content": "on the third Sunday of July. Get",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9730196254593986
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.086666666666668,
+      "timestamp_end": 11.358333333333334,
+      "audio_content": "Reagan was a huge fan, and he wanted",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9976333975791931
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.358333333333334,
+      "timestamp_end": 13.630000000000003,
+      "audio_content": "promote dairy farmers. Ice Cream consumption",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8393341501553854
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.630000000000003,
+      "timestamp_end": 15.901666666666669,
+      "audio_content": "Americans indulge in around",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9531934857368469
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.901666666666669,
+      "timestamp_end": 18.173333333333336,
+      "audio_content": "pounds per person annually. That's",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9892671763896942
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.173333333333336,
+      "timestamp_end": 20.445000000000004,
+      "audio_content": "50 million gallons consumed on this",
+      "words_in_segment": 6,
+      "confidence_avg": 0.991192231575648
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 20.445000000000004,
+      "timestamp_end": 22.71666666666667,
+      "audio_content": "alone, with flavors ranging from classic",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9865373075008392
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.71666666666667,
+      "timestamp_end": 24.988333333333337,
+      "audio_content": "to wild lavender. It's a day",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9529322435458502
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.988333333333337,
+      "timestamp_end": 27.260000000000005,
+      "audio_content": "to joy. So, what's your favorite scoop?",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9280680077416557
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.271666666666667,
+      "audio_content": "Can you believe that in 1984,",
+      "image_prompt": "Establishing shot of a vibrant summer fair, with colorful ice cream stands and excited families enjoying scoops of various flavors under bright blue skies, sunbeams illuminating the joyful atmosphere, capturing a sense of celebration and nostalgia for National Ice Cream Month.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9657601912816366,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.271666666666667,
+      "timestamp_end": 4.543333333333334,
+      "audio_content": "Reagan declared July as National",
+      "image_prompt": "Wide shot of a vibrant summer scene at an American fair, with families gathered around an ice cream stand, children joyfully holding colorful cones, and a backdrop of festive decorations. Sunlight filters through trees, casting playful shadows, evoking a sense of happiness and celebration.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9309002757072449,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.543333333333334,
+      "timestamp_end": 6.815000000000001,
+      "audio_content": "Cream Month, this sweet celebration kicks",
+      "image_prompt": "Wide shot of a bustling summer fair, families enjoying ice cream cones under bright banners. Lush green trees sway in the background, with vendors displaying a rainbow of flavors. The atmosphere is filled with laughter and joy, evoking a sense of celebration and nostalgia.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9497243960698446,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.815000000000001,
+      "timestamp_end": 9.086666666666668,
+      "audio_content": "on the third Sunday of July. Get",
+      "image_prompt": "Medium shot of a bustling summer fair scene, with people joyfully enjoying ice cream cones of various flavors. The warm sunlight casts playful shadows, highlighting smiling faces, colorful stalls, and the vibrant atmosphere of National Ice Cream Month celebration.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9730196254593986,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.086666666666668,
+      "timestamp_end": 11.358333333333334,
+      "audio_content": "Reagan was a huge fan, and he wanted",
+      "image_prompt": "Medium shot of President Reagan joyfully enjoying a scoop of ice cream, surrounded by smiling children and families in a vibrant park. The sun casts warm rays, creating playful shadows, evoking a sense of nostalgia and celebration for National Ice Cream Month.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9976333975791931,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.358333333333334,
+      "timestamp_end": 13.630000000000003,
+      "audio_content": "promote dairy farmers. Ice Cream consumption",
+      "image_prompt": "Medium shot of a joyful family gathered around an ice cream cart on a sunny July day, indulging in various colorful ice cream cones. Their faces light up with delight as they choose flavors, reflecting the celebration of National Ice Cream Month, with soft summer light casting playful shadows.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8393341501553854,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.630000000000003,
+      "timestamp_end": 15.901666666666669,
+      "audio_content": "Americans indulge in around",
+      "image_prompt": "Medium shot of a vibrant July celebration, showcasing families enjoying ice cream in a sunlit park, with joyful expressions and colorful ice cream cones. The atmosphere is filled with laughter, and the backdrop features an American flag and dairy farmers promoting their products.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9531934857368469,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.901666666666669,
+      "timestamp_end": 18.173333333333336,
+      "audio_content": "pounds per person annually. That's",
+      "image_prompt": "Medium shot of a cheerful group of people at an ice cream festival, eagerly tasting a variety of colorful ice cream flavors, with joyful expressions. The scene is bathed in warm summer light, creating a festive atmosphere filled with laughter and celebration.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9892671763896942,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.173333333333336,
+      "timestamp_end": 20.445000000000004,
+      "audio_content": "50 million gallons consumed on this",
+      "image_prompt": "A medium shot of a cheerful crowd at an outdoor ice cream festival, vibrant ice cream stands filled with colorful flavors. Sunlight filters through trees, casting playful shadows on smiling faces as families enjoy their scoops, evoking a sense of joy and celebration.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.991192231575648,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 20.445000000000004,
+      "timestamp_end": 22.71666666666667,
+      "audio_content": "alone, with flavors ranging from classic",
+      "image_prompt": "Medium shot of a cheerful family at a summer picnic, surrounded by colorful ice cream cones in various flavors. Sunlight filters through trees, casting playful shadows. Expressions of joy and excitement illuminate their faces as they share their favorite scoops of ice cream.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9865373075008392,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.71666666666667,
+      "timestamp_end": 24.988333333333337,
+      "audio_content": "to wild lavender. It's a day",
+      "image_prompt": "Medium shot of a joyful crowd at an ice cream festival, children with colorful ice cream cones, adults laughing under sunny skies, vibrant banners celebrating National Ice Cream Month, with a close-up of a unique wild lavender ice cream scoop in a hand, dramatic chiaroscuro lighting highlighting their delight.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9529322435458502,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.988333333333337,
+      "timestamp_end": 27.260000000000005,
+      "audio_content": "to joy. So, what's your favorite scoop?",
+      "image_prompt": "Medium shot of a joyful family gathered around an ice cream stand, excitedly discussing their favorite flavors. The warm sunlight casts dramatic shadows, highlighting their smiling faces and colorful ice cream cones, embodying the joy of National Ice Cream Month in a nostalgic 1980s setting.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9280680077416557,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 27.260000000000005,
+    "whisper_model": "base"
+  }
+}

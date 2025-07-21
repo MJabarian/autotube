@@ -1,0 +1,241 @@
+{
+  "story_title": "How the Printing Press Ignited a Knowledge Revolution",
+  "original_story": "[excited] Get this – in 1440, Johannes Gutenberg changed everything! He invented the printing press, allowing books to be mass-produced for the first time. Before this, information was a luxury, accessible only to the rich. Suddenly, 200 copies of the Bible could be produced in weeks instead of years! This innovation fueled the Renaissance, spreading ideas like wildfire. Can you imagine a world where knowledge was locked away? Thanks to Gutenberg, literacy skyrocketed, and we’ve never looked back! Talk about a game-changer!",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.283333333333333,
+      "audio_content": "Get this. In 1440, Johannes",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9388811349868774
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.283333333333333,
+      "timestamp_end": 4.566666666666666,
+      "audio_content": "changed everything. He invented",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9951554089784622
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.566666666666666,
+      "timestamp_end": 6.85,
+      "audio_content": "printing press, allowing books to be mass",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9972869838987078
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.85,
+      "timestamp_end": 9.133333333333333,
+      "audio_content": "for the first time. Before this,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9972201585769653
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.133333333333333,
+      "timestamp_end": 11.416666666666666,
+      "audio_content": "was a luxury, accessible only to the",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9857128688267299
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.416666666666666,
+      "timestamp_end": 13.7,
+      "audio_content": "Suddenly, 200 copies",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9820642669995626
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.7,
+      "timestamp_end": 15.983333333333333,
+      "audio_content": "the Bible could be produced in weeks instead of years.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9630932211875916
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.983333333333333,
+      "timestamp_end": 18.266666666666666,
+      "audio_content": "This innovation fueled the Renaissance,",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9489171147346497
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.266666666666666,
+      "timestamp_end": 20.549999999999997,
+      "audio_content": "spreading ideas like wildfire. Can you imagine",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9780142051833016
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 20.549999999999997,
+      "timestamp_end": 22.833333333333332,
+      "audio_content": "world where knowledge was locked away? Thanks to",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9973484575748444
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.833333333333332,
+      "timestamp_end": 25.116666666666667,
+      "audio_content": "literacy skyrocketed, and",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9826524323887296
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 25.116666666666667,
+      "timestamp_end": 27.4,
+      "audio_content": "never looked back, talk about a game -changer.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8638006414597232
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.283333333333333,
+      "audio_content": "Get this. In 1440, Johannes",
+      "image_prompt": "Wide shot of a dimly lit medieval workshop, cluttered with wooden benches and tools. In the foreground, Johannes Gutenberg, a determined figure, passionately assembles the first printing press, his face illuminated by flickering candlelight, revealing his intense focus and ambition.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9388811349868774,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.283333333333333,
+      "timestamp_end": 4.566666666666666,
+      "audio_content": "changed everything. He invented",
+      "image_prompt": "Wide shot of a bustling 15th-century workshop, with craftsmen operating the printing press. Sunlight streams through the windows, illuminating stacks of freshly printed pages. A group of excited townsfolk gathers, eyes wide with wonder at the spread of knowledge before them.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9951554089784622,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.566666666666666,
+      "timestamp_end": 6.85,
+      "audio_content": "printing press, allowing books to be mass",
+      "image_prompt": "Wide shot of a bustling 15th-century workshop, artisans operating the newly invented printing press. Sunlight streams through dusty windows, illuminating stacks of freshly printed pages. Excited faces of workers and scholars express awe as they witness the birth of a new era in literacy.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9972869838987078,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.85,
+      "timestamp_end": 9.133333333333333,
+      "audio_content": "for the first time. Before this,",
+      "image_prompt": "Medium shot of Johannes Gutenberg in his workshop, surrounded by wooden printing presses, ink pots, and parchment. His expression is one of determination and excitement as he inspects a freshly printed page, the warm light casting sharp shadows, highlighting the revolutionary moment of mass communication.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9972201585769653,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.133333333333333,
+      "timestamp_end": 11.416666666666666,
+      "audio_content": "was a luxury, accessible only to the",
+      "image_prompt": "Medium shot of a workshop bustling with activity, showcasing Johannes Gutenberg at his printing press, surrounded by apprentices. Shadows cast dramatically across the room highlight their focused expressions, as freshly printed pages spill onto the floor, symbolizing the revolution of knowledge.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9857128688267299,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.416666666666666,
+      "timestamp_end": 13.7,
+      "audio_content": "Suddenly, 200 copies",
+      "image_prompt": "Medium shot of Johannes Gutenberg in his workshop, surrounded by wooden printing presses, ink pots, and freshly printed pages. His face radiates excitement as he holds up a newly printed Bible, the light casting dramatic shadows that highlight the transformative moment of mass communication.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9820642669995626,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.7,
+      "timestamp_end": 15.983333333333333,
+      "audio_content": "the Bible could be produced in weeks instead of years.",
+      "image_prompt": "Medium shot of Johannes Gutenberg at his printing press, surrounded by freshly printed pages. His face is illuminated by a warm light, eyes filled with excitement as he showcases the first printed Bible, sharp shadows highlighting the intricate details of the press.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9630932211875916,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.983333333333333,
+      "timestamp_end": 18.266666666666666,
+      "audio_content": "This innovation fueled the Renaissance,",
+      "image_prompt": "Medium shot of a bustling 15th-century workshop, with Johannes Gutenberg at the center, focused on operating the printing press. The room is filled with scattered type blocks, ink pots, and illuminated manuscripts, bathed in dramatic chiaroscuro lighting, highlighting the excitement of invention.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9489171147346497,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.266666666666666,
+      "timestamp_end": 20.549999999999997,
+      "audio_content": "spreading ideas like wildfire. Can you imagine",
+      "image_prompt": "Medium shot of Johannes Gutenberg in his workshop, surrounded by wooden printing presses, ink pots, and parchment. His excited expression reflects the revolutionary spirit of his invention, illuminated by dramatic chiaroscuro lighting that highlights the shadows and contours of the room.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9780142051833016,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 20.549999999999997,
+      "timestamp_end": 22.833333333333332,
+      "audio_content": "world where knowledge was locked away? Thanks to",
+      "image_prompt": "Medium shot of Johannes Gutenberg in his workshop, surrounded by wooden printing presses and ink-stained paper. His face beams with excitement as he demonstrates the printing process, light casting dramatic shadows that highlight the transformative power of knowledge.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9973484575748444,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.833333333333332,
+      "timestamp_end": 25.116666666666667,
+      "audio_content": "literacy skyrocketed, and",
+      "image_prompt": "Medium shot of Johannes Gutenberg in a dimly lit workshop, surrounded by wooden printing presses, focused intently as he arranges movable type. His face illuminated by flickering candlelight, reflecting the passion and determination that ignited a revolution in literacy.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9826524323887296,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 25.116666666666667,
+      "timestamp_end": 27.4,
+      "audio_content": "never looked back, talk about a game -changer.",
+      "image_prompt": "Medium shot of Johannes Gutenberg in a dimly lit workshop, surrounded by wooden printing presses and scattered parchment. His face radiates passion and determination as he adjusts the press, the warm light casting sharp shadows, symbolizing the dawn of a new era in literacy.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8638006414597232,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 27.4,
+    "whisper_model": "base"
+  }
+}

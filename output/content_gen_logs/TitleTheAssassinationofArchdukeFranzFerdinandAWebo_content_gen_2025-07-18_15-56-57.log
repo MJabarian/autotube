@@ -1,0 +1,106 @@
+2025-07-18 15:56:57,063 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Assassination of Archduke Franz Ferdinand: A Web of Espionage  
+**Summary:** While commonly attributed to a group of Serbian nationalists, evidence suggests that the assassination of the Archduke was part of a larger conspiracy involving secret societies and foreign intelligence agencies eager to ignite a world war.
+2025-07-18 15:56:57,063 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory\output\content_gen_logs\TitleTheAssassinationofArchdukeFranzFerdinandAWebo_content_gen_2025-07-18_15-56-57.log
+2025-07-18 15:56:57,064 - autotube.content_gen - INFO - 📁 Sanitized folder name: TheHiddenConspiracyBehindFranzFerdinandsDeath
+2025-07-18 15:56:57,064 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 152 words
+2025-07-18 15:56:57,067 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\TheHiddenConspiracyBehindFranzFerdinandsDeath\story.json (1,698 bytes)
+2025-07-18 15:56:57,068 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\TheHiddenConspiracyBehindFranzFerdinandsDeath\topic.txt (333 bytes)
+2025-07-18 15:56:57,069 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\TheHiddenConspiracyBehindFranzFerdinandsDeath\metadata.json (780 bytes)
+2025-07-18 15:56:57,070 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\TheHiddenConspiracyBehindFranzFerdinandsDeath\story.txt (1,591 bytes)
+2025-07-18 15:56:57,070 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory\output\stories\TheHiddenConspiracyBehindFranzFerdinandsDeath
+2025-07-18 15:57:08,767 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory\output\audio\TheHiddenConspiracyBehindFranzFerdinandsDeath\audio_TheHiddenConspiracyBehindFranzFerdinandsDeath.mp3 (833,037 bytes)
+2025-07-18 15:57:08,856 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 52.06s duration
+2025-07-18 15:57:08,931 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory\output\audio\TheHiddenConspiracyBehindFranzFerdinandsDeath\audio_TheHiddenConspiracyBehindFranzFerdinandsDeath.mp3 (833,037 bytes, 52.06s)
+2025-07-18 15:57:08,932 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-18 15:57:08,932 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-18 15:57:08,933 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory\output\audio\TheHiddenConspiracyBehindFranzFerdinandsDeath\audio_TheHiddenConspiracyBehindFranzFerdinandsDeath.mp3
+2025-07-18 15:57:08,933 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-18 15:57:09,705 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-18 15:57:09,808 - faster_whisper - INFO - Processing audio with duration 00:52.062
+2025-07-18 15:57:10,447 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 15:57:18,581 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 51.56s
+2025-07-18 15:57:18,583 - whisper_audio_synchronizer - INFO - 📝 Extracted 152 words with timestamps
+2025-07-18 15:57:18,583 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 51.56s, Image duration: 2.58s
+2025-07-18 15:57:18,586 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 20 images
+2025-07-18 15:57:18,587 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-18 15:57:21,416 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:21,417 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): Establishing shot of a dimly lit Sarajevo street i...
+2025-07-18 15:57:24,157 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:24,160 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of Sarajevo streets on June 28, 1914, wi...
+2025-07-18 15:57:27,618 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:27,620 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of Sarajevo's bustling streets in 1914, ...
+2025-07-18 15:57:31,110 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:31,112 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (character_action/medium_shot): Medium shot of a young nationalist in shadowy alle...
+2025-07-18 15:57:35,163 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:35,169 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/wide_shot): Wide shot of a tense Sarajevo street, early 20th c...
+2025-07-18 15:57:37,080 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:37,084 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/wide_shot): Wide shot depicting the bustling streets of Saraje...
+2025-07-18 15:57:39,656 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:39,658 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/wide_shot): Wide shot of a dimly lit, smoke-filled room with s...
+2025-07-18 15:57:42,052 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:42,053 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/wide_shot): Wide shot of a shadowy, smoke-filled room filled w...
+2025-07-18 15:57:44,594 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:44,627 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/wide_shot): Wide shot of a shadowy, dimly lit room filled with...
+2025-07-18 15:57:46,819 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:46,821 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/wide_shot): Wide shot of a shadowy gathering of men in dark su...
+2025-07-18 15:57:49,097 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:49,099 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/wide_shot): Wide shot of a dimly lit, smoke-filled room where ...
+2025-07-18 15:57:51,521 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:51,522 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/wide_shot): Wide shot of a dark, smoky room filled with shadow...
+2025-07-18 15:57:53,920 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:53,928 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 13 (exposition_setup/wide_shot): Wide shot of a dimly lit 1914 Sarajevo street, wit...
+2025-07-18 15:57:56,310 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:56,341 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 14 (exposition_setup/wide_shot): Wide shot of a bustling Sarajevo street in 1914, w...
+2025-07-18 15:57:58,736 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:57:58,824 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 15 (exposition_setup/wide_shot): Wide shot of a dimly lit Sarajevo street in 1914, ...
+2025-07-18 15:58:01,197 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:58:01,204 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 16 (exposition_setup/wide_shot): Wide shot of a bustling Sarajevo street on June 28...
+2025-07-18 15:58:03,812 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:58:03,815 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 17 (exposition_setup/wide_shot): Wide shot of a tense Sarajevo street in 1914, as t...
+2025-07-18 15:58:05,832 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:58:05,834 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 18 (exposition_setup/medium_shot): Medium shot of a shadowy figure in period attire, ...
+2025-07-18 15:58:08,090 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:58:08,131 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 19 (exposition_setup/medium_shot): Medium shot of a shadowy figure in a dimly lit roo...
+2025-07-18 15:58:10,275 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 15:58:10,281 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 20 (exposition_setup/medium_shot): Medium shot of a shadowy figure in a dimly lit roo...
+2025-07-18 15:58:10,283 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory\output\audio_sync_data\The_Hidden_Conspiracy_Behind_Franz_Ferdinands_Death_whisper_sync.json
+2025-07-18 15:58:10,284 - whisper_audio_synchronizer - INFO - ✅ Generated 20 story-driven synchronized image prompts with enhanced diversity
+2025-07-18 15:58:10,284 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-18 15:58:10,285 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 20 synchronized segments
+2025-07-18 15:58:10,286 - autotube.content_gen - INFO - ✅ Whisper sync completed: 20 prompts
+2025-07-18 15:58:10,291 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory\data\music\Mystery\Reflective memorial 2(e96c18de382a42a6887e785a6914e0e1).wav (11,466,120 bytes)
+2025-07-18 15:58:10,292 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory\output\music_selections\TheHiddenConspiracyBehindFranzFerdinandsDeath\music_selection.json (388 bytes)
+2025-07-18 15:58:10,293 - autotube.content_gen - INFO - ✅ Music selected: Reflective memorial 2(e96c18de382a42a6887e785a6914e0e1).wav
+2025-07-18 15:58:10,294 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-18 15:58:10,294 - src.replicate_image_generator - INFO - Generating images for story: The Hidden Conspiracy Behind Franz Ferdinand's Death
+2025-07-18 15:58:10,294 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-18 15:58:10,295 - src.replicate_image_generator - INFO - Generating 20 images with mvp_testing quality
+2025-07-18 15:58:10,295 - src.replicate_image_generator - INFO - Estimated cost: $0.060
+2025-07-18 15:58:11,220 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:12,957 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:14,459 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:15,968 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:17,477 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:19,019 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:20,559 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:22,118 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:23,698 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:25,275 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:26,849 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:28,368 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:29,914 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:31,526 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:33,083 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:34,948 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:36,483 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:38,062 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:39,514 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:41,034 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 15:58:41,889 - src.replicate_image_generator - INFO - Generation complete: 20/20 successful
+2025-07-18 15:58:41,890 - src.replicate_image_generator - INFO - Total cost: $0.060 (avg: $0.0030/image)
+2025-07-18 15:58:41,894 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 20/20 images generated
+2025-07-18 15:58:41,912 - autotube.content_gen - INFO - ✅ Image generation: 20/20 images, cost: $0.0600
+2025-07-18 15:58:41,919 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-18 15:58:41,919 - autotube.content_gen - INFO - 📊 Total time: 112.25s, Cost: $0.0600
+2025-07-18 15:58:41,920 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Assassination of Archduke Franz Ferdinand: A Web of Espionage  
+**Summary:** While commonly attributed to a group of Serbian nationalists, evidence suggests that the assassination of the Archduke was part of a larger conspiracy involving secret societies and foreign intelligence agencies eager to ignite a world war.

@@ -1,0 +1,106 @@
+2025-07-18 12:21:37,923 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **The Shocking Truth Behind the 19th Century's Fake War Correspondents**  
+Uncover how a network of journalists and authors fabricated sensational war reports during conflicts, manipulating public perception and demonstrating the power of media in shaping national narratives.
+2025-07-18 12:21:37,924 - autotube.content_gen - INFO - 📝 Log file: output\content_gen_logs\TheShockingTruthBehindthe19thCenturysFakeWarCorres_content_gen_2025-07-18_12-21-37.log
+2025-07-18 12:21:37,924 - autotube.content_gen - INFO - 📁 Sanitized folder name: TheScandalofFakeWarCorrespondents
+2025-07-18 12:21:37,925 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 157 words
+2025-07-18 12:21:37,932 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: output/stories/TheScandalofFakeWarCorrespondents\story.json (1,709 bytes)
+2025-07-18 12:21:37,933 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: output/stories/TheScandalofFakeWarCorrespondents\topic.txt (277 bytes)
+2025-07-18 12:21:37,934 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: output/stories/TheScandalofFakeWarCorrespondents\metadata.json (725 bytes)
+2025-07-18 12:21:37,934 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: output/stories/TheScandalofFakeWarCorrespondents\story.txt (1,616 bytes)
+2025-07-18 12:21:37,935 - autotube.content_gen - INFO - ✅ Story assets saved to: output/stories/TheScandalofFakeWarCorrespondents
+2025-07-18 12:21:50,076 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\phase1-dev\output\audio\TheScandalofFakeWarCorrespondents\audio_TheScandalofFakeWarCorrespondents.mp3 (859,787 bytes)
+2025-07-18 12:21:50,174 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 53.73s duration
+2025-07-18 12:21:50,249 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\phase1-dev\output\audio\TheScandalofFakeWarCorrespondents\audio_TheScandalofFakeWarCorrespondents.mp3 (859,787 bytes, 53.73s)
+2025-07-18 12:21:50,250 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-18 12:21:50,250 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-18 12:21:50,251 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\phase1-dev\output\audio\TheScandalofFakeWarCorrespondents\audio_TheScandalofFakeWarCorrespondents.mp3
+2025-07-18 12:21:50,251 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-18 12:21:51,964 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-18 12:21:52,253 - faster_whisper - INFO - Processing audio with duration 00:53.734
+2025-07-18 12:21:53,411 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 12:22:07,597 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 53.42s
+2025-07-18 12:22:07,599 - whisper_audio_synchronizer - INFO - 📝 Extracted 151 words with timestamps
+2025-07-18 12:22:07,600 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 53.42s, Image duration: 2.67s
+2025-07-18 12:22:07,604 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 20 images
+2025-07-18 12:22:07,604 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts
+2025-07-18 12:22:11,461 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:11,486 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1: A dimly lit 19th-century newspaper office, clutter...
+2025-07-18 12:22:13,624 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:13,633 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2: A dimly lit 19th-century newspaper office, clutter...
+2025-07-18 12:22:15,708 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:15,711 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3: A dimly lit 19th-century newspaper office, clutter...
+2025-07-18 12:22:18,313 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:18,317 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4: A dimly lit 19th-century newsroom, cluttered with ...
+2025-07-18 12:22:20,544 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:20,560 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5: In a dimly lit 19th-century newspaper office, a pa...
+2025-07-18 12:22:22,646 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:22,651 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6: A dimly lit 19th-century newsroom, filled with smo...
+2025-07-18 12:22:25,136 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:25,137 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7: In a dimly lit, smoke-filled newspaper office, a w...
+2025-07-18 12:22:27,023 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:27,024 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8: A dimly lit 19th-century newspaper office, where a...
+2025-07-18 12:22:28,705 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:28,707 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9: A bustling 19th-century newspaper office, filled w...
+2025-07-18 12:22:30,263 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:30,264 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10: A dimly lit 19th-century newspaper office, filled ...
+2025-07-18 12:22:32,328 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:32,350 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11: A dimly lit news office, cluttered with stacks of ...
+2025-07-18 12:22:34,167 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:34,168 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12: A dimly lit newspaper office, cluttered with paper...
+2025-07-18 12:22:35,759 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:35,761 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 13: A dimly lit newspaper office, cluttered with ink-s...
+2025-07-18 12:22:37,868 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:37,869 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 14: A dimly lit writer's study, filled with the scent ...
+2025-07-18 12:22:39,591 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:39,593 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 15: A dimly lit study filled with scattered parchment ...
+2025-07-18 12:22:41,307 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:41,308 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 16: A dimly lit 19th-century newspaper office, clutter...
+2025-07-18 12:22:43,051 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:43,053 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 17: A dimly lit newsroom filled with the chaotic energ...
+2025-07-18 12:22:44,900 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:44,901 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 18: A dimly lit study room filled with stacks of newsp...
+2025-07-18 12:22:46,811 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:46,814 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 19: A dimly lit Victorian parlor, filled with shadowy ...
+2025-07-18 12:22:50,365 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 12:22:50,366 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 20: A dimly lit newspaper office, cluttered with paper...
+2025-07-18 12:22:50,377 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\phase1-dev\output\audio_sync_data\The_Scandal_of_Fake_War_Correspondents_whisper_sync.json
+2025-07-18 12:22:50,377 - whisper_audio_synchronizer - INFO - ✅ Generated 20 story-driven synchronized image prompts
+2025-07-18 12:22:50,377 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-18 12:22:50,378 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 20 synchronized segments
+2025-07-18 12:22:50,379 - autotube.content_gen - INFO - ✅ Whisper sync completed: 20 prompts
+2025-07-18 12:22:50,396 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\data\music\Mystery\cinematic-calm-dramatic-theme-170162.mp3 (2,531,996 bytes)
+2025-07-18 12:22:50,398 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: output/music_selections/TheScandalofFakeWarCorrespondents\music_selection.json (312 bytes)
+2025-07-18 12:22:50,399 - autotube.content_gen - INFO - ✅ Music selected: cinematic-calm-dramatic-theme-170162.mp3
+2025-07-18 12:22:50,405 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-18 12:22:50,406 - src.replicate_image_generator - INFO - Generating images for story: The Scandal of Fake War Correspondents
+2025-07-18 12:22:50,406 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-18 12:22:50,406 - src.replicate_image_generator - INFO - Generating 20 images with mvp_testing quality
+2025-07-18 12:22:50,407 - src.replicate_image_generator - INFO - Estimated cost: $0.060
+2025-07-18 12:22:51,405 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:22:52,916 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:22:54,398 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:22:55,876 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:22:57,374 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:22:59,205 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:00,834 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:02,468 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:04,122 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:05,768 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:07,361 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:08,908 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:10,471 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:12,004 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:13,569 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:15,085 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:16,589 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:18,083 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:19,574 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:21,119 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 12:23:21,967 - src.replicate_image_generator - INFO - Generation complete: 20/20 successful
+2025-07-18 12:23:21,968 - src.replicate_image_generator - INFO - Total cost: $0.060 (avg: $0.0030/image)
+2025-07-18 12:23:21,971 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 20/20 images generated
+2025-07-18 12:23:21,973 - autotube.content_gen - INFO - ✅ Image generation: 20/20 images, cost: $0.0600
+2025-07-18 12:23:21,976 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-18 12:23:21,976 - autotube.content_gen - INFO - 📊 Total time: 115.73s, Cost: $0.0600
+2025-07-18 12:23:21,976 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **The Shocking Truth Behind the 19th Century's Fake War Correspondents**  
+Uncover how a network of journalists and authors fabricated sensational war reports during conflicts, manipulating public perception and demonstrating the power of media in shaping national narratives.

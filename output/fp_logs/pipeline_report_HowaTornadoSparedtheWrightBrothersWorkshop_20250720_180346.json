@@ -1,0 +1,56 @@
+{
+  "pipeline_info": {
+    "story_title": "HowaTornadoSparedtheWrightBrothersWorkshop",
+    "sanitized_title": "HowaTornadoSparedtheWrightBrothersWorkshop",
+    "start_time": "2025-07-20T17:59:24.852591",
+    "end_time": "2025-07-20T18:03:46.743709",
+    "total_duration": 261.89111828804016,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753048764.8566139,
+      "end": 1753048827.324593,
+      "duration": 62.467979192733765,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753048827.3255932,
+      "end": 1753049026.7423558,
+      "duration": 199.41676259040833,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowaTornadoSparedtheWrightBrothersWorkshop\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowaTornadoSparedtheWrightBrothersWorkshop\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowaTornadoSparedtheWrightBrothersWorkshop\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowaTornadoSparedtheWrightBrothersWorkshop\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\HowaTornadoSparedtheWrightBrothersWorkshop\\audio_HowaTornadoSparedtheWrightBrothersWorkshop.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\HowaTornadoSparedtheWrightBrothersWorkshop\\audio_HowaTornadoSparedtheWrightBrothersWorkshop_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\HowaTornadoSparedtheWrightBrothersWorkshop\\mixed_audio_HowaTornadoSparedtheWrightBrothersWorkshop.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaTornadoSparedtheWrightBrothersWorkshop\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaTornadoSparedtheWrightBrothersWorkshop\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaTornadoSparedtheWrightBrothersWorkshop\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaTornadoSparedtheWrightBrothersWorkshop\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaTornadoSparedtheWrightBrothersWorkshop\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaTornadoSparedtheWrightBrothersWorkshop\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaTornadoSparedtheWrightBrothersWorkshop\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaTornadoSparedtheWrightBrothersWorkshop\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaTornadoSparedtheWrightBrothersWorkshop\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaTornadoSparedtheWrightBrothersWorkshop\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaTornadoSparedtheWrightBrothersWorkshop\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaTornadoSparedtheWrightBrothersWorkshop\\image_12.jpg"
+    ]
+  },
+  "pipeline_status": "SUCCESS"
+}

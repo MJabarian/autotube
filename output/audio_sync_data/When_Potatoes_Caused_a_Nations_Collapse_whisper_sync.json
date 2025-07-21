@@ -1,0 +1,241 @@
+{
+  "story_title": "When Potatoes Caused a Nation's Collapse",
+  "original_story": "[dramatic] Believe it or not, the Great Potato Blight of 1845 devastated Ireland, killing over a million people! This fungal disease not only wiped out crops but also led to mass emigration. By 1850, Irish migrants transformed cities like Boston and New York, reshaping America’s landscape. Families torn apart, hunger running rampant, and desperation driving innovation—this blight didn’t just affect a nation; it changed the world! What if I told you it all hinged on one crop? Now that’s food for thought! [pause:1s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.2533333333333334,
+      "audio_content": "Believe it or not, the great potato blight of",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9265597495767806
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.2533333333333334,
+      "timestamp_end": 4.506666666666667,
+      "audio_content": "devastated Ireland, killing",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9738980134328207
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.506666666666667,
+      "timestamp_end": 6.76,
+      "audio_content": "a million people. This fungal disease",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9747564643621445
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.76,
+      "timestamp_end": 9.013333333333334,
+      "audio_content": "only wiped out crops but also led to",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9062315002083778
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.013333333333334,
+      "timestamp_end": 11.266666666666667,
+      "audio_content": "emigration. By 1850,",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9802550375461578
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.266666666666667,
+      "timestamp_end": 13.52,
+      "audio_content": "Irish migrants transformed cities like Boston",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9939978818098704
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.52,
+      "timestamp_end": 15.773333333333333,
+      "audio_content": "New York, reshaping America's landscape.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.985731354355812
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.773333333333333,
+      "timestamp_end": 18.026666666666667,
+      "audio_content": "Families torn apart, hunger",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9854154884815216
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.026666666666667,
+      "timestamp_end": 20.28,
+      "audio_content": "rampant, and desperation driving innovation.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9910587072372437
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 20.28,
+      "timestamp_end": 22.533333333333335,
+      "audio_content": "This blight didn't just affect a nation,",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9813197255134583
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.533333333333335,
+      "timestamp_end": 24.78666666666667,
+      "audio_content": "it changed the world. What if I told you it",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9910837173461914
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.78666666666667,
+      "timestamp_end": 27.04,
+      "audio_content": "hinged on one crop? Now that's food for thought.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9860405723253886
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.2533333333333334,
+      "audio_content": "Believe it or not, the great potato blight of",
+      "image_prompt": "Establishing shot of a desolate Irish landscape in 1845, with wilted potato plants under a stormy sky. Shadows loom over a crumbling farmhouse, hinting at desperation. The atmosphere is thick with tension, evoking a sense of impending tragedy and the struggle for survival.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9265597495767806,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.2533333333333334,
+      "timestamp_end": 4.506666666666667,
+      "audio_content": "devastated Ireland, killing",
+      "image_prompt": "Wide shot of a desolate Irish landscape during the Great Potato Blight, with wilted potato plants under a somber sky. A distant view of families struggling, their faces etched with despair, as dark shadows stretch across the barren fields, capturing the devastation and loss.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9738980134328207,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.506666666666667,
+      "timestamp_end": 6.76,
+      "audio_content": "a million people. This fungal disease",
+      "image_prompt": "Wide shot capturing a desolate Irish landscape, with wilted potato plants under a darkening sky. In the distance, a small group of emaciated families gathers, their faces etched with despair, as shadows deepen, symbolizing the looming crisis of the Great Potato Blight.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9747564643621445,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.76,
+      "timestamp_end": 9.013333333333334,
+      "audio_content": "only wiped out crops but also led to",
+      "image_prompt": "Medium shot of an Irish farmer standing in a desolate field, his expression a mix of despair and determination. Behind him, wilted potato plants cast long shadows, while dark, brooding clouds loom overhead, symbolizing the impending crisis of the Great Potato Blight.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9062315002083778,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.013333333333334,
+      "timestamp_end": 11.266666666666667,
+      "audio_content": "emigration. By 1850,",
+      "image_prompt": "Wide shot of a bustling 19th-century Boston harbor, filled with ships and Irish immigrants arriving, their faces reflecting hope and desperation. Dramatic chiaroscuro lighting highlights the somber mood, with shadows cast by the towering docks and the distant silhouette of the city skyline.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9802550375461578,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.266666666666667,
+      "timestamp_end": 13.52,
+      "audio_content": "Irish migrants transformed cities like Boston",
+      "image_prompt": "Medium shot of a bustling 19th-century Boston street, Irish migrants in worn clothing, faces lined with determination and sorrow, as they navigate through a mix of horse-drawn carriages and market stalls, dramatic chiaroscuro lighting highlighting their struggle and resilience.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9939978818098704,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.52,
+      "timestamp_end": 15.773333333333333,
+      "audio_content": "New York, reshaping America's landscape.",
+      "image_prompt": "Wide shot of a bustling 19th-century New York City street, filled with Irish immigrants arriving, their faces reflecting hope and despair. Dramatic chiaroscuro lighting casts deep shadows, highlighting the contrast between the vibrant city life and the haunting memories of their homeland.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.985731354355812,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.773333333333333,
+      "timestamp_end": 18.026666666666667,
+      "audio_content": "Families torn apart, hunger",
+      "image_prompt": "Medium shot of a distressed Irish family huddled together in a dimly lit cottage, their faces etched with despair. A meager meal of wilted potatoes lies on the table, casting sharp shadows. The atmosphere is heavy with hunger and desperation, reflecting the impact of the Great Potato Blight.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9854154884815216,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.026666666666667,
+      "timestamp_end": 20.28,
+      "audio_content": "rampant, and desperation driving innovation.",
+      "image_prompt": "Medium shot of a weary Irish farmer in a devastated potato field, his expression marked by desperation and determination. The sun sets behind him, casting dramatic shadows across the wilted crops, symbolizing both loss and the drive for innovation amidst despair.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9910587072372437,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 20.28,
+      "timestamp_end": 22.533333333333335,
+      "audio_content": "This blight didn't just affect a nation,",
+      "image_prompt": "Medium shot of a weary Irish farmer standing in a desolate potato field, with wilted plants surrounding him. His face, illuminated by dramatic chiaroscuro lighting, reflects despair and determination, as he gazes toward the horizon, symbolizing the struggle and hope of a nation in crisis.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9813197255134583,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.533333333333335,
+      "timestamp_end": 24.78666666666667,
+      "audio_content": "it changed the world. What if I told you it",
+      "image_prompt": "Medium shot of a weary Irish farmer in a devastated potato field, his face etched with despair. Behind him, wilted plants stretch toward a brooding sky, capturing the weight of loss and desperation. Dramatic chiaroscuro lighting casts sharp shadows, enhancing the emotional gravity of the moment.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9910837173461914,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.78666666666667,
+      "timestamp_end": 27.04,
+      "audio_content": "hinged on one crop? Now that's food for thought.",
+      "image_prompt": "Medium shot of a weathered Irish farmer standing in a blackened potato field, his face etched with despair. Behind him, dark storm clouds loom ominously, casting sharp shadows across the barren land. The scene captures the weight of loss and the looming impact of the Great Potato Blight on families and futures.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9860405723253886,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 27.04,
+    "whisper_model": "base"
+  }
+}

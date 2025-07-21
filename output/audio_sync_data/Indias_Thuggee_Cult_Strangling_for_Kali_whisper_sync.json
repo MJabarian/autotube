@@ -1,0 +1,241 @@
+{
+  "story_title": "India's Thuggee Cult: Strangling for Kali",
+  "original_story": "[mysterious] What if I told you that for centuries, a secret society in India was strangling travelers in the name of the goddess Kali? The Thuggees, operating from the 17th to the 19th centuries, murdered an estimated 2 million people. They lured victims with charm, only to offer them as sacrifices to their dark deity. British officers, led by William Sleeman, cracked down on this cult in the 1830s, finally ending their reign of terror. Can you imagine such a deadly devotion?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 1.8766666666666667,
+      "audio_content": "What if I told you that for centuries, a",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9648924602402581
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 1.8766666666666667,
+      "timestamp_end": 3.7533333333333334,
+      "audio_content": "society in India was strangling",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9909619629383087
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 3.7533333333333334,
+      "timestamp_end": 5.63,
+      "audio_content": "in the name of the goddess Kali.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9234004020690918
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 5.63,
+      "timestamp_end": 7.506666666666667,
+      "audio_content": "thuggies, operating from the",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9448322902123133
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 7.506666666666667,
+      "timestamp_end": 9.383333333333333,
+      "audio_content": "to the 19th centuries, murdered an",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8992654929558436
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 9.383333333333333,
+      "timestamp_end": 11.26,
+      "audio_content": "two million people.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.8289830883344015
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 11.26,
+      "timestamp_end": 13.136666666666667,
+      "audio_content": "lured victims with charm only to",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8494414438803991
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 13.136666666666667,
+      "timestamp_end": 15.013333333333334,
+      "audio_content": "them as sacrifices to their dark deity.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9375639472688947
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 15.013333333333334,
+      "timestamp_end": 16.89,
+      "audio_content": "British officers, led by William",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9838342666625977
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 16.89,
+      "timestamp_end": 18.766666666666666,
+      "audio_content": "cracked down on this cult in the",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9724625774792263
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 18.766666666666666,
+      "timestamp_end": 20.643333333333334,
+      "audio_content": "finally ending their reign of terror.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9927701552708944
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 20.643333333333334,
+      "timestamp_end": 22.52,
+      "audio_content": "Can you imagine such a deadly devotion?",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9942369290760585
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 1.8766666666666667,
+      "audio_content": "What if I told you that for centuries, a",
+      "image_prompt": "Establishing shot of a dense, shadowy forest in India at dusk, with tangled trees and thick underbrush. A faint silhouette of travelers can be seen in the distance, unaware of the lurking danger. Dramatic chiaroscuro lighting highlights the ominous atmosphere, casting long shadows.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9648924602402581,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 1.8766666666666667,
+      "timestamp_end": 3.7533333333333334,
+      "audio_content": "society in India was strangling",
+      "image_prompt": "Wide shot of a dense, misty Indian jungle at dusk, with ominous shadows lurking between the trees. A path leads into the darkness, hinting at the hidden dangers within. Silhouettes of cloaked figures can be seen in the shadows, evoking a sense of foreboding and ancient mystery.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9909619629383087,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 3.7533333333333334,
+      "timestamp_end": 5.63,
+      "audio_content": "in the name of the goddess Kali.",
+      "image_prompt": "Wide shot of a dark forest in India, shrouded in mist, where shadowy figures of the Thuggees gather around an altar adorned with offerings. The eerie glow of torches casts flickering shadows, hinting at the sinister rituals performed in the name of the goddess Kali.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9234004020690918,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 5.63,
+      "timestamp_end": 7.506666666666667,
+      "audio_content": "thuggies, operating from the",
+      "image_prompt": "Medium shot of a shadowy figure in traditional Indian attire, standing in a dimly lit forest, gazing ominously at a distant traveler. The atmosphere is thick with tension, illuminated by flickering torchlight, highlighting sharp shadows that evoke a sense of foreboding.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9448322902123133,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 7.506666666666667,
+      "timestamp_end": 9.383333333333333,
+      "audio_content": "to the 19th centuries, murdered an",
+      "image_prompt": "Medium shot of a shadowy figure in traditional Indian garb, with a sinister smile, luring an unsuspecting traveler into a dense jungle under the dim light of a flickering lantern, the atmosphere thick with tension and mystery.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8992654929558436,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 9.383333333333333,
+      "timestamp_end": 11.26,
+      "audio_content": "two million people.",
+      "image_prompt": "Medium shot of a shadowy figure cloaked in darkness, standing at the edge of a dense forest. The figure's hands are raised, invoking the goddess Kali, as flickering torchlight casts sharp shadows across their face, revealing a mix of devotion and menace.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.8289830883344015,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 11.26,
+      "timestamp_end": 13.136666666666667,
+      "audio_content": "lured victims with charm only to",
+      "image_prompt": "Medium shot of a charismatic Thuggee leader, cloaked in shadows, enticing a weary traveler with a charming smile. The dimly lit background reveals ominous figures lurking, hinting at the dark intentions behind the facade, with dramatic chiaroscuro lighting accentuating the tension.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8494414438803991,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 13.136666666666667,
+      "timestamp_end": 15.013333333333334,
+      "audio_content": "them as sacrifices to their dark deity.",
+      "image_prompt": "Medium shot of cloaked Thuggees in a dimly lit forest, their faces masked in shadow, as they prepare to lure an unsuspecting traveler with false smiles. The atmosphere is tense, illuminated by flickering torchlight, revealing the dark devotion to the goddess Kali.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9375639472688947,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 15.013333333333334,
+      "timestamp_end": 16.89,
+      "audio_content": "British officers, led by William",
+      "image_prompt": "Medium shot of British officer William Sleeman, determined and weathered, standing amidst a shadowy forest. Dark silhouettes of the Thuggees loom behind him, their faces obscured, as he confronts the chilling legacy of their deadly devotion to Kali. Dramatic chiaroscuro lighting enhances the tension.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9838342666625977,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 16.89,
+      "timestamp_end": 18.766666666666666,
+      "audio_content": "cracked down on this cult in the",
+      "image_prompt": "Medium shot of British officer William Sleeman, determined and resolute, standing amidst a dark forest. Shadows loom, hinting at the sinister presence of the Thuggees. A flickering lantern illuminates his face, revealing a mix of courage and trepidation as he prepares to confront the cult.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9724625774792263,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 18.766666666666666,
+      "timestamp_end": 20.643333333333334,
+      "audio_content": "finally ending their reign of terror.",
+      "image_prompt": "Medium shot of British officer William Sleeman, his face stern and determined, as he stands over a map detailing the Thuggee territories. Shadows loom behind him, creating a sense of urgency as he prepares to dismantle the secret society's reign of terror.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9927701552708944,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 20.643333333333334,
+      "timestamp_end": 22.52,
+      "audio_content": "Can you imagine such a deadly devotion?",
+      "image_prompt": "Close-up of a Thuggee's face, eyes filled with fervent devotion as shadows loom around him. The flicker of a torch illuminates his expression while a distant figure, a bound traveler, is faintly visible in the background, heightening the tension and dread.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9942369290760585,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 22.52,
+    "whisper_model": "base"
+  }
+}

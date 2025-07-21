@@ -1,0 +1,10 @@
+2025-07-20 17:05:15,763 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-20 17:05:15,763 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250720_170515.log
+2025-07-20 17:05:15,764 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-20 17:05:15,764 - autotube.full_pipeline - INFO - ============================================================
+2025-07-20 17:05:15,764 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-20 17:05:15,766 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-20 17:05:15,974 - autotube.full_pipeline - ERROR - ❌ Content generation failed: 'template'
+2025-07-20 17:05:15,974 - autotube.full_pipeline - INFO - ❌ Completed: Content Generation (0.21s)
+2025-07-20 17:05:15,975 - autotube.full_pipeline - ERROR - ❌ Content generation failed - stopping pipeline
+2025-07-20 17:05:15,975 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline

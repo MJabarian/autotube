@@ -1,0 +1,58 @@
+{
+  "pipeline_info": {
+    "story_title": "TogasColorsThatChangedRomanSocietyForever",
+    "sanitized_title": "TogasColorsThatChangedRomanSocietyForever",
+    "start_time": "2025-07-20T12:33:13.826482",
+    "end_time": "2025-07-20T12:37:34.906821",
+    "total_duration": 261.08033990859985,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753029193.8372045,
+      "end": 1753029283.780005,
+      "duration": 89.94280052185059,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753029283.7810054,
+      "end": 1753029454.9048128,
+      "duration": 171.12380743026733,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\TogasColorsThatChangedRomanSocietyForever\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\TogasColorsThatChangedRomanSocietyForever\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\TogasColorsThatChangedRomanSocietyForever\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\TogasColorsThatChangedRomanSocietyForever\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\TogasColorsThatChangedRomanSocietyForever\\audio_TogasColorsThatChangedRomanSocietyForever.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\TogasColorsThatChangedRomanSocietyForever\\audio_TogasColorsThatChangedRomanSocietyForever_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\TogasColorsThatChangedRomanSocietyForever\\mixed_audio_TogasColorsThatChangedRomanSocietyForever.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TogasColorsThatChangedRomanSocietyForever\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TogasColorsThatChangedRomanSocietyForever\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TogasColorsThatChangedRomanSocietyForever\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TogasColorsThatChangedRomanSocietyForever\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TogasColorsThatChangedRomanSocietyForever\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TogasColorsThatChangedRomanSocietyForever\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TogasColorsThatChangedRomanSocietyForever\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TogasColorsThatChangedRomanSocietyForever\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TogasColorsThatChangedRomanSocietyForever\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TogasColorsThatChangedRomanSocietyForever\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TogasColorsThatChangedRomanSocietyForever\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TogasColorsThatChangedRomanSocietyForever\\image_12.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\videos\\TogasColorsThatChangedRomanSocietyForever_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\subtitles_processed_video\\TogasColorsThatChangedRomanSocietyForever_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

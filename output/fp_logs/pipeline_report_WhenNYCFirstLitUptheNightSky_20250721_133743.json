@@ -1,0 +1,55 @@
+{
+  "pipeline_info": {
+    "story_title": "WhenNYCFirstLitUptheNightSky",
+    "sanitized_title": "WhenNYCFirstLitUptheNightSky",
+    "start_time": "2025-07-21T13:32:41.933335",
+    "end_time": "2025-07-21T13:37:43.472166",
+    "total_duration": 301.5388309955597,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753119161.9353335,
+      "end": 1753119227.0393298,
+      "duration": 65.10399627685547,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753119227.0403295,
+      "end": 1753119463.4701595,
+      "duration": 236.4298300743103,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhenNYCFirstLitUptheNightSky\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhenNYCFirstLitUptheNightSky\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhenNYCFirstLitUptheNightSky\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\WhenNYCFirstLitUptheNightSky\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\WhenNYCFirstLitUptheNightSky\\audio_WhenNYCFirstLitUptheNightSky.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\WhenNYCFirstLitUptheNightSky\\mixed_audio_WhenNYCFirstLitUptheNightSky.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenNYCFirstLitUptheNightSky\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenNYCFirstLitUptheNightSky\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenNYCFirstLitUptheNightSky\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenNYCFirstLitUptheNightSky\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenNYCFirstLitUptheNightSky\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenNYCFirstLitUptheNightSky\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenNYCFirstLitUptheNightSky\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenNYCFirstLitUptheNightSky\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenNYCFirstLitUptheNightSky\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenNYCFirstLitUptheNightSky\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenNYCFirstLitUptheNightSky\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\WhenNYCFirstLitUptheNightSky\\image_12.jpg"
+    ]
+  },
+  "pipeline_status": "SUCCESS"
+}

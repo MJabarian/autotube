@@ -1,0 +1,241 @@
+{
+  "story_title": "fascinating story about roman armies",
+  "original_story": "Did you know the Roman army was more than just warriors? Voiceover: They were pioneers of engineering! Their legions built impressive roads, connecting vast territories. These pathways facilitated trade and communication, enhancing their empire. But that’s not all! The army also invented advanced siege engines and innovative tactics, allowing them to conquer challenging landscapes and fortifications. Join us as we uncover the hidden genius of Roman military strategy, revealing why their legacy endures even today!",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.395,
+      "audio_content": "Did you know the Roman army was more than just",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9397484064102173
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.395,
+      "timestamp_end": 4.79,
+      "audio_content": "Voice over,",
+      "words_in_segment": 2,
+      "confidence_avg": 0.713061511516571
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.79,
+      "timestamp_end": 7.1850000000000005,
+      "audio_content": "they were pioneers of engineering.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9875498175621032
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.1850000000000005,
+      "timestamp_end": 9.58,
+      "audio_content": "legions built impressive roads,",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9840216636657715
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.58,
+      "timestamp_end": 11.975,
+      "audio_content": "connecting vast territories. These",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9954012334346771
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.975,
+      "timestamp_end": 14.370000000000001,
+      "audio_content": "facilitated trade and",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9954861303170522
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.370000000000001,
+      "timestamp_end": 16.765,
+      "audio_content": "enhancing their empire.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9742305080095927
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.765,
+      "timestamp_end": 19.16,
+      "audio_content": "that's not all. The army also",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9835685590902964
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.16,
+      "timestamp_end": 21.555,
+      "audio_content": "advanced siege engines and",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9741142392158508
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.555,
+      "timestamp_end": 23.95,
+      "audio_content": "tactics, allowing them to conquer",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9988193869590759
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.95,
+      "timestamp_end": 26.345,
+      "audio_content": "landscapes and fortifications.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9969237049420675
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 26.345,
+      "timestamp_end": 28.740000000000002,
+      "audio_content": "Join us as we uncover the...",
+      "words_in_segment": 6,
+      "confidence_avg": 0.76795349859943
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.395,
+      "audio_content": "Did you know the Roman army was more than just",
+      "image_prompt": "Wide shot of a bustling Roman military camp at dawn, legionnaires constructing a vast stone road, their silhouettes striking against the rising sun, with intricate siege engines in the background, capturing the ingenuity and determination of the Roman army, dramatic chiaroscuro lighting enhancing the scene.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9397484064102173,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.395,
+      "timestamp_end": 4.79,
+      "audio_content": "Voice over,",
+      "image_prompt": "Wide shot of a bustling Roman construction site, with soldiers skillfully building a road, using advanced tools and techniques. The sun casts dramatic shadows, highlighting the determination on their faces as they connect distant lands, embodying the ingenuity of Roman engineering.",
+      "words_in_segment": 2,
+      "confidence_avg": 0.713061511516571,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.79,
+      "timestamp_end": 7.1850000000000005,
+      "audio_content": "they were pioneers of engineering.",
+      "image_prompt": "Wide shot of a Roman legion constructing a road, with soldiers laying stones and using tools, set against a backdrop of rolling hills. The golden hour sunlight casts dramatic shadows, highlighting their focused expressions as they work together to connect distant territories.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9875498175621032,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.1850000000000005,
+      "timestamp_end": 9.58,
+      "audio_content": "legions built impressive roads,",
+      "image_prompt": "Medium shot of a Roman legionnaire, clad in armor, surveying a well-constructed stone road stretching into the horizon. The sun casts dramatic shadows, highlighting the soldier's determined expression as he stands beside a group of engineers discussing their next project.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9840216636657715,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.58,
+      "timestamp_end": 11.975,
+      "audio_content": "connecting vast territories. These",
+      "image_prompt": "Wide shot of a sprawling Roman road stretching across diverse landscapes, flanked by soldiers and traders. The sun casts dramatic shadows, highlighting the engineering marvels of the pathway that connect distant territories, symbolizing the power and reach of the Roman Empire.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9954012334346771,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.975,
+      "timestamp_end": 14.370000000000001,
+      "audio_content": "facilitated trade and",
+      "image_prompt": "Wide shot of a bustling Roman marketplace along a newly constructed road, with merchants trading goods, soldiers overseeing the area, and citizens engaging in animated discussions under dramatic chiaroscuro lighting, highlighting the significance of trade in the Roman Empire.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9954861303170522,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.370000000000001,
+      "timestamp_end": 16.765,
+      "audio_content": "enhancing their empire.",
+      "image_prompt": "Medium shot of a Roman engineer meticulously crafting a siege engine in a bustling military camp, surrounded by soldiers discussing strategy. The scene is illuminated by dramatic chiaroscuro lighting, highlighting the intricate details of the machinery and the focused expressions of the men.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9742305080095927,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.765,
+      "timestamp_end": 19.16,
+      "audio_content": "that's not all. The army also",
+      "image_prompt": "Medium shot of Roman soldiers skillfully constructing a siege engine, their focused expressions illuminated by dramatic chiaroscuro lighting. The intricate details of the machinery contrast with the rugged landscape, showcasing the innovative spirit of the Roman army as they prepare for conquest.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9835685590902964,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.16,
+      "timestamp_end": 21.555,
+      "audio_content": "advanced siege engines and",
+      "image_prompt": "Medium shot of a Roman engineer meticulously assembling a complex siege engine, surrounded by fellow soldiers. The scene captures their focused expressions, with dramatic chiaroscuro lighting highlighting the intricate details of the machinery and the determination in their eyes.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9741142392158508,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.555,
+      "timestamp_end": 23.95,
+      "audio_content": "tactics, allowing them to conquer",
+      "image_prompt": "Medium shot of Roman soldiers skillfully operating a large siege engine, their faces focused and determined. The backdrop reveals a rugged landscape, emphasizing their innovative tactics as they prepare to conquer a fortified city under dramatic chiaroscuro lighting.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9988193869590759,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.95,
+      "timestamp_end": 26.345,
+      "audio_content": "landscapes and fortifications.",
+      "image_prompt": "Wide shot of a sprawling Roman landscape, showcasing intricate roads winding through hills, with a distant view of a fortified city. The sun casts dramatic shadows over the terrain, highlighting the engineering marvels of the Roman army as soldiers maneuver siege engines in the foreground.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9969237049420675,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 26.345,
+      "timestamp_end": 28.740000000000002,
+      "audio_content": "Join us as we uncover the...",
+      "image_prompt": "Wide shot of the Roman army constructing a massive stone road, soldiers working in unison under a dramatic sky, with shadows cast by towering mountains in the background, showcasing their engineering prowess and the vast empire they connected.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.76795349859943,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 28.740000000000002,
+    "whisper_model": "base"
+  }
+}

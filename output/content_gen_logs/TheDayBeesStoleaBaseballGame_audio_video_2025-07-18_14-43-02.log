@@ -1,0 +1,372 @@
+2025-07-18 14:43:02,001 - autotube.audio_video - INFO - 🚀 Starting audio_video pipeline for topic: TheDayBeesStoleaBaseballGame
+2025-07-18 14:43:02,002 - autotube.audio_video - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory\output\content_gen_logs\TheDayBeesStoleaBaseballGame_audio_video_2025-07-18_14-43-02.log
+2025-07-18 14:43:02,002 - autotube.audio_video - INFO - 📁 Sanitized folder name: TheDayBeesStoleaBaseballGame
+2025-07-18 14:43:02,002 - autotube.audio_video - INFO - 🎚️ Step 0: Audio Mixing for topic: TheDayBeesStoleaBaseballGame
+2025-07-18 14:43:02,004 - autotube.audio_video - INFO - ✅ Found source TTS audio: C:\autotube\ThroughTheLensofHistory\output\audio\TheDayBeesStoleaBaseballGame\audio_TheDayBeesStoleaBaseballGame.mp3
+2025-07-18 14:43:02,004 - autotube.audio_video - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory\output\music_selections\TheDayBeesStoleaBaseballGame\music_selection.json
+2025-07-18 14:43:02,025 - autotube.audio_video - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory\data\music\Intense\everything-is-just-the-beginning-epic-cinematic-277927.mp3
+2025-07-18 14:43:02,039 - autotube.audio_video - INFO - 🎚️ Mixing TTS with background music...
+2025-07-18 14:43:02,039 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory\output\audio\TheDayBeesStoleaBaseballGame\audio_TheDayBeesStoleaBaseballGame.mp3
+2025-07-18 14:43:02,152 - src.audio_mixer - INFO - Loaded audio: 55118ms, 44100Hz, 2 channels
+2025-07-18 14:43:02,152 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory\data\music\Intense\everything-is-just-the-beginning-epic-cinematic-277927.mp3
+2025-07-18 14:43:02,379 - src.audio_mixer - INFO - Loaded audio: 119458ms, 44100Hz, 2 channels
+2025-07-18 14:43:02,379 - src.audio_mixer - INFO - Mixing audio (simple, mobile-optimized)...
+2025-07-18 14:43:02,382 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-18 14:43:02,422 - src.audio_mixer - INFO - Voice adjusted by 9.3dB, Music by -11.0dB
+2025-07-18 14:43:02,455 - src.audio_mixer - INFO - Audio mixing completed: 55118ms
+2025-07-18 14:43:03,116 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory\output\mixed_audio\TheDayBeesStoleaBaseballGame\mixed_audio_TheDayBeesStoleaBaseballGame.mp3
+2025-07-18 14:43:03,120 - autotube.audio_video - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory\output\mixed_audio\TheDayBeesStoleaBaseballGame\mixed_audio_TheDayBeesStoleaBaseballGame.mp3
+2025-07-18 14:43:03,120 - autotube.audio_video - INFO - 📊 Mixed audio size: 1,799,260 bytes (1.7 MB)
+2025-07-18 14:43:03,121 - autotube.audio_video - INFO - 🎬 Creating Ken Burns video for topic: TheDayBeesStoleaBaseballGame
+2025-07-18 14:43:03,121 - autotube.audio_video - INFO - ✅ MoviePy Video Composer initialized
+2025-07-18 14:43:03,121 - autotube.audio_video - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-18 14:43:03,121 - autotube.audio_video - INFO - 🎬 Starting unified video composition for: TheDayBeesStoleaBaseballGame
+2025-07-18 14:43:03,229 - autotube.audio_video - INFO - 📸 Loaded 20 images for video
+2025-07-18 14:43:03,229 - autotube.audio_video - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-18 14:43:03,229 - autotube.audio_video - INFO - ⏱️  Image duration: 2.76 seconds per image
+2025-07-18 14:43:03,230 - autotube.audio_video - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory\output\videos\TheDayBeesStoleaBaseballGame_kenburns.mp4
+2025-07-18 14:43:03,230 - autotube.audio_video - INFO - 🎲 Generated random effects sequence: ['zoom_in', 'pan_right', 'zoom_out', 'pan_left', 'zoom_in']...
+2025-07-18 14:43:03,230 - autotube.audio_video - INFO - 📸 Processing image 1/20: image_01.jpg
+2025-07-18 14:43:03,230 - autotube.audio_video - INFO - ✨ Applying zoom_in effect
+2025-07-18 14:43:03,245 - autotube.audio_video - INFO - 📸 Processing image 2/20: image_02.jpg
+2025-07-18 14:43:03,246 - autotube.audio_video - INFO - ✨ Applying pan_right effect
+2025-07-18 14:43:03,261 - autotube.audio_video - INFO - 📸 Processing image 3/20: image_03.jpg
+2025-07-18 14:43:03,261 - autotube.audio_video - INFO - ✨ Applying zoom_out effect
+2025-07-18 14:43:03,276 - autotube.audio_video - INFO - 📸 Processing image 4/20: image_04.jpg
+2025-07-18 14:43:03,276 - autotube.audio_video - INFO - ✨ Applying pan_left effect
+2025-07-18 14:43:03,290 - autotube.audio_video - INFO - 📸 Processing image 5/20: image_05.jpg
+2025-07-18 14:43:03,290 - autotube.audio_video - INFO - ✨ Applying zoom_in effect
+2025-07-18 14:43:03,301 - autotube.audio_video - INFO - 📸 Processing image 6/20: image_06.jpg
+2025-07-18 14:43:03,301 - autotube.audio_video - INFO - ✨ Applying pan_right effect
+2025-07-18 14:43:03,311 - autotube.audio_video - INFO - 📸 Processing image 7/20: image_07.jpg
+2025-07-18 14:43:03,311 - autotube.audio_video - INFO - ✨ Applying zoom_out effect
+2025-07-18 14:43:03,323 - autotube.audio_video - INFO - 📸 Processing image 8/20: image_08.jpg
+2025-07-18 14:43:03,323 - autotube.audio_video - INFO - ✨ Applying pan_left effect
+2025-07-18 14:43:03,337 - autotube.audio_video - INFO - 📸 Processing image 9/20: image_09.jpg
+2025-07-18 14:43:03,338 - autotube.audio_video - INFO - ✨ Applying pan_right effect
+2025-07-18 14:43:03,348 - autotube.audio_video - INFO - 📸 Processing image 10/20: image_10.jpg
+2025-07-18 14:43:03,349 - autotube.audio_video - INFO - ✨ Applying pan_left effect
+2025-07-18 14:43:03,360 - autotube.audio_video - INFO - 📸 Processing image 11/20: image_11.jpg
+2025-07-18 14:43:03,361 - autotube.audio_video - INFO - ✨ Applying pan_right effect
+2025-07-18 14:43:03,374 - autotube.audio_video - INFO - 📸 Processing image 12/20: image_12.jpg
+2025-07-18 14:43:03,374 - autotube.audio_video - INFO - ✨ Applying pan_left effect
+2025-07-18 14:43:03,386 - autotube.audio_video - INFO - 📸 Processing image 13/20: image_13.jpg
+2025-07-18 14:43:03,386 - autotube.audio_video - INFO - ✨ Applying pan_right effect
+2025-07-18 14:43:03,397 - autotube.audio_video - INFO - 📸 Processing image 14/20: image_14.jpg
+2025-07-18 14:43:03,397 - autotube.audio_video - INFO - ✨ Applying zoom_out effect
+2025-07-18 14:43:03,413 - autotube.audio_video - INFO - 📸 Processing image 15/20: image_15.jpg
+2025-07-18 14:43:03,414 - autotube.audio_video - INFO - ✨ Applying pan_left effect
+2025-07-18 14:43:03,426 - autotube.audio_video - INFO - 📸 Processing image 16/20: image_16.jpg
+2025-07-18 14:43:03,426 - autotube.audio_video - INFO - ✨ Applying zoom_out effect
+2025-07-18 14:43:03,442 - autotube.audio_video - INFO - 📸 Processing image 17/20: image_17.jpg
+2025-07-18 14:43:03,442 - autotube.audio_video - INFO - ✨ Applying pan_right effect
+2025-07-18 14:43:03,456 - autotube.audio_video - INFO - 📸 Processing image 18/20: image_18.jpg
+2025-07-18 14:43:03,456 - autotube.audio_video - INFO - ✨ Applying pan_left effect
+2025-07-18 14:43:03,470 - autotube.audio_video - INFO - 📸 Processing image 19/20: image_19.jpg
+2025-07-18 14:43:03,471 - autotube.audio_video - INFO - ✨ Applying zoom_out effect
+2025-07-18 14:43:03,485 - autotube.audio_video - INFO - 📸 Processing image 20/20: image_20.jpg
+2025-07-18 14:43:03,486 - autotube.audio_video - INFO - ✨ Applying pan_left effect
+2025-07-18 14:43:03,499 - autotube.audio_video - INFO - 🔗 Concatenating 20 clips...
+2025-07-18 14:43:03,577 - autotube.audio_video - INFO - 🎵 Adding audio to video...
+2025-07-18 14:43:03,651 - autotube.audio_video - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory\output\videos\TheDayBeesStoleaBaseballGame_kenburns.mp4
+2025-07-18 14:44:09,103 - autotube.audio_video - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-18 14:44:09,103 - autotube.audio_video - INFO - ✅ Video FPS verified: 30.0
+2025-07-18 14:44:09,104 - autotube.audio_video - INFO - ✅ Video duration: 55.17 seconds
+2025-07-18 14:44:09,104 - autotube.audio_video - INFO - ✅ Video file size: 16.4 MB
+2025-07-18 14:44:09,104 - autotube.audio_video - INFO - 🎯 HD Quality: Excellent file size indicates high quality
+2025-07-18 14:44:09,128 - autotube.audio_video - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory\output\videos\TheDayBeesStoleaBaseballGame_kenburns.mp4
+2025-07-18 14:44:09,129 - autotube.audio_video - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-18 14:44:09,129 - autotube.audio_video - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory\output\videos\TheDayBeesStoleaBaseballGame_kenburns.mp4
+2025-07-18 14:44:09,130 - autotube.audio_video - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-18 14:44:09,130 - autotube.audio_video - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-18 14:44:09,140 - autotube.audio_video - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-18 14:44:09,140 - autotube.audio_video - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-18 14:44:10,672 - autotube.audio_video - INFO - Whisper model loaded successfully
+2025-07-18 14:44:10,672 - autotube.audio_video - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-18 14:44:10,673 - autotube.audio_video - INFO - Transcribing audio with word-level timing...
+2025-07-18 14:44:10,825 - faster_whisper - INFO - Processing audio with duration 00:55.118
+2025-07-18 14:44:13,288 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 14:44:28,016 - autotube.audio_video - INFO - Extracted 160 words with timing
+2025-07-18 14:44:28,016 - autotube.audio_video - INFO - Word timing extraction with story fallback took 17.34s
+2025-07-18 14:44:28,544 - autotube.audio_video - INFO - Video loading took 0.53s
+2025-07-18 14:44:28,545 - autotube.audio_video - INFO - Original video - Duration: 55.17s, FPS: 30.0, Audio: True
+2025-07-18 14:44:28,545 - autotube.audio_video - INFO - Creating individual subtitle clips from 160 words...
+2025-07-18 14:44:28,545 - autotube.audio_video - INFO - Group 1: 3 words (18 chars), 0.00s - 0.98s
+2025-07-18 14:44:28,546 - autotube.audio_video - INFO - Group 2: 4 words (16 chars), 0.96s - 1.96s
+2025-07-18 14:44:28,546 - autotube.audio_video - INFO - Group 3: 4 words (21 chars), 1.94s - 2.82s
+2025-07-18 14:44:28,546 - autotube.audio_video - INFO - Group 4: 4 words (21 chars), 3.08s - 5.68s
+2025-07-18 14:44:28,546 - autotube.audio_video - INFO - Group 5: 4 words (16 chars), 6.26s - 7.10s
+2025-07-18 14:44:28,546 - autotube.audio_video - INFO - Group 6: 3 words (15 chars), 7.08s - 7.88s
+2025-07-18 14:44:28,546 - autotube.audio_video - INFO - Group 7: 3 words (17 chars), 7.86s - 8.70s
+2025-07-18 14:44:28,546 - autotube.audio_video - INFO - Group 8: 3 words (33 chars), 8.68s - 10.54s
+2025-07-18 14:44:28,546 - autotube.audio_video - INFO - Group 9: 4 words (24 chars), 10.52s - 12.02s
+2025-07-18 14:44:28,546 - autotube.audio_video - INFO - Group 10: 3 words (24 chars), 12.00s - 13.58s
+2025-07-18 14:44:28,548 - autotube.audio_video - INFO - Group 11: 3 words (19 chars), 13.56s - 14.54s
+2025-07-18 14:44:28,548 - autotube.audio_video - INFO - Group 12: 3 words (19 chars), 14.52s - 15.66s
+2025-07-18 14:44:28,548 - autotube.audio_video - INFO - Group 13: 4 words (25 chars), 15.64s - 17.00s
+2025-07-18 14:44:28,548 - autotube.audio_video - INFO - Group 14: 3 words (17 chars), 16.98s - 17.86s
+2025-07-18 14:44:28,549 - autotube.audio_video - INFO - Group 15: 4 words (20 chars), 17.84s - 19.70s
+2025-07-18 14:44:28,549 - autotube.audio_video - INFO - Group 16: 3 words (24 chars), 19.68s - 20.92s
+2025-07-18 14:44:28,549 - autotube.audio_video - INFO - Group 17: 3 words (20 chars), 20.90s - 21.96s
+2025-07-18 14:44:28,549 - autotube.audio_video - INFO - Group 18: 4 words (21 chars), 21.94s - 23.34s
+2025-07-18 14:44:28,550 - autotube.audio_video - INFO - Group 19: 3 words (19 chars), 23.32s - 24.30s
+2025-07-18 14:44:28,550 - autotube.audio_video - INFO - Group 20: 3 words (14 chars), 24.28s - 24.96s
+2025-07-18 14:44:28,551 - autotube.audio_video - INFO - Group 21: 3 words (21 chars), 24.94s - 26.66s
+2025-07-18 14:44:28,551 - autotube.audio_video - INFO - Group 22: 4 words (21 chars), 26.64s - 27.70s
+2025-07-18 14:44:28,551 - autotube.audio_video - INFO - Group 23: 3 words (19 chars), 27.68s - 28.64s
+2025-07-18 14:44:28,551 - autotube.audio_video - INFO - Group 24: 4 words (20 chars), 28.62s - 30.20s
+2025-07-18 14:44:28,551 - autotube.audio_video - INFO - Group 25: 3 words (17 chars), 30.18s - 31.12s
+2025-07-18 14:44:28,551 - autotube.audio_video - INFO - Group 26: 4 words (17 chars), 31.10s - 31.84s
+2025-07-18 14:44:28,553 - autotube.audio_video - INFO - Group 27: 4 words (22 chars), 31.82s - 32.78s
+2025-07-18 14:44:28,553 - autotube.audio_video - INFO - Group 28: 4 words (24 chars), 32.76s - 34.04s
+2025-07-18 14:44:28,553 - autotube.audio_video - INFO - Group 29: 3 words (14 chars), 34.58s - 35.18s
+2025-07-18 14:44:28,553 - autotube.audio_video - INFO - Group 30: 3 words (24 chars), 35.16s - 36.56s
+2025-07-18 14:44:28,553 - autotube.audio_video - INFO - Group 31: 4 words (22 chars), 36.54s - 37.92s
+2025-07-18 14:44:28,554 - autotube.audio_video - INFO - Group 32: 3 words (20 chars), 37.90s - 39.08s
+2025-07-18 14:44:28,554 - autotube.audio_video - INFO - Group 33: 3 words (24 chars), 39.06s - 40.16s
+2025-07-18 14:44:28,554 - autotube.audio_video - INFO - Group 34: 3 words (15 chars), 40.66s - 41.24s
+2025-07-18 14:44:28,554 - autotube.audio_video - INFO - Group 35: 3 words (24 chars), 41.22s - 42.84s
+2025-07-18 14:44:28,555 - autotube.audio_video - INFO - Group 36: 3 words (21 chars), 42.82s - 44.04s
+2025-07-18 14:44:28,555 - autotube.audio_video - INFO - Group 37: 4 words (18 chars), 44.02s - 44.76s
+2025-07-18 14:44:28,556 - autotube.audio_video - INFO - Group 38: 4 words (19 chars), 44.88s - 45.70s
+2025-07-18 14:44:28,556 - autotube.audio_video - INFO - Group 39: 4 words (22 chars), 45.68s - 46.44s
+2025-07-18 14:44:28,556 - autotube.audio_video - INFO - Group 40: 3 words (21 chars), 46.42s - 47.82s
+2025-07-18 14:44:28,557 - autotube.audio_video - INFO - Group 41: 3 words (15 chars), 47.80s - 48.52s
+2025-07-18 14:44:28,557 - autotube.audio_video - INFO - Group 42: 4 words (22 chars), 48.50s - 49.52s
+2025-07-18 14:44:28,557 - autotube.audio_video - INFO - Group 43: 3 words (12 chars), 49.50s - 50.24s
+2025-07-18 14:44:28,558 - autotube.audio_video - INFO - Group 44: 3 words (17 chars), 50.22s - 50.92s
+2025-07-18 14:44:28,558 - autotube.audio_video - INFO - Group 45: 4 words (23 chars), 51.62s - 52.84s
+2025-07-18 14:44:28,558 - autotube.audio_video - INFO - Group 46: 3 words (18 chars), 52.82s - 53.46s
+2025-07-18 14:44:28,558 - autotube.audio_video - INFO - Group 47: 3 words (16 chars), 53.44s - 54.28s
+2025-07-18 14:44:28,559 - autotube.audio_video - INFO - Created 47 word groups with smart length limiting
+2025-07-18 14:44:28,559 - autotube.audio_video - INFO - Creating clips for group 1: 3 words
+2025-07-18 14:44:29,645 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.40s
+2025-07-18 14:44:30,378 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 1: 0.36s - 0.64s
+2025-07-18 14:44:31,043 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 1: 0.60s - 0.91s
+2025-07-18 14:44:31,043 - autotube.audio_video - INFO - Created clips for 1/47 word groups - ETA: 2s
+2025-07-18 14:44:31,044 - autotube.audio_video - INFO - Creating clips for group 2: 4 words
+2025-07-18 14:44:31,497 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 2: 0.96s - 1.16s
+2025-07-18 14:44:31,952 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 2: 1.12s - 1.28s
+2025-07-18 14:44:32,397 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 2: 1.24s - 1.89s
+2025-07-18 14:44:32,843 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 2: 1.86s - 1.89s
+2025-07-18 14:44:32,843 - autotube.audio_video - INFO - Creating clips for group 3: 4 words
+2025-07-18 14:44:33,557 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 3: 1.94s - 2.22s
+2025-07-18 14:44:34,273 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 3: 2.18s - 2.38s
+2025-07-18 14:44:34,977 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 3: 2.34s - 2.48s
+2025-07-18 14:44:35,645 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 3: 2.44s - 3.03s
+2025-07-18 14:44:35,645 - autotube.audio_video - INFO - Creating clips for group 4: 4 words
+2025-07-18 14:44:36,262 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 4: 3.08s - 3.36s
+2025-07-18 14:44:36,901 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 4: 3.32s - 4.72s
+2025-07-18 14:44:37,540 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 4: 4.68s - 4.86s
+2025-07-18 14:44:38,289 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 4: 4.82s - 5.98s
+2025-07-18 14:44:38,290 - autotube.audio_video - INFO - Creating clips for group 5: 4 words
+2025-07-18 14:44:38,909 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 5: 6.26s - 6.38s
+2025-07-18 14:44:39,511 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 5: 6.34s - 6.58s
+2025-07-18 14:44:40,089 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 5: 6.54s - 6.86s
+2025-07-18 14:44:40,663 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 5: 6.82s - 7.03s
+2025-07-18 14:44:40,664 - autotube.audio_video - INFO - Creating clips for group 6: 3 words
+2025-07-18 14:44:41,421 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 6: 7.08s - 7.48s
+2025-07-18 14:44:42,875 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 6: 7.44s - 7.78s
+2025-07-18 14:44:44,123 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 6: 7.74s - 7.81s
+2025-07-18 14:44:44,124 - autotube.audio_video - INFO - Creating clips for group 7: 3 words
+2025-07-18 14:44:45,183 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 7: 7.86s - 8.18s
+2025-07-18 14:44:45,919 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 7: 8.14s - 8.54s
+2025-07-18 14:44:46,533 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 7: 8.50s - 8.63s
+2025-07-18 14:44:46,534 - autotube.audio_video - INFO - Creating clips for group 8: 3 words
+2025-07-18 14:44:47,759 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 8: 8.68s - 9.74s
+2025-07-18 14:44:48,987 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 8: 9.70s - 9.94s
+2025-07-18 14:44:50,210 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 8: 9.90s - 10.47s
+2025-07-18 14:44:50,211 - autotube.audio_video - INFO - Creating clips for group 9: 4 words
+2025-07-18 14:44:50,963 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 9: 10.52s - 10.84s
+2025-07-18 14:44:51,738 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 9: 10.80s - 11.60s
+2025-07-18 14:44:52,518 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 9: 11.56s - 11.80s
+2025-07-18 14:44:53,347 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 9: 11.76s - 11.95s
+2025-07-18 14:44:53,347 - autotube.audio_video - INFO - Creating clips for group 10: 3 words
+2025-07-18 14:44:54,279 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 10: 12.00s - 12.46s
+2025-07-18 14:44:55,281 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 10: 12.42s - 13.26s
+2025-07-18 14:44:56,349 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 10: 13.22s - 13.51s
+2025-07-18 14:44:56,349 - autotube.audio_video - INFO - Creating clips for group 11: 3 words
+2025-07-18 14:44:57,188 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 11: 13.56s - 13.90s
+2025-07-18 14:44:58,049 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 11: 13.86s - 14.14s
+2025-07-18 14:44:58,906 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 11: 14.10s - 14.47s
+2025-07-18 14:44:58,906 - autotube.audio_video - INFO - Created clips for 11/47 word groups - ETA: 30s
+2025-07-18 14:44:58,906 - autotube.audio_video - INFO - Creating clips for group 12: 3 words
+2025-07-18 14:44:59,704 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 12: 14.52s - 14.90s
+2025-07-18 14:45:00,482 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 12: 14.86s - 15.24s
+2025-07-18 14:45:01,279 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 12: 15.20s - 15.59s
+2025-07-18 14:45:01,279 - autotube.audio_video - INFO - Creating clips for group 13: 4 words
+2025-07-18 14:45:02,245 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 13: 15.64s - 15.94s
+2025-07-18 14:45:03,165 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 13: 15.90s - 16.52s
+2025-07-18 14:45:04,092 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 13: 16.48s - 16.82s
+2025-07-18 14:45:05,005 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 13: 16.78s - 16.93s
+2025-07-18 14:45:05,006 - autotube.audio_video - INFO - Creating clips for group 14: 3 words
+2025-07-18 14:45:05,662 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 14: 16.98s - 17.38s
+2025-07-18 14:45:06,279 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 14: 17.34s - 17.58s
+2025-07-18 14:45:06,906 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 14: 17.54s - 17.79s
+2025-07-18 14:45:06,906 - autotube.audio_video - INFO - Creating clips for group 15: 4 words
+2025-07-18 14:45:07,642 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 15: 17.84s - 18.16s
+2025-07-18 14:45:08,373 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 15: 18.12s - 18.34s
+2025-07-18 14:45:09,094 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 15: 18.30s - 19.60s
+2025-07-18 14:45:09,803 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 15: 19.56s - 19.63s
+2025-07-18 14:45:09,803 - autotube.audio_video - INFO - Creating clips for group 16: 3 words
+2025-07-18 14:45:10,671 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 16: 19.68s - 20.10s
+2025-07-18 14:45:11,573 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 16: 20.06s - 20.66s
+2025-07-18 14:45:12,453 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 16: 20.62s - 20.85s
+2025-07-18 14:45:12,454 - autotube.audio_video - INFO - Creating clips for group 17: 3 words
+2025-07-18 14:45:13,133 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 17: 20.90s - 21.36s
+2025-07-18 14:45:13,828 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 17: 21.32s - 21.62s
+2025-07-18 14:45:14,524 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 17: 21.58s - 21.89s
+2025-07-18 14:45:14,524 - autotube.audio_video - INFO - Creating clips for group 18: 4 words
+2025-07-18 14:45:15,233 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 18: 21.94s - 22.40s
+2025-07-18 14:45:15,940 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 18: 22.36s - 22.56s
+2025-07-18 14:45:16,643 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 18: 22.52s - 22.86s
+2025-07-18 14:45:17,325 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 18: 22.82s - 23.27s
+2025-07-18 14:45:17,325 - autotube.audio_video - INFO - Creating clips for group 19: 3 words
+2025-07-18 14:45:17,913 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 19: 23.32s - 23.86s
+2025-07-18 14:45:18,533 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 19: 23.82s - 23.96s
+2025-07-18 14:45:19,186 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 19: 23.92s - 24.23s
+2025-07-18 14:45:19,187 - autotube.audio_video - INFO - Creating clips for group 20: 3 words
+2025-07-18 14:45:19,668 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 20: 24.28s - 24.52s
+2025-07-18 14:45:20,142 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 20: 24.48s - 24.62s
+2025-07-18 14:45:20,607 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 20: 24.58s - 24.89s
+2025-07-18 14:45:20,607 - autotube.audio_video - INFO - Creating clips for group 21: 3 words
+2025-07-18 14:45:21,415 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 21: 24.94s - 26.08s
+2025-07-18 14:45:22,198 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 21: 26.04s - 26.34s
+2025-07-18 14:45:22,991 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 21: 26.30s - 26.59s
+2025-07-18 14:45:22,991 - autotube.audio_video - INFO - Created clips for 21/47 word groups - ETA: 54s
+2025-07-18 14:45:22,991 - autotube.audio_video - INFO - Creating clips for group 22: 4 words
+2025-07-18 14:45:23,675 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 22: 26.64s - 26.84s
+2025-07-18 14:45:24,361 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 22: 26.80s - 27.22s
+2025-07-18 14:45:25,060 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 22: 27.18s - 27.52s
+2025-07-18 14:45:25,763 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 22: 27.48s - 27.63s
+2025-07-18 14:45:25,764 - autotube.audio_video - INFO - Creating clips for group 23: 3 words
+2025-07-18 14:45:26,416 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 23: 27.68s - 28.04s
+2025-07-18 14:45:27,076 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 23: 28.00s - 28.42s
+2025-07-18 14:45:27,928 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 23: 28.38s - 28.57s
+2025-07-18 14:45:27,928 - autotube.audio_video - INFO - Creating clips for group 24: 4 words
+2025-07-18 14:45:28,855 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 24: 28.62s - 29.66s
+2025-07-18 14:45:29,711 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 24: 29.62s - 29.76s
+2025-07-18 14:45:30,452 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 24: 29.72s - 29.94s
+2025-07-18 14:45:31,118 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 24: 29.90s - 30.13s
+2025-07-18 14:45:31,118 - autotube.audio_video - INFO - Creating clips for group 25: 3 words
+2025-07-18 14:45:31,697 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 25: 30.18s - 30.56s
+2025-07-18 14:45:32,276 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 25: 30.52s - 30.86s
+2025-07-18 14:45:33,049 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 25: 30.82s - 31.05s
+2025-07-18 14:45:33,049 - autotube.audio_video - INFO - Creating clips for group 26: 4 words
+2025-07-18 14:45:33,892 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 26: 31.10s - 31.28s
+2025-07-18 14:45:34,719 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 26: 31.24s - 31.50s
+2025-07-18 14:45:35,558 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 26: 31.46s - 31.62s
+2025-07-18 14:45:36,383 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 26: 31.58s - 31.77s
+2025-07-18 14:45:36,384 - autotube.audio_video - INFO - Creating clips for group 27: 4 words
+2025-07-18 14:45:37,353 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 27: 31.82s - 32.30s
+2025-07-18 14:45:38,247 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 27: 32.26s - 32.38s
+2025-07-18 14:45:39,119 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 27: 32.34s - 32.50s
+2025-07-18 14:45:39,940 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 27: 32.46s - 32.71s
+2025-07-18 14:45:39,941 - autotube.audio_video - INFO - Creating clips for group 28: 4 words
+2025-07-18 14:45:40,810 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 28: 32.76s - 33.26s
+2025-07-18 14:45:41,683 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 28: 33.22s - 33.50s
+2025-07-18 14:45:42,560 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 28: 33.46s - 33.68s
+2025-07-18 14:45:43,419 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 28: 33.64s - 34.34s
+2025-07-18 14:45:43,420 - autotube.audio_video - INFO - Creating clips for group 29: 3 words
+2025-07-18 14:45:43,865 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 29: 34.58s - 34.82s
+2025-07-18 14:45:44,419 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 29: 34.78s - 35.04s
+2025-07-18 14:45:44,946 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 29: 35.00s - 35.11s
+2025-07-18 14:45:44,946 - autotube.audio_video - INFO - Creating clips for group 30: 3 words
+2025-07-18 14:45:45,913 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 30: 35.16s - 36.08s
+2025-07-18 14:45:46,831 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 30: 36.04s - 36.34s
+2025-07-18 14:45:47,727 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 30: 36.30s - 36.49s
+2025-07-18 14:45:47,727 - autotube.audio_video - INFO - Creating clips for group 31: 4 words
+2025-07-18 14:45:48,521 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 31: 36.54s - 36.94s
+2025-07-18 14:45:49,306 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 31: 36.90s - 37.12s
+2025-07-18 14:45:50,079 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 31: 37.08s - 37.72s
+2025-07-18 14:45:50,885 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 31: 37.68s - 37.85s
+2025-07-18 14:45:50,886 - autotube.audio_video - INFO - Created clips for 31/47 word groups - ETA: 82s
+2025-07-18 14:45:50,886 - autotube.audio_video - INFO - Creating clips for group 32: 3 words
+2025-07-18 14:45:51,547 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 32: 37.90s - 38.60s
+2025-07-18 14:45:52,257 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 32: 38.56s - 38.76s
+2025-07-18 14:45:53,001 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 32: 38.72s - 39.01s
+2025-07-18 14:45:53,001 - autotube.audio_video - INFO - Creating clips for group 33: 3 words
+2025-07-18 14:45:53,900 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 33: 39.06s - 39.62s
+2025-07-18 14:45:54,793 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 33: 39.58s - 39.84s
+2025-07-18 14:45:55,684 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 33: 39.80s - 40.46s
+2025-07-18 14:45:55,685 - autotube.audio_video - INFO - Creating clips for group 34: 3 words
+2025-07-18 14:45:56,309 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 34: 40.66s - 40.82s
+2025-07-18 14:45:56,928 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 34: 40.78s - 40.98s
+2025-07-18 14:45:57,535 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 34: 40.94s - 41.17s
+2025-07-18 14:45:57,535 - autotube.audio_video - INFO - Creating clips for group 35: 3 words
+2025-07-18 14:45:58,319 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 35: 41.22s - 41.70s
+2025-07-18 14:45:59,091 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 35: 41.66s - 42.74s
+2025-07-18 14:45:59,859 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 35: 42.70s - 42.77s
+2025-07-18 14:45:59,860 - autotube.audio_video - INFO - Creating clips for group 36: 3 words
+2025-07-18 14:46:00,659 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 36: 42.82s - 43.06s
+2025-07-18 14:46:01,491 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 36: 43.02s - 43.96s
+2025-07-18 14:46:02,352 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 36: 43.92s - 43.97s
+2025-07-18 14:46:02,353 - autotube.audio_video - INFO - Creating clips for group 37: 4 words
+2025-07-18 14:46:03,006 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 37: 44.02s - 44.16s
+2025-07-18 14:46:03,645 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 37: 44.12s - 44.28s
+2025-07-18 14:46:04,276 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 37: 44.24s - 44.54s
+2025-07-18 14:46:04,892 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 37: 44.50s - 44.83s
+2025-07-18 14:46:04,893 - autotube.audio_video - INFO - Creating clips for group 38: 4 words
+2025-07-18 14:46:05,588 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 38: 44.88s - 45.00s
+2025-07-18 14:46:06,291 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 38: 44.96s - 45.12s
+2025-07-18 14:46:06,947 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 38: 45.08s - 45.48s
+2025-07-18 14:46:07,604 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 38: 45.44s - 45.63s
+2025-07-18 14:46:07,605 - autotube.audio_video - INFO - Creating clips for group 39: 4 words
+2025-07-18 14:46:08,312 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 39: 45.68s - 45.94s
+2025-07-18 14:46:09,049 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 39: 45.90s - 46.08s
+2025-07-18 14:46:09,805 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 39: 46.04s - 46.24s
+2025-07-18 14:46:10,558 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 39: 46.20s - 46.37s
+2025-07-18 14:46:10,558 - autotube.audio_video - INFO - Creating clips for group 40: 3 words
+2025-07-18 14:46:11,269 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 40: 46.42s - 47.52s
+2025-07-18 14:46:11,971 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 40: 47.48s - 47.70s
+2025-07-18 14:46:12,672 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 40: 47.66s - 47.75s
+2025-07-18 14:46:12,672 - autotube.audio_video - INFO - Creating clips for group 41: 3 words
+2025-07-18 14:46:13,212 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 41: 47.80s - 48.08s
+2025-07-18 14:46:13,738 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 41: 48.04s - 48.34s
+2025-07-18 14:46:14,243 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 41: 48.30s - 48.45s
+2025-07-18 14:46:14,243 - autotube.audio_video - INFO - Created clips for 41/47 word groups - ETA: 106s
+2025-07-18 14:46:14,243 - autotube.audio_video - INFO - Creating clips for group 42: 4 words
+2025-07-18 14:46:15,071 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 42: 48.50s - 48.62s
+2025-07-18 14:46:15,919 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 42: 48.58s - 48.90s
+2025-07-18 14:46:16,790 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 42: 48.86s - 49.26s
+2025-07-18 14:46:17,626 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 42: 49.22s - 49.45s
+2025-07-18 14:46:17,626 - autotube.audio_video - INFO - Creating clips for group 43: 3 words
+2025-07-18 14:46:18,036 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 43: 49.50s - 49.72s
+2025-07-18 14:46:18,449 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 43: 49.68s - 49.96s
+2025-07-18 14:46:18,862 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 43: 49.92s - 50.17s
+2025-07-18 14:46:18,863 - autotube.audio_video - INFO - Creating clips for group 44: 3 words
+2025-07-18 14:46:19,436 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 44: 50.22s - 50.32s
+2025-07-18 14:46:20,012 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 44: 50.28s - 50.52s
+2025-07-18 14:46:20,584 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 44: 50.48s - 51.22s
+2025-07-18 14:46:20,584 - autotube.audio_video - INFO - Creating clips for group 45: 4 words
+2025-07-18 14:46:21,361 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 45: 51.62s - 52.06s
+2025-07-18 14:46:22,110 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 45: 52.02s - 52.26s
+2025-07-18 14:46:22,871 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 45: 52.22s - 52.36s
+2025-07-18 14:46:23,670 - autotube.audio_video - INFO - Created continuous clip for word 4 in group 45: 52.32s - 52.77s
+2025-07-18 14:46:23,671 - autotube.audio_video - INFO - Creating clips for group 46: 3 words
+2025-07-18 14:46:24,318 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 46: 52.82s - 53.02s
+2025-07-18 14:46:24,943 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 46: 52.98s - 53.26s
+2025-07-18 14:46:25,551 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 46: 53.22s - 53.39s
+2025-07-18 14:46:25,551 - autotube.audio_video - INFO - Creating clips for group 47: 3 words
+2025-07-18 14:46:26,167 - autotube.audio_video - INFO - Created continuous clip for word 1 in group 47: 53.44s - 53.82s
+2025-07-18 14:46:26,761 - autotube.audio_video - INFO - Created continuous clip for word 2 in group 47: 53.78s - 54.02s
+2025-07-18 14:46:27,349 - autotube.audio_video - INFO - Created continuous clip for word 3 in group 47: 53.98s - 54.48s
+2025-07-18 14:46:27,349 - autotube.audio_video - INFO - Created 160 individual subtitle clips
+2025-07-18 14:46:27,350 - autotube.audio_video - INFO - Viral subtitle creation took 118.81s
+2025-07-18 14:46:27,351 - autotube.audio_video - INFO - Subtitle clips count: 160
+2025-07-18 14:46:27,365 - autotube.audio_video - INFO - Video composition took 0.01s
+2025-07-18 14:46:27,365 - autotube.audio_video - INFO - Final video - Duration: 55.17s, Audio: True
+2025-07-18 14:46:27,366 - autotube.audio_video - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\TheDayBeesStoleaBaseballGame_final.mp4
+2025-07-18 14:47:45,283 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file C:\autotube\ThroughTheLensofHistory\output\videos\TheDayBeesStoleaBaseballGame_kenburns.mp4, 3096576 bytes wanted but 0 bytes read,at frame 1655/1656, at time 55.17/55.17 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-07-18 14:47:45,717 - autotube.audio_video - INFO - Video writing took 78.35s
+2025-07-18 14:47:45,718 - autotube.audio_video - INFO - Validating output file...
+2025-07-18 14:47:46,321 - autotube.audio_video - INFO - Output file - Duration: 55.20s, Audio: True, Playable: True
+2025-07-18 14:47:46,360 - autotube.audio_video - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\TheDayBeesStoleaBaseballGame_final.mp4
+2025-07-18 14:47:46,360 - autotube.audio_video - INFO - Total processing time: 215.69s
+2025-07-18 14:47:46,361 - autotube.audio_video - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\TheDayBeesStoleaBaseballGame_final.mp4
+2025-07-18 14:47:46,362 - autotube.audio_video - INFO - 📊 Final video size: 11,341,648 bytes (10.8 MB)
+2025-07-18 14:47:46,363 - autotube.audio_video - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-18 14:47:46,363 - autotube.audio_video - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory\output\videos\TheDayBeesStoleaBaseballGame_kenburns.mp4
+2025-07-18 14:47:46,364 - autotube.audio_video - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\TheDayBeesStoleaBaseballGame_final.mp4

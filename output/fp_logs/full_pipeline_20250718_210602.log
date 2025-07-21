@@ -1,0 +1,336 @@
+2025-07-18 21:06:02,524 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-18 21:06:02,524 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250718_210602.log
+2025-07-18 21:06:02,524 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-18 21:06:02,525 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 21:06:02,525 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 21:06:02,525 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 21:06:04,157 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:08,187 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:08,460 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:08,477 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The U.S. Government's Secret Nuclear Blast Experiments  
+**Summary:** During the Cold War, the U.S. government conducted covert nuclear tests to study the effects of radiation on military personnel and civilians, raising ethical concerns and revealing dark secrets behind national security.
+2025-07-18 21:06:08,477 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheUSGovernmentsSecretNuclearBlastExperiments_content_gen_2025-07-18_21-06-08.log
+2025-07-18 21:06:08,477 - autotube.content_gen - INFO - 📁 Sanitized folder name: SecretNuclearTestsShockingUSGovernmentExperiments
+2025-07-18 21:06:08,477 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 84 words
+2025-07-18 21:06:08,488 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretNuclearTestsShockingUSGovernmentExperiments\story.json (1,137 bytes)
+2025-07-18 21:06:08,488 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretNuclearTestsShockingUSGovernmentExperiments\topic.txt (302 bytes)
+2025-07-18 21:06:08,489 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretNuclearTestsShockingUSGovernmentExperiments\metadata.json (575 bytes)
+2025-07-18 21:06:08,489 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretNuclearTestsShockingUSGovernmentExperiments\story.txt (1,043 bytes)
+2025-07-18 21:06:08,490 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretNuclearTestsShockingUSGovernmentExperiments
+2025-07-18 21:06:16,892 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretNuclearTestsShockingUSGovernmentExperiments\audio_SecretNuclearTestsShockingUSGovernmentExperiments.mp3 (528,763 bytes)
+2025-07-18 21:06:16,986 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 33.04s duration
+2025-07-18 21:06:17,068 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretNuclearTestsShockingUSGovernmentExperiments\audio_SecretNuclearTestsShockingUSGovernmentExperiments.mp3 (528,763 bytes, 33.04s)
+2025-07-18 21:06:17,070 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-18 21:06:17,070 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-18 21:06:17,071 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretNuclearTestsShockingUSGovernmentExperiments\audio_SecretNuclearTestsShockingUSGovernmentExperiments.mp3
+2025-07-18 21:06:17,071 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-18 21:06:18,530 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-18 21:06:18,639 - faster_whisper - INFO - Processing audio with duration 00:33.045
+2025-07-18 21:06:19,380 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 21:06:23,402 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 31.48s
+2025-07-18 21:06:23,403 - whisper_audio_synchronizer - INFO - 📝 Extracted 84 words with timestamps
+2025-07-18 21:06:23,404 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 31.48s, Image duration: 2.62s
+2025-07-18 21:06:23,405 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-18 21:06:23,406 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-18 21:06:25,927 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:25,928 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): Establishing shot of Bikini Atoll's serene turquoi...
+2025-07-18 21:06:27,416 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:27,417 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of the desolate Bikini Atoll, with tower...
+2025-07-18 21:06:29,577 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:29,578 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of the desolate Bikini Atoll, with a dis...
+2025-07-18 21:06:31,295 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:31,297 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/medium_shot): Medium shot of soldiers in military uniforms stand...
+2025-07-18 21:06:33,132 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:33,135 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/medium_shot): Medium shot of solemn soldiers standing on a barre...
+2025-07-18 21:06:34,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:34,926 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/medium_shot): Medium shot of solemn soldiers standing on the bar...
+2025-07-18 21:06:37,259 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:37,260 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of a somber military officer in a dark...
+2025-07-18 21:06:39,257 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:39,259 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/medium_shot): Medium shot of a somber group of Nevada civilians,...
+2025-07-18 21:06:41,121 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:41,123 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of a group of soldiers, stunned expres...
+2025-07-18 21:06:43,730 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:43,733 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/medium_shot): Medium shot of a group of bewildered soldiers stan...
+2025-07-18 21:06:45,437 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:45,440 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/close_up): Close-up of a solemn soldier's face, eyes wide wit...
+2025-07-18 21:06:47,532 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:06:47,534 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/close_up): Close-up of a soldier's face, eyes wide with shock...
+2025-07-18 21:06:47,538 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Secret_Nuclear_Tests_Shocking_US_Government_Experiments_whisper_sync.json
+2025-07-18 21:06:47,539 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-18 21:06:47,540 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-18 21:06:47,543 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-18 21:06:47,544 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-18 21:06:47,560 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\Reflective memorial 2(e96c18de382a42a6887e785a6914e0e1).wav (11,466,120 bytes)
+2025-07-18 21:06:47,562 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\SecretNuclearTestsShockingUSGovernmentExperiments\music_selection.json (406 bytes)
+2025-07-18 21:06:47,562 - autotube.content_gen - INFO - ✅ Music selected: Reflective memorial 2(e96c18de382a42a6887e785a6914e0e1).wav
+2025-07-18 21:06:47,565 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-18 21:06:47,567 - src.replicate_image_generator - INFO - Generating images for story: Secret Nuclear Tests: Shocking U.S. Government Experiments
+2025-07-18 21:06:47,567 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-18 21:06:47,568 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-18 21:06:47,569 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-18 21:06:48,991 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:06:50,907 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:06:52,810 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:06:54,676 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:06:56,547 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:06:58,386 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:07:00,128 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:07:01,853 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:07:03,337 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:07:04,834 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:07:06,331 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:07:07,818 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:07:08,668 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-18 21:07:08,668 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-18 21:07:08,670 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-18 21:07:08,672 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-18 21:07:08,674 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-18 21:07:08,674 - autotube.content_gen - INFO - 📊 Total time: 66.15s, Cost: $0.0360
+2025-07-18 21:07:08,674 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The U.S. Government's Secret Nuclear Blast Experiments  
+**Summary:** During the Cold War, the U.S. government conducted covert nuclear tests to study the effects of radiation on military personnel and civilians, raising ethical concerns and revealing dark secrets behind national security.
+2025-07-18 21:07:08,694 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (66.17s)
+2025-07-18 21:07:08,694 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 21:07:08,695 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 21:07:08,695 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: SecretNuclearTestsShockingUSGovernmentExperiments
+2025-07-18 21:07:08,695 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: SecretNuclearTestsShockingUSGovernmentExperiments
+2025-07-18 21:07:08,696 - autotube.full_pipeline - INFO - ✅ Found source TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretNuclearTestsShockingUSGovernmentExperiments\audio_SecretNuclearTestsShockingUSGovernmentExperiments.mp3
+2025-07-18 21:07:08,696 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\SecretNuclearTestsShockingUSGovernmentExperiments\music_selection.json
+2025-07-18 21:07:08,703 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\Reflective memorial 2(e96c18de382a42a6887e785a6914e0e1).wav
+2025-07-18 21:07:08,726 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-18 21:07:08,726 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretNuclearTestsShockingUSGovernmentExperiments\audio_SecretNuclearTestsShockingUSGovernmentExperiments.mp3
+2025-07-18 21:07:08,832 - src.audio_mixer - INFO - Loaded audio: 33045ms, 44100Hz, 2 channels
+2025-07-18 21:07:08,832 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\Reflective memorial 2(e96c18de382a42a6887e785a6914e0e1).wav
+2025-07-18 21:07:08,858 - src.audio_mixer - INFO - Loaded audio: 65000ms, 44100Hz, 2 channels
+2025-07-18 21:07:08,858 - src.audio_mixer - INFO - Mixing audio (simple, mobile-optimized)...
+2025-07-18 21:07:08,860 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-18 21:07:08,891 - src.audio_mixer - INFO - Voice adjusted by 9.2dB, Music by -8.3dB
+2025-07-18 21:07:08,919 - src.audio_mixer - INFO - Audio mixing completed: 33045ms
+2025-07-18 21:07:09,368 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\SecretNuclearTestsShockingUSGovernmentExperiments\mixed_audio_SecretNuclearTestsShockingUSGovernmentExperiments.mp3
+2025-07-18 21:07:09,370 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\SecretNuclearTestsShockingUSGovernmentExperiments\mixed_audio_SecretNuclearTestsShockingUSGovernmentExperiments.mp3
+2025-07-18 21:07:09,370 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 1,104,008 bytes (1.1 MB)
+2025-07-18 21:07:09,370 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: SecretNuclearTestsShockingUSGovernmentExperiments
+2025-07-18 21:07:09,371 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-18 21:07:09,371 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-18 21:07:09,371 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: SecretNuclearTestsShockingUSGovernmentExperiments
+2025-07-18 21:07:09,488 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-18 21:07:09,489 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-18 21:07:09,489 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.76 seconds per image
+2025-07-18 21:07:09,489 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretNuclearTestsShockingUSGovernmentExperiments_kenburns.mp4
+2025-07-18 21:07:09,489 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['pan_right', 'pan_left', 'zoom_out', 'pan_left', 'zoom_out']...
+2025-07-18 21:07:09,490 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-18 21:07:09,490 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 21:07:09,502 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-18 21:07:09,503 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 21:07:09,513 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-18 21:07:09,514 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 21:07:09,525 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-18 21:07:09,526 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 21:07:09,552 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-18 21:07:09,552 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 21:07:09,575 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-18 21:07:09,575 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 21:07:09,598 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-18 21:07:09,599 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 21:07:09,621 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-18 21:07:09,621 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 21:07:09,642 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-18 21:07:09,642 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 21:07:09,668 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-18 21:07:09,669 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 21:07:09,694 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-18 21:07:09,694 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 21:07:09,718 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-18 21:07:09,719 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 21:07:09,743 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-18 21:07:09,776 - autotube.full_pipeline - INFO - 🎵 Adding audio to video...
+2025-07-18 21:07:09,848 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretNuclearTestsShockingUSGovernmentExperiments_kenburns.mp4
+2025-07-18 21:07:46,132 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-18 21:07:46,132 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-18 21:07:46,133 - autotube.full_pipeline - INFO - ✅ Video duration: 33.10 seconds
+2025-07-18 21:07:46,133 - autotube.full_pipeline - INFO - ✅ Video file size: 6.3 MB
+2025-07-18 21:07:46,133 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-18 21:07:46,156 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretNuclearTestsShockingUSGovernmentExperiments_kenburns.mp4
+2025-07-18 21:07:46,157 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-18 21:07:46,157 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretNuclearTestsShockingUSGovernmentExperiments_kenburns.mp4
+2025-07-18 21:07:46,158 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-18 21:07:46,158 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-18 21:07:46,159 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-18 21:07:46,159 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-18 21:07:47,357 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-18 21:07:47,358 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-18 21:07:47,358 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-18 21:07:47,515 - faster_whisper - INFO - Processing audio with duration 00:33.046
+2025-07-18 21:07:50,041 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 21:08:00,588 - autotube.full_pipeline - INFO - Extracted 84 words with timing
+2025-07-18 21:08:00,588 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 13.23s
+2025-07-18 21:08:00,909 - autotube.full_pipeline - INFO - Video loading took 0.32s
+2025-07-18 21:08:00,910 - autotube.full_pipeline - INFO - Original video - Duration: 33.10s, FPS: 30.0, Audio: True
+2025-07-18 21:08:00,910 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 84 words...
+2025-07-18 21:08:00,910 - autotube.full_pipeline - INFO - Group 1: 3 words (14 chars), 0.00s - 1.20s
+2025-07-18 21:08:00,910 - autotube.full_pipeline - INFO - Group 2: 3 words (9 chars), 1.32s - 1.70s
+2025-07-18 21:08:00,911 - autotube.full_pipeline - INFO - Group 3: 3 words (28 chars), 1.70s - 3.10s
+2025-07-18 21:08:00,911 - autotube.full_pipeline - INFO - Group 4: 3 words (18 chars), 3.08s - 4.34s
+2025-07-18 21:08:00,911 - autotube.full_pipeline - INFO - Group 5: 3 words (19 chars), 4.32s - 5.68s
+2025-07-18 21:08:00,911 - autotube.full_pipeline - INFO - Group 6: 3 words (24 chars), 5.82s - 7.08s
+2025-07-18 21:08:00,911 - autotube.full_pipeline - INFO - Group 7: 3 words (19 chars), 7.06s - 8.12s
+2025-07-18 21:08:00,912 - autotube.full_pipeline - INFO - Group 8: 3 words (19 chars), 8.10s - 9.02s
+2025-07-18 21:08:00,912 - autotube.full_pipeline - INFO - Group 9: 3 words (19 chars), 9.00s - 9.90s
+2025-07-18 21:08:00,912 - autotube.full_pipeline - INFO - Group 10: 3 words (21 chars), 10.24s - 11.08s
+2025-07-18 21:08:00,912 - autotube.full_pipeline - INFO - Group 11: 3 words (24 chars), 11.06s - 12.48s
+2025-07-18 21:08:00,912 - autotube.full_pipeline - INFO - Group 12: 3 words (21 chars), 12.46s - 13.84s
+2025-07-18 21:08:00,912 - autotube.full_pipeline - INFO - Group 13: 3 words (25 chars), 13.82s - 15.26s
+2025-07-18 21:08:00,913 - autotube.full_pipeline - INFO - Group 14: 4 words (22 chars), 15.24s - 16.78s
+2025-07-18 21:08:00,913 - autotube.full_pipeline - INFO - Group 15: 4 words (21 chars), 16.76s - 18.50s
+2025-07-18 21:08:00,913 - autotube.full_pipeline - INFO - Group 16: 3 words (20 chars), 18.48s - 19.50s
+2025-07-18 21:08:00,913 - autotube.full_pipeline - INFO - Group 17: 3 words (20 chars), 19.48s - 20.74s
+2025-07-18 21:08:00,913 - autotube.full_pipeline - INFO - Group 18: 3 words (26 chars), 20.72s - 22.04s
+2025-07-18 21:08:00,914 - autotube.full_pipeline - INFO - Group 19: 3 words (24 chars), 22.60s - 23.66s
+2025-07-18 21:08:00,914 - autotube.full_pipeline - INFO - Group 20: 3 words (19 chars), 23.64s - 24.48s
+2025-07-18 21:08:00,914 - autotube.full_pipeline - INFO - Group 21: 4 words (24 chars), 24.46s - 25.44s
+2025-07-18 21:08:00,914 - autotube.full_pipeline - INFO - Group 22: 3 words (24 chars), 25.68s - 26.68s
+2025-07-18 21:08:00,914 - autotube.full_pipeline - INFO - Group 23: 3 words (22 chars), 26.66s - 27.96s
+2025-07-18 21:08:00,914 - autotube.full_pipeline - INFO - Group 24: 4 words (23 chars), 27.94s - 29.34s
+2025-07-18 21:08:00,915 - autotube.full_pipeline - INFO - Group 25: 4 words (23 chars), 29.32s - 30.20s
+2025-07-18 21:08:00,915 - autotube.full_pipeline - INFO - Group 26: 3 words (13 chars), 30.18s - 30.90s
+2025-07-18 21:08:00,915 - autotube.full_pipeline - INFO - Group 27: 1 words (13 chars), 30.88s - 31.46s
+2025-07-18 21:08:00,915 - autotube.full_pipeline - INFO - Created 27 word groups with smart length limiting
+2025-07-18 21:08:00,916 - autotube.full_pipeline - INFO - Creating clips for group 1: 3 words
+2025-07-18 21:08:01,647 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.18s
+2025-07-18 21:08:02,182 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.14s - 0.26s
+2025-07-18 21:08:02,631 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.22s - 1.27s
+2025-07-18 21:08:02,631 - autotube.full_pipeline - INFO - Created clips for 1/27 word groups - ETA: 2s
+2025-07-18 21:08:02,632 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-18 21:08:02,874 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 1.32s - 1.36s
+2025-07-18 21:08:03,111 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 1.32s - 1.58s
+2025-07-18 21:08:03,340 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 1.54s - 1.65s
+2025-07-18 21:08:03,343 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-18 21:08:04,346 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 1.70s - 2.00s
+2025-07-18 21:08:05,341 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 1.96s - 2.54s
+2025-07-18 21:08:06,339 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 2.50s - 3.03s
+2025-07-18 21:08:06,339 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-18 21:08:06,949 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 3.08s - 3.34s
+2025-07-18 21:08:07,576 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 3.30s - 3.82s
+2025-07-18 21:08:08,200 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 3.78s - 4.27s
+2025-07-18 21:08:08,201 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-18 21:08:08,812 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 4.32s - 4.64s
+2025-07-18 21:08:09,409 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 4.60s - 4.88s
+2025-07-18 21:08:10,027 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 4.84s - 5.77s
+2025-07-18 21:08:10,027 - autotube.full_pipeline - INFO - Creating clips for group 6: 3 words
+2025-07-18 21:08:10,906 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 5.82s - 6.22s
+2025-07-18 21:08:11,820 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 6.18s - 6.90s
+2025-07-18 21:08:12,727 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 6.86s - 7.01s
+2025-07-18 21:08:12,728 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-18 21:08:13,332 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 7.06s - 7.40s
+2025-07-18 21:08:13,925 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 7.36s - 7.90s
+2025-07-18 21:08:14,545 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 7.86s - 8.05s
+2025-07-18 21:08:14,546 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-18 21:08:15,205 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 8.10s - 8.32s
+2025-07-18 21:08:15,863 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 8.28s - 8.54s
+2025-07-18 21:08:16,500 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 8.50s - 8.95s
+2025-07-18 21:08:16,500 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-18 21:08:17,138 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 9.00s - 9.38s
+2025-07-18 21:08:17,794 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 9.34s - 9.58s
+2025-07-18 21:08:18,455 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 9.54s - 10.19s
+2025-07-18 21:08:18,455 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-18 21:08:19,200 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 10.24s - 10.62s
+2025-07-18 21:08:20,006 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 10.58s - 10.72s
+2025-07-18 21:08:20,813 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 10.68s - 11.01s
+2025-07-18 21:08:20,813 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-18 21:08:21,666 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 11.06s - 11.88s
+2025-07-18 21:08:22,503 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 11.84s - 12.10s
+2025-07-18 21:08:23,342 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 12.06s - 12.41s
+2025-07-18 21:08:23,343 - autotube.full_pipeline - INFO - Created clips for 11/27 word groups - ETA: 22s
+2025-07-18 21:08:23,343 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-18 21:08:24,123 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 12.46s - 13.18s
+2025-07-18 21:08:24,889 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 13.14s - 13.32s
+2025-07-18 21:08:25,697 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 13.28s - 13.77s
+2025-07-18 21:08:25,698 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-18 21:08:26,720 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 13.82s - 14.48s
+2025-07-18 21:08:27,774 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 14.44s - 14.90s
+2025-07-18 21:08:28,820 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 14.86s - 15.19s
+2025-07-18 21:08:28,820 - autotube.full_pipeline - INFO - Creating clips for group 14: 4 words
+2025-07-18 21:08:29,560 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 15.24s - 15.56s
+2025-07-18 21:08:30,371 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 15.52s - 16.30s
+2025-07-18 21:08:31,275 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 16.26s - 16.50s
+2025-07-18 21:08:32,484 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 14: 16.46s - 16.71s
+2025-07-18 21:08:32,484 - autotube.full_pipeline - INFO - Creating clips for group 15: 4 words
+2025-07-18 21:08:33,580 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 16.76s - 16.98s
+2025-07-18 21:08:34,647 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 16.94s - 17.60s
+2025-07-18 21:08:35,395 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 17.56s - 17.86s
+2025-07-18 21:08:36,111 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 15: 17.82s - 18.43s
+2025-07-18 21:08:36,111 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-18 21:08:36,859 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 18.48s - 18.80s
+2025-07-18 21:08:37,555 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 18.76s - 19.20s
+2025-07-18 21:08:38,264 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 19.16s - 19.43s
+2025-07-18 21:08:38,264 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-18 21:08:38,984 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 19.48s - 19.90s
+2025-07-18 21:08:39,715 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 19.86s - 20.34s
+2025-07-18 21:08:40,443 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 20.30s - 20.67s
+2025-07-18 21:08:40,443 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-18 21:08:41,509 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 20.72s - 21.02s
+2025-07-18 21:08:42,446 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 20.98s - 21.50s
+2025-07-18 21:08:43,376 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 21.46s - 22.34s
+2025-07-18 21:08:43,377 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-18 21:08:44,302 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 22.60s - 23.06s
+2025-07-18 21:08:45,189 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 23.02s - 23.40s
+2025-07-18 21:08:46,093 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 23.36s - 23.59s
+2025-07-18 21:08:46,094 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-18 21:08:46,801 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 23.64s - 23.82s
+2025-07-18 21:08:47,496 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 23.78s - 24.16s
+2025-07-18 21:08:48,192 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 24.12s - 24.41s
+2025-07-18 21:08:48,193 - autotube.full_pipeline - INFO - Creating clips for group 21: 4 words
+2025-07-18 21:08:49,019 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 24.46s - 24.74s
+2025-07-18 21:08:49,876 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 24.70s - 24.96s
+2025-07-18 21:08:50,636 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 24.92s - 25.10s
+2025-07-18 21:08:51,392 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 21: 25.06s - 25.63s
+2025-07-18 21:08:51,392 - autotube.full_pipeline - INFO - Created clips for 21/27 word groups - ETA: 50s
+2025-07-18 21:08:51,393 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-18 21:08:52,237 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 25.68s - 25.92s
+2025-07-18 21:08:53,089 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 25.88s - 26.34s
+2025-07-18 21:08:53,978 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 26.30s - 26.61s
+2025-07-18 21:08:53,979 - autotube.full_pipeline - INFO - Creating clips for group 23: 3 words
+2025-07-18 21:08:54,786 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 26.66s - 27.10s
+2025-07-18 21:08:55,594 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 27.06s - 27.68s
+2025-07-18 21:08:56,426 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 27.64s - 27.89s
+2025-07-18 21:08:56,427 - autotube.full_pipeline - INFO - Creating clips for group 24: 4 words
+2025-07-18 21:08:57,281 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 27.94s - 28.24s
+2025-07-18 21:08:58,089 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 28.20s - 28.62s
+2025-07-18 21:08:58,919 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 28.58s - 29.10s
+2025-07-18 21:08:59,777 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 24: 29.06s - 29.27s
+2025-07-18 21:08:59,778 - autotube.full_pipeline - INFO - Creating clips for group 25: 4 words
+2025-07-18 21:09:00,590 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 29.32s - 29.64s
+2025-07-18 21:09:01,415 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 29.60s - 29.80s
+2025-07-18 21:09:02,234 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 29.76s - 29.92s
+2025-07-18 21:09:03,048 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 25: 29.88s - 30.13s
+2025-07-18 21:09:03,048 - autotube.full_pipeline - INFO - Creating clips for group 26: 3 words
+2025-07-18 21:09:03,522 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 26: 30.18s - 30.54s
+2025-07-18 21:09:03,958 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 26: 30.50s - 30.76s
+2025-07-18 21:09:04,451 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 26: 30.72s - 30.83s
+2025-07-18 21:09:04,452 - autotube.full_pipeline - INFO - Creating clips for group 27: 1 words
+2025-07-18 21:09:05,029 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 27: 30.88s - 31.66s
+2025-07-18 21:09:05,029 - autotube.full_pipeline - INFO - Created 84 individual subtitle clips
+2025-07-18 21:09:05,030 - autotube.full_pipeline - INFO - Viral subtitle creation took 64.12s
+2025-07-18 21:09:05,031 - autotube.full_pipeline - INFO - Subtitle clips count: 84
+2025-07-18 21:09:05,045 - autotube.full_pipeline - INFO - Video composition took 0.01s
+2025-07-18 21:09:05,045 - autotube.full_pipeline - INFO - Final video - Duration: 33.10s, Audio: True
+2025-07-18 21:09:05,046 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretNuclearTestsShockingUSGovernmentExperiments_final.mp4
+2025-07-18 21:09:50,285 - autotube.full_pipeline - INFO - Video writing took 45.24s
+2025-07-18 21:09:50,285 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-18 21:09:50,743 - autotube.full_pipeline - INFO - Output file - Duration: 33.10s, Audio: True, Playable: True
+2025-07-18 21:09:50,782 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretNuclearTestsShockingUSGovernmentExperiments_final.mp4
+2025-07-18 21:09:50,783 - autotube.full_pipeline - INFO - Total processing time: 123.43s
+2025-07-18 21:09:50,784 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretNuclearTestsShockingUSGovernmentExperiments_final.mp4
+2025-07-18 21:09:50,784 - autotube.full_pipeline - INFO - 📊 Final video size: 4,671,534 bytes (4.5 MB)
+2025-07-18 21:09:50,785 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-18 21:09:50,785 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretNuclearTestsShockingUSGovernmentExperiments_kenburns.mp4
+2025-07-18 21:09:50,786 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretNuclearTestsShockingUSGovernmentExperiments_final.mp4
+2025-07-18 21:09:50,831 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (162.14s)
+2025-07-18 21:09:50,832 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-18 21:09:50,835 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_SecretNuclearTestsShockingUSGovernmentExperiments_20250718_210950.json
+2025-07-18 21:09:50,836 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-18 21:09:50,836 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 21:09:50,837 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 228.32s
+2025-07-18 21:09:50,837 - autotube.full_pipeline - INFO - 📁 Story Title: SecretNuclearTestsShockingUSGovernmentExperiments
+2025-07-18 21:09:50,838 - autotube.full_pipeline - INFO - 📁 Sanitized Title: SecretNuclearTestsShockingUSGovernmentExperiments
+2025-07-18 21:09:50,838 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_SecretNuclearTestsShockingUSGovernmentExperiments_20250718_210950.json

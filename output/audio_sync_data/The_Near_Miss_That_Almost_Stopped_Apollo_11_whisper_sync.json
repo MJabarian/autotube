@@ -1,0 +1,241 @@
+{
+  "story_title": "The Near Miss That Almost Stopped Apollo 11",
+  "original_story": "[nervous] Just hours before Neil Armstrong's historic moonwalk in 1969, a malfunction in Apollo 11’s guidance system threatened everything! Mission Control frantically diagnosed the issue, knowing that a single failure could delay lunar exploration for years. As astronauts Armstrong and Aldrin prepared for launch, engineers raced against time, ultimately finding a workaround that saved the mission. Imagine if we never set foot on the Moon! This near-catastrophe exposed the incredible pressure and precision required in space travel—a true nail-biter of history.",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.478333333333333,
+      "audio_content": "Just hours before Neil Armstrong's Historic",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8662223182618618
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.478333333333333,
+      "timestamp_end": 4.956666666666666,
+      "audio_content": "in 1969, a malfunction in",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9866925001144409
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.956666666666666,
+      "timestamp_end": 7.434999999999999,
+      "audio_content": "11's guidance system threatened everything.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9073687732219696
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.434999999999999,
+      "timestamp_end": 9.913333333333332,
+      "audio_content": "Mission control frantically diagnosed the",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9132283449172973
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.913333333333332,
+      "timestamp_end": 12.391666666666666,
+      "audio_content": "knowing that a single failure could delay lunar",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9960531890392303
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.391666666666666,
+      "timestamp_end": 14.869999999999997,
+      "audio_content": "for years. As astronauts",
+      "words_in_segment": 4,
+      "confidence_avg": 0.971165120601654
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.869999999999997,
+      "timestamp_end": 17.348333333333333,
+      "audio_content": "and Aldrin prepared for launch, engineers",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9855693231026331
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.348333333333333,
+      "timestamp_end": 19.826666666666664,
+      "audio_content": "against time, ultimately finding a workaround",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9712857653697332
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.826666666666664,
+      "timestamp_end": 22.304999999999996,
+      "audio_content": "saved the mission. Imagine if we never",
+      "words_in_segment": 7,
+      "confidence_avg": 0.989450854914529
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 22.304999999999996,
+      "timestamp_end": 24.78333333333333,
+      "audio_content": "foot on the moon, this near catastrophe",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9015495606831142
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 24.78333333333333,
+      "timestamp_end": 27.261666666666663,
+      "audio_content": "the incredible pressure and precision",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9945785522460937
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 27.261666666666663,
+      "timestamp_end": 29.739999999999995,
+      "audio_content": "in space travel, a true nail -biter of",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8672962660590808
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.478333333333333,
+      "audio_content": "Just hours before Neil Armstrong's Historic",
+      "image_prompt": "Establishing shot of NASA's Mission Control, bustling with engineers in 1969, illuminated by flickering screens. Tension fills the air as they diagnose Apollo 11's guidance system malfunction, dramatic chiaroscuro lighting casting sharp shadows across their focused faces.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8662223182618618,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.478333333333333,
+      "timestamp_end": 4.956666666666666,
+      "audio_content": "in 1969, a malfunction in",
+      "image_prompt": "Wide shot of NASA's Mission Control in 1969, engineers huddled around glowing screens, anxiety palpable. Shadows loom dramatically, faces lit by the flickering lights, as they feverishly diagnose the Apollo 11 guidance system malfunction. A sense of urgency fills the air, history hangs in the balance.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9866925001144409,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.956666666666666,
+      "timestamp_end": 7.434999999999999,
+      "audio_content": "11's guidance system threatened everything.",
+      "image_prompt": "Medium shot of frantic engineers in Mission Control, illuminated by the glow of monitors, sweat on brows as they diagnose Apollo 11’s guidance system failure. Shadows dance across their worried faces, capturing the tension and urgency of the moment, reminiscent of 1970s cinematic drama.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9073687732219696,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.434999999999999,
+      "timestamp_end": 9.913333333333332,
+      "audio_content": "Mission control frantically diagnosed the",
+      "image_prompt": "Medium shot of engineers in Mission Control, faces tense with concentration as they huddle around flickering screens. Shadows play across their worried expressions, illuminated by the dim glow of control panels, capturing the urgency of a critical moment just before Apollo 11’s launch.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9132283449172973,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.913333333333332,
+      "timestamp_end": 12.391666666666666,
+      "audio_content": "knowing that a single failure could delay lunar",
+      "image_prompt": "Medium shot of NASA engineers in a dimly lit control room, faces tense with concern. The glow of screens reflects their anxious expressions as they diagnose the guidance system malfunction, shadows dancing across their faces, capturing the gravity of the moment just before history unfolds.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9960531890392303,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.391666666666666,
+      "timestamp_end": 14.869999999999997,
+      "audio_content": "for years. As astronauts",
+      "image_prompt": "Medium shot of NASA engineers huddled around a glowing console, their faces illuminated by the screens. Tension fills the air as they analyze the guidance system's malfunction, sharp shadows casting dramatic lines across their determined expressions, embodying the pressure of the moment.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.971165120601654,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.869999999999997,
+      "timestamp_end": 17.348333333333333,
+      "audio_content": "and Aldrin prepared for launch, engineers",
+      "image_prompt": "Medium shot of engineers huddled around a complex control panel, their faces illuminated by the glow of screens, revealing tension and urgency. Shadows dance across their determined expressions as they race against time to solve the Apollo 11 guidance system malfunction, embodying the pressure of impending launch.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9855693231026331,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.348333333333333,
+      "timestamp_end": 19.826666666666664,
+      "audio_content": "against time, ultimately finding a workaround",
+      "image_prompt": "Medium shot of engineers in Mission Control, faces tense with concentration, illuminated by the glow of screens displaying complex data. Shadows cast dramatically across the room as they discuss urgent solutions, embodying the frantic energy of a race against time on the brink of history.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9712857653697332,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.826666666666664,
+      "timestamp_end": 22.304999999999996,
+      "audio_content": "saved the mission. Imagine if we never",
+      "image_prompt": "Medium shot of tense engineers huddled around a control panel, illuminated by the glow of computer screens. Their faces reflect anxiety and determination as they diagnose the Apollo 11 malfunction, shadows dancing across the room, capturing the high stakes of this historical moment.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.989450854914529,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 22.304999999999996,
+      "timestamp_end": 24.78333333333333,
+      "audio_content": "foot on the moon, this near catastrophe",
+      "image_prompt": "Medium shot of a tense control room filled with engineers, illuminated by flickering screens. Their faces, etched with worry, are cast in dramatic chiaroscuro lighting as they frantically discuss a critical malfunction, capturing the urgency and pressure of the Apollo 11 mission.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9015495606831142,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 24.78333333333333,
+      "timestamp_end": 27.261666666666663,
+      "audio_content": "the incredible pressure and precision",
+      "image_prompt": "Medium shot of tense engineers huddled around a control panel, their faces illuminated by flickering screens. Shadows dance dramatically across their expressions, capturing the pressure of the moment as they frantically diagnose Apollo 11’s guidance system malfunction, embodying the high stakes of space exploration.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9945785522460937,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 27.261666666666663,
+      "timestamp_end": 29.739999999999995,
+      "audio_content": "in space travel, a true nail -biter of",
+      "image_prompt": "Close-up of a tense engineer's face illuminated by the glow of monitors, beads of sweat on his forehead, eyes wide with anxiety as he solves a complex issue during Apollo 11's countdown. Dramatic chiaroscuro lighting casts sharp shadows, heightening the tension of the moment.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8672962660590808,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 29.739999999999995,
+    "whisper_model": "base"
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "story_title": "How a Simple Rubber Band Changed Everything",
+  "original_story": "[excited] You won't believe what one man invented in 1845! Stephen Perry patented the rubber band, a tiny circle that changed industries forever. Before this, packaging was a hassle! Businesses struggled to keep items together, wasting time and money. Now, with this simple tool, factories, offices, and even schools found a quicker way to organize. Today, 50 million rubber bands are sold each year! That’s one small invention with a massive impact. Who knew something so simple could create such efficiency? [pause:0.5s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.3783333333333334,
+      "audio_content": "You won't believe what one man invented in",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9506351612508297
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.3783333333333334,
+      "timestamp_end": 4.756666666666667,
+      "audio_content": "Stephen Perry",
+      "words_in_segment": 2,
+      "confidence_avg": 0.8012649118900299
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.756666666666667,
+      "timestamp_end": 7.135,
+      "audio_content": "the rubber band, a tiny circle that",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9790766154016767
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.135,
+      "timestamp_end": 9.513333333333334,
+      "audio_content": "industries forever. Before this,",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9909121543169022
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.513333333333334,
+      "timestamp_end": 11.891666666666667,
+      "audio_content": "was a hassle. Businesses struggled",
+      "words_in_segment": 5,
+      "confidence_avg": 0.991400945186615
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.891666666666667,
+      "timestamp_end": 14.27,
+      "audio_content": "keep items together, wasting time and",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9963825245698293
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.27,
+      "timestamp_end": 16.648333333333333,
+      "audio_content": "Now with this simple tool,",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9334084153175354
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.648333333333333,
+      "timestamp_end": 19.026666666666667,
+      "audio_content": "offices, and even schools found a",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9941918253898621
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.026666666666667,
+      "timestamp_end": 21.405,
+      "audio_content": "way to organize. Today, 50",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9829156517982482
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.405,
+      "timestamp_end": 23.783333333333335,
+      "audio_content": "rubber bands are sold each year. That's one",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9974812902510166
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.783333333333335,
+      "timestamp_end": 26.16166666666667,
+      "audio_content": "invention with a massive impact, who",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9911552766958872
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 26.16166666666667,
+      "timestamp_end": 28.54,
+      "audio_content": "something so simple could create such efficiency.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9924635801996503
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.3783333333333334,
+      "audio_content": "You won't believe what one man invented in",
+      "image_prompt": "Wide shot of a bustling 19th-century factory floor, workers hurriedly tying packages with rope, frustration evident on their faces, juxtaposed with a glowing rubber band in the foreground, symbolizing the revolutionary change about to unfold, dramatic chiaroscuro lighting enhancing the tension.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9506351612508297,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.3783333333333334,
+      "timestamp_end": 4.756666666666667,
+      "audio_content": "Stephen Perry",
+      "image_prompt": "Wide shot of a bustling 19th-century factory floor, workers organizing various items with rubber bands. Dramatic chiaroscuro lighting casts sharp shadows, highlighting the efficient atmosphere. In the background, machinery operates, showcasing the revolutionary impact of Stephen Perry's invention.",
+      "words_in_segment": 2,
+      "confidence_avg": 0.8012649118900299,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.756666666666667,
+      "timestamp_end": 7.135,
+      "audio_content": "the rubber band, a tiny circle that",
+      "image_prompt": "Wide shot of a bustling 19th-century factory, workers organizing products with rubber bands. Dim natural light filters through dusty windows, casting sharp shadows. The scene captures the transformation from chaos to order, emphasizing the revolutionary impact of the rubber band on industry.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9790766154016767,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.135,
+      "timestamp_end": 9.513333333333334,
+      "audio_content": "industries forever. Before this,",
+      "image_prompt": "Medium shot of a bustling 19th-century factory floor, workers efficiently using rubber bands to organize packages. Dramatic chiaroscuro lighting highlights their focused expressions and the dynamic motion of hands at work, emphasizing the revolutionary impact of this simple invention.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9909121543169022,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.513333333333334,
+      "timestamp_end": 11.891666666666667,
+      "audio_content": "was a hassle. Businesses struggled",
+      "image_prompt": "Medium shot of a bustling 19th-century factory, workers struggling to package items. The chaos of disorganized goods contrasts with a bright, focused image of a rubber band, symbolizing the upcoming revolution in efficiency. Dramatic chiaroscuro lighting highlights the tension in the scene.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.991400945186615,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.891666666666667,
+      "timestamp_end": 14.27,
+      "audio_content": "keep items together, wasting time and",
+      "image_prompt": "Medium shot of a bustling 1845 factory floor, workers efficiently organizing packages with rubber bands. Dramatic chiaroscuro lighting highlights their focused expressions, as sharp shadows create depth and emphasize the transformative impact of this simple invention on their workflow.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9963825245698293,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.27,
+      "timestamp_end": 16.648333333333333,
+      "audio_content": "Now with this simple tool,",
+      "image_prompt": "Medium shot of a Victorian inventor in a workshop, holding a rubber band with excitement. The dimly lit room is filled with tools and sketches, casting dramatic shadows on his focused face, highlighting the moment of invention that transformed industries.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9334084153175354,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.648333333333333,
+      "timestamp_end": 19.026666666666667,
+      "audio_content": "offices, and even schools found a",
+      "image_prompt": "Medium shot of a bustling 19th-century factory floor, workers efficiently organizing packages with rubber bands. Industrial machines loom in the background, while focused faces showcase determination and excitement. Dramatic chiaroscuro lighting highlights the contrast between shadows and the bright, active workspace.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9941918253898621,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.026666666666667,
+      "timestamp_end": 21.405,
+      "audio_content": "way to organize. Today, 50",
+      "image_prompt": "Medium shot of a 19th-century inventor, Stephen Perry, in a dimly lit workshop, surrounded by various rubber products. He holds a rubber band, a look of pride on his face, as shafts of light illuminate the innovative tools he's created, emphasizing the moment's significance.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9829156517982482,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.405,
+      "timestamp_end": 23.783333333333335,
+      "audio_content": "rubber bands are sold each year. That's one",
+      "image_prompt": "Medium shot of a Victorian workshop, showcasing an inventor at a cluttered desk, surrounded by early rubber products. The light casts sharp shadows, highlighting his focused expression as he meticulously shapes a rubber band, symbolizing the birth of an invention that would revolutionize organization.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9974812902510166,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.783333333333335,
+      "timestamp_end": 26.16166666666667,
+      "audio_content": "invention with a massive impact, who",
+      "image_prompt": "Medium shot of a 19th-century inventor, Stephen Perry, in a cluttered workshop, passionately demonstrating the rubber band. Dramatic chiaroscuro lighting highlights his expressive face as he shows the simplicity and efficiency of the invention, surrounded by boxes and packaging materials.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9911552766958872,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 26.16166666666667,
+      "timestamp_end": 28.54,
+      "audio_content": "something so simple could create such efficiency.",
+      "image_prompt": "Medium shot of a 19th-century inventor, Stephen Perry, in his workshop, surrounded by rubber bands and various packaging materials. A look of excitement on his face, with shadows casting dramatic lines across the room, highlighting the transformative power of his invention.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9924635801996503,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 28.54,
+    "whisper_model": "base"
+  }
+}

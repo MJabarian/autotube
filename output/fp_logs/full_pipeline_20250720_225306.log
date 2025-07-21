@@ -1,0 +1,356 @@
+2025-07-20 22:53:06,156 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-20 22:53:06,156 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250720_225306.log
+2025-07-20 22:53:06,157 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-20 22:53:06,157 - autotube.full_pipeline - INFO - ============================================================
+2025-07-20 22:53:06,158 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-20 22:53:06,159 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-20 22:53:09,008 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:11,568 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:11,975 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:12,007 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Day a Simple Mistake Saved a City  
+**Summary:** In 1906, a telegraph operator accidentally misrouted a message, which led to firefighters being deployed to the wrong location, ultimately preventing a devastating fire from spreading through San Francisco's densely packed neighborhoods.
+2025-07-20 22:53:12,007 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheDayaSimpleMistakeSavedaCitySummaryIn1906at_content_gen_2025-07-20_22-53-12.log
+2025-07-20 22:53:12,007 - autotube.content_gen - INFO - 📁 Sanitized folder name: HowaTelegraphersBlunderSavedSanFrancisco
+2025-07-20 22:53:12,009 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 80 words
+2025-07-20 22:53:12,025 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowaTelegraphersBlunderSavedSanFrancisco\story.json (1,103 bytes)
+2025-07-20 22:53:12,026 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowaTelegraphersBlunderSavedSanFrancisco\topic.txt (302 bytes)
+2025-07-20 22:53:12,028 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowaTelegraphersBlunderSavedSanFrancisco\metadata.json (610 bytes)
+2025-07-20 22:53:12,029 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowaTelegraphersBlunderSavedSanFrancisco\story.txt (1,023 bytes)
+2025-07-20 22:53:12,030 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowaTelegraphersBlunderSavedSanFrancisco
+2025-07-20 22:53:20,052 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowaTelegraphersBlunderSavedSanFrancisco\audio_HowaTelegraphersBlunderSavedSanFrancisco.mp3 (225,923 bytes)
+2025-07-20 22:53:20,164 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 28.21s duration
+2025-07-20 22:53:20,263 - src.utils.high_quality_audio_processor - INFO - 🎵 High-quality speed adjustment: 1.1x
+2025-07-20 22:53:20,264 - src.utils.high_quality_audio_processor - INFO - 📁 Input: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowaTelegraphersBlunderSavedSanFrancisco\audio_HowaTelegraphersBlunderSavedSanFrancisco.mp3
+2025-07-20 22:53:20,264 - src.utils.high_quality_audio_processor - INFO - 📁 Output: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowaTelegraphersBlunderSavedSanFrancisco\audio_HowaTelegraphersBlunderSavedSanFrancisco_sped_up.mp3
+2025-07-20 22:53:20,369 - src.utils.high_quality_audio_processor - INFO - 📊 Original duration: 28.186s
+2025-07-20 22:53:20,369 - src.utils.high_quality_audio_processor - INFO - 📊 Expected duration: 25.623s
+2025-07-20 22:53:20,370 - src.utils.high_quality_audio_processor - INFO - 🔧 Added 200ms fade-out
+2025-07-20 22:53:23,712 - src.utils.high_quality_audio_processor - INFO - ✅ High-quality librosa time stretching completed
+2025-07-20 22:53:23,715 - src.utils.high_quality_audio_processor - INFO - ✅ Used librosa high-quality time stretching (pitch preserved)
+2025-07-20 22:53:23,722 - src.utils.high_quality_audio_processor - INFO - ✅ Audio quality verified: 1.12 ratio (good)
+2025-07-20 22:53:23,723 - src.utils.high_quality_audio_processor - INFO - ✂️ Trimmed to exact duration: 25.623s
+2025-07-20 22:53:23,723 - src.utils.high_quality_audio_processor - INFO - ✅ Perfect duration match: 0.000s difference
+2025-07-20 22:53:24,002 - src.utils.high_quality_audio_processor - INFO - ✅ High-quality speed adjustment completed
+2025-07-20 22:53:24,002 - src.utils.high_quality_audio_processor - INFO - 📊 Output file size: 403,267 bytes (0.4 MB)
+2025-07-20 22:53:24,003 - src.utils.high_quality_audio_processor - INFO - ⏱️ Final duration: 25.623s
+2025-07-20 22:53:24,135 - autotube.content_gen - INFO - ✅ High-quality audio speed adjustment: 1.1x, new duration: 25.97s
+2025-07-20 22:53:24,137 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowaTelegraphersBlunderSavedSanFrancisco\audio_HowaTelegraphersBlunderSavedSanFrancisco_sped_up.mp3 (225,923 bytes, 25.97s)
+2025-07-20 22:53:24,138 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-20 22:53:24,138 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-20 22:53:24,139 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowaTelegraphersBlunderSavedSanFrancisco\audio_HowaTelegraphersBlunderSavedSanFrancisco_sped_up.mp3
+2025-07-20 22:53:24,139 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-20 22:53:25,236 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-20 22:53:25,372 - faster_whisper - INFO - Processing audio with duration 00:25.652
+2025-07-20 22:53:26,087 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-20 22:53:30,116 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 25.62s
+2025-07-20 22:53:30,117 - whisper_audio_synchronizer - INFO - 📝 Extracted 65 words with timestamps
+2025-07-20 22:53:30,118 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 25.62s, Image duration: 2.14s
+2025-07-20 22:53:30,118 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-20 22:53:30,119 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-20 22:53:32,358 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:32,363 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/medium_shot): Medium shot of a frantic telegraph operator in 190...
+2025-07-20 22:53:34,710 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:34,713 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of early 20th century San Francisco, sho...
+2025-07-20 22:53:36,450 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:36,454 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of a bustling early 20th-century San Fra...
+2025-07-20 22:53:38,230 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:38,233 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/medium_shot): Medium shot of a distressed telegraph operator in ...
+2025-07-20 22:53:40,138 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:40,141 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/wide_shot): Wide shot of a bustling early 20th-century San Fra...
+2025-07-20 22:53:41,868 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:41,871 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/wide_shot): Wide shot of San Francisco's packed neighborhoods ...
+2025-07-20 22:53:43,825 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:43,827 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of a bustling San Francisco fire stati...
+2025-07-20 22:53:45,738 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:45,741 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/medium_shot): Medium shot of a telegraph operator in a dimly lit...
+2025-07-20 22:53:47,509 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:47,514 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of a telegraph operator in a dimly lit...
+2025-07-20 22:53:49,334 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:49,336 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/wide_shot): Wide shot of San Francisco in 1906, showcasing a c...
+2025-07-20 22:53:51,203 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:51,205 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/medium_shot): Medium shot of a telegraph operator in a dimly lit...
+2025-07-20 22:53:53,413 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 22:53:53,416 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/wide_shot): Wide shot of a historic San Francisco street in 19...
+2025-07-20 22:53:53,419 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\How_a_Telegraphers_Blunder_Saved_San_Francisco_whisper_sync.json
+2025-07-20 22:53:53,421 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-20 22:53:53,422 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-20 22:53:53,424 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-20 22:53:53,425 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-20 22:53:53,438 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-114517.mp3 (2,688,313 bytes)
+2025-07-20 22:53:53,440 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\HowaTelegraphersBlunderSavedSanFrancisco\music_selection.json (321 bytes)
+2025-07-20 22:53:53,441 - autotube.content_gen - INFO - ✅ Music selected: cinematic-114517.mp3
+2025-07-20 22:53:53,445 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-20 22:53:53,447 - src.replicate_image_generator - INFO - Generating images for story: How a Telegrapher's Blunder Saved San Francisco
+2025-07-20 22:53:53,447 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-20 22:53:53,448 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-20 22:53:53,449 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-20 22:53:54,780 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 22:53:56,520 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 22:53:58,261 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 22:54:00,103 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 22:54:01,743 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 22:54:03,484 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 22:54:05,329 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 22:54:06,946 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 22:54:08,709 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 22:54:10,549 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 22:54:12,222 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 22:54:13,931 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 22:54:15,008 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-20 22:54:15,009 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-20 22:54:15,012 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-20 22:54:15,015 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-20 22:54:15,024 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-20 22:54:15,025 - autotube.content_gen - INFO - 📊 Total time: 68.86s, Cost: $0.0360
+2025-07-20 22:54:15,025 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Day a Simple Mistake Saved a City  
+**Summary:** In 1906, a telegraph operator accidentally misrouted a message, which led to firefighters being deployed to the wrong location, ultimately preventing a devastating fire from spreading through San Francisco's densely packed neighborhoods.
+2025-07-20 22:54:15,061 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (68.90s)
+2025-07-20 22:54:15,062 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-20 22:54:15,063 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-20 22:54:15,064 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: HowaTelegraphersBlunderSavedSanFrancisco
+2025-07-20 22:54:15,064 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: HowaTelegraphersBlunderSavedSanFrancisco
+2025-07-20 22:54:15,065 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowaTelegraphersBlunderSavedSanFrancisco\audio_HowaTelegraphersBlunderSavedSanFrancisco_sped_up.mp3
+2025-07-20 22:54:15,066 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\HowaTelegraphersBlunderSavedSanFrancisco\music_selection.json
+2025-07-20 22:54:15,080 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-114517.mp3
+2025-07-20 22:54:15,101 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-20 22:54:15,103 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowaTelegraphersBlunderSavedSanFrancisco\audio_HowaTelegraphersBlunderSavedSanFrancisco_sped_up.mp3
+2025-07-20 22:54:15,258 - src.audio_mixer - INFO - Loaded audio: 25652ms (25.652s), 44100Hz, 2 channels
+2025-07-20 22:54:15,259 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-114517.mp3
+2025-07-20 22:54:15,527 - src.audio_mixer - INFO - Loaded audio: 84010ms (84.010s), 44100Hz, 2 channels
+2025-07-20 22:54:15,527 - src.audio_mixer - INFO - Voice duration: 25652ms
+2025-07-20 22:54:15,527 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-20 22:54:15,529 - src.audio_mixer - INFO - Target duration: 25652ms
+2025-07-20 22:54:15,529 - src.audio_mixer - INFO - Trimmed music from 25652ms to 25652ms
+2025-07-20 22:54:15,530 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-20 22:54:15,547 - src.audio_mixer - INFO - Voice adjusted by 13.0dB, Music by -7.4dB
+2025-07-20 22:54:15,555 - src.audio_mixer - INFO - Added 500ms fade-out to prevent end artifacts
+2025-07-20 22:54:15,562 - src.audio_mixer - INFO - ✅ Perfect duration match: 25652ms
+2025-07-20 22:54:15,563 - src.audio_mixer - INFO - Audio mixing completed: 25652ms
+2025-07-20 22:54:15,961 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\HowaTelegraphersBlunderSavedSanFrancisco\mixed_audio_HowaTelegraphersBlunderSavedSanFrancisco.mp3
+2025-07-20 22:54:15,965 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\HowaTelegraphersBlunderSavedSanFrancisco\mixed_audio_HowaTelegraphersBlunderSavedSanFrancisco.mp3
+2025-07-20 22:54:15,966 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 679,198 bytes (0.6 MB)
+2025-07-20 22:54:15,967 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: HowaTelegraphersBlunderSavedSanFrancisco
+2025-07-20 22:54:16,125 - autotube.full_pipeline - INFO - 🎵 Mixed audio duration: 25.678 seconds
+2025-07-20 22:54:16,229 - autotube.full_pipeline - INFO - 🎵 TTS audio duration: 25.652 seconds
+2025-07-20 22:54:16,229 - autotube.full_pipeline - INFO - 🎯 Exact target duration: 25.652 seconds
+2025-07-20 22:54:16,814 - autotube.full_pipeline - INFO - 🔧 Trimmed audio duration: 25.652s
+2025-07-20 22:54:16,814 - autotube.full_pipeline - INFO - ✅ Perfect audio trimming: 25.652s
+2025-07-20 22:54:16,815 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-20 22:54:16,815 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-20 22:54:16,815 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: HowaTelegraphersBlunderSavedSanFrancisco
+2025-07-20 22:54:16,960 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-20 22:54:16,960 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-20 22:54:16,960 - autotube.full_pipeline - INFO - 🎵 Audio duration: 25.680s
+2025-07-20 22:54:16,961 - autotube.full_pipeline - INFO - 📸 Number of images: 12
+2025-07-20 22:54:16,961 - autotube.full_pipeline - INFO - ⏱️ Calculated image duration: 2.140s
+2025-07-20 22:54:16,962 - autotube.full_pipeline - INFO - 📐 Expected total video duration: 25.680s
+2025-07-20 22:54:16,962 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.14 seconds per image
+2025-07-20 22:54:16,963 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowaTelegraphersBlunderSavedSanFrancisco\HowaTelegraphersBlunderSavedSanFrancisco_kenburns.mp4
+2025-07-20 22:54:16,963 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['zoom_out', 'pan_right', 'pan_left', 'zoom_in', 'pan_left']...
+2025-07-20 22:54:16,964 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-20 22:54:16,964 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 22:54:16,986 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-20 22:54:16,986 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-20 22:54:17,000 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-20 22:54:17,001 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 22:54:17,018 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-20 22:54:17,019 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-20 22:54:17,054 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-20 22:54:17,054 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 22:54:17,090 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-20 22:54:17,091 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 22:54:17,127 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-20 22:54:17,128 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-20 22:54:17,166 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-20 22:54:17,166 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 22:54:17,207 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-20 22:54:17,208 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 22:54:17,243 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-20 22:54:17,244 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-20 22:54:17,281 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-20 22:54:17,281 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 22:54:17,323 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-20 22:54:17,323 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-20 22:54:17,368 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-20 22:54:17,430 - autotube.full_pipeline - INFO - 📐 Expected video duration: 25.680s
+2025-07-20 22:54:17,431 - autotube.full_pipeline - INFO - 📹 Actual video duration: 25.680s
+2025-07-20 22:54:17,432 - autotube.full_pipeline - INFO - ✅ Video duration matches expected: 25.680s
+2025-07-20 22:54:17,432 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-20 22:54:17,544 - autotube.full_pipeline - INFO - 📹 Video duration: 25.680s
+2025-07-20 22:54:17,545 - autotube.full_pipeline - INFO - 🎵 Audio duration: 25.680s
+2025-07-20 22:54:17,545 - autotube.full_pipeline - INFO - ✅ Perfect duration match: 25.680s
+2025-07-20 22:54:17,564 - autotube.full_pipeline - INFO - 🔧 Trimmed video to match audio: 25.680s → 25.680s
+2025-07-20 22:54:17,564 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 25.680s
+2025-07-20 22:54:17,565 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowaTelegraphersBlunderSavedSanFrancisco\HowaTelegraphersBlunderSavedSanFrancisco_kenburns.mp4
+2025-07-20 22:54:39,702 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-20 22:54:39,702 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-20 22:54:39,702 - autotube.full_pipeline - INFO - ✅ Video duration: 25.70 seconds
+2025-07-20 22:54:39,702 - autotube.full_pipeline - INFO - ✅ Video file size: 6.7 MB
+2025-07-20 22:54:39,704 - autotube.full_pipeline - WARNING - ⚠️  Resolution seems low for HD: 768x1344
+2025-07-20 22:54:39,704 - autotube.full_pipeline - INFO - 🎯 HD Quality: Acceptable file size
+2025-07-20 22:54:39,727 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowaTelegraphersBlunderSavedSanFrancisco\HowaTelegraphersBlunderSavedSanFrancisco_kenburns.mp4
+2025-07-20 22:54:39,728 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-20 22:54:39,729 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowaTelegraphersBlunderSavedSanFrancisco\HowaTelegraphersBlunderSavedSanFrancisco_kenburns.mp4
+2025-07-20 22:54:40,072 - autotube.full_pipeline - INFO - 📹 Ken Burns video duration: 25.700s
+2025-07-20 22:54:40,072 - autotube.full_pipeline - WARNING - ⚠️ Ken Burns video duration mismatch: 0.048s
+2025-07-20 22:54:40,073 - autotube.full_pipeline - INFO - ✂️ AGGRESSIVE TRIM: Ken Burns video 25.700s → 25.652s
+2025-07-20 22:54:49,684 - autotube.full_pipeline - INFO - ✅ Ken Burns video trimmed to exact duration: 25.652s
+2025-07-20 22:54:49,685 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-20 22:54:49,686 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-20 22:54:49,687 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-20 22:54:49,687 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-20 22:54:51,086 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-20 22:54:51,087 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-20 22:54:51,088 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-20 22:54:51,260 - faster_whisper - INFO - Processing audio with duration 00:25.678
+2025-07-20 22:54:53,943 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-20 22:55:00,403 - autotube.full_pipeline - INFO - Extracted 64 words with timing
+2025-07-20 22:55:00,403 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 9.32s
+2025-07-20 22:55:00,730 - autotube.full_pipeline - INFO - Video loading took 0.33s
+2025-07-20 22:55:00,731 - autotube.full_pipeline - INFO - Original video - Duration: 25.67s, FPS: 30.0, Audio: True
+2025-07-20 22:55:00,731 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 64 words...
+2025-07-20 22:55:00,732 - autotube.full_pipeline - INFO - Group 1: 3 words (18 chars), 0.00s - 0.86s
+2025-07-20 22:55:00,732 - autotube.full_pipeline - INFO - Group 2: 3 words (13 chars), 0.84s - 1.56s
+2025-07-20 22:55:00,732 - autotube.full_pipeline - INFO - Group 3: 3 words (18 chars), 1.54s - 2.78s
+2025-07-20 22:55:00,733 - autotube.full_pipeline - INFO - Group 4: 4 words (22 chars), 2.76s - 5.38s
+2025-07-20 22:55:00,733 - autotube.full_pipeline - INFO - Group 5: 3 words (32 chars), 5.36s - 7.02s
+2025-07-20 22:55:00,733 - autotube.full_pipeline - INFO - Group 6: 4 words (18 chars), 7.00s - 8.26s
+2025-07-20 22:55:00,733 - autotube.full_pipeline - INFO - Group 7: 4 words (24 chars), 8.24s - 9.50s
+2025-07-20 22:55:00,733 - autotube.full_pipeline - INFO - Group 8: 4 words (24 chars), 10.02s - 11.18s
+2025-07-20 22:55:00,734 - autotube.full_pipeline - INFO - Group 9: 3 words (26 chars), 11.16s - 12.58s
+2025-07-20 22:55:00,734 - autotube.full_pipeline - INFO - Group 10: 3 words (22 chars), 12.56s - 13.68s
+2025-07-20 22:55:00,734 - autotube.full_pipeline - INFO - Group 11: 3 words (31 chars), 14.26s - 15.96s
+2025-07-20 22:55:00,735 - autotube.full_pipeline - INFO - Group 12: 3 words (19 chars), 15.94s - 16.94s
+2025-07-20 22:55:00,735 - autotube.full_pipeline - INFO - Group 13: 3 words (15 chars), 16.92s - 18.02s
+2025-07-20 22:55:00,735 - autotube.full_pipeline - INFO - Group 14: 3 words (20 chars), 18.20s - 19.34s
+2025-07-20 22:55:00,735 - autotube.full_pipeline - INFO - Group 15: 4 words (21 chars), 19.32s - 20.62s
+2025-07-20 22:55:00,736 - autotube.full_pipeline - INFO - Group 16: 3 words (18 chars), 20.60s - 21.36s
+2025-07-20 22:55:00,736 - autotube.full_pipeline - INFO - Group 17: 3 words (21 chars), 21.34s - 22.70s
+2025-07-20 22:55:00,736 - autotube.full_pipeline - INFO - Group 18: 3 words (17 chars), 22.68s - 24.06s
+2025-07-20 22:55:00,736 - autotube.full_pipeline - INFO - Group 19: 4 words (18 chars), 24.04s - 25.00s
+2025-07-20 22:55:00,737 - autotube.full_pipeline - INFO - Group 20: 1 words (9 chars), 24.98s - 25.56s
+2025-07-20 22:55:00,737 - autotube.full_pipeline - INFO - Created 20 word groups with smart length limiting
+2025-07-20 22:55:00,737 - autotube.full_pipeline - INFO - Creating clips for group 1: 3 words
+2025-07-20 22:55:01,563 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.28s
+2025-07-20 22:55:02,379 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.24s - 0.56s
+2025-07-20 22:55:03,185 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.52s - 0.79s
+2025-07-20 22:55:03,185 - autotube.full_pipeline - INFO - Created clips for 1/20 word groups - ETA: 2s
+2025-07-20 22:55:03,186 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-20 22:55:03,824 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 0.84s - 1.16s
+2025-07-20 22:55:04,388 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 1.12s - 1.32s
+2025-07-20 22:55:04,996 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 1.28s - 1.49s
+2025-07-20 22:55:04,996 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-20 22:55:05,854 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 1.54s - 1.94s
+2025-07-20 22:55:06,732 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 1.90s - 2.52s
+2025-07-20 22:55:07,561 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 2.48s - 2.71s
+2025-07-20 22:55:07,562 - autotube.full_pipeline - INFO - Creating clips for group 4: 4 words
+2025-07-20 22:55:08,402 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 2.76s - 3.90s
+2025-07-20 22:55:09,270 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 3.86s - 4.02s
+2025-07-20 22:55:10,136 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 3.98s - 5.28s
+2025-07-20 22:55:11,066 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 4: 5.24s - 5.31s
+2025-07-20 22:55:11,066 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-20 22:55:12,571 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 5.36s - 5.92s
+2025-07-20 22:55:14,111 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 5.88s - 6.42s
+2025-07-20 22:55:15,596 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 6.38s - 6.95s
+2025-07-20 22:55:15,597 - autotube.full_pipeline - INFO - Creating clips for group 6: 4 words
+2025-07-20 22:55:16,390 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 7.00s - 7.48s
+2025-07-20 22:55:17,275 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 7.44s - 7.64s
+2025-07-20 22:55:18,068 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 7.60s - 7.98s
+2025-07-20 22:55:18,878 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 6: 7.94s - 8.19s
+2025-07-20 22:55:18,878 - autotube.full_pipeline - INFO - Creating clips for group 7: 4 words
+2025-07-20 22:55:19,984 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 8.24s - 8.40s
+2025-07-20 22:55:20,855 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 8.36s - 8.68s
+2025-07-20 22:55:21,945 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 8.64s - 9.00s
+2025-07-20 22:55:23,097 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 7: 8.96s - 9.80s
+2025-07-20 22:55:23,098 - autotube.full_pipeline - INFO - Creating clips for group 8: 4 words
+2025-07-20 22:55:24,217 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 10.02s - 10.36s
+2025-07-20 22:55:25,330 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 10.32s - 10.58s
+2025-07-20 22:55:26,445 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 10.54s - 10.94s
+2025-07-20 22:55:27,493 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 8: 10.90s - 11.11s
+2025-07-20 22:55:27,493 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-20 22:55:28,723 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 11.16s - 11.48s
+2025-07-20 22:55:29,945 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 11.44s - 12.48s
+2025-07-20 22:55:31,040 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 12.44s - 12.51s
+2025-07-20 22:55:31,041 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-20 22:55:32,063 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 12.56s - 13.00s
+2025-07-20 22:55:32,979 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 12.96s - 13.22s
+2025-07-20 22:55:33,889 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 13.18s - 13.98s
+2025-07-20 22:55:33,889 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-20 22:55:35,377 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 14.26s - 14.48s
+2025-07-20 22:55:36,848 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 14.44s - 15.44s
+2025-07-20 22:55:38,273 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 15.40s - 15.89s
+2025-07-20 22:55:38,273 - autotube.full_pipeline - INFO - Created clips for 11/20 word groups - ETA: 38s
+2025-07-20 22:55:38,273 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-20 22:55:39,064 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 15.94s - 16.30s
+2025-07-20 22:55:39,855 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 16.26s - 16.48s
+2025-07-20 22:55:40,656 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 16.44s - 16.87s
+2025-07-20 22:55:40,656 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-20 22:55:41,178 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 16.92s - 17.48s
+2025-07-20 22:55:41,674 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 17.44s - 17.68s
+2025-07-20 22:55:42,176 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 17.64s - 18.15s
+2025-07-20 22:55:42,176 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-20 22:55:43,026 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 18.20s - 18.54s
+2025-07-20 22:55:43,919 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 18.50s - 19.08s
+2025-07-20 22:55:44,762 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 19.04s - 19.27s
+2025-07-20 22:55:44,762 - autotube.full_pipeline - INFO - Creating clips for group 15: 4 words
+2025-07-20 22:55:45,525 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 19.32s - 19.44s
+2025-07-20 22:55:46,277 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 19.40s - 19.70s
+2025-07-20 22:55:46,999 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 19.66s - 20.10s
+2025-07-20 22:55:47,756 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 15: 20.06s - 20.55s
+2025-07-20 22:55:47,756 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-20 22:55:48,521 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 20.60s - 20.82s
+2025-07-20 22:55:49,259 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 20.78s - 21.00s
+2025-07-20 22:55:50,050 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 20.96s - 21.29s
+2025-07-20 22:55:50,050 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-20 22:55:50,999 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 21.34s - 22.02s
+2025-07-20 22:55:51,925 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 21.98s - 22.36s
+2025-07-20 22:55:52,830 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 22.32s - 22.63s
+2025-07-20 22:55:52,830 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-20 22:55:53,412 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 22.68s - 23.58s
+2025-07-20 22:55:54,025 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 23.54s - 23.78s
+2025-07-20 22:55:54,633 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 23.74s - 23.99s
+2025-07-20 22:55:54,633 - autotube.full_pipeline - INFO - Creating clips for group 19: 4 words
+2025-07-20 22:55:55,326 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 24.04s - 24.32s
+2025-07-20 22:55:55,992 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 24.28s - 24.54s
+2025-07-20 22:55:56,735 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 24.50s - 24.78s
+2025-07-20 22:55:57,420 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 19: 24.74s - 24.93s
+2025-07-20 22:55:57,421 - autotube.full_pipeline - INFO - Creating clips for group 20: 1 words
+2025-07-20 22:55:57,843 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 24.98s - 25.57s
+2025-07-20 22:55:57,844 - autotube.full_pipeline - INFO - Created 64 individual subtitle clips
+2025-07-20 22:55:57,845 - autotube.full_pipeline - INFO - Viral subtitle creation took 57.11s
+2025-07-20 22:55:57,845 - autotube.full_pipeline - INFO - Subtitle clips count: 64
+2025-07-20 22:55:57,860 - autotube.full_pipeline - INFO - Video composition took 0.01s
+2025-07-20 22:55:57,861 - autotube.full_pipeline - INFO - Original audio duration: 25.670s
+2025-07-20 22:55:57,861 - autotube.full_pipeline - INFO - Final video duration: 25.670s
+2025-07-20 22:55:57,861 - autotube.full_pipeline - INFO - Final audio duration: 25.670s
+2025-07-20 22:55:57,862 - autotube.full_pipeline - INFO - Final video - Duration: 25.67s, Audio: True
+2025-07-20 22:55:57,862 - autotube.full_pipeline - INFO - Writing HD viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\HowaTelegraphersBlunderSavedSanFrancisco\HowaTelegraphersBlunderSavedSanFrancisco_final.mp4
+2025-07-20 22:56:19,996 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowaTelegraphersBlunderSavedSanFrancisco\HowaTelegraphersBlunderSavedSanFrancisco_kenburns.mp4, 3096576 bytes wanted but 0 bytes read,at frame 770/771, at time 25.67/25.67 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-07-20 22:56:22,404 - autotube.full_pipeline - INFO - Video writing took 24.54s
+2025-07-20 22:56:22,405 - autotube.full_pipeline - INFO - Validating output file with duration verification...
+2025-07-20 22:56:22,718 - autotube.full_pipeline - INFO - Output file - Video Duration: 25.700s, Audio Duration: 25.700s
+2025-07-20 22:56:22,720 - autotube.full_pipeline - INFO - ✅ Perfect audio duration match: 25.700s
+2025-07-20 22:56:22,720 - autotube.full_pipeline - INFO - ✅ Perfect video duration match: 25.700s
+2025-07-20 22:56:22,741 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\HowaTelegraphersBlunderSavedSanFrancisco\HowaTelegraphersBlunderSavedSanFrancisco_final.mp4
+2025-07-20 22:56:22,741 - autotube.full_pipeline - INFO - Total processing time: 91.65s
+2025-07-20 22:56:22,742 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\HowaTelegraphersBlunderSavedSanFrancisco\HowaTelegraphersBlunderSavedSanFrancisco_final.mp4
+2025-07-20 22:56:22,742 - autotube.full_pipeline - INFO - 📊 Final video size: 6,489,340 bytes (6.2 MB)
+2025-07-20 22:56:23,066 - autotube.full_pipeline - INFO - 📹 Final video duration: 25.700s
+2025-07-20 22:56:23,066 - autotube.full_pipeline - WARNING - ⚠️ FINAL VIDEO DURATION MISMATCH: 0.048s
+2025-07-20 22:56:23,066 - autotube.full_pipeline - INFO - ✂️ AGGRESSIVE FINAL TRIM: Final video 25.700s → 25.652s
+2025-07-20 22:56:33,069 - autotube.full_pipeline - INFO - ✅ Final video trimmed to exact duration: 25.652s
+2025-07-20 22:56:33,070 - autotube.full_pipeline - INFO - ✅ No repetitive ending issues expected!
+2025-07-20 22:56:33,070 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-20 22:56:33,070 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowaTelegraphersBlunderSavedSanFrancisco\HowaTelegraphersBlunderSavedSanFrancisco_kenburns.mp4
+2025-07-20 22:56:33,071 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\HowaTelegraphersBlunderSavedSanFrancisco\HowaTelegraphersBlunderSavedSanFrancisco_final.mp4
+2025-07-20 22:56:33,110 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (138.05s)
+2025-07-20 22:56:33,111 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-20 22:56:33,115 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_HowaTelegraphersBlunderSavedSanFrancisco_20250720_225633.json
+2025-07-20 22:56:33,115 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-20 22:56:33,116 - autotube.full_pipeline - INFO - ============================================================
+2025-07-20 22:56:33,116 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 206.96s
+2025-07-20 22:56:33,116 - autotube.full_pipeline - INFO - 📁 Story Title: HowaTelegraphersBlunderSavedSanFrancisco
+2025-07-20 22:56:33,117 - autotube.full_pipeline - INFO - 📁 Sanitized Title: HowaTelegraphersBlunderSavedSanFrancisco
+2025-07-20 22:56:33,117 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_HowaTelegraphersBlunderSavedSanFrancisco_20250720_225633.json

@@ -1,0 +1,480 @@
+2025-07-18 16:27:14,657 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-18 16:27:14,658 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory\output\fp_logs\full_pipeline_20250718_162714.log
+2025-07-18 16:27:14,658 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-18 16:27:14,658 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 16:27:14,659 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 16:27:14,660 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 16:27:16,509 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:27:22,570 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:27:22,873 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:27:22,890 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The CIA's Involvement in the 1960s Counterculture Movement  
+**Summary:** Investigative reports suggest that the CIA may have covertly supported and influenced the rise of the counterculture movement and psychedelic drug use to study social control and manipulation techniques.
+2025-07-18 16:27:22,890 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory\output\content_gen_logs\TitleTheCIAsInvolvementinthe1960sCountercultureMov_content_gen_2025-07-18_16-27-22.log
+2025-07-18 16:27:22,891 - autotube.content_gen - INFO - 📁 Sanitized folder name: CIAsSecretRoleinthe1960sCountercultureUncovered
+2025-07-18 16:27:22,891 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 152 words
+2025-07-18 16:27:22,894 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\CIAsSecretRoleinthe1960sCountercultureUncovered\story.json (1,776 bytes)
+2025-07-18 16:27:22,895 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\CIAsSecretRoleinthe1960sCountercultureUncovered\topic.txt (289 bytes)
+2025-07-18 16:27:22,896 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\CIAsSecretRoleinthe1960sCountercultureUncovered\metadata.json (756 bytes)
+2025-07-18 16:27:22,897 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\CIAsSecretRoleinthe1960sCountercultureUncovered\story.txt (1,669 bytes)
+2025-07-18 16:27:22,897 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory\output\stories\CIAsSecretRoleinthe1960sCountercultureUncovered
+2025-07-18 16:27:35,963 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory\output\audio\CIAsSecretRoleinthe1960sCountercultureUncovered\audio_CIAsSecretRoleinthe1960sCountercultureUncovered.mp3 (943,378 bytes)
+2025-07-18 16:27:36,071 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 58.96s duration
+2025-07-18 16:27:36,169 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory\output\audio\CIAsSecretRoleinthe1960sCountercultureUncovered\audio_CIAsSecretRoleinthe1960sCountercultureUncovered.mp3 (943,378 bytes, 58.96s)
+2025-07-18 16:27:36,170 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-18 16:27:36,171 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-18 16:27:36,171 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory\output\audio\CIAsSecretRoleinthe1960sCountercultureUncovered\audio_CIAsSecretRoleinthe1960sCountercultureUncovered.mp3
+2025-07-18 16:27:36,172 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-18 16:27:37,174 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-18 16:27:37,348 - faster_whisper - INFO - Processing audio with duration 00:58.958
+2025-07-18 16:27:38,209 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 16:27:46,855 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 58.54s
+2025-07-18 16:27:46,856 - whisper_audio_synchronizer - INFO - 📝 Extracted 148 words with timestamps
+2025-07-18 16:27:46,857 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 58.54s, Image duration: 2.93s
+2025-07-18 16:27:46,858 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 20 images
+2025-07-18 16:27:46,859 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-18 16:27:49,719 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:27:49,762 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): Establishing shot of a bustling 1960s music festiv...
+2025-07-18 16:27:51,651 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:27:51,653 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of a vibrant 1960s music festival, crowd...
+2025-07-18 16:27:53,552 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:27:53,554 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of a dimly lit 1960s psychedelic festiva...
+2025-07-18 16:27:55,453 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:27:55,454 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/wide_shot): Wide shot of a vibrant 1960s music festival, with ...
+2025-07-18 16:27:57,227 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:27:57,228 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/medium_shot): Medium shot of a dimly lit 1960s room, Timothy Lea...
+2025-07-18 16:27:59,271 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:27:59,309 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/medium_shot): Medium shot of a dimly lit laboratory filled with ...
+2025-07-18 16:28:01,889 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:28:01,890 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/wide_shot): Wide shot of a vibrant 1960s music festival, with ...
+2025-07-18 16:28:03,953 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:28:03,954 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/medium_shot): Medium shot of Timothy Leary passionately addressi...
+2025-07-18 16:28:06,605 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:28:06,606 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/wide_shot): Wide shot of a vibrant 1960s music festival, color...
+2025-07-18 16:28:08,591 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:28:08,592 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/wide_shot): Wide shot of a vibrant music festival scene at Woo...
+2025-07-18 16:28:10,654 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:28:10,656 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/wide_shot): Wide shot of a vibrant 1960s music festival, crowd...
+2025-07-18 16:28:12,932 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:28:12,934 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/wide_shot): Wide shot of a crowded music festival in 1969, vib...
+2025-07-18 16:28:14,942 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:28:14,955 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 13 (exposition_setup/wide_shot): Wide shot of a vibrant 1960s music festival, with ...
+2025-07-18 16:28:17,414 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:28:17,424 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 14 (exposition_setup/wide_shot): Wide shot of a vibrant 1960s music festival, with ...
+2025-07-18 16:28:20,236 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:28:20,237 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 15 (exposition_setup/wide_shot): Wide shot of a crowded music festival scene in the...
+2025-07-18 16:28:22,491 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:28:22,492 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 16 (exposition_setup/wide_shot): Wide shot of a vibrant 1960s music festival, with ...
+2025-07-18 16:28:24,568 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:28:24,613 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 17 (exposition_setup/wide_shot): Wide shot of a vibrant 1960s music festival, crowd...
+2025-07-18 16:28:26,700 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:28:26,702 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 18 (exposition_setup/medium_shot): Medium shot of a dimly lit room filled with vintag...
+2025-07-18 16:28:28,712 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:28:28,713 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 19 (exposition_setup/wide_shot): Wide shot of a vibrant 1960s music festival, crowd...
+2025-07-18 16:28:31,171 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:28:31,174 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 20 (exposition_setup/wide_shot): Wide shot of a vibrant 1960s music festival, crowd...
+2025-07-18 16:28:31,177 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory\output\audio_sync_data\CIAs_Secret_Role_in_the_1960s_Counterculture_Uncovered_whisper_sync.json
+2025-07-18 16:28:31,177 - whisper_audio_synchronizer - INFO - ✅ Generated 20 story-driven synchronized image prompts with enhanced diversity
+2025-07-18 16:28:31,178 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-18 16:28:31,179 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 20 synchronized segments
+2025-07-18 16:28:31,179 - autotube.content_gen - INFO - ✅ Whisper sync completed: 20 prompts
+2025-07-18 16:28:31,186 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory\data\music\Mystery\suspenseful-moods-cinematic-213s-11494.mp3 (4,269,035 bytes)
+2025-07-18 16:28:31,188 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory\output\music_selections\CIAsSecretRoleinthe1960sCountercultureUncovered\music_selection.json (357 bytes)
+2025-07-18 16:28:31,188 - autotube.content_gen - INFO - ✅ Music selected: suspenseful-moods-cinematic-213s-11494.mp3
+2025-07-18 16:28:31,189 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-18 16:28:31,190 - src.replicate_image_generator - INFO - Generating images for story: CIA's Secret Role in the 1960s Counterculture Uncovered
+2025-07-18 16:28:31,190 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-18 16:28:31,190 - src.replicate_image_generator - INFO - Generating 20 images with mvp_testing quality
+2025-07-18 16:28:31,190 - src.replicate_image_generator - INFO - Estimated cost: $0.060
+2025-07-18 16:28:32,351 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:34,166 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:35,833 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:37,410 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:38,974 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:40,500 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:42,197 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:43,715 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:45,371 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:47,026 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:48,630 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:50,300 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:51,825 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:53,470 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:55,334 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:57,241 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:28:58,792 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:29:00,538 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:29:02,202 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:29:03,792 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:29:04,777 - src.replicate_image_generator - INFO - Generation complete: 20/20 successful
+2025-07-18 16:29:04,777 - src.replicate_image_generator - INFO - Total cost: $0.060 (avg: $0.0030/image)
+2025-07-18 16:29:04,779 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 20/20 images generated
+2025-07-18 16:29:04,780 - autotube.content_gen - INFO - ✅ Image generation: 20/20 images, cost: $0.0600
+2025-07-18 16:29:04,782 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-18 16:29:04,782 - autotube.content_gen - INFO - 📊 Total time: 110.12s, Cost: $0.0600
+2025-07-18 16:29:04,783 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The CIA's Involvement in the 1960s Counterculture Movement  
+**Summary:** Investigative reports suggest that the CIA may have covertly supported and influenced the rise of the counterculture movement and psychedelic drug use to study social control and manipulation techniques.
+2025-07-18 16:29:04,804 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (110.14s)
+2025-07-18 16:29:04,805 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 16:29:04,805 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 16:29:04,806 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: CIAsSecretRoleinthe1960sCountercultureUncovered
+2025-07-18 16:29:04,806 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: CIAsSecretRoleinthe1960sCountercultureUncovered
+2025-07-18 16:29:04,806 - autotube.full_pipeline - INFO - ✅ Found source TTS audio: C:\autotube\ThroughTheLensofHistory\output\audio\CIAsSecretRoleinthe1960sCountercultureUncovered\audio_CIAsSecretRoleinthe1960sCountercultureUncovered.mp3
+2025-07-18 16:29:04,808 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory\output\music_selections\CIAsSecretRoleinthe1960sCountercultureUncovered\music_selection.json
+2025-07-18 16:29:04,816 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory\data\music\Mystery\suspenseful-moods-cinematic-213s-11494.mp3
+2025-07-18 16:29:04,854 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-18 16:29:04,854 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory\output\audio\CIAsSecretRoleinthe1960sCountercultureUncovered\audio_CIAsSecretRoleinthe1960sCountercultureUncovered.mp3
+2025-07-18 16:29:04,974 - src.audio_mixer - INFO - Loaded audio: 58958ms, 44100Hz, 2 channels
+2025-07-18 16:29:04,974 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory\data\music\Mystery\suspenseful-moods-cinematic-213s-11494.mp3
+2025-07-18 16:29:05,315 - src.audio_mixer - INFO - Loaded audio: 133407ms, 44100Hz, 2 channels
+2025-07-18 16:29:05,316 - src.audio_mixer - INFO - Mixing audio (simple, mobile-optimized)...
+2025-07-18 16:29:05,318 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-18 16:29:05,400 - src.audio_mixer - INFO - Voice adjusted by 8.8dB, Music by -10.1dB
+2025-07-18 16:29:05,474 - src.audio_mixer - INFO - Audio mixing completed: 58958ms
+2025-07-18 16:29:06,408 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory\output\mixed_audio\CIAsSecretRoleinthe1960sCountercultureUncovered\mixed_audio_CIAsSecretRoleinthe1960sCountercultureUncovered.mp3
+2025-07-18 16:29:06,413 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory\output\mixed_audio\CIAsSecretRoleinthe1960sCountercultureUncovered\mixed_audio_CIAsSecretRoleinthe1960sCountercultureUncovered.mp3
+2025-07-18 16:29:06,414 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 1,942,683 bytes (1.9 MB)
+2025-07-18 16:29:06,414 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: CIAsSecretRoleinthe1960sCountercultureUncovered
+2025-07-18 16:29:06,415 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-18 16:29:06,415 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-18 16:29:06,416 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: CIAsSecretRoleinthe1960sCountercultureUncovered
+2025-07-18 16:29:06,583 - autotube.full_pipeline - INFO - 📸 Loaded 20 images for video
+2025-07-18 16:29:06,583 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-18 16:29:06,584 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.95 seconds per image
+2025-07-18 16:29:06,584 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory\output\videos\CIAsSecretRoleinthe1960sCountercultureUncovered_kenburns.mp4
+2025-07-18 16:29:06,584 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['zoom_in', 'zoom_out', 'zoom_in', 'pan_left', 'zoom_in']...
+2025-07-18 16:29:06,584 - autotube.full_pipeline - INFO - 📸 Processing image 1/20: image_01.jpg
+2025-07-18 16:29:06,585 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 16:29:06,610 - autotube.full_pipeline - INFO - 📸 Processing image 2/20: image_02.jpg
+2025-07-18 16:29:06,610 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 16:29:06,640 - autotube.full_pipeline - INFO - 📸 Processing image 3/20: image_03.jpg
+2025-07-18 16:29:06,641 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 16:29:06,666 - autotube.full_pipeline - INFO - 📸 Processing image 4/20: image_04.jpg
+2025-07-18 16:29:06,667 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 16:29:06,704 - autotube.full_pipeline - INFO - 📸 Processing image 5/20: image_05.jpg
+2025-07-18 16:29:06,704 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 16:29:06,740 - autotube.full_pipeline - INFO - 📸 Processing image 6/20: image_06.jpg
+2025-07-18 16:29:06,741 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 16:29:06,778 - autotube.full_pipeline - INFO - 📸 Processing image 7/20: image_07.jpg
+2025-07-18 16:29:06,778 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 16:29:06,812 - autotube.full_pipeline - INFO - 📸 Processing image 8/20: image_08.jpg
+2025-07-18 16:29:06,812 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 16:29:06,852 - autotube.full_pipeline - INFO - 📸 Processing image 9/20: image_09.jpg
+2025-07-18 16:29:06,853 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 16:29:06,890 - autotube.full_pipeline - INFO - 📸 Processing image 10/20: image_10.jpg
+2025-07-18 16:29:06,890 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 16:29:06,930 - autotube.full_pipeline - INFO - 📸 Processing image 11/20: image_11.jpg
+2025-07-18 16:29:06,930 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 16:29:06,968 - autotube.full_pipeline - INFO - 📸 Processing image 12/20: image_12.jpg
+2025-07-18 16:29:06,969 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 16:29:07,003 - autotube.full_pipeline - INFO - 📸 Processing image 13/20: image_13.jpg
+2025-07-18 16:29:07,004 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 16:29:07,041 - autotube.full_pipeline - INFO - 📸 Processing image 14/20: image_14.jpg
+2025-07-18 16:29:07,042 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 16:29:07,079 - autotube.full_pipeline - INFO - 📸 Processing image 15/20: image_15.jpg
+2025-07-18 16:29:07,080 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 16:29:07,122 - autotube.full_pipeline - INFO - 📸 Processing image 16/20: image_16.jpg
+2025-07-18 16:29:07,123 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 16:29:07,164 - autotube.full_pipeline - INFO - 📸 Processing image 17/20: image_17.jpg
+2025-07-18 16:29:07,164 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 16:29:07,198 - autotube.full_pipeline - INFO - 📸 Processing image 18/20: image_18.jpg
+2025-07-18 16:29:07,198 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 16:29:07,232 - autotube.full_pipeline - INFO - 📸 Processing image 19/20: image_19.jpg
+2025-07-18 16:29:07,233 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 16:29:07,264 - autotube.full_pipeline - INFO - 📸 Processing image 20/20: image_20.jpg
+2025-07-18 16:29:07,264 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 16:29:07,297 - autotube.full_pipeline - INFO - 🔗 Concatenating 20 clips...
+2025-07-18 16:29:07,365 - autotube.full_pipeline - INFO - 🎵 Adding audio to video...
+2025-07-18 16:29:07,457 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory\output\videos\CIAsSecretRoleinthe1960sCountercultureUncovered_kenburns.mp4
+2025-07-18 16:30:44,406 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-18 16:30:44,407 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-18 16:30:44,407 - autotube.full_pipeline - INFO - ✅ Video duration: 59.00 seconds
+2025-07-18 16:30:44,408 - autotube.full_pipeline - INFO - ✅ Video file size: 15.0 MB
+2025-07-18 16:30:44,408 - autotube.full_pipeline - INFO - 🎯 HD Quality: Excellent file size indicates high quality
+2025-07-18 16:30:44,433 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory\output\videos\CIAsSecretRoleinthe1960sCountercultureUncovered_kenburns.mp4
+2025-07-18 16:30:44,433 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-18 16:30:44,434 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory\output\videos\CIAsSecretRoleinthe1960sCountercultureUncovered_kenburns.mp4
+2025-07-18 16:30:44,434 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-18 16:30:44,435 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-18 16:30:44,435 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-18 16:30:44,436 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-18 16:30:46,057 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-18 16:30:46,059 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-18 16:30:46,060 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-18 16:30:46,360 - faster_whisper - INFO - Processing audio with duration 00:58.958
+2025-07-18 16:30:49,792 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 16:31:16,915 - autotube.full_pipeline - INFO - Extracted 148 words with timing
+2025-07-18 16:31:16,916 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 30.86s
+2025-07-18 16:31:17,337 - autotube.full_pipeline - INFO - Video loading took 0.42s
+2025-07-18 16:31:17,337 - autotube.full_pipeline - INFO - Original video - Duration: 59.00s, FPS: 30.0, Audio: True
+2025-07-18 16:31:17,337 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 148 words...
+2025-07-18 16:31:17,338 - autotube.full_pipeline - INFO - Group 1: 4 words (19 chars), 0.00s - 1.54s
+2025-07-18 16:31:17,338 - autotube.full_pipeline - INFO - Group 2: 4 words (18 chars), 1.52s - 2.60s
+2025-07-18 16:31:17,338 - autotube.full_pipeline - INFO - Group 3: 3 words (18 chars), 2.58s - 3.28s
+2025-07-18 16:31:17,338 - autotube.full_pipeline - INFO - Group 4: 3 words (28 chars), 3.26s - 4.66s
+2025-07-18 16:31:17,339 - autotube.full_pipeline - INFO - Group 5: 4 words (23 chars), 4.64s - 5.94s
+2025-07-18 16:31:17,339 - autotube.full_pipeline - INFO - Group 6: 3 words (25 chars), 5.92s - 7.30s
+2025-07-18 16:31:17,339 - autotube.full_pipeline - INFO - Group 7: 3 words (16 chars), 7.28s - 9.02s
+2025-07-18 16:31:17,340 - autotube.full_pipeline - INFO - Group 8: 3 words (18 chars), 9.00s - 10.08s
+2025-07-18 16:31:17,340 - autotube.full_pipeline - INFO - Group 9: 3 words (17 chars), 10.06s - 11.08s
+2025-07-18 16:31:17,340 - autotube.full_pipeline - INFO - Group 10: 3 words (25 chars), 11.06s - 12.42s
+2025-07-18 16:31:17,340 - autotube.full_pipeline - INFO - Group 11: 4 words (21 chars), 12.40s - 13.92s
+2025-07-18 16:31:17,340 - autotube.full_pipeline - INFO - Group 12: 3 words (13 chars), 13.90s - 14.78s
+2025-07-18 16:31:17,340 - autotube.full_pipeline - INFO - Group 13: 3 words (30 chars), 14.76s - 16.40s
+2025-07-18 16:31:17,341 - autotube.full_pipeline - INFO - Group 14: 3 words (12 chars), 16.38s - 17.14s
+2025-07-18 16:31:17,341 - autotube.full_pipeline - INFO - Group 15: 3 words (22 chars), 17.12s - 18.32s
+2025-07-18 16:31:17,341 - autotube.full_pipeline - INFO - Group 16: 3 words (21 chars), 18.64s - 19.62s
+2025-07-18 16:31:17,342 - autotube.full_pipeline - INFO - Group 17: 3 words (23 chars), 19.88s - 20.88s
+2025-07-18 16:31:17,342 - autotube.full_pipeline - INFO - Group 18: 3 words (25 chars), 20.86s - 22.06s
+2025-07-18 16:31:17,342 - autotube.full_pipeline - INFO - Group 19: 3 words (19 chars), 22.38s - 23.22s
+2025-07-18 16:31:17,342 - autotube.full_pipeline - INFO - Group 20: 4 words (18 chars), 23.58s - 24.64s
+2025-07-18 16:31:17,343 - autotube.full_pipeline - INFO - Group 21: 3 words (13 chars), 24.94s - 26.42s
+2025-07-18 16:31:17,343 - autotube.full_pipeline - INFO - Group 22: 3 words (22 chars), 26.40s - 27.28s
+2025-07-18 16:31:17,343 - autotube.full_pipeline - INFO - Group 23: 4 words (25 chars), 27.26s - 28.60s
+2025-07-18 16:31:17,344 - autotube.full_pipeline - INFO - Group 24: 4 words (24 chars), 28.58s - 30.54s
+2025-07-18 16:31:17,344 - autotube.full_pipeline - INFO - Group 25: 3 words (21 chars), 31.02s - 32.02s
+2025-07-18 16:31:17,344 - autotube.full_pipeline - INFO - Group 26: 3 words (12 chars), 32.00s - 32.78s
+2025-07-18 16:31:17,345 - autotube.full_pipeline - INFO - Group 27: 3 words (32 chars), 32.76s - 34.68s
+2025-07-18 16:31:17,345 - autotube.full_pipeline - INFO - Group 28: 3 words (21 chars), 34.66s - 35.82s
+2025-07-18 16:31:17,345 - autotube.full_pipeline - INFO - Group 29: 3 words (15 chars), 35.80s - 37.34s
+2025-07-18 16:31:17,345 - autotube.full_pipeline - INFO - Group 30: 3 words (23 chars), 37.32s - 38.64s
+2025-07-18 16:31:17,346 - autotube.full_pipeline - INFO - Group 31: 3 words (30 chars), 38.96s - 40.32s
+2025-07-18 16:31:17,346 - autotube.full_pipeline - INFO - Group 32: 3 words (19 chars), 40.70s - 41.48s
+2025-07-18 16:31:17,346 - autotube.full_pipeline - INFO - Group 33: 3 words (25 chars), 41.46s - 42.66s
+2025-07-18 16:31:17,346 - autotube.full_pipeline - INFO - Group 34: 3 words (25 chars), 43.10s - 44.40s
+2025-07-18 16:31:17,347 - autotube.full_pipeline - INFO - Group 35: 3 words (18 chars), 44.38s - 45.28s
+2025-07-18 16:31:17,347 - autotube.full_pipeline - INFO - Group 36: 3 words (22 chars), 45.26s - 46.34s
+2025-07-18 16:31:17,347 - autotube.full_pipeline - INFO - Group 37: 3 words (21 chars), 46.32s - 48.60s
+2025-07-18 16:31:17,347 - autotube.full_pipeline - INFO - Group 38: 3 words (31 chars), 48.58s - 50.12s
+2025-07-18 16:31:17,348 - autotube.full_pipeline - INFO - Group 39: 3 words (12 chars), 50.10s - 50.98s
+2025-07-18 16:31:17,348 - autotube.full_pipeline - INFO - Group 40: 4 words (19 chars), 50.96s - 51.92s
+2025-07-18 16:31:17,348 - autotube.full_pipeline - INFO - Group 41: 4 words (21 chars), 51.90s - 52.94s
+2025-07-18 16:31:17,349 - autotube.full_pipeline - INFO - Group 42: 3 words (17 chars), 52.92s - 54.26s
+2025-07-18 16:31:17,349 - autotube.full_pipeline - INFO - Group 43: 4 words (23 chars), 54.24s - 55.22s
+2025-07-18 16:31:17,349 - autotube.full_pipeline - INFO - Group 44: 3 words (19 chars), 55.58s - 56.22s
+2025-07-18 16:31:17,350 - autotube.full_pipeline - INFO - Group 45: 3 words (16 chars), 56.20s - 57.34s
+2025-07-18 16:31:17,350 - autotube.full_pipeline - INFO - Group 46: 3 words (26 chars), 57.32s - 58.52s
+2025-07-18 16:31:17,350 - autotube.full_pipeline - INFO - Created 46 word groups with smart length limiting
+2025-07-18 16:31:17,350 - autotube.full_pipeline - INFO - Creating clips for group 1: 4 words
+2025-07-18 16:31:18,506 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.20s
+2025-07-18 16:31:19,451 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.16s - 0.28s
+2025-07-18 16:31:20,462 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.24s - 1.38s
+2025-07-18 16:31:21,966 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 1: 1.34s - 1.47s
+2025-07-18 16:31:21,966 - autotube.full_pipeline - INFO - Created clips for 1/46 word groups - ETA: 5s
+2025-07-18 16:31:21,967 - autotube.full_pipeline - INFO - Creating clips for group 2: 4 words
+2025-07-18 16:31:23,462 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 1.52s - 1.64s
+2025-07-18 16:31:24,788 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 1.60s - 1.78s
+2025-07-18 16:31:26,031 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 1.74s - 2.12s
+2025-07-18 16:31:27,157 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 2: 2.08s - 2.53s
+2025-07-18 16:31:27,158 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-18 16:31:28,363 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 2.58s - 2.80s
+2025-07-18 16:31:29,749 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 2.76s - 3.10s
+2025-07-18 16:31:31,057 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 3.06s - 3.21s
+2025-07-18 16:31:31,057 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-18 16:31:33,237 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 3.26s - 3.86s
+2025-07-18 16:31:35,330 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 3.82s - 4.24s
+2025-07-18 16:31:37,342 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 4.20s - 4.59s
+2025-07-18 16:31:37,342 - autotube.full_pipeline - INFO - Creating clips for group 5: 4 words
+2025-07-18 16:31:38,717 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 4.64s - 5.02s
+2025-07-18 16:31:39,908 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 4.98s - 5.56s
+2025-07-18 16:31:41,113 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 5.52s - 5.68s
+2025-07-18 16:31:42,783 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 5: 5.64s - 5.87s
+2025-07-18 16:31:42,783 - autotube.full_pipeline - INFO - Creating clips for group 6: 3 words
+2025-07-18 16:31:44,887 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 5.92s - 6.32s
+2025-07-18 16:31:46,373 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 6.28s - 6.88s
+2025-07-18 16:31:47,582 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 6.84s - 7.23s
+2025-07-18 16:31:47,582 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-18 16:31:48,191 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 7.28s - 7.62s
+2025-07-18 16:31:48,922 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 7.58s - 8.86s
+2025-07-18 16:31:49,469 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 8.82s - 8.95s
+2025-07-18 16:31:49,470 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-18 16:31:50,133 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 9.00s - 9.22s
+2025-07-18 16:31:50,847 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 9.18s - 9.78s
+2025-07-18 16:31:51,520 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 9.74s - 10.01s
+2025-07-18 16:31:51,521 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-18 16:31:52,171 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 10.06s - 10.48s
+2025-07-18 16:31:52,797 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 10.44s - 10.84s
+2025-07-18 16:31:53,416 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 10.80s - 11.01s
+2025-07-18 16:31:53,417 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-18 16:31:54,570 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 11.06s - 11.90s
+2025-07-18 16:31:55,963 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 11.86s - 12.06s
+2025-07-18 16:31:57,162 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 12.02s - 12.35s
+2025-07-18 16:31:57,162 - autotube.full_pipeline - INFO - Creating clips for group 11: 4 words
+2025-07-18 16:31:57,884 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 12.40s - 12.88s
+2025-07-18 16:31:58,560 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 12.84s - 13.16s
+2025-07-18 16:31:59,239 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 13.12s - 13.82s
+2025-07-18 16:31:59,923 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 11: 13.78s - 13.85s
+2025-07-18 16:31:59,924 - autotube.full_pipeline - INFO - Created clips for 11/46 word groups - ETA: 43s
+2025-07-18 16:31:59,924 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-18 16:32:00,387 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 13.90s - 14.32s
+2025-07-18 16:32:00,849 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 14.28s - 14.62s
+2025-07-18 16:32:01,313 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 14.58s - 14.71s
+2025-07-18 16:32:01,313 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-18 16:32:02,505 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 14.76s - 15.34s
+2025-07-18 16:32:03,675 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 15.30s - 15.66s
+2025-07-18 16:32:04,807 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 15.62s - 16.33s
+2025-07-18 16:32:04,807 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-18 16:32:05,217 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 16.38s - 16.60s
+2025-07-18 16:32:05,608 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 16.56s - 16.94s
+2025-07-18 16:32:05,996 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 16.90s - 17.07s
+2025-07-18 16:32:05,996 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-18 16:32:06,758 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 17.12s - 17.46s
+2025-07-18 16:32:07,532 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 17.42s - 17.74s
+2025-07-18 16:32:08,293 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 17.70s - 18.59s
+2025-07-18 16:32:08,293 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-18 16:32:08,983 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 18.64s - 18.88s
+2025-07-18 16:32:09,669 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 18.84s - 19.24s
+2025-07-18 16:32:10,346 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 19.20s - 19.83s
+2025-07-18 16:32:10,346 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-18 16:32:11,289 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 19.88s - 19.98s
+2025-07-18 16:32:12,163 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 19.94s - 20.20s
+2025-07-18 16:32:12,989 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 20.16s - 20.81s
+2025-07-18 16:32:12,989 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-18 16:32:13,867 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 20.86s - 21.20s
+2025-07-18 16:32:14,754 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 21.16s - 21.80s
+2025-07-18 16:32:15,654 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 21.76s - 22.33s
+2025-07-18 16:32:15,654 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-18 16:32:16,347 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 22.38s - 22.50s
+2025-07-18 16:32:17,043 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 22.46s - 22.78s
+2025-07-18 16:32:17,739 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 22.74s - 23.52s
+2025-07-18 16:32:17,739 - autotube.full_pipeline - INFO - Creating clips for group 20: 4 words
+2025-07-18 16:32:18,272 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 23.58s - 23.70s
+2025-07-18 16:32:18,802 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 23.66s - 24.24s
+2025-07-18 16:32:19,297 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 24.20s - 24.42s
+2025-07-18 16:32:19,823 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 20: 24.38s - 24.89s
+2025-07-18 16:32:19,823 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-18 16:32:20,253 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 24.94s - 25.14s
+2025-07-18 16:32:20,663 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 25.10s - 26.16s
+2025-07-18 16:32:21,076 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 26.12s - 26.35s
+2025-07-18 16:32:21,076 - autotube.full_pipeline - INFO - Created clips for 21/46 word groups - ETA: 64s
+2025-07-18 16:32:21,076 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-18 16:32:21,911 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 26.40s - 26.70s
+2025-07-18 16:32:22,744 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 26.66s - 26.92s
+2025-07-18 16:32:23,586 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 26.88s - 27.21s
+2025-07-18 16:32:23,588 - autotube.full_pipeline - INFO - Creating clips for group 23: 4 words
+2025-07-18 16:32:24,511 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 27.26s - 27.68s
+2025-07-18 16:32:25,591 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 27.64s - 27.90s
+2025-07-18 16:32:27,485 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 27.86s - 28.20s
+2025-07-18 16:32:29,129 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 23: 28.16s - 28.53s
+2025-07-18 16:32:29,130 - autotube.full_pipeline - INFO - Creating clips for group 24: 4 words
+2025-07-18 16:32:30,296 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 28.58s - 29.00s
+2025-07-18 16:32:31,248 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 28.96s - 29.48s
+2025-07-18 16:32:32,417 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 29.44s - 29.68s
+2025-07-18 16:32:33,752 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 24: 29.64s - 30.84s
+2025-07-18 16:32:33,752 - autotube.full_pipeline - INFO - Creating clips for group 25: 3 words
+2025-07-18 16:32:34,822 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 31.02s - 31.10s
+2025-07-18 16:32:35,869 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 31.06s - 31.28s
+2025-07-18 16:32:36,752 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 31.24s - 31.95s
+2025-07-18 16:32:36,752 - autotube.full_pipeline - INFO - Creating clips for group 26: 3 words
+2025-07-18 16:32:37,183 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 26: 32.00s - 32.34s
+2025-07-18 16:32:37,576 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 26: 32.30s - 32.60s
+2025-07-18 16:32:38,024 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 26: 32.56s - 32.71s
+2025-07-18 16:32:38,024 - autotube.full_pipeline - INFO - Creating clips for group 27: 3 words
+2025-07-18 16:32:39,293 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 27: 32.76s - 33.04s
+2025-07-18 16:32:40,448 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 27: 33.00s - 34.00s
+2025-07-18 16:32:41,653 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 27: 33.96s - 34.61s
+2025-07-18 16:32:41,653 - autotube.full_pipeline - INFO - Creating clips for group 28: 3 words
+2025-07-18 16:32:42,445 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 28: 34.66s - 35.14s
+2025-07-18 16:32:43,316 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 28: 35.10s - 35.64s
+2025-07-18 16:32:44,441 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 28: 35.60s - 35.75s
+2025-07-18 16:32:44,441 - autotube.full_pipeline - INFO - Creating clips for group 29: 3 words
+2025-07-18 16:32:45,203 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 29: 35.80s - 36.22s
+2025-07-18 16:32:45,853 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 29: 36.18s - 36.74s
+2025-07-18 16:32:46,512 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 29: 36.70s - 37.27s
+2025-07-18 16:32:46,512 - autotube.full_pipeline - INFO - Creating clips for group 30: 3 words
+2025-07-18 16:32:47,603 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 30: 37.32s - 37.70s
+2025-07-18 16:32:48,812 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 30: 37.66s - 38.14s
+2025-07-18 16:32:49,804 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 30: 38.10s - 38.91s
+2025-07-18 16:32:49,804 - autotube.full_pipeline - INFO - Creating clips for group 31: 3 words
+2025-07-18 16:32:51,177 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 31: 38.96s - 39.36s
+2025-07-18 16:32:52,381 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 31: 39.32s - 39.82s
+2025-07-18 16:32:53,640 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 31: 39.78s - 40.62s
+2025-07-18 16:32:53,640 - autotube.full_pipeline - INFO - Created clips for 31/46 word groups - ETA: 96s
+2025-07-18 16:32:53,641 - autotube.full_pipeline - INFO - Creating clips for group 32: 3 words
+2025-07-18 16:32:54,670 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 32: 40.70s - 40.94s
+2025-07-18 16:32:57,045 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 32: 40.90s - 41.14s
+2025-07-18 16:32:58,918 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 32: 41.10s - 41.41s
+2025-07-18 16:32:58,918 - autotube.full_pipeline - INFO - Creating clips for group 33: 3 words
+2025-07-18 16:32:59,977 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 33: 41.46s - 41.84s
+2025-07-18 16:33:00,993 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 33: 41.80s - 42.20s
+2025-07-18 16:33:02,051 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 33: 42.16s - 42.96s
+2025-07-18 16:33:02,051 - autotube.full_pipeline - INFO - Creating clips for group 34: 3 words
+2025-07-18 16:33:03,265 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 34: 43.10s - 43.28s
+2025-07-18 16:33:04,327 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 34: 43.24s - 43.70s
+2025-07-18 16:33:05,416 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 34: 43.66s - 44.33s
+2025-07-18 16:33:05,416 - autotube.full_pipeline - INFO - Creating clips for group 35: 3 words
+2025-07-18 16:33:06,199 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 35: 44.38s - 44.74s
+2025-07-18 16:33:07,260 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 35: 44.70s - 44.96s
+2025-07-18 16:33:08,524 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 35: 44.92s - 45.21s
+2025-07-18 16:33:08,524 - autotube.full_pipeline - INFO - Creating clips for group 36: 3 words
+2025-07-18 16:33:10,083 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 36: 45.26s - 45.62s
+2025-07-18 16:33:12,136 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 36: 45.58s - 46.04s
+2025-07-18 16:33:14,045 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 36: 46.00s - 46.27s
+2025-07-18 16:33:14,045 - autotube.full_pipeline - INFO - Creating clips for group 37: 3 words
+2025-07-18 16:33:15,386 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 37: 46.32s - 48.08s
+2025-07-18 16:33:16,485 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 37: 48.04s - 48.48s
+2025-07-18 16:33:18,808 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 37: 48.44s - 48.53s
+2025-07-18 16:33:18,809 - autotube.full_pipeline - INFO - Creating clips for group 38: 3 words
+2025-07-18 16:33:20,500 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 38: 48.58s - 49.10s
+2025-07-18 16:33:21,935 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 38: 49.06s - 50.02s
+2025-07-18 16:33:24,537 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 38: 49.98s - 50.05s
+2025-07-18 16:33:24,537 - autotube.full_pipeline - INFO - Creating clips for group 39: 3 words
+2025-07-18 16:33:25,311 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 39: 50.10s - 50.26s
+2025-07-18 16:33:25,825 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 39: 50.22s - 50.64s
+2025-07-18 16:33:26,313 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 39: 50.60s - 50.91s
+2025-07-18 16:33:26,313 - autotube.full_pipeline - INFO - Creating clips for group 40: 4 words
+2025-07-18 16:33:27,121 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 40: 50.96s - 51.12s
+2025-07-18 16:33:28,125 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 40: 51.08s - 51.46s
+2025-07-18 16:33:29,265 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 40: 51.42s - 51.70s
+2025-07-18 16:33:30,332 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 40: 51.66s - 51.85s
+2025-07-18 16:33:30,332 - autotube.full_pipeline - INFO - Creating clips for group 41: 4 words
+2025-07-18 16:33:31,680 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 41: 51.90s - 52.18s
+2025-07-18 16:33:33,709 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 41: 52.14s - 52.44s
+2025-07-18 16:33:35,540 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 41: 52.40s - 52.64s
+2025-07-18 16:33:36,866 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 41: 52.60s - 52.87s
+2025-07-18 16:33:36,867 - autotube.full_pipeline - INFO - Created clips for 41/46 word groups - ETA: 140s
+2025-07-18 16:33:36,867 - autotube.full_pipeline - INFO - Creating clips for group 42: 3 words
+2025-07-18 16:33:38,102 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 42: 52.92s - 53.66s
+2025-07-18 16:33:39,313 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 42: 53.62s - 54.14s
+2025-07-18 16:33:40,392 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 42: 54.10s - 54.19s
+2025-07-18 16:33:40,392 - autotube.full_pipeline - INFO - Creating clips for group 43: 4 words
+2025-07-18 16:33:41,869 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 43: 54.24s - 54.44s
+2025-07-18 16:33:42,999 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 43: 54.40s - 54.70s
+2025-07-18 16:33:44,038 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 43: 54.66s - 54.84s
+2025-07-18 16:33:44,972 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 43: 54.80s - 55.52s
+2025-07-18 16:33:44,972 - autotube.full_pipeline - INFO - Creating clips for group 44: 3 words
+2025-07-18 16:33:45,849 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 44: 55.58s - 55.74s
+2025-07-18 16:33:46,650 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 44: 55.70s - 55.88s
+2025-07-18 16:33:47,744 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 44: 55.84s - 56.15s
+2025-07-18 16:33:47,744 - autotube.full_pipeline - INFO - Creating clips for group 45: 3 words
+2025-07-18 16:33:48,685 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 45: 56.20s - 56.68s
+2025-07-18 16:33:49,623 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 45: 56.64s - 57.22s
+2025-07-18 16:33:50,236 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 45: 57.18s - 57.27s
+2025-07-18 16:33:50,236 - autotube.full_pipeline - INFO - Creating clips for group 46: 3 words
+2025-07-18 16:33:51,444 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 46: 57.32s - 57.60s
+2025-07-18 16:33:52,585 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 46: 57.56s - 57.96s
+2025-07-18 16:33:53,842 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 46: 57.92s - 58.72s
+2025-07-18 16:33:53,843 - autotube.full_pipeline - INFO - Created 148 individual subtitle clips
+2025-07-18 16:33:53,844 - autotube.full_pipeline - INFO - Viral subtitle creation took 156.51s
+2025-07-18 16:33:53,845 - autotube.full_pipeline - INFO - Subtitle clips count: 148
+2025-07-18 16:33:53,865 - autotube.full_pipeline - INFO - Video composition took 0.02s
+2025-07-18 16:33:53,866 - autotube.full_pipeline - INFO - Final video - Duration: 59.00s, Audio: True
+2025-07-18 16:33:53,866 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\CIAsSecretRoleinthe1960sCountercultureUncovered_final.mp4
+2025-07-18 16:35:11,354 - autotube.full_pipeline - INFO - Video writing took 77.49s
+2025-07-18 16:35:11,354 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-18 16:35:11,773 - autotube.full_pipeline - INFO - Output file - Duration: 59.00s, Audio: True, Playable: True
+2025-07-18 16:35:11,801 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\CIAsSecretRoleinthe1960sCountercultureUncovered_final.mp4
+2025-07-18 16:35:11,801 - autotube.full_pipeline - INFO - Total processing time: 265.74s
+2025-07-18 16:35:11,802 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\CIAsSecretRoleinthe1960sCountercultureUncovered_final.mp4
+2025-07-18 16:35:11,803 - autotube.full_pipeline - INFO - 📊 Final video size: 10,381,114 bytes (9.9 MB)
+2025-07-18 16:35:11,803 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-18 16:35:11,804 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory\output\videos\CIAsSecretRoleinthe1960sCountercultureUncovered_kenburns.mp4
+2025-07-18 16:35:11,804 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\CIAsSecretRoleinthe1960sCountercultureUncovered_final.mp4
+2025-07-18 16:35:11,841 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (367.04s)
+2025-07-18 16:35:11,842 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-18 16:35:11,845 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory\output\fp_logs\pipeline_report_CIAsSecretRoleinthe1960sCountercultureUncovered_20250718_163511.json
+2025-07-18 16:35:11,845 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-18 16:35:11,846 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 16:35:11,846 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 477.19s
+2025-07-18 16:35:11,846 - autotube.full_pipeline - INFO - 📁 Story Title: CIAsSecretRoleinthe1960sCountercultureUncovered
+2025-07-18 16:35:11,847 - autotube.full_pipeline - INFO - 📁 Sanitized Title: CIAsSecretRoleinthe1960sCountercultureUncovered
+2025-07-18 16:35:11,847 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory\output\fp_logs\pipeline_report_CIAsSecretRoleinthe1960sCountercultureUncovered_20250718_163511.json

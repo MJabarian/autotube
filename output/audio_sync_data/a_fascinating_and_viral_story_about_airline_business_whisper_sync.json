@@ -1,0 +1,241 @@
+{
+  "story_title": "a fascinating and viral story about airline business",
+  "original_story": "[shocked] Get this - in 2019, a budget airline called WOW Air flew empty planes just to keep their slots at airports! They paid $4 million for the privilege of flying to popular destinations. Why? Because losing those slots would mean losing a chance to re-enter those markets later. This bizarre strategy led to nearly 30% of their flights taking off with no passengers. Just when you think airlines can’t get crazier, they pull a stunt like this! Amazing, right?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.125,
+      "audio_content": "Get this. In 2019,",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9255650043487549
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.125,
+      "timestamp_end": 4.25,
+      "audio_content": "a budget airline called Wow Air Flu",
+      "words_in_segment": 7,
+      "confidence_avg": 0.814665328179087
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.25,
+      "timestamp_end": 6.375,
+      "audio_content": "Plains just to keep their slots at",
+      "words_in_segment": 7,
+      "confidence_avg": 0.951306015253067
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.375,
+      "timestamp_end": 8.5,
+      "audio_content": "They paid four million",
+      "words_in_segment": 4,
+      "confidence_avg": 0.8078908994793892
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.5,
+      "timestamp_end": 10.625,
+      "audio_content": "for the privilege of flying to popular",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9963231767926898
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 10.625,
+      "timestamp_end": 12.75,
+      "audio_content": "Why?",
+      "words_in_segment": 1,
+      "confidence_avg": 0.9930500984191895
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 12.75,
+      "timestamp_end": 14.875,
+      "audio_content": "losing those slots would mean losing a chance",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9977622777223587
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 14.875,
+      "timestamp_end": 17.0,
+      "audio_content": "reenter those markets later. This",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9339086920022964
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 17.0,
+      "timestamp_end": 19.125,
+      "audio_content": "strategy led to nearly 30 % of their",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9634712263941765
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 19.125,
+      "timestamp_end": 21.25,
+      "audio_content": "taking off with no passengers. Just",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9939304888248444
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 21.25,
+      "timestamp_end": 23.375,
+      "audio_content": "you think airlines can't get crazier, they",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9959395953587123
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 23.375,
+      "timestamp_end": 25.5,
+      "audio_content": "a stunt like this. Amazing, right?",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9864932199319204
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.125,
+      "audio_content": "Get this. In 2019,",
+      "image_prompt": "Medium shot of an airline executive in a sleek office, looking shocked while holding a phone. Behind him, a large window shows a fleet of empty planes on the runway, bathed in dramatic chiaroscuro lighting, casting sharp shadows that heighten the tension of the moment.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9255650043487549,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.125,
+      "timestamp_end": 4.25,
+      "audio_content": "a budget airline called Wow Air Flu",
+      "image_prompt": "Wide shot of a desolate airport runway, empty planes lined up, their vibrant colors contrasting against the gray sky. Shadows stretch across the tarmac as a lone ground crew member observes, embodying the surreal nature of WOW Air's empty flights. Dramatic chiaroscuro lighting adds to the eerie atmosphere.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.814665328179087,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.25,
+      "timestamp_end": 6.375,
+      "audio_content": "Plains just to keep their slots at",
+      "image_prompt": "Wide shot of a busy airport runway, with a brightly colored WOW Air plane sitting idle, surrounded by empty tarmac. Dramatic chiaroscuro lighting casts long shadows, highlighting the surreal emptiness as airport staff move about, oblivious to the unusual sight of an empty flight ready for takeoff.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.951306015253067,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.375,
+      "timestamp_end": 8.5,
+      "audio_content": "They paid four million",
+      "image_prompt": "Medium shot of a bustling airport terminal with empty WOW Air planes visible through large windows, capturing the bewildered expressions of travelers as they discuss the strange airline strategy, dramatic chiaroscuro lighting highlighting their faces and the contrast of the empty planes outside.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.8078908994793892,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.5,
+      "timestamp_end": 10.625,
+      "audio_content": "for the privilege of flying to popular",
+      "image_prompt": "Medium shot of a bustling airport terminal, with a focused airline executive nervously reviewing charts and flight schedules. Dramatic chiaroscuro lighting highlights their anxious expression, while shadows play across empty gates, symbolizing the peculiar strategy of flying empty planes to maintain airport slots.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9963231767926898,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 10.625,
+      "timestamp_end": 12.75,
+      "audio_content": "Why?",
+      "image_prompt": "Medium shot of a shocked airline executive in a sleek office, gazing at a graph showing empty flights. His face is illuminated by the glow of a computer screen, casting sharp shadows, reflecting disbelief at the absurdity of flying empty planes to retain airport slots.",
+      "words_in_segment": 1,
+      "confidence_avg": 0.9930500984191895,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 12.75,
+      "timestamp_end": 14.875,
+      "audio_content": "losing those slots would mean losing a chance",
+      "image_prompt": "Medium shot of a budget airline office bustling with activity, employees anxiously discussing flight schedules while a large screen displays empty planes in flight. The scene captures a tense atmosphere, illuminated by dramatic chiaroscuro lighting, highlighting the urgency of maintaining airport slots.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9977622777223587,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 14.875,
+      "timestamp_end": 17.0,
+      "audio_content": "reenter those markets later. This",
+      "image_prompt": "Medium shot of a bustling airport terminal, with a stark contrast of empty WOW Air planes parked at the gates. The expressions of bewildered travelers and airline staff reflect the absurdity of the situation, illuminated by dramatic chiaroscuro lighting that highlights their perplexed faces and sharp shadows.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9339086920022964,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 17.0,
+      "timestamp_end": 19.125,
+      "audio_content": "strategy led to nearly 30 % of their",
+      "image_prompt": "Wide shot of a bustling airport with a WOW Air plane on the tarmac, empty of passengers. The scene captures the contrast between the vibrant atmosphere of travelers and the solitary aircraft, illuminated by dramatic chiaroscuro lighting, emphasizing the bizarre strategy of flying empty planes.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9634712263941765,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 19.125,
+      "timestamp_end": 21.25,
+      "audio_content": "taking off with no passengers. Just",
+      "image_prompt": "Wide shot of a deserted airport runway with a brightly colored WOW Air plane taking off against a backdrop of a stunning sunset, casting dramatic shadows. The scene captures the emptiness of the cabin, evoking the bizarre strategy of flying empty planes, with an air of surrealism.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9939304888248444,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 21.25,
+      "timestamp_end": 23.375,
+      "audio_content": "you think airlines can't get crazier, they",
+      "image_prompt": "Medium shot of a busy airport runway, with a colorful WOW Air plane taking off, empty seats visible through the windows. In the background, ground crew and airport staff look bewildered, casting sharp shadows under dramatic chiaroscuro lighting, capturing the absurdity of the situation.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9959395953587123,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 23.375,
+      "timestamp_end": 25.5,
+      "audio_content": "a stunt like this. Amazing, right?",
+      "image_prompt": "Medium shot of a vibrant airport scene, showcasing a WOW Air plane on the tarmac, empty and gleaming under dramatic chiaroscuro lighting. Expressions of astonishment on bystanders' faces as they point and discuss the unusual sight, capturing the bewilderment of this bizarre airline strategy.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9864932199319204,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 25.5,
+    "whisper_model": "base"
+  }
+}

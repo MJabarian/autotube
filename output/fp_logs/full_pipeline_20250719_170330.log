@@ -1,0 +1,12 @@
+2025-07-19 17:03:30,124 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-19 17:03:30,125 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250719_170330.log
+2025-07-19 17:03:30,125 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-19 17:03:30,125 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 17:03:30,125 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 17:03:30,126 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 17:03:30,376 - openai._base_client - INFO - Retrying request to /chat/completions in 0.823430 seconds
+2025-07-19 17:03:31,214 - openai._base_client - INFO - Retrying request to /chat/completions in 1.750400 seconds
+2025-07-19 17:03:32,967 - autotube.full_pipeline - ERROR - ❌ Content generation failed: Connection error.
+2025-07-19 17:03:32,967 - autotube.full_pipeline - INFO - ❌ Completed: Content Generation (2.84s)
+2025-07-19 17:03:32,967 - autotube.full_pipeline - ERROR - ❌ Content generation failed - stopping pipeline
+2025-07-19 17:03:32,968 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
