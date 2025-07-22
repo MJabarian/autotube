@@ -1,0 +1,42 @@
+# Virtual Environment
+autotube_env/
+venv/
+env/
+
+# Environment Variables
+config/.env
+config/client_secret.json
+
+# Output Files
+output/
+*.mp4
+*.mp3
+*.png
+*.jpg
+*.txt
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model files
+models/
+*.bin
+*.gguf

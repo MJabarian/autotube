@@ -1,0 +1,44 @@
+{
+  "channels": {
+    "channel1": {
+      "name": "History Channel 1",
+      "description": "First history channel for educational content",
+      "credentials_file": "credentials_channel1.json",
+      "client_secrets_file": "client_secrets_channel1.json",
+      "enabled": true,
+      "api_key": "YOUR_API_KEY_HERE",
+      "channel_id": "YOUR_CHANNEL_ID_HERE"
+    },
+    "channel2": {
+      "name": "History Channel 2", 
+      "description": "Second history channel for viral content",
+      "credentials_file": "credentials_channel2.json",
+      "client_secrets_file": "client_secrets_channel2.json",
+      "enabled": true,
+      "api_key": "YOUR_API_KEY_HERE",
+      "channel_id": "YOUR_CHANNEL_ID_HERE"
+    }
+  },
+  "default_settings": {
+    "made_for_kids": false,
+    "privacy_status": "public",
+    "category_id": "27",
+    "tags": ["history", "shorts", "educational", "viral", "youtube shorts"],
+    "language": "en",
+    "location": "US",
+    "thumbnail_path": null,
+    "playlist_id": null
+  },
+  "upload_settings": {
+    "max_retries": 3,
+    "timeout_seconds": 300,
+    "chunk_size_mb": 10,
+    "resumable_upload": true
+  },
+  "description_template": {
+    "include_tags": true,
+    "include_links": false,
+    "include_timestamp": true,
+    "custom_footer": "🔔 Subscribe for more historical content!\n📚 Learn something new every day!"
+  }
+} 
