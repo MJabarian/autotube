@@ -1,0 +1,343 @@
+2025-07-19 23:17:18,746 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-19 23:17:18,747 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250719_231718.log
+2025-07-19 23:17:18,747 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-19 23:17:18,747 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 23:17:18,748 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 23:17:18,750 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 23:17:19,821 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:22,191 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:22,533 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:22,547 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: The Hidden Treasure of the Lost City of Atlantis
+2025-07-19 23:17:22,547 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TheHiddenTreasureoftheLostCityofAtlantis_content_gen_2025-07-19_23-17-22.log
+2025-07-19 23:17:22,547 - autotube.content_gen - INFO - 📁 Sanitized folder name: SecretsofAtlantisIstheTreasureReal
+2025-07-19 23:17:22,548 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 87 words
+2025-07-19 23:17:22,561 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsofAtlantisIstheTreasureReal\story.json (1,179 bytes)
+2025-07-19 23:17:22,561 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsofAtlantisIstheTreasureReal\topic.txt (48 bytes)
+2025-07-19 23:17:22,562 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsofAtlantisIstheTreasureReal\metadata.json (656 bytes)
+2025-07-19 23:17:22,562 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsofAtlantisIstheTreasureReal\story.txt (1,099 bytes)
+2025-07-19 23:17:22,562 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsofAtlantisIstheTreasureReal
+2025-07-19 23:17:30,773 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsofAtlantisIstheTreasureReal\audio_SecretsofAtlantisIstheTreasureReal.mp3 (537,122 bytes)
+2025-07-19 23:17:30,880 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 33.57s duration
+2025-07-19 23:17:31,971 - autotube.content_gen - INFO - ✅ Audio speed adjustment: 1.15x, new duration: 29.34s
+2025-07-19 23:17:31,972 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsofAtlantisIstheTreasureReal\audio_SecretsofAtlantisIstheTreasureReal_sped_up.mp3 (537,122 bytes, 29.34s)
+2025-07-19 23:17:31,973 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-19 23:17:31,973 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-19 23:17:31,973 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsofAtlantisIstheTreasureReal\audio_SecretsofAtlantisIstheTreasureReal_sped_up.mp3
+2025-07-19 23:17:31,974 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-19 23:17:33,003 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-19 23:17:33,110 - faster_whisper - INFO - Processing audio with duration 00:29.298
+2025-07-19 23:17:33,960 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-19 23:17:38,089 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 28.20s
+2025-07-19 23:17:38,090 - whisper_audio_synchronizer - INFO - 📝 Extracted 85 words with timestamps
+2025-07-19 23:17:38,090 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 28.20s, Image duration: 2.35s
+2025-07-19 23:17:38,091 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-19 23:17:38,091 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-19 23:17:40,067 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:40,069 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): A wide shot of a stormy Atlantic Ocean, dark cloud...
+2025-07-19 23:17:42,066 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:42,068 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of the vast Atlantic Ocean at twilight, ...
+2025-07-19 23:17:43,625 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:43,626 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of a misty ocean landscape, revealing th...
+2025-07-19 23:17:44,947 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:44,949 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/wide_shot): Wide shot of a mysterious underwater landscape nea...
+2025-07-19 23:17:46,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:46,460 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/wide_shot): Wide shot of a vast, mysterious underwater landsca...
+2025-07-19 23:17:48,101 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:48,103 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/wide_shot): Wide shot of a vast ocean stretching towards the h...
+2025-07-19 23:17:49,489 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:49,490 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/wide_shot): Wide shot of the mysterious underwater structures ...
+2025-07-19 23:17:51,226 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:51,227 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/wide_shot): Wide shot of the mysterious Azores islands shroude...
+2025-07-19 23:17:53,309 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:53,310 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/wide_shot): Wide shot of the ocean's surface, where sonar equi...
+2025-07-19 23:17:54,756 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:54,757 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/wide_shot): Wide shot of the vast Atlantic Ocean, shimmering u...
+2025-07-19 23:17:56,254 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:56,255 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/wide_shot): Wide shot of the deep, mysterious waters of the At...
+2025-07-19 23:17:57,835 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 23:17:57,841 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/wide_shot): Wide shot of a serene, azure ocean surrounded by t...
+2025-07-19 23:17:57,843 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Secrets_of_Atlantis_Is_the_Treasure_Real_whisper_sync.json
+2025-07-19 23:17:57,843 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-19 23:17:57,844 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-19 23:17:57,845 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-19 23:17:57,846 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-19 23:17:57,853 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\Reflective memorial 2(e96c18de382a42a6887e785a6914e0e1).wav (11,466,120 bytes)
+2025-07-19 23:17:57,855 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\SecretsofAtlantisIstheTreasureReal\music_selection.json (390 bytes)
+2025-07-19 23:17:57,855 - autotube.content_gen - INFO - ✅ Music selected: Reflective memorial 2(e96c18de382a42a6887e785a6914e0e1).wav
+2025-07-19 23:17:57,857 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-19 23:17:57,858 - src.replicate_image_generator - INFO - Generating images for story: Secrets of Atlantis: Is the Treasure Real?
+2025-07-19 23:17:57,858 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-19 23:17:57,859 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-19 23:17:57,859 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-19 23:17:58,898 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:18:00,693 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:18:02,374 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:18:04,040 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:18:05,984 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:18:08,027 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:18:09,891 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:18:11,772 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:18:13,226 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:18:14,721 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:18:16,256 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:18:17,744 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 23:18:18,637 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-19 23:18:18,637 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-19 23:18:18,639 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-19 23:18:18,641 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-19 23:18:18,644 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-19 23:18:18,644 - autotube.content_gen - INFO - 📊 Total time: 59.89s, Cost: $0.0360
+2025-07-19 23:18:18,644 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: The Hidden Treasure of the Lost City of Atlantis
+2025-07-19 23:18:18,667 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (59.92s)
+2025-07-19 23:18:18,668 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-19 23:18:18,668 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-19 23:18:18,668 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: SecretsofAtlantisIstheTreasureReal
+2025-07-19 23:18:18,669 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: SecretsofAtlantisIstheTreasureReal
+2025-07-19 23:18:18,669 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsofAtlantisIstheTreasureReal\audio_SecretsofAtlantisIstheTreasureReal_sped_up.mp3
+2025-07-19 23:18:18,669 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\SecretsofAtlantisIstheTreasureReal\music_selection.json
+2025-07-19 23:18:18,677 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\Reflective memorial 2(e96c18de382a42a6887e785a6914e0e1).wav
+2025-07-19 23:18:18,689 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-19 23:18:18,689 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsofAtlantisIstheTreasureReal\audio_SecretsofAtlantisIstheTreasureReal_sped_up.mp3
+2025-07-19 23:18:18,772 - src.audio_mixer - INFO - Loaded audio: 29298ms (29.298s), 44100Hz, 2 channels
+2025-07-19 23:18:18,772 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\Reflective memorial 2(e96c18de382a42a6887e785a6914e0e1).wav
+2025-07-19 23:18:18,785 - src.audio_mixer - INFO - Loaded audio: 65000ms (65.000s), 44100Hz, 2 channels
+2025-07-19 23:18:18,786 - src.audio_mixer - INFO - Voice duration: 29298ms
+2025-07-19 23:18:18,786 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-19 23:18:18,786 - src.audio_mixer - INFO - Target duration: 29298ms
+2025-07-19 23:18:18,787 - src.audio_mixer - INFO - Trimmed music from 29298ms to 29298ms
+2025-07-19 23:18:18,788 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-19 23:18:18,808 - src.audio_mixer - INFO - Voice adjusted by 10.2dB, Music by -8.3dB
+2025-07-19 23:18:18,817 - src.audio_mixer - INFO - Added 500ms fade-out to prevent end artifacts
+2025-07-19 23:18:18,825 - src.audio_mixer - INFO - ✅ Exact duration match: 29298ms
+2025-07-19 23:18:18,826 - src.audio_mixer - INFO - Audio mixing completed: 29298ms
+2025-07-19 23:18:19,274 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\SecretsofAtlantisIstheTreasureReal\mixed_audio_SecretsofAtlantisIstheTreasureReal.mp3
+2025-07-19 23:18:19,276 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\SecretsofAtlantisIstheTreasureReal\mixed_audio_SecretsofAtlantisIstheTreasureReal.mp3
+2025-07-19 23:18:19,276 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 907,271 bytes (0.9 MB)
+2025-07-19 23:18:19,277 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: SecretsofAtlantisIstheTreasureReal
+2025-07-19 23:18:19,277 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-19 23:18:19,277 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-19 23:18:19,277 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: SecretsofAtlantisIstheTreasureReal
+2025-07-19 23:18:19,417 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-19 23:18:19,417 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-19 23:18:19,418 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.36 seconds per image
+2025-07-19 23:18:19,418 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsofAtlantisIstheTreasureReal_kenburns.mp4
+2025-07-19 23:18:19,418 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['pan_right', 'zoom_in', 'pan_left', 'zoom_in', 'pan_left']...
+2025-07-19 23:18:19,419 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-19 23:18:19,419 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 23:18:19,437 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-19 23:18:19,438 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 23:18:19,453 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-19 23:18:19,453 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 23:18:19,468 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-19 23:18:19,468 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 23:18:19,499 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-19 23:18:19,499 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 23:18:19,528 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-19 23:18:19,528 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 23:18:19,559 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-19 23:18:19,560 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-19 23:18:19,591 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-19 23:18:19,591 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 23:18:19,622 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-19 23:18:19,623 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 23:18:19,655 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-19 23:18:19,655 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-19 23:18:19,690 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-19 23:18:19,690 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 23:18:19,723 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-19 23:18:19,723 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 23:18:19,756 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-19 23:18:19,810 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-19 23:18:19,922 - autotube.full_pipeline - INFO - 📹 Video duration: 28.280s
+2025-07-19 23:18:19,922 - autotube.full_pipeline - INFO - 🎵 Audio duration: 28.280s
+2025-07-19 23:18:19,922 - autotube.full_pipeline - INFO - 🔧 Aggressive trim: Audio 28.280s → 28.280s
+2025-07-19 23:18:19,923 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 28.280s
+2025-07-19 23:18:19,923 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsofAtlantisIstheTreasureReal_kenburns.mp4
+2025-07-19 23:18:57,061 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-19 23:18:57,062 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-19 23:18:57,062 - autotube.full_pipeline - INFO - ✅ Video duration: 28.30 seconds
+2025-07-19 23:18:57,062 - autotube.full_pipeline - INFO - ✅ Video file size: 6.2 MB
+2025-07-19 23:18:57,062 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-19 23:18:57,085 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsofAtlantisIstheTreasureReal_kenburns.mp4
+2025-07-19 23:18:57,086 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-19 23:18:57,086 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsofAtlantisIstheTreasureReal_kenburns.mp4
+2025-07-19 23:18:57,087 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-19 23:18:57,087 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-19 23:18:57,088 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-19 23:18:57,088 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-19 23:18:58,797 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-19 23:18:58,798 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-19 23:18:58,799 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-19 23:18:59,005 - faster_whisper - INFO - Processing audio with duration 00:29.336
+2025-07-19 23:19:02,677 - faster_whisper - INFO - Detected language 'en' with probability 0.99
+2025-07-19 23:19:13,960 - autotube.full_pipeline - INFO - Extracted 85 words with timing
+2025-07-19 23:19:13,961 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 15.16s
+2025-07-19 23:19:14,285 - autotube.full_pipeline - INFO - Video loading took 0.32s
+2025-07-19 23:19:14,286 - autotube.full_pipeline - INFO - Original video - Duration: 28.30s, FPS: 30.0, Audio: True
+2025-07-19 23:19:14,286 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 85 words...
+2025-07-19 23:19:14,286 - autotube.full_pipeline - INFO - Group 1: 4 words (15 chars), 0.00s - 0.66s
+2025-07-19 23:19:14,286 - autotube.full_pipeline - INFO - Group 2: 3 words (19 chars), 0.64s - 1.60s
+2025-07-19 23:19:14,286 - autotube.full_pipeline - INFO - Group 3: 3 words (12 chars), 1.58s - 2.24s
+2025-07-19 23:19:14,287 - autotube.full_pipeline - INFO - Group 4: 4 words (20 chars), 2.22s - 3.86s
+2025-07-19 23:19:14,287 - autotube.full_pipeline - INFO - Group 5: 3 words (21 chars), 3.84s - 4.68s
+2025-07-19 23:19:14,287 - autotube.full_pipeline - INFO - Group 6: 4 words (21 chars), 4.66s - 6.86s
+2025-07-19 23:19:14,287 - autotube.full_pipeline - INFO - Group 7: 3 words (16 chars), 7.18s - 7.64s
+2025-07-19 23:19:14,287 - autotube.full_pipeline - INFO - Group 8: 3 words (18 chars), 7.62s - 8.44s
+2025-07-19 23:19:14,287 - autotube.full_pipeline - INFO - Group 9: 3 words (22 chars), 8.42s - 9.88s
+2025-07-19 23:19:14,288 - autotube.full_pipeline - INFO - Group 10: 4 words (21 chars), 9.86s - 11.18s
+2025-07-19 23:19:14,288 - autotube.full_pipeline - INFO - Group 11: 3 words (24 chars), 11.16s - 12.96s
+2025-07-19 23:19:14,288 - autotube.full_pipeline - INFO - Group 12: 3 words (27 chars), 12.94s - 14.00s
+2025-07-19 23:19:14,288 - autotube.full_pipeline - INFO - Group 13: 3 words (22 chars), 13.98s - 15.06s
+2025-07-19 23:19:14,288 - autotube.full_pipeline - INFO - Group 14: 3 words (17 chars), 15.04s - 15.88s
+2025-07-19 23:19:14,288 - autotube.full_pipeline - INFO - Group 15: 3 words (11 chars), 16.34s - 16.80s
+2025-07-19 23:19:14,289 - autotube.full_pipeline - INFO - Group 16: 4 words (24 chars), 16.78s - 17.64s
+2025-07-19 23:19:14,289 - autotube.full_pipeline - INFO - Group 17: 3 words (19 chars), 17.62s - 19.14s
+2025-07-19 23:19:14,289 - autotube.full_pipeline - INFO - Group 18: 3 words (29 chars), 19.12s - 20.50s
+2025-07-19 23:19:14,289 - autotube.full_pipeline - INFO - Group 19: 3 words (27 chars), 20.48s - 21.76s
+2025-07-19 23:19:14,289 - autotube.full_pipeline - INFO - Group 20: 3 words (17 chars), 21.74s - 23.06s
+2025-07-19 23:19:14,289 - autotube.full_pipeline - INFO - Group 21: 3 words (10 chars), 23.04s - 23.36s
+2025-07-19 23:19:14,289 - autotube.full_pipeline - INFO - Group 22: 3 words (14 chars), 23.34s - 23.94s
+2025-07-19 23:19:14,290 - autotube.full_pipeline - INFO - Group 23: 4 words (20 chars), 23.92s - 25.48s
+2025-07-19 23:19:14,290 - autotube.full_pipeline - INFO - Group 24: 3 words (21 chars), 25.76s - 26.52s
+2025-07-19 23:19:14,290 - autotube.full_pipeline - INFO - Group 25: 3 words (22 chars), 26.50s - 27.56s
+2025-07-19 23:19:14,290 - autotube.full_pipeline - INFO - Group 26: 4 words (15 chars), 27.54s - 28.24s
+2025-07-19 23:19:14,290 - autotube.full_pipeline - INFO - Created 26 word groups with smart length limiting
+2025-07-19 23:19:14,290 - autotube.full_pipeline - INFO - Creating clips for group 1: 4 words
+2025-07-19 23:19:14,889 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.24s
+2025-07-19 23:19:15,434 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.20s - 0.34s
+2025-07-19 23:19:15,938 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.30s - 0.44s
+2025-07-19 23:19:16,419 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 1: 0.40s - 0.59s
+2025-07-19 23:19:16,420 - autotube.full_pipeline - INFO - Created clips for 1/26 word groups - ETA: 2s
+2025-07-19 23:19:16,420 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-19 23:19:17,097 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 0.64s - 0.88s
+2025-07-19 23:19:17,745 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 0.84s - 1.36s
+2025-07-19 23:19:18,457 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 1.32s - 1.53s
+2025-07-19 23:19:18,457 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-19 23:19:18,870 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 1.58s - 1.78s
+2025-07-19 23:19:19,265 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 1.74s - 2.00s
+2025-07-19 23:19:19,642 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 1.96s - 2.17s
+2025-07-19 23:19:19,642 - autotube.full_pipeline - INFO - Creating clips for group 4: 4 words
+2025-07-19 23:19:20,350 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 2.22s - 2.44s
+2025-07-19 23:19:21,079 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 2.40s - 3.20s
+2025-07-19 23:19:21,796 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 3.16s - 3.62s
+2025-07-19 23:19:22,526 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 4: 3.58s - 3.79s
+2025-07-19 23:19:22,526 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-19 23:19:23,295 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 3.84s - 4.06s
+2025-07-19 23:19:24,047 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 4.02s - 4.28s
+2025-07-19 23:19:24,877 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 4.24s - 4.61s
+2025-07-19 23:19:24,878 - autotube.full_pipeline - INFO - Creating clips for group 6: 4 words
+2025-07-19 23:19:25,694 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 4.66s - 5.08s
+2025-07-19 23:19:26,519 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 5.04s - 5.34s
+2025-07-19 23:19:27,282 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 5.30s - 6.22s
+2025-07-19 23:19:28,041 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 6: 6.18s - 7.13s
+2025-07-19 23:19:28,041 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-19 23:19:28,734 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 7.18s - 7.38s
+2025-07-19 23:19:29,684 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 7.34s - 7.54s
+2025-07-19 23:19:30,411 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 7.50s - 7.57s
+2025-07-19 23:19:30,411 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-19 23:19:31,200 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 7.62s - 7.76s
+2025-07-19 23:19:31,934 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 7.72s - 8.02s
+2025-07-19 23:19:32,680 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 7.98s - 8.37s
+2025-07-19 23:19:32,681 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-19 23:19:33,455 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 8.42s - 9.58s
+2025-07-19 23:19:34,191 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 9.54s - 9.72s
+2025-07-19 23:19:34,892 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 9.68s - 9.81s
+2025-07-19 23:19:34,892 - autotube.full_pipeline - INFO - Creating clips for group 10: 4 words
+2025-07-19 23:19:35,538 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 9.86s - 10.72s
+2025-07-19 23:19:36,168 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 10.68s - 10.84s
+2025-07-19 23:19:36,819 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 10.80s - 11.08s
+2025-07-19 23:19:37,666 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 10: 11.04s - 11.11s
+2025-07-19 23:19:37,666 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-19 23:19:38,885 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 11.16s - 12.14s
+2025-07-19 23:19:39,890 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 12.10s - 12.32s
+2025-07-19 23:19:40,892 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 12.28s - 12.89s
+2025-07-19 23:19:40,893 - autotube.full_pipeline - INFO - Created clips for 11/26 word groups - ETA: 27s
+2025-07-19 23:19:40,893 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-19 23:19:41,792 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 12.94s - 13.22s
+2025-07-19 23:19:42,687 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 13.18s - 13.56s
+2025-07-19 23:19:43,589 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 13.52s - 13.93s
+2025-07-19 23:19:43,590 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-19 23:19:44,339 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 13.98s - 14.22s
+2025-07-19 23:19:45,059 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 14.18s - 14.60s
+2025-07-19 23:19:45,794 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 14.56s - 14.99s
+2025-07-19 23:19:45,794 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-19 23:19:46,341 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 15.04s - 15.32s
+2025-07-19 23:19:46,944 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 15.28s - 15.46s
+2025-07-19 23:19:47,548 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 15.42s - 16.18s
+2025-07-19 23:19:47,549 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-19 23:19:47,925 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 16.34s - 16.48s
+2025-07-19 23:19:48,294 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 16.44s - 16.64s
+2025-07-19 23:19:48,655 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 16.60s - 16.73s
+2025-07-19 23:19:48,655 - autotube.full_pipeline - INFO - Creating clips for group 16: 4 words
+2025-07-19 23:19:49,440 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 16.78s - 17.04s
+2025-07-19 23:19:50,252 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 17.00s - 17.30s
+2025-07-19 23:19:51,051 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 17.26s - 17.38s
+2025-07-19 23:19:51,815 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 16: 17.34s - 17.57s
+2025-07-19 23:19:51,815 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-19 23:19:52,504 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 17.62s - 18.52s
+2025-07-19 23:19:53,217 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 18.48s - 18.76s
+2025-07-19 23:19:53,934 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 18.72s - 19.07s
+2025-07-19 23:19:53,934 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-19 23:19:54,988 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 19.12s - 20.10s
+2025-07-19 23:19:55,990 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 20.06s - 20.22s
+2025-07-19 23:19:57,004 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 20.18s - 20.43s
+2025-07-19 23:19:57,004 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-19 23:19:58,072 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 20.48s - 20.86s
+2025-07-19 23:19:59,737 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 20.82s - 21.42s
+2025-07-19 23:20:01,249 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 21.38s - 21.69s
+2025-07-19 23:20:01,249 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-19 23:20:02,093 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 21.74s - 21.98s
+2025-07-19 23:20:02,939 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 21.94s - 22.84s
+2025-07-19 23:20:03,773 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 22.80s - 22.99s
+2025-07-19 23:20:03,774 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-19 23:20:04,144 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 23.04s - 23.14s
+2025-07-19 23:20:04,525 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 23.10s - 23.24s
+2025-07-19 23:20:04,900 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 23.20s - 23.29s
+2025-07-19 23:20:04,901 - autotube.full_pipeline - INFO - Created clips for 21/26 word groups - ETA: 51s
+2025-07-19 23:20:04,901 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-19 23:20:05,572 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 23.34s - 23.56s
+2025-07-19 23:20:06,210 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 23.52s - 23.84s
+2025-07-19 23:20:06,903 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 23.80s - 23.87s
+2025-07-19 23:20:06,904 - autotube.full_pipeline - INFO - Creating clips for group 23: 4 words
+2025-07-19 23:20:07,621 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 23.92s - 24.12s
+2025-07-19 23:20:08,372 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 24.08s - 25.02s
+2025-07-19 23:20:09,809 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 24.98s - 25.22s
+2025-07-19 23:20:11,061 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 23: 25.18s - 25.71s
+2025-07-19 23:20:11,062 - autotube.full_pipeline - INFO - Creating clips for group 24: 3 words
+2025-07-19 23:20:12,444 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 25.76s - 25.92s
+2025-07-19 23:20:13,987 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 25.88s - 26.18s
+2025-07-19 23:20:15,642 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 26.14s - 26.45s
+2025-07-19 23:20:15,642 - autotube.full_pipeline - INFO - Creating clips for group 25: 3 words
+2025-07-19 23:20:17,626 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 26.50s - 26.82s
+2025-07-19 23:20:20,158 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 26.78s - 27.14s
+2025-07-19 23:20:22,764 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 27.10s - 27.49s
+2025-07-19 23:20:22,765 - autotube.full_pipeline - INFO - Creating clips for group 26: 4 words
+2025-07-19 23:20:23,397 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 26: 27.54s - 27.80s
+2025-07-19 23:20:24,101 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 26: 27.76s - 27.92s
+2025-07-19 23:20:24,640 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 26: 27.88s - 28.06s
+2025-07-19 23:20:25,193 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 26: 28.02s - 28.20s
+2025-07-19 23:20:25,194 - autotube.full_pipeline - INFO - Created 85 individual subtitle clips
+2025-07-19 23:20:25,195 - autotube.full_pipeline - INFO - Viral subtitle creation took 70.91s
+2025-07-19 23:20:25,195 - autotube.full_pipeline - INFO - Subtitle clips count: 85
+2025-07-19 23:20:25,207 - autotube.full_pipeline - INFO - Video composition took 0.01s
+2025-07-19 23:20:25,208 - autotube.full_pipeline - INFO - Final video - Duration: 28.30s, Audio: True
+2025-07-19 23:20:25,208 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretsofAtlantisIstheTreasureReal_final.mp4
+2025-07-19 23:21:07,652 - autotube.full_pipeline - INFO - Video writing took 42.44s
+2025-07-19 23:21:07,653 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-19 23:21:08,111 - autotube.full_pipeline - INFO - Output file - Duration: 28.30s, Audio: True, Playable: True
+2025-07-19 23:21:08,152 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretsofAtlantisIstheTreasureReal_final.mp4
+2025-07-19 23:21:08,153 - autotube.full_pipeline - INFO - Total processing time: 129.35s
+2025-07-19 23:21:08,154 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretsofAtlantisIstheTreasureReal_final.mp4
+2025-07-19 23:21:08,155 - autotube.full_pipeline - INFO - 📊 Final video size: 4,481,187 bytes (4.3 MB)
+2025-07-19 23:21:08,155 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-19 23:21:08,156 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsofAtlantisIstheTreasureReal_kenburns.mp4
+2025-07-19 23:21:08,156 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretsofAtlantisIstheTreasureReal_final.mp4
+2025-07-19 23:21:08,210 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (169.54s)
+2025-07-19 23:21:08,211 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-19 23:21:08,215 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_SecretsofAtlantisIstheTreasureReal_20250719_232108.json
+2025-07-19 23:21:08,216 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-19 23:21:08,216 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 23:21:08,217 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 229.47s
+2025-07-19 23:21:08,217 - autotube.full_pipeline - INFO - 📁 Story Title: SecretsofAtlantisIstheTreasureReal
+2025-07-19 23:21:08,217 - autotube.full_pipeline - INFO - 📁 Sanitized Title: SecretsofAtlantisIstheTreasureReal
+2025-07-19 23:21:08,218 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_SecretsofAtlantisIstheTreasureReal_20250719_232108.json

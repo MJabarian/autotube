@@ -1,0 +1,379 @@
+2025-07-20 23:20:37,148 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-20 23:20:37,149 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250720_232037.log
+2025-07-20 23:20:37,150 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-20 23:20:37,150 - autotube.full_pipeline - INFO - ============================================================
+2025-07-20 23:20:37,151 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-20 23:20:37,153 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-20 23:20:38,964 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:20:41,630 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:20:44,188 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:20:44,497 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:20:44,515 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Great Toilet Paper Shortage of 1973  
+**Summary:** In a bizarre turn of events, a sudden scare over the potential for a paper shortage led to a nationwide panic buying frenzy, highlighting society's dependence on this everyday essential.
+2025-07-20 23:20:44,516 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheGreatToiletPaperShortageof1973SummaryInabi_content_gen_2025-07-20_23-20-44.log
+2025-07-20 23:20:44,516 - autotube.content_gen - INFO - 📁 Sanitized folder name: PanicOverPaperThe1973ShortageMystery
+2025-07-20 23:20:44,517 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 78 words
+2025-07-20 23:20:44,523 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\PanicOverPaperThe1973ShortageMystery\story.json (915 bytes)
+2025-07-20 23:20:44,524 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\PanicOverPaperThe1973ShortageMystery\topic.txt (253 bytes)
+2025-07-20 23:20:44,526 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\PanicOverPaperThe1973ShortageMystery\metadata.json (434 bytes)
+2025-07-20 23:20:44,527 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\PanicOverPaperThe1973ShortageMystery\story.txt (850 bytes)
+2025-07-20 23:20:44,529 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\PanicOverPaperThe1973ShortageMystery
+2025-07-20 23:20:53,039 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\PanicOverPaperThe1973ShortageMystery\audio_PanicOverPaperThe1973ShortageMystery.mp3 (253,091 bytes)
+2025-07-20 23:20:53,210 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 31.61s duration
+2025-07-20 23:20:53,338 - src.utils.high_quality_audio_processor - INFO - 🎵 High-quality speed adjustment: 1.1x
+2025-07-20 23:20:53,339 - src.utils.high_quality_audio_processor - INFO - 📁 Input: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\PanicOverPaperThe1973ShortageMystery\audio_PanicOverPaperThe1973ShortageMystery.mp3
+2025-07-20 23:20:53,339 - src.utils.high_quality_audio_processor - INFO - 📁 Output: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\PanicOverPaperThe1973ShortageMystery\audio_PanicOverPaperThe1973ShortageMystery_sped_up.mp3
+2025-07-20 23:20:53,437 - src.utils.high_quality_audio_processor - INFO - 📊 Original duration: 31.582s
+2025-07-20 23:20:53,438 - src.utils.high_quality_audio_processor - INFO - 📊 Expected duration: 28.710s
+2025-07-20 23:20:53,442 - src.utils.high_quality_audio_processor - INFO - 🔧 Added 200ms fade-out
+2025-07-20 23:20:54,575 - src.utils.high_quality_audio_processor - INFO - ✅ Used pydub speedup (better quality for small speed factors)
+2025-07-20 23:20:54,576 - src.utils.high_quality_audio_processor - INFO - ✅ Voice quality preserved - no robotic sound
+2025-07-20 23:20:54,577 - src.utils.high_quality_audio_processor - INFO - ✂️ Trimmed to exact duration: 28.710s
+2025-07-20 23:20:54,578 - src.utils.high_quality_audio_processor - INFO - ✅ Perfect duration match: 0.000s difference
+2025-07-20 23:20:54,954 - src.utils.high_quality_audio_processor - INFO - ✅ High-quality speed adjustment completed
+2025-07-20 23:20:54,954 - src.utils.high_quality_audio_processor - INFO - 📊 Output file size: 483,432 bytes (0.5 MB)
+2025-07-20 23:20:54,955 - src.utils.high_quality_audio_processor - INFO - ⏱️ Final duration: 28.710s
+2025-07-20 23:20:55,122 - autotube.content_gen - INFO - ✅ High-quality audio speed adjustment: 1.1x, new duration: 31.29s
+2025-07-20 23:20:55,122 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\PanicOverPaperThe1973ShortageMystery\audio_PanicOverPaperThe1973ShortageMystery_sped_up.mp3 (253,091 bytes, 31.29s)
+2025-07-20 23:20:55,123 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-20 23:20:55,123 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-20 23:20:55,124 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\PanicOverPaperThe1973ShortageMystery\audio_PanicOverPaperThe1973ShortageMystery_sped_up.mp3
+2025-07-20 23:20:55,124 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-20 23:20:56,236 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-20 23:20:56,331 - faster_whisper - INFO - Processing audio with duration 00:28.761
+2025-07-20 23:20:57,099 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-20 23:21:00,982 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 28.36s
+2025-07-20 23:21:00,982 - whisper_audio_synchronizer - INFO - 📝 Extracted 77 words with timestamps
+2025-07-20 23:21:00,984 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 28.36s, Image duration: 2.36s
+2025-07-20 23:21:00,984 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-20 23:21:00,985 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-20 23:21:03,061 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:21:03,063 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (character_action/medium_shot): Medium shot of frantic shoppers in a grocery store...
+2025-07-20 23:21:04,875 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:21:04,877 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of a bustling 1970s supermarket, shelves...
+2025-07-20 23:21:07,231 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:21:07,235 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (character_action/medium_shot): Medium shot of frantic shoppers in a grocery store...
+2025-07-20 23:21:09,075 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:21:09,078 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (character_action/medium_shot): Medium shot of frantic shoppers in a grocery store...
+2025-07-20 23:21:10,780 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:21:10,783 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (character_action/medium_shot): Medium shot of frantic shoppers in a grocery store...
+2025-07-20 23:21:12,763 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:21:12,764 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/wide_shot): Wide shot of a bustling grocery store in 1973, wit...
+2025-07-20 23:21:14,605 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:21:14,609 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of frantic shoppers in a supermarket a...
+2025-07-20 23:21:16,258 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:21:16,262 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (character_action/medium_shot): Medium shot of frantic shoppers in a grocery store...
+2025-07-20 23:21:18,381 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:21:18,384 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/wide_shot): Wide shot of a bustling 1973 grocery store, shelve...
+2025-07-20 23:21:20,649 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:21:20,652 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/wide_shot): Wide shot of a bustling 1970s grocery store, shelv...
+2025-07-20 23:21:22,693 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:21:22,696 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/medium_shot): Medium shot of frantic shoppers in a grocery store...
+2025-07-20 23:21:24,740 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 23:21:24,741 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/wide_shot): Wide shot of a bustling 1973 supermarket, shelves ...
+2025-07-20 23:21:24,743 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Panic_Over_Paper_The_1973_Shortage_Mystery_whisper_sync.json
+2025-07-20 23:21:24,744 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-20 23:21:24,744 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-20 23:21:24,745 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-20 23:21:24,746 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-20 23:21:24,754 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-trailer-music-05-cinematic-modern-orchestral-trailer-114622.mp3 (1,951,033 bytes)
+2025-07-20 23:21:24,756 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\PanicOverPaperThe1973ShortageMystery\music_selection.json (423 bytes)
+2025-07-20 23:21:24,756 - autotube.content_gen - INFO - ✅ Music selected: cinematic-trailer-music-05-cinematic-modern-orchestral-trailer-114622.mp3
+2025-07-20 23:21:24,759 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-20 23:21:24,760 - src.replicate_image_generator - INFO - Generating images for story: Panic Over Paper: The 1973 Shortage Mystery
+2025-07-20 23:21:24,760 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-20 23:21:24,760 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-20 23:21:24,761 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-20 23:21:25,765 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 23:21:27,610 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 23:21:29,451 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 23:21:31,317 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 23:21:33,034 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 23:21:34,674 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 23:21:36,517 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 23:21:38,360 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 23:21:39,952 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 23:21:41,740 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 23:21:43,477 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 23:21:45,117 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 23:21:46,086 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-20 23:21:46,086 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-20 23:21:46,089 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-20 23:21:46,093 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-20 23:21:46,101 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-20 23:21:46,102 - autotube.content_gen - INFO - 📊 Total time: 68.94s, Cost: $0.0360
+2025-07-20 23:21:46,102 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Great Toilet Paper Shortage of 1973  
+**Summary:** In a bizarre turn of events, a sudden scare over the potential for a paper shortage led to a nationwide panic buying frenzy, highlighting society's dependence on this everyday essential.
+2025-07-20 23:21:46,137 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (68.98s)
+2025-07-20 23:21:46,139 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-20 23:21:46,140 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-20 23:21:46,141 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: PanicOverPaperThe1973ShortageMystery
+2025-07-20 23:21:46,141 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: PanicOverPaperThe1973ShortageMystery
+2025-07-20 23:21:46,142 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\PanicOverPaperThe1973ShortageMystery\audio_PanicOverPaperThe1973ShortageMystery_sped_up.mp3
+2025-07-20 23:21:46,143 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\PanicOverPaperThe1973ShortageMystery\music_selection.json
+2025-07-20 23:21:46,153 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-trailer-music-05-cinematic-modern-orchestral-trailer-114622.mp3
+2025-07-20 23:21:46,170 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-20 23:21:46,171 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\PanicOverPaperThe1973ShortageMystery\audio_PanicOverPaperThe1973ShortageMystery_sped_up.mp3
+2025-07-20 23:21:46,304 - src.audio_mixer - INFO - Loaded audio: 28761ms (28.761s), 44100Hz, 2 channels
+2025-07-20 23:21:46,304 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-trailer-music-05-cinematic-modern-orchestral-trailer-114622.mp3
+2025-07-20 23:21:46,488 - src.audio_mixer - INFO - Loaded audio: 60970ms (60.970s), 44100Hz, 2 channels
+2025-07-20 23:21:46,489 - src.audio_mixer - INFO - Voice duration: 28761ms
+2025-07-20 23:21:46,489 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-20 23:21:46,489 - src.audio_mixer - INFO - Target duration: 28761ms
+2025-07-20 23:21:46,490 - src.audio_mixer - INFO - Trimmed music from 28761ms to 28761ms
+2025-07-20 23:21:46,491 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-20 23:21:46,514 - src.audio_mixer - INFO - Voice adjusted by 10.2dB, Music by -10.4dB
+2025-07-20 23:21:46,522 - src.audio_mixer - INFO - Added 500ms fade-out to prevent end artifacts
+2025-07-20 23:21:46,532 - src.audio_mixer - INFO - ✅ Perfect duration match: 28761ms
+2025-07-20 23:21:46,532 - src.audio_mixer - INFO - Audio mixing completed: 28761ms
+2025-07-20 23:21:47,020 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\PanicOverPaperThe1973ShortageMystery\mixed_audio_PanicOverPaperThe1973ShortageMystery.mp3
+2025-07-20 23:21:47,023 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\PanicOverPaperThe1973ShortageMystery\mixed_audio_PanicOverPaperThe1973ShortageMystery.mp3
+2025-07-20 23:21:47,023 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 881,025 bytes (0.8 MB)
+2025-07-20 23:21:47,024 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: PanicOverPaperThe1973ShortageMystery
+2025-07-20 23:21:47,134 - autotube.full_pipeline - INFO - 🎵 Mixed audio duration: 28.813 seconds
+2025-07-20 23:21:47,219 - autotube.full_pipeline - INFO - 🎵 TTS audio duration: 28.761 seconds
+2025-07-20 23:21:47,219 - autotube.full_pipeline - INFO - 🎯 Exact target duration: 28.761 seconds
+2025-07-20 23:21:47,833 - autotube.full_pipeline - INFO - 🔧 Trimmed audio duration: 28.762s
+2025-07-20 23:21:47,833 - autotube.full_pipeline - INFO - ✅ Perfect audio trimming: 28.762s
+2025-07-20 23:21:47,833 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-20 23:21:47,835 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-20 23:21:47,835 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: PanicOverPaperThe1973ShortageMystery
+2025-07-20 23:21:47,962 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-20 23:21:47,962 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-20 23:21:47,963 - autotube.full_pipeline - INFO - 🎵 Audio duration: 28.810s
+2025-07-20 23:21:47,963 - autotube.full_pipeline - INFO - 📸 Number of images: 12
+2025-07-20 23:21:47,963 - autotube.full_pipeline - INFO - ⏱️ Calculated image duration: 2.401s
+2025-07-20 23:21:47,964 - autotube.full_pipeline - INFO - 📐 Expected total video duration: 28.810s
+2025-07-20 23:21:47,964 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.40 seconds per image
+2025-07-20 23:21:47,964 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\PanicOverPaperThe1973ShortageMystery\PanicOverPaperThe1973ShortageMystery_kenburns.mp4
+2025-07-20 23:21:47,965 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['zoom_out', 'pan_right', 'pan_left', 'pan_right', 'zoom_in']...
+2025-07-20 23:21:47,965 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-20 23:21:47,965 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 23:21:47,985 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-20 23:21:47,985 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-20 23:21:48,001 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-20 23:21:48,001 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 23:21:48,015 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-20 23:21:48,016 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-20 23:21:48,045 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-20 23:21:48,045 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-20 23:21:48,075 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-20 23:21:48,075 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-20 23:21:48,106 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-20 23:21:48,106 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 23:21:48,139 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-20 23:21:48,140 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 23:21:48,176 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-20 23:21:48,177 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-20 23:21:48,209 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-20 23:21:48,209 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-20 23:21:48,243 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-20 23:21:48,244 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 23:21:48,283 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-20 23:21:48,283 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-20 23:21:48,324 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-20 23:21:48,368 - autotube.full_pipeline - INFO - 📐 Expected video duration: 28.810s
+2025-07-20 23:21:48,369 - autotube.full_pipeline - INFO - 📹 Actual video duration: 28.810s
+2025-07-20 23:21:48,370 - autotube.full_pipeline - INFO - ✅ Video duration matches expected: 28.810s
+2025-07-20 23:21:48,370 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-20 23:21:48,469 - autotube.full_pipeline - INFO - 📹 Video duration: 28.810s
+2025-07-20 23:21:48,471 - autotube.full_pipeline - INFO - 🎵 Audio duration: 28.810s
+2025-07-20 23:21:48,471 - autotube.full_pipeline - INFO - ✅ Perfect duration match: 28.810s
+2025-07-20 23:21:48,488 - autotube.full_pipeline - INFO - 🔧 Trimmed video to match audio: 28.810s → 28.810s
+2025-07-20 23:21:48,489 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 28.810s
+2025-07-20 23:21:48,489 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\PanicOverPaperThe1973ShortageMystery\PanicOverPaperThe1973ShortageMystery_kenburns.mp4
+2025-07-20 23:22:16,302 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-20 23:22:16,303 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-20 23:22:16,303 - autotube.full_pipeline - INFO - ✅ Video duration: 28.83 seconds
+2025-07-20 23:22:16,303 - autotube.full_pipeline - INFO - ✅ Video file size: 9.5 MB
+2025-07-20 23:22:16,304 - autotube.full_pipeline - WARNING - ⚠️  Resolution seems low for HD: 768x1344
+2025-07-20 23:22:16,304 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-20 23:22:16,328 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\PanicOverPaperThe1973ShortageMystery\PanicOverPaperThe1973ShortageMystery_kenburns.mp4
+2025-07-20 23:22:16,328 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-20 23:22:16,329 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\PanicOverPaperThe1973ShortageMystery\PanicOverPaperThe1973ShortageMystery_kenburns.mp4
+2025-07-20 23:22:16,715 - autotube.full_pipeline - INFO - 📹 Ken Burns video duration: 28.830s
+2025-07-20 23:22:16,716 - autotube.full_pipeline - WARNING - ⚠️ Ken Burns video duration mismatch: 0.069s
+2025-07-20 23:22:16,716 - autotube.full_pipeline - INFO - ✂️ AGGRESSIVE TRIM: Ken Burns video 28.830s → 28.761s
+2025-07-20 23:22:27,890 - autotube.full_pipeline - INFO - ✅ Ken Burns video trimmed to exact duration: 28.761s
+2025-07-20 23:22:27,892 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-20 23:22:27,892 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-20 23:22:27,893 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-20 23:22:27,894 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-20 23:22:29,267 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-20 23:22:29,268 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-20 23:22:29,268 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-20 23:22:29,413 - faster_whisper - INFO - Processing audio with duration 00:28.813
+2025-07-20 23:22:31,920 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-20 23:22:43,329 - autotube.full_pipeline - INFO - Extracted 78 words with timing
+2025-07-20 23:22:43,329 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 14.06s
+2025-07-20 23:22:43,753 - autotube.full_pipeline - INFO - Video loading took 0.42s
+2025-07-20 23:22:43,753 - autotube.full_pipeline - INFO - Original video - Duration: 28.77s, FPS: 30.0, Audio: True
+2025-07-20 23:22:43,754 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 78 words...
+2025-07-20 23:22:43,754 - autotube.full_pipeline - INFO - Group 1: 4 words (22 chars), 0.00s - 2.80s
+2025-07-20 23:22:43,754 - autotube.full_pipeline - INFO - Group 2: 3 words (25 chars), 2.78s - 4.06s
+2025-07-20 23:22:43,754 - autotube.full_pipeline - INFO - Group 3: 4 words (21 chars), 4.44s - 5.54s
+2025-07-20 23:22:43,755 - autotube.full_pipeline - INFO - Group 4: 3 words (20 chars), 5.52s - 6.46s
+2025-07-20 23:22:43,755 - autotube.full_pipeline - INFO - Group 5: 3 words (12 chars), 6.92s - 7.44s
+2025-07-20 23:22:43,755 - autotube.full_pipeline - INFO - Group 6: 3 words (23 chars), 7.42s - 8.38s
+2025-07-20 23:22:43,755 - autotube.full_pipeline - INFO - Group 7: 4 words (21 chars), 8.36s - 9.46s
+2025-07-20 23:22:43,756 - autotube.full_pipeline - INFO - Group 8: 3 words (24 chars), 9.44s - 10.80s
+2025-07-20 23:22:43,756 - autotube.full_pipeline - INFO - Group 9: 3 words (19 chars), 10.78s - 11.98s
+2025-07-20 23:22:43,756 - autotube.full_pipeline - INFO - Group 10: 3 words (24 chars), 11.96s - 13.34s
+2025-07-20 23:22:43,756 - autotube.full_pipeline - INFO - Group 11: 3 words (28 chars), 13.32s - 14.64s
+2025-07-20 23:22:43,757 - autotube.full_pipeline - INFO - Group 12: 3 words (12 chars), 14.62s - 15.28s
+2025-07-20 23:22:43,757 - autotube.full_pipeline - INFO - Group 13: 3 words (15 chars), 15.26s - 15.98s
+2025-07-20 23:22:43,757 - autotube.full_pipeline - INFO - Group 14: 3 words (18 chars), 16.46s - 17.16s
+2025-07-20 23:22:43,757 - autotube.full_pipeline - INFO - Group 15: 3 words (26 chars), 17.14s - 18.18s
+2025-07-20 23:22:43,758 - autotube.full_pipeline - INFO - Group 16: 4 words (23 chars), 18.46s - 19.42s
+2025-07-20 23:22:43,758 - autotube.full_pipeline - INFO - Group 17: 3 words (25 chars), 19.40s - 20.48s
+2025-07-20 23:22:43,758 - autotube.full_pipeline - INFO - Group 18: 4 words (25 chars), 20.46s - 22.22s
+2025-07-20 23:22:43,758 - autotube.full_pipeline - INFO - Group 19: 4 words (20 chars), 22.20s - 23.36s
+2025-07-20 23:22:43,759 - autotube.full_pipeline - INFO - Group 20: 4 words (22 chars), 23.34s - 24.30s
+2025-07-20 23:22:43,759 - autotube.full_pipeline - INFO - Group 21: 3 words (22 chars), 24.28s - 25.56s
+2025-07-20 23:22:43,759 - autotube.full_pipeline - INFO - Group 22: 3 words (23 chars), 25.54s - 26.82s
+2025-07-20 23:22:43,759 - autotube.full_pipeline - INFO - Group 23: 3 words (22 chars), 26.80s - 27.78s
+2025-07-20 23:22:43,760 - autotube.full_pipeline - INFO - Group 24: 2 words (13 chars), 27.76s - 28.38s
+2025-07-20 23:22:43,760 - autotube.full_pipeline - INFO - Created 24 word groups with smart length limiting
+2025-07-20 23:22:43,760 - autotube.full_pipeline - INFO - Creating clips for group 1: 4 words
+2025-07-20 23:22:44,749 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.36s
+2025-07-20 23:22:45,840 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.32s - 1.82s
+2025-07-20 23:22:46,796 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 1.78s - 2.66s
+2025-07-20 23:22:47,694 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 1: 2.62s - 2.73s
+2025-07-20 23:22:47,694 - autotube.full_pipeline - INFO - Created clips for 1/24 word groups - ETA: 4s
+2025-07-20 23:22:47,695 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-20 23:22:48,917 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 2.78s - 3.04s
+2025-07-20 23:22:50,009 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 3.00s - 3.56s
+2025-07-20 23:22:51,190 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 3.52s - 4.36s
+2025-07-20 23:22:51,190 - autotube.full_pipeline - INFO - Creating clips for group 3: 4 words
+2025-07-20 23:22:52,260 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 4.44s - 4.70s
+2025-07-20 23:22:53,119 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 4.66s - 5.10s
+2025-07-20 23:22:53,988 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 5.06s - 5.42s
+2025-07-20 23:22:54,818 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 3: 5.38s - 5.47s
+2025-07-20 23:22:54,819 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-20 23:22:55,614 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 5.52s - 5.78s
+2025-07-20 23:22:56,350 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 5.74s - 6.04s
+2025-07-20 23:22:57,135 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 6.00s - 6.76s
+2025-07-20 23:22:57,136 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-20 23:22:57,627 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 6.92s - 7.20s
+2025-07-20 23:22:58,147 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 7.16s - 7.36s
+2025-07-20 23:22:58,692 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 7.32s - 7.37s
+2025-07-20 23:22:58,693 - autotube.full_pipeline - INFO - Creating clips for group 6: 3 words
+2025-07-20 23:22:59,699 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 7.42s - 7.70s
+2025-07-20 23:23:00,748 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 7.66s - 7.96s
+2025-07-20 23:23:01,771 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 7.92s - 8.31s
+2025-07-20 23:23:01,772 - autotube.full_pipeline - INFO - Creating clips for group 7: 4 words
+2025-07-20 23:23:02,644 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 8.36s - 8.64s
+2025-07-20 23:23:03,444 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 8.60s - 9.12s
+2025-07-20 23:23:04,328 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 9.08s - 9.32s
+2025-07-20 23:23:05,207 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 7: 9.28s - 9.39s
+2025-07-20 23:23:05,207 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-20 23:23:06,137 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 9.44s - 10.22s
+2025-07-20 23:23:07,077 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 10.18s - 10.50s
+2025-07-20 23:23:08,036 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 10.46s - 10.73s
+2025-07-20 23:23:08,036 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-20 23:23:08,748 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 10.78s - 11.12s
+2025-07-20 23:23:09,498 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 11.08s - 11.82s
+2025-07-20 23:23:10,235 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 11.78s - 11.91s
+2025-07-20 23:23:10,236 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-20 23:23:11,348 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 11.96s - 12.36s
+2025-07-20 23:23:12,448 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 12.32s - 12.76s
+2025-07-20 23:23:13,521 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 12.72s - 13.27s
+2025-07-20 23:23:13,521 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-20 23:23:14,778 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 13.32s - 13.96s
+2025-07-20 23:23:16,142 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 13.92s - 14.18s
+2025-07-20 23:23:17,295 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 14.14s - 14.57s
+2025-07-20 23:23:17,296 - autotube.full_pipeline - INFO - Created clips for 11/24 word groups - ETA: 34s
+2025-07-20 23:23:17,296 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-20 23:23:17,759 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 14.62s - 14.94s
+2025-07-20 23:23:18,239 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 14.90s - 15.06s
+2025-07-20 23:23:18,679 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 15.02s - 15.21s
+2025-07-20 23:23:18,679 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-20 23:23:19,206 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 15.26s - 15.54s
+2025-07-20 23:23:19,727 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 15.50s - 15.70s
+2025-07-20 23:23:20,277 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 15.66s - 16.28s
+2025-07-20 23:23:20,279 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-20 23:23:21,027 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 16.46s - 16.62s
+2025-07-20 23:23:21,764 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 16.58s - 16.84s
+2025-07-20 23:23:22,502 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 16.80s - 17.09s
+2025-07-20 23:23:22,502 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-20 23:23:23,555 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 17.14s - 17.36s
+2025-07-20 23:23:24,626 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 17.32s - 17.68s
+2025-07-20 23:23:25,677 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 17.64s - 18.41s
+2025-07-20 23:23:25,678 - autotube.full_pipeline - INFO - Creating clips for group 16: 4 words
+2025-07-20 23:23:26,557 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 18.46s - 18.54s
+2025-07-20 23:23:27,635 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 18.50s - 18.84s
+2025-07-20 23:23:28,485 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 18.80s - 19.16s
+2025-07-20 23:23:29,370 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 16: 19.12s - 19.35s
+2025-07-20 23:23:29,370 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-20 23:23:30,549 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 19.40s - 19.58s
+2025-07-20 23:23:31,767 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 19.54s - 19.98s
+2025-07-20 23:23:32,902 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 19.94s - 20.41s
+2025-07-20 23:23:32,902 - autotube.full_pipeline - INFO - Creating clips for group 18: 4 words
+2025-07-20 23:23:34,021 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 20.46s - 20.70s
+2025-07-20 23:23:35,118 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 20.66s - 20.98s
+2025-07-20 23:23:36,340 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 20.94s - 22.04s
+2025-07-20 23:23:37,499 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 18: 22.00s - 22.15s
+2025-07-20 23:23:37,499 - autotube.full_pipeline - INFO - Creating clips for group 19: 4 words
+2025-07-20 23:23:38,247 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 22.20s - 22.34s
+2025-07-20 23:23:39,007 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 22.30s - 22.48s
+2025-07-20 23:23:39,740 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 22.44s - 23.22s
+2025-07-20 23:23:40,547 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 19: 23.18s - 23.29s
+2025-07-20 23:23:40,548 - autotube.full_pipeline - INFO - Creating clips for group 20: 4 words
+2025-07-20 23:23:41,625 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 23.34s - 23.46s
+2025-07-20 23:23:42,700 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 23.42s - 23.56s
+2025-07-20 23:23:43,945 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 23.52s - 23.92s
+2025-07-20 23:23:45,244 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 20: 23.88s - 24.23s
+2025-07-20 23:23:45,244 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-20 23:23:46,478 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 24.28s - 24.52s
+2025-07-20 23:23:47,611 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 24.48s - 24.98s
+2025-07-20 23:23:48,892 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 24.94s - 25.49s
+2025-07-20 23:23:48,893 - autotube.full_pipeline - INFO - Created clips for 21/24 word groups - ETA: 65s
+2025-07-20 23:23:48,893 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-20 23:23:50,823 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 25.54s - 25.96s
+2025-07-20 23:23:52,636 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 25.92s - 26.46s
+2025-07-20 23:23:55,212 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 26.42s - 26.75s
+2025-07-20 23:23:55,212 - autotube.full_pipeline - INFO - Creating clips for group 23: 3 words
+2025-07-20 23:23:57,922 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 26.80s - 27.08s
+2025-07-20 23:24:01,124 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 27.04s - 27.24s
+2025-07-20 23:24:04,273 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 27.20s - 27.71s
+2025-07-20 23:24:04,274 - autotube.full_pipeline - INFO - Creating clips for group 24: 2 words
+2025-07-20 23:24:06,018 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 27.76s - 28.08s
+2025-07-20 23:24:07,756 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 28.04s - 28.58s
+2025-07-20 23:24:07,757 - autotube.full_pipeline - INFO - Created 78 individual subtitle clips
+2025-07-20 23:24:07,759 - autotube.full_pipeline - INFO - Viral subtitle creation took 84.01s
+2025-07-20 23:24:07,760 - autotube.full_pipeline - INFO - Subtitle clips count: 78
+2025-07-20 23:24:07,795 - autotube.full_pipeline - INFO - Video composition took 0.03s
+2025-07-20 23:24:07,795 - autotube.full_pipeline - INFO - Original audio duration: 28.770s
+2025-07-20 23:24:07,796 - autotube.full_pipeline - INFO - Final video duration: 28.770s
+2025-07-20 23:24:07,796 - autotube.full_pipeline - INFO - Final audio duration: 28.770s
+2025-07-20 23:24:07,797 - autotube.full_pipeline - INFO - Final video - Duration: 28.77s, Audio: True
+2025-07-20 23:24:07,797 - autotube.full_pipeline - INFO - Writing HD viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\PanicOverPaperThe1973ShortageMystery\PanicOverPaperThe1973ShortageMystery_final.mp4
+2025-07-20 23:24:42,009 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\PanicOverPaperThe1973ShortageMystery\PanicOverPaperThe1973ShortageMystery_kenburns.mp4, 3096576 bytes wanted but 0 bytes read,at frame 863/864, at time 28.77/28.77 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-07-20 23:24:44,419 - autotube.full_pipeline - INFO - Video writing took 36.62s
+2025-07-20 23:24:44,419 - autotube.full_pipeline - INFO - Validating output file with duration verification...
+2025-07-20 23:24:44,902 - autotube.full_pipeline - INFO - Output file - Video Duration: 28.800s, Audio Duration: 28.800s
+2025-07-20 23:24:44,903 - autotube.full_pipeline - INFO - ✅ Perfect audio duration match: 28.800s
+2025-07-20 23:24:44,903 - autotube.full_pipeline - INFO - ✅ Perfect video duration match: 28.800s
+2025-07-20 23:24:44,935 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\PanicOverPaperThe1973ShortageMystery\PanicOverPaperThe1973ShortageMystery_final.mp4
+2025-07-20 23:24:44,935 - autotube.full_pipeline - INFO - Total processing time: 135.67s
+2025-07-20 23:24:44,936 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\PanicOverPaperThe1973ShortageMystery\PanicOverPaperThe1973ShortageMystery_final.mp4
+2025-07-20 23:24:44,936 - autotube.full_pipeline - INFO - 📊 Final video size: 8,267,324 bytes (7.9 MB)
+2025-07-20 23:24:45,396 - autotube.full_pipeline - INFO - 📹 Final video duration: 28.800s
+2025-07-20 23:24:45,397 - autotube.full_pipeline - WARNING - ⚠️ FINAL VIDEO DURATION MISMATCH: 0.039s
+2025-07-20 23:24:45,398 - autotube.full_pipeline - INFO - ✂️ AGGRESSIVE FINAL TRIM: Final video 28.800s → 28.761s
+2025-07-20 23:25:02,187 - autotube.full_pipeline - INFO - ✅ Final video trimmed to exact duration: 28.761s
+2025-07-20 23:25:02,187 - autotube.full_pipeline - INFO - ✅ No repetitive ending issues expected!
+2025-07-20 23:25:02,188 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-20 23:25:02,188 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\PanicOverPaperThe1973ShortageMystery\PanicOverPaperThe1973ShortageMystery_kenburns.mp4
+2025-07-20 23:25:02,189 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\PanicOverPaperThe1973ShortageMystery\PanicOverPaperThe1973ShortageMystery_final.mp4
+2025-07-20 23:25:02,240 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (196.10s)
+2025-07-20 23:25:02,241 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-20 23:25:02,245 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_PanicOverPaperThe1973ShortageMystery_20250720_232502.json
+2025-07-20 23:25:02,245 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-20 23:25:02,246 - autotube.full_pipeline - INFO - ============================================================
+2025-07-20 23:25:02,246 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 265.09s
+2025-07-20 23:25:02,247 - autotube.full_pipeline - INFO - 📁 Story Title: PanicOverPaperThe1973ShortageMystery
+2025-07-20 23:25:02,247 - autotube.full_pipeline - INFO - 📁 Sanitized Title: PanicOverPaperThe1973ShortageMystery
+2025-07-20 23:25:02,248 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_PanicOverPaperThe1973ShortageMystery_20250720_232502.json

@@ -1,0 +1,340 @@
+2025-07-18 21:56:15,045 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-18 21:56:15,046 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250718_215615.log
+2025-07-18 21:56:15,046 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-18 21:56:15,046 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 21:56:15,047 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 21:56:15,048 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 21:56:16,364 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:19,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:19,753 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:19,773 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Day the Berlin Wall Fell: A Symbol of Unity and Hope  
+**Summary:** On November 9, 1989, amidst cheers and celebrations, the Berlin Wall crumbled, signaling the end of an era and igniting a wave of democratic movements across Eastern Europe.
+2025-07-18 21:56:19,774 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheDaytheBerlinWallFellASymbolofUnityandHopeS_content_gen_2025-07-18_21-56-19.log
+2025-07-18 21:56:19,774 - autotube.content_gen - INFO - 📁 Sanitized folder name: BerlinWallsCollapseAHistoricTurningPoint
+2025-07-18 21:56:19,774 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 87 words
+2025-07-18 21:56:19,779 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\BerlinWallsCollapseAHistoricTurningPoint\story.json (1,199 bytes)
+2025-07-18 21:56:19,780 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\BerlinWallsCollapseAHistoricTurningPoint\topic.txt (257 bytes)
+2025-07-18 21:56:19,780 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\BerlinWallsCollapseAHistoricTurningPoint\metadata.json (654 bytes)
+2025-07-18 21:56:19,781 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\BerlinWallsCollapseAHistoricTurningPoint\story.txt (1,105 bytes)
+2025-07-18 21:56:19,782 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\BerlinWallsCollapseAHistoricTurningPoint
+2025-07-18 21:56:28,280 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\BerlinWallsCollapseAHistoricTurningPoint\audio_BerlinWallsCollapseAHistoricTurningPoint.mp3 (547,571 bytes)
+2025-07-18 21:56:28,375 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 34.22s duration
+2025-07-18 21:56:29,369 - autotube.content_gen - INFO - ✅ Audio speed adjustment: 1.1x, new duration: 31.16s
+2025-07-18 21:56:29,370 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\BerlinWallsCollapseAHistoricTurningPoint\audio_BerlinWallsCollapseAHistoricTurningPoint_sped_up.mp3 (547,571 bytes, 31.16s)
+2025-07-18 21:56:29,371 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-18 21:56:29,371 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-18 21:56:29,371 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\BerlinWallsCollapseAHistoricTurningPoint\audio_BerlinWallsCollapseAHistoricTurningPoint_sped_up.mp3
+2025-07-18 21:56:29,372 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-18 21:56:30,174 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-18 21:56:30,283 - faster_whisper - INFO - Processing audio with duration 00:31.129
+2025-07-18 21:56:30,979 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 21:56:34,288 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 29.70s
+2025-07-18 21:56:34,288 - whisper_audio_synchronizer - INFO - 📝 Extracted 86 words with timestamps
+2025-07-18 21:56:34,289 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 29.70s, Image duration: 2.48s
+2025-07-18 21:56:34,289 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-18 21:56:34,289 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-18 21:56:36,376 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:36,458 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): Establishing shot of the Berlin Wall, towering and...
+2025-07-18 21:56:38,220 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:38,222 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of jubilant Berliners on November 9, 198...
+2025-07-18 21:56:39,950 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:39,952 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (character_action/medium_shot): Medium shot of jubilant Berliners, faces illuminat...
+2025-07-18 21:56:41,582 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:41,583 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/wide_shot): Wide shot of jubilant crowds in Berlin, hands reac...
+2025-07-18 21:56:43,106 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:43,107 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (character_action/medium_shot): Medium shot of jubilant Berliners, faces aglow wit...
+2025-07-18 21:56:44,520 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:44,522 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (character_action/medium_shot): Medium shot of jubilant Berliners passionately tea...
+2025-07-18 21:56:46,051 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:46,053 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/wide_shot): Wide shot of the Berlin Wall crumbling as thousand...
+2025-07-18 21:56:48,153 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:48,154 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/wide_shot): Wide shot of a jubilant crowd in Berlin, hands rai...
+2025-07-18 21:56:50,034 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:50,035 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/wide_shot): Wide shot of a vibrant Berlin street filled with j...
+2025-07-18 21:56:52,092 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:52,093 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/wide_shot): Wide shot of a bustling Berlin street on November ...
+2025-07-18 21:56:53,684 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:53,686 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/wide_shot): Wide shot of jubilant crowds in Berlin, with fragm...
+2025-07-18 21:56:55,298 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:56:55,302 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/medium_shot): Medium shot of jubilant Berliners with expressions...
+2025-07-18 21:56:55,305 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Berlin_Walls_Collapse_A_Historic_Turning_Point_whisper_sync.json
+2025-07-18 21:56:55,305 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-18 21:56:55,305 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-18 21:56:55,306 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-18 21:56:55,307 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-18 21:56:55,320 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\renaissance 0).wav (11,466,120 bytes)
+2025-07-18 21:56:55,322 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\BerlinWallsCollapseAHistoricTurningPoint\music_selection.json (318 bytes)
+2025-07-18 21:56:55,322 - autotube.content_gen - INFO - ✅ Music selected: renaissance 0).wav
+2025-07-18 21:56:55,323 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-18 21:56:55,323 - src.replicate_image_generator - INFO - Generating images for story: Berlin Wall's Collapse: A Historic Turning Point
+2025-07-18 21:56:55,323 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-18 21:56:55,324 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-18 21:56:55,324 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-18 21:56:56,406 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:56:57,994 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:56:59,530 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:57:01,048 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:57:02,519 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:57:04,085 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:57:05,626 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:57:07,157 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:57:08,660 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:57:10,300 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:57:12,039 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:57:13,539 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:57:14,419 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-18 21:57:14,419 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-18 21:57:14,420 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-18 21:57:14,421 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-18 21:57:14,423 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-18 21:57:14,423 - autotube.content_gen - INFO - 📊 Total time: 59.37s, Cost: $0.0360
+2025-07-18 21:57:14,423 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Day the Berlin Wall Fell: A Symbol of Unity and Hope  
+**Summary:** On November 9, 1989, amidst cheers and celebrations, the Berlin Wall crumbled, signaling the end of an era and igniting a wave of democratic movements across Eastern Europe.
+2025-07-18 21:57:14,444 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (59.40s)
+2025-07-18 21:57:14,444 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 21:57:14,445 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 21:57:14,445 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: BerlinWallsCollapseAHistoricTurningPoint
+2025-07-18 21:57:14,445 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: BerlinWallsCollapseAHistoricTurningPoint
+2025-07-18 21:57:14,445 - autotube.full_pipeline - INFO - ✅ Found source TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\BerlinWallsCollapseAHistoricTurningPoint\audio_BerlinWallsCollapseAHistoricTurningPoint.mp3
+2025-07-18 21:57:14,446 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\BerlinWallsCollapseAHistoricTurningPoint\music_selection.json
+2025-07-18 21:57:14,455 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\renaissance 0).wav
+2025-07-18 21:57:14,482 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-18 21:57:14,482 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\BerlinWallsCollapseAHistoricTurningPoint\audio_BerlinWallsCollapseAHistoricTurningPoint.mp3
+2025-07-18 21:57:14,594 - src.audio_mixer - INFO - Loaded audio: 34220ms, 44100Hz, 2 channels
+2025-07-18 21:57:14,594 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\renaissance 0).wav
+2025-07-18 21:57:14,625 - src.audio_mixer - INFO - Loaded audio: 65000ms, 44100Hz, 2 channels
+2025-07-18 21:57:14,625 - src.audio_mixer - INFO - Mixing audio (simple, mobile-optimized)...
+2025-07-18 21:57:14,626 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-18 21:57:14,668 - src.audio_mixer - INFO - Voice adjusted by 9.3dB, Music by -8.3dB
+2025-07-18 21:57:14,697 - src.audio_mixer - INFO - Audio mixing completed: 34220ms
+2025-07-18 21:57:15,276 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\BerlinWallsCollapseAHistoricTurningPoint\mixed_audio_BerlinWallsCollapseAHistoricTurningPoint.mp3
+2025-07-18 21:57:15,280 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\BerlinWallsCollapseAHistoricTurningPoint\mixed_audio_BerlinWallsCollapseAHistoricTurningPoint.mp3
+2025-07-18 21:57:15,281 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 1,111,708 bytes (1.1 MB)
+2025-07-18 21:57:15,282 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: BerlinWallsCollapseAHistoricTurningPoint
+2025-07-18 21:57:15,283 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-18 21:57:15,283 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-18 21:57:15,283 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: BerlinWallsCollapseAHistoricTurningPoint
+2025-07-18 21:57:15,467 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-18 21:57:15,468 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-18 21:57:15,468 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.85 seconds per image
+2025-07-18 21:57:15,469 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\BerlinWallsCollapseAHistoricTurningPoint_kenburns.mp4
+2025-07-18 21:57:15,470 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['zoom_out', 'pan_right', 'zoom_out', 'pan_right', 'pan_left']...
+2025-07-18 21:57:15,470 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-18 21:57:15,471 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 21:57:15,503 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-18 21:57:15,503 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 21:57:15,527 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-18 21:57:15,527 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 21:57:15,550 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-18 21:57:15,551 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 21:57:15,591 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-18 21:57:15,592 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 21:57:15,623 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-18 21:57:15,623 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 21:57:15,656 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-18 21:57:15,656 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 21:57:15,690 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-18 21:57:15,690 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 21:57:15,723 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-18 21:57:15,723 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 21:57:15,763 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-18 21:57:15,763 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 21:57:15,803 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-18 21:57:15,803 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 21:57:15,842 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-18 21:57:15,842 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 21:57:15,876 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-18 21:57:15,927 - autotube.full_pipeline - INFO - 🎵 Adding audio to video...
+2025-07-18 21:57:16,025 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\BerlinWallsCollapseAHistoricTurningPoint_kenburns.mp4
+2025-07-18 21:57:59,558 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-18 21:57:59,558 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-18 21:57:59,558 - autotube.full_pipeline - INFO - ✅ Video duration: 34.27 seconds
+2025-07-18 21:57:59,559 - autotube.full_pipeline - INFO - ✅ Video file size: 7.2 MB
+2025-07-18 21:57:59,559 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-18 21:57:59,584 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\BerlinWallsCollapseAHistoricTurningPoint_kenburns.mp4
+2025-07-18 21:57:59,585 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-18 21:57:59,585 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\BerlinWallsCollapseAHistoricTurningPoint_kenburns.mp4
+2025-07-18 21:57:59,586 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-18 21:57:59,586 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-18 21:57:59,587 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-18 21:57:59,587 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-18 21:58:00,859 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-18 21:58:00,860 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-18 21:58:00,861 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-18 21:58:01,033 - faster_whisper - INFO - Processing audio with duration 00:34.220
+2025-07-18 21:58:03,727 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 21:58:14,880 - autotube.full_pipeline - INFO - Extracted 86 words with timing
+2025-07-18 21:58:14,881 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 14.02s
+2025-07-18 21:58:15,206 - autotube.full_pipeline - INFO - Video loading took 0.32s
+2025-07-18 21:58:15,207 - autotube.full_pipeline - INFO - Original video - Duration: 34.27s, FPS: 30.0, Audio: True
+2025-07-18 21:58:15,207 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 86 words...
+2025-07-18 21:58:15,207 - autotube.full_pipeline - INFO - Group 1: 3 words (15 chars), 0.00s - 0.86s
+2025-07-18 21:58:15,207 - autotube.full_pipeline - INFO - Group 2: 4 words (21 chars), 1.16s - 3.28s
+2025-07-18 21:58:15,207 - autotube.full_pipeline - INFO - Group 3: 4 words (17 chars), 3.26s - 4.28s
+2025-07-18 21:58:15,208 - autotube.full_pipeline - INFO - Group 4: 3 words (22 chars), 4.26s - 5.46s
+2025-07-18 21:58:15,208 - autotube.full_pipeline - INFO - Group 5: 4 words (24 chars), 5.44s - 6.86s
+2025-07-18 21:58:15,208 - autotube.full_pipeline - INFO - Group 6: 4 words (20 chars), 6.84s - 8.40s
+2025-07-18 21:58:15,208 - autotube.full_pipeline - INFO - Group 7: 3 words (21 chars), 8.38s - 9.60s
+2025-07-18 21:58:15,208 - autotube.full_pipeline - INFO - Group 8: 3 words (23 chars), 9.58s - 11.36s
+2025-07-18 21:58:15,208 - autotube.full_pipeline - INFO - Group 9: 3 words (22 chars), 11.86s - 12.94s
+2025-07-18 21:58:15,208 - autotube.full_pipeline - INFO - Group 10: 3 words (22 chars), 12.92s - 14.02s
+2025-07-18 21:58:15,209 - autotube.full_pipeline - INFO - Group 11: 3 words (20 chars), 14.00s - 14.96s
+2025-07-18 21:58:15,209 - autotube.full_pipeline - INFO - Group 12: 4 words (23 chars), 15.28s - 16.46s
+2025-07-18 21:58:15,209 - autotube.full_pipeline - INFO - Group 13: 3 words (21 chars), 16.44s - 17.48s
+2025-07-18 21:58:15,209 - autotube.full_pipeline - INFO - Group 14: 3 words (13 chars), 17.86s - 18.54s
+2025-07-18 21:58:15,209 - autotube.full_pipeline - INFO - Group 15: 4 words (24 chars), 18.52s - 19.94s
+2025-07-18 21:58:15,210 - autotube.full_pipeline - INFO - Group 16: 4 words (18 chars), 19.92s - 20.86s
+2025-07-18 21:58:15,210 - autotube.full_pipeline - INFO - Group 17: 3 words (28 chars), 20.84s - 22.32s
+2025-07-18 21:58:15,210 - autotube.full_pipeline - INFO - Group 18: 3 words (25 chars), 22.30s - 23.88s
+2025-07-18 21:58:15,210 - autotube.full_pipeline - INFO - Group 19: 4 words (22 chars), 23.86s - 25.18s
+2025-07-18 21:58:15,210 - autotube.full_pipeline - INFO - Group 20: 3 words (24 chars), 25.16s - 26.82s
+2025-07-18 21:58:15,210 - autotube.full_pipeline - INFO - Group 21: 4 words (22 chars), 26.80s - 28.20s
+2025-07-18 21:58:15,210 - autotube.full_pipeline - INFO - Group 22: 3 words (21 chars), 28.18s - 29.82s
+2025-07-18 21:58:15,210 - autotube.full_pipeline - INFO - Group 23: 3 words (19 chars), 29.80s - 30.34s
+2025-07-18 21:58:15,211 - autotube.full_pipeline - INFO - Group 24: 3 words (13 chars), 30.32s - 30.94s
+2025-07-18 21:58:15,211 - autotube.full_pipeline - INFO - Group 25: 3 words (17 chars), 30.92s - 31.64s
+2025-07-18 21:58:15,211 - autotube.full_pipeline - INFO - Group 26: 2 words (19 chars), 31.62s - 32.66s
+2025-07-18 21:58:15,211 - autotube.full_pipeline - INFO - Created 26 word groups with smart length limiting
+2025-07-18 21:58:15,211 - autotube.full_pipeline - INFO - Creating clips for group 1: 3 words
+2025-07-18 21:58:15,905 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.16s
+2025-07-18 21:58:16,547 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.12s - 0.44s
+2025-07-18 21:58:17,130 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.40s - 1.11s
+2025-07-18 21:58:17,130 - autotube.full_pipeline - INFO - Created clips for 1/26 word groups - ETA: 2s
+2025-07-18 21:58:17,130 - autotube.full_pipeline - INFO - Creating clips for group 2: 4 words
+2025-07-18 21:58:17,853 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 1.16s - 2.38s
+2025-07-18 21:58:18,559 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 2.34s - 2.58s
+2025-07-18 21:58:19,244 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 2.54s - 2.74s
+2025-07-18 21:58:20,011 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 2: 2.70s - 3.21s
+2025-07-18 21:58:20,011 - autotube.full_pipeline - INFO - Creating clips for group 3: 4 words
+2025-07-18 21:58:20,581 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 3.26s - 3.48s
+2025-07-18 21:58:21,162 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 3.44s - 3.78s
+2025-07-18 21:58:21,690 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 3.74s - 4.14s
+2025-07-18 21:58:22,200 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 3: 4.10s - 4.21s
+2025-07-18 21:58:22,200 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-18 21:58:22,973 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 4.26s - 4.58s
+2025-07-18 21:58:23,772 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 4.54s - 5.04s
+2025-07-18 21:58:24,594 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 5.00s - 5.39s
+2025-07-18 21:58:24,595 - autotube.full_pipeline - INFO - Creating clips for group 5: 4 words
+2025-07-18 21:58:25,463 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 5.44s - 5.64s
+2025-07-18 21:58:26,284 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 5.60s - 5.90s
+2025-07-18 21:58:27,142 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 5.86s - 6.68s
+2025-07-18 21:58:28,065 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 5: 6.64s - 6.79s
+2025-07-18 21:58:28,066 - autotube.full_pipeline - INFO - Creating clips for group 6: 4 words
+2025-07-18 21:58:28,818 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 6.84s - 7.46s
+2025-07-18 21:58:29,515 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 7.42s - 7.72s
+2025-07-18 21:58:30,237 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 7.68s - 8.20s
+2025-07-18 21:58:30,944 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 6: 8.16s - 8.33s
+2025-07-18 21:58:30,944 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-18 21:58:31,677 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 8.38s - 8.78s
+2025-07-18 21:58:32,389 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 8.74s - 9.28s
+2025-07-18 21:58:33,122 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 9.24s - 9.53s
+2025-07-18 21:58:33,123 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-18 21:58:33,869 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 9.58s - 10.22s
+2025-07-18 21:58:34,633 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 10.18s - 10.54s
+2025-07-18 21:58:35,410 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 10.50s - 11.66s
+2025-07-18 21:58:35,410 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-18 21:58:36,268 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 11.86s - 12.28s
+2025-07-18 21:58:37,123 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 12.24s - 12.72s
+2025-07-18 21:58:37,944 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 12.68s - 12.87s
+2025-07-18 21:58:37,945 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-18 21:58:38,760 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 12.92s - 13.58s
+2025-07-18 21:58:39,574 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 13.54s - 13.74s
+2025-07-18 21:58:40,385 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 13.70s - 13.95s
+2025-07-18 21:58:40,385 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-18 21:58:41,128 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 14.00s - 14.32s
+2025-07-18 21:58:41,868 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 14.28s - 14.52s
+2025-07-18 21:58:42,589 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 14.48s - 15.23s
+2025-07-18 21:58:42,589 - autotube.full_pipeline - INFO - Created clips for 11/26 word groups - ETA: 27s
+2025-07-18 21:58:42,590 - autotube.full_pipeline - INFO - Creating clips for group 12: 4 words
+2025-07-18 21:58:44,172 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 15.28s - 15.88s
+2025-07-18 21:58:46,099 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 15.84s - 16.06s
+2025-07-18 21:58:48,528 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 16.02s - 16.32s
+2025-07-18 21:58:51,613 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 12: 16.28s - 16.39s
+2025-07-18 21:58:51,613 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-18 21:58:53,756 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 16.44s - 16.56s
+2025-07-18 21:58:55,116 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 16.52s - 16.96s
+2025-07-18 21:58:56,246 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 16.92s - 17.78s
+2025-07-18 21:58:56,247 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-18 21:58:56,787 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 17.86s - 18.04s
+2025-07-18 21:58:57,296 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 18.00s - 18.30s
+2025-07-18 21:58:57,925 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 18.26s - 18.47s
+2025-07-18 21:58:57,926 - autotube.full_pipeline - INFO - Creating clips for group 15: 4 words
+2025-07-18 21:58:59,624 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 18.52s - 18.82s
+2025-07-18 21:59:01,568 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 18.78s - 19.26s
+2025-07-18 21:59:03,437 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 19.22s - 19.62s
+2025-07-18 21:59:05,451 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 15: 19.58s - 19.87s
+2025-07-18 21:59:05,452 - autotube.full_pipeline - INFO - Creating clips for group 16: 4 words
+2025-07-18 21:59:07,014 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 19.92s - 20.28s
+2025-07-18 21:59:08,616 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 20.24s - 20.50s
+2025-07-18 21:59:10,741 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 20.46s - 20.70s
+2025-07-18 21:59:12,219 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 16: 20.66s - 20.79s
+2025-07-18 21:59:12,219 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-18 21:59:14,076 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 20.84s - 21.30s
+2025-07-18 21:59:16,038 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 21.26s - 22.04s
+2025-07-18 21:59:17,935 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 22.00s - 22.25s
+2025-07-18 21:59:17,936 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-18 21:59:19,289 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 22.30s - 22.92s
+2025-07-18 21:59:21,260 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 22.88s - 23.58s
+2025-07-18 21:59:22,899 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 23.54s - 23.81s
+2025-07-18 21:59:22,900 - autotube.full_pipeline - INFO - Creating clips for group 19: 4 words
+2025-07-18 21:59:24,259 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 23.86s - 24.26s
+2025-07-18 21:59:25,939 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 24.22s - 24.56s
+2025-07-18 21:59:27,110 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 24.52s - 24.84s
+2025-07-18 21:59:28,527 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 19: 24.80s - 25.11s
+2025-07-18 21:59:28,528 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-18 21:59:30,771 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 25.16s - 26.46s
+2025-07-18 21:59:32,827 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 26.42s - 26.60s
+2025-07-18 21:59:34,282 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 26.56s - 26.75s
+2025-07-18 21:59:34,282 - autotube.full_pipeline - INFO - Creating clips for group 21: 4 words
+2025-07-18 21:59:35,443 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 26.80s - 27.10s
+2025-07-18 21:59:36,510 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 27.06s - 27.78s
+2025-07-18 21:59:37,599 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 27.74s - 27.86s
+2025-07-18 21:59:38,751 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 21: 27.82s - 28.13s
+2025-07-18 21:59:38,752 - autotube.full_pipeline - INFO - Created clips for 21/26 word groups - ETA: 84s
+2025-07-18 21:59:38,752 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-18 21:59:40,587 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 28.18s - 28.64s
+2025-07-18 21:59:42,780 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 28.60s - 29.12s
+2025-07-18 21:59:45,956 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 29.08s - 29.75s
+2025-07-18 21:59:45,957 - autotube.full_pipeline - INFO - Creating clips for group 23: 3 words
+2025-07-18 21:59:48,780 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 29.80s - 29.96s
+2025-07-18 21:59:50,858 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 29.92s - 30.08s
+2025-07-18 21:59:52,822 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 30.04s - 30.27s
+2025-07-18 21:59:52,823 - autotube.full_pipeline - INFO - Creating clips for group 24: 3 words
+2025-07-18 21:59:53,997 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 30.32s - 30.48s
+2025-07-18 21:59:55,114 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 30.44s - 30.74s
+2025-07-18 21:59:56,469 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 30.70s - 30.87s
+2025-07-18 21:59:56,469 - autotube.full_pipeline - INFO - Creating clips for group 25: 3 words
+2025-07-18 21:59:57,940 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 30.92s - 31.16s
+2025-07-18 21:59:58,926 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 31.12s - 31.36s
+2025-07-18 21:59:59,738 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 31.32s - 31.57s
+2025-07-18 21:59:59,738 - autotube.full_pipeline - INFO - Creating clips for group 26: 2 words
+2025-07-18 22:00:00,853 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 26: 31.62s - 32.10s
+2025-07-18 22:00:02,465 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 26: 32.06s - 32.86s
+2025-07-18 22:00:02,465 - autotube.full_pipeline - INFO - Created 86 individual subtitle clips
+2025-07-18 22:00:02,468 - autotube.full_pipeline - INFO - Viral subtitle creation took 107.26s
+2025-07-18 22:00:02,468 - autotube.full_pipeline - INFO - Subtitle clips count: 86
+2025-07-18 22:00:02,485 - autotube.full_pipeline - INFO - Video composition took 0.02s
+2025-07-18 22:00:02,485 - autotube.full_pipeline - INFO - Final video - Duration: 34.27s, Audio: True
+2025-07-18 22:00:02,485 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\BerlinWallsCollapseAHistoricTurningPoint_final.mp4
+2025-07-18 22:00:45,647 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\BerlinWallsCollapseAHistoricTurningPoint_kenburns.mp4, 3096576 bytes wanted but 0 bytes read,at frame 1028/1029, at time 34.27/34.27 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-07-18 22:00:46,340 - autotube.full_pipeline - INFO - Video writing took 43.85s
+2025-07-18 22:00:46,340 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-18 22:00:46,916 - autotube.full_pipeline - INFO - Output file - Duration: 34.30s, Audio: True, Playable: True
+2025-07-18 22:00:46,959 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\BerlinWallsCollapseAHistoricTurningPoint_final.mp4
+2025-07-18 22:00:46,960 - autotube.full_pipeline - INFO - Total processing time: 166.10s
+2025-07-18 22:00:46,961 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\BerlinWallsCollapseAHistoricTurningPoint_final.mp4
+2025-07-18 22:00:46,961 - autotube.full_pipeline - INFO - 📊 Final video size: 5,429,691 bytes (5.2 MB)
+2025-07-18 22:00:46,962 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-18 22:00:46,962 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\BerlinWallsCollapseAHistoricTurningPoint_kenburns.mp4
+2025-07-18 22:00:46,963 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\BerlinWallsCollapseAHistoricTurningPoint_final.mp4
+2025-07-18 22:00:47,015 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (212.57s)
+2025-07-18 22:00:47,016 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-18 22:00:47,023 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_BerlinWallsCollapseAHistoricTurningPoint_20250718_220047.json
+2025-07-18 22:00:47,024 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-18 22:00:47,024 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 22:00:47,025 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 271.97s
+2025-07-18 22:00:47,025 - autotube.full_pipeline - INFO - 📁 Story Title: BerlinWallsCollapseAHistoricTurningPoint
+2025-07-18 22:00:47,026 - autotube.full_pipeline - INFO - 📁 Sanitized Title: BerlinWallsCollapseAHistoricTurningPoint
+2025-07-18 22:00:47,026 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_BerlinWallsCollapseAHistoricTurningPoint_20250718_220047.json

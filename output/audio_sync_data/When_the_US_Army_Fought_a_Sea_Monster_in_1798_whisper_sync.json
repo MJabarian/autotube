@@ -1,0 +1,393 @@
+{
+  "story_title": "When the U.S. Army Fought a Sea Monster in 1798",
+  "original_story": "[curious] In 1798, a Massachusetts town faced a terrifying enemy: a gigantic sea serpent! Residents of Gloucester reported sightings of a 100-foot-long creature lurking off their coast. Panic swept through the town as whispers of its immense size spread. To protect the fearful citizens, local officials called on the U.S. Army for help. Yes, you heard that right! They mobilized soldiers to patrol the waters armed with cannons and muskets, ready to confront this mythical beast. Boats were dispatched, and fishermen nervously returned to shore, their nets empty. Historical accounts show that even the local newspaper printed detailed descriptions of the serpent, claiming it had a long, snake-like body and a formidable head. The frenzy reached such levels that some brave souls even tried to hunt it down! Ultimately, the creature was never found, but the legend of Gloucester's sea serpent lives on, raising the question: what really lurked beneath those waves? Were people just seeing shadows—or something more real? [pause:0.5s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.871,
+      "audio_content": "In 1798, a Massachusetts town faced",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9584851215283076
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.871,
+      "timestamp_end": 5.742,
+      "audio_content": "terrifying enemy, a gigantic sea serpent.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9597184558709463
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.742,
+      "timestamp_end": 8.613,
+      "audio_content": "Residents of Gloucester reported sightings of a",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9784992805549076
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.613,
+      "timestamp_end": 11.484,
+      "audio_content": "-foot -long creature lurking off their coast.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9571139897618975
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 11.484,
+      "timestamp_end": 14.355,
+      "audio_content": "swept through the town as whispers of its immense size",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9329037755727768
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 14.355,
+      "timestamp_end": 17.226,
+      "audio_content": "To protect the fearful citizens, local",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9922209978103638
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 17.226,
+      "timestamp_end": 20.097,
+      "audio_content": "called on the US Army for help. Yes,",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9122528806328773
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 20.097,
+      "timestamp_end": 22.968,
+      "audio_content": "you heard that right. They mobilized soldiers to",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9851457141339779
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 22.968,
+      "timestamp_end": 25.839,
+      "audio_content": "the waters armed with cannons and muskets, ready",
+      "words_in_segment": 8,
+      "confidence_avg": 0.979257454474767
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 25.839,
+      "timestamp_end": 28.71,
+      "audio_content": "confront this mythical beast. Boats were",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9149799409011999
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 28.71,
+      "timestamp_end": 31.581,
+      "audio_content": "and fishermen nervously returned ashore their nets",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8524194189480373
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 31.581,
+      "timestamp_end": 34.452,
+      "audio_content": "Historical accounts show that even the",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9716183642546335
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 34.452,
+      "timestamp_end": 37.323,
+      "audio_content": "newspaper printed detailed descriptions of the",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9922411640485128
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 37.323,
+      "timestamp_end": 40.194,
+      "audio_content": "claiming it had a long snake -like body",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9074991829693317
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 40.194,
+      "timestamp_end": 43.065,
+      "audio_content": "a formidable head. The frenzy reached such",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9900983018534524
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 43.065,
+      "timestamp_end": 45.936,
+      "audio_content": "that some brave souls even tried to hunt it down.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9925087213516235
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 45.936,
+      "timestamp_end": 48.807,
+      "audio_content": "Ultimately, the creature was never found, but the legend",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9949202272627089
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 48.807,
+      "timestamp_end": 51.678,
+      "audio_content": "Gloucester's sea serpent lives on, raising the question,",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9427951455116272
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 51.678,
+      "timestamp_end": 54.549,
+      "audio_content": "what really lurked beneath those waves?",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8760727196931839
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 54.549,
+      "timestamp_end": 57.42,
+      "audio_content": "people just seeing shadows or something more real?",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9347385093569756
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.871,
+      "audio_content": "In 1798, a Massachusetts town faced",
+      "image_prompt": "Establishing shot of a coastal Massachusetts town in 1798, with stormy skies looming overhead. Fishermen's boats bob uneasily in the water, while townsfolk gather on the shore, their faces filled with fear and anticipation, shadows cast dramatically by the fading light.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9584851215283076,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.871,
+      "timestamp_end": 5.742,
+      "audio_content": "terrifying enemy, a gigantic sea serpent.",
+      "image_prompt": "Wide shot of the coastal town of Gloucester, Massachusetts in 1798, with dark, stormy skies looming overhead. In the foreground, anxious townsfolk gather on the shore, pointing towards the churning sea. Fishermen retreat in small boats, their nets empty, as tension fills the air.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9597184558709463,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.742,
+      "timestamp_end": 8.613,
+      "audio_content": "Residents of Gloucester reported sightings of a",
+      "image_prompt": "Wide shot of the coastline of Gloucester in 1798, with turbulent waves crashing against rocky shores. Silhouetted fishermen nervously returning to shore, their empty nets trailing behind them, as dark storm clouds gather ominously overhead, hinting at the creature lurking just beneath the surface.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9784992805549076,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.613,
+      "timestamp_end": 11.484,
+      "audio_content": "-foot -long creature lurking off their coast.",
+      "image_prompt": "Wide shot of Gloucester's coastline in 1798, with fishermen nervously returning to shore. Dark, stormy clouds loom overhead, casting dramatic shadows over the turbulent sea, where the hint of a serpent's silhouette breaks the surface, evoking fear and wonder in the townsfolk.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9571139897618975,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 11.484,
+      "timestamp_end": 14.355,
+      "audio_content": "swept through the town as whispers of its immense size",
+      "image_prompt": "Wide shot of Gloucester harbor under a stormy sky, fishermen anxiously pulling in empty nets, their faces reflecting fear. In the distance, ominous waves roll, hinting at the lurking sea serpent, with townsfolk gathered on the shore, whispering in hushed tones, shadows stretching dramatically.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9329037755727768,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 14.355,
+      "timestamp_end": 17.226,
+      "audio_content": "To protect the fearful citizens, local",
+      "image_prompt": "Wide shot of the stormy Gloucester coastline, with soldiers in 18th-century uniforms patrolling the rocky shore. Dark clouds loom overhead, casting dramatic shadows on the water. Fishermen nervously return to their boats, eyes scanning the waves for the mythical sea serpent, evoking a sense of tension and fear.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9922209978103638,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 17.226,
+      "timestamp_end": 20.097,
+      "audio_content": "called on the US Army for help. Yes,",
+      "image_prompt": "Wide shot of the coastal town of Gloucester in 1798, with soldiers in vintage uniforms patrolling the shoreline. The sea churns ominously, casting shadows, while townsfolk gaze anxiously from the docks. Chiaroscuro lighting highlights the tension in the air, hinting at the lurking serpent.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9122528806328773,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 20.097,
+      "timestamp_end": 22.968,
+      "audio_content": "you heard that right. They mobilized soldiers to",
+      "image_prompt": "Wide shot of a coastal Massachusetts town in 1798, soldiers lining the shore with cannons, boats bobbing in the water, townsfolk gazing anxiously at the horizon. The sky is ominous, casting deep shadows, while the waves crash against the rocks, hinting at the lurking sea serpent.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9851457141339779,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 22.968,
+      "timestamp_end": 25.839,
+      "audio_content": "the waters armed with cannons and muskets, ready",
+      "image_prompt": "Wide shot of the coastal town of Gloucester in 1798, with soldiers in period uniforms patrolling the shoreline. Cannons and muskets are readied on small boats, while anxious fishermen gather, their nets empty. The ominous sea looms in the background, shrouded in mist.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.979257454474767,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 25.839,
+      "timestamp_end": 28.71,
+      "audio_content": "confront this mythical beast. Boats were",
+      "image_prompt": "Wide shot of Gloucester's coastal shoreline in 1798, with nervous fishermen glancing towards the churning waves. Cannons stand ready on the docks, shadows stretching dramatically under the twilight sky, as townsfolk gather, whispering anxiously about the legendary sea serpent lurking just beneath the surface.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9149799409011999,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 28.71,
+      "timestamp_end": 31.581,
+      "audio_content": "and fishermen nervously returned ashore their nets",
+      "image_prompt": "Medium shot of anxious fishermen returning to the shore, their faces etched with fear. Their empty nets hang limply by their sides as they glance nervously at the dark waters, shadows of ominous waves looming behind them, illuminated by dramatic chiaroscuro lighting.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8524194189480373,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 31.581,
+      "timestamp_end": 34.452,
+      "audio_content": "Historical accounts show that even the",
+      "image_prompt": "Wide shot of the stormy Gloucester coast, with fishermen nervously pulling in empty nets, while soldiers in period uniforms stand ready on the shore, cannons pointed towards the churning waves, under a dramatic sky filled with dark clouds, creating a tense atmosphere of fear and anticipation.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9716183642546335,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 34.452,
+      "timestamp_end": 37.323,
+      "audio_content": "newspaper printed detailed descriptions of the",
+      "image_prompt": "Wide shot of Gloucester's coastline at dusk, fishermen hastily pulling their empty nets onto weathered boats. A tense atmosphere permeates the scene as townsfolk gather, pointing towards the ominous waves, their faces etched with fear and curiosity about the legendary sea serpent lurking beneath.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9922411640485128,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 37.323,
+      "timestamp_end": 40.194,
+      "audio_content": "claiming it had a long snake -like body",
+      "image_prompt": "Wide shot of the rocky Gloucester coastline at dusk, with ominous waves crashing against the shore. Silhouetted figures of anxious townsfolk on the beach, gazing into the dark waters, their faces illuminated by the faint glow of lanterns, hinting at the fear of the legendary serpent lurking below.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9074991829693317,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 40.194,
+      "timestamp_end": 43.065,
+      "audio_content": "a formidable head. The frenzy reached such",
+      "image_prompt": "Wide shot of Gloucester's coastline at dusk, with fishermen nervously staring at the ominous waves. Silhouettes of boats patrol the waters, soldiers in period uniform poised with cannons, shadows stretching dramatically. Tension fills the air as whispers of the legendary sea serpent circulate.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9900983018534524,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 43.065,
+      "timestamp_end": 45.936,
+      "audio_content": "that some brave souls even tried to hunt it down.",
+      "image_prompt": "Medium shot of brave townsfolk on a fishing boat, gripping muskets and looking out over turbulent waters, faces tense with fear and determination. Shadows play dramatically across their features, the looming dark silhouette of the sea serpent hinted in the waves behind them.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9925087213516235,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 45.936,
+      "timestamp_end": 48.807,
+      "audio_content": "Ultimately, the creature was never found, but the legend",
+      "image_prompt": "Wide shot of the stormy Gloucester coastline at dusk, waves crashing against jagged rocks, a silhouette of soldiers on a ship with cannons poised, and townsfolk anxiously gathering on the shore, their faces illuminated by the flickering light of torches, capturing the tension and fear of the sea serpent legend.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9949202272627089,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 48.807,
+      "timestamp_end": 51.678,
+      "audio_content": "Gloucester's sea serpent lives on, raising the question,",
+      "image_prompt": "Wide shot of a stormy Gloucester coastline, turbulent waves crashing against jagged rocks, as townsfolk gather in fear on the shore. Soldiers in period uniforms stand resolute, cannons poised, casting long shadows in dramatic chiaroscuro lighting, evoking tension and curiosity about the unseen sea serpent lurking beneath the surface.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9427951455116272,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 51.678,
+      "timestamp_end": 54.549,
+      "audio_content": "what really lurked beneath those waves?",
+      "image_prompt": "Wide shot of the rocky Gloucester coastline under a stormy sky, fishermen anxiously gathering their nets on the shore. In the turbulent waters, dark shapes hint at the mysterious sea serpent, while soldiers prepare their boats, guns at the ready, casting long shadows against the ominous waves.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8760727196931839,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 54.549,
+      "timestamp_end": 57.42,
+      "audio_content": "people just seeing shadows or something more real?",
+      "image_prompt": "Medium shot of anxious Gloucester fishermen on the shore, their faces etched with fear and uncertainty. The dark, turbulent sea looms behind them, shrouded in shadows, hinting at an unseen terror lurking beneath the waves, illuminated by dramatic chiaroscuro lighting.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9347385093569756,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 20,
+    "total_duration": 57.42,
+    "whisper_model": "base"
+  }
+}

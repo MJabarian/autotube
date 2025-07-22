@@ -1,0 +1,65 @@
+{
+  "pipeline_info": {
+    "story_title": "WhenMolassesBecameaKillerWave",
+    "sanitized_title": "WhenMolassesBecameaKillerWave",
+    "start_time": "2025-07-18T16:15:26.068357",
+    "end_time": "2025-07-18T16:22:39.774231",
+    "total_duration": 433.70587515830994,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1752869726.07976,
+      "end": 1752869830.9674125,
+      "duration": 104.88765239715576,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1752869830.9684188,
+      "end": 1752870159.7722328,
+      "duration": 328.8038139343262,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\WhenMolassesBecameaKillerWave\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\WhenMolassesBecameaKillerWave\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\WhenMolassesBecameaKillerWave\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\WhenMolassesBecameaKillerWave\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\audio\\WhenMolassesBecameaKillerWave\\audio_WhenMolassesBecameaKillerWave.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\mixed_audio\\WhenMolassesBecameaKillerWave\\mixed_audio_WhenMolassesBecameaKillerWave.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_12.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_13.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_14.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_15.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_16.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_17.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_18.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_19.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\WhenMolassesBecameaKillerWave\\image_20.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory\\output\\videos\\WhenMolassesBecameaKillerWave_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory\\output\\subtitles_processed_video\\WhenMolassesBecameaKillerWave_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

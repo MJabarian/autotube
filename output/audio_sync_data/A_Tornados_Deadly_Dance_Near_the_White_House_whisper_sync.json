@@ -1,0 +1,393 @@
+{
+  "story_title": "A Tornado's Deadly Dance Near the White House",
+  "original_story": "[dramatic] In 1896, a tornado danced dangerously close to the White House! On August 6, this violent storm tore through Washington, D.C., with winds reaching up to 100 miles per hour. It didn’t just skip the presidential residence; it left a trail of destruction in its wake, damaging homes and uprooting trees nearby. The nearby Smithsonian Institution even reported significant damage to its roof. Imagine if that tornado had struck directly! President Grover Cleveland, who was in office at the time, might have faced an entirely different political landscape. With the storm causing chaos, it could have shifted public sentiment dramatically. Some estimates claim that if the tornado had hit the White House, it could have been a disaster affecting 30% of the political elite. The fact that history could have turned out so differently, thanks to a little twist of fate, is both terrifying and fascinating! What if that tornado had changed the course of American politics forever? [pause:1s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.7359999999999998,
+      "audio_content": "In 1896, a tornado danced",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9531110107898713
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.7359999999999998,
+      "timestamp_end": 5.4719999999999995,
+      "audio_content": "close to the White House. On August",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9899221999304635
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.4719999999999995,
+      "timestamp_end": 8.207999999999998,
+      "audio_content": "this violent storm tore through Washington,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9860121011734009
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.207999999999998,
+      "timestamp_end": 10.943999999999999,
+      "audio_content": ".C., with winds reaching up to 100 miles per",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9400488447259973
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.943999999999999,
+      "timestamp_end": 13.68,
+      "audio_content": "It didn't just skip the presidential residence. It",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9738182835280895
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 13.68,
+      "timestamp_end": 16.415999999999997,
+      "audio_content": "a trail of destruction in its wake, damaging",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9951608777046204
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 16.415999999999997,
+      "timestamp_end": 19.151999999999997,
+      "audio_content": "and uprooting trees nearby.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9680109719435374
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 19.151999999999997,
+      "timestamp_end": 21.887999999999998,
+      "audio_content": "nearby Smithsonian Institution even reported",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9769400537014008
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 21.887999999999998,
+      "timestamp_end": 24.624,
+      "audio_content": "damage to its roof. Imagine if that",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9953232663018363
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 24.624,
+      "timestamp_end": 27.36,
+      "audio_content": "had struck directly. President",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9882109463214874
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 27.36,
+      "timestamp_end": 30.095999999999997,
+      "audio_content": "Cleveland, who was in office at the time, might have faced",
+      "words_in_segment": 11,
+      "confidence_avg": 0.9363170591267672
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 30.095999999999997,
+      "timestamp_end": 32.831999999999994,
+      "audio_content": "entirely different political landscape. With the",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9961045881112417
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 32.831999999999994,
+      "timestamp_end": 35.568,
+      "audio_content": "causing chaos, it could have shifted public",
+      "words_in_segment": 7,
+      "confidence_avg": 0.982521550995963
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 35.568,
+      "timestamp_end": 38.303999999999995,
+      "audio_content": "dramatically. Some estimates claim that if",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9915856420993805
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 38.303999999999995,
+      "timestamp_end": 41.04,
+      "audio_content": "tornado had hit the White House, it could have been a",
+      "words_in_segment": 11,
+      "confidence_avg": 0.981153433973139
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 41.04,
+      "timestamp_end": 43.775999999999996,
+      "audio_content": "affecting 30 % of the political elite.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9521901948111398
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 43.775999999999996,
+      "timestamp_end": 46.51199999999999,
+      "audio_content": "The fact that history could have turned out so",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9900563425487943
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 46.51199999999999,
+      "timestamp_end": 49.248,
+      "audio_content": "thanks to a little twist of fate, is both",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9960440595944723
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 49.248,
+      "timestamp_end": 51.983999999999995,
+      "audio_content": "and fascinating. What if that",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9915045380592347
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 51.983999999999995,
+      "timestamp_end": 54.72,
+      "audio_content": "had changed the course of American politics forever?",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9935102462768555
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.7359999999999998,
+      "audio_content": "In 1896, a tornado danced",
+      "image_prompt": "Establishing shot of a dark, swirling tornado ominously approaching the White House, with dramatic chiaroscuro lighting highlighting the storm's ferocity. The iconic building stands resilient yet vulnerable against the backdrop of darkened skies and chaotic winds, hinting at the destruction to come.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9531110107898713,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.7359999999999998,
+      "timestamp_end": 5.4719999999999995,
+      "audio_content": "close to the White House. On August",
+      "image_prompt": "Wide shot of a dramatic Washington, D.C. skyline on a stormy August day in 1896, dark clouds swirling above the White House, trees bending in fierce winds, and distant flashes of lightning illuminating the chaos, evoking a sense of impending disaster.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9899221999304635,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.4719999999999995,
+      "timestamp_end": 8.207999999999998,
+      "audio_content": "this violent storm tore through Washington,",
+      "image_prompt": "Wide shot of a turbulent sky over Washington, D.C., dark clouds swirling ominously as a tornado looms in the distance. The White House stands defiantly in the foreground, surrounded by uprooted trees and damaged rooftops, capturing the chaos of the 1896 storm.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9860121011734009,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.207999999999998,
+      "timestamp_end": 10.943999999999999,
+      "audio_content": ".C., with winds reaching up to 100 miles per",
+      "image_prompt": "Wide shot of a dark, swirling tornado looming ominously over the White House, its winds whipping through the trees. The scene is bathed in dramatic chiaroscuro lighting, casting sharp shadows across the grounds, while distant figures flee in terror, heightening the sense of impending chaos.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9400488447259973,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.943999999999999,
+      "timestamp_end": 13.68,
+      "audio_content": "It didn't just skip the presidential residence. It",
+      "image_prompt": "Wide shot of a turbulent sky over Washington, D.C., as dark clouds swirl ominously. The White House stands in the distance, seemingly untouched, while debris and uprooted trees litter the foreground, hinting at the chaos of the tornado's nearby path.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9738182835280895,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 13.68,
+      "timestamp_end": 16.415999999999997,
+      "audio_content": "a trail of destruction in its wake, damaging",
+      "image_prompt": "Wide shot of a turbulent sky swirling with dark, ominous clouds above Washington, D.C., as the tornado looms dangerously close. In the foreground, uprooted trees and damaged homes illustrate the trail of destruction, bathed in dramatic chiaroscuro lighting, evoking a sense of impending chaos.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9951608777046204,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 16.415999999999997,
+      "timestamp_end": 19.151999999999997,
+      "audio_content": "and uprooting trees nearby.",
+      "image_prompt": "Wide shot of a turbulent sky over Washington, D.C., swirling dark clouds framing the White House. Trees bend dangerously in high winds, debris swirling in the air, hinting at chaos. The iconic Smithsonian looms in the background, its roof damaged, capturing the storm's ferocity.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9680109719435374,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 19.151999999999997,
+      "timestamp_end": 21.887999999999998,
+      "audio_content": "nearby Smithsonian Institution even reported",
+      "image_prompt": "Wide shot of a turbulent sky over Washington, D.C., dark storm clouds swirling ominously. In the foreground, the distinguished silhouette of the Smithsonian Institution shows damage to its roof, while trees bend violently in the fierce winds, capturing the impending chaos of the 1896 tornado.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9769400537014008,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 21.887999999999998,
+      "timestamp_end": 24.624,
+      "audio_content": "damage to its roof. Imagine if that",
+      "image_prompt": "Wide shot of a dark, swirling tornado looming ominously over the White House, surrounded by uprooted trees and damaged buildings. The scene captures the chaos and tension of the moment, with dramatic chiaroscuro lighting illuminating the storm's fury against the historical architecture.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9953232663018363,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 24.624,
+      "timestamp_end": 27.36,
+      "audio_content": "had struck directly. President",
+      "image_prompt": "Wide shot of a darkened sky over Washington, D.C., as ominous storm clouds gather. The White House stands resilient, surrounded by swaying trees and debris, capturing the tense atmosphere of a city on the brink of chaos. The wind howls ominously, hinting at the impending tornado.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9882109463214874,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 27.36,
+      "timestamp_end": 30.095999999999997,
+      "audio_content": "Cleveland, who was in office at the time, might have faced",
+      "image_prompt": "Wide shot of a swirling tornado approaching the White House, dark ominous clouds swirling overhead, lightning flashing in the distance. The chaos of nature contrasts with the calm of the presidential residence, trees bending under the fierce winds, setting a dramatic atmosphere of impending disaster.",
+      "words_in_segment": 11,
+      "confidence_avg": 0.9363170591267672,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 30.095999999999997,
+      "timestamp_end": 32.831999999999994,
+      "audio_content": "entirely different political landscape. With the",
+      "image_prompt": "Wide shot of a turbulent sky over Washington D.C., dark clouds swirling ominously above the White House. Trees bend violently in the wind, debris scatters across the lawn, evoking the chaotic energy of the impending tornado, illuminated by sharp contrasts of light and shadow.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9961045881112417,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 32.831999999999994,
+      "timestamp_end": 35.568,
+      "audio_content": "causing chaos, it could have shifted public",
+      "image_prompt": "Wide shot of a turbulent sky over Washington, D.C., with dark, swirling clouds and flashes of lightning. The White House stands ominously in the foreground, surrounded by uprooted trees and damaged rooftops, evoking a sense of impending chaos and historical consequence.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.982521550995963,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 35.568,
+      "timestamp_end": 38.303999999999995,
+      "audio_content": "dramatically. Some estimates claim that if",
+      "image_prompt": "Wide shot of a turbulent sky over Washington, D.C., dark storm clouds swirling ominously above the White House. Trees bend under fierce winds, and distant buildings show signs of damage. The scene captures the tension before the storm, embodying the chaos about to unfold.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9915856420993805,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 38.303999999999995,
+      "timestamp_end": 41.04,
+      "audio_content": "tornado had hit the White House, it could have been a",
+      "image_prompt": "Wide shot of a violent tornado swirling ominously above the White House, dark clouds roiling in the background. The iconic structure stands resilient yet vulnerable, with trees bending in the fierce winds and debris flying around, evoking a sense of impending chaos and historical significance.",
+      "words_in_segment": 11,
+      "confidence_avg": 0.981153433973139,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 41.04,
+      "timestamp_end": 43.775999999999996,
+      "audio_content": "affecting 30 % of the political elite.",
+      "image_prompt": "Wide shot of a dark, swirling tornado ominously approaching the White House, with dramatic chiaroscuro lighting casting sharp shadows on the iconic building. Trees bend violently in the wind, and distant figures react in horror, foreshadowing the chaos about to unfold.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9521901948111398,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 43.775999999999996,
+      "timestamp_end": 46.51199999999999,
+      "audio_content": "The fact that history could have turned out so",
+      "image_prompt": "Wide shot of a turbulent sky over Washington, D.C., dark clouds swirling ominously, with the White House in the foreground. Trees bend violently under the force of the wind, and debris scatters across the lawn, creating a foreboding atmosphere that hints at chaos and destruction.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9900563425487943,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 46.51199999999999,
+      "timestamp_end": 49.248,
+      "audio_content": "thanks to a little twist of fate, is both",
+      "image_prompt": "Wide shot of a turbulent sky over Washington, D.C., as dark storm clouds swirl ominously. In the foreground, the White House stands strong, yet vulnerable, surrounded by uprooted trees and damaged homes, hinting at the chaos of a tornado that could change history forever.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9960440595944723,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 49.248,
+      "timestamp_end": 51.983999999999995,
+      "audio_content": "and fascinating. What if that",
+      "image_prompt": "Wide shot of a turbulent sky over Washington, D.C., dark storm clouds swirling ominously. The White House looms in the foreground, surrounded by uprooted trees and debris, capturing the moment of impending chaos. Chiaroscuro lighting enhances the dramatic tension in the scene.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9915045380592347,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 51.983999999999995,
+      "timestamp_end": 54.72,
+      "audio_content": "had changed the course of American politics forever?",
+      "image_prompt": "Medium shot of a turbulent sky above the White House, dark clouds swirling ominously. In the foreground, President Grover Cleveland gazes out a window, his face illuminated by flickering candlelight, shadows casting a dramatic atmosphere, hinting at the chaos approaching.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9935102462768555,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 20,
+    "total_duration": 54.72,
+    "whisper_model": "base"
+  }
+}

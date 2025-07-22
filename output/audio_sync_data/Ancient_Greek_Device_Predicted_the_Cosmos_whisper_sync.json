@@ -1,0 +1,241 @@
+{
+  "story_title": "Ancient Greek Device Predicted the Cosmos",
+  "original_story": "[excited] Get this! In 1901, divers off the coast of Antikythera discovered an ancient Greek treasure—a complex 2,000-year-old device! This ingenious mechanism, often called the first analog computer, was used to predict astronomical positions and eclipses. Crafted around the 2nd century BCE, it had over 30 gears, working together like a clock. This astounding technology reveals how advanced Greek civilization was! Imagine navigating the stars with this marvel—it's like ancient GPS! Can you believe they mastered such precision so long ago?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.4183333333333334,
+      "audio_content": "Get this. In 1901, divers",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9077089428901672
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.4183333333333334,
+      "timestamp_end": 4.836666666666667,
+      "audio_content": "the coast of Antikythera discovered an",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9431444058815638
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.836666666666667,
+      "timestamp_end": 7.255000000000001,
+      "audio_content": "Greek treasure, a complex 2",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8713195502758027
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.255000000000001,
+      "timestamp_end": 9.673333333333334,
+      "audio_content": "-year -old device. This ingenious",
+      "words_in_segment": 5,
+      "confidence_avg": 0.951705026626587
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.673333333333334,
+      "timestamp_end": 12.091666666666667,
+      "audio_content": "often called the first analog",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8707109093666077
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.091666666666667,
+      "timestamp_end": 14.510000000000002,
+      "audio_content": "was used to predict astronomical",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9983725070953369
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.510000000000002,
+      "timestamp_end": 16.928333333333335,
+      "audio_content": "and eclipses. Crafted",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9179520159959793
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.928333333333335,
+      "timestamp_end": 19.346666666666668,
+      "audio_content": "the second century BCE, it had",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8843341171741486
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.346666666666668,
+      "timestamp_end": 21.765,
+      "audio_content": "30 years working together like a",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8673846324284872
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.765,
+      "timestamp_end": 24.183333333333334,
+      "audio_content": "This astounding technology reveals",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9797893613576889
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 24.183333333333334,
+      "timestamp_end": 26.601666666666667,
+      "audio_content": "advanced Greek civilization was.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.977130264043808
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 26.601666666666667,
+      "timestamp_end": 29.020000000000003,
+      "audio_content": "Imagine navigating the stars with this",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9702207744121552
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.4183333333333334,
+      "audio_content": "Get this. In 1901, divers",
+      "image_prompt": "Wide shot of divers in vintage diving gear, exploring a mysterious underwater site off the coast of Antikythera. Sunlight pierces through the water, illuminating fragments of the ancient Greek treasure scattered on the ocean floor, hinting at a monumental discovery that will change history.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9077089428901672,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.4183333333333334,
+      "timestamp_end": 4.836666666666667,
+      "audio_content": "the coast of Antikythera discovered an",
+      "image_prompt": "Wide shot of the sun-drenched coast of Antikythera, with divers exploring the azure waters. In the foreground, ancient ruins hint at a forgotten civilization, while the shimmering sea reflects the sunlight, evoking a sense of discovery and adventure.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9431444058815638,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.836666666666667,
+      "timestamp_end": 7.255000000000001,
+      "audio_content": "Greek treasure, a complex 2",
+      "image_prompt": "Wide shot of divers exploring the azure waters off Antikythera, sunlight filtering through the waves. In the foreground, ancient artifacts scatter across the sea bed, while the silhouette of the remarkable Antikythera mechanism glints in the distance, showcasing its intricate gears and timeless craftsmanship.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8713195502758027,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.255000000000001,
+      "timestamp_end": 9.673333333333334,
+      "audio_content": "-year -old device. This ingenious",
+      "image_prompt": "Medium shot of a diver in vintage gear, exhilarated as they hold the intricate Antikythera mechanism, surrounded by shimmering ocean water. The sunlight filters down, casting dramatic shadows, highlighting the device's complex gears and the diver's awe-struck expression, capturing a moment of historical discovery.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.951705026626587,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.673333333333334,
+      "timestamp_end": 12.091666666666667,
+      "audio_content": "often called the first analog",
+      "image_prompt": "Medium shot of divers in vintage diving gear, excitedly examining the ancient Antikythera mechanism, illuminated by beams of sunlight filtering through the water, revealing intricate gears and craftsmanship, with expressions of wonder on their faces, showcasing the marvel of ancient Greek technology.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8707109093666077,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.091666666666667,
+      "timestamp_end": 14.510000000000002,
+      "audio_content": "was used to predict astronomical",
+      "image_prompt": "Medium shot of an ancient Greek scholar surrounded by gears and celestial maps, his face illuminated by flickering candlelight. The intricate Antikythera mechanism rests on a wooden table, casting sharp shadows, as the scholar examines its complex design with awe and wonder.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9983725070953369,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.510000000000002,
+      "timestamp_end": 16.928333333333335,
+      "audio_content": "and eclipses. Crafted",
+      "image_prompt": "Medium shot of an ancient Greek diver examining the intricate gears of the Antikythera mechanism, illuminated by soft light filtering through the waves, highlighting the device's detailed craftsmanship and the diver's awed expression as they explore this marvel of technology.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9179520159959793,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.928333333333335,
+      "timestamp_end": 19.346666666666668,
+      "audio_content": "the second century BCE, it had",
+      "image_prompt": "Medium shot of a diver emerging from the crystal-clear waters of Antikythera, holding a weathered, intricate mechanism against the sun. The shadows dance around him, highlighting the device's ancient gears, as the excitement of discovery radiates from his expression.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8843341171741486,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.346666666666668,
+      "timestamp_end": 21.765,
+      "audio_content": "30 years working together like a",
+      "image_prompt": "Medium shot of a group of enthusiastic divers, emerging from the azure waters off Antikythera, holding the ancient gears of the Antikythera mechanism. Sunlight dances on the surface, illuminating their awe-struck faces, as they share the excitement of their discovery amidst sharp shadows.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8673846324284872,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.765,
+      "timestamp_end": 24.183333333333334,
+      "audio_content": "This astounding technology reveals",
+      "image_prompt": "Medium shot of enthusiastic historians gathered around the ancient Antikythera mechanism, their faces illuminated by soft, dramatic chiaroscuro lighting. They examine the intricate gears with awe, shadows emphasizing the device's complexity, showcasing the marvel of ancient Greek technology.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9797893613576889,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 24.183333333333334,
+      "timestamp_end": 26.601666666666667,
+      "audio_content": "advanced Greek civilization was.",
+      "image_prompt": "Medium shot of divers in ancient diving gear, marveling at the Antikythera mechanism on the ocean floor, illuminated by beams of sunlight filtering through the water, highlighting the intricate gears and their craftsmanship, with expressions of awe and excitement on their faces.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.977130264043808,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 26.601666666666667,
+      "timestamp_end": 29.020000000000003,
+      "audio_content": "Imagine navigating the stars with this",
+      "image_prompt": "Medium shot of a group of excited scholars gathered around a wooden table, examining the intricate gears of the Antikythera mechanism. The room is filled with warm, dramatic lighting, casting sharp shadows that highlight their astonished faces and the ancient device's detailed craftsmanship.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9702207744121552,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 29.020000000000003,
+    "whisper_model": "base"
+  }
+}

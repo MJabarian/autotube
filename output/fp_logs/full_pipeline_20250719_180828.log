@@ -1,0 +1,343 @@
+2025-07-19 18:08:28,361 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-19 18:08:28,362 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250719_180828.log
+2025-07-19 18:08:28,362 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-19 18:08:28,362 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 18:08:28,363 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 18:08:28,373 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 18:08:30,006 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:08:32,481 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:08:32,833 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:08:32,848 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** Abraham Lincoln's Secret Wrestling Career  
+**Summary:** Before becoming president, Abraham Lincoln was a formidable wrestler known for his strength and athleticism, winning numerous matches and earning a reputation as a local champion in Illinois.
+2025-07-19 18:08:32,849 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleAbrahamLincolnsSecretWrestlingCareerSummaryBe_content_gen_2025-07-19_18-08-32.log
+2025-07-19 18:08:32,849 - autotube.content_gen - INFO - 📁 Sanitized folder name: LincolnsSecretLifeasaWrestlingChampion
+2025-07-19 18:08:32,849 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 84 words
+2025-07-19 18:08:32,851 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\LincolnsSecretLifeasaWrestlingChampion\story.json (1,126 bytes)
+2025-07-19 18:08:32,852 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\LincolnsSecretLifeasaWrestlingChampion\topic.txt (260 bytes)
+2025-07-19 18:08:32,852 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\LincolnsSecretLifeasaWrestlingChampion\metadata.json (617 bytes)
+2025-07-19 18:08:32,853 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\LincolnsSecretLifeasaWrestlingChampion\story.txt (1,046 bytes)
+2025-07-19 18:08:32,853 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\LincolnsSecretLifeasaWrestlingChampion
+2025-07-19 18:08:40,225 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\LincolnsSecretLifeasaWrestlingChampion\audio_LincolnsSecretLifeasaWrestlingChampion.mp3 (481,534 bytes)
+2025-07-19 18:08:40,321 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 30.09s duration
+2025-07-19 18:08:41,045 - autotube.content_gen - INFO - ✅ Audio speed adjustment: 1.15x, new duration: 26.33s
+2025-07-19 18:08:41,045 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\LincolnsSecretLifeasaWrestlingChampion\audio_LincolnsSecretLifeasaWrestlingChampion_sped_up.mp3 (481,534 bytes, 26.33s)
+2025-07-19 18:08:41,046 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-19 18:08:41,046 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-19 18:08:41,047 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\LincolnsSecretLifeasaWrestlingChampion\audio_LincolnsSecretLifeasaWrestlingChampion_sped_up.mp3
+2025-07-19 18:08:41,047 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-19 18:08:41,769 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-19 18:08:41,848 - faster_whisper - INFO - Processing audio with duration 00:26.286
+2025-07-19 18:08:42,430 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-19 18:08:44,725 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 25.88s
+2025-07-19 18:08:44,726 - whisper_audio_synchronizer - INFO - 📝 Extracted 84 words with timestamps
+2025-07-19 18:08:44,726 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 25.88s, Image duration: 2.16s
+2025-07-19 18:08:44,727 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-19 18:08:44,727 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-19 18:08:46,484 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:08:46,485 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (character_action/medium_shot): Medium shot of a young Abraham Lincoln mid-wrestli...
+2025-07-19 18:08:47,766 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:08:47,767 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of a 19th-century wrestling ring in Illi...
+2025-07-19 18:08:49,216 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:08:49,217 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (character_action/medium_shot): Medium shot of a young Abraham Lincoln, muscles te...
+2025-07-19 18:08:50,650 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:08:50,651 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/medium_shot): Medium shot of a young Abraham Lincoln in wrestlin...
+2025-07-19 18:08:52,084 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:08:52,085 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/medium_shot): Medium shot of a young Abraham Lincoln in a wrestl...
+2025-07-19 18:08:54,315 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:08:54,321 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/medium_shot): Medium shot of Abraham Lincoln in a wrestling ring...
+2025-07-19 18:08:55,617 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:08:55,618 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of Abraham Lincoln grappling with Jack...
+2025-07-19 18:08:57,080 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:08:57,084 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/medium_shot): Medium shot of a young Abraham Lincoln in a wrestl...
+2025-07-19 18:08:58,570 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:08:58,573 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of a young Abraham Lincoln in a wrestl...
+2025-07-19 18:08:59,906 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:08:59,907 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/medium_shot): Medium shot of a young Abraham Lincoln, towering a...
+2025-07-19 18:09:01,614 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:09:01,616 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/wide_shot): Wide shot capturing a young Abraham Lincoln in a r...
+2025-07-19 18:09:02,976 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 18:09:02,978 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/medium_shot): Medium shot of a young Abraham Lincoln grappling w...
+2025-07-19 18:09:02,980 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Lincolns_Secret_Life_as_a_Wrestling_Champion_whisper_sync.json
+2025-07-19 18:09:02,981 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-19 18:09:02,981 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-19 18:09:02,982 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-19 18:09:02,982 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-19 18:09:02,987 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-114517.mp3 (2,688,313 bytes)
+2025-07-19 18:09:02,988 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\LincolnsSecretLifeasaWrestlingChampion\music_selection.json (319 bytes)
+2025-07-19 18:09:02,989 - autotube.content_gen - INFO - ✅ Music selected: cinematic-114517.mp3
+2025-07-19 18:09:02,990 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-19 18:09:02,990 - src.replicate_image_generator - INFO - Generating images for story: Lincoln's Secret Life as a Wrestling Champion
+2025-07-19 18:09:02,990 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-19 18:09:02,990 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-19 18:09:02,990 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-19 18:09:03,971 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 18:09:05,550 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 18:09:07,070 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 18:09:08,552 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 18:09:10,012 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 18:09:11,510 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 18:09:12,980 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 18:09:14,438 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 18:09:15,950 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 18:09:17,462 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 18:09:18,955 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 18:09:20,422 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 18:09:21,368 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-19 18:09:21,368 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-19 18:09:21,369 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-19 18:09:21,370 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-19 18:09:21,373 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-19 18:09:21,373 - autotube.content_gen - INFO - 📊 Total time: 53.00s, Cost: $0.0360
+2025-07-19 18:09:21,374 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** Abraham Lincoln's Secret Wrestling Career  
+**Summary:** Before becoming president, Abraham Lincoln was a formidable wrestler known for his strength and athleticism, winning numerous matches and earning a reputation as a local champion in Illinois.
+2025-07-19 18:09:21,397 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (53.02s)
+2025-07-19 18:09:21,397 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-19 18:09:21,398 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-19 18:09:21,399 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: LincolnsSecretLifeasaWrestlingChampion
+2025-07-19 18:09:21,399 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: LincolnsSecretLifeasaWrestlingChampion
+2025-07-19 18:09:21,399 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\LincolnsSecretLifeasaWrestlingChampion\audio_LincolnsSecretLifeasaWrestlingChampion_sped_up.mp3
+2025-07-19 18:09:21,400 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\LincolnsSecretLifeasaWrestlingChampion\music_selection.json
+2025-07-19 18:09:21,407 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-114517.mp3
+2025-07-19 18:09:21,421 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-19 18:09:21,422 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\LincolnsSecretLifeasaWrestlingChampion\audio_LincolnsSecretLifeasaWrestlingChampion_sped_up.mp3
+2025-07-19 18:09:21,502 - src.audio_mixer - INFO - Loaded audio: 26286ms (26.286s), 44100Hz, 2 channels
+2025-07-19 18:09:21,502 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-114517.mp3
+2025-07-19 18:09:21,675 - src.audio_mixer - INFO - Loaded audio: 84010ms (84.010s), 44100Hz, 2 channels
+2025-07-19 18:09:21,675 - src.audio_mixer - INFO - Voice duration: 26286ms
+2025-07-19 18:09:21,675 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-19 18:09:21,675 - src.audio_mixer - INFO - Target duration: 26286ms
+2025-07-19 18:09:21,676 - src.audio_mixer - INFO - Trimmed music from 26286ms to 26286ms
+2025-07-19 18:09:21,676 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-19 18:09:21,694 - src.audio_mixer - INFO - Voice adjusted by 9.1dB, Music by -7.4dB
+2025-07-19 18:09:21,702 - src.audio_mixer - INFO - Added 500ms fade-out to prevent end artifacts
+2025-07-19 18:09:21,710 - src.audio_mixer - INFO - ✅ Exact duration match: 26286ms
+2025-07-19 18:09:21,710 - src.audio_mixer - INFO - Audio mixing completed: 26286ms
+2025-07-19 18:09:22,058 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\LincolnsSecretLifeasaWrestlingChampion\mixed_audio_LincolnsSecretLifeasaWrestlingChampion.mp3
+2025-07-19 18:09:22,059 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\LincolnsSecretLifeasaWrestlingChampion\mixed_audio_LincolnsSecretLifeasaWrestlingChampion.mp3
+2025-07-19 18:09:22,059 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 752,322 bytes (0.7 MB)
+2025-07-19 18:09:22,060 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: LincolnsSecretLifeasaWrestlingChampion
+2025-07-19 18:09:22,060 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-19 18:09:22,060 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-19 18:09:22,060 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: LincolnsSecretLifeasaWrestlingChampion
+2025-07-19 18:09:22,184 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-19 18:09:22,184 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-19 18:09:22,184 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.23 seconds per image
+2025-07-19 18:09:22,185 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\LincolnsSecretLifeasaWrestlingChampion_kenburns.mp4
+2025-07-19 18:09:22,185 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['pan_left', 'zoom_in', 'zoom_out', 'pan_left', 'pan_right']...
+2025-07-19 18:09:22,185 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-19 18:09:22,185 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 18:09:22,202 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-19 18:09:22,202 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 18:09:22,214 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-19 18:09:22,214 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-19 18:09:22,227 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-19 18:09:22,227 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 18:09:22,256 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-19 18:09:22,256 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 18:09:22,279 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-19 18:09:22,280 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 18:09:22,306 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-19 18:09:22,306 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 18:09:22,333 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-19 18:09:22,333 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 18:09:22,360 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-19 18:09:22,360 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 18:09:22,390 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-19 18:09:22,390 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 18:09:22,416 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-19 18:09:22,416 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-19 18:09:22,447 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-19 18:09:22,447 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 18:09:22,475 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-19 18:09:22,515 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-19 18:09:22,593 - autotube.full_pipeline - INFO - 📹 Video duration: 26.720s
+2025-07-19 18:09:22,593 - autotube.full_pipeline - INFO - 🎵 Audio duration: 26.720s
+2025-07-19 18:09:22,593 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 26.720s
+2025-07-19 18:09:22,593 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\LincolnsSecretLifeasaWrestlingChampion_kenburns.mp4
+2025-07-19 18:09:54,949 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-19 18:09:54,950 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-19 18:09:54,950 - autotube.full_pipeline - INFO - ✅ Video duration: 26.73 seconds
+2025-07-19 18:09:54,951 - autotube.full_pipeline - INFO - ✅ Video file size: 6.1 MB
+2025-07-19 18:09:54,951 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-19 18:09:54,977 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\LincolnsSecretLifeasaWrestlingChampion_kenburns.mp4
+2025-07-19 18:09:54,977 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-19 18:09:54,978 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\LincolnsSecretLifeasaWrestlingChampion_kenburns.mp4
+2025-07-19 18:09:54,978 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-19 18:09:54,979 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-19 18:09:54,980 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-19 18:09:54,980 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-19 18:09:56,478 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-19 18:09:56,480 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-19 18:09:56,481 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-19 18:09:56,659 - faster_whisper - INFO - Processing audio with duration 00:26.331
+2025-07-19 18:09:59,665 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-19 18:10:14,224 - autotube.full_pipeline - INFO - Extracted 84 words with timing
+2025-07-19 18:10:14,225 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 17.75s
+2025-07-19 18:10:14,536 - autotube.full_pipeline - INFO - Video loading took 0.31s
+2025-07-19 18:10:14,536 - autotube.full_pipeline - INFO - Original video - Duration: 26.73s, FPS: 30.0, Audio: True
+2025-07-19 18:10:14,536 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 84 words...
+2025-07-19 18:10:14,537 - autotube.full_pipeline - INFO - Group 1: 3 words (18 chars), 0.00s - 0.74s
+2025-07-19 18:10:14,537 - autotube.full_pipeline - INFO - Group 2: 4 words (22 chars), 0.72s - 1.86s
+2025-07-19 18:10:14,537 - autotube.full_pipeline - INFO - Group 3: 3 words (24 chars), 1.84s - 2.84s
+2025-07-19 18:10:14,537 - autotube.full_pipeline - INFO - Group 4: 4 words (23 chars), 2.82s - 4.08s
+2025-07-19 18:10:14,537 - autotube.full_pipeline - INFO - Group 5: 3 words (18 chars), 4.06s - 5.16s
+2025-07-19 18:10:14,537 - autotube.full_pipeline - INFO - Group 6: 4 words (23 chars), 5.14s - 6.06s
+2025-07-19 18:10:14,538 - autotube.full_pipeline - INFO - Group 7: 4 words (16 chars), 6.48s - 7.52s
+2025-07-19 18:10:14,538 - autotube.full_pipeline - INFO - Group 8: 3 words (16 chars), 7.50s - 8.08s
+2025-07-19 18:10:14,538 - autotube.full_pipeline - INFO - Group 9: 3 words (19 chars), 8.06s - 9.04s
+2025-07-19 18:10:14,538 - autotube.full_pipeline - INFO - Group 10: 3 words (23 chars), 9.02s - 10.12s
+2025-07-19 18:10:14,538 - autotube.full_pipeline - INFO - Group 11: 3 words (15 chars), 10.10s - 10.88s
+2025-07-19 18:10:14,539 - autotube.full_pipeline - INFO - Group 12: 3 words (16 chars), 10.86s - 11.90s
+2025-07-19 18:10:14,539 - autotube.full_pipeline - INFO - Group 13: 3 words (17 chars), 11.88s - 12.50s
+2025-07-19 18:10:14,539 - autotube.full_pipeline - INFO - Group 14: 3 words (21 chars), 12.48s - 13.64s
+2025-07-19 18:10:14,539 - autotube.full_pipeline - INFO - Group 15: 3 words (20 chars), 13.62s - 14.76s
+2025-07-19 18:10:14,539 - autotube.full_pipeline - INFO - Group 16: 4 words (21 chars), 14.96s - 15.88s
+2025-07-19 18:10:14,539 - autotube.full_pipeline - INFO - Group 17: 4 words (24 chars), 15.86s - 17.74s
+2025-07-19 18:10:14,540 - autotube.full_pipeline - INFO - Group 18: 3 words (22 chars), 17.72s - 18.72s
+2025-07-19 18:10:14,540 - autotube.full_pipeline - INFO - Group 19: 3 words (17 chars), 18.70s - 19.30s
+2025-07-19 18:10:14,540 - autotube.full_pipeline - INFO - Group 20: 3 words (22 chars), 19.28s - 20.48s
+2025-07-19 18:10:14,540 - autotube.full_pipeline - INFO - Group 21: 4 words (21 chars), 20.46s - 21.22s
+2025-07-19 18:10:14,540 - autotube.full_pipeline - INFO - Group 22: 3 words (21 chars), 21.20s - 22.40s
+2025-07-19 18:10:14,540 - autotube.full_pipeline - INFO - Group 23: 3 words (17 chars), 22.38s - 22.98s
+2025-07-19 18:10:14,541 - autotube.full_pipeline - INFO - Group 24: 4 words (21 chars), 22.96s - 23.98s
+2025-07-19 18:10:14,541 - autotube.full_pipeline - INFO - Group 25: 3 words (24 chars), 23.96s - 25.46s
+2025-07-19 18:10:14,541 - autotube.full_pipeline - INFO - Group 26: 1 words (7 chars), 25.74s - 25.92s
+2025-07-19 18:10:14,541 - autotube.full_pipeline - INFO - Created 26 word groups with smart length limiting
+2025-07-19 18:10:14,541 - autotube.full_pipeline - INFO - Creating clips for group 1: 3 words
+2025-07-19 18:10:15,601 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.22s
+2025-07-19 18:10:16,597 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.18s - 0.46s
+2025-07-19 18:10:17,309 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.42s - 0.67s
+2025-07-19 18:10:17,310 - autotube.full_pipeline - INFO - Created clips for 1/26 word groups - ETA: 3s
+2025-07-19 18:10:17,311 - autotube.full_pipeline - INFO - Creating clips for group 2: 4 words
+2025-07-19 18:10:18,630 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 0.72s - 1.10s
+2025-07-19 18:10:19,860 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 1.06s - 1.50s
+2025-07-19 18:10:21,569 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 1.46s - 1.72s
+2025-07-19 18:10:23,726 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 2: 1.68s - 1.79s
+2025-07-19 18:10:23,727 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-19 18:10:26,078 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 1.84s - 2.10s
+2025-07-19 18:10:28,262 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 2.06s - 2.70s
+2025-07-19 18:10:29,917 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 2.66s - 2.77s
+2025-07-19 18:10:29,917 - autotube.full_pipeline - INFO - Creating clips for group 4: 4 words
+2025-07-19 18:10:31,025 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 2.82s - 3.06s
+2025-07-19 18:10:32,297 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 3.02s - 3.76s
+2025-07-19 18:10:33,410 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 3.72s - 3.86s
+2025-07-19 18:10:34,446 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 4: 3.82s - 4.01s
+2025-07-19 18:10:34,446 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-19 18:10:35,230 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 4.06s - 4.36s
+2025-07-19 18:10:35,977 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 4.32s - 4.72s
+2025-07-19 18:10:36,662 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 4.68s - 5.09s
+2025-07-19 18:10:36,663 - autotube.full_pipeline - INFO - Creating clips for group 6: 4 words
+2025-07-19 18:10:37,508 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 5.14s - 5.36s
+2025-07-19 18:10:38,236 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 5.32s - 5.62s
+2025-07-19 18:10:39,022 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 5.58s - 5.78s
+2025-07-19 18:10:39,888 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 6: 5.74s - 6.36s
+2025-07-19 18:10:39,889 - autotube.full_pipeline - INFO - Creating clips for group 7: 4 words
+2025-07-19 18:10:40,560 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 6.48s - 6.56s
+2025-07-19 18:10:41,216 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 6.52s - 7.34s
+2025-07-19 18:10:41,768 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 7.30s - 7.42s
+2025-07-19 18:10:42,299 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 7: 7.38s - 7.45s
+2025-07-19 18:10:42,300 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-19 18:10:42,900 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 7.50s - 7.60s
+2025-07-19 18:10:43,514 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 7.56s - 7.84s
+2025-07-19 18:10:44,109 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 7.80s - 8.01s
+2025-07-19 18:10:44,109 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-19 18:10:44,844 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 8.06s - 8.26s
+2025-07-19 18:10:45,599 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 8.22s - 8.64s
+2025-07-19 18:10:46,355 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 8.60s - 8.97s
+2025-07-19 18:10:46,356 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-19 18:10:47,312 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 9.02s - 9.80s
+2025-07-19 18:10:48,196 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 9.76s - 9.98s
+2025-07-19 18:10:49,217 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 9.94s - 10.05s
+2025-07-19 18:10:49,217 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-19 18:10:49,793 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 10.10s - 10.40s
+2025-07-19 18:10:50,348 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 10.36s - 10.64s
+2025-07-19 18:10:50,815 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 10.60s - 10.81s
+2025-07-19 18:10:50,815 - autotube.full_pipeline - INFO - Created clips for 11/26 word groups - ETA: 36s
+2025-07-19 18:10:50,815 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-19 18:10:51,417 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 10.86s - 11.52s
+2025-07-19 18:10:52,012 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 11.48s - 11.74s
+2025-07-19 18:10:52,659 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 11.70s - 11.83s
+2025-07-19 18:10:52,659 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-19 18:10:53,289 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 11.88s - 12.04s
+2025-07-19 18:10:53,987 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 12.00s - 12.34s
+2025-07-19 18:10:54,675 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 12.30s - 12.43s
+2025-07-19 18:10:54,676 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-19 18:10:55,418 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 12.48s - 13.22s
+2025-07-19 18:10:56,122 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 13.18s - 13.42s
+2025-07-19 18:10:56,896 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 13.38s - 13.57s
+2025-07-19 18:10:56,896 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-19 18:10:57,640 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 13.62s - 13.90s
+2025-07-19 18:10:58,364 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 13.86s - 14.34s
+2025-07-19 18:10:59,145 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 14.30s - 14.91s
+2025-07-19 18:10:59,145 - autotube.full_pipeline - INFO - Creating clips for group 16: 4 words
+2025-07-19 18:10:59,963 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 14.96s - 15.30s
+2025-07-19 18:11:00,756 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 15.26s - 15.44s
+2025-07-19 18:11:01,564 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 15.40s - 15.70s
+2025-07-19 18:11:02,337 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 16: 15.66s - 15.81s
+2025-07-19 18:11:02,338 - autotube.full_pipeline - INFO - Creating clips for group 17: 4 words
+2025-07-19 18:11:03,173 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 15.86s - 16.06s
+2025-07-19 18:11:04,156 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 16.02s - 16.62s
+2025-07-19 18:11:05,114 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 16.58s - 17.62s
+2025-07-19 18:11:06,098 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 17: 17.58s - 17.67s
+2025-07-19 18:11:06,099 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-19 18:11:06,902 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 17.72s - 18.10s
+2025-07-19 18:11:07,720 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 18.06s - 18.46s
+2025-07-19 18:11:08,646 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 18.42s - 18.65s
+2025-07-19 18:11:08,647 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-19 18:11:09,220 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 18.70s - 18.90s
+2025-07-19 18:11:09,972 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 18.86s - 19.12s
+2025-07-19 18:11:10,674 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 19.08s - 19.23s
+2025-07-19 18:11:10,674 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-19 18:11:11,687 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 19.28s - 19.66s
+2025-07-19 18:11:12,548 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 19.62s - 20.38s
+2025-07-19 18:11:13,465 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 20.34s - 20.41s
+2025-07-19 18:11:13,466 - autotube.full_pipeline - INFO - Creating clips for group 21: 4 words
+2025-07-19 18:11:14,207 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 20.46s - 20.60s
+2025-07-19 18:11:14,950 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 20.56s - 20.82s
+2025-07-19 18:11:15,721 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 20.78s - 21.00s
+2025-07-19 18:11:16,531 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 21: 20.96s - 21.15s
+2025-07-19 18:11:16,531 - autotube.full_pipeline - INFO - Created clips for 21/26 word groups - ETA: 62s
+2025-07-19 18:11:16,532 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-19 18:11:17,351 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 21.20s - 21.48s
+2025-07-19 18:11:18,340 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 21.44s - 22.30s
+2025-07-19 18:11:19,157 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 22.26s - 22.33s
+2025-07-19 18:11:19,158 - autotube.full_pipeline - INFO - Creating clips for group 23: 3 words
+2025-07-19 18:11:19,879 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 22.38s - 22.56s
+2025-07-19 18:11:20,535 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 22.52s - 22.74s
+2025-07-19 18:11:21,240 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 22.70s - 22.91s
+2025-07-19 18:11:21,240 - autotube.full_pipeline - INFO - Creating clips for group 24: 4 words
+2025-07-19 18:11:22,660 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 22.96s - 23.38s
+2025-07-19 18:11:24,022 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 23.34s - 23.60s
+2025-07-19 18:11:25,365 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 23.56s - 23.82s
+2025-07-19 18:11:26,663 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 24: 23.78s - 23.91s
+2025-07-19 18:11:26,663 - autotube.full_pipeline - INFO - Creating clips for group 25: 3 words
+2025-07-19 18:11:27,847 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 23.96s - 24.32s
+2025-07-19 18:11:28,842 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 24.28s - 25.20s
+2025-07-19 18:11:29,747 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 25.16s - 25.69s
+2025-07-19 18:11:29,748 - autotube.full_pipeline - INFO - Creating clips for group 26: 1 words
+2025-07-19 18:11:30,076 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 26: 25.74s - 26.12s
+2025-07-19 18:11:30,076 - autotube.full_pipeline - INFO - Created 84 individual subtitle clips
+2025-07-19 18:11:30,077 - autotube.full_pipeline - INFO - Viral subtitle creation took 75.54s
+2025-07-19 18:11:30,078 - autotube.full_pipeline - INFO - Subtitle clips count: 84
+2025-07-19 18:11:30,093 - autotube.full_pipeline - INFO - Video composition took 0.02s
+2025-07-19 18:11:30,094 - autotube.full_pipeline - INFO - Final video - Duration: 26.73s, Audio: True
+2025-07-19 18:11:30,094 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\LincolnsSecretLifeasaWrestlingChampion_final.mp4
+2025-07-19 18:12:00,006 - autotube.full_pipeline - INFO - Video writing took 29.91s
+2025-07-19 18:12:00,007 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-19 18:12:00,339 - autotube.full_pipeline - INFO - Output file - Duration: 26.73s, Audio: True, Playable: True
+2025-07-19 18:12:00,366 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\LincolnsSecretLifeasaWrestlingChampion_final.mp4
+2025-07-19 18:12:00,366 - autotube.full_pipeline - INFO - Total processing time: 123.89s
+2025-07-19 18:12:00,367 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\LincolnsSecretLifeasaWrestlingChampion_final.mp4
+2025-07-19 18:12:00,367 - autotube.full_pipeline - INFO - 📊 Final video size: 4,397,650 bytes (4.2 MB)
+2025-07-19 18:12:00,368 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-19 18:12:00,368 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\LincolnsSecretLifeasaWrestlingChampion_kenburns.mp4
+2025-07-19 18:12:00,369 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\LincolnsSecretLifeasaWrestlingChampion_final.mp4
+2025-07-19 18:12:00,418 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (159.02s)
+2025-07-19 18:12:00,419 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-19 18:12:00,426 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_LincolnsSecretLifeasaWrestlingChampion_20250719_181200.json
+2025-07-19 18:12:00,426 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-19 18:12:00,427 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 18:12:00,427 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 212.06s
+2025-07-19 18:12:00,427 - autotube.full_pipeline - INFO - 📁 Story Title: LincolnsSecretLifeasaWrestlingChampion
+2025-07-19 18:12:00,427 - autotube.full_pipeline - INFO - 📁 Sanitized Title: LincolnsSecretLifeasaWrestlingChampion
+2025-07-19 18:12:00,428 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_LincolnsSecretLifeasaWrestlingChampion_20250719_181200.json

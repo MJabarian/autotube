@@ -1,0 +1,397 @@
+2025-07-21 11:11:09,422 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-21 11:11:09,425 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250721_111109.log
+2025-07-21 11:11:09,426 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-21 11:11:09,426 - autotube.full_pipeline - INFO - ============================================================
+2025-07-21 11:11:09,427 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-21 11:11:09,437 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-21 11:11:11,776 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:11:13,490 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:11:17,171 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:11:17,774 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:11:17,791 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Time a Man Stole the Eiffel Tower… Twice  
+**Summary:** In the early 20th century, an ambitious con artist successfully "sold" the Eiffel Tower to scrap metal dealers, managing to make off with sections of the iconic structure before the authorities caught on to his elaborate scheme.
+2025-07-21 11:11:17,791 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheTimeaManStoletheEiffelTowerTwiceSummaryInt_content_gen_2025-07-21_11-11-17.log
+2025-07-21 11:11:17,791 - autotube.content_gen - INFO - 📁 Sanitized folder name: HowOneManStoletheEiffelTowerTwice
+2025-07-21 11:11:17,792 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 88 words
+2025-07-21 11:11:17,805 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowOneManStoletheEiffelTowerTwice\story.json (1,200 bytes)
+2025-07-21 11:11:17,805 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowOneManStoletheEiffelTowerTwice\topic.txt (302 bytes)
+2025-07-21 11:11:17,806 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowOneManStoletheEiffelTowerTwice\metadata.json (699 bytes)
+2025-07-21 11:11:17,806 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowOneManStoletheEiffelTowerTwice\story.txt (1,120 bytes)
+2025-07-21 11:11:17,807 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\HowOneManStoletheEiffelTowerTwice
+2025-07-21 11:11:25,453 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowOneManStoletheEiffelTowerTwice\audio_HowOneManStoletheEiffelTowerTwice.mp3 (217,982 bytes)
+2025-07-21 11:11:25,545 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 27.22s duration
+2025-07-21 11:11:25,628 - src.utils.high_quality_audio_processor - INFO - 🎵 High-quality speed adjustment: 1.1x
+2025-07-21 11:11:25,628 - src.utils.high_quality_audio_processor - INFO - 📁 Input: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowOneManStoletheEiffelTowerTwice\audio_HowOneManStoletheEiffelTowerTwice.mp3
+2025-07-21 11:11:25,628 - src.utils.high_quality_audio_processor - INFO - 📁 Output: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowOneManStoletheEiffelTowerTwice\audio_HowOneManStoletheEiffelTowerTwice_sped_up.mp3
+2025-07-21 11:11:25,700 - src.utils.high_quality_audio_processor - INFO - 📊 Original duration: 27.193s
+2025-07-21 11:11:25,700 - src.utils.high_quality_audio_processor - INFO - 📊 Expected duration: 24.720s
+2025-07-21 11:11:25,702 - src.utils.high_quality_audio_processor - INFO - 🔧 Added 200ms fade-out
+2025-07-21 11:11:26,095 - src.utils.high_quality_audio_processor - INFO - ✅ Used pydub speedup (better quality for small speed factors)
+2025-07-21 11:11:26,095 - src.utils.high_quality_audio_processor - INFO - ✅ Voice quality preserved - no robotic sound
+2025-07-21 11:11:26,096 - src.utils.high_quality_audio_processor - INFO - ✂️ Trimmed to exact duration: 24.720s
+2025-07-21 11:11:26,096 - src.utils.high_quality_audio_processor - INFO - ✅ Perfect duration match: 0.000s difference
+2025-07-21 11:11:26,316 - src.utils.high_quality_audio_processor - INFO - ✅ High-quality speed adjustment completed
+2025-07-21 11:11:26,316 - src.utils.high_quality_audio_processor - INFO - 📊 Output file size: 412,148 bytes (0.4 MB)
+2025-07-21 11:11:26,317 - src.utils.high_quality_audio_processor - INFO - ⏱️ Final duration: 24.720s
+2025-07-21 11:11:26,437 - autotube.content_gen - INFO - ✅ High-quality audio speed adjustment: 1.1x, new duration: 26.54s
+2025-07-21 11:11:26,438 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowOneManStoletheEiffelTowerTwice\audio_HowOneManStoletheEiffelTowerTwice_sped_up.mp3 (217,982 bytes, 26.54s)
+2025-07-21 11:11:26,439 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-21 11:11:26,439 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-21 11:11:26,440 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowOneManStoletheEiffelTowerTwice\audio_HowOneManStoletheEiffelTowerTwice_sped_up.mp3
+2025-07-21 11:11:26,440 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-21 11:11:27,547 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-21 11:11:27,686 - faster_whisper - INFO - Processing audio with duration 00:24.764
+2025-07-21 11:11:28,677 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-21 11:11:33,846 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 23.40s
+2025-07-21 11:11:33,847 - whisper_audio_synchronizer - INFO - 📝 Extracted 85 words with timestamps
+2025-07-21 11:11:33,848 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 23.40s, Image duration: 1.95s
+2025-07-21 11:11:33,850 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-21 11:11:33,851 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-21 11:11:36,704 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:11:36,717 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (character_action/medium_shot): Medium shot of Victor Lustig, a charismatic con ar...
+2025-07-21 11:11:39,501 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:11:39,505 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/establishing_shot): Wide shot of the Eiffel Tower against a twilight s...
+2025-07-21 11:11:42,414 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:11:42,415 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of the Eiffel Tower looming majestically...
+2025-07-21 11:11:44,978 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:11:44,980 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (character_action/medium_shot): Medium shot of Victor Lustig, a suave con artist, ...
+2025-07-21 11:11:46,884 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:11:46,887 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (character_action/medium_shot): Medium shot of Victor Lustig, a charismatic con ar...
+2025-07-21 11:11:49,574 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:11:49,577 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (character_action/medium_shot): Medium shot of Victor Lustig in a dimly lit Parisi...
+2025-07-21 11:11:51,863 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:11:51,865 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of Victor Lustig in a dimly lit Parisi...
+2025-07-21 11:11:53,879 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:11:53,881 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/medium_shot): Medium shot of Victor Lustig, a suave con artist i...
+2025-07-21 11:11:56,078 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:11:56,083 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of Victor Lustig confidently presentin...
+2025-07-21 11:11:59,146 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:11:59,149 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/medium_shot): Medium shot of Victor Lustig, a suave con artist i...
+2025-07-21 11:12:01,326 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:12:01,328 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/wide_shot): Wide shot of the Eiffel Tower at dusk, surrounded ...
+2025-07-21 11:12:03,732 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 11:12:03,745 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/medium_shot): Medium shot of Victor Lustig, a charming con artis...
+2025-07-21 11:12:03,747 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\How_One_Man_Stole_the_Eiffel_Tower_Twice_whisper_sync.json
+2025-07-21 11:12:03,748 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-21 11:12:03,748 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-21 11:12:03,749 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-21 11:12:03,750 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-21 11:12:03,757 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\lone-wolf-10374.mp3 (4,584,176 bytes)
+2025-07-21 11:12:03,759 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\HowOneManStoletheEiffelTowerTwice\music_selection.json (308 bytes)
+2025-07-21 11:12:03,759 - autotube.content_gen - INFO - ✅ Music selected: lone-wolf-10374.mp3
+2025-07-21 11:12:03,760 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-21 11:12:03,761 - src.replicate_image_generator - INFO - Generating images for story: How One Man Stole the Eiffel Tower Twice
+2025-07-21 11:12:03,761 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-21 11:12:03,761 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-21 11:12:03,761 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-21 11:12:04,827 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:12:06,574 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:12:08,459 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:12:11,206 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:12:13,324 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:12:15,269 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:12:16,979 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:12:18,915 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:12:20,534 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:12:22,111 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:12:23,716 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:12:25,377 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 11:12:26,384 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-21 11:12:26,384 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-21 11:12:26,386 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-21 11:12:26,389 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-21 11:12:26,393 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-21 11:12:26,394 - autotube.content_gen - INFO - 📊 Total time: 76.95s, Cost: $0.0360
+2025-07-21 11:12:26,394 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Time a Man Stole the Eiffel Tower… Twice  
+**Summary:** In the early 20th century, an ambitious con artist successfully "sold" the Eiffel Tower to scrap metal dealers, managing to make off with sections of the iconic structure before the authorities caught on to his elaborate scheme.
+2025-07-21 11:12:26,427 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (76.99s)
+2025-07-21 11:12:26,428 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-21 11:12:26,428 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-21 11:12:26,429 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: HowOneManStoletheEiffelTowerTwice
+2025-07-21 11:12:26,429 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: HowOneManStoletheEiffelTowerTwice
+2025-07-21 11:12:26,429 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowOneManStoletheEiffelTowerTwice\audio_HowOneManStoletheEiffelTowerTwice_sped_up.mp3
+2025-07-21 11:12:26,429 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\HowOneManStoletheEiffelTowerTwice\music_selection.json
+2025-07-21 11:12:26,443 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\lone-wolf-10374.mp3
+2025-07-21 11:12:26,476 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-21 11:12:26,477 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\HowOneManStoletheEiffelTowerTwice\audio_HowOneManStoletheEiffelTowerTwice_sped_up.mp3
+2025-07-21 11:12:26,596 - src.audio_mixer - INFO - Loaded audio: 24764ms (24.764s), 44100Hz, 2 channels
+2025-07-21 11:12:26,596 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\lone-wolf-10374.mp3
+2025-07-21 11:12:27,048 - src.audio_mixer - INFO - Loaded audio: 143256ms (143.256s), 44100Hz, 2 channels
+2025-07-21 11:12:27,048 - src.audio_mixer - INFO - Voice duration: 24764ms
+2025-07-21 11:12:27,049 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-21 11:12:27,049 - src.audio_mixer - INFO - Target duration: 24764ms
+2025-07-21 11:12:27,051 - src.audio_mixer - INFO - Trimmed music from 24764ms to 24764ms
+2025-07-21 11:12:27,052 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-21 11:12:27,110 - src.audio_mixer - INFO - Voice adjusted by 9.0dB, Music by -10.1dB
+2025-07-21 11:12:27,129 - src.audio_mixer - INFO - Added 500ms fade-out to prevent end artifacts
+2025-07-21 11:12:27,142 - src.audio_mixer - INFO - ✅ Perfect duration match: 24764ms
+2025-07-21 11:12:27,143 - src.audio_mixer - INFO - Audio mixing completed: 24764ms
+2025-07-21 11:12:27,822 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\HowOneManStoletheEiffelTowerTwice\mixed_audio_HowOneManStoletheEiffelTowerTwice.mp3
+2025-07-21 11:12:27,826 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\HowOneManStoletheEiffelTowerTwice\mixed_audio_HowOneManStoletheEiffelTowerTwice.mp3
+2025-07-21 11:12:27,827 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 715,022 bytes (0.7 MB)
+2025-07-21 11:12:27,830 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: HowOneManStoletheEiffelTowerTwice
+2025-07-21 11:12:28,128 - autotube.full_pipeline - INFO - 🎵 Mixed audio duration: 24.790 seconds
+2025-07-21 11:12:28,319 - autotube.full_pipeline - INFO - 🎵 TTS audio duration: 24.764 seconds
+2025-07-21 11:12:28,320 - autotube.full_pipeline - INFO - 🎯 Exact target duration: 24.764 seconds
+2025-07-21 11:12:29,948 - autotube.full_pipeline - INFO - 🔧 Trimmed audio duration: 24.764s
+2025-07-21 11:12:29,949 - autotube.full_pipeline - INFO - ✅ Perfect audio trimming: 24.764s
+2025-07-21 11:12:29,950 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-21 11:12:29,951 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-21 11:12:29,951 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: HowOneManStoletheEiffelTowerTwice
+2025-07-21 11:12:30,577 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-21 11:12:30,578 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-21 11:12:30,579 - autotube.full_pipeline - INFO - 🎵 Audio duration: 24.790s
+2025-07-21 11:12:30,580 - autotube.full_pipeline - INFO - 📸 Number of images: 12
+2025-07-21 11:12:30,580 - autotube.full_pipeline - INFO - ⏱️ Calculated image duration: 2.066s
+2025-07-21 11:12:30,581 - autotube.full_pipeline - INFO - 📐 Expected total video duration: 24.790s
+2025-07-21 11:12:30,582 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.07 seconds per image
+2025-07-21 11:12:30,583 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowOneManStoletheEiffelTowerTwice\HowOneManStoletheEiffelTowerTwice_kenburns.mp4
+2025-07-21 11:12:30,583 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['zoom_out', 'pan_left', 'zoom_out', 'zoom_in', 'zoom_out']...
+2025-07-21 11:12:30,584 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-21 11:12:30,585 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 11:12:30,674 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-21 11:12:30,676 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-21 11:12:30,724 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-21 11:12:30,725 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 11:12:30,780 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-21 11:12:30,782 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-21 11:12:30,852 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-21 11:12:30,854 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 11:12:30,926 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-21 11:12:30,927 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-21 11:12:30,995 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-21 11:12:30,996 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-21 11:12:31,060 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-21 11:12:31,060 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 11:12:31,136 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-21 11:12:31,138 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-21 11:12:31,196 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-21 11:12:31,198 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-21 11:12:31,260 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-21 11:12:31,261 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 11:12:31,336 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-21 11:12:31,336 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-21 11:12:31,402 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-21 11:12:31,587 - autotube.full_pipeline - INFO - 📐 Expected video duration: 24.790s
+2025-07-21 11:12:31,588 - autotube.full_pipeline - INFO - 📹 Actual video duration: 24.790s
+2025-07-21 11:12:31,589 - autotube.full_pipeline - INFO - ✅ Video duration matches expected: 24.790s
+2025-07-21 11:12:31,590 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-21 11:12:31,832 - autotube.full_pipeline - INFO - 📹 Video duration: 24.790s
+2025-07-21 11:12:31,833 - autotube.full_pipeline - INFO - 🎵 Audio duration: 24.790s
+2025-07-21 11:12:31,833 - autotube.full_pipeline - INFO - ✅ Perfect duration match: 24.790s
+2025-07-21 11:12:31,877 - autotube.full_pipeline - INFO - 🔧 CRITICAL FIX: Video 24.790s → 24.790s
+2025-07-21 11:12:31,878 - autotube.full_pipeline - INFO - 🔧 This ensures video ends exactly when audio ends
+2025-07-21 11:12:31,879 - autotube.full_pipeline - INFO - 🔍 Final verification - Audio: 24.790s, Video: 24.790s
+2025-07-21 11:12:31,879 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 24.790s
+2025-07-21 11:12:31,880 - autotube.full_pipeline - INFO - ✅ Video will end exactly when audio ends
+2025-07-21 11:12:31,881 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowOneManStoletheEiffelTowerTwice\HowOneManStoletheEiffelTowerTwice_kenburns.mp4
+2025-07-21 11:13:34,347 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-21 11:13:34,347 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-21 11:13:34,347 - autotube.full_pipeline - INFO - ✅ Video duration: 24.80 seconds
+2025-07-21 11:13:34,350 - autotube.full_pipeline - INFO - ✅ Video file size: 5.6 MB
+2025-07-21 11:13:34,350 - autotube.full_pipeline - WARNING - ⚠️  Resolution seems low for HD: 768x1344
+2025-07-21 11:13:34,351 - autotube.full_pipeline - INFO - 🎯 HD Quality: Acceptable file size
+2025-07-21 11:13:34,390 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowOneManStoletheEiffelTowerTwice\HowOneManStoletheEiffelTowerTwice_kenburns.mp4
+2025-07-21 11:13:34,390 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-21 11:13:34,392 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowOneManStoletheEiffelTowerTwice\HowOneManStoletheEiffelTowerTwice_kenburns.mp4
+2025-07-21 11:13:35,018 - autotube.full_pipeline - INFO - 📹 Ken Burns video duration: 24.800s
+2025-07-21 11:13:35,019 - autotube.full_pipeline - WARNING - ⚠️ Ken Burns video duration mismatch: 0.036s
+2025-07-21 11:13:35,019 - autotube.full_pipeline - INFO - ✂️ AGGRESSIVE TRIM: Ken Burns video 24.800s → 24.764s
+2025-07-21 11:13:53,187 - autotube.full_pipeline - INFO - ✅ Ken Burns video trimmed to exact duration: 24.764s
+2025-07-21 11:13:53,188 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-21 11:13:53,189 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-21 11:13:53,191 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-21 11:13:53,192 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-21 11:13:55,734 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-21 11:13:55,735 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-21 11:13:55,736 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-21 11:13:55,961 - faster_whisper - INFO - Processing audio with duration 00:24.790
+2025-07-21 11:14:00,320 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-21 11:14:13,026 - autotube.full_pipeline - INFO - Extracted 85 words with timing
+2025-07-21 11:14:13,027 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 17.29s
+2025-07-21 11:14:13,449 - autotube.full_pipeline - INFO - Video loading took 0.42s
+2025-07-21 11:14:13,449 - autotube.full_pipeline - INFO - Original video - Duration: 24.77s, FPS: 30.0, Audio: True
+2025-07-21 11:14:13,450 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 85 words...
+2025-07-21 11:14:13,450 - autotube.full_pipeline - INFO - Group 1: 3 words (18 chars), 0.00s - 0.58s
+2025-07-21 11:14:13,451 - autotube.full_pipeline - INFO - Group 2: 3 words (15 chars), 0.56s - 1.84s
+2025-07-21 11:14:13,451 - autotube.full_pipeline - INFO - Group 3: 4 words (19 chars), 2.04s - 2.84s
+2025-07-21 11:14:13,452 - autotube.full_pipeline - INFO - Group 4: 3 words (24 chars), 2.82s - 4.00s
+2025-07-21 11:14:13,452 - autotube.full_pipeline - INFO - Group 5: 4 words (23 chars), 3.98s - 5.02s
+2025-07-21 11:14:13,452 - autotube.full_pipeline - INFO - Group 6: 3 words (16 chars), 5.00s - 5.62s
+2025-07-21 11:14:13,453 - autotube.full_pipeline - INFO - Group 7: 3 words (17 chars), 5.60s - 6.48s
+2025-07-21 11:14:13,453 - autotube.full_pipeline - INFO - Group 8: 3 words (19 chars), 6.46s - 7.30s
+2025-07-21 11:14:13,454 - autotube.full_pipeline - INFO - Group 9: 4 words (17 chars), 7.28s - 7.98s
+2025-07-21 11:14:13,454 - autotube.full_pipeline - INFO - Group 10: 3 words (25 chars), 7.96s - 8.88s
+2025-07-21 11:14:13,454 - autotube.full_pipeline - INFO - Group 11: 3 words (16 chars), 8.86s - 9.72s
+2025-07-21 11:14:13,455 - autotube.full_pipeline - INFO - Group 12: 3 words (21 chars), 9.70s - 10.74s
+2025-07-21 11:14:13,455 - autotube.full_pipeline - INFO - Group 13: 3 words (17 chars), 10.72s - 11.44s
+2025-07-21 11:14:13,456 - autotube.full_pipeline - INFO - Group 14: 3 words (19 chars), 11.74s - 12.56s
+2025-07-21 11:14:13,456 - autotube.full_pipeline - INFO - Group 15: 4 words (21 chars), 12.54s - 13.58s
+2025-07-21 11:14:13,456 - autotube.full_pipeline - INFO - Group 16: 3 words (12 chars), 13.56s - 14.26s
+2025-07-21 11:14:13,457 - autotube.full_pipeline - INFO - Group 17: 3 words (17 chars), 14.24s - 15.22s
+2025-07-21 11:14:13,457 - autotube.full_pipeline - INFO - Group 18: 4 words (19 chars), 15.20s - 15.92s
+2025-07-21 11:14:13,458 - autotube.full_pipeline - INFO - Group 19: 3 words (23 chars), 15.90s - 16.70s
+2025-07-21 11:14:13,458 - autotube.full_pipeline - INFO - Group 20: 3 words (16 chars), 16.98s - 17.66s
+2025-07-21 11:14:13,458 - autotube.full_pipeline - INFO - Group 21: 3 words (20 chars), 17.64s - 18.88s
+2025-07-21 11:14:13,459 - autotube.full_pipeline - INFO - Group 22: 3 words (21 chars), 18.86s - 20.10s
+2025-07-21 11:14:13,459 - autotube.full_pipeline - INFO - Group 23: 4 words (20 chars), 20.08s - 21.16s
+2025-07-21 11:14:13,459 - autotube.full_pipeline - INFO - Group 24: 4 words (20 chars), 21.14s - 21.92s
+2025-07-21 11:14:13,460 - autotube.full_pipeline - INFO - Group 25: 3 words (17 chars), 21.90s - 22.64s
+2025-07-21 11:14:13,460 - autotube.full_pipeline - INFO - Group 26: 3 words (18 chars), 22.62s - 23.40s
+2025-07-21 11:14:13,460 - autotube.full_pipeline - INFO - Created 26 word groups with smart length limiting
+2025-07-21 11:14:13,461 - autotube.full_pipeline - INFO - Creating clips for group 1: 3 words
+2025-07-21 11:14:14,962 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.26s
+2025-07-21 11:14:15,985 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.22s - 0.40s
+2025-07-21 11:14:16,983 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.36s - 0.51s
+2025-07-21 11:14:16,983 - autotube.full_pipeline - INFO - Created clips for 1/26 word groups - ETA: 4s
+2025-07-21 11:14:16,983 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-21 11:14:17,604 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 0.56s - 1.14s
+2025-07-21 11:14:18,235 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 1.10s - 1.18s
+2025-07-21 11:14:18,818 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 1.14s - 1.99s
+2025-07-21 11:14:18,819 - autotube.full_pipeline - INFO - Creating clips for group 3: 4 words
+2025-07-21 11:14:19,785 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 2.04s - 2.12s
+2025-07-21 11:14:20,824 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 2.08s - 2.36s
+2025-07-21 11:14:21,884 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 2.32s - 2.58s
+2025-07-21 11:14:22,839 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 3: 2.54s - 2.77s
+2025-07-21 11:14:22,839 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-21 11:14:24,049 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 2.82s - 3.16s
+2025-07-21 11:14:25,233 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 3.12s - 3.62s
+2025-07-21 11:14:26,405 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 3.58s - 3.93s
+2025-07-21 11:14:26,406 - autotube.full_pipeline - INFO - Creating clips for group 5: 4 words
+2025-07-21 11:14:27,538 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 3.98s - 4.36s
+2025-07-21 11:14:28,823 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 4.32s - 4.66s
+2025-07-21 11:14:30,125 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 4.62s - 4.88s
+2025-07-21 11:14:31,352 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 5: 4.84s - 4.95s
+2025-07-21 11:14:31,353 - autotube.full_pipeline - INFO - Creating clips for group 6: 3 words
+2025-07-21 11:14:32,097 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 5.00s - 5.24s
+2025-07-21 11:14:32,801 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 5.20s - 5.38s
+2025-07-21 11:14:33,518 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 5.34s - 5.55s
+2025-07-21 11:14:33,518 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-21 11:14:34,516 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 5.60s - 6.12s
+2025-07-21 11:14:35,418 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 6.08s - 6.20s
+2025-07-21 11:14:36,322 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 6.16s - 6.41s
+2025-07-21 11:14:36,323 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-21 11:14:37,567 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 6.46s - 6.94s
+2025-07-21 11:14:38,698 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 6.90s - 7.16s
+2025-07-21 11:14:39,815 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 7.12s - 7.23s
+2025-07-21 11:14:39,815 - autotube.full_pipeline - INFO - Creating clips for group 9: 4 words
+2025-07-21 11:14:40,682 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 7.28s - 7.46s
+2025-07-21 11:14:41,904 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 7.42s - 7.60s
+2025-07-21 11:14:43,530 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 7.56s - 7.80s
+2025-07-21 11:14:44,465 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 9: 7.76s - 7.91s
+2025-07-21 11:14:44,466 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-21 11:14:45,830 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 7.96s - 8.18s
+2025-07-21 11:14:47,254 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 8.14s - 8.42s
+2025-07-21 11:14:48,799 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 8.38s - 8.81s
+2025-07-21 11:14:48,800 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-21 11:14:49,788 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 8.86s - 9.14s
+2025-07-21 11:14:50,720 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 9.10s - 9.58s
+2025-07-21 11:14:51,637 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 9.54s - 9.65s
+2025-07-21 11:14:51,638 - autotube.full_pipeline - INFO - Created clips for 11/26 word groups - ETA: 38s
+2025-07-21 11:14:51,638 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-21 11:14:52,998 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 9.70s - 10.32s
+2025-07-21 11:14:54,801 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 10.28s - 10.38s
+2025-07-21 11:14:56,843 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 10.34s - 10.67s
+2025-07-21 11:14:56,844 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-21 11:14:58,958 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 10.72s - 10.94s
+2025-07-21 11:15:01,006 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 10.90s - 11.14s
+2025-07-21 11:15:02,453 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 11.10s - 11.69s
+2025-07-21 11:15:02,453 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-21 11:15:04,685 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 11.74s - 12.10s
+2025-07-21 11:15:06,576 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 12.06s - 12.32s
+2025-07-21 11:15:08,029 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 12.28s - 12.49s
+2025-07-21 11:15:08,030 - autotube.full_pipeline - INFO - Creating clips for group 15: 4 words
+2025-07-21 11:15:09,752 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 12.54s - 12.76s
+2025-07-21 11:15:11,443 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 12.72s - 13.24s
+2025-07-21 11:15:12,833 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 13.20s - 13.42s
+2025-07-21 11:15:14,099 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 15: 13.38s - 13.51s
+2025-07-21 11:15:14,100 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-21 11:15:14,845 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 13.56s - 13.66s
+2025-07-21 11:15:15,439 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 13.62s - 13.94s
+2025-07-21 11:15:16,091 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 13.90s - 14.19s
+2025-07-21 11:15:16,091 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-21 11:15:17,085 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 14.24s - 14.46s
+2025-07-21 11:15:18,070 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 14.42s - 15.12s
+2025-07-21 11:15:19,031 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 15.08s - 15.15s
+2025-07-21 11:15:19,032 - autotube.full_pipeline - INFO - Creating clips for group 18: 4 words
+2025-07-21 11:15:20,364 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 15.20s - 15.40s
+2025-07-21 11:15:21,518 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 15.36s - 15.66s
+2025-07-21 11:15:22,681 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 15.62s - 15.82s
+2025-07-21 11:15:23,782 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 18: 15.78s - 15.85s
+2025-07-21 11:15:23,782 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-21 11:15:25,082 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 15.90s - 16.02s
+2025-07-21 11:15:26,322 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 15.98s - 16.30s
+2025-07-21 11:15:27,516 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 16.26s - 16.93s
+2025-07-21 11:15:27,517 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-21 11:15:28,360 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 16.98s - 17.10s
+2025-07-21 11:15:29,262 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 17.06s - 17.28s
+2025-07-21 11:15:30,416 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 17.24s - 17.59s
+2025-07-21 11:15:30,417 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-21 11:15:31,793 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 17.64s - 18.32s
+2025-07-21 11:15:32,943 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 18.28s - 18.48s
+2025-07-21 11:15:34,048 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 18.44s - 18.81s
+2025-07-21 11:15:34,050 - autotube.full_pipeline - INFO - Created clips for 21/26 word groups - ETA: 81s
+2025-07-21 11:15:34,050 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-21 11:15:35,344 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 18.86s - 19.72s
+2025-07-21 11:15:36,577 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 19.68s - 19.86s
+2025-07-21 11:15:37,925 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 19.82s - 20.03s
+2025-07-21 11:15:37,925 - autotube.full_pipeline - INFO - Creating clips for group 23: 4 words
+2025-07-21 11:15:39,000 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 20.08s - 20.88s
+2025-07-21 11:15:40,181 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 20.84s - 20.94s
+2025-07-21 11:15:41,507 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 20.90s - 21.04s
+2025-07-21 11:15:42,684 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 23: 21.00s - 21.09s
+2025-07-21 11:15:42,684 - autotube.full_pipeline - INFO - Creating clips for group 24: 4 words
+2025-07-21 11:15:43,671 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 21.14s - 21.36s
+2025-07-21 11:15:44,639 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 21.32s - 21.54s
+2025-07-21 11:15:45,686 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 21.50s - 21.62s
+2025-07-21 11:15:46,809 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 24: 21.58s - 21.85s
+2025-07-21 11:15:46,810 - autotube.full_pipeline - INFO - Creating clips for group 25: 3 words
+2025-07-21 11:15:47,851 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 21.90s - 22.22s
+2025-07-21 11:15:49,009 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 22.18s - 22.42s
+2025-07-21 11:15:50,301 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 22.38s - 22.57s
+2025-07-21 11:15:50,301 - autotube.full_pipeline - INFO - Creating clips for group 26: 3 words
+2025-07-21 11:15:51,440 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 26: 22.62s - 23.00s
+2025-07-21 11:15:52,660 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 26: 22.96s - 23.16s
+2025-07-21 11:15:53,730 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 26: 23.12s - 23.60s
+2025-07-21 11:15:53,730 - autotube.full_pipeline - INFO - Created 85 individual subtitle clips
+2025-07-21 11:15:53,731 - autotube.full_pipeline - INFO - Viral subtitle creation took 100.28s
+2025-07-21 11:15:53,732 - autotube.full_pipeline - INFO - Subtitle clips count: 85
+2025-07-21 11:15:53,752 - autotube.full_pipeline - INFO - Video composition took 0.02s
+2025-07-21 11:15:53,856 - autotube.full_pipeline - INFO - 📊 Mixed audio duration (target): 28.430s
+2025-07-21 11:15:53,856 - autotube.full_pipeline - INFO - Original video audio duration: 24.770s
+2025-07-21 11:15:53,857 - autotube.full_pipeline - INFO - Target mixed audio duration: 28.430s
+2025-07-21 11:15:53,857 - autotube.full_pipeline - INFO - Final video duration: 24.770s
+2025-07-21 11:15:53,857 - autotube.full_pipeline - INFO - Final audio duration: 24.770s
+2025-07-21 11:15:53,857 - autotube.full_pipeline - WARNING - ⚠️ Audio duration mismatch: 24.770s vs target 28.430s
+2025-07-21 11:15:53,858 - autotube.full_pipeline - INFO - Final video - Duration: 24.77s, Audio: True
+2025-07-21 11:15:53,858 - autotube.full_pipeline - INFO - Writing HD viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\HowOneManStoletheEiffelTowerTwice\HowOneManStoletheEiffelTowerTwice_final.mp4
+2025-07-21 11:16:44,951 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowOneManStoletheEiffelTowerTwice\HowOneManStoletheEiffelTowerTwice_kenburns.mp4, 3096576 bytes wanted but 0 bytes read,at frame 743/744, at time 24.77/24.77 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-07-21 11:16:48,728 - autotube.full_pipeline - INFO - Video writing took 54.87s
+2025-07-21 11:16:48,729 - autotube.full_pipeline - INFO - Validating output file with duration verification...
+2025-07-21 11:16:49,105 - autotube.full_pipeline - INFO - Output file - Video Duration: 24.800s, Audio Duration: 24.800s
+2025-07-21 11:16:49,106 - autotube.full_pipeline - ERROR - ❌ CRITICAL: Final audio duration mismatch! Expected: 28.430s, Got: 24.800s
+2025-07-21 11:16:49,106 - autotube.full_pipeline - ERROR - This will cause end audio repetition issues!
+2025-07-21 11:16:49,106 - autotube.full_pipeline - ERROR - ❌ CRITICAL: Final video duration mismatch! Expected: 28.430s, Got: 24.800s
+2025-07-21 11:16:49,135 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\HowOneManStoletheEiffelTowerTwice\HowOneManStoletheEiffelTowerTwice_final.mp4
+2025-07-21 11:16:49,135 - autotube.full_pipeline - INFO - Total processing time: 173.40s
+2025-07-21 11:16:49,136 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\HowOneManStoletheEiffelTowerTwice\HowOneManStoletheEiffelTowerTwice_final.mp4
+2025-07-21 11:16:49,137 - autotube.full_pipeline - INFO - 📊 Final video size: 5,603,182 bytes (5.3 MB)
+2025-07-21 11:16:49,600 - autotube.full_pipeline - INFO - 📹 Final video duration: 24.800s
+2025-07-21 11:16:49,601 - autotube.full_pipeline - WARNING - ⚠️ FINAL VIDEO DURATION MISMATCH: 0.036s
+2025-07-21 11:16:49,601 - autotube.full_pipeline - INFO - ✂️ AGGRESSIVE FINAL TRIM: Final video 24.800s → 24.764s
+2025-07-21 11:17:08,784 - autotube.full_pipeline - INFO - ✅ Final video trimmed to exact duration: 24.764s
+2025-07-21 11:17:08,785 - autotube.full_pipeline - INFO - ✅ No repetitive ending issues expected!
+2025-07-21 11:17:08,786 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-21 11:17:08,786 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\HowOneManStoletheEiffelTowerTwice\HowOneManStoletheEiffelTowerTwice_kenburns.mp4
+2025-07-21 11:17:08,787 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\HowOneManStoletheEiffelTowerTwice\HowOneManStoletheEiffelTowerTwice_final.mp4
+2025-07-21 11:17:08,863 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (282.44s)
+2025-07-21 11:17:08,864 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-21 11:17:08,869 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_HowOneManStoletheEiffelTowerTwice_20250721_111708.json
+2025-07-21 11:17:08,870 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-21 11:17:08,871 - autotube.full_pipeline - INFO - ============================================================
+2025-07-21 11:17:08,872 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 359.44s
+2025-07-21 11:17:08,873 - autotube.full_pipeline - INFO - 📁 Story Title: HowOneManStoletheEiffelTowerTwice
+2025-07-21 11:17:08,874 - autotube.full_pipeline - INFO - 📁 Sanitized Title: HowOneManStoletheEiffelTowerTwice
+2025-07-21 11:17:08,875 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_HowOneManStoletheEiffelTowerTwice_20250721_111708.json

@@ -1,0 +1,241 @@
+{
+  "story_title": "Thomas Jefferson's Shocking Indigenous Connection",
+  "original_story": "[curious] Get this: recent DNA tests reveal Thomas Jefferson might be linked to the Powhatan tribe! This discovery rewrites history, challenging our views on Jefferson's racial beliefs. Born in 1743, he penned the Declaration of Independence, advocating liberty while enslaving over 600 people, including Sally Hemings, a woman of mixed heritage. Genetic evidence suggests a direct ancestry that reshapes our understanding of America's founding—was Jefferson a champion of freedom or a product of his time? The truth gets even murkier! [pause:1s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.375,
+      "audio_content": "Get this. Recent DNA tests reveal",
+      "words_in_segment": 6,
+      "confidence_avg": 0.938690721988678
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.375,
+      "timestamp_end": 4.75,
+      "audio_content": "Jefferson might be linked to the Powhoughton",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9347497086439814
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.75,
+      "timestamp_end": 7.125,
+      "audio_content": "This discovery re -writes history,",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9033299843470257
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.125,
+      "timestamp_end": 9.5,
+      "audio_content": "challenging our views on Jefferson's racial beliefs.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9957321967397418
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.5,
+      "timestamp_end": 11.875,
+      "audio_content": "Born in 1743, he",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9952813982963562
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.875,
+      "timestamp_end": 14.25,
+      "audio_content": "the Declaration of Independence, advocating",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9680853366851807
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.25,
+      "timestamp_end": 16.625,
+      "audio_content": "while enslaving over 600 people,",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8787639414270718
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.625,
+      "timestamp_end": 19.0,
+      "audio_content": "Sally Hemings, a woman of mixed heritage.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9604812477316175
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.0,
+      "timestamp_end": 21.375,
+      "audio_content": "Genetic evidence suggests a direct",
+      "words_in_segment": 5,
+      "confidence_avg": 0.978803527355194
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.375,
+      "timestamp_end": 23.75,
+      "audio_content": "that reshapes our understanding of America's",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9868749156594276
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.75,
+      "timestamp_end": 26.125,
+      "audio_content": "was Jefferson a champion of freedom or",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8673896619251796
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 26.125,
+      "timestamp_end": 28.5,
+      "audio_content": "product of his time. The truth gets even murkier.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9665690693590376
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.375,
+      "audio_content": "Get this. Recent DNA tests reveal",
+      "image_prompt": "Establishing shot of an 18th-century Virginia plantation, sun setting behind sprawling fields, casting sharp shadows. Silhouettes of enslaved workers in the foreground, with a grand, stately mansion looming in the background, evoking a sense of hidden histories and contradictions.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.938690721988678,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.375,
+      "timestamp_end": 4.75,
+      "audio_content": "Jefferson might be linked to the Powhoughton",
+      "image_prompt": "Wide shot of a dimly lit 18th-century study, featuring a large desk cluttered with parchment and quills. The silhouette of Thomas Jefferson looms against a backdrop of shadows, as a ghostly figure of a Powhatan chief subtly emerges, hinting at hidden connections and the complexity of freedom and heritage.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9347497086439814,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.75,
+      "timestamp_end": 7.125,
+      "audio_content": "This discovery re -writes history,",
+      "image_prompt": "Wide shot of a lush Virginia landscape at dusk, with the silhouette of Monticello in the background. Dramatic chiaroscuro lighting casts long shadows as a group of diverse individuals stands in the foreground, contemplating their connection to Thomas Jefferson and the Powhatan tribe.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9033299843470257,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.125,
+      "timestamp_end": 9.5,
+      "audio_content": "challenging our views on Jefferson's racial beliefs.",
+      "image_prompt": "Medium shot of a contemplative Thomas Jefferson standing in his study, surrounded by shadows. His expression is conflicted as he gazes out of a window, the chiaroscuro lighting highlighting the tension between his ideals of liberty and the reality of slavery. The ambiance is heavy with historical weight.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9957321967397418,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.5,
+      "timestamp_end": 11.875,
+      "audio_content": "Born in 1743, he",
+      "image_prompt": "Medium shot of Thomas Jefferson in a dimly lit study, quill in hand, deep in thought. Shadows cast dramatically across his face, revealing a conflict within. In the background, a faded portrait of enslaved individuals looms, hinting at his complex legacy as a founding father.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9952813982963562,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.875,
+      "timestamp_end": 14.25,
+      "audio_content": "the Declaration of Independence, advocating",
+      "image_prompt": "Medium shot of Thomas Jefferson in a dimly lit study, quill in hand, deep in thought. Shadows dance across his face, reflecting the weight of his dual legacy—liberty and enslavement. A portrait of Sally Hemings subtly hangs in the background, hinting at untold stories.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9680853366851807,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.25,
+      "timestamp_end": 16.625,
+      "audio_content": "while enslaving over 600 people,",
+      "image_prompt": "Medium shot of a weathered portrait of Thomas Jefferson, his expression contemplative, surrounded by shadows. In the background, faint outlines of enslaved individuals can be seen, their faces obscured, symbolizing the conflicting legacy of liberty and bondage in a dimly lit room.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8787639414270718,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.625,
+      "timestamp_end": 19.0,
+      "audio_content": "Sally Hemings, a woman of mixed heritage.",
+      "image_prompt": "Medium shot of Sally Hemings standing in a dimly lit room, her expression contemplative. The shadows cast by flickering candles highlight her mixed heritage, while behind her, the silhouette of an imposing portrait of Thomas Jefferson looms, hinting at their complex connection.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9604812477316175,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.0,
+      "timestamp_end": 21.375,
+      "audio_content": "Genetic evidence suggests a direct",
+      "image_prompt": "Medium shot of a pensive Thomas Jefferson standing in dim light, contemplating a portrait of a Powhatan leader. The shadows cast across his face reveal inner conflict, reflecting the tension between his ideals of liberty and his legacy of slavery.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.978803527355194,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.375,
+      "timestamp_end": 23.75,
+      "audio_content": "that reshapes our understanding of America's",
+      "image_prompt": "Medium shot of an intense discussion among historians in a dimly lit room, their faces illuminated by flickering candlelight, revealing shock and contemplation. Shadows dance dramatically on the walls, as old portraits of Jefferson and Native American figures loom in the background, creating a tense atmosphere of revelation and conflict.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9868749156594276,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.75,
+      "timestamp_end": 26.125,
+      "audio_content": "was Jefferson a champion of freedom or",
+      "image_prompt": "Close-up of Thomas Jefferson's pensive face, illuminated by dramatic chiaroscuro lighting, as he contemplates the paradox of freedom and slavery, shadows dancing across his features, evoking the conflict of a man who penned liberty while entangled in a web of oppression.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8673896619251796,
+      "content_type": "exposition_setup",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 26.125,
+      "timestamp_end": 28.5,
+      "audio_content": "product of his time. The truth gets even murkier.",
+      "image_prompt": "Medium shot of a pensive Thomas Jefferson standing by a window, shadows casting dramatically across his face, as he gazes out at the American landscape, contemplating his legacy and the newfound revelations of his ancestry linked to the Powhatan tribe.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9665690693590376,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 28.5,
+    "whisper_model": "base"
+  }
+}

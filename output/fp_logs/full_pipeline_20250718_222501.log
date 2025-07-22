@@ -1,0 +1,342 @@
+2025-07-18 22:25:01,975 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-18 22:25:01,975 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250718_222501.log
+2025-07-18 22:25:01,975 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-18 22:25:01,976 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 22:25:01,976 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 22:25:01,986 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 22:25:03,779 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:05,066 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:06,314 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:07,522 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:10,958 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:11,296 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:11,320 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Secret Society Behind the American Revolution  
+**Summary:** Unbeknownst to many, a clandestine group known as the “Sons of Liberty” utilized espionage and propaganda tactics to orchestrate the American Revolution, influencing not just political outcomes but the very fabric of American society.
+2025-07-18 22:25:11,321 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheSecretSocietyBehindtheAmericanRevolutionSu_content_gen_2025-07-18_22-25-11.log
+2025-07-18 22:25:11,321 - autotube.content_gen - INFO - 📁 Sanitized folder name: SecretsoftheSonsofLibertyExposed
+2025-07-18 22:25:11,321 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 87 words
+2025-07-18 22:25:11,324 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsoftheSonsofLibertyExposed\story.json (1,289 bytes)
+2025-07-18 22:25:11,324 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsoftheSonsofLibertyExposed\topic.txt (315 bytes)
+2025-07-18 22:25:11,324 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsoftheSonsofLibertyExposed\metadata.json (743 bytes)
+2025-07-18 22:25:11,325 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsoftheSonsofLibertyExposed\story.txt (1,209 bytes)
+2025-07-18 22:25:11,325 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SecretsoftheSonsofLibertyExposed
+2025-07-18 22:25:19,865 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsoftheSonsofLibertyExposed\audio_SecretsoftheSonsofLibertyExposed.mp3 (555,512 bytes)
+2025-07-18 22:25:19,987 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 34.72s duration
+2025-07-18 22:25:21,444 - autotube.content_gen - INFO - ✅ Audio speed adjustment: 1.15x, new duration: 30.35s
+2025-07-18 22:25:21,444 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsoftheSonsofLibertyExposed\audio_SecretsoftheSonsofLibertyExposed_sped_up.mp3 (555,512 bytes, 30.35s)
+2025-07-18 22:25:21,445 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-18 22:25:21,446 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-18 22:25:21,447 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsoftheSonsofLibertyExposed\audio_SecretsoftheSonsofLibertyExposed_sped_up.mp3
+2025-07-18 22:25:21,447 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-18 22:25:22,528 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-18 22:25:22,643 - faster_whisper - INFO - Processing audio with duration 00:30.316
+2025-07-18 22:25:23,476 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 22:25:27,999 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 29.80s
+2025-07-18 22:25:28,000 - whisper_audio_synchronizer - INFO - 📝 Extracted 86 words with timestamps
+2025-07-18 22:25:28,000 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 29.80s, Image duration: 2.48s
+2025-07-18 22:25:28,001 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-18 22:25:28,002 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-18 22:25:29,987 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:29,994 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): Establishing shot of a dimly lit colonial tavern, ...
+2025-07-18 22:25:31,765 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:31,766 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of a dimly lit colonial tavern, where cl...
+2025-07-18 22:25:33,270 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:33,272 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of a dimly lit colonial tavern, with Sam...
+2025-07-18 22:25:35,006 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:35,008 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/medium_shot): Medium shot of Samuel Adams in a dimly lit tavern,...
+2025-07-18 22:25:36,664 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:36,667 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/medium_shot): Medium shot of a dimly lit tavern, where Samuel Ad...
+2025-07-18 22:25:39,403 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:39,406 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/medium_shot): Medium shot of a clandestine meeting in a dimly li...
+2025-07-18 22:25:41,265 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:41,274 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of a dimly lit tavern, where Samuel Ad...
+2025-07-18 22:25:42,854 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:42,855 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/medium_shot): Medium shot of a dimly lit tavern bustling with re...
+2025-07-18 22:25:44,571 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:44,573 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of a shadowy gathering of the Sons of ...
+2025-07-18 22:25:46,123 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:46,124 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/medium_shot): Medium shot of Samuel Adams passionately addressin...
+2025-07-18 22:25:47,872 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:47,874 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/medium_shot): Medium shot of Samuel Adams in a dimly lit tavern,...
+2025-07-18 22:25:49,467 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:25:49,469 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/medium_shot): Medium shot of a clandestine meeting in a dimly li...
+2025-07-18 22:25:49,472 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Secrets_of_the_Sons_of_Liberty_Exposed_whisper_sync.json
+2025-07-18 22:25:49,472 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-18 22:25:49,473 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-18 22:25:49,474 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-18 22:25:49,475 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-18 22:25:49,481 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-violin-uplifting-music-147713.mp3 (1,304,032 bytes)
+2025-07-18 22:25:49,482 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\SecretsoftheSonsofLibertyExposed\music_selection.json (359 bytes)
+2025-07-18 22:25:49,483 - autotube.content_gen - INFO - ✅ Music selected: cinematic-violin-uplifting-music-147713.mp3
+2025-07-18 22:25:49,484 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-18 22:25:49,485 - src.replicate_image_generator - INFO - Generating images for story: Secrets of the Sons of Liberty Exposed!
+2025-07-18 22:25:49,485 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-18 22:25:49,485 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-18 22:25:49,485 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-18 22:25:50,534 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:25:52,131 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:25:53,759 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:25:55,337 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:25:56,964 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:25:58,700 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:26:00,555 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:26:02,306 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:26:03,911 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:26:05,468 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:26:07,663 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:26:09,206 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:26:10,147 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-18 22:26:10,148 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-18 22:26:10,150 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-18 22:26:10,152 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-18 22:26:10,153 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-18 22:26:10,153 - autotube.content_gen - INFO - 📊 Total time: 68.17s, Cost: $0.0360
+2025-07-18 22:26:10,153 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Secret Society Behind the American Revolution  
+**Summary:** Unbeknownst to many, a clandestine group known as the “Sons of Liberty” utilized espionage and propaganda tactics to orchestrate the American Revolution, influencing not just political outcomes but the very fabric of American society.
+2025-07-18 22:26:10,174 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (68.19s)
+2025-07-18 22:26:10,174 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 22:26:10,175 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 22:26:10,175 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: SecretsoftheSonsofLibertyExposed
+2025-07-18 22:26:10,175 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: SecretsoftheSonsofLibertyExposed
+2025-07-18 22:26:10,176 - autotube.full_pipeline - INFO - ✅ Found source TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsoftheSonsofLibertyExposed\audio_SecretsoftheSonsofLibertyExposed.mp3
+2025-07-18 22:26:10,176 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\SecretsoftheSonsofLibertyExposed\music_selection.json
+2025-07-18 22:26:10,183 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-violin-uplifting-music-147713.mp3
+2025-07-18 22:26:10,198 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-18 22:26:10,199 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SecretsoftheSonsofLibertyExposed\audio_SecretsoftheSonsofLibertyExposed.mp3
+2025-07-18 22:26:10,281 - src.audio_mixer - INFO - Loaded audio: 34717ms, 44100Hz, 2 channels
+2025-07-18 22:26:10,281 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Uplifting\cinematic-violin-uplifting-music-147713.mp3
+2025-07-18 22:26:10,409 - src.audio_mixer - INFO - Loaded audio: 40751ms, 44100Hz, 2 channels
+2025-07-18 22:26:10,410 - src.audio_mixer - INFO - Mixing audio (simple, mobile-optimized)...
+2025-07-18 22:26:10,412 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-18 22:26:10,444 - src.audio_mixer - INFO - Voice adjusted by 9.8dB, Music by -6.5dB
+2025-07-18 22:26:10,465 - src.audio_mixer - INFO - Audio mixing completed: 34717ms
+2025-07-18 22:26:10,980 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\SecretsoftheSonsofLibertyExposed\mixed_audio_SecretsoftheSonsofLibertyExposed.mp3
+2025-07-18 22:26:10,981 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\SecretsoftheSonsofLibertyExposed\mixed_audio_SecretsoftheSonsofLibertyExposed.mp3
+2025-07-18 22:26:10,981 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 1,149,807 bytes (1.1 MB)
+2025-07-18 22:26:10,982 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: SecretsoftheSonsofLibertyExposed
+2025-07-18 22:26:10,983 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-18 22:26:10,983 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-18 22:26:10,983 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: SecretsoftheSonsofLibertyExposed
+2025-07-18 22:26:11,164 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-18 22:26:11,164 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-18 22:26:11,165 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.90 seconds per image
+2025-07-18 22:26:11,165 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsoftheSonsofLibertyExposed_kenburns.mp4
+2025-07-18 22:26:11,166 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['pan_left', 'zoom_out', 'pan_left', 'zoom_in', 'pan_left']...
+2025-07-18 22:26:11,166 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-18 22:26:11,166 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 22:26:11,189 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-18 22:26:11,189 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 22:26:11,211 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-18 22:26:11,212 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 22:26:11,233 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-18 22:26:11,234 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 22:26:11,274 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-18 22:26:11,275 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 22:26:11,310 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-18 22:26:11,310 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 22:26:11,351 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-18 22:26:11,351 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 22:26:11,387 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-18 22:26:11,387 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 22:26:11,424 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-18 22:26:11,425 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 22:26:11,460 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-18 22:26:11,461 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 22:26:11,500 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-18 22:26:11,500 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 22:26:11,528 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-18 22:26:11,528 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 22:26:11,570 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-18 22:26:11,641 - autotube.full_pipeline - INFO - 🎵 Adding audio to video...
+2025-07-18 22:26:11,733 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsoftheSonsofLibertyExposed_kenburns.mp4
+2025-07-18 22:26:58,665 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-18 22:26:58,666 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-18 22:26:58,666 - autotube.full_pipeline - INFO - ✅ Video duration: 34.80 seconds
+2025-07-18 22:26:58,667 - autotube.full_pipeline - INFO - ✅ Video file size: 7.5 MB
+2025-07-18 22:26:58,667 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-18 22:26:58,692 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsoftheSonsofLibertyExposed_kenburns.mp4
+2025-07-18 22:26:58,692 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-18 22:26:58,693 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsoftheSonsofLibertyExposed_kenburns.mp4
+2025-07-18 22:26:58,693 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-18 22:26:58,693 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-18 22:26:58,694 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-18 22:26:58,694 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-18 22:27:01,067 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-18 22:27:01,068 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-18 22:27:01,068 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-18 22:27:01,373 - faster_whisper - INFO - Processing audio with duration 00:34.718
+2025-07-18 22:27:05,170 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 22:27:19,828 - autotube.full_pipeline - INFO - Extracted 86 words with timing
+2025-07-18 22:27:19,828 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 18.76s
+2025-07-18 22:27:20,213 - autotube.full_pipeline - INFO - Video loading took 0.38s
+2025-07-18 22:27:20,214 - autotube.full_pipeline - INFO - Original video - Duration: 34.80s, FPS: 30.0, Audio: True
+2025-07-18 22:27:20,214 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 86 words...
+2025-07-18 22:27:20,215 - autotube.full_pipeline - INFO - Group 1: 4 words (24 chars), 0.00s - 1.04s
+2025-07-18 22:27:20,215 - autotube.full_pipeline - INFO - Group 2: 4 words (20 chars), 1.58s - 2.30s
+2025-07-18 22:27:20,215 - autotube.full_pipeline - INFO - Group 3: 3 words (21 chars), 2.28s - 3.04s
+2025-07-18 22:27:20,216 - autotube.full_pipeline - INFO - Group 4: 4 words (24 chars), 3.60s - 4.72s
+2025-07-18 22:27:20,216 - autotube.full_pipeline - INFO - Group 5: 3 words (17 chars), 5.46s - 6.92s
+2025-07-18 22:27:20,216 - autotube.full_pipeline - INFO - Group 6: 3 words (22 chars), 7.46s - 8.42s
+2025-07-18 22:27:20,216 - autotube.full_pipeline - INFO - Group 7: 3 words (23 chars), 8.68s - 9.72s
+2025-07-18 22:27:20,217 - autotube.full_pipeline - INFO - Group 8: 3 words (19 chars), 9.70s - 11.28s
+2025-07-18 22:27:20,217 - autotube.full_pipeline - INFO - Group 9: 3 words (25 chars), 11.26s - 13.04s
+2025-07-18 22:27:20,217 - autotube.full_pipeline - INFO - Group 10: 3 words (14 chars), 13.02s - 13.72s
+2025-07-18 22:27:20,217 - autotube.full_pipeline - INFO - Group 11: 3 words (26 chars), 13.70s - 15.48s
+2025-07-18 22:27:20,218 - autotube.full_pipeline - INFO - Group 12: 3 words (21 chars), 15.46s - 16.54s
+2025-07-18 22:27:20,218 - autotube.full_pipeline - INFO - Group 13: 4 words (20 chars), 16.52s - 17.88s
+2025-07-18 22:27:20,218 - autotube.full_pipeline - INFO - Group 14: 4 words (24 chars), 17.86s - 19.06s
+2025-07-18 22:27:20,219 - autotube.full_pipeline - INFO - Group 15: 3 words (13 chars), 19.04s - 19.88s
+2025-07-18 22:27:20,219 - autotube.full_pipeline - INFO - Group 16: 3 words (12 chars), 19.86s - 20.44s
+2025-07-18 22:27:20,219 - autotube.full_pipeline - INFO - Group 17: 3 words (20 chars), 20.42s - 21.52s
+2025-07-18 22:27:20,219 - autotube.full_pipeline - INFO - Group 18: 3 words (19 chars), 21.50s - 23.78s
+2025-07-18 22:27:20,220 - autotube.full_pipeline - INFO - Group 19: 3 words (19 chars), 24.28s - 25.14s
+2025-07-18 22:27:20,220 - autotube.full_pipeline - INFO - Group 20: 3 words (26 chars), 25.12s - 26.58s
+2025-07-18 22:27:20,220 - autotube.full_pipeline - INFO - Group 21: 3 words (19 chars), 26.56s - 27.76s
+2025-07-18 22:27:20,220 - autotube.full_pipeline - INFO - Group 22: 3 words (29 chars), 27.74s - 29.26s
+2025-07-18 22:27:20,221 - autotube.full_pipeline - INFO - Group 23: 3 words (10 chars), 30.04s - 30.58s
+2025-07-18 22:27:20,221 - autotube.full_pipeline - INFO - Group 24: 3 words (14 chars), 30.56s - 31.28s
+2025-07-18 22:27:20,221 - autotube.full_pipeline - INFO - Group 25: 4 words (22 chars), 31.26s - 32.26s
+2025-07-18 22:27:20,221 - autotube.full_pipeline - INFO - Group 26: 4 words (25 chars), 32.24s - 33.70s
+2025-07-18 22:27:20,222 - autotube.full_pipeline - INFO - Group 27: 1 words (13 chars), 33.68s - 34.14s
+2025-07-18 22:27:20,222 - autotube.full_pipeline - INFO - Created 27 word groups with smart length limiting
+2025-07-18 22:27:20,222 - autotube.full_pipeline - INFO - Creating clips for group 1: 4 words
+2025-07-18 22:27:21,358 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.22s
+2025-07-18 22:27:22,723 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.18s - 0.44s
+2025-07-18 22:27:23,878 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.40s - 0.70s
+2025-07-18 22:27:25,054 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 1: 0.66s - 1.34s
+2025-07-18 22:27:25,054 - autotube.full_pipeline - INFO - Created clips for 1/27 word groups - ETA: 5s
+2025-07-18 22:27:25,055 - autotube.full_pipeline - INFO - Creating clips for group 2: 4 words
+2025-07-18 22:27:26,046 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 1.58s - 1.72s
+2025-07-18 22:27:26,900 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 1.68s - 1.92s
+2025-07-18 22:27:27,999 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 1.88s - 2.06s
+2025-07-18 22:27:28,867 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 2: 2.02s - 2.23s
+2025-07-18 22:27:28,867 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-18 22:27:29,760 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 2.28s - 2.60s
+2025-07-18 22:27:30,889 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 2.56s - 2.74s
+2025-07-18 22:27:31,945 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 2.70s - 3.34s
+2025-07-18 22:27:31,946 - autotube.full_pipeline - INFO - Creating clips for group 4: 4 words
+2025-07-18 22:27:32,966 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 3.60s - 3.74s
+2025-07-18 22:27:34,065 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 3.70s - 3.86s
+2025-07-18 22:27:35,315 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 3.82s - 4.22s
+2025-07-18 22:27:36,736 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 4: 4.18s - 5.02s
+2025-07-18 22:27:36,736 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-18 22:27:37,727 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 5.46s - 5.78s
+2025-07-18 22:27:38,430 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 5.74s - 5.92s
+2025-07-18 22:27:39,240 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 5.88s - 7.22s
+2025-07-18 22:27:39,240 - autotube.full_pipeline - INFO - Creating clips for group 6: 3 words
+2025-07-18 22:27:40,368 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 7.46s - 7.64s
+2025-07-18 22:27:41,283 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 7.60s - 8.16s
+2025-07-18 22:27:42,400 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 8.12s - 8.63s
+2025-07-18 22:27:42,401 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-18 22:27:43,420 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 8.68s - 9.02s
+2025-07-18 22:27:44,366 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 8.98s - 9.44s
+2025-07-18 22:27:45,289 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 9.40s - 9.65s
+2025-07-18 22:27:45,289 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-18 22:27:46,189 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 9.70s - 10.12s
+2025-07-18 22:27:46,969 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 10.08s - 11.10s
+2025-07-18 22:27:47,924 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 11.06s - 11.21s
+2025-07-18 22:27:47,925 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-18 22:27:49,279 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 11.26s - 11.76s
+2025-07-18 22:27:50,874 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 11.72s - 12.30s
+2025-07-18 22:27:52,312 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 12.26s - 12.97s
+2025-07-18 22:27:52,313 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-18 22:27:53,111 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 13.02s - 13.24s
+2025-07-18 22:27:54,259 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 13.20s - 13.52s
+2025-07-18 22:27:55,136 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 13.48s - 13.65s
+2025-07-18 22:27:55,137 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-18 22:27:56,463 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 13.70s - 14.08s
+2025-07-18 22:27:58,051 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 14.04s - 15.32s
+2025-07-18 22:28:00,429 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 15.28s - 15.41s
+2025-07-18 22:28:00,429 - autotube.full_pipeline - INFO - Created clips for 11/27 word groups - ETA: 40s
+2025-07-18 22:28:00,430 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-18 22:28:01,760 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 15.46s - 15.88s
+2025-07-18 22:28:02,859 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 15.84s - 16.18s
+2025-07-18 22:28:03,677 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 16.14s - 16.47s
+2025-07-18 22:28:03,677 - autotube.full_pipeline - INFO - Creating clips for group 13: 4 words
+2025-07-18 22:28:04,314 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 16.52s - 16.84s
+2025-07-18 22:28:04,955 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 16.80s - 17.48s
+2025-07-18 22:28:05,619 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 17.44s - 17.60s
+2025-07-18 22:28:06,257 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 13: 17.56s - 17.81s
+2025-07-18 22:28:06,257 - autotube.full_pipeline - INFO - Creating clips for group 14: 4 words
+2025-07-18 22:28:07,030 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 17.86s - 18.18s
+2025-07-18 22:28:07,802 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 18.14s - 18.36s
+2025-07-18 22:28:08,652 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 18.32s - 18.78s
+2025-07-18 22:28:09,499 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 14: 18.74s - 18.99s
+2025-07-18 22:28:09,499 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-18 22:28:09,941 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 19.04s - 19.44s
+2025-07-18 22:28:10,351 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 19.40s - 19.70s
+2025-07-18 22:28:10,774 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 19.66s - 19.81s
+2025-07-18 22:28:10,775 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-18 22:28:11,147 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 19.86s - 20.04s
+2025-07-18 22:28:11,656 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 20.00s - 20.18s
+2025-07-18 22:28:12,031 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 20.14s - 20.37s
+2025-07-18 22:28:12,032 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-18 22:28:12,784 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 20.42s - 20.94s
+2025-07-18 22:28:13,526 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 20.90s - 21.28s
+2025-07-18 22:28:14,227 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 21.24s - 21.45s
+2025-07-18 22:28:14,228 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-18 22:28:14,796 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 21.50s - 22.60s
+2025-07-18 22:28:15,352 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 22.56s - 22.78s
+2025-07-18 22:28:15,911 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 22.74s - 24.08s
+2025-07-18 22:28:15,912 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-18 22:28:16,615 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 24.28s - 24.40s
+2025-07-18 22:28:17,299 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 24.36s - 24.68s
+2025-07-18 22:28:18,015 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 24.64s - 25.07s
+2025-07-18 22:28:18,015 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-18 22:28:18,940 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 25.12s - 25.74s
+2025-07-18 22:28:19,819 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 25.70s - 26.16s
+2025-07-18 22:28:20,778 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 26.12s - 26.51s
+2025-07-18 22:28:20,779 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-18 22:28:21,542 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 26.56s - 27.00s
+2025-07-18 22:28:22,217 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 26.96s - 27.36s
+2025-07-18 22:28:22,945 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 27.32s - 27.69s
+2025-07-18 22:28:22,945 - autotube.full_pipeline - INFO - Created clips for 21/27 word groups - ETA: 63s
+2025-07-18 22:28:22,945 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-18 22:28:24,190 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 27.74s - 28.38s
+2025-07-18 22:28:25,342 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 28.34s - 28.76s
+2025-07-18 22:28:26,371 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 28.72s - 29.56s
+2025-07-18 22:28:26,372 - autotube.full_pipeline - INFO - Creating clips for group 23: 3 words
+2025-07-18 22:28:26,666 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 30.04s - 30.36s
+2025-07-18 22:28:26,980 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 30.32s - 30.48s
+2025-07-18 22:28:27,295 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 30.44s - 30.51s
+2025-07-18 22:28:27,295 - autotube.full_pipeline - INFO - Creating clips for group 24: 3 words
+2025-07-18 22:28:27,792 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 30.56s - 30.86s
+2025-07-18 22:28:28,248 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 30.82s - 31.12s
+2025-07-18 22:28:28,752 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 31.08s - 31.21s
+2025-07-18 22:28:28,752 - autotube.full_pipeline - INFO - Creating clips for group 25: 4 words
+2025-07-18 22:28:29,513 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 31.26s - 31.68s
+2025-07-18 22:28:30,352 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 31.64s - 31.86s
+2025-07-18 22:28:31,143 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 31.82s - 32.12s
+2025-07-18 22:28:31,923 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 25: 32.08s - 32.19s
+2025-07-18 22:28:31,924 - autotube.full_pipeline - INFO - Creating clips for group 26: 4 words
+2025-07-18 22:28:32,857 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 26: 32.24s - 32.66s
+2025-07-18 22:28:33,709 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 26: 32.62s - 33.30s
+2025-07-18 22:28:34,573 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 26: 33.26s - 33.48s
+2025-07-18 22:28:35,396 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 26: 33.44s - 33.63s
+2025-07-18 22:28:35,396 - autotube.full_pipeline - INFO - Creating clips for group 27: 1 words
+2025-07-18 22:28:35,829 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 27: 33.68s - 34.34s
+2025-07-18 22:28:35,830 - autotube.full_pipeline - INFO - Created 86 individual subtitle clips
+2025-07-18 22:28:35,831 - autotube.full_pipeline - INFO - Viral subtitle creation took 75.62s
+2025-07-18 22:28:35,831 - autotube.full_pipeline - INFO - Subtitle clips count: 86
+2025-07-18 22:28:35,842 - autotube.full_pipeline - INFO - Video composition took 0.01s
+2025-07-18 22:28:35,843 - autotube.full_pipeline - INFO - Final video - Duration: 34.80s, Audio: True
+2025-07-18 22:28:35,843 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretsoftheSonsofLibertyExposed_final.mp4
+2025-07-18 22:29:15,752 - autotube.full_pipeline - INFO - Video writing took 39.91s
+2025-07-18 22:29:15,752 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-18 22:29:16,128 - autotube.full_pipeline - INFO - Output file - Duration: 34.80s, Audio: True, Playable: True
+2025-07-18 22:29:16,155 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretsoftheSonsofLibertyExposed_final.mp4
+2025-07-18 22:29:16,156 - autotube.full_pipeline - INFO - Total processing time: 135.09s
+2025-07-18 22:29:16,157 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretsoftheSonsofLibertyExposed_final.mp4
+2025-07-18 22:29:16,157 - autotube.full_pipeline - INFO - 📊 Final video size: 5,525,308 bytes (5.3 MB)
+2025-07-18 22:29:16,157 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-18 22:29:16,157 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SecretsoftheSonsofLibertyExposed_kenburns.mp4
+2025-07-18 22:29:16,158 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SecretsoftheSonsofLibertyExposed_final.mp4
+2025-07-18 22:29:16,191 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (186.02s)
+2025-07-18 22:29:16,192 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-18 22:29:16,195 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_SecretsoftheSonsofLibertyExposed_20250718_222916.json
+2025-07-18 22:29:16,196 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-18 22:29:16,196 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 22:29:16,196 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 254.22s
+2025-07-18 22:29:16,196 - autotube.full_pipeline - INFO - 📁 Story Title: SecretsoftheSonsofLibertyExposed
+2025-07-18 22:29:16,197 - autotube.full_pipeline - INFO - 📁 Sanitized Title: SecretsoftheSonsofLibertyExposed
+2025-07-18 22:29:16,197 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_SecretsoftheSonsofLibertyExposed_20250718_222916.json

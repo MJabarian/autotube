@@ -1,0 +1,339 @@
+2025-07-18 21:49:50,233 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-18 21:49:50,233 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250718_214950.log
+2025-07-18 21:49:50,234 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-18 21:49:50,234 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 21:49:50,234 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 21:49:50,243 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 21:49:51,872 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:49:53,071 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:49:53,914 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:49:54,953 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:49:56,281 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:49:57,326 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:00,579 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:00,868 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:00,887 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** Cleopatra's Political Marriages  
+**Summary:** Contrary to popular belief, Cleopatra's romantic liaisons with Julius Caesar and Mark Antony were not only about love but were strategic political alliances aimed at preserving her reign and challenging Roman dominance.
+2025-07-18 21:50:00,887 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleCleopatrasPoliticalMarriagesSummaryContraryto_content_gen_2025-07-18_21-50-00.log
+2025-07-18 21:50:00,887 - autotube.content_gen - INFO - 📁 Sanitized folder name: CleopatrasMarriagesStrategicAlliancesExposed
+2025-07-18 21:50:00,887 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 86 words
+2025-07-18 21:50:00,890 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\CleopatrasMarriagesStrategicAlliancesExposed\story.json (1,142 bytes)
+2025-07-18 21:50:00,892 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\CleopatrasMarriagesStrategicAlliancesExposed\topic.txt (278 bytes)
+2025-07-18 21:50:00,892 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\CleopatrasMarriagesStrategicAlliancesExposed\metadata.json (649 bytes)
+2025-07-18 21:50:00,893 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\CleopatrasMarriagesStrategicAlliancesExposed\story.txt (1,062 bytes)
+2025-07-18 21:50:00,893 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\CleopatrasMarriagesStrategicAlliancesExposed
+2025-07-18 21:50:08,405 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\CleopatrasMarriagesStrategicAlliancesExposed\audio_CleopatrasMarriagesStrategicAlliancesExposed.mp3 (507,447 bytes)
+2025-07-18 21:50:08,493 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 31.71s duration
+2025-07-18 21:50:09,317 - autotube.content_gen - INFO - ✅ Audio speed adjustment: 1.1x, new duration: 28.89s
+2025-07-18 21:50:09,317 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\CleopatrasMarriagesStrategicAlliancesExposed\audio_CleopatrasMarriagesStrategicAlliancesExposed_sped_up.mp3 (507,447 bytes, 28.89s)
+2025-07-18 21:50:09,318 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-18 21:50:09,318 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-18 21:50:09,319 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\CleopatrasMarriagesStrategicAlliancesExposed\audio_CleopatrasMarriagesStrategicAlliancesExposed_sped_up.mp3
+2025-07-18 21:50:09,319 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-18 21:50:10,136 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-18 21:50:10,224 - faster_whisper - INFO - Processing audio with duration 00:28.847
+2025-07-18 21:50:10,832 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 21:50:14,165 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 27.86s
+2025-07-18 21:50:14,165 - whisper_audio_synchronizer - INFO - 📝 Extracted 84 words with timestamps
+2025-07-18 21:50:14,166 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 27.86s, Image duration: 2.32s
+2025-07-18 21:50:14,167 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-18 21:50:14,167 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-18 21:50:15,974 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:15,975 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): Establishing shot of the grand palace of Alexandri...
+2025-07-18 21:50:18,183 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:18,184 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of Cleopatra standing on the balcony of ...
+2025-07-18 21:50:19,754 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:19,756 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of Cleopatra standing on a balcony overl...
+2025-07-18 21:50:21,238 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:21,239 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/medium_shot): Medium shot of Cleopatra in regal attire, seated o...
+2025-07-18 21:50:22,888 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:22,893 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/medium_shot): Medium shot of Cleopatra, regal and determined, st...
+2025-07-18 21:50:25,180 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:25,182 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/medium_shot): Medium shot of Cleopatra, adorned in opulent robes...
+2025-07-18 21:50:27,086 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:27,092 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of Cleopatra, regal and resolute, stan...
+2025-07-18 21:50:28,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:28,784 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/medium_shot): Medium shot of Cleopatra and Mark Antony in an opu...
+2025-07-18 21:50:31,028 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:31,046 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of Cleopatra and Mark Antony standing ...
+2025-07-18 21:50:32,561 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:32,562 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/medium_shot): Medium shot of Cleopatra, regal and poised, standi...
+2025-07-18 21:50:34,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:34,191 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/medium_shot): Medium shot of Cleopatra standing on a grand balco...
+2025-07-18 21:50:35,942 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 21:50:35,943 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/medium_shot): Medium shot of Cleopatra and Mark Antony in a diml...
+2025-07-18 21:50:35,945 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Cleopatras_Marriages_Strategic_Alliances_Exposed_whisper_sync.json
+2025-07-18 21:50:35,945 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-18 21:50:35,945 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-18 21:50:35,946 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-18 21:50:35,946 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-18 21:50:35,950 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Intense\cinematic-epic-percussion-trailer-122098.mp3 (1,281,462 bytes)
+2025-07-18 21:50:35,952 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\CleopatrasMarriagesStrategicAlliancesExposed\music_selection.json (367 bytes)
+2025-07-18 21:50:35,952 - autotube.content_gen - INFO - ✅ Music selected: cinematic-epic-percussion-trailer-122098.mp3
+2025-07-18 21:50:35,953 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-18 21:50:35,953 - src.replicate_image_generator - INFO - Generating images for story: Cleopatra's Marriages: Strategic Alliances Exposed
+2025-07-18 21:50:35,953 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-18 21:50:35,954 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-18 21:50:35,954 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-18 21:50:36,924 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:50:38,508 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:50:40,091 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:50:41,649 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:50:43,158 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:50:44,780 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:50:46,816 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:50:48,891 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:50:51,266 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:50:53,568 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:50:55,754 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:50:57,377 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 21:50:58,293 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-18 21:50:58,293 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-18 21:50:58,294 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-18 21:50:58,295 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-18 21:50:58,297 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-18 21:50:58,297 - autotube.content_gen - INFO - 📊 Total time: 68.05s, Cost: $0.0360
+2025-07-18 21:50:58,297 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** Cleopatra's Political Marriages  
+**Summary:** Contrary to popular belief, Cleopatra's romantic liaisons with Julius Caesar and Mark Antony were not only about love but were strategic political alliances aimed at preserving her reign and challenging Roman dominance.
+2025-07-18 21:50:58,319 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (68.08s)
+2025-07-18 21:50:58,320 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 21:50:58,320 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 21:50:58,321 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: CleopatrasMarriagesStrategicAlliancesExposed
+2025-07-18 21:50:58,321 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: CleopatrasMarriagesStrategicAlliancesExposed
+2025-07-18 21:50:58,321 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio (1.1x): C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\CleopatrasMarriagesStrategicAlliancesExposed\audio_CleopatrasMarriagesStrategicAlliancesExposed_sped_up.mp3
+2025-07-18 21:50:58,321 - autotube.full_pipeline - INFO - ✅ Found source TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\CleopatrasMarriagesStrategicAlliancesExposed\audio_CleopatrasMarriagesStrategicAlliancesExposed_sped_up.mp3
+2025-07-18 21:50:58,322 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\CleopatrasMarriagesStrategicAlliancesExposed\music_selection.json
+2025-07-18 21:50:58,328 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Intense\cinematic-epic-percussion-trailer-122098.mp3
+2025-07-18 21:50:58,344 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-18 21:50:58,344 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\CleopatrasMarriagesStrategicAlliancesExposed\audio_CleopatrasMarriagesStrategicAlliancesExposed_sped_up.mp3
+2025-07-18 21:50:58,429 - src.audio_mixer - INFO - Loaded audio: 28847ms, 44100Hz, 2 channels
+2025-07-18 21:50:58,429 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Intense\cinematic-epic-percussion-trailer-122098.mp3
+2025-07-18 21:50:58,551 - src.audio_mixer - INFO - Loaded audio: 40046ms, 44100Hz, 2 channels
+2025-07-18 21:50:58,551 - src.audio_mixer - INFO - Mixing audio (simple, mobile-optimized)...
+2025-07-18 21:50:58,552 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-18 21:50:58,573 - src.audio_mixer - INFO - Voice adjusted by 9.1dB, Music by -4.8dB
+2025-07-18 21:50:58,586 - src.audio_mixer - INFO - Audio mixing completed: 28847ms
+2025-07-18 21:50:59,001 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\CleopatrasMarriagesStrategicAlliancesExposed\mixed_audio_CleopatrasMarriagesStrategicAlliancesExposed.mp3
+2025-07-18 21:50:59,002 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\CleopatrasMarriagesStrategicAlliancesExposed\mixed_audio_CleopatrasMarriagesStrategicAlliancesExposed.mp3
+2025-07-18 21:50:59,003 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 869,715 bytes (0.8 MB)
+2025-07-18 21:50:59,003 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: CleopatrasMarriagesStrategicAlliancesExposed
+2025-07-18 21:50:59,004 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-18 21:50:59,004 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-18 21:50:59,004 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: CleopatrasMarriagesStrategicAlliancesExposed
+2025-07-18 21:50:59,141 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-18 21:50:59,141 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-18 21:50:59,141 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.41 seconds per image
+2025-07-18 21:50:59,141 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\CleopatrasMarriagesStrategicAlliancesExposed_kenburns.mp4
+2025-07-18 21:50:59,142 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['zoom_in', 'pan_left', 'zoom_out', 'pan_left', 'zoom_in']...
+2025-07-18 21:50:59,142 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-18 21:50:59,142 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 21:50:59,155 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-18 21:50:59,155 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 21:50:59,171 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-18 21:50:59,171 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 21:50:59,187 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-18 21:50:59,188 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 21:50:59,217 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-18 21:50:59,217 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 21:50:59,246 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-18 21:50:59,246 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 21:50:59,274 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-18 21:50:59,274 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 21:50:59,305 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-18 21:50:59,305 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 21:50:59,330 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-18 21:50:59,331 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 21:50:59,359 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-18 21:50:59,360 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 21:50:59,392 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-18 21:50:59,393 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 21:50:59,426 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-18 21:50:59,427 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 21:50:59,457 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-18 21:50:59,518 - autotube.full_pipeline - INFO - 🎵 Adding audio to video...
+2025-07-18 21:50:59,615 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\CleopatrasMarriagesStrategicAlliancesExposed_kenburns.mp4
+2025-07-18 21:51:41,763 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-18 21:51:41,764 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-18 21:51:41,764 - autotube.full_pipeline - INFO - ✅ Video duration: 28.90 seconds
+2025-07-18 21:51:41,765 - autotube.full_pipeline - INFO - ✅ Video file size: 7.1 MB
+2025-07-18 21:51:41,765 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-18 21:51:41,819 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\CleopatrasMarriagesStrategicAlliancesExposed_kenburns.mp4
+2025-07-18 21:51:41,820 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-18 21:51:41,821 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\CleopatrasMarriagesStrategicAlliancesExposed_kenburns.mp4
+2025-07-18 21:51:41,822 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-18 21:51:41,822 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-18 21:51:41,823 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-18 21:51:41,824 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-18 21:51:44,250 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-18 21:51:44,251 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-18 21:51:44,252 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-18 21:51:44,485 - faster_whisper - INFO - Processing audio with duration 00:28.847
+2025-07-18 21:51:48,764 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 21:52:01,473 - autotube.full_pipeline - INFO - Extracted 84 words with timing
+2025-07-18 21:52:01,474 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 17.22s
+2025-07-18 21:52:01,834 - autotube.full_pipeline - INFO - Video loading took 0.36s
+2025-07-18 21:52:01,835 - autotube.full_pipeline - INFO - Original video - Duration: 28.90s, FPS: 30.0, Audio: True
+2025-07-18 21:52:01,835 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 84 words...
+2025-07-18 21:52:01,835 - autotube.full_pipeline - INFO - Group 1: 3 words (22 chars), 0.00s - 1.12s
+2025-07-18 21:52:01,836 - autotube.full_pipeline - INFO - Group 2: 4 words (19 chars), 1.10s - 2.32s
+2025-07-18 21:52:01,836 - autotube.full_pipeline - INFO - Group 3: 3 words (21 chars), 2.30s - 3.58s
+2025-07-18 21:52:01,836 - autotube.full_pipeline - INFO - Group 4: 3 words (9 chars), 3.88s - 4.78s
+2025-07-18 21:52:01,837 - autotube.full_pipeline - INFO - Group 5: 3 words (16 chars), 4.76s - 5.62s
+2025-07-18 21:52:01,837 - autotube.full_pipeline - INFO - Group 6: 3 words (17 chars), 5.60s - 6.54s
+2025-07-18 21:52:01,837 - autotube.full_pipeline - INFO - Group 7: 4 words (21 chars), 6.52s - 7.40s
+2025-07-18 21:52:01,837 - autotube.full_pipeline - INFO - Group 8: 4 words (21 chars), 7.38s - 8.64s
+2025-07-18 21:52:01,838 - autotube.full_pipeline - INFO - Group 9: 3 words (21 chars), 8.62s - 10.06s
+2025-07-18 21:52:01,838 - autotube.full_pipeline - INFO - Group 10: 4 words (19 chars), 10.46s - 11.74s
+2025-07-18 21:52:01,838 - autotube.full_pipeline - INFO - Group 11: 4 words (22 chars), 11.72s - 13.34s
+2025-07-18 21:52:01,839 - autotube.full_pipeline - INFO - Group 12: 4 words (22 chars), 13.32s - 14.60s
+2025-07-18 21:52:01,839 - autotube.full_pipeline - INFO - Group 13: 3 words (14 chars), 14.58s - 15.46s
+2025-07-18 21:52:01,839 - autotube.full_pipeline - INFO - Group 14: 3 words (20 chars), 15.44s - 16.34s
+2025-07-18 21:52:01,840 - autotube.full_pipeline - INFO - Group 15: 3 words (19 chars), 16.32s - 17.38s
+2025-07-18 21:52:01,840 - autotube.full_pipeline - INFO - Group 16: 4 words (19 chars), 17.36s - 18.30s
+2025-07-18 21:52:01,840 - autotube.full_pipeline - INFO - Group 17: 3 words (25 chars), 18.28s - 19.56s
+2025-07-18 21:52:01,841 - autotube.full_pipeline - INFO - Group 18: 3 words (21 chars), 19.54s - 20.42s
+2025-07-18 21:52:01,841 - autotube.full_pipeline - INFO - Group 19: 3 words (13 chars), 20.40s - 21.20s
+2025-07-18 21:52:01,841 - autotube.full_pipeline - INFO - Group 20: 4 words (15 chars), 21.18s - 22.72s
+2025-07-18 21:52:01,842 - autotube.full_pipeline - INFO - Group 21: 3 words (23 chars), 22.70s - 23.74s
+2025-07-18 21:52:01,842 - autotube.full_pipeline - INFO - Group 22: 3 words (12 chars), 23.72s - 24.46s
+2025-07-18 21:52:01,842 - autotube.full_pipeline - INFO - Group 23: 4 words (23 chars), 24.44s - 25.82s
+2025-07-18 21:52:01,842 - autotube.full_pipeline - INFO - Group 24: 4 words (25 chars), 25.80s - 27.28s
+2025-07-18 21:52:01,843 - autotube.full_pipeline - INFO - Group 25: 2 words (14 chars), 27.26s - 27.86s
+2025-07-18 21:52:01,843 - autotube.full_pipeline - INFO - Created 25 word groups with smart length limiting
+2025-07-18 21:52:01,843 - autotube.full_pipeline - INFO - Creating clips for group 1: 3 words
+2025-07-18 21:52:03,293 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.60s
+2025-07-18 21:52:04,604 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.56s - 0.98s
+2025-07-18 21:52:05,821 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.94s - 1.05s
+2025-07-18 21:52:05,821 - autotube.full_pipeline - INFO - Created clips for 1/25 word groups - ETA: 4s
+2025-07-18 21:52:05,821 - autotube.full_pipeline - INFO - Creating clips for group 2: 4 words
+2025-07-18 21:52:06,692 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 1.10s - 1.30s
+2025-07-18 21:52:07,433 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 1.26s - 2.04s
+2025-07-18 21:52:08,192 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 2.00s - 2.18s
+2025-07-18 21:52:09,139 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 2: 2.14s - 2.25s
+2025-07-18 21:52:09,140 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-18 21:52:10,349 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 2.30s - 2.42s
+2025-07-18 21:52:11,418 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 2.38s - 2.78s
+2025-07-18 21:52:12,381 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 2.74s - 3.83s
+2025-07-18 21:52:12,382 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-18 21:52:12,856 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 3.88s - 4.02s
+2025-07-18 21:52:13,308 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 3.98s - 4.38s
+2025-07-18 21:52:13,808 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 4.34s - 4.71s
+2025-07-18 21:52:13,808 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-18 21:52:14,671 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 4.76s - 5.16s
+2025-07-18 21:52:15,567 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 5.12s - 5.38s
+2025-07-18 21:52:16,435 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 5.34s - 5.55s
+2025-07-18 21:52:16,436 - autotube.full_pipeline - INFO - Creating clips for group 6: 3 words
+2025-07-18 21:52:17,359 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 5.60s - 5.94s
+2025-07-18 21:52:18,259 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 5.90s - 6.28s
+2025-07-18 21:52:19,108 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 6.24s - 6.47s
+2025-07-18 21:52:19,108 - autotube.full_pipeline - INFO - Creating clips for group 7: 4 words
+2025-07-18 21:52:20,512 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 6.52s - 6.82s
+2025-07-18 21:52:21,573 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 6.78s - 7.00s
+2025-07-18 21:52:22,440 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 6.96s - 7.26s
+2025-07-18 21:52:23,320 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 7: 7.22s - 7.33s
+2025-07-18 21:52:23,321 - autotube.full_pipeline - INFO - Creating clips for group 8: 4 words
+2025-07-18 21:52:24,102 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 7.38s - 8.12s
+2025-07-18 21:52:24,810 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 8.08s - 8.34s
+2025-07-18 21:52:25,521 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 8.30s - 8.56s
+2025-07-18 21:52:26,289 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 8: 8.52s - 8.57s
+2025-07-18 21:52:26,289 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-18 21:52:27,124 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 8.62s - 9.00s
+2025-07-18 21:52:28,064 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 8.96s - 9.38s
+2025-07-18 21:52:29,324 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 9.34s - 10.36s
+2025-07-18 21:52:29,324 - autotube.full_pipeline - INFO - Creating clips for group 10: 4 words
+2025-07-18 21:52:30,342 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 10.46s - 10.76s
+2025-07-18 21:52:31,350 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 10.72s - 11.16s
+2025-07-18 21:52:32,246 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 11.12s - 11.36s
+2025-07-18 21:52:33,048 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 10: 11.32s - 11.67s
+2025-07-18 21:52:33,049 - autotube.full_pipeline - INFO - Creating clips for group 11: 4 words
+2025-07-18 21:52:34,208 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 11.72s - 12.20s
+2025-07-18 21:52:35,252 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 12.16s - 12.64s
+2025-07-18 21:52:36,301 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 12.60s - 12.78s
+2025-07-18 21:52:37,178 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 11: 12.74s - 13.27s
+2025-07-18 21:52:37,179 - autotube.full_pipeline - INFO - Created clips for 11/25 word groups - ETA: 35s
+2025-07-18 21:52:37,179 - autotube.full_pipeline - INFO - Creating clips for group 12: 4 words
+2025-07-18 21:52:38,180 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 13.32s - 13.56s
+2025-07-18 21:52:40,048 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 13.52s - 14.24s
+2025-07-18 21:52:42,149 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 14.20s - 14.38s
+2025-07-18 21:52:44,108 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 12: 14.34s - 14.53s
+2025-07-18 21:52:44,108 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-18 21:52:45,150 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 14.58s - 14.82s
+2025-07-18 21:52:46,044 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 14.78s - 15.34s
+2025-07-18 21:52:46,914 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 15.30s - 15.39s
+2025-07-18 21:52:46,915 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-18 21:52:48,025 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 15.44s - 15.58s
+2025-07-18 21:52:49,077 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 15.54s - 15.90s
+2025-07-18 21:52:50,219 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 15.86s - 16.27s
+2025-07-18 21:52:50,219 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-18 21:52:51,222 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 16.32s - 17.00s
+2025-07-18 21:52:52,218 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 16.96s - 17.10s
+2025-07-18 21:52:53,472 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 17.06s - 17.31s
+2025-07-18 21:52:53,473 - autotube.full_pipeline - INFO - Creating clips for group 16: 4 words
+2025-07-18 21:52:55,182 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 17.36s - 17.68s
+2025-07-18 21:52:56,465 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 17.64s - 17.90s
+2025-07-18 21:52:57,941 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 17.86s - 18.10s
+2025-07-18 21:52:59,170 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 16: 18.06s - 18.23s
+2025-07-18 21:52:59,171 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-18 21:53:00,874 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 18.28s - 18.94s
+2025-07-18 21:53:02,170 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 18.90s - 19.38s
+2025-07-18 21:53:03,337 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 19.34s - 19.49s
+2025-07-18 21:53:03,338 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-18 21:53:04,295 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 19.54s - 19.66s
+2025-07-18 21:53:05,443 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 19.62s - 19.98s
+2025-07-18 21:53:06,519 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 19.94s - 20.35s
+2025-07-18 21:53:06,520 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-18 21:53:07,105 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 20.40s - 20.60s
+2025-07-18 21:53:07,616 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 20.56s - 21.02s
+2025-07-18 21:53:08,133 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 20.98s - 21.13s
+2025-07-18 21:53:08,133 - autotube.full_pipeline - INFO - Creating clips for group 20: 4 words
+2025-07-18 21:53:08,730 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 21.18s - 21.52s
+2025-07-18 21:53:09,275 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 21.48s - 22.50s
+2025-07-18 21:53:10,149 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 22.46s - 22.58s
+2025-07-18 21:53:11,205 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 20: 22.54s - 22.65s
+2025-07-18 21:53:11,206 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-18 21:53:13,041 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 22.70s - 22.84s
+2025-07-18 21:53:14,189 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 22.80s - 23.56s
+2025-07-18 21:53:15,416 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 23.52s - 23.67s
+2025-07-18 21:53:15,416 - autotube.full_pipeline - INFO - Created clips for 21/25 word groups - ETA: 74s
+2025-07-18 21:53:15,417 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-18 21:53:16,055 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 23.72s - 24.04s
+2025-07-18 21:53:16,637 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 24.00s - 24.20s
+2025-07-18 21:53:17,164 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 24.16s - 24.39s
+2025-07-18 21:53:17,165 - autotube.full_pipeline - INFO - Creating clips for group 23: 4 words
+2025-07-18 21:53:18,433 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 24.44s - 25.10s
+2025-07-18 21:53:19,363 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 25.06s - 25.26s
+2025-07-18 21:53:20,278 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 25.22s - 25.44s
+2025-07-18 21:53:21,221 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 23: 25.40s - 25.75s
+2025-07-18 21:53:21,222 - autotube.full_pipeline - INFO - Creating clips for group 24: 4 words
+2025-07-18 21:53:22,408 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 25.80s - 26.30s
+2025-07-18 21:53:24,044 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 26.26s - 26.52s
+2025-07-18 21:53:25,810 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 26.48s - 27.12s
+2025-07-18 21:53:27,127 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 24: 27.08s - 27.21s
+2025-07-18 21:53:27,128 - autotube.full_pipeline - INFO - Creating clips for group 25: 2 words
+2025-07-18 21:53:27,924 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 27.26s - 27.52s
+2025-07-18 21:53:28,596 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 27.48s - 28.06s
+2025-07-18 21:53:28,596 - autotube.full_pipeline - INFO - Created 84 individual subtitle clips
+2025-07-18 21:53:28,599 - autotube.full_pipeline - INFO - Viral subtitle creation took 86.76s
+2025-07-18 21:53:28,599 - autotube.full_pipeline - INFO - Subtitle clips count: 84
+2025-07-18 21:53:28,613 - autotube.full_pipeline - INFO - Video composition took 0.01s
+2025-07-18 21:53:28,614 - autotube.full_pipeline - INFO - Final video - Duration: 28.90s, Audio: True
+2025-07-18 21:53:28,614 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\CleopatrasMarriagesStrategicAlliancesExposed_final.mp4
+2025-07-18 21:54:10,609 - autotube.full_pipeline - INFO - Video writing took 41.99s
+2025-07-18 21:54:10,609 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-18 21:54:11,025 - autotube.full_pipeline - INFO - Output file - Duration: 28.90s, Audio: True, Playable: True
+2025-07-18 21:54:11,057 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\CleopatrasMarriagesStrategicAlliancesExposed_final.mp4
+2025-07-18 21:54:11,057 - autotube.full_pipeline - INFO - Total processing time: 146.81s
+2025-07-18 21:54:11,058 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\CleopatrasMarriagesStrategicAlliancesExposed_final.mp4
+2025-07-18 21:54:11,058 - autotube.full_pipeline - INFO - 📊 Final video size: 4,929,709 bytes (4.7 MB)
+2025-07-18 21:54:11,059 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-18 21:54:11,059 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\CleopatrasMarriagesStrategicAlliancesExposed_kenburns.mp4
+2025-07-18 21:54:11,060 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\CleopatrasMarriagesStrategicAlliancesExposed_final.mp4
+2025-07-18 21:54:11,108 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (192.79s)
+2025-07-18 21:54:11,109 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-18 21:54:11,114 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_CleopatrasMarriagesStrategicAlliancesExposed_20250718_215411.json
+2025-07-18 21:54:11,115 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-18 21:54:11,115 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 21:54:11,116 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 260.88s
+2025-07-18 21:54:11,116 - autotube.full_pipeline - INFO - 📁 Story Title: CleopatrasMarriagesStrategicAlliancesExposed
+2025-07-18 21:54:11,117 - autotube.full_pipeline - INFO - 📁 Sanitized Title: CleopatrasMarriagesStrategicAlliancesExposed
+2025-07-18 21:54:11,117 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_CleopatrasMarriagesStrategicAlliancesExposed_20250718_215411.json

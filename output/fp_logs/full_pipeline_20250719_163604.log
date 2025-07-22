@@ -1,0 +1,20 @@
+2025-07-19 16:36:04,351 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-19 16:36:04,351 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250719_163604.log
+2025-07-19 16:36:04,352 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-19 16:36:04,352 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 16:36:04,352 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 16:36:04,361 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 16:36:06,225 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:36:07,374 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:36:08,533 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:36:09,618 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:36:11,402 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:36:12,662 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:36:13,865 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:36:15,161 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:36:16,244 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:36:17,228 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:36:17,234 - autotube.full_pipeline - ERROR - ❌ Content generation failed: Could not generate unique topic after 10 attempts. Consider clearing used_topics.txt or providing different exclusion criteria.
+2025-07-19 16:36:17,235 - autotube.full_pipeline - INFO - ❌ Completed: Content Generation (12.87s)
+2025-07-19 16:36:17,236 - autotube.full_pipeline - ERROR - ❌ Content generation failed - stopping pipeline
+2025-07-19 16:36:17,236 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline

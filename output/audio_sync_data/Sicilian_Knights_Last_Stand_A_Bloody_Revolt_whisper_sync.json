@@ -1,0 +1,241 @@
+{
+  "story_title": "Sicilian Knights' Last Stand: A Bloody Revolt",
+  "original_story": "[dramatic] You won't believe how a simple uprising turned into a bloody last stand! In 1282, the Sicilian Vespers erupted against French rule, igniting chaos. Knights, fueled by rage, faced overwhelming forces in a desperate bid for freedom. Picture this: 20,000 rebels clashing against just 3,000 French soldiers, yet the knights held their ground! They fought fiercely, but betrayal lurked, shaking the very foundations of Sicily's future. This revolt didn’t just change a kingdom; it altered alliances across Europe. Who knew a drama like this unfolded on such a small island?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.566666666666667,
+      "audio_content": "You won't believe how a simple uprising turned into a bloody",
+      "words_in_segment": 11,
+      "confidence_avg": 0.9456865245645697
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.566666666666667,
+      "timestamp_end": 5.133333333333334,
+      "audio_content": "stand. In 1282, the",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9146094992756844
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.133333333333334,
+      "timestamp_end": 7.700000000000001,
+      "audio_content": "Vespers erupted against French rule, igniting",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9430841737323338
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.700000000000001,
+      "timestamp_end": 10.266666666666667,
+      "audio_content": "Nights, fueled by rage, faced",
+      "words_in_segment": 5,
+      "confidence_avg": 0.917449027299881
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.266666666666667,
+      "timestamp_end": 12.833333333333334,
+      "audio_content": "forces in a desperate bid for freedom.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9883680769375393
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.833333333333334,
+      "timestamp_end": 15.400000000000002,
+      "audio_content": "Picture this, 20 ,000 rebels",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8897636115550995
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 15.400000000000002,
+      "timestamp_end": 17.96666666666667,
+      "audio_content": "against just 3 ,000 French soldiers, yet",
+      "words_in_segment": 7,
+      "confidence_avg": 0.963985128062112
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.96666666666667,
+      "timestamp_end": 20.533333333333335,
+      "audio_content": "knights held their ground. They fought fiercely,",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9485661131995065
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 20.533333333333335,
+      "timestamp_end": 23.1,
+      "audio_content": "but betrayal lurked, shaking the very foundations",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9493906285081591
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 23.1,
+      "timestamp_end": 25.666666666666668,
+      "audio_content": "Sicily's future. This revolt didn't just change",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9903151634193603
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 25.666666666666668,
+      "timestamp_end": 28.233333333333334,
+      "audio_content": "kingdom, it altered alliances across Europe.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9902742008368174
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 28.233333333333334,
+      "timestamp_end": 30.800000000000004,
+      "audio_content": "knew a drama like this unfolded on such a small island?",
+      "words_in_segment": 11,
+      "confidence_avg": 0.9929763837294145
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.566666666666667,
+      "audio_content": "You won't believe how a simple uprising turned into a bloody",
+      "image_prompt": "Medium shot of a fierce Sicilian knight, face contorted in rage, sword raised high, as he confronts a line of French soldiers. The tension in the air is palpable, dramatic chiaroscuro lighting casts sharp shadows, highlighting the determination etched on his face amidst the chaos of battle.",
+      "words_in_segment": 11,
+      "confidence_avg": 0.9456865245645697,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.566666666666667,
+      "timestamp_end": 5.133333333333334,
+      "audio_content": "stand. In 1282, the",
+      "image_prompt": "Wide shot of the chaotic Sicilian landscape in 1282, showcasing the battleground filled with knights in gleaming armor clashing against French soldiers. Fiery skies illuminate the scene, with shadows of chaos and rebellion cast across the island, embodying the struggle for freedom.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9146094992756844,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.133333333333334,
+      "timestamp_end": 7.700000000000001,
+      "audio_content": "Vespers erupted against French rule, igniting",
+      "image_prompt": "Wide shot of the tumultuous Sicilian landscape, where 20,000 rebels rally against the backdrop of a dimly lit sky, knights brandishing swords, faces twisted in determination, as chaos and smoke swirl around them, embodying the fierce spirit of the Vespers uprising.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9430841737323338,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.700000000000001,
+      "timestamp_end": 10.266666666666667,
+      "audio_content": "Nights, fueled by rage, faced",
+      "image_prompt": "Medium shot of fierce knights, faces twisted in determination, charging into battle against French soldiers. The chaos of clashing swords fills the air, shadows dancing ominously across the blood-soaked ground, capturing the raw intensity of their desperate fight for freedom.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.917449027299881,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.266666666666667,
+      "timestamp_end": 12.833333333333334,
+      "audio_content": "forces in a desperate bid for freedom.",
+      "image_prompt": "Medium shot of fierce knights, faces illuminated by the flickering torches, gripping swords tightly as they prepare for battle against overwhelming forces, shadows casting dramatic outlines, embodying their desperate bid for freedom amidst the chaos of the Sicilian Vespers.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9883680769375393,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.833333333333334,
+      "timestamp_end": 15.400000000000002,
+      "audio_content": "Picture this, 20 ,000 rebels",
+      "image_prompt": "Medium shot of a fierce knight in battered armor, face contorted with rage, raising his sword high amidst the chaos of battle. In the blurred background, 20,000 rebels clash against a small group of French soldiers, dramatic chiaroscuro lighting enhancing the tension.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8897636115550995,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 15.400000000000002,
+      "timestamp_end": 17.96666666666667,
+      "audio_content": "against just 3 ,000 French soldiers, yet",
+      "image_prompt": "Medium shot of a group of fierce Sicilian knights, their faces etched with determination and rage, clashing swords with a smaller contingent of French soldiers under dramatic chiaroscuro lighting. Shadows dance around them as chaos unfolds, capturing the intensity of their desperate fight for freedom.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.963985128062112,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.96666666666667,
+      "timestamp_end": 20.533333333333335,
+      "audio_content": "knights held their ground. They fought fiercely,",
+      "image_prompt": "Medium shot of valiant knights, faces etched with determination, brandishing swords amidst a swirling chaos of battle. Dark clouds loom overhead, casting sharp shadows on the ground, as they fiercely hold their ground against advancing French soldiers, the air thick with tension and desperation.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9485661131995065,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 20.533333333333335,
+      "timestamp_end": 23.1,
+      "audio_content": "but betrayal lurked, shaking the very foundations",
+      "image_prompt": "Close-up of a knight’s face, eyes filled with determination and fear, as shadows dance across his armor. In the background, faint outlines of chaos and betrayal loom, the atmosphere thick with tension, capturing the moment just before the uprising's fury unfolds.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9493906285081591,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 23.1,
+      "timestamp_end": 25.666666666666668,
+      "audio_content": "Sicily's future. This revolt didn't just change",
+      "image_prompt": "Wide shot of a chaotic battlefield in Sicily, 1282. A sea of 20,000 rebels clash against 3,000 French soldiers under a turbulent sky. Knights in armor, faces grim with determination, charge forward amidst swirling dust and debris, illuminated by dramatic chiaroscuro lighting.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9903151634193603,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 25.666666666666668,
+      "timestamp_end": 28.233333333333334,
+      "audio_content": "kingdom, it altered alliances across Europe.",
+      "image_prompt": "Wide shot of a chaotic battlefield in Sicily, with 20,000 rebels clashing against 3,000 French soldiers. The sky is darkened by smoke, and the ground is littered with weapons. In the foreground, knights stand resolute, their faces etched with determination and fear, while shadows loom ominously.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9902742008368174,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 28.233333333333334,
+      "timestamp_end": 30.800000000000004,
+      "audio_content": "knew a drama like this unfolded on such a small island?",
+      "image_prompt": "Wide shot of a chaotic battlefield on a small Sicilian island, 1282. Knights in armor clash with French soldiers under dramatic chiaroscuro lighting, their fierce expressions illuminated amidst swirling dust and shadows, capturing the intensity of the uprising and the stakes of their desperate struggle for freedom.",
+      "words_in_segment": 11,
+      "confidence_avg": 0.9929763837294145,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 30.800000000000004,
+    "whisper_model": "base"
+  }
+}

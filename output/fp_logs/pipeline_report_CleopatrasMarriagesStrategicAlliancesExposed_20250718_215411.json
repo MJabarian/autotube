@@ -1,0 +1,58 @@
+{
+  "pipeline_info": {
+    "story_title": "CleopatrasMarriagesStrategicAlliancesExposed",
+    "sanitized_title": "CleopatrasMarriagesStrategicAlliancesExposed",
+    "start_time": "2025-07-18T21:49:50.233551",
+    "end_time": "2025-07-18T21:54:11.110809",
+    "total_duration": 260.87725853919983,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1752889790.2439883,
+      "end": 1752889858.3195903,
+      "duration": 68.07560205459595,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1752889858.3205888,
+      "end": 1752890051.108802,
+      "duration": 192.78821325302124,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\CleopatrasMarriagesStrategicAlliancesExposed\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\CleopatrasMarriagesStrategicAlliancesExposed\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\CleopatrasMarriagesStrategicAlliancesExposed\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\CleopatrasMarriagesStrategicAlliancesExposed\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\CleopatrasMarriagesStrategicAlliancesExposed\\audio_CleopatrasMarriagesStrategicAlliancesExposed.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\CleopatrasMarriagesStrategicAlliancesExposed\\audio_CleopatrasMarriagesStrategicAlliancesExposed_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\CleopatrasMarriagesStrategicAlliancesExposed\\mixed_audio_CleopatrasMarriagesStrategicAlliancesExposed.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\CleopatrasMarriagesStrategicAlliancesExposed\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\CleopatrasMarriagesStrategicAlliancesExposed\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\CleopatrasMarriagesStrategicAlliancesExposed\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\CleopatrasMarriagesStrategicAlliancesExposed\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\CleopatrasMarriagesStrategicAlliancesExposed\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\CleopatrasMarriagesStrategicAlliancesExposed\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\CleopatrasMarriagesStrategicAlliancesExposed\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\CleopatrasMarriagesStrategicAlliancesExposed\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\CleopatrasMarriagesStrategicAlliancesExposed\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\CleopatrasMarriagesStrategicAlliancesExposed\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\CleopatrasMarriagesStrategicAlliancesExposed\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\CleopatrasMarriagesStrategicAlliancesExposed\\image_12.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\videos\\CleopatrasMarriagesStrategicAlliancesExposed_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\subtitles_processed_video\\CleopatrasMarriagesStrategicAlliancesExposed_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

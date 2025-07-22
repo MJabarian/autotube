@@ -1,0 +1,65 @@
+{
+  "pipeline_info": {
+    "story_title": "TheDreyfusAffairFrancesShockingScandal",
+    "sanitized_title": "TheDreyfusAffairFrancesShockingScandal",
+    "start_time": "2025-07-18T16:05:27.308526",
+    "end_time": "2025-07-18T16:13:02.588088",
+    "total_duration": 455.2795629501343,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1752869127.3115978,
+      "end": 1752869247.1499002,
+      "duration": 119.83830237388611,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1752869247.1509013,
+      "end": 1752869582.5870929,
+      "duration": 335.4361915588379,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\TheDreyfusAffairFrancesShockingScandal\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\TheDreyfusAffairFrancesShockingScandal\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\TheDreyfusAffairFrancesShockingScandal\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\stories\\TheDreyfusAffairFrancesShockingScandal\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\audio\\TheDreyfusAffairFrancesShockingScandal\\audio_TheDreyfusAffairFrancesShockingScandal.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\mixed_audio\\TheDreyfusAffairFrancesShockingScandal\\mixed_audio_TheDreyfusAffairFrancesShockingScandal.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_12.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_13.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_14.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_15.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_16.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_17.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_18.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_19.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory\\output\\images\\TheDreyfusAffairFrancesShockingScandal\\image_20.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory\\output\\videos\\TheDreyfusAffairFrancesShockingScandal_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory\\output\\subtitles_processed_video\\TheDreyfusAffairFrancesShockingScandal_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

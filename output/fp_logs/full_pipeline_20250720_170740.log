@@ -1,0 +1,347 @@
+2025-07-20 17:07:40,070 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-20 17:07:40,070 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250720_170740.log
+2025-07-20 17:07:40,070 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-20 17:07:40,071 - autotube.full_pipeline - INFO - ============================================================
+2025-07-20 17:07:40,071 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-20 17:07:40,073 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-20 17:07:41,722 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:07:44,189 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:07:44,612 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:07:44,626 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Mysterious Disappearance of the Sodder Children  
+**Summary:** On Christmas Eve in 1945, a fire consumed the Sodder family's home in West Virginia, leading to the baffling disappearance of five of their children and a series of strange clues that remain unsolved to this day.
+2025-07-20 17:07:44,626 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheMysteriousDisappearanceoftheSodderChildren_content_gen_2025-07-20_17-07-44.log
+2025-07-20 17:07:44,626 - autotube.content_gen - INFO - 📁 Sanitized folder name: MysteryoftheMissingSodderChildrenonChristmasEve
+2025-07-20 17:07:44,626 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 81 words
+2025-07-20 17:07:44,639 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\MysteryoftheMissingSodderChildrenonChristmasEve\story.json (1,093 bytes)
+2025-07-20 17:07:44,639 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\MysteryoftheMissingSodderChildrenonChristmasEve\topic.txt (291 bytes)
+2025-07-20 17:07:44,640 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\MysteryoftheMissingSodderChildrenonChristmasEve\metadata.json (614 bytes)
+2025-07-20 17:07:44,640 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\MysteryoftheMissingSodderChildrenonChristmasEve\story.txt (1,013 bytes)
+2025-07-20 17:07:44,641 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\MysteryoftheMissingSodderChildrenonChristmasEve
+2025-07-20 17:07:52,275 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\MysteryoftheMissingSodderChildrenonChristmasEve\audio_MysteryoftheMissingSodderChildrenonChristmasEve.mp3 (237,208 bytes)
+2025-07-20 17:07:52,366 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 29.62s duration
+2025-07-20 17:07:53,060 - autotube.content_gen - INFO - ✅ Audio speed adjustment: 1.1x, new duration: 26.93s
+2025-07-20 17:07:53,060 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\MysteryoftheMissingSodderChildrenonChristmasEve\audio_MysteryoftheMissingSodderChildrenonChristmasEve_sped_up.mp3 (237,208 bytes, 26.93s)
+2025-07-20 17:07:53,061 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-20 17:07:53,061 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-20 17:07:53,061 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\MysteryoftheMissingSodderChildrenonChristmasEve\audio_MysteryoftheMissingSodderChildrenonChristmasEve_sped_up.mp3
+2025-07-20 17:07:53,062 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-20 17:07:53,736 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-20 17:07:53,828 - faster_whisper - INFO - Processing audio with duration 00:26.883
+2025-07-20 17:07:54,474 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-20 17:07:56,646 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 26.54s
+2025-07-20 17:07:56,647 - whisper_audio_synchronizer - INFO - 📝 Extracted 80 words with timestamps
+2025-07-20 17:07:56,647 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 26.54s, Image duration: 2.21s
+2025-07-20 17:07:56,648 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-20 17:07:56,648 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-20 17:07:58,405 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:07:58,406 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/wide_shot): Wide shot of the charred remains of the Sodder hom...
+2025-07-20 17:08:00,065 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:08:00,073 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/establishing_shot): Establishing shot of a charred, smoldering house o...
+2025-07-20 17:08:01,579 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:08:01,580 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of the Sodder home ablaze, flames lickin...
+2025-07-20 17:08:03,281 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:08:03,282 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/wide_shot): Wide shot of the charred remains of the Sodder hom...
+2025-07-20 17:08:05,045 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:08:05,046 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (character_action/medium_shot): Medium shot of a distraught mother standing in the...
+2025-07-20 17:08:06,413 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:08:06,414 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/wide_shot): Wide shot of the charred remnants of the Sodder fa...
+2025-07-20 17:08:08,477 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:08:08,478 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (environment_description/wide_shot): Wide shot of a darkened West Virginia landscape on...
+2025-07-20 17:08:10,025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:08:10,026 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/medium_shot): Medium shot of a dimly lit street, focusing on a s...
+2025-07-20 17:08:11,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:08:11,547 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of a somber family gathered around a f...
+2025-07-20 17:08:14,215 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:08:14,216 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/medium_shot): Medium shot of a somber family standing in front o...
+2025-07-20 17:08:15,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:08:15,748 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (emotional_moment/close_up): Close-up of a parent's anguished face illuminated ...
+2025-07-20 17:08:19,086 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:08:19,088 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (emotional_moment/close_up): Close-up of a distressed mother's face, eyes fille...
+2025-07-20 17:08:19,089 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Mystery_of_the_Missing_Sodder_Children_on_Christmas_Eve_whisper_sync.json
+2025-07-20 17:08:19,090 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-20 17:08:19,090 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-20 17:08:19,090 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-20 17:08:19,091 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-20 17:08:19,096 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\epic-action-overture-majestic-action-cinematic-detective-245050.mp3 (6,752,548 bytes)
+2025-07-20 17:08:19,097 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\MysteryoftheMissingSodderChildrenonChristmasEve\music_selection.json (419 bytes)
+2025-07-20 17:08:19,097 - autotube.content_gen - INFO - ✅ Music selected: epic-action-overture-majestic-action-cinematic-detective-245050.mp3
+2025-07-20 17:08:19,098 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-20 17:08:19,099 - src.replicate_image_generator - INFO - Generating images for story: Mystery of the Missing Sodder Children on Christmas Eve
+2025-07-20 17:08:19,099 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-20 17:08:19,099 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-20 17:08:19,099 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-20 17:08:20,074 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:08:21,703 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:08:23,197 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:08:24,761 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:08:26,685 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:08:28,225 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:08:29,689 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:08:31,233 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:08:32,678 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:08:34,153 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:08:35,635 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:08:37,121 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-20 17:08:37,974 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-20 17:08:37,974 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-20 17:08:37,977 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-20 17:08:37,978 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-20 17:08:37,979 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-20 17:08:37,979 - autotube.content_gen - INFO - 📊 Total time: 57.91s, Cost: $0.0360
+2025-07-20 17:08:37,980 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Mysterious Disappearance of the Sodder Children  
+**Summary:** On Christmas Eve in 1945, a fire consumed the Sodder family's home in West Virginia, leading to the baffling disappearance of five of their children and a series of strange clues that remain unsolved to this day.
+2025-07-20 17:08:38,000 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (57.93s)
+2025-07-20 17:08:38,001 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-20 17:08:38,001 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-20 17:08:38,001 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: MysteryoftheMissingSodderChildrenonChristmasEve
+2025-07-20 17:08:38,001 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: MysteryoftheMissingSodderChildrenonChristmasEve
+2025-07-20 17:08:38,001 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\MysteryoftheMissingSodderChildrenonChristmasEve\audio_MysteryoftheMissingSodderChildrenonChristmasEve_sped_up.mp3
+2025-07-20 17:08:38,001 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\MysteryoftheMissingSodderChildrenonChristmasEve\music_selection.json
+2025-07-20 17:08:38,009 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\epic-action-overture-majestic-action-cinematic-detective-245050.mp3
+2025-07-20 17:08:38,019 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-20 17:08:38,019 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\MysteryoftheMissingSodderChildrenonChristmasEve\audio_MysteryoftheMissingSodderChildrenonChristmasEve_sped_up.mp3
+2025-07-20 17:08:38,091 - src.audio_mixer - INFO - Loaded audio: 26883ms (26.883s), 44100Hz, 2 channels
+2025-07-20 17:08:38,092 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\epic-action-overture-majestic-action-cinematic-detective-245050.mp3
+2025-07-20 17:08:38,433 - src.audio_mixer - INFO - Loaded audio: 211017ms (211.017s), 44100Hz, 2 channels
+2025-07-20 17:08:38,433 - src.audio_mixer - INFO - Voice duration: 26883ms
+2025-07-20 17:08:38,434 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-20 17:08:38,434 - src.audio_mixer - INFO - Target duration: 26883ms
+2025-07-20 17:08:38,434 - src.audio_mixer - INFO - Trimmed music from 26883ms to 26883ms
+2025-07-20 17:08:38,434 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-20 17:08:38,449 - src.audio_mixer - INFO - Voice adjusted by 10.7dB, Music by -7.2dB
+2025-07-20 17:08:38,456 - src.audio_mixer - INFO - Added 500ms fade-out to prevent end artifacts
+2025-07-20 17:08:38,464 - src.audio_mixer - INFO - ✅ Perfect duration match: 26883ms
+2025-07-20 17:08:38,464 - src.audio_mixer - INFO - Audio mixing completed: 26883ms
+2025-07-20 17:08:38,798 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\MysteryoftheMissingSodderChildrenonChristmasEve\mixed_audio_MysteryoftheMissingSodderChildrenonChristmasEve.mp3
+2025-07-20 17:08:38,802 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\MysteryoftheMissingSodderChildrenonChristmasEve\mixed_audio_MysteryoftheMissingSodderChildrenonChristmasEve.mp3
+2025-07-20 17:08:38,802 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 827,698 bytes (0.8 MB)
+2025-07-20 17:08:38,804 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: MysteryoftheMissingSodderChildrenonChristmasEve
+2025-07-20 17:08:38,805 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-20 17:08:38,805 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-20 17:08:38,806 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: MysteryoftheMissingSodderChildrenonChristmasEve
+2025-07-20 17:08:38,942 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-20 17:08:38,942 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-20 17:08:38,943 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.59 seconds per image
+2025-07-20 17:08:38,943 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\MysteryoftheMissingSodderChildrenonChristmasEve\MysteryoftheMissingSodderChildrenonChristmasEve_kenburns.mp4
+2025-07-20 17:08:38,943 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['pan_right', 'zoom_in', 'zoom_out', 'pan_right', 'zoom_in']...
+2025-07-20 17:08:38,943 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-20 17:08:38,943 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-20 17:08:38,958 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-20 17:08:38,959 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-20 17:08:38,972 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-20 17:08:38,973 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 17:08:38,984 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-20 17:08:38,985 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-20 17:08:39,013 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-20 17:08:39,013 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-20 17:08:39,039 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-20 17:08:39,039 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 17:08:39,060 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-20 17:08:39,061 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 17:08:39,084 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-20 17:08:39,084 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-20 17:08:39,113 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-20 17:08:39,113 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 17:08:39,142 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-20 17:08:39,143 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-20 17:08:39,170 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-20 17:08:39,171 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-20 17:08:39,197 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-20 17:08:39,198 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-20 17:08:39,222 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-20 17:08:39,260 - autotube.full_pipeline - INFO - 📐 Expected video duration: 31.130s
+2025-07-20 17:08:39,260 - autotube.full_pipeline - INFO - 📹 Actual video duration: 31.130s
+2025-07-20 17:08:39,260 - autotube.full_pipeline - INFO - ✅ Video duration matches expected: 31.130s
+2025-07-20 17:08:39,260 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-20 17:08:39,333 - autotube.full_pipeline - INFO - 📹 Video duration: 31.130s
+2025-07-20 17:08:39,333 - autotube.full_pipeline - INFO - 🎵 Audio duration: 31.130s
+2025-07-20 17:08:39,333 - autotube.full_pipeline - INFO - ✅ Perfect duration match: 31.130s
+2025-07-20 17:08:39,333 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 31.130s
+2025-07-20 17:08:39,333 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\MysteryoftheMissingSodderChildrenonChristmasEve\MysteryoftheMissingSodderChildrenonChristmasEve_kenburns.mp4
+2025-07-20 17:09:13,697 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-20 17:09:13,698 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-20 17:09:13,698 - autotube.full_pipeline - INFO - ✅ Video duration: 31.13 seconds
+2025-07-20 17:09:13,698 - autotube.full_pipeline - INFO - ✅ Video file size: 6.7 MB
+2025-07-20 17:09:13,698 - autotube.full_pipeline - WARNING - ⚠️  Resolution seems low for HD: 768x1344
+2025-07-20 17:09:13,699 - autotube.full_pipeline - INFO - 🎯 HD Quality: Acceptable file size
+2025-07-20 17:09:13,721 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\MysteryoftheMissingSodderChildrenonChristmasEve\MysteryoftheMissingSodderChildrenonChristmasEve_kenburns.mp4
+2025-07-20 17:09:13,722 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-20 17:09:13,723 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\MysteryoftheMissingSodderChildrenonChristmasEve\MysteryoftheMissingSodderChildrenonChristmasEve_kenburns.mp4
+2025-07-20 17:09:13,723 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-20 17:09:13,723 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-20 17:09:13,724 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-20 17:09:13,725 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-20 17:09:14,922 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-20 17:09:14,923 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-20 17:09:14,924 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-20 17:09:15,073 - faster_whisper - INFO - Processing audio with duration 00:26.932
+2025-07-20 17:09:17,970 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-20 17:09:28,582 - autotube.full_pipeline - INFO - Extracted 80 words with timing
+2025-07-20 17:09:28,583 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 13.66s
+2025-07-20 17:09:28,959 - autotube.full_pipeline - INFO - Video loading took 0.38s
+2025-07-20 17:09:28,960 - autotube.full_pipeline - INFO - Original video - Duration: 31.13s, FPS: 30.0, Audio: True
+2025-07-20 17:09:28,960 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 80 words...
+2025-07-20 17:09:28,960 - autotube.full_pipeline - INFO - Group 1: 4 words (15 chars), 0.00s - 0.62s
+2025-07-20 17:09:28,961 - autotube.full_pipeline - INFO - Group 2: 3 words (18 chars), 0.60s - 1.40s
+2025-07-20 17:09:28,961 - autotube.full_pipeline - INFO - Group 3: 3 words (19 chars), 1.38s - 2.28s
+2025-07-20 17:09:28,961 - autotube.full_pipeline - INFO - Group 4: 3 words (18 chars), 2.26s - 3.52s
+2025-07-20 17:09:28,961 - autotube.full_pipeline - INFO - Group 5: 3 words (12 chars), 3.50s - 5.08s
+2025-07-20 17:09:28,961 - autotube.full_pipeline - INFO - Group 6: 4 words (25 chars), 5.06s - 6.28s
+2025-07-20 17:09:28,961 - autotube.full_pipeline - INFO - Group 7: 3 words (13 chars), 6.26s - 6.84s
+2025-07-20 17:09:28,962 - autotube.full_pipeline - INFO - Group 8: 3 words (20 chars), 6.82s - 8.10s
+2025-07-20 17:09:28,962 - autotube.full_pipeline - INFO - Group 9: 3 words (17 chars), 8.08s - 8.80s
+2025-07-20 17:09:28,962 - autotube.full_pipeline - INFO - Group 10: 3 words (22 chars), 8.78s - 10.06s
+2025-07-20 17:09:28,962 - autotube.full_pipeline - INFO - Group 11: 3 words (23 chars), 10.04s - 10.90s
+2025-07-20 17:09:28,963 - autotube.full_pipeline - INFO - Group 12: 3 words (17 chars), 10.88s - 11.92s
+2025-07-20 17:09:28,963 - autotube.full_pipeline - INFO - Group 13: 3 words (23 chars), 12.60s - 13.58s
+2025-07-20 17:09:28,963 - autotube.full_pipeline - INFO - Group 14: 3 words (17 chars), 14.20s - 14.78s
+2025-07-20 17:09:28,963 - autotube.full_pipeline - INFO - Group 15: 4 words (16 chars), 14.76s - 15.60s
+2025-07-20 17:09:28,963 - autotube.full_pipeline - INFO - Group 16: 4 words (24 chars), 15.58s - 16.66s
+2025-07-20 17:09:28,963 - autotube.full_pipeline - INFO - Group 17: 3 words (15 chars), 16.64s - 18.14s
+2025-07-20 17:09:28,964 - autotube.full_pipeline - INFO - Group 18: 3 words (20 chars), 18.12s - 19.00s
+2025-07-20 17:09:28,964 - autotube.full_pipeline - INFO - Group 19: 3 words (22 chars), 18.98s - 20.28s
+2025-07-20 17:09:28,964 - autotube.full_pipeline - INFO - Group 20: 3 words (18 chars), 20.26s - 20.88s
+2025-07-20 17:09:28,964 - autotube.full_pipeline - INFO - Group 21: 3 words (20 chars), 20.86s - 21.70s
+2025-07-20 17:09:28,964 - autotube.full_pipeline - INFO - Group 22: 3 words (13 chars), 22.38s - 22.94s
+2025-07-20 17:09:28,965 - autotube.full_pipeline - INFO - Group 23: 4 words (21 chars), 23.26s - 24.10s
+2025-07-20 17:09:28,965 - autotube.full_pipeline - INFO - Group 24: 3 words (24 chars), 24.08s - 26.10s
+2025-07-20 17:09:28,965 - autotube.full_pipeline - INFO - Group 25: 3 words (13 chars), 26.08s - 26.58s
+2025-07-20 17:09:28,965 - autotube.full_pipeline - INFO - Created 25 word groups with smart length limiting
+2025-07-20 17:09:28,965 - autotube.full_pipeline - INFO - Creating clips for group 1: 4 words
+2025-07-20 17:09:30,058 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.24s
+2025-07-20 17:09:31,013 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.20s - 0.34s
+2025-07-20 17:09:31,920 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.30s - 0.42s
+2025-07-20 17:09:32,637 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 1: 0.38s - 0.55s
+2025-07-20 17:09:32,637 - autotube.full_pipeline - INFO - Created clips for 1/25 word groups - ETA: 4s
+2025-07-20 17:09:32,637 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-20 17:09:33,395 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 0.60s - 0.80s
+2025-07-20 17:09:34,224 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 0.76s - 1.02s
+2025-07-20 17:09:35,463 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 0.98s - 1.33s
+2025-07-20 17:09:35,464 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-20 17:09:36,830 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 1.38s - 1.76s
+2025-07-20 17:09:37,973 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 1.72s - 2.06s
+2025-07-20 17:09:38,989 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 2.02s - 2.21s
+2025-07-20 17:09:38,990 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-20 17:09:40,023 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 2.26s - 3.12s
+2025-07-20 17:09:41,003 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 3.08s - 3.24s
+2025-07-20 17:09:41,899 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 3.20s - 3.45s
+2025-07-20 17:09:41,900 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-20 17:09:42,296 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 3.50s - 3.82s
+2025-07-20 17:09:42,749 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 3.78s - 5.00s
+2025-07-20 17:09:43,234 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 4.96s - 5.01s
+2025-07-20 17:09:43,235 - autotube.full_pipeline - INFO - Creating clips for group 6: 4 words
+2025-07-20 17:09:44,305 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 5.06s - 5.34s
+2025-07-20 17:09:45,414 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 5.30s - 5.86s
+2025-07-20 17:09:46,260 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 5.82s - 5.98s
+2025-07-20 17:09:47,157 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 6: 5.94s - 6.21s
+2025-07-20 17:09:47,158 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-20 17:09:47,685 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 6.26s - 6.52s
+2025-07-20 17:09:48,230 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 6.48s - 6.62s
+2025-07-20 17:09:48,803 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 6.58s - 6.77s
+2025-07-20 17:09:48,803 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-20 17:09:49,603 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 6.82s - 7.90s
+2025-07-20 17:09:50,377 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 7.86s - 8.00s
+2025-07-20 17:09:51,197 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 7.96s - 8.03s
+2025-07-20 17:09:51,197 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-20 17:09:51,925 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 8.08s - 8.42s
+2025-07-20 17:09:52,842 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 8.38s - 8.60s
+2025-07-20 17:09:53,627 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 8.56s - 8.73s
+2025-07-20 17:09:53,628 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-20 17:09:54,554 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 8.78s - 9.14s
+2025-07-20 17:09:55,490 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 9.10s - 9.99s
+2025-07-20 17:09:56,689 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 9.96s - 9.99s
+2025-07-20 17:09:56,689 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-20 17:09:59,966 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 10.04s - 10.20s
+2025-07-20 17:10:02,087 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 10.16s - 10.52s
+2025-07-20 17:10:03,265 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 10.48s - 10.83s
+2025-07-20 17:10:03,266 - autotube.full_pipeline - INFO - Created clips for 11/25 word groups - ETA: 34s
+2025-07-20 17:10:03,266 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-20 17:10:03,944 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 10.88s - 11.40s
+2025-07-20 17:10:04,616 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 11.36s - 11.56s
+2025-07-20 17:10:05,291 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 11.52s - 12.22s
+2025-07-20 17:10:05,291 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-20 17:10:06,205 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 12.60s - 12.94s
+2025-07-20 17:10:07,174 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 12.90s - 13.26s
+2025-07-20 17:10:08,377 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 13.22s - 13.88s
+2025-07-20 17:10:08,378 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-20 17:10:09,132 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 14.20s - 14.36s
+2025-07-20 17:10:09,841 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 14.32s - 14.56s
+2025-07-20 17:10:10,496 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 14.52s - 14.71s
+2025-07-20 17:10:10,496 - autotube.full_pipeline - INFO - Creating clips for group 15: 4 words
+2025-07-20 17:10:11,092 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 14.76s - 15.00s
+2025-07-20 17:10:11,702 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 14.96s - 15.10s
+2025-07-20 17:10:12,314 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 15.06s - 15.32s
+2025-07-20 17:10:12,913 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 15: 15.28s - 15.53s
+2025-07-20 17:10:12,914 - autotube.full_pipeline - INFO - Creating clips for group 16: 4 words
+2025-07-20 17:10:13,898 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 15.58s - 15.72s
+2025-07-20 17:10:14,915 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 15.68s - 15.94s
+2025-07-20 17:10:15,906 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 15.90s - 16.38s
+2025-07-20 17:10:16,875 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 16: 16.34s - 16.59s
+2025-07-20 17:10:16,876 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-20 17:10:17,420 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 16.64s - 17.82s
+2025-07-20 17:10:17,905 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 17.78s - 18.04s
+2025-07-20 17:10:18,429 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 18.00s - 18.07s
+2025-07-20 17:10:18,430 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-20 17:10:19,312 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 18.12s - 18.40s
+2025-07-20 17:10:20,186 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 18.36s - 18.78s
+2025-07-20 17:10:21,091 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 18.74s - 18.93s
+2025-07-20 17:10:21,091 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-20 17:10:22,120 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 18.98s - 19.86s
+2025-07-20 17:10:23,101 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 19.82s - 20.16s
+2025-07-20 17:10:24,025 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 20.12s - 20.21s
+2025-07-20 17:10:24,025 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-20 17:10:24,782 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 20.26s - 20.38s
+2025-07-20 17:10:25,525 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 20.34s - 20.68s
+2025-07-20 17:10:26,296 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 20.64s - 20.81s
+2025-07-20 17:10:26,296 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-20 17:10:27,130 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 20.86s - 21.22s
+2025-07-20 17:10:27,897 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 21.18s - 21.42s
+2025-07-20 17:10:28,693 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 21.38s - 22.00s
+2025-07-20 17:10:28,694 - autotube.full_pipeline - INFO - Created clips for 21/25 word groups - ETA: 60s
+2025-07-20 17:10:28,694 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-20 17:10:29,210 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 22.38s - 22.52s
+2025-07-20 17:10:29,834 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 22.48s - 22.70s
+2025-07-20 17:10:30,654 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 22.66s - 23.21s
+2025-07-20 17:10:30,654 - autotube.full_pipeline - INFO - Creating clips for group 23: 4 words
+2025-07-20 17:10:32,339 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 23.26s - 23.40s
+2025-07-20 17:10:33,354 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 23.36s - 23.58s
+2025-07-20 17:10:34,548 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 23.54s - 23.94s
+2025-07-20 17:10:35,713 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 23: 23.90s - 24.03s
+2025-07-20 17:10:35,714 - autotube.full_pipeline - INFO - Creating clips for group 24: 3 words
+2025-07-20 17:10:37,355 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 24.08s - 24.34s
+2025-07-20 17:10:38,850 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 24.30s - 25.58s
+2025-07-20 17:10:40,643 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 25.54s - 26.03s
+2025-07-20 17:10:40,643 - autotube.full_pipeline - INFO - Creating clips for group 25: 3 words
+2025-07-20 17:10:41,204 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 26.08s - 26.22s
+2025-07-20 17:10:41,716 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 26.18s - 26.36s
+2025-07-20 17:10:42,326 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 26.32s - 26.78s
+2025-07-20 17:10:42,328 - autotube.full_pipeline - INFO - Created 80 individual subtitle clips
+2025-07-20 17:10:42,331 - autotube.full_pipeline - INFO - Viral subtitle creation took 73.37s
+2025-07-20 17:10:42,331 - autotube.full_pipeline - INFO - Subtitle clips count: 80
+2025-07-20 17:10:42,342 - autotube.full_pipeline - INFO - Video composition took 0.01s
+2025-07-20 17:10:42,343 - autotube.full_pipeline - INFO - Original audio duration: 31.130s
+2025-07-20 17:10:42,343 - autotube.full_pipeline - INFO - Final video duration: 31.130s
+2025-07-20 17:10:42,343 - autotube.full_pipeline - INFO - Final audio duration: 31.130s
+2025-07-20 17:10:42,343 - autotube.full_pipeline - INFO - Final video - Duration: 31.13s, Audio: True
+2025-07-20 17:10:42,343 - autotube.full_pipeline - INFO - Writing HD viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\MysteryoftheMissingSodderChildrenonChristmasEve\MysteryoftheMissingSodderChildrenonChristmasEve_final.mp4
+2025-07-20 17:11:24,610 - autotube.full_pipeline - INFO - Video writing took 42.27s
+2025-07-20 17:11:24,610 - autotube.full_pipeline - INFO - Validating output file with duration verification...
+2025-07-20 17:11:24,911 - autotube.full_pipeline - INFO - Output file - Video Duration: 31.130s, Audio Duration: 31.130s
+2025-07-20 17:11:24,911 - autotube.full_pipeline - INFO - ✅ Perfect audio duration match: 31.130s
+2025-07-20 17:11:24,911 - autotube.full_pipeline - INFO - ✅ Perfect video duration match: 31.130s
+2025-07-20 17:11:24,937 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\MysteryoftheMissingSodderChildrenonChristmasEve\MysteryoftheMissingSodderChildrenonChristmasEve_final.mp4
+2025-07-20 17:11:24,937 - autotube.full_pipeline - INFO - Total processing time: 130.01s
+2025-07-20 17:11:24,938 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\MysteryoftheMissingSodderChildrenonChristmasEve\MysteryoftheMissingSodderChildrenonChristmasEve_final.mp4
+2025-07-20 17:11:24,938 - autotube.full_pipeline - INFO - 📊 Final video size: 7,538,703 bytes (7.2 MB)
+2025-07-20 17:11:24,938 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-20 17:11:24,939 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\MysteryoftheMissingSodderChildrenonChristmasEve\MysteryoftheMissingSodderChildrenonChristmasEve_kenburns.mp4
+2025-07-20 17:11:24,939 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\MysteryoftheMissingSodderChildrenonChristmasEve\MysteryoftheMissingSodderChildrenonChristmasEve_final.mp4
+2025-07-20 17:11:24,968 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (166.97s)
+2025-07-20 17:11:24,969 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-20 17:11:24,971 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_MysteryoftheMissingSodderChildrenonChristmasEve_20250720_171124.json
+2025-07-20 17:11:24,972 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-20 17:11:24,972 - autotube.full_pipeline - INFO - ============================================================
+2025-07-20 17:11:24,972 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 224.90s
+2025-07-20 17:11:24,972 - autotube.full_pipeline - INFO - 📁 Story Title: MysteryoftheMissingSodderChildrenonChristmasEve
+2025-07-20 17:11:24,973 - autotube.full_pipeline - INFO - 📁 Sanitized Title: MysteryoftheMissingSodderChildrenonChristmasEve
+2025-07-20 17:11:24,973 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_MysteryoftheMissingSodderChildrenonChristmasEve_20250720_171124.json

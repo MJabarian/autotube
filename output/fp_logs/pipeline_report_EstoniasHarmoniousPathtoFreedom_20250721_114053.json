@@ -1,0 +1,56 @@
+{
+  "pipeline_info": {
+    "story_title": "EstoniasHarmoniousPathtoFreedom",
+    "sanitized_title": "EstoniasHarmoniousPathtoFreedom",
+    "start_time": "2025-07-21T11:32:18.745060",
+    "end_time": "2025-07-21T11:40:53.453629",
+    "total_duration": 514.7085690498352,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753111938.7520566,
+      "end": 1753112028.1973345,
+      "duration": 89.44527792930603,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753112028.198336,
+      "end": 1753112453.4506223,
+      "duration": 425.2522864341736,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\EstoniasHarmoniousPathtoFreedom\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\EstoniasHarmoniousPathtoFreedom\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\EstoniasHarmoniousPathtoFreedom\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\EstoniasHarmoniousPathtoFreedom\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\EstoniasHarmoniousPathtoFreedom\\audio_EstoniasHarmoniousPathtoFreedom.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\EstoniasHarmoniousPathtoFreedom\\audio_EstoniasHarmoniousPathtoFreedom_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\EstoniasHarmoniousPathtoFreedom\\mixed_audio_EstoniasHarmoniousPathtoFreedom.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\EstoniasHarmoniousPathtoFreedom\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\EstoniasHarmoniousPathtoFreedom\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\EstoniasHarmoniousPathtoFreedom\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\EstoniasHarmoniousPathtoFreedom\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\EstoniasHarmoniousPathtoFreedom\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\EstoniasHarmoniousPathtoFreedom\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\EstoniasHarmoniousPathtoFreedom\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\EstoniasHarmoniousPathtoFreedom\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\EstoniasHarmoniousPathtoFreedom\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\EstoniasHarmoniousPathtoFreedom\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\EstoniasHarmoniousPathtoFreedom\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\EstoniasHarmoniousPathtoFreedom\\image_12.jpg"
+    ]
+  },
+  "pipeline_status": "SUCCESS"
+}

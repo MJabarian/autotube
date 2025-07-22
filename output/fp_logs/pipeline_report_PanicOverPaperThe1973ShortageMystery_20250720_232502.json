@@ -1,0 +1,56 @@
+{
+  "pipeline_info": {
+    "story_title": "PanicOverPaperThe1973ShortageMystery",
+    "sanitized_title": "PanicOverPaperThe1973ShortageMystery",
+    "start_time": "2025-07-20T23:20:37.147320",
+    "end_time": "2025-07-20T23:25:02.241345",
+    "total_duration": 265.09402561187744,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753068037.1534111,
+      "end": 1753068106.137866,
+      "duration": 68.984454870224,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753068106.1406467,
+      "end": 1753068302.2393386,
+      "duration": 196.09869194030762,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\PanicOverPaperThe1973ShortageMystery\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\PanicOverPaperThe1973ShortageMystery\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\PanicOverPaperThe1973ShortageMystery\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\PanicOverPaperThe1973ShortageMystery\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\PanicOverPaperThe1973ShortageMystery\\audio_PanicOverPaperThe1973ShortageMystery.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\PanicOverPaperThe1973ShortageMystery\\audio_PanicOverPaperThe1973ShortageMystery_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\PanicOverPaperThe1973ShortageMystery\\mixed_audio_PanicOverPaperThe1973ShortageMystery.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PanicOverPaperThe1973ShortageMystery\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PanicOverPaperThe1973ShortageMystery\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PanicOverPaperThe1973ShortageMystery\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PanicOverPaperThe1973ShortageMystery\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PanicOverPaperThe1973ShortageMystery\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PanicOverPaperThe1973ShortageMystery\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PanicOverPaperThe1973ShortageMystery\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PanicOverPaperThe1973ShortageMystery\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PanicOverPaperThe1973ShortageMystery\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PanicOverPaperThe1973ShortageMystery\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PanicOverPaperThe1973ShortageMystery\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PanicOverPaperThe1973ShortageMystery\\image_12.jpg"
+    ]
+  },
+  "pipeline_status": "SUCCESS"
+}

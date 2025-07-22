@@ -1,0 +1,13 @@
+2025-07-20 17:06:38,653 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-20 17:06:38,653 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250720_170638.log
+2025-07-20 17:06:38,654 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-20 17:06:38,654 - autotube.full_pipeline - INFO - ============================================================
+2025-07-20 17:06:38,655 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-20 17:06:38,664 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-20 17:06:40,719 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:06:43,787 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:06:46,535 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-20 17:06:46,538 - autotube.full_pipeline - ERROR - ❌ Content generation failed: 'NoneType' object does not support item assignment
+2025-07-20 17:06:46,538 - autotube.full_pipeline - INFO - ❌ Completed: Content Generation (7.87s)
+2025-07-20 17:06:46,538 - autotube.full_pipeline - ERROR - ❌ Content generation failed - stopping pipeline
+2025-07-20 17:06:46,539 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline

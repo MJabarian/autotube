@@ -1,0 +1,377 @@
+2025-07-21 10:48:15,470 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-21 10:48:15,470 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250721_104815.log
+2025-07-21 10:48:15,470 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-21 10:48:15,471 - autotube.full_pipeline - INFO - ============================================================
+2025-07-21 10:48:15,471 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-21 10:48:15,472 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-21 10:48:17,853 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:48:21,760 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:48:22,639 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:48:22,652 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Enigmatic Nazca Lines: Ancient Art or Astronomical Calendar?  
+**Summary:** Spanning vast stretches of the Peruvian desert, the Nazca Lines consist of enormous geoglyphs that some believe signify ancient rituals, while others speculate they served as astronomical markers for agriculture.
+2025-07-21 10:48:22,652 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheEnigmaticNazcaLinesAncientArtorAstronomica_content_gen_2025-07-21_10-48-22.log
+2025-07-21 10:48:22,652 - autotube.content_gen - INFO - 📁 Sanitized folder name: NazcaLinesAncientArtorAstronomicalCalendar
+2025-07-21 10:48:22,653 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 80 words
+2025-07-21 10:48:22,657 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\NazcaLinesAncientArtorAstronomicalCalendar\story.json (1,154 bytes)
+2025-07-21 10:48:22,657 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\NazcaLinesAncientArtorAstronomicalCalendar\topic.txt (304 bytes)
+2025-07-21 10:48:22,658 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\NazcaLinesAncientArtorAstronomicalCalendar\metadata.json (628 bytes)
+2025-07-21 10:48:22,659 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\NazcaLinesAncientArtorAstronomicalCalendar\story.txt (1,074 bytes)
+2025-07-21 10:48:22,660 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\NazcaLinesAncientArtorAstronomicalCalendar
+2025-07-21 10:48:32,321 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\NazcaLinesAncientArtorAstronomicalCalendar\audio_NazcaLinesAncientArtorAstronomicalCalendar.mp3 (261,659 bytes)
+2025-07-21 10:48:32,452 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 32.68s duration
+2025-07-21 10:48:32,539 - src.utils.high_quality_audio_processor - INFO - 🎵 High-quality speed adjustment: 1.1x
+2025-07-21 10:48:32,539 - src.utils.high_quality_audio_processor - INFO - 📁 Input: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\NazcaLinesAncientArtorAstronomicalCalendar\audio_NazcaLinesAncientArtorAstronomicalCalendar.mp3
+2025-07-21 10:48:32,539 - src.utils.high_quality_audio_processor - INFO - 📁 Output: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\NazcaLinesAncientArtorAstronomicalCalendar\audio_NazcaLinesAncientArtorAstronomicalCalendar_sped_up.mp3
+2025-07-21 10:48:32,611 - src.utils.high_quality_audio_processor - INFO - 📊 Original duration: 32.628s
+2025-07-21 10:48:32,611 - src.utils.high_quality_audio_processor - INFO - 📊 Expected duration: 29.661s
+2025-07-21 10:48:32,613 - src.utils.high_quality_audio_processor - INFO - 🔧 Added 200ms fade-out
+2025-07-21 10:48:33,040 - src.utils.high_quality_audio_processor - INFO - ✅ Used pydub speedup (better quality for small speed factors)
+2025-07-21 10:48:33,040 - src.utils.high_quality_audio_processor - INFO - ✅ Voice quality preserved - no robotic sound
+2025-07-21 10:48:33,041 - src.utils.high_quality_audio_processor - INFO - ✂️ Trimmed to exact duration: 29.661s
+2025-07-21 10:48:33,041 - src.utils.high_quality_audio_processor - INFO - ✅ Perfect duration match: 0.000s difference
+2025-07-21 10:48:33,244 - src.utils.high_quality_audio_processor - INFO - ✅ High-quality speed adjustment completed
+2025-07-21 10:48:33,244 - src.utils.high_quality_audio_processor - INFO - 📊 Output file size: 497,434 bytes (0.5 MB)
+2025-07-21 10:48:33,244 - src.utils.high_quality_audio_processor - INFO - ⏱️ Final duration: 29.661s
+2025-07-21 10:48:33,349 - autotube.content_gen - INFO - ✅ High-quality audio speed adjustment: 1.1x, new duration: 29.16s
+2025-07-21 10:48:33,350 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\NazcaLinesAncientArtorAstronomicalCalendar\audio_NazcaLinesAncientArtorAstronomicalCalendar_sped_up.mp3 (261,659 bytes, 29.16s)
+2025-07-21 10:48:33,351 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-21 10:48:33,351 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-21 10:48:33,352 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\NazcaLinesAncientArtorAstronomicalCalendar\audio_NazcaLinesAncientArtorAstronomicalCalendar_sped_up.mp3
+2025-07-21 10:48:33,352 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-21 10:48:34,933 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-21 10:48:35,087 - faster_whisper - INFO - Processing audio with duration 00:29.701
+2025-07-21 10:48:35,907 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-21 10:48:40,167 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 29.26s
+2025-07-21 10:48:40,167 - whisper_audio_synchronizer - INFO - 📝 Extracted 81 words with timestamps
+2025-07-21 10:48:40,168 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 29.26s, Image duration: 2.44s
+2025-07-21 10:48:40,168 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-21 10:48:40,169 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-21 10:48:42,751 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:48:42,752 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/wide_shot): Wide shot of the breathtaking Nazca Lines, reveali...
+2025-07-21 10:48:46,103 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:48:46,107 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/establishing_shot): Establishing shot of the vast Nazca desert, reveal...
+2025-07-21 10:48:48,218 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:48:48,220 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of the sprawling Nazca desert, showcasin...
+2025-07-21 10:48:50,807 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:48:50,808 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/wide_shot): Wide shot of the Nazca Lines sprawling across the ...
+2025-07-21 10:48:53,096 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:48:53,097 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/wide_shot): Wide shot of the vast Nazca desert, showcasing the...
+2025-07-21 10:48:55,328 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:48:55,330 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/medium_shot): Medium shot of a researcher examining a vibrant ae...
+2025-07-21 10:48:57,360 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:48:57,361 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of an ancient astronomer, eyes wide wi...
+2025-07-21 10:49:00,153 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:49:00,155 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/wide_shot): Wide shot of the breathtaking Nazca Lines etched i...
+2025-07-21 10:49:03,807 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:49:03,809 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of an archaeologist examining a sectio...
+2025-07-21 10:49:05,592 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:49:05,593 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/wide_shot): Wide shot of the vast, arid Nazca desert, showcasi...
+2025-07-21 10:49:08,357 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:49:08,358 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/wide_shot): Wide shot of the vast Nazca desert, showcasing the...
+2025-07-21 10:49:10,735 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-21 10:49:10,756 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/wide_shot): Wide shot of the Nazca desert, showcasing the vast...
+2025-07-21 10:49:10,759 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Nazca_Lines_Ancient_Art_or_Astronomical_Calendar_whisper_sync.json
+2025-07-21 10:49:10,759 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-21 10:49:10,760 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-21 10:49:10,760 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-21 10:49:10,761 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-21 10:49:10,786 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\cinematic-epic-trailer-music-galactic-overture-249131.mp3 (5,232,849 bytes)
+2025-07-21 10:49:10,788 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\NazcaLinesAncientArtorAstronomicalCalendar\music_selection.json (393 bytes)
+2025-07-21 10:49:10,789 - autotube.content_gen - INFO - ✅ Music selected: cinematic-epic-trailer-music-galactic-overture-249131.mp3
+2025-07-21 10:49:10,791 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-21 10:49:10,792 - src.replicate_image_generator - INFO - Generating images for story: Nazca Lines: Ancient Art or Astronomical Calendar?
+2025-07-21 10:49:10,793 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-21 10:49:10,793 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-21 10:49:10,793 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-21 10:49:11,797 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 10:49:13,306 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 10:49:14,742 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 10:49:16,283 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 10:49:17,796 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 10:49:19,285 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 10:49:20,875 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 10:49:22,652 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 10:49:24,149 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 10:49:25,617 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 10:49:27,375 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 10:49:28,880 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-21 10:49:29,728 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-21 10:49:29,729 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-21 10:49:29,730 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-21 10:49:29,731 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-21 10:49:29,734 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-21 10:49:29,735 - autotube.content_gen - INFO - 📊 Total time: 74.26s, Cost: $0.0360
+2025-07-21 10:49:29,735 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Enigmatic Nazca Lines: Ancient Art or Astronomical Calendar?  
+**Summary:** Spanning vast stretches of the Peruvian desert, the Nazca Lines consist of enormous geoglyphs that some believe signify ancient rituals, while others speculate they served as astronomical markers for agriculture.
+2025-07-21 10:49:29,764 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (74.29s)
+2025-07-21 10:49:29,764 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-21 10:49:29,765 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-21 10:49:29,765 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: NazcaLinesAncientArtorAstronomicalCalendar
+2025-07-21 10:49:29,765 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: NazcaLinesAncientArtorAstronomicalCalendar
+2025-07-21 10:49:29,766 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\NazcaLinesAncientArtorAstronomicalCalendar\audio_NazcaLinesAncientArtorAstronomicalCalendar_sped_up.mp3
+2025-07-21 10:49:29,766 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\NazcaLinesAncientArtorAstronomicalCalendar\music_selection.json
+2025-07-21 10:49:29,773 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\cinematic-epic-trailer-music-galactic-overture-249131.mp3
+2025-07-21 10:49:29,881 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-21 10:49:29,881 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\NazcaLinesAncientArtorAstronomicalCalendar\audio_NazcaLinesAncientArtorAstronomicalCalendar_sped_up.mp3
+2025-07-21 10:49:29,949 - src.audio_mixer - INFO - Loaded audio: 29701ms (29.701s), 44100Hz, 2 channels
+2025-07-21 10:49:29,949 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\cinematic-epic-trailer-music-galactic-overture-249131.mp3
+2025-07-21 10:49:30,294 - src.audio_mixer - INFO - Loaded audio: 163527ms (163.527s), 44100Hz, 2 channels
+2025-07-21 10:49:30,294 - src.audio_mixer - INFO - Voice duration: 29701ms
+2025-07-21 10:49:30,295 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-21 10:49:30,295 - src.audio_mixer - INFO - Target duration: 29701ms
+2025-07-21 10:49:30,296 - src.audio_mixer - INFO - Trimmed music from 29701ms to 29701ms
+2025-07-21 10:49:30,296 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-21 10:49:30,316 - src.audio_mixer - INFO - Voice adjusted by 10.1dB, Music by -6.1dB
+2025-07-21 10:49:30,323 - src.audio_mixer - INFO - Added 500ms fade-out to prevent end artifacts
+2025-07-21 10:49:30,331 - src.audio_mixer - INFO - ✅ Perfect duration match: 29701ms
+2025-07-21 10:49:30,332 - src.audio_mixer - INFO - Audio mixing completed: 29701ms
+2025-07-21 10:49:30,680 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\NazcaLinesAncientArtorAstronomicalCalendar\mixed_audio_NazcaLinesAncientArtorAstronomicalCalendar.mp3
+2025-07-21 10:49:30,682 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\NazcaLinesAncientArtorAstronomicalCalendar\mixed_audio_NazcaLinesAncientArtorAstronomicalCalendar.mp3
+2025-07-21 10:49:30,682 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 877,761 bytes (0.8 MB)
+2025-07-21 10:49:30,684 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: NazcaLinesAncientArtorAstronomicalCalendar
+2025-07-21 10:49:30,787 - autotube.full_pipeline - INFO - 🎵 Mixed audio duration: 29.727 seconds
+2025-07-21 10:49:30,853 - autotube.full_pipeline - INFO - 🎵 TTS audio duration: 29.701 seconds
+2025-07-21 10:49:30,854 - autotube.full_pipeline - INFO - 🎯 Exact target duration: 29.701 seconds
+2025-07-21 10:49:31,346 - autotube.full_pipeline - INFO - 🔧 Trimmed audio duration: 29.701s
+2025-07-21 10:49:31,347 - autotube.full_pipeline - INFO - ✅ Perfect audio trimming: 29.701s
+2025-07-21 10:49:31,347 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-21 10:49:31,347 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-21 10:49:31,347 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: NazcaLinesAncientArtorAstronomicalCalendar
+2025-07-21 10:49:31,539 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-21 10:49:31,539 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-21 10:49:31,539 - autotube.full_pipeline - INFO - 🎵 Audio duration: 29.730s
+2025-07-21 10:49:31,540 - autotube.full_pipeline - INFO - 📸 Number of images: 12
+2025-07-21 10:49:31,540 - autotube.full_pipeline - INFO - ⏱️ Calculated image duration: 2.478s
+2025-07-21 10:49:31,540 - autotube.full_pipeline - INFO - 📐 Expected total video duration: 29.730s
+2025-07-21 10:49:31,540 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.48 seconds per image
+2025-07-21 10:49:31,540 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\NazcaLinesAncientArtorAstronomicalCalendar\NazcaLinesAncientArtorAstronomicalCalendar_kenburns.mp4
+2025-07-21 10:49:31,540 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['pan_right', 'zoom_out', 'pan_left', 'zoom_out', 'pan_left']...
+2025-07-21 10:49:31,541 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-21 10:49:31,541 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-21 10:49:31,569 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-21 10:49:31,569 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 10:49:31,582 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-21 10:49:31,582 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-21 10:49:31,593 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-21 10:49:31,594 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 10:49:31,618 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-21 10:49:31,618 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-21 10:49:31,643 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-21 10:49:31,643 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-21 10:49:31,668 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-21 10:49:31,668 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 10:49:31,698 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-21 10:49:31,699 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-21 10:49:31,727 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-21 10:49:31,728 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-21 10:49:31,750 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-21 10:49:31,750 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-21 10:49:31,775 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-21 10:49:31,775 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-21 10:49:31,799 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-21 10:49:31,799 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-21 10:49:31,825 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-21 10:49:31,861 - autotube.full_pipeline - INFO - 📐 Expected video duration: 29.736s
+2025-07-21 10:49:31,861 - autotube.full_pipeline - INFO - 📹 Actual video duration: 29.736s
+2025-07-21 10:49:31,862 - autotube.full_pipeline - INFO - ✅ Video duration matches expected: 29.736s
+2025-07-21 10:49:31,862 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-21 10:49:31,929 - autotube.full_pipeline - INFO - 📹 Video duration: 29.736s
+2025-07-21 10:49:31,929 - autotube.full_pipeline - INFO - 🎵 Audio duration: 29.730s
+2025-07-21 10:49:31,941 - autotube.full_pipeline - INFO - 🔧 CRITICAL FIX: Trimmed video from 29.736s to 29.730s
+2025-07-21 10:49:31,941 - autotube.full_pipeline - INFO - 🔧 This prevents images from showing after audio ends
+2025-07-21 10:49:31,941 - autotube.full_pipeline - INFO - ✅ Perfect audio/video duration match: 29.730s
+2025-07-21 10:49:31,941 - autotube.full_pipeline - INFO - 🔍 Final verification - Audio: 29.730s, Video: 29.730s
+2025-07-21 10:49:31,941 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 29.730s
+2025-07-21 10:49:31,942 - autotube.full_pipeline - INFO - ✅ Video will end exactly when audio ends
+2025-07-21 10:49:31,942 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\NazcaLinesAncientArtorAstronomicalCalendar\NazcaLinesAncientArtorAstronomicalCalendar_kenburns.mp4
+2025-07-21 10:50:09,389 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-21 10:50:09,390 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-21 10:50:09,390 - autotube.full_pipeline - INFO - ✅ Video duration: 29.73 seconds
+2025-07-21 10:50:09,390 - autotube.full_pipeline - INFO - ✅ Video file size: 8.3 MB
+2025-07-21 10:50:09,391 - autotube.full_pipeline - WARNING - ⚠️  Resolution seems low for HD: 768x1344
+2025-07-21 10:50:09,391 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-21 10:50:09,415 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\NazcaLinesAncientArtorAstronomicalCalendar\NazcaLinesAncientArtorAstronomicalCalendar_kenburns.mp4
+2025-07-21 10:50:09,415 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-21 10:50:09,416 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\NazcaLinesAncientArtorAstronomicalCalendar\NazcaLinesAncientArtorAstronomicalCalendar_kenburns.mp4
+2025-07-21 10:50:09,880 - autotube.full_pipeline - INFO - 📹 Ken Burns video duration: 29.730s
+2025-07-21 10:50:09,880 - autotube.full_pipeline - WARNING - ⚠️ Ken Burns video duration mismatch: 0.029s
+2025-07-21 10:50:09,881 - autotube.full_pipeline - INFO - ✂️ AGGRESSIVE TRIM: Ken Burns video 29.730s → 29.701s
+2025-07-21 10:50:30,414 - autotube.full_pipeline - INFO - ✅ Ken Burns video trimmed to exact duration: 29.701s
+2025-07-21 10:50:30,415 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-21 10:50:30,417 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-21 10:50:30,423 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-21 10:50:30,424 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-21 10:50:34,043 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-21 10:50:34,045 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-21 10:50:34,045 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-21 10:50:34,384 - faster_whisper - INFO - Processing audio with duration 00:29.727
+2025-07-21 10:50:40,770 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-21 10:50:55,957 - autotube.full_pipeline - INFO - Extracted 81 words with timing
+2025-07-21 10:50:55,958 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 21.91s
+2025-07-21 10:50:56,361 - autotube.full_pipeline - INFO - Video loading took 0.40s
+2025-07-21 10:50:56,361 - autotube.full_pipeline - INFO - Original video - Duration: 29.73s, FPS: 30.0, Audio: True
+2025-07-21 10:50:56,362 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 81 words...
+2025-07-21 10:50:56,362 - autotube.full_pipeline - INFO - Group 1: 4 words (24 chars), 0.00s - 0.98s
+2025-07-21 10:50:56,362 - autotube.full_pipeline - INFO - Group 2: 3 words (21 chars), 0.96s - 2.18s
+2025-07-21 10:50:56,362 - autotube.full_pipeline - INFO - Group 3: 3 words (16 chars), 2.16s - 3.14s
+2025-07-21 10:50:56,363 - autotube.full_pipeline - INFO - Group 4: 4 words (23 chars), 3.12s - 4.50s
+2025-07-21 10:50:56,363 - autotube.full_pipeline - INFO - Group 5: 3 words (31 chars), 4.48s - 5.82s
+2025-07-21 10:50:56,363 - autotube.full_pipeline - INFO - Group 6: 3 words (17 chars), 5.80s - 6.70s
+2025-07-21 10:50:56,363 - autotube.full_pipeline - INFO - Group 7: 3 words (30 chars), 6.68s - 8.20s
+2025-07-21 10:50:56,363 - autotube.full_pipeline - INFO - Group 8: 4 words (16 chars), 8.18s - 10.48s
+2025-07-21 10:50:56,363 - autotube.full_pipeline - INFO - Group 9: 4 words (21 chars), 10.46s - 11.90s
+2025-07-21 10:50:56,364 - autotube.full_pipeline - INFO - Group 10: 4 words (24 chars), 11.88s - 13.20s
+2025-07-21 10:50:56,364 - autotube.full_pipeline - INFO - Group 11: 3 words (20 chars), 13.18s - 14.08s
+2025-07-21 10:50:56,364 - autotube.full_pipeline - INFO - Group 12: 3 words (13 chars), 14.06s - 14.82s
+2025-07-21 10:50:56,364 - autotube.full_pipeline - INFO - Group 13: 3 words (25 chars), 14.80s - 16.08s
+2025-07-21 10:50:56,364 - autotube.full_pipeline - INFO - Group 14: 3 words (24 chars), 16.06s - 17.20s
+2025-07-21 10:50:56,364 - autotube.full_pipeline - INFO - Group 15: 3 words (25 chars), 17.46s - 18.38s
+2025-07-21 10:50:56,365 - autotube.full_pipeline - INFO - Group 16: 3 words (21 chars), 18.36s - 20.06s
+2025-07-21 10:50:56,365 - autotube.full_pipeline - INFO - Group 17: 3 words (15 chars), 20.04s - 20.60s
+2025-07-21 10:50:56,365 - autotube.full_pipeline - INFO - Group 18: 3 words (20 chars), 20.58s - 21.54s
+2025-07-21 10:50:56,365 - autotube.full_pipeline - INFO - Group 19: 3 words (14 chars), 22.06s - 22.84s
+2025-07-21 10:50:56,365 - autotube.full_pipeline - INFO - Group 20: 3 words (23 chars), 22.82s - 23.66s
+2025-07-21 10:50:56,366 - autotube.full_pipeline - INFO - Group 21: 3 words (22 chars), 23.92s - 24.62s
+2025-07-21 10:50:56,366 - autotube.full_pipeline - INFO - Group 22: 3 words (17 chars), 24.60s - 25.70s
+2025-07-21 10:50:56,366 - autotube.full_pipeline - INFO - Group 23: 4 words (23 chars), 25.68s - 27.10s
+2025-07-21 10:50:56,366 - autotube.full_pipeline - INFO - Group 24: 4 words (24 chars), 27.64s - 28.80s
+2025-07-21 10:50:56,366 - autotube.full_pipeline - INFO - Group 25: 2 words (14 chars), 28.78s - 29.30s
+2025-07-21 10:50:56,366 - autotube.full_pipeline - INFO - Created 25 word groups with smart length limiting
+2025-07-21 10:50:56,367 - autotube.full_pipeline - INFO - Creating clips for group 1: 4 words
+2025-07-21 10:50:57,544 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.24s
+2025-07-21 10:50:58,441 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.20s - 0.44s
+2025-07-21 10:50:59,277 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.40s - 0.74s
+2025-07-21 10:51:00,115 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 1: 0.70s - 0.91s
+2025-07-21 10:51:00,116 - autotube.full_pipeline - INFO - Created clips for 1/25 word groups - ETA: 4s
+2025-07-21 10:51:00,116 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-21 10:51:00,950 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 0.96s - 1.40s
+2025-07-21 10:51:01,792 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 1.36s - 2.10s
+2025-07-21 10:51:02,620 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 2.06s - 2.11s
+2025-07-21 10:51:02,621 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-21 10:51:03,157 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 2.16s - 2.78s
+2025-07-21 10:51:03,677 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 2.74s - 2.84s
+2025-07-21 10:51:04,188 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 2.80s - 3.07s
+2025-07-21 10:51:04,188 - autotube.full_pipeline - INFO - Creating clips for group 4: 4 words
+2025-07-21 10:51:04,992 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 3.12s - 3.42s
+2025-07-21 10:51:05,824 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 3.38s - 3.66s
+2025-07-21 10:51:06,659 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 3.62s - 4.24s
+2025-07-21 10:51:07,498 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 4: 4.20s - 4.43s
+2025-07-21 10:51:07,498 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-21 10:51:08,703 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 4.48s - 5.06s
+2025-07-21 10:51:10,183 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 5.02s - 5.48s
+2025-07-21 10:51:13,549 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 5.44s - 5.75s
+2025-07-21 10:51:13,550 - autotube.full_pipeline - INFO - Creating clips for group 6: 3 words
+2025-07-21 10:51:14,903 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 5.80s - 6.10s
+2025-07-21 10:51:15,717 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 6.06s - 6.36s
+2025-07-21 10:51:16,407 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 6.32s - 6.63s
+2025-07-21 10:51:16,407 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-21 10:51:17,872 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 6.68s - 7.58s
+2025-07-21 10:51:20,853 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 7.54s - 7.88s
+2025-07-21 10:51:24,209 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 7.84s - 8.13s
+2025-07-21 10:51:24,210 - autotube.full_pipeline - INFO - Creating clips for group 8: 4 words
+2025-07-21 10:51:24,905 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 8.18s - 8.82s
+2025-07-21 10:51:25,554 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 8.78s - 9.32s
+2025-07-21 10:51:26,154 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 9.28s - 9.92s
+2025-07-21 10:51:26,772 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 8: 9.88s - 10.41s
+2025-07-21 10:51:26,774 - autotube.full_pipeline - INFO - Creating clips for group 9: 4 words
+2025-07-21 10:51:27,516 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 10.46s - 11.32s
+2025-07-21 10:51:28,347 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 11.28s - 11.36s
+2025-07-21 10:51:29,015 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 11.32s - 11.66s
+2025-07-21 10:51:29,988 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 9: 11.62s - 11.83s
+2025-07-21 10:51:29,989 - autotube.full_pipeline - INFO - Creating clips for group 10: 4 words
+2025-07-21 10:51:31,113 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 11.88s - 12.02s
+2025-07-21 10:51:32,363 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 11.98s - 12.66s
+2025-07-21 10:51:33,617 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 12.62s - 12.82s
+2025-07-21 10:51:34,742 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 10: 12.78s - 13.13s
+2025-07-21 10:51:34,742 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-21 10:51:35,736 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 13.18s - 13.52s
+2025-07-21 10:51:36,675 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 13.48s - 13.76s
+2025-07-21 10:51:37,762 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 13.72s - 14.01s
+2025-07-21 10:51:37,763 - autotube.full_pipeline - INFO - Created clips for 11/25 word groups - ETA: 41s
+2025-07-21 10:51:37,763 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-21 10:51:38,557 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 14.06s - 14.46s
+2025-07-21 10:51:39,321 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 14.42s - 14.70s
+2025-07-21 10:51:39,995 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 14.66s - 14.75s
+2025-07-21 10:51:39,996 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-21 10:51:41,431 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 14.80s - 15.28s
+2025-07-21 10:51:42,951 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 15.24s - 15.88s
+2025-07-21 10:51:44,497 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 15.84s - 16.01s
+2025-07-21 10:51:44,498 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-21 10:51:45,751 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 16.06s - 16.36s
+2025-07-21 10:51:46,857 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 16.32s - 16.78s
+2025-07-21 10:51:47,875 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 16.74s - 17.41s
+2025-07-21 10:51:47,875 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-21 10:51:49,097 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 17.46s - 17.76s
+2025-07-21 10:51:51,293 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 17.72s - 17.98s
+2025-07-21 10:51:52,533 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 17.94s - 18.31s
+2025-07-21 10:51:52,533 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-21 10:51:53,454 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 18.36s - 19.48s
+2025-07-21 10:51:54,464 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 19.44s - 19.68s
+2025-07-21 10:51:55,467 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 19.64s - 19.99s
+2025-07-21 10:51:55,467 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-21 10:51:56,238 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 20.04s - 20.24s
+2025-07-21 10:51:56,881 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 20.20s - 20.38s
+2025-07-21 10:51:57,448 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 20.34s - 20.53s
+2025-07-21 10:51:57,448 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-21 10:51:58,249 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 20.58s - 20.76s
+2025-07-21 10:51:59,070 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 20.72s - 21.04s
+2025-07-21 10:51:59,843 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 21.00s - 21.84s
+2025-07-21 10:51:59,844 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-21 10:52:00,454 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 22.06s - 22.26s
+2025-07-21 10:52:00,973 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 22.22s - 22.56s
+2025-07-21 10:52:01,562 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 22.52s - 22.77s
+2025-07-21 10:52:01,563 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-21 10:52:02,468 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 22.82s - 23.08s
+2025-07-21 10:52:03,357 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 23.04s - 23.26s
+2025-07-21 10:52:04,367 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 23.22s - 23.87s
+2025-07-21 10:52:04,367 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-21 10:52:05,494 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 23.92s - 24.06s
+2025-07-21 10:52:06,512 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 24.02s - 24.26s
+2025-07-21 10:52:07,480 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 24.22s - 24.55s
+2025-07-21 10:52:07,480 - autotube.full_pipeline - INFO - Created clips for 21/25 word groups - ETA: 71s
+2025-07-21 10:52:07,480 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-21 10:52:08,342 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 24.60s - 24.82s
+2025-07-21 10:52:09,184 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 24.78s - 25.08s
+2025-07-21 10:52:10,052 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 25.04s - 25.63s
+2025-07-21 10:52:10,053 - autotube.full_pipeline - INFO - Creating clips for group 23: 4 words
+2025-07-21 10:52:11,123 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 25.68s - 26.08s
+2025-07-21 10:52:12,139 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 26.04s - 26.72s
+2025-07-21 10:52:13,249 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 26.68s - 26.84s
+2025-07-21 10:52:14,348 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 23: 26.80s - 27.40s
+2025-07-21 10:52:14,349 - autotube.full_pipeline - INFO - Creating clips for group 24: 4 words
+2025-07-21 10:52:15,518 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 27.64s - 27.86s
+2025-07-21 10:52:16,954 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 27.82s - 28.30s
+2025-07-21 10:52:18,540 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 28.26s - 28.62s
+2025-07-21 10:52:19,943 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 24: 28.58s - 28.73s
+2025-07-21 10:52:19,943 - autotube.full_pipeline - INFO - Creating clips for group 25: 2 words
+2025-07-21 10:52:20,896 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 28.78s - 29.06s
+2025-07-21 10:52:21,654 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 29.02s - 29.50s
+2025-07-21 10:52:21,654 - autotube.full_pipeline - INFO - Created 81 individual subtitle clips
+2025-07-21 10:52:21,655 - autotube.full_pipeline - INFO - Viral subtitle creation took 85.29s
+2025-07-21 10:52:21,656 - autotube.full_pipeline - INFO - Subtitle clips count: 81
+2025-07-21 10:52:21,669 - autotube.full_pipeline - INFO - Video composition took 0.01s
+2025-07-21 10:52:22,612 - autotube.full_pipeline - INFO - 📊 Mixed audio duration (target): 29.410s
+2025-07-21 10:52:22,612 - autotube.full_pipeline - INFO - Original video audio duration: 29.730s
+2025-07-21 10:52:22,613 - autotube.full_pipeline - INFO - Target mixed audio duration: 29.410s
+2025-07-21 10:52:22,613 - autotube.full_pipeline - INFO - Final video duration: 29.730s
+2025-07-21 10:52:22,613 - autotube.full_pipeline - INFO - Final audio duration: 29.730s
+2025-07-21 10:52:22,613 - autotube.full_pipeline - WARNING - ⚠️ Audio duration mismatch: 29.730s vs target 29.410s
+2025-07-21 10:52:22,613 - autotube.full_pipeline - INFO - 🔧 Trimmed audio to mixed audio duration: 29.410s
+2025-07-21 10:52:22,639 - autotube.full_pipeline - INFO - 🔧 Trimmed video to mixed audio duration: 29.410s
+2025-07-21 10:52:22,639 - autotube.full_pipeline - INFO - Final video - Duration: 29.41s, Audio: True
+2025-07-21 10:52:22,639 - autotube.full_pipeline - INFO - Writing HD viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\NazcaLinesAncientArtorAstronomicalCalendar\NazcaLinesAncientArtorAstronomicalCalendar_final.mp4
+2025-07-21 10:53:05,092 - autotube.full_pipeline - INFO - Video writing took 42.45s
+2025-07-21 10:53:05,092 - autotube.full_pipeline - INFO - Validating output file with duration verification...
+2025-07-21 10:53:05,603 - autotube.full_pipeline - INFO - Output file - Video Duration: 29.430s, Audio Duration: 29.430s
+2025-07-21 10:53:05,603 - autotube.full_pipeline - INFO - ✅ Perfect audio duration match: 29.430s
+2025-07-21 10:53:05,604 - autotube.full_pipeline - INFO - ✅ Perfect video duration match: 29.430s
+2025-07-21 10:53:05,644 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\NazcaLinesAncientArtorAstronomicalCalendar\NazcaLinesAncientArtorAstronomicalCalendar_final.mp4
+2025-07-21 10:53:05,644 - autotube.full_pipeline - INFO - Total processing time: 151.60s
+2025-07-21 10:53:05,645 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\NazcaLinesAncientArtorAstronomicalCalendar\NazcaLinesAncientArtorAstronomicalCalendar_final.mp4
+2025-07-21 10:53:05,645 - autotube.full_pipeline - INFO - 📊 Final video size: 7,434,890 bytes (7.1 MB)
+2025-07-21 10:53:06,092 - autotube.full_pipeline - INFO - 📹 Final video duration: 29.430s
+2025-07-21 10:53:06,092 - autotube.full_pipeline - WARNING - ⚠️ FINAL VIDEO DURATION MISMATCH: 0.271s
+2025-07-21 10:53:06,092 - autotube.full_pipeline - ERROR - ❌ Final video too short - cannot extend
+2025-07-21 10:53:06,124 - autotube.full_pipeline - INFO - ❌ Completed: Audio/Video Processing (216.36s)
+2025-07-21 10:53:06,125 - autotube.full_pipeline - ERROR - ❌ Audio/video processing failed
+2025-07-21 10:53:06,125 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline

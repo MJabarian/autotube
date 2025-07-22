@@ -1,0 +1,241 @@
+{
+  "story_title": "Estonia's Harmonious Path to Freedom",
+  "original_story": "Imagine a nation united by song! From 1987 to 1991, Estonians gathered in vast choirs, their voices echoing the longing for independence from the Soviet Union. These 'Singing Revolution' events transformed music into a powerful tool for peaceful resistance, fostering a sense of national identity. As thousands sang patriotic songs, they sparked hope and determination, ultimately leading to Estonia's restored independence. This remarkable journey showcases how harmony can create profound change, proving that music truly has the power to unite and inspire.",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.7733333333333334,
+      "audio_content": "Imagine a nation united by song, from",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9228308030537197
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.7733333333333334,
+      "timestamp_end": 5.546666666666667,
+      "audio_content": "to 1991, Estonians",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9638375110096402
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.546666666666667,
+      "timestamp_end": 8.32,
+      "audio_content": "in vast choirs their voices",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8085620909929275
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.32,
+      "timestamp_end": 11.093333333333334,
+      "audio_content": "the longing for independence from the Soviet Union.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9912429377436638
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 11.093333333333334,
+      "timestamp_end": 13.866666666666667,
+      "audio_content": "These singing revolution events transformed",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9306404948234558
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 13.866666666666667,
+      "timestamp_end": 16.64,
+      "audio_content": "into a powerful tool for peaceful resistance,",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9967808468001229
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 16.64,
+      "timestamp_end": 19.413333333333334,
+      "audio_content": "fostering a sense of national identity. As",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9975104033946991
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 19.413333333333334,
+      "timestamp_end": 22.186666666666667,
+      "audio_content": "sang patriotic songs, they sparked",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9837756752967834
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 22.186666666666667,
+      "timestamp_end": 24.96,
+      "audio_content": "and determination, ultimately leading to",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9920563459396362
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 24.96,
+      "timestamp_end": 27.733333333333334,
+      "audio_content": "restored independence. This remarkable journey",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8958559036254883
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 27.733333333333334,
+      "timestamp_end": 30.506666666666668,
+      "audio_content": "how harmony can create profound change,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9732593794663748
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 30.506666666666668,
+      "timestamp_end": 33.28,
+      "audio_content": "that music truly has the power to unite and inspire.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9952404141426087
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.7733333333333334,
+      "audio_content": "Imagine a nation united by song, from",
+      "image_prompt": "Medium shot of a diverse group of Estonian singers, faces illuminated by flickering candlelight, passionately belting out patriotic songs. Their expressions reflect fierce determination and hope, as shadows dance across their features, capturing the raw power of unity and longing for freedom.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9228308030537197,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.7733333333333334,
+      "timestamp_end": 5.546666666666667,
+      "audio_content": "to 1991, Estonians",
+      "image_prompt": "Wide shot of a vast outdoor choir gathering in Estonia, thousands of singers united under a cloud-streaked sky, their faces illuminated by the soft glow of sunset, creating a sense of hope and determination as they raise their voices in harmony, surrounded by lush green fields.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9638375110096402,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.546666666666667,
+      "timestamp_end": 8.32,
+      "audio_content": "in vast choirs their voices",
+      "image_prompt": "Wide shot of a vast choir of Estonians in a sunlit field, their arms raised and voices harmonizing in a powerful display of unity. The backdrop features the vibrant colors of a setting sun, casting dramatic shadows on the landscape, enhancing the emotional intensity of this historic moment.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8085620909929275,
+      "content_type": "character_action",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.32,
+      "timestamp_end": 11.093333333333334,
+      "audio_content": "the longing for independence from the Soviet Union.",
+      "image_prompt": "Medium shot of a diverse group of Estonians standing together, their faces illuminated by the soft glow of twilight. They passionately sing, eyes filled with hope and determination, surrounded by lush green trees as their harmonious voices echo the longing for independence.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9912429377436638,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 11.093333333333334,
+      "timestamp_end": 13.866666666666667,
+      "audio_content": "These singing revolution events transformed",
+      "image_prompt": "Wide shot of a vast gathering in Tallinn, thousands of Estonians united in song, their faces illuminated by soft, dramatic lighting. The backdrop showcases a historic square, filled with colorful flags, as voices rise in harmony, embodying hope and determination for independence.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9306404948234558,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 13.866666666666667,
+      "timestamp_end": 16.64,
+      "audio_content": "into a powerful tool for peaceful resistance,",
+      "image_prompt": "Wide shot of a vast open square filled with Estonians, their faces illuminated by the soft glow of sunset, united in song. The air is thick with emotion as they raise their voices, creating a vibrant tapestry of hope and resistance, surrounded by the stark silhouettes of historical buildings.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9967808468001229,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 16.64,
+      "timestamp_end": 19.413333333333334,
+      "audio_content": "fostering a sense of national identity. As",
+      "image_prompt": "Wide shot of a vast choir of Estonians gathered in a sunlit field, their faces filled with hope and determination as they sing together. The backdrop features a clear blue sky, with shadows cast dramatically on the ground, highlighting the unity and power of their collective voice in the fight for independence.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9975104033946991,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 19.413333333333334,
+      "timestamp_end": 22.186666666666667,
+      "audio_content": "sang patriotic songs, they sparked",
+      "image_prompt": "Wide shot of thousands of Estonians gathered in a sunlit square, their faces filled with determination, singing together in harmony. The backdrop showcases historic buildings, as the vibrant colors of flags wave in the breeze, encapsulating the spirit of unity and hope during the Singing Revolution.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9837756752967834,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 22.186666666666667,
+      "timestamp_end": 24.96,
+      "audio_content": "and determination, ultimately leading to",
+      "image_prompt": "Close-up of a diverse group of Estonian singers, their faces illuminated by soft, dramatic lighting. Eyes filled with hope and determination, they passionately sing together, the shadows of their surroundings deepening the emotional intensity as their voices rise in unison, symbolizing unity and resilience.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9920563459396362,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 24.96,
+      "timestamp_end": 27.733333333333334,
+      "audio_content": "restored independence. This remarkable journey",
+      "image_prompt": "Wide shot of a vast crowd of Estonians gathered in a sunlit square, their arms raised in unity, singing fervently. The backdrop features historic buildings, with banners fluttering in the breeze, as shadows play dramatically across the scene, capturing the spirit of hope and resilience.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8958559036254883,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 27.733333333333334,
+      "timestamp_end": 30.506666666666668,
+      "audio_content": "how harmony can create profound change,",
+      "image_prompt": "Wide shot of a vast crowd of Estonians gathered in a sunlit square, their faces upturned and voices raised in unison, surrounded by flags fluttering in the breeze. The atmosphere is electric with hope, as the sun casts long shadows and highlights the determination in their expressions.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9732593794663748,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 30.506666666666668,
+      "timestamp_end": 33.28,
+      "audio_content": "that music truly has the power to unite and inspire.",
+      "image_prompt": "Wide shot of thousands of Estonians gathered in a vast outdoor amphitheater, their faces illuminated by the warm glow of the setting sun, voices raised in unison, creating a sea of hope and unity as they sing patriotic songs, with trees and historical landmarks in the background.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9952404141426087,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 33.28,
+    "whisper_model": "base"
+  }
+}

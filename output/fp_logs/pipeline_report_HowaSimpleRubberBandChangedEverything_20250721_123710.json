@@ -1,0 +1,56 @@
+{
+  "pipeline_info": {
+    "story_title": "HowaSimpleRubberBandChangedEverything",
+    "sanitized_title": "HowaSimpleRubberBandChangedEverything",
+    "start_time": "2025-07-21T12:31:58.910699",
+    "end_time": "2025-07-21T12:37:10.136933",
+    "total_duration": 311.22623467445374,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753115518.9237726,
+      "end": 1753115589.858205,
+      "duration": 70.93443250656128,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753115589.858205,
+      "end": 1753115830.1349325,
+      "duration": 240.27672743797302,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowaSimpleRubberBandChangedEverything\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowaSimpleRubberBandChangedEverything\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowaSimpleRubberBandChangedEverything\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowaSimpleRubberBandChangedEverything\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\HowaSimpleRubberBandChangedEverything\\audio_HowaSimpleRubberBandChangedEverything.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\HowaSimpleRubberBandChangedEverything\\audio_HowaSimpleRubberBandChangedEverything_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\HowaSimpleRubberBandChangedEverything\\mixed_audio_HowaSimpleRubberBandChangedEverything.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaSimpleRubberBandChangedEverything\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaSimpleRubberBandChangedEverything\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaSimpleRubberBandChangedEverything\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaSimpleRubberBandChangedEverything\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaSimpleRubberBandChangedEverything\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaSimpleRubberBandChangedEverything\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaSimpleRubberBandChangedEverything\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaSimpleRubberBandChangedEverything\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaSimpleRubberBandChangedEverything\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaSimpleRubberBandChangedEverything\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaSimpleRubberBandChangedEverything\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaSimpleRubberBandChangedEverything\\image_12.jpg"
+    ]
+  },
+  "pipeline_status": "SUCCESS"
+}

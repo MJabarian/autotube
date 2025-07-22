@@ -1,0 +1,241 @@
+{
+  "story_title": "Panic Over Paper: The 1973 Shortage Mystery",
+  "original_story": "Picture this: 1973, a seemingly ordinary year, suddenly shaken by a toilet paper panic! Rumors of a looming paper shortage sent shoppers into a frenzy, stripping store shelves bare. This unusual event showcased society’s quirky dependence on a simple roll of paper. As people hoarded this essential commodity, the frenzy turned into an unforgettable chapter of American history. Why did this happen? It was a fascinating mix of misinformation and consumer behavior that remains a captivating study today.",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.3633333333333333,
+      "audio_content": "Picture this. 1973,",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9150829116503397
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.3633333333333333,
+      "timestamp_end": 4.726666666666667,
+      "audio_content": "a seemingly ordinary year, suddenly",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9836704969406128
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.726666666666667,
+      "timestamp_end": 7.09,
+      "audio_content": "by a toilet paper panic.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9567878127098084
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.09,
+      "timestamp_end": 9.453333333333333,
+      "audio_content": "of alluming paper shortage sent shoppers into a",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9217487014830112
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.453333333333333,
+      "timestamp_end": 11.816666666666666,
+      "audio_content": "stripping store shelves bare.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.8751647099852562
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.816666666666666,
+      "timestamp_end": 14.18,
+      "audio_content": "unusual event showcased society's quirky",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9896193146705627
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.18,
+      "timestamp_end": 16.543333333333333,
+      "audio_content": "on a simple role of paper.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9594356119632721
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.543333333333333,
+      "timestamp_end": 18.906666666666666,
+      "audio_content": "people hoarded this essential commodity, the frenzy",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9553464991705758
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.906666666666666,
+      "timestamp_end": 21.27,
+      "audio_content": "into an unforgettable chapter of American",
+      "words_in_segment": 6,
+      "confidence_avg": 0.990119218826294
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.27,
+      "timestamp_end": 23.633333333333333,
+      "audio_content": "Why did this happen? It was a",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9946540253502982
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.633333333333333,
+      "timestamp_end": 25.996666666666666,
+      "audio_content": "mix of misinformation and consumer",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9944529891014099
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 25.996666666666666,
+      "timestamp_end": 28.36,
+      "audio_content": "that remains a captivating study today.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9900708893934885
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.3633333333333333,
+      "audio_content": "Picture this. 1973,",
+      "image_prompt": "Medium shot of frantic shoppers in a grocery store, faces filled with panic and urgency as they scramble to grab the last rolls of toilet paper. Dramatic lighting highlights their expressions, with sharp shadows creating a sense of chaos and tension in the air.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9150829116503397,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.3633333333333333,
+      "timestamp_end": 4.726666666666667,
+      "audio_content": "a seemingly ordinary year, suddenly",
+      "image_prompt": "Wide shot of a bustling 1970s supermarket, shelves nearly empty, with frantic shoppers reaching for the last rolls of toilet paper. Dramatic chiaroscuro lighting casts sharp shadows, capturing the chaos and urgency of the moment, while expressions of panic and determination fill the faces of the crowd.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9836704969406128,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.726666666666667,
+      "timestamp_end": 7.09,
+      "audio_content": "by a toilet paper panic.",
+      "image_prompt": "Medium shot of frantic shoppers in a grocery store, arms laden with toilet paper, expressions of panic and urgency on their faces. Dimly lit aisle, shadows casting dramatic contrasts as empty shelves loom in the background, embodying the chaotic atmosphere of the toilet paper panic in 1973.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9567878127098084,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.09,
+      "timestamp_end": 9.453333333333333,
+      "audio_content": "of alluming paper shortage sent shoppers into a",
+      "image_prompt": "Medium shot of frantic shoppers in a grocery store, arms full of toilet paper rolls, faces showing panic and determination. Shelves behind them stripped bare, dramatic chiaroscuro lighting casting sharp shadows, capturing the chaos of the moment in 1973.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9217487014830112,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.453333333333333,
+      "timestamp_end": 11.816666666666666,
+      "audio_content": "stripping store shelves bare.",
+      "image_prompt": "Medium shot of frantic shoppers in a grocery store, faces filled with anxiety and determination as they frantically clear shelves of toilet paper. Dramatic chiaroscuro lighting casts sharp shadows, highlighting the chaos of the moment, capturing the urgency and absurdity of the toilet paper panic in 1973.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.8751647099852562,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.816666666666666,
+      "timestamp_end": 14.18,
+      "audio_content": "unusual event showcased society's quirky",
+      "image_prompt": "Wide shot of a bustling grocery store in 1973, with frantic shoppers scrambling through empty aisles, grabbing the last rolls of toilet paper. Bright fluorescent lights cast sharp shadows, highlighting the chaos and desperation on eager faces amidst scattered products.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9896193146705627,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.18,
+      "timestamp_end": 16.543333333333333,
+      "audio_content": "on a simple role of paper.",
+      "image_prompt": "Medium shot of frantic shoppers in a supermarket aisle, arms overflowing with toilet paper, expressions of anxiety and determination on their faces. Shelves behind them stand eerily empty, shadows creating a dramatic contrast, emphasizing the chaos of the 1973 toilet paper panic.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9594356119632721,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.543333333333333,
+      "timestamp_end": 18.906666666666666,
+      "audio_content": "people hoarded this essential commodity, the frenzy",
+      "image_prompt": "Medium shot of frantic shoppers in a grocery store, their faces a mix of panic and determination as they clutch rolls of toilet paper. The shelves behind them are nearly bare, casting sharp shadows in the dramatic chiaroscuro lighting that highlights the urgency of the moment.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9553464991705758,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.906666666666666,
+      "timestamp_end": 21.27,
+      "audio_content": "into an unforgettable chapter of American",
+      "image_prompt": "Wide shot of a bustling 1973 grocery store, shelves stripped of toilet paper. Shoppers in a frenzy, expressions of panic and determination on their faces, dramatic chiaroscuro lighting casting sharp shadows, capturing the chaotic atmosphere of a society gripped by a quirky crisis.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.990119218826294,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.27,
+      "timestamp_end": 23.633333333333333,
+      "audio_content": "Why did this happen? It was a",
+      "image_prompt": "Wide shot of a bustling 1970s grocery store, shelves stripped bare of toilet paper, frantic shoppers in disarray, expressive faces reflecting panic and confusion, dramatic chiaroscuro lighting casting sharp shadows, capturing the chaos of the unexpected toilet paper shortage.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9946540253502982,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.633333333333333,
+      "timestamp_end": 25.996666666666666,
+      "audio_content": "mix of misinformation and consumer",
+      "image_prompt": "Medium shot of frantic shoppers in a grocery store, faces filled with anxiety and determination, as they clutch rolls of toilet paper. The shelves behind them are nearly empty, dramatic chiaroscuro lighting casting sharp shadows, highlighting the chaos and urgency of the moment.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9944529891014099,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 25.996666666666666,
+      "timestamp_end": 28.36,
+      "audio_content": "that remains a captivating study today.",
+      "image_prompt": "Wide shot of a bustling 1973 supermarket, shelves stripped bare of toilet paper, frenzied shoppers rushing with carts, expressions of panic and urgency, dramatic chiaroscuro lighting highlighting the chaos, sharp shadows cast across the empty aisles, capturing the surreal atmosphere of the toilet paper panic.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9900708893934885,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 28.36,
+    "whisper_model": "base"
+  }
+}

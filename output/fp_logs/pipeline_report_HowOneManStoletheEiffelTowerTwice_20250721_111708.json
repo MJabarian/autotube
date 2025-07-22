@@ -1,0 +1,56 @@
+{
+  "pipeline_info": {
+    "story_title": "HowOneManStoletheEiffelTowerTwice",
+    "sanitized_title": "HowOneManStoletheEiffelTowerTwice",
+    "start_time": "2025-07-21T11:11:09.421609",
+    "end_time": "2025-07-21T11:17:08.865428",
+    "total_duration": 359.4438192844391,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753110669.4370844,
+      "end": 1753110746.4277124,
+      "duration": 76.9906280040741,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753110746.4282289,
+      "end": 1753111028.8634284,
+      "duration": 282.43519949913025,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowOneManStoletheEiffelTowerTwice\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowOneManStoletheEiffelTowerTwice\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowOneManStoletheEiffelTowerTwice\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowOneManStoletheEiffelTowerTwice\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\HowOneManStoletheEiffelTowerTwice\\audio_HowOneManStoletheEiffelTowerTwice.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\HowOneManStoletheEiffelTowerTwice\\audio_HowOneManStoletheEiffelTowerTwice_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\HowOneManStoletheEiffelTowerTwice\\mixed_audio_HowOneManStoletheEiffelTowerTwice.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowOneManStoletheEiffelTowerTwice\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowOneManStoletheEiffelTowerTwice\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowOneManStoletheEiffelTowerTwice\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowOneManStoletheEiffelTowerTwice\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowOneManStoletheEiffelTowerTwice\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowOneManStoletheEiffelTowerTwice\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowOneManStoletheEiffelTowerTwice\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowOneManStoletheEiffelTowerTwice\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowOneManStoletheEiffelTowerTwice\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowOneManStoletheEiffelTowerTwice\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowOneManStoletheEiffelTowerTwice\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowOneManStoletheEiffelTowerTwice\\image_12.jpg"
+    ]
+  },
+  "pipeline_status": "SUCCESS"
+}

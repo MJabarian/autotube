@@ -1,0 +1,3 @@
+2025-07-18 14:18:20,765 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: Test Topic for Logging
+2025-07-18 14:18:20,766 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory\output\content_gen_logs\TestTopicforLogging_content_gen_2025-07-18_14-18-20.log
+2025-07-18 14:18:20,767 - autotube.content_gen - INFO - ✅ Logging directory test completed successfully

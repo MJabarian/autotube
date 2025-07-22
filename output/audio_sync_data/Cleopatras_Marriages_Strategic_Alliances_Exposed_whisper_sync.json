@@ -1,0 +1,241 @@
+{
+  "story_title": "Cleopatra's Marriages: Strategic Alliances Exposed",
+  "original_story": "[dramatic] Cleopatra wasn’t just a seducer; she was a master strategist! In 48 BC, she allied with Julius Caesar to secure her throne in Egypt, bearing him a son named Caesarion. Fast forward to 41 BC, and she captivated Mark Antony, not just for love but to challenge Rome’s power! Their union sparked a war with Octavian, culminating in the legendary Battle of Actium in 31 BC. Did you know Cleopatra's reign ended in 30 BC, leading to Egypt’s annexation by Rome? Talk about stakes! [pause:0.5s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.3216666666666668,
+      "audio_content": "Cleopatra wasn't just a seducer, she was",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9816622932751974
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.3216666666666668,
+      "timestamp_end": 4.6433333333333335,
+      "audio_content": "master strategist. In 48",
+      "words_in_segment": 4,
+      "confidence_avg": 0.981684684753418
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.6433333333333335,
+      "timestamp_end": 6.965,
+      "audio_content": "she allied with Julius Caesar to secure",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9503426551818848
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.965,
+      "timestamp_end": 9.286666666666667,
+      "audio_content": "throne in Egypt, bearing him a son,",
+      "words_in_segment": 7,
+      "confidence_avg": 0.940462453024728
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.286666666666667,
+      "timestamp_end": 11.608333333333334,
+      "audio_content": "Caesarian. Fast forward to",
+      "words_in_segment": 4,
+      "confidence_avg": 0.8557994142174721
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.608333333333334,
+      "timestamp_end": 13.93,
+      "audio_content": "BC and she captivated Mark",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8364282310009002
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.93,
+      "timestamp_end": 16.25166666666667,
+      "audio_content": "not just for love, but to challenge",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9916846837316241
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.25166666666667,
+      "timestamp_end": 18.573333333333334,
+      "audio_content": "power. Their union sparked a war with",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9441121731485639
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.573333333333334,
+      "timestamp_end": 20.895,
+      "audio_content": "culminating in the legendary Battle of",
+      "words_in_segment": 6,
+      "confidence_avg": 0.966705729564031
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 20.895,
+      "timestamp_end": 23.21666666666667,
+      "audio_content": "in 31 BC. Did you know",
+      "words_in_segment": 6,
+      "confidence_avg": 0.980099489291509
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.21666666666667,
+      "timestamp_end": 25.538333333333334,
+      "audio_content": "reign ended in 30 BC leading to",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8065502345561981
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 25.538333333333334,
+      "timestamp_end": 27.86,
+      "audio_content": "annexation by Rome, talk about stakes.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9665092378854752
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.3216666666666668,
+      "audio_content": "Cleopatra wasn't just a seducer, she was",
+      "image_prompt": "Establishing shot of the grand palace of Alexandria at dusk, illuminated by soft golden light. The majestic architecture looms against a darkening sky, with shadows casting dramatic shapes. The atmosphere is filled with tension, foreshadowing the political intrigue within its walls.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9816622932751974,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.3216666666666668,
+      "timestamp_end": 4.6433333333333335,
+      "audio_content": "master strategist. In 48",
+      "image_prompt": "Wide shot of Cleopatra standing on the balcony of her opulent palace, overlooking the Nile at sunset. The scene is illuminated with dramatic chiaroscuro lighting, casting sharp shadows across her determined face as she strategizes her next move amidst the grandeur of ancient Egypt.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.981684684753418,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.6433333333333335,
+      "timestamp_end": 6.965,
+      "audio_content": "she allied with Julius Caesar to secure",
+      "image_prompt": "Wide shot of Cleopatra standing on a balcony overlooking the Nile, her regal attire flowing in the wind. The sun sets dramatically behind her, casting sharp shadows and illuminating her determined expression as she contemplates her alliance with Julius Caesar.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9503426551818848,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.965,
+      "timestamp_end": 9.286666666666667,
+      "audio_content": "throne in Egypt, bearing him a son,",
+      "image_prompt": "Medium shot of Cleopatra in regal attire, seated on her ornate throne, her gaze steady and calculating. Soft chiaroscuro light highlights her features, while shadows loom behind, symbolizing the power struggles of Egypt and her alliances with Caesar and Antony.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.940462453024728,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.286666666666667,
+      "timestamp_end": 11.608333333333334,
+      "audio_content": "Caesarian. Fast forward to",
+      "image_prompt": "Medium shot of Cleopatra, regal and determined, standing in a lavish Egyptian palace. The dramatic chiaroscuro lighting highlights her expressive face as she gazes thoughtfully at a map of alliances, shadows dancing across the ornate walls, symbolizing the weight of her strategic choices.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.8557994142174721,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.608333333333334,
+      "timestamp_end": 13.93,
+      "audio_content": "BC and she captivated Mark",
+      "image_prompt": "Medium shot of Cleopatra, adorned in opulent robes, gazing intently at Mark Antony across a lavish banquet table, tension palpable in the air. Chiaroscuro lighting casts sharp shadows, highlighting her strategic allure, as the backdrop hints at the impending power struggle.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8364282310009002,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.93,
+      "timestamp_end": 16.25166666666667,
+      "audio_content": "not just for love, but to challenge",
+      "image_prompt": "Medium shot of Cleopatra, regal and resolute, standing on a balcony overlooking a vast Roman fleet. The chiaroscuro lighting casts sharp shadows across her determined face, embodying her strategic prowess as she prepares to challenge Rome’s power with Mark Antony by her side.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9916846837316241,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.25166666666667,
+      "timestamp_end": 18.573333333333334,
+      "audio_content": "power. Their union sparked a war with",
+      "image_prompt": "Medium shot of Cleopatra and Mark Antony in an opulent Roman villa, their intense gazes locked. The warm glow of candlelight casts dramatic shadows, highlighting their expressions of ambition and desire. Rich fabrics and intricate decor surround them, symbolizing the stakes of their powerful alliance.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9441121731485639,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.573333333333334,
+      "timestamp_end": 20.895,
+      "audio_content": "culminating in the legendary Battle of",
+      "image_prompt": "Medium shot of Cleopatra and Mark Antony standing on a grand ship, gazing intently at the horizon. The tension of impending war fills the air, with dramatic chiaroscuro lighting highlighting their determined expressions, sharp shadows enhancing the weight of their alliance against Rome.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.966705729564031,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 20.895,
+      "timestamp_end": 23.21666666666667,
+      "audio_content": "in 31 BC. Did you know",
+      "image_prompt": "Medium shot of Cleopatra, regal and poised, standing on a balcony overlooking the Nile. The golden light of sunset casts sharp shadows across her face, revealing her strategic mind. The distant sound of ships prepares for the impending Battle of Actium, heightening the dramatic tension.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.980099489291509,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.21666666666667,
+      "timestamp_end": 25.538333333333334,
+      "audio_content": "reign ended in 30 BC leading to",
+      "image_prompt": "Medium shot of Cleopatra standing on a grand balcony overlooking her kingdom, her expression a mix of determination and sorrow, as shadows cast dramatically across her face, highlighting the weight of her impending fate as Egypt's last pharaoh.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8065502345561981,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 25.538333333333334,
+      "timestamp_end": 27.86,
+      "audio_content": "annexation by Rome, talk about stakes.",
+      "image_prompt": "Medium shot of Cleopatra and Mark Antony in a dimly lit chamber, their faces illuminated by flickering torchlight, exchanging determined glances. The tension of impending war with Rome hangs in the air, shadows dancing on the walls, highlighting the stakes of their alliance.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9665092378854752,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 27.86,
+    "whisper_model": "base"
+  }
+}

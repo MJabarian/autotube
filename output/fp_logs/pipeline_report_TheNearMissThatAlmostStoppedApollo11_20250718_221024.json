@@ -1,0 +1,58 @@
+{
+  "pipeline_info": {
+    "story_title": "TheNearMissThatAlmostStoppedApollo11",
+    "sanitized_title": "TheNearMissThatAlmostStoppedApollo11",
+    "start_time": "2025-07-18T22:05:35.797902",
+    "end_time": "2025-07-18T22:10:24.162630",
+    "total_duration": 288.3647277355194,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1752890735.8029025,
+      "end": 1752890811.0761862,
+      "duration": 75.27328372001648,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1752890811.0771863,
+      "end": 1752891024.1616263,
+      "duration": 213.08443999290466,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\TheNearMissThatAlmostStoppedApollo11\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\TheNearMissThatAlmostStoppedApollo11\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\TheNearMissThatAlmostStoppedApollo11\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\TheNearMissThatAlmostStoppedApollo11\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\TheNearMissThatAlmostStoppedApollo11\\audio_TheNearMissThatAlmostStoppedApollo11.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\TheNearMissThatAlmostStoppedApollo11\\audio_TheNearMissThatAlmostStoppedApollo11_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\TheNearMissThatAlmostStoppedApollo11\\mixed_audio_TheNearMissThatAlmostStoppedApollo11.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TheNearMissThatAlmostStoppedApollo11\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TheNearMissThatAlmostStoppedApollo11\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TheNearMissThatAlmostStoppedApollo11\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TheNearMissThatAlmostStoppedApollo11\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TheNearMissThatAlmostStoppedApollo11\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TheNearMissThatAlmostStoppedApollo11\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TheNearMissThatAlmostStoppedApollo11\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TheNearMissThatAlmostStoppedApollo11\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TheNearMissThatAlmostStoppedApollo11\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TheNearMissThatAlmostStoppedApollo11\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TheNearMissThatAlmostStoppedApollo11\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TheNearMissThatAlmostStoppedApollo11\\image_12.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\videos\\TheNearMissThatAlmostStoppedApollo11_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\subtitles_processed_video\\TheNearMissThatAlmostStoppedApollo11_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

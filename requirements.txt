@@ -1,0 +1,36 @@
+# Core dependencies
+requests==2.31.0
+python-dotenv==1.0.0
+PyYAML==6.0.1
+schedule==1.2.0
+validators==0.22.0
+tqdm==4.66.1
+python-dateutil==2.8.2
+
+# Video processing
+moviepy==1.0.3
+ffmpeg-python==0.2.0
+Pillow==10.0.1
+opencv-python==4.8.1.78
+imageio==2.31.1
+imageio-ffmpeg==0.4.8
+
+# Audio processing
+pydub==0.25.1
+librosa==0.10.1
+soundfile==0.12.1
+numpy==1.24.3
+faster-whisper==0.10.0
+
+# AI APIs
+elevenlabs==0.2.18
+openai==1.12.0
+replicate==0.22.0
+
+# Development tools
+pytest==7.4.0
+pytest-asyncio==0.21.0
+python-dotenv==1.0.0
+pydantic==2.6.4
+PyYAML==6.0.1
+loguru==0.7.2

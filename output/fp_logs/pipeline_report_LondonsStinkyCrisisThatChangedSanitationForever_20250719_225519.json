@@ -1,0 +1,58 @@
+{
+  "pipeline_info": {
+    "story_title": "LondonsStinkyCrisisThatChangedSanitationForever",
+    "sanitized_title": "LondonsStinkyCrisisThatChangedSanitationForever",
+    "start_time": "2025-07-19T22:50:51.425599",
+    "end_time": "2025-07-19T22:55:19.761203",
+    "total_duration": 268.3356046676636,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1752979851.4374888,
+      "end": 1752979915.8699024,
+      "duration": 64.43241357803345,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1752979915.870902,
+      "end": 1752980119.759253,
+      "duration": 203.88835096359253,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\LondonsStinkyCrisisThatChangedSanitationForever\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\LondonsStinkyCrisisThatChangedSanitationForever\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\LondonsStinkyCrisisThatChangedSanitationForever\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\LondonsStinkyCrisisThatChangedSanitationForever\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\LondonsStinkyCrisisThatChangedSanitationForever\\audio_LondonsStinkyCrisisThatChangedSanitationForever.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\LondonsStinkyCrisisThatChangedSanitationForever\\audio_LondonsStinkyCrisisThatChangedSanitationForever_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\LondonsStinkyCrisisThatChangedSanitationForever\\mixed_audio_LondonsStinkyCrisisThatChangedSanitationForever.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\LondonsStinkyCrisisThatChangedSanitationForever\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\LondonsStinkyCrisisThatChangedSanitationForever\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\LondonsStinkyCrisisThatChangedSanitationForever\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\LondonsStinkyCrisisThatChangedSanitationForever\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\LondonsStinkyCrisisThatChangedSanitationForever\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\LondonsStinkyCrisisThatChangedSanitationForever\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\LondonsStinkyCrisisThatChangedSanitationForever\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\LondonsStinkyCrisisThatChangedSanitationForever\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\LondonsStinkyCrisisThatChangedSanitationForever\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\LondonsStinkyCrisisThatChangedSanitationForever\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\LondonsStinkyCrisisThatChangedSanitationForever\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\LondonsStinkyCrisisThatChangedSanitationForever\\image_12.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\videos\\LondonsStinkyCrisisThatChangedSanitationForever_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\subtitles_processed_video\\LondonsStinkyCrisisThatChangedSanitationForever_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

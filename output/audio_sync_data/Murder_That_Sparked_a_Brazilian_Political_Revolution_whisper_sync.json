@@ -1,0 +1,241 @@
+{
+  "story_title": "Murder That Sparked a Brazilian Political Revolution",
+  "original_story": "[dramatic] João Pessoa’s assassination in 1930 was no ordinary crime—it ignited a political firestorm! This influential Brazilian lawmaker was gunned down, leading to whispers of a conspiracy among rival factions. His death didn’t just claim a life; it sparked a coup that reshaped Brazil’s political landscape. Over 300,000 supporters took to the streets, demanding justice and change. The fallout? A regime change that would influence Brazil for decades. How did one man’s murder turn into a nationwide upheaval? [pause:0.5s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.353333333333333,
+      "audio_content": "Zhuang Paso's assassination in 1930",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8016495168209076
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.353333333333333,
+      "timestamp_end": 4.706666666666666,
+      "audio_content": "no ordinary crime. It ignited a",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9961814483006796
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.706666666666666,
+      "timestamp_end": 7.059999999999999,
+      "audio_content": "firestorm. This influential",
+      "words_in_segment": 3,
+      "confidence_avg": 0.7714331050713857
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.059999999999999,
+      "timestamp_end": 9.413333333333332,
+      "audio_content": "lawmaker was gunned down, leading to",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9825568149487177
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.413333333333332,
+      "timestamp_end": 11.766666666666666,
+      "audio_content": "of a conspiracy among rival factions.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.995282381772995
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.766666666666666,
+      "timestamp_end": 14.119999999999997,
+      "audio_content": "His death didn't just claim a life.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9939804545470646
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.119999999999997,
+      "timestamp_end": 16.473333333333333,
+      "audio_content": "sparked a coup that reshaped Brazil's political",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9857270902111417
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.473333333333333,
+      "timestamp_end": 18.826666666666664,
+      "audio_content": "Over 300 ,000",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9691445728143057
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.826666666666664,
+      "timestamp_end": 21.179999999999996,
+      "audio_content": "took to the streets, demanding justice and",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9506575039454869
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.179999999999996,
+      "timestamp_end": 23.53333333333333,
+      "audio_content": "The fallout, a regime change that",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9286975959936777
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.53333333333333,
+      "timestamp_end": 25.886666666666663,
+      "audio_content": "influence Brazil for decades. How did one",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9807576622281756
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 25.886666666666663,
+      "timestamp_end": 28.239999999999995,
+      "audio_content": "murder turn into a nationwide",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9874268054962159
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.353333333333333,
+      "audio_content": "Zhuang Paso's assassination in 1930",
+      "image_prompt": "Medium shot capturing the moment João Pessoa is shot, his face a mix of shock and pain, surrounded by a chaotic blend of startled onlookers, with dramatic chiaroscuro lighting casting sharp shadows, heightening the tension of the scene.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8016495168209076,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.353333333333333,
+      "timestamp_end": 4.706666666666666,
+      "audio_content": "no ordinary crime. It ignited a",
+      "image_prompt": "Wide shot of a bustling 1930s Brazilian street, filled with passionate crowds rallying for justice. Dark, dramatic skies loom overhead, and the air is thick with tension. Figures hold banners and flags, their faces a mixture of determination and grief, illuminated by stark chiaroscuro lighting.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9961814483006796,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.706666666666666,
+      "timestamp_end": 7.059999999999999,
+      "audio_content": "firestorm. This influential",
+      "image_prompt": "Wide shot of a bustling street in 1930s Brazil, filled with thousands of passionate protesters holding banners and flags, their faces a mix of determination and grief, under dramatic chiaroscuro lighting that casts sharp shadows across the scene, capturing the intensity of a nation on the brink of upheaval.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.7714331050713857,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.059999999999999,
+      "timestamp_end": 9.413333333333332,
+      "audio_content": "lawmaker was gunned down, leading to",
+      "image_prompt": "Medium shot of a crowded street in 1930s Brazil, with passionate supporters holding banners, faces filled with determination and grief, dramatic chiaroscuro lighting casting sharp shadows, as a statue of João Pessoa looms in the background, symbolizing the political upheaval.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9825568149487177,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.413333333333332,
+      "timestamp_end": 11.766666666666666,
+      "audio_content": "of a conspiracy among rival factions.",
+      "image_prompt": "Medium shot of a tense gathering of rival faction leaders in a dimly lit room, their faces shadowed but intense, as they exchange conspiratorial glances. The atmosphere is thick with anticipation, a map of Brazil sprawled on the table before them, illuminated by flickering candlelight.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.995282381772995,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.766666666666666,
+      "timestamp_end": 14.119999999999997,
+      "audio_content": "His death didn't just claim a life.",
+      "image_prompt": "Medium shot of a passionate crowd in 1930s Brazil, faces illuminated by dramatic chiaroscuro lighting, expressing anger and determination as they gather in the streets, shadows highlighting their emotional turmoil, with the silhouette of a monument in the background, symbolizing the political upheaval ignited by João Pessoa's assassination.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9939804545470646,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.119999999999997,
+      "timestamp_end": 16.473333333333333,
+      "audio_content": "sparked a coup that reshaped Brazil's political",
+      "image_prompt": "Medium shot of a passionate crowd in the streets of Brazil, faces filled with determination and sorrow, as they raise their fists in solidarity. Dramatic chiaroscuro lighting highlights emotions, casting sharp shadows on the cobblestone streets, capturing the essence of a political upheaval ignited by João Pessoa's assassination.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9857270902111417,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.473333333333333,
+      "timestamp_end": 18.826666666666664,
+      "audio_content": "Over 300 ,000",
+      "image_prompt": "Wide shot of a bustling street in João Pessoa, 1930, filled with over 300,000 passionate supporters holding banners and chanting. The atmosphere is charged with tension as shadows of political turmoil loom, highlighted by dramatic chiaroscuro lighting and intense expressions on the crowd's faces.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9691445728143057,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.826666666666664,
+      "timestamp_end": 21.179999999999996,
+      "audio_content": "took to the streets, demanding justice and",
+      "image_prompt": "Medium shot of passionate protesters filling a crowded street, their faces etched with determination and anger. Dramatic chiaroscuro lighting casts sharp shadows, highlighting their expressive features as they raise their fists in unison, demanding justice for João Pessoa's assassination amidst a tense atmosphere.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9506575039454869,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.179999999999996,
+      "timestamp_end": 23.53333333333333,
+      "audio_content": "The fallout, a regime change that",
+      "image_prompt": "Medium shot of a diverse crowd in the streets of Brazil, faces full of passion and determination, as they hold banners and chant for justice. Dramatic chiaroscuro lighting casts deep shadows, emphasizing the tension in the atmosphere, capturing the pivotal moment of political upheaval.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9286975959936777,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.53333333333333,
+      "timestamp_end": 25.886666666666663,
+      "audio_content": "influence Brazil for decades. How did one",
+      "image_prompt": "Wide shot of a bustling Brazilian street in 1930, filled with thousands of passionate protesters holding flags, faces etched with determination and grief, as dramatic chiaroscuro lighting casts sharp shadows, capturing the tension and fervor in the aftermath of João Pessoa's assassination.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9807576622281756,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 25.886666666666663,
+      "timestamp_end": 28.239999999999995,
+      "audio_content": "murder turn into a nationwide",
+      "image_prompt": "Wide shot of a tumultuous street filled with thousands of protesters, their faces a mix of anger and determination, as shadows loom over the crowd. Dramatic chiaroscuro lighting creates a tense atmosphere, capturing the essence of a nation stirred by the assassination of João Pessoa.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9874268054962159,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 28.239999999999995,
+    "whisper_model": "base"
+  }
+}

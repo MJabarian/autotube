@@ -1,0 +1,241 @@
+{
+  "story_title": "national ice cream day history",
+  "original_story": "[excited] Get this - in 1984, President Reagan declared July as National Ice Cream Month! But wait, there’s more! The third Sunday is the official Ice Cream Day. Why? Turns out, it promotes the delicious treat's historical significance. Ice cream was a luxury for the elite until the 1800s, when it became more accessible. Did you know, Americans consume over 23 gallons of ice cream per person annually? That’s a lot of scoops! So, next time you enjoy a cone, remember its sweet, presidential roots!",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.34,
+      "audio_content": "Get this. In 1984, President",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9410265684127808
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.34,
+      "timestamp_end": 4.68,
+      "audio_content": "declared July as National Ice Cream",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9216465055942535
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.68,
+      "timestamp_end": 7.02,
+      "audio_content": "But wait, there's more. The",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9889536499977112
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.02,
+      "timestamp_end": 9.36,
+      "audio_content": "Sunday is the official ice cream day.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9655114667756217
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.36,
+      "timestamp_end": 11.7,
+      "audio_content": "Turns out it promotes the delicious",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9751820464928945
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.7,
+      "timestamp_end": 14.04,
+      "audio_content": "historical significance. Ice",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9923981030782064
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.04,
+      "timestamp_end": 16.38,
+      "audio_content": "was a luxury for the elite until the",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9930178001523018
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.38,
+      "timestamp_end": 18.72,
+      "audio_content": "when it became more accessible. Did",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9396080374717712
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.72,
+      "timestamp_end": 21.06,
+      "audio_content": "know Americans consume over 23",
+      "words_in_segment": 5,
+      "confidence_avg": 0.973464822769165
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.06,
+      "timestamp_end": 23.4,
+      "audio_content": "of ice cream per person annually?",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9937322537104288
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.4,
+      "timestamp_end": 25.74,
+      "audio_content": "a lot of scoops. So, next time you",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9954332013924916
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 25.74,
+      "timestamp_end": 28.08,
+      "audio_content": "a cone, remember its sweet presidential roots.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9452280913080487
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.34,
+      "audio_content": "Get this. In 1984, President",
+      "image_prompt": "Wide shot of a bustling 1980s ice cream parlor, colorful neon lights reflecting off shiny surfaces, people enjoying ice cream cones with joyful expressions, soft sunlight streaming through the windows, capturing the essence of summer and the excitement of National Ice Cream Month.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9410265684127808,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.34,
+      "timestamp_end": 4.68,
+      "audio_content": "declared July as National Ice Cream",
+      "image_prompt": "Wide shot of a vintage ice cream parlor bustling with families enjoying ice cream cones on a sunny July day, with a banner celebrating National Ice Cream Month. The scene captures joyful faces, vibrant colors, and a rich historical ambiance, illuminated by soft, warm lighting.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9216465055942535,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.68,
+      "timestamp_end": 7.02,
+      "audio_content": "But wait, there's more. The",
+      "image_prompt": "Medium shot of a vintage ice cream parlor bustling with families. A smiling server scoops colorful ice cream into cones while children eagerly watch. Sunlight filters through large windows, casting playful shadows on the cheerful scene, highlighting the joy and historical significance of the treat.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9889536499977112,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.02,
+      "timestamp_end": 9.36,
+      "audio_content": "Sunday is the official ice cream day.",
+      "image_prompt": "Medium shot of a joyful family enjoying ice cream cones on a sunny July afternoon. Their faces radiate happiness as they savor the delicious treat, with colorful ice cream trucks in the background and vibrant summer greenery surrounding them.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9655114667756217,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.36,
+      "timestamp_end": 11.7,
+      "audio_content": "Turns out it promotes the delicious",
+      "image_prompt": "Medium shot of a cheerful family gathered around a table piled high with ice cream cones and bowls, their faces filled with joy and laughter. Soft, warm lighting highlights the colorful ice cream, creating a nostalgic atmosphere, while shadows dance playfully across the table.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9751820464928945,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.7,
+      "timestamp_end": 14.04,
+      "audio_content": "historical significance. Ice",
+      "image_prompt": "Medium shot of a vibrant ice cream parlor bustling with families enjoying their cones, juxtaposed with a vintage scene of 1800s high society indulging in ice cream, illuminated by warm chiaroscuro lighting, capturing the joyful essence of ice cream's evolution through time.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9923981030782064,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.04,
+      "timestamp_end": 16.38,
+      "audio_content": "was a luxury for the elite until the",
+      "image_prompt": "Medium shot of a lavish 18th-century banquet scene, with elegant guests savoring ice cream from ornate bowls. The room is adorned with opulent decor, dramatic chiaroscuro lighting casting sharp shadows, highlighting the expressions of delight on the guests' faces as they indulge in this once-elite treat.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9930178001523018,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.38,
+      "timestamp_end": 18.72,
+      "audio_content": "when it became more accessible. Did",
+      "image_prompt": "Medium shot of a bustling 1800s ice cream parlor, showcasing a diverse group of patrons enjoying scoops of ice cream. The scene is filled with vibrant colors, dramatic chiaroscuro lighting highlighting joyful faces, and expressive interactions as they savor this once-luxurious treat.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9396080374717712,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 18.72,
+      "timestamp_end": 21.06,
+      "audio_content": "know Americans consume over 23",
+      "image_prompt": "Medium shot of a joyful family gathered around an ice cream truck on a sunny day, laughter filling the air. Children eagerly hold colorful cones, their faces lit with excitement. Soft shadows play across the scene as the sun sets, capturing the nostalgic essence of summer treats.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.973464822769165,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.06,
+      "timestamp_end": 23.4,
+      "audio_content": "of ice cream per person annually?",
+      "image_prompt": "Medium shot of a joyful family at an ice cream parlor, smiling as they scoop generous servings of colorful ice cream into cones. The warm summer sun casts playful shadows, highlighting their excitement and the rich history of ice cream in America.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9937322537104288,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 23.4,
+      "timestamp_end": 25.74,
+      "audio_content": "a lot of scoops. So, next time you",
+      "image_prompt": "Medium shot of a joyful family gathered around a picnic table, surrounded by colorful ice cream cones and bowls. The sun casts playful shadows, highlighting their delighted expressions as they scoop ice cream, evoking a sense of nostalgia and celebration of National Ice Cream Month.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9954332013924916,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 25.74,
+      "timestamp_end": 28.08,
+      "audio_content": "a cone, remember its sweet presidential roots.",
+      "image_prompt": "Medium shot of a joyful family enjoying ice cream cones on a sunny July day, their faces illuminated by soft sunlight. Background features a bustling ice cream parlor with vintage decor, hinting at the rich history of the treat. Rich shadows create a nostalgic atmosphere.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9452280913080487,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 28.08,
+    "whisper_model": "base"
+  }
+}

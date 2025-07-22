@@ -1,0 +1,241 @@
+{
+  "story_title": "When the Moon was Home to Strange Creatures",
+  "original_story": "[excited] You won't believe this—back in 1835, the New York Sun ran a series claiming we found life on the Moon! These wild articles described bizarre lunar creatures like bat-like beavers and giant blue bipedal beings. The writer, Richard Adams Locke, had everyone convinced this was real, and it sparked a frenzy of excitement. People were captivated! Over 100,000 copies flew off the shelves, proving how easily the public could be mesmerized by a good story. But here’s the kicker: it was all a hoax! What if we’re still falling for it today? [pause:0.5s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.566666666666667,
+      "audio_content": "You won't believe this. Back in 1835,",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9423402931009021
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.566666666666667,
+      "timestamp_end": 5.133333333333334,
+      "audio_content": "the New York Sun ran a series claiming we found",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9300419628620148
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.133333333333334,
+      "timestamp_end": 7.700000000000001,
+      "audio_content": "on the moon. These wild articles",
+      "words_in_segment": 6,
+      "confidence_avg": 0.933721254269282
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.700000000000001,
+      "timestamp_end": 10.266666666666667,
+      "audio_content": "bizarre lunar creatures like bat -like",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9388365944226583
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.266666666666667,
+      "timestamp_end": 12.833333333333334,
+      "audio_content": "and giant blue -by -pedal beings.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8737896064089404
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.833333333333334,
+      "timestamp_end": 15.400000000000002,
+      "audio_content": "The writer, Richard Adam's lock, had everyone",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8935690181595939
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 15.400000000000002,
+      "timestamp_end": 17.96666666666667,
+      "audio_content": "this was real, and it sparked a",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9890545010566711
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.96666666666667,
+      "timestamp_end": 20.533333333333335,
+      "audio_content": "of excitement. People were captivated. Over",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9948572466770808
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 20.533333333333335,
+      "timestamp_end": 23.1,
+      "audio_content": ",000 copies flew off the shelves,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9947832177082697
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 23.1,
+      "timestamp_end": 25.666666666666668,
+      "audio_content": "proving how easily the public could be",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9976196118763515
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 25.666666666666668,
+      "timestamp_end": 28.233333333333334,
+      "audio_content": "by a good story. But here's the kicker. It was",
+      "words_in_segment": 10,
+      "confidence_avg": 0.991139879822731
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 28.233333333333334,
+      "timestamp_end": 30.800000000000004,
+      "audio_content": "a hoax. What if we're still falling for it today?",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9232479393482208
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.566666666666667,
+      "audio_content": "You won't believe this. Back in 1835,",
+      "image_prompt": "Establishing shot of 1830s New York City bustling with excitement. The streets are filled with captivated crowds, eyes wide with wonder, as they gather around newsstands displaying sensational headlines. Dramatic chiaroscuro lighting casts sharp shadows, enhancing the atmosphere of intrigue and anticipation.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9423402931009021,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.566666666666667,
+      "timestamp_end": 5.133333333333334,
+      "audio_content": "the New York Sun ran a series claiming we found",
+      "image_prompt": "Wide shot of a bustling 1830s New York street, with excited crowds gathered outside the New York Sun office, banners fluttering in the wind, and people animatedly discussing the lunar discoveries, their faces lit by the glow of gas lamps, casting dramatic shadows.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9300419628620148,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.133333333333334,
+      "timestamp_end": 7.700000000000001,
+      "audio_content": "on the moon. These wild articles",
+      "image_prompt": "Wide shot of a bustling 1830s New York City street, with excited crowds gathered around a newsstand, their faces illuminated by the warm glow of gas lamps, as a newspaper featuring sensational headlines about lunar creatures captures their imagination. Dramatic chiaroscuro lighting enhances the scene.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.933721254269282,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.700000000000001,
+      "timestamp_end": 10.266666666666667,
+      "audio_content": "bizarre lunar creatures like bat -like",
+      "image_prompt": "Medium shot of a bustling 1830s newspaper office, with excited journalists animatedly discussing bizarre lunar creatures. Shadows cast dramatically across their faces, highlighting their expressions of wonder and disbelief, while stacks of newspapers displaying the sensational headlines loom in the background.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9388365944226583,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.266666666666667,
+      "timestamp_end": 12.833333333333334,
+      "audio_content": "and giant blue -by -pedal beings.",
+      "image_prompt": "Medium shot of an excited crowd in 1835 New York, faces illuminated by torchlight as they gather around a newspaper stand. The vendor holds up a sensational headline about lunar creatures, captured in dramatic chiaroscuro lighting, showcasing their awe and disbelief.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8737896064089404,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.833333333333334,
+      "timestamp_end": 15.400000000000002,
+      "audio_content": "The writer, Richard Adam's lock, had everyone",
+      "image_prompt": "Medium shot of an excited crowd gathered outside the New York Sun office in 1835, faces illuminated by gaslight, expressions of wonder and disbelief. In the background, a vendor sells newspapers with bold headlines about life on the Moon, casting sharp shadows that enhance the dramatic atmosphere.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8935690181595939,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 15.400000000000002,
+      "timestamp_end": 17.96666666666667,
+      "audio_content": "this was real, and it sparked a",
+      "image_prompt": "Medium shot of a bustling 1830s New York street, with excited citizens gathered around a newspaper vendor, eyes wide with wonder. Dramatic chiaroscuro lighting casts sharp shadows, highlighting their astonished faces as they eagerly discuss the fantastical claims of life on the Moon.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9890545010566711,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.96666666666667,
+      "timestamp_end": 20.533333333333335,
+      "audio_content": "of excitement. People were captivated. Over",
+      "image_prompt": "Medium shot of a diverse group of 1830s New Yorkers, their faces illuminated with awe and excitement as they gather around a newsstand, the vibrant colors of the newspaper contrasting with their expressions of disbelief, sharp shadows enhancing the moment's intensity.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9948572466770808,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 20.533333333333335,
+      "timestamp_end": 23.1,
+      "audio_content": ",000 copies flew off the shelves,",
+      "image_prompt": "Medium shot of a crowded 1830s bookstore, patrons eagerly purchasing newspapers as the excitement of the Moon discovery fills the air. Expressions of astonishment and curiosity on their faces, with dramatic chiaroscuro lighting illuminating the scene, casting sharp shadows across the bustling atmosphere.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9947832177082697,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 23.1,
+      "timestamp_end": 25.666666666666668,
+      "audio_content": "proving how easily the public could be",
+      "image_prompt": "Medium shot of a bustling 1835 New York City street, with excited citizens gathered around a newspaper stand, faces lit with awe and curiosity. Dramatic chiaroscuro lighting highlights their expressions as they clutch freshly printed copies of the New York Sun, igniting a frenzy of excitement and disbelief.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9976196118763515,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 25.666666666666668,
+      "timestamp_end": 28.233333333333334,
+      "audio_content": "by a good story. But here's the kicker. It was",
+      "image_prompt": "Medium shot of a bustling 1835 New York street filled with excited townsfolk gathered around a newsstand, their faces lit with awe and disbelief, as a vendor passionately shares the latest sensational story about life on the Moon, dramatic chiaroscuro lighting highlighting their expressions.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.991139879822731,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 28.233333333333334,
+      "timestamp_end": 30.800000000000004,
+      "audio_content": "a hoax. What if we're still falling for it today?",
+      "image_prompt": "Medium shot of a lively 19th-century newspaper office, with excited journalists passionately discussing bizarre lunar creatures. Expressions of awe and disbelief on their faces, dramatic chiaroscuro lighting casting sharp shadows, capturing the frenzy of imagination and the allure of a captivating hoax.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9232479393482208,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 30.800000000000004,
+    "whisper_model": "base"
+  }
+}

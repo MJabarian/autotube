@@ -1,0 +1,357 @@
+2025-07-19 19:18:21,420 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-19 19:18:21,420 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250719_191821.log
+2025-07-19 19:18:21,421 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-19 19:18:21,421 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 19:18:21,422 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 19:18:21,432 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 19:18:22,696 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:18:26,023 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:18:26,375 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:18:26,395 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Last Stand of the Sicilian Knights  
+**Summary:** In 1282, during the Sicilian Vespers, a bloody revolt against French rule erupted, culminating in a desperate last stand by the island's knights against overwhelming forces, forever altering the political landscape of Sicily.
+2025-07-19 19:18:26,395 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheLastStandoftheSicilianKnightsSummaryIn1282_content_gen_2025-07-19_19-18-26.log
+2025-07-19 19:18:26,395 - autotube.content_gen - INFO - 📁 Sanitized folder name: SicilianKnightsLastStandABloodyRevolt
+2025-07-19 19:18:26,395 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 91 words
+2025-07-19 19:18:26,408 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SicilianKnightsLastStandABloodyRevolt\story.json (1,200 bytes)
+2025-07-19 19:18:26,409 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SicilianKnightsLastStandABloodyRevolt\topic.txt (291 bytes)
+2025-07-19 19:18:26,409 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SicilianKnightsLastStandABloodyRevolt\metadata.json (629 bytes)
+2025-07-19 19:18:26,410 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SicilianKnightsLastStandABloodyRevolt\story.txt (1,120 bytes)
+2025-07-19 19:18:26,411 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\SicilianKnightsLastStandABloodyRevolt
+2025-07-19 19:18:35,519 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SicilianKnightsLastStandABloodyRevolt\audio_SicilianKnightsLastStandABloodyRevolt.mp3 (572,649 bytes)
+2025-07-19 19:18:35,605 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 35.79s duration
+2025-07-19 19:18:36,570 - autotube.content_gen - INFO - ✅ Audio speed adjustment: 1.15x, new duration: 31.27s
+2025-07-19 19:18:36,570 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SicilianKnightsLastStandABloodyRevolt\audio_SicilianKnightsLastStandABloodyRevolt_sped_up.mp3 (572,649 bytes, 31.27s)
+2025-07-19 19:18:36,571 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-19 19:18:36,571 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-19 19:18:36,572 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SicilianKnightsLastStandABloodyRevolt\audio_SicilianKnightsLastStandABloodyRevolt_sped_up.mp3
+2025-07-19 19:18:36,572 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-19 19:18:37,358 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-19 19:18:37,466 - faster_whisper - INFO - Processing audio with duration 00:31.233
+2025-07-19 19:18:38,125 - faster_whisper - INFO - Detected language 'en' with probability 0.99
+2025-07-19 19:18:43,872 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 30.80s
+2025-07-19 19:18:43,873 - whisper_audio_synchronizer - INFO - 📝 Extracted 92 words with timestamps
+2025-07-19 19:18:43,874 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 30.80s, Image duration: 2.57s
+2025-07-19 19:18:43,875 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-19 19:18:43,876 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-19 19:18:45,617 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:18:45,619 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (character_action/medium_shot): Medium shot of a fierce Sicilian knight, face cont...
+2025-07-19 19:18:47,074 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:18:47,075 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of the chaotic Sicilian landscape in 128...
+2025-07-19 19:18:48,533 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:18:48,535 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of the tumultuous Sicilian landscape, wh...
+2025-07-19 19:18:50,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:18:50,112 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (character_action/medium_shot): Medium shot of fierce knights, faces twisted in de...
+2025-07-19 19:18:51,458 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:18:51,459 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (character_action/medium_shot): Medium shot of fierce knights, faces illuminated b...
+2025-07-19 19:18:52,870 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:18:52,872 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (character_action/medium_shot): Medium shot of a fierce knight in battered armor, ...
+2025-07-19 19:18:54,207 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:18:54,208 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (character_action/medium_shot): Medium shot of a group of fierce Sicilian knights,...
+2025-07-19 19:18:55,662 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:18:55,663 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (character_action/medium_shot): Medium shot of valiant knights, faces etched with ...
+2025-07-19 19:18:57,005 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:18:57,006 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (emotional_moment/close_up): Close-up of a knight’s face, eyes filled with dete...
+2025-07-19 19:18:58,461 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:18:58,467 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/wide_shot): Wide shot of a chaotic battlefield in Sicily, 1282...
+2025-07-19 19:18:59,913 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:18:59,914 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/wide_shot): Wide shot of a chaotic battlefield in Sicily, with...
+2025-07-19 19:19:01,234 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 19:19:01,235 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/wide_shot): Wide shot of a chaotic battlefield on a small Sici...
+2025-07-19 19:19:01,236 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Sicilian_Knights_Last_Stand_A_Bloody_Revolt_whisper_sync.json
+2025-07-19 19:19:01,237 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-19 19:19:01,237 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-19 19:19:01,238 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-19 19:19:01,238 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-19 19:19:01,245 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Intense\cinematic-epic-percussion-trailer-122098.mp3 (1,281,462 bytes)
+2025-07-19 19:19:01,246 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\SicilianKnightsLastStandABloodyRevolt\music_selection.json (363 bytes)
+2025-07-19 19:19:01,246 - autotube.content_gen - INFO - ✅ Music selected: cinematic-epic-percussion-trailer-122098.mp3
+2025-07-19 19:19:01,247 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-19 19:19:01,248 - src.replicate_image_generator - INFO - Generating images for story: Sicilian Knights' Last Stand: A Bloody Revolt
+2025-07-19 19:19:01,248 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-19 19:19:01,248 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-19 19:19:01,248 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-19 19:19:02,269 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 19:19:03,931 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 19:19:05,436 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 19:19:06,914 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 19:19:08,387 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 19:19:09,858 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 19:19:11,404 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 19:19:12,905 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 19:19:14,418 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 19:19:15,942 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 19:19:17,448 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 19:19:18,913 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 19:19:19,757 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-19 19:19:19,757 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-19 19:19:19,759 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-19 19:19:19,760 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-19 19:19:19,762 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-19 19:19:19,762 - autotube.content_gen - INFO - 📊 Total time: 58.33s, Cost: $0.0360
+2025-07-19 19:19:19,762 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Last Stand of the Sicilian Knights  
+**Summary:** In 1282, during the Sicilian Vespers, a bloody revolt against French rule erupted, culminating in a desperate last stand by the island's knights against overwhelming forces, forever altering the political landscape of Sicily.
+2025-07-19 19:19:19,784 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (58.35s)
+2025-07-19 19:19:19,784 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-19 19:19:19,784 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-19 19:19:19,785 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: SicilianKnightsLastStandABloodyRevolt
+2025-07-19 19:19:19,785 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: SicilianKnightsLastStandABloodyRevolt
+2025-07-19 19:19:19,785 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SicilianKnightsLastStandABloodyRevolt\audio_SicilianKnightsLastStandABloodyRevolt_sped_up.mp3
+2025-07-19 19:19:19,786 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\SicilianKnightsLastStandABloodyRevolt\music_selection.json
+2025-07-19 19:19:19,792 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Intense\cinematic-epic-percussion-trailer-122098.mp3
+2025-07-19 19:19:19,804 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-19 19:19:19,804 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\SicilianKnightsLastStandABloodyRevolt\audio_SicilianKnightsLastStandABloodyRevolt_sped_up.mp3
+2025-07-19 19:19:19,876 - src.audio_mixer - INFO - Loaded audio: 31233ms (31.233s), 44100Hz, 2 channels
+2025-07-19 19:19:19,876 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Intense\cinematic-epic-percussion-trailer-122098.mp3
+2025-07-19 19:19:19,995 - src.audio_mixer - INFO - Loaded audio: 40046ms (40.046s), 44100Hz, 2 channels
+2025-07-19 19:19:19,996 - src.audio_mixer - INFO - Voice duration: 31233ms
+2025-07-19 19:19:19,996 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-19 19:19:19,996 - src.audio_mixer - INFO - Target duration: 31233ms
+2025-07-19 19:19:19,996 - src.audio_mixer - INFO - Trimmed music from 31233ms to 31233ms
+2025-07-19 19:19:19,997 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-19 19:19:20,017 - src.audio_mixer - INFO - Voice adjusted by 9.7dB, Music by -5.8dB
+2025-07-19 19:19:20,025 - src.audio_mixer - INFO - Added 500ms fade-out to prevent end artifacts
+2025-07-19 19:19:20,034 - src.audio_mixer - INFO - ✅ Exact duration match: 31233ms
+2025-07-19 19:19:20,034 - src.audio_mixer - INFO - Audio mixing completed: 31233ms
+2025-07-19 19:19:20,446 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\SicilianKnightsLastStandABloodyRevolt\mixed_audio_SicilianKnightsLastStandABloodyRevolt.mp3
+2025-07-19 19:19:20,450 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\SicilianKnightsLastStandABloodyRevolt\mixed_audio_SicilianKnightsLastStandABloodyRevolt.mp3
+2025-07-19 19:19:20,450 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 928,389 bytes (0.9 MB)
+2025-07-19 19:19:20,451 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: SicilianKnightsLastStandABloodyRevolt
+2025-07-19 19:19:20,451 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-19 19:19:20,451 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-19 19:19:20,451 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: SicilianKnightsLastStandABloodyRevolt
+2025-07-19 19:19:20,584 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-19 19:19:20,585 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-19 19:19:20,585 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.80 seconds per image
+2025-07-19 19:19:20,585 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SicilianKnightsLastStandABloodyRevolt_kenburns.mp4
+2025-07-19 19:19:20,586 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['zoom_in', 'pan_right', 'zoom_in', 'pan_right', 'pan_left']...
+2025-07-19 19:19:20,586 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-19 19:19:20,586 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 19:19:20,606 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-19 19:19:20,606 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 19:19:20,623 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-19 19:19:20,623 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 19:19:20,637 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-19 19:19:20,637 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 19:19:20,665 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-19 19:19:20,667 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 19:19:20,693 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-19 19:19:20,694 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-19 19:19:20,719 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-19 19:19:20,720 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 19:19:20,746 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-19 19:19:20,746 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 19:19:20,778 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-19 19:19:20,779 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-19 19:19:20,809 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-19 19:19:20,809 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 19:19:20,847 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-19 19:19:20,847 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-19 19:19:20,879 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-19 19:19:20,880 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 19:19:20,908 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-19 19:19:20,949 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-19 19:19:21,033 - autotube.full_pipeline - INFO - 📹 Video duration: 33.620s
+2025-07-19 19:19:21,034 - autotube.full_pipeline - INFO - 🎵 Audio duration: 33.620s
+2025-07-19 19:19:21,034 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 33.620s
+2025-07-19 19:19:21,035 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SicilianKnightsLastStandABloodyRevolt_kenburns.mp4
+2025-07-19 19:20:28,757 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-19 19:20:28,758 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-19 19:20:28,758 - autotube.full_pipeline - INFO - ✅ Video duration: 33.63 seconds
+2025-07-19 19:20:28,759 - autotube.full_pipeline - INFO - ✅ Video file size: 9.0 MB
+2025-07-19 19:20:28,759 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-19 19:20:28,789 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SicilianKnightsLastStandABloodyRevolt_kenburns.mp4
+2025-07-19 19:20:28,790 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-19 19:20:28,791 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SicilianKnightsLastStandABloodyRevolt_kenburns.mp4
+2025-07-19 19:20:28,791 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-19 19:20:28,792 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-19 19:20:28,793 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-19 19:20:28,794 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-19 19:20:30,947 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-19 19:20:30,948 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-19 19:20:30,949 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-19 19:20:31,237 - faster_whisper - INFO - Processing audio with duration 00:31.269
+2025-07-19 19:20:35,678 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-19 19:20:55,265 - autotube.full_pipeline - INFO - Extracted 92 words with timing
+2025-07-19 19:20:55,266 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 24.32s
+2025-07-19 19:20:55,808 - autotube.full_pipeline - INFO - Video loading took 0.54s
+2025-07-19 19:20:55,808 - autotube.full_pipeline - INFO - Original video - Duration: 33.63s, FPS: 30.0, Audio: True
+2025-07-19 19:20:55,809 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 92 words...
+2025-07-19 19:20:55,809 - autotube.full_pipeline - INFO - Group 1: 4 words (22 chars), 0.00s - 0.88s
+2025-07-19 19:20:55,810 - autotube.full_pipeline - INFO - Group 2: 3 words (18 chars), 0.86s - 1.70s
+2025-07-19 19:20:55,810 - autotube.full_pipeline - INFO - Group 3: 4 words (21 chars), 1.68s - 2.62s
+2025-07-19 19:20:55,811 - autotube.full_pipeline - INFO - Group 4: 3 words (15 chars), 2.60s - 3.86s
+2025-07-19 19:20:55,811 - autotube.full_pipeline - INFO - Group 5: 3 words (19 chars), 3.84s - 5.34s
+2025-07-19 19:20:55,811 - autotube.full_pipeline - INFO - Group 6: 3 words (24 chars), 5.32s - 6.46s
+2025-07-19 19:20:55,812 - autotube.full_pipeline - INFO - Group 7: 3 words (22 chars), 6.44s - 7.62s
+2025-07-19 19:20:55,812 - autotube.full_pipeline - INFO - Group 8: 3 words (23 chars), 7.60s - 9.20s
+2025-07-19 19:20:55,813 - autotube.full_pipeline - INFO - Group 9: 3 words (15 chars), 9.18s - 10.30s
+2025-07-19 19:20:55,814 - autotube.full_pipeline - INFO - Group 10: 4 words (25 chars), 10.28s - 11.70s
+2025-07-19 19:20:55,815 - autotube.full_pipeline - INFO - Group 11: 3 words (18 chars), 11.68s - 12.50s
+2025-07-19 19:20:55,817 - autotube.full_pipeline - INFO - Group 12: 3 words (23 chars), 12.48s - 13.70s
+2025-07-19 19:20:55,819 - autotube.full_pipeline - INFO - Group 13: 3 words (14 chars), 14.16s - 15.02s
+2025-07-19 19:20:55,821 - autotube.full_pipeline - INFO - Group 14: 4 words (24 chars), 15.00s - 16.42s
+2025-07-19 19:20:55,821 - autotube.full_pipeline - INFO - Group 15: 3 words (21 chars), 16.40s - 17.52s
+2025-07-19 19:20:55,822 - autotube.full_pipeline - INFO - Group 16: 3 words (16 chars), 17.80s - 18.32s
+2025-07-19 19:20:55,824 - autotube.full_pipeline - INFO - Group 17: 3 words (19 chars), 18.30s - 19.12s
+2025-07-19 19:20:55,824 - autotube.full_pipeline - INFO - Group 18: 3 words (22 chars), 19.60s - 20.48s
+2025-07-19 19:20:55,825 - autotube.full_pipeline - INFO - Group 19: 3 words (21 chars), 20.70s - 21.64s
+2025-07-19 19:20:55,825 - autotube.full_pipeline - INFO - Group 20: 3 words (17 chars), 21.92s - 22.56s
+2025-07-19 19:20:55,826 - autotube.full_pipeline - INFO - Group 21: 3 words (24 chars), 22.54s - 23.80s
+2025-07-19 19:20:55,828 - autotube.full_pipeline - INFO - Group 22: 3 words (20 chars), 23.78s - 25.00s
+2025-07-19 19:20:55,828 - autotube.full_pipeline - INFO - Group 23: 3 words (19 chars), 24.98s - 25.70s
+2025-07-19 19:20:55,830 - autotube.full_pipeline - INFO - Group 24: 3 words (14 chars), 25.68s - 26.58s
+2025-07-19 19:20:55,830 - autotube.full_pipeline - INFO - Group 25: 3 words (25 chars), 26.56s - 27.58s
+2025-07-19 19:20:55,830 - autotube.full_pipeline - INFO - Group 26: 3 words (17 chars), 27.56s - 28.62s
+2025-07-19 19:20:55,830 - autotube.full_pipeline - INFO - Group 27: 3 words (13 chars), 28.60s - 29.18s
+2025-07-19 19:20:55,831 - autotube.full_pipeline - INFO - Group 28: 3 words (17 chars), 29.16s - 30.04s
+2025-07-19 19:20:55,831 - autotube.full_pipeline - INFO - Group 29: 4 words (21 chars), 30.02s - 30.82s
+2025-07-19 19:20:55,831 - autotube.full_pipeline - INFO - Created 29 word groups with smart length limiting
+2025-07-19 19:20:55,832 - autotube.full_pipeline - INFO - Creating clips for group 1: 4 words
+2025-07-19 19:20:58,324 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.24s
+2025-07-19 19:21:01,790 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.20s - 0.40s
+2025-07-19 19:21:05,986 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.36s - 0.66s
+2025-07-19 19:21:10,147 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 1: 0.62s - 0.81s
+2025-07-19 19:21:10,147 - autotube.full_pipeline - INFO - Created clips for 1/29 word groups - ETA: 14s
+2025-07-19 19:21:10,148 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-19 19:21:12,438 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 0.86s - 1.02s
+2025-07-19 19:21:14,801 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 0.98s - 1.24s
+2025-07-19 19:21:17,515 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 1.20s - 1.63s
+2025-07-19 19:21:17,517 - autotube.full_pipeline - INFO - Creating clips for group 3: 4 words
+2025-07-19 19:21:20,188 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 1.68s - 2.04s
+2025-07-19 19:21:22,137 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 2.00s - 2.26s
+2025-07-19 19:21:23,629 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 2.22s - 2.42s
+2025-07-19 19:21:25,072 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 3: 2.38s - 2.55s
+2025-07-19 19:21:25,073 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-19 19:21:25,959 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 2.60s - 2.98s
+2025-07-19 19:21:26,758 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 2.94s - 3.72s
+2025-07-19 19:21:27,615 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 3.68s - 3.79s
+2025-07-19 19:21:27,615 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-19 19:21:28,720 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 3.84s - 4.86s
+2025-07-19 19:21:29,727 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 4.82s - 4.92s
+2025-07-19 19:21:30,779 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 4.88s - 5.27s
+2025-07-19 19:21:30,780 - autotube.full_pipeline - INFO - Creating clips for group 6: 3 words
+2025-07-19 19:21:32,371 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 5.32s - 5.82s
+2025-07-19 19:21:33,752 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 5.78s - 6.20s
+2025-07-19 19:21:35,068 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 6.16s - 6.39s
+2025-07-19 19:21:35,069 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-19 19:21:36,351 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 6.44s - 6.76s
+2025-07-19 19:21:37,597 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 6.72s - 7.32s
+2025-07-19 19:21:38,660 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 7.28s - 7.55s
+2025-07-19 19:21:38,660 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-19 19:21:39,578 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 7.60s - 8.46s
+2025-07-19 19:21:40,474 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 8.42s - 9.04s
+2025-07-19 19:21:41,346 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 9.00s - 9.13s
+2025-07-19 19:21:41,346 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-19 19:21:41,999 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 9.18s - 9.44s
+2025-07-19 19:21:42,699 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 9.40s - 10.08s
+2025-07-19 19:21:43,360 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 10.04s - 10.23s
+2025-07-19 19:21:43,360 - autotube.full_pipeline - INFO - Creating clips for group 10: 4 words
+2025-07-19 19:21:44,479 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 10.28s - 10.86s
+2025-07-19 19:21:45,583 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 10.82s - 11.38s
+2025-07-19 19:21:46,698 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 11.34s - 11.58s
+2025-07-19 19:21:48,554 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 10: 11.54s - 11.63s
+2025-07-19 19:21:48,554 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-19 19:21:50,044 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 11.68s - 12.00s
+2025-07-19 19:21:51,462 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 11.96s - 12.30s
+2025-07-19 19:21:52,866 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 12.26s - 12.43s
+2025-07-19 19:21:52,866 - autotube.full_pipeline - INFO - Created clips for 11/29 word groups - ETA: 57s
+2025-07-19 19:21:52,867 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-19 19:21:54,569 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 12.48s - 13.20s
+2025-07-19 19:21:56,186 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 13.16s - 13.42s
+2025-07-19 19:21:57,866 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 13.38s - 14.00s
+2025-07-19 19:21:57,867 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-19 19:21:59,090 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 14.16s - 14.42s
+2025-07-19 19:22:00,397 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 14.38s - 14.82s
+2025-07-19 19:22:01,907 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 14.78s - 14.95s
+2025-07-19 19:22:01,907 - autotube.full_pipeline - INFO - Creating clips for group 14: 4 words
+2025-07-19 19:22:04,360 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 15.00s - 15.56s
+2025-07-19 19:22:07,102 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 15.52s - 15.88s
+2025-07-19 19:22:10,216 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 15.84s - 16.14s
+2025-07-19 19:22:12,126 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 14: 16.10s - 16.35s
+2025-07-19 19:22:12,127 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-19 19:22:13,626 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 16.40s - 16.84s
+2025-07-19 19:22:15,280 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 16.80s - 17.02s
+2025-07-19 19:22:17,009 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 16.98s - 17.75s
+2025-07-19 19:22:17,010 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-19 19:22:18,812 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 17.80s - 17.96s
+2025-07-19 19:22:20,220 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 17.92s - 18.08s
+2025-07-19 19:22:21,651 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 18.04s - 18.25s
+2025-07-19 19:22:21,652 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-19 19:22:23,323 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 18.30s - 18.62s
+2025-07-19 19:22:24,888 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 18.58s - 18.80s
+2025-07-19 19:22:26,586 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 18.76s - 19.42s
+2025-07-19 19:22:26,587 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-19 19:22:28,281 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 19.60s - 19.76s
+2025-07-19 19:22:29,963 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 19.72s - 20.02s
+2025-07-19 19:22:31,720 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 19.98s - 20.65s
+2025-07-19 19:22:31,721 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-19 19:22:33,448 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 20.70s - 20.82s
+2025-07-19 19:22:35,007 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 20.78s - 21.16s
+2025-07-19 19:22:36,729 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 21.12s - 21.87s
+2025-07-19 19:22:36,730 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-19 19:22:38,132 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 21.92s - 22.14s
+2025-07-19 19:22:39,477 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 22.10s - 22.34s
+2025-07-19 19:22:40,950 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 22.30s - 22.49s
+2025-07-19 19:22:40,950 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-19 19:22:42,886 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 22.54s - 23.00s
+2025-07-19 19:22:45,199 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 22.96s - 23.34s
+2025-07-19 19:22:47,680 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 23.30s - 23.73s
+2025-07-19 19:22:47,680 - autotube.full_pipeline - INFO - Created clips for 21/29 word groups - ETA: 112s
+2025-07-19 19:22:47,681 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-19 19:22:49,526 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 23.78s - 24.58s
+2025-07-19 19:22:51,377 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 24.54s - 24.76s
+2025-07-19 19:22:53,025 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 24.72s - 24.93s
+2025-07-19 19:22:53,026 - autotube.full_pipeline - INFO - Creating clips for group 23: 3 words
+2025-07-19 19:22:54,304 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 24.98s - 25.26s
+2025-07-19 19:22:55,323 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 25.22s - 25.44s
+2025-07-19 19:22:56,476 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 25.40s - 25.63s
+2025-07-19 19:22:56,477 - autotube.full_pipeline - INFO - Creating clips for group 24: 3 words
+2025-07-19 19:22:57,325 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 25.68s - 25.82s
+2025-07-19 19:22:58,103 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 25.78s - 26.44s
+2025-07-19 19:22:58,824 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 26.40s - 26.51s
+2025-07-19 19:22:58,825 - autotube.full_pipeline - INFO - Creating clips for group 25: 3 words
+2025-07-19 19:23:01,376 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 26.56s - 26.84s
+2025-07-19 19:23:04,170 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 26.80s - 27.34s
+2025-07-19 19:23:06,153 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 27.30s - 27.51s
+2025-07-19 19:23:06,154 - autotube.full_pipeline - INFO - Creating clips for group 26: 3 words
+2025-07-19 19:23:07,318 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 26: 27.56s - 28.00s
+2025-07-19 19:23:08,460 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 26: 27.96s - 28.46s
+2025-07-19 19:23:09,521 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 26: 28.42s - 28.55s
+2025-07-19 19:23:09,522 - autotube.full_pipeline - INFO - Creating clips for group 27: 3 words
+2025-07-19 19:23:10,275 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 27: 28.60s - 28.74s
+2025-07-19 19:23:11,006 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 27: 28.70s - 28.98s
+2025-07-19 19:23:11,915 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 27: 28.94s - 29.11s
+2025-07-19 19:23:11,916 - autotube.full_pipeline - INFO - Creating clips for group 28: 3 words
+2025-07-19 19:23:12,995 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 28: 29.16s - 29.42s
+2025-07-19 19:23:14,078 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 28: 29.38s - 29.96s
+2025-07-19 19:23:15,082 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 28: 29.92s - 29.97s
+2025-07-19 19:23:15,083 - autotube.full_pipeline - INFO - Creating clips for group 29: 4 words
+2025-07-19 19:23:16,375 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 29: 30.02s - 30.20s
+2025-07-19 19:23:17,636 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 29: 30.16s - 30.32s
+2025-07-19 19:23:18,754 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 29: 30.28s - 30.52s
+2025-07-19 19:23:19,752 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 29: 30.48s - 31.02s
+2025-07-19 19:23:19,752 - autotube.full_pipeline - INFO - Created 92 individual subtitle clips
+2025-07-19 19:23:19,754 - autotube.full_pipeline - INFO - Viral subtitle creation took 143.95s
+2025-07-19 19:23:19,755 - autotube.full_pipeline - INFO - Subtitle clips count: 92
+2025-07-19 19:23:19,769 - autotube.full_pipeline - INFO - Video composition took 0.01s
+2025-07-19 19:23:19,770 - autotube.full_pipeline - INFO - Final video - Duration: 33.63s, Audio: True
+2025-07-19 19:23:19,770 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SicilianKnightsLastStandABloodyRevolt_final.mp4
+2025-07-19 19:24:08,320 - autotube.full_pipeline - INFO - Video writing took 48.55s
+2025-07-19 19:24:08,321 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-19 19:24:09,401 - autotube.full_pipeline - INFO - Output file - Duration: 33.63s, Audio: True, Playable: True
+2025-07-19 19:24:09,473 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SicilianKnightsLastStandABloodyRevolt_final.mp4
+2025-07-19 19:24:09,475 - autotube.full_pipeline - INFO - Total processing time: 218.53s
+2025-07-19 19:24:09,477 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SicilianKnightsLastStandABloodyRevolt_final.mp4
+2025-07-19 19:24:09,479 - autotube.full_pipeline - INFO - 📊 Final video size: 6,102,114 bytes (5.8 MB)
+2025-07-19 19:24:09,484 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-19 19:24:09,487 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\SicilianKnightsLastStandABloodyRevolt_kenburns.mp4
+2025-07-19 19:24:09,488 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\SicilianKnightsLastStandABloodyRevolt_final.mp4
+2025-07-19 19:24:09,589 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (289.81s)
+2025-07-19 19:24:09,624 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-19 19:24:09,644 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_SicilianKnightsLastStandABloodyRevolt_20250719_192409.json
+2025-07-19 19:24:09,651 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-19 19:24:09,664 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 19:24:09,674 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 348.20s
+2025-07-19 19:24:09,687 - autotube.full_pipeline - INFO - 📁 Story Title: SicilianKnightsLastStandABloodyRevolt
+2025-07-19 19:24:09,693 - autotube.full_pipeline - INFO - 📁 Sanitized Title: SicilianKnightsLastStandABloodyRevolt
+2025-07-19 19:24:09,698 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_SicilianKnightsLastStandABloodyRevolt_20250719_192409.json

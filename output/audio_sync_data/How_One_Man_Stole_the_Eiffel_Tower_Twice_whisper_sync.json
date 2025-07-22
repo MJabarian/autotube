@@ -1,0 +1,241 @@
+{
+  "story_title": "How One Man Stole the Eiffel Tower Twice",
+  "original_story": "[excited] You won't believe this - in 1925, a con artist named Victor Lustig convinced scrap dealers he could sell the Eiffel Tower! He forged documents and made off with tons of metal before authorities caught on. Once arrested, he escaped and tried again! Lustig pulled this off twice, making it a wild tale of deception. He even claimed to be a government official! Can you imagine swindling an entire monument? Talk about ambition! What if I told you the Eiffel Tower was nearly reduced to scrap? [pause:1s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 1.95,
+      "audio_content": "You won't believe this. In 1925,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9772636890411377
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 1.95,
+      "timestamp_end": 3.9,
+      "audio_content": "con artist named Victor Lustig",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8873713195323945
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 3.9,
+      "timestamp_end": 5.85,
+      "audio_content": "scrap dealers he could sell the Eiffel Tower.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9505053559939067
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 5.85,
+      "timestamp_end": 7.8,
+      "audio_content": "He forged documents and made off with tons",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9836074411869049
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 7.8,
+      "timestamp_end": 9.75,
+      "audio_content": "metal before authorities caught on. Once",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9907931486765543
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 9.75,
+      "timestamp_end": 11.7,
+      "audio_content": "he escaped and tried again.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9921410083770752
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 11.7,
+      "timestamp_end": 13.65,
+      "audio_content": "Lustig pulled this off twice, making it a",
+      "words_in_segment": 8,
+      "confidence_avg": 0.997254665941
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 13.65,
+      "timestamp_end": 15.6,
+      "audio_content": "tale of deception. He even",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9860338687896728
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 15.6,
+      "timestamp_end": 17.55,
+      "audio_content": "to be a government official. Can you",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9494852764265878
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 17.55,
+      "timestamp_end": 19.5,
+      "audio_content": "swindling an entire monument?",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9741590370734533
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 19.5,
+      "timestamp_end": 21.45,
+      "audio_content": "Talk about ambition. What if I told",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9871718628065926
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 21.45,
+      "timestamp_end": 23.4,
+      "audio_content": "the Eiffel Tower was nearly reduced to scrap?",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9870378226041794
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 1.95,
+      "audio_content": "You won't believe this. In 1925,",
+      "image_prompt": "Medium shot of Victor Lustig, a charismatic con artist, confidently presenting forged documents to bewildered scrap dealers under the shadow of the Eiffel Tower, dramatic chiaroscuro lighting highlighting his sly smile, with an air of tension and intrigue enveloping the scene.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9772636890411377,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 1.95,
+      "timestamp_end": 3.9,
+      "audio_content": "con artist named Victor Lustig",
+      "image_prompt": "Wide shot of the Eiffel Tower against a twilight sky, casting long shadows. In the foreground, Victor Lustig, a suave con artist in 1920s attire, gestures animatedly as he speaks to a group of bewildered scrap dealers, their expressions a mix of intrigue and disbelief.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8873713195323945,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 3.9,
+      "timestamp_end": 5.85,
+      "audio_content": "scrap dealers he could sell the Eiffel Tower.",
+      "image_prompt": "Wide shot of the Eiffel Tower looming majestically over Paris, with Victor Lustig in the foreground, a sly grin on his face, holding forged documents. The scene is bathed in dramatic chiaroscuro lighting, casting sharp shadows that hint at his duplicitous intentions.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9505053559939067,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 5.85,
+      "timestamp_end": 7.8,
+      "audio_content": "He forged documents and made off with tons",
+      "image_prompt": "Medium shot of Victor Lustig, a suave con artist, confidently presenting forged documents to bewildered scrap dealers in a shadowy Parisian office, dramatic chiaroscuro lighting highlighting his sly smile and the tension in the air, with hints of the Eiffel Tower peeking through a window.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9836074411869049,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 7.8,
+      "timestamp_end": 9.75,
+      "audio_content": "metal before authorities caught on. Once",
+      "image_prompt": "Medium shot of Victor Lustig, a charismatic con artist, confidently presenting forged documents to bewildered scrap dealers in a dimly lit Parisian office, shadows casting dramatic angles. His expression is a mix of excitement and deceit, embodying the audacity of his grand scheme to sell the Eiffel Tower.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9907931486765543,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 9.75,
+      "timestamp_end": 11.7,
+      "audio_content": "he escaped and tried again.",
+      "image_prompt": "Medium shot of Victor Lustig in a dimly lit Parisian alley, nervously glancing over his shoulder as he clutches forged documents, the shadows emphasizing his cunning expression, embodying the thrill of his escape and the audacity of his deception.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9921410083770752,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 11.7,
+      "timestamp_end": 13.65,
+      "audio_content": "Lustig pulled this off twice, making it a",
+      "image_prompt": "Medium shot of Victor Lustig in a dimly lit Parisian office, confidently signing forged documents. Shadows play across his face, revealing a sly smile as he plots to sell the Eiffel Tower, the faint outline of the iconic monument visible through a window behind him.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.997254665941,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 13.65,
+      "timestamp_end": 15.6,
+      "audio_content": "tale of deception. He even",
+      "image_prompt": "Medium shot of Victor Lustig, a suave con artist in a stylish 1920s suit, confidently presenting forged documents to bewildered scrap dealers, with the Eiffel Tower looming in the background. Dramatic chiaroscuro lighting casts sharp shadows, highlighting his ambitious smirk.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9860338687896728,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 15.6,
+      "timestamp_end": 17.55,
+      "audio_content": "to be a government official. Can you",
+      "image_prompt": "Medium shot of Victor Lustig confidently presenting forged documents to bewildered scrap dealers, with the Eiffel Tower looming in the background. Dramatic chiaroscuro lighting highlights his sly grin, while shadows cast an air of intrigue and deception, capturing the audacity of his scheme.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9494852764265878,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 17.55,
+      "timestamp_end": 19.5,
+      "audio_content": "swindling an entire monument?",
+      "image_prompt": "Medium shot of Victor Lustig, a suave con artist in 1920s attire, confidently gesturing as he presents forged documents to a bewildered scrap dealer, with the Eiffel Tower looming in the background, dramatic chiaroscuro lighting highlighting his ambition and the tension of deception.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9741590370734533,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 19.5,
+      "timestamp_end": 21.45,
+      "audio_content": "Talk about ambition. What if I told",
+      "image_prompt": "Wide shot of the Eiffel Tower at dusk, surrounded by bustling scrap dealers. Shadows stretch across the ground as a figure resembling Victor Lustig, dressed in 1920s attire, confidently gestures with forged documents in hand, embodying ambition and deceit against the iconic backdrop.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9871718628065926,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 21.45,
+      "timestamp_end": 23.4,
+      "audio_content": "the Eiffel Tower was nearly reduced to scrap?",
+      "image_prompt": "Medium shot of Victor Lustig, a charming con artist, confidently standing before the Eiffel Tower, gesturing toward it with a sly smile. The scene captures his ambitious nature, with dramatic chiaroscuro lighting highlighting his expressive face and casting sharp shadows across the iconic monument.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9870378226041794,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 23.4,
+    "whisper_model": "base"
+  }
+}

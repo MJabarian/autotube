@@ -1,0 +1,241 @@
+{
+  "story_title": "How a Telegrapher's Blunder Saved San Francisco",
+  "original_story": "[excited] You won’t believe how a simple mistake saved San Francisco! In 1906, a telegraph operator accidentally sent a message to the wrong fire station. Instead of spreading to packed neighborhoods, the flames were diverted. This miscommunication actually kept a devastating fire in check, preventing chaos in a city still reeling from the infamous earthquake just days prior. It’s wild to think that one clerical error saved countless lives and homes that day! Who knew a blunder could be heroic?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.1350000000000002,
+      "audio_content": "You won't believe how a simple mistake",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9336882318769183
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.1350000000000002,
+      "timestamp_end": 4.2700000000000005,
+      "audio_content": "San Francisco. In",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9890045126279196
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.2700000000000005,
+      "timestamp_end": 6.405000000000001,
+      "audio_content": "a telegraph operator",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9682511190573374
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.405000000000001,
+      "timestamp_end": 8.540000000000001,
+      "audio_content": "sent a message to the",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9983355522155761
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.540000000000001,
+      "timestamp_end": 10.675,
+      "audio_content": "fire station. Instead of",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9837128520011902
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 10.675,
+      "timestamp_end": 12.810000000000002,
+      "audio_content": "to packed neighborhoods, the",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9649305790662766
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 12.810000000000002,
+      "timestamp_end": 14.945000000000002,
+      "audio_content": "were diverted. This",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9889833331108093
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 14.945000000000002,
+      "timestamp_end": 17.080000000000002,
+      "audio_content": "actually kept a devastating",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9945975840091705
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 17.080000000000002,
+      "timestamp_end": 19.215000000000003,
+      "audio_content": "in check, preventing chaos",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9453122615814209
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 19.215000000000003,
+      "timestamp_end": 21.35,
+      "audio_content": "a city still reeling from the infamous",
+      "words_in_segment": 7,
+      "confidence_avg": 0.987266046660287
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 21.35,
+      "timestamp_end": 23.485000000000003,
+      "audio_content": "just days prior.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9866921106974283
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 23.485000000000003,
+      "timestamp_end": 25.620000000000005,
+      "audio_content": "wild to think that one clerical -",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8394062274268695
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.1350000000000002,
+      "audio_content": "You won't believe how a simple mistake",
+      "image_prompt": "Medium shot of a frantic telegraph operator in 1906, eyes wide with panic as he frantically types at a vintage telegraph machine. Shadows dance dramatically across his face, highlighting the tension of his mistake, while the faint glow of the telegraph light adds an air of urgency and chaos.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9336882318769183,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.1350000000000002,
+      "timestamp_end": 4.2700000000000005,
+      "audio_content": "San Francisco. In",
+      "image_prompt": "Wide shot of early 20th century San Francisco, showcasing the aftermath of the 1906 earthquake. Smoke rises in the distance as fire engines rush through the streets, with onlookers watching anxiously. Dramatic chiaroscuro lighting highlights the tension in the air, capturing the moment of impending disaster.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9890045126279196,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.2700000000000005,
+      "timestamp_end": 6.405000000000001,
+      "audio_content": "a telegraph operator",
+      "image_prompt": "Wide shot of a bustling early 20th-century San Francisco street, smoke rising in the distance. A telegraph office stands prominently, with a frantic operator at the key, surrounded by concerned townsfolk, their faces reflecting tension and hope as they watch the flames flicker afar.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9682511190573374,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.405000000000001,
+      "timestamp_end": 8.540000000000001,
+      "audio_content": "sent a message to the",
+      "image_prompt": "Medium shot of a distressed telegraph operator in a dimly lit office, frantically sending messages. Shadows dance across the walls, highlighting his focused expression as he unknowingly diverts a fire away from San Francisco, showcasing the tension and urgency of the moment.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9983355522155761,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.540000000000001,
+      "timestamp_end": 10.675,
+      "audio_content": "fire station. Instead of",
+      "image_prompt": "Wide shot of a bustling early 20th-century San Francisco, smoke rising in the distance, with firefighters scrambling to an old brick fire station. Dramatic chiaroscuro lighting highlights the urgency on their faces, while shadows stretch across the cobblestone street, evoking tension amid the chaos.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9837128520011902,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 10.675,
+      "timestamp_end": 12.810000000000002,
+      "audio_content": "to packed neighborhoods, the",
+      "image_prompt": "Wide shot of San Francisco's packed neighborhoods in the aftermath of the 1906 earthquake, with smoke rising in the distance. The city is tense, with citizens anxiously watching as firefighters respond to the miscommunication, embodying a moment of unexpected hope amidst chaos.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9649305790662766,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 12.810000000000002,
+      "timestamp_end": 14.945000000000002,
+      "audio_content": "were diverted. This",
+      "image_prompt": "Medium shot of a bustling San Francisco fire station in 1906, with a telegraph operator frantically sending a message. The operator's expressive face is illuminated by dramatic chiaroscuro lighting, capturing the intensity of the moment as flames can be seen in the background, hinting at impending chaos.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9889833331108093,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 14.945000000000002,
+      "timestamp_end": 17.080000000000002,
+      "audio_content": "actually kept a devastating",
+      "image_prompt": "Medium shot of a telegraph operator in a dimly lit, vintage telegraph office, intently sending a message. His face reflects a mix of urgency and concentration, with shadows playing dramatically across the room, symbolizing the weight of his clerical error that would unknowingly save the city.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9945975840091705,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 17.080000000000002,
+      "timestamp_end": 19.215000000000003,
+      "audio_content": "in check, preventing chaos",
+      "image_prompt": "Medium shot of a telegraph operator in a dimly lit office, focused on his equipment, as he nervously sends a message. The tension is palpable, illuminated by dramatic chiaroscuro lighting casting sharp shadows, capturing the gravity of his mistake that would alter the course of San Francisco's fate.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9453122615814209,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 19.215000000000003,
+      "timestamp_end": 21.35,
+      "audio_content": "a city still reeling from the infamous",
+      "image_prompt": "Wide shot of San Francisco in 1906, showcasing a city still in disarray from the recent earthquake. The skyline reveals damaged buildings, with fire trucks rushing through the streets. Dramatic chiaroscuro lighting casts sharp shadows, emphasizing the tense atmosphere as residents look on anxiously.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.987266046660287,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 21.35,
+      "timestamp_end": 23.485000000000003,
+      "audio_content": "just days prior.",
+      "image_prompt": "Medium shot of a telegraph operator in a dimly lit office, frantically sending a message. His face shows a mix of anxiety and determination, with shadows casting dramatic lines across his brow, as the distant sound of a fire bell echoes outside.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9866921106974283,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 23.485000000000003,
+      "timestamp_end": 25.620000000000005,
+      "audio_content": "wild to think that one clerical -",
+      "image_prompt": "Wide shot of a historic San Francisco street in 1906, smoke rising in the distance as firefighters rush towards a fire station. The scene captures the tension and urgency, with chiaroscuro lighting highlighting the determination on their faces against the backdrop of a city on the edge of chaos.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8394062274268695,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 25.620000000000005,
+    "whisper_model": "base"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "pipeline_info": {
+    "story_title": "BerlinWallsCollapseAHistoricTurningPoint",
+    "sanitized_title": "BerlinWallsCollapseAHistoricTurningPoint",
+    "start_time": "2025-07-18T21:56:15.044237",
+    "end_time": "2025-07-18T22:00:47.017768",
+    "total_duration": 271.9735312461853,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1752890175.0482361,
+      "end": 1752890234.4448614,
+      "duration": 59.39662528038025,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1752890234.4458587,
+      "end": 1752890447.0157602,
+      "duration": 212.56990146636963,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\BerlinWallsCollapseAHistoricTurningPoint\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\BerlinWallsCollapseAHistoricTurningPoint\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\BerlinWallsCollapseAHistoricTurningPoint\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\BerlinWallsCollapseAHistoricTurningPoint\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\BerlinWallsCollapseAHistoricTurningPoint\\audio_BerlinWallsCollapseAHistoricTurningPoint.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\BerlinWallsCollapseAHistoricTurningPoint\\audio_BerlinWallsCollapseAHistoricTurningPoint_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\BerlinWallsCollapseAHistoricTurningPoint\\mixed_audio_BerlinWallsCollapseAHistoricTurningPoint.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\BerlinWallsCollapseAHistoricTurningPoint\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\BerlinWallsCollapseAHistoricTurningPoint\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\BerlinWallsCollapseAHistoricTurningPoint\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\BerlinWallsCollapseAHistoricTurningPoint\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\BerlinWallsCollapseAHistoricTurningPoint\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\BerlinWallsCollapseAHistoricTurningPoint\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\BerlinWallsCollapseAHistoricTurningPoint\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\BerlinWallsCollapseAHistoricTurningPoint\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\BerlinWallsCollapseAHistoricTurningPoint\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\BerlinWallsCollapseAHistoricTurningPoint\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\BerlinWallsCollapseAHistoricTurningPoint\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\BerlinWallsCollapseAHistoricTurningPoint\\image_12.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\videos\\BerlinWallsCollapseAHistoricTurningPoint_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\subtitles_processed_video\\BerlinWallsCollapseAHistoricTurningPoint_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

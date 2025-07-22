@@ -1,0 +1,339 @@
+2025-07-19 16:41:44,206 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-19 16:41:44,207 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250719_164144.log
+2025-07-19 16:41:44,207 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-19 16:41:44,207 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 16:41:44,207 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 16:41:44,217 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 16:41:46,191 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:41:49,057 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:41:49,407 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:41:49,434 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Harrowing Tale of the Thuggee Cult in India  
+**Summary:** For centuries, a secretive group known as the Thuggees was responsible for systematically strangling travelers as part of their ritualistic devotion to the goddess Kali, leading to thousands of murders before British authorities intervened in the 19th century.
+2025-07-19 16:41:49,434 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheHarrowingTaleoftheThuggeeCultinIndiaSummar_content_gen_2025-07-19_16-41-49.log
+2025-07-19 16:41:49,435 - autotube.content_gen - INFO - 📁 Sanitized folder name: IndiasThuggeeCultStranglingforKali
+2025-07-19 16:41:49,435 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 82 words
+2025-07-19 16:41:49,440 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\IndiasThuggeeCultStranglingforKali\story.json (1,201 bytes)
+2025-07-19 16:41:49,441 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\IndiasThuggeeCultStranglingforKali\topic.txt (335 bytes)
+2025-07-19 16:41:49,442 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\IndiasThuggeeCultStranglingforKali\metadata.json (730 bytes)
+2025-07-19 16:41:49,442 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\IndiasThuggeeCultStranglingforKali\story.txt (1,093 bytes)
+2025-07-19 16:41:49,443 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\IndiasThuggeeCultStranglingforKali
+2025-07-19 16:41:56,186 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\IndiasThuggeeCultStranglingforKali\audio_IndiasThuggeeCultStranglingforKali.mp3 (418,422 bytes)
+2025-07-19 16:41:56,273 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 26.15s duration
+2025-07-19 16:41:57,016 - autotube.content_gen - INFO - ✅ Audio speed adjustment: 1.15x, new duration: 22.86s
+2025-07-19 16:41:57,016 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\IndiasThuggeeCultStranglingforKali\audio_IndiasThuggeeCultStranglingforKali_sped_up.mp3 (418,422 bytes, 22.86s)
+2025-07-19 16:41:57,017 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-19 16:41:57,017 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-19 16:41:57,018 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\IndiasThuggeeCultStranglingforKali\audio_IndiasThuggeeCultStranglingforKali_sped_up.mp3
+2025-07-19 16:41:57,018 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-19 16:41:57,844 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-19 16:41:57,946 - faster_whisper - INFO - Processing audio with duration 00:22.826
+2025-07-19 16:41:58,593 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-19 16:42:00,800 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 22.52s
+2025-07-19 16:42:00,800 - whisper_audio_synchronizer - INFO - 📝 Extracted 81 words with timestamps
+2025-07-19 16:42:00,801 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 22.52s, Image duration: 1.88s
+2025-07-19 16:42:00,802 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-19 16:42:00,802 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-19 16:42:02,320 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:42:02,321 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): Establishing shot of a dense, shadowy forest in In...
+2025-07-19 16:42:03,931 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:42:03,932 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of a dense, misty Indian jungle at dusk,...
+2025-07-19 16:42:05,499 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:42:05,501 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of a dark forest in India, shrouded in m...
+2025-07-19 16:42:07,043 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:42:07,046 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/medium_shot): Medium shot of a shadowy figure in traditional Ind...
+2025-07-19 16:42:08,591 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:42:08,592 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/medium_shot): Medium shot of a shadowy figure in traditional Ind...
+2025-07-19 16:42:10,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:42:10,342 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/medium_shot): Medium shot of a shadowy figure cloaked in darknes...
+2025-07-19 16:42:11,871 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:42:11,872 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of a charismatic Thuggee leader, cloak...
+2025-07-19 16:42:13,393 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:42:13,402 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/medium_shot): Medium shot of cloaked Thuggees in a dimly lit for...
+2025-07-19 16:42:15,195 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:42:15,199 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of British officer William Sleeman, de...
+2025-07-19 16:42:16,671 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:42:16,675 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/medium_shot): Medium shot of British officer William Sleeman, de...
+2025-07-19 16:42:18,284 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:42:18,286 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/medium_shot): Medium shot of British officer William Sleeman, hi...
+2025-07-19 16:42:19,585 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 16:42:19,586 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (emotional_moment/close_up): Close-up of a Thuggee's face, eyes filled with fer...
+2025-07-19 16:42:19,588 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Indias_Thuggee_Cult_Strangling_for_Kali_whisper_sync.json
+2025-07-19 16:42:19,589 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-19 16:42:19,589 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-19 16:42:19,590 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-19 16:42:19,590 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-19 16:42:19,595 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\epic-action-overture-majestic-action-cinematic-detective-245050.mp3 (6,752,548 bytes)
+2025-07-19 16:42:19,596 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\IndiasThuggeeCultStranglingforKali\music_selection.json (405 bytes)
+2025-07-19 16:42:19,596 - autotube.content_gen - INFO - ✅ Music selected: epic-action-overture-majestic-action-cinematic-detective-245050.mp3
+2025-07-19 16:42:19,597 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-19 16:42:19,597 - src.replicate_image_generator - INFO - Generating images for story: India's Thuggee Cult: Strangling for Kali
+2025-07-19 16:42:19,597 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-19 16:42:19,597 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-19 16:42:19,598 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-19 16:42:20,608 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:42:22,104 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:42:23,606 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:42:25,137 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:42:27,002 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:42:28,547 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:42:30,062 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:42:31,652 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:42:33,208 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:42:34,802 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:42:36,298 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:42:37,800 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 16:42:38,670 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-19 16:42:38,670 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-19 16:42:38,672 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-19 16:42:38,673 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-19 16:42:38,675 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-19 16:42:38,675 - autotube.content_gen - INFO - 📊 Total time: 54.46s, Cost: $0.0360
+2025-07-19 16:42:38,676 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Harrowing Tale of the Thuggee Cult in India  
+**Summary:** For centuries, a secretive group known as the Thuggees was responsible for systematically strangling travelers as part of their ritualistic devotion to the goddess Kali, leading to thousands of murders before British authorities intervened in the 19th century.
+2025-07-19 16:42:38,696 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (54.48s)
+2025-07-19 16:42:38,697 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-19 16:42:38,697 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-19 16:42:38,698 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: IndiasThuggeeCultStranglingforKali
+2025-07-19 16:42:38,698 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: IndiasThuggeeCultStranglingforKali
+2025-07-19 16:42:38,699 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\IndiasThuggeeCultStranglingforKali\audio_IndiasThuggeeCultStranglingforKali_sped_up.mp3
+2025-07-19 16:42:38,699 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\IndiasThuggeeCultStranglingforKali\music_selection.json
+2025-07-19 16:42:38,706 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\epic-action-overture-majestic-action-cinematic-detective-245050.mp3
+2025-07-19 16:42:38,725 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-19 16:42:38,727 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\IndiasThuggeeCultStranglingforKali\audio_IndiasThuggeeCultStranglingforKali_sped_up.mp3
+2025-07-19 16:42:38,849 - src.audio_mixer - INFO - Loaded audio: 22826ms (22.826s), 44100Hz, 2 channels
+2025-07-19 16:42:38,850 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\epic-action-overture-majestic-action-cinematic-detective-245050.mp3
+2025-07-19 16:42:39,223 - src.audio_mixer - INFO - Loaded audio: 211017ms (211.017s), 44100Hz, 2 channels
+2025-07-19 16:42:39,223 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-19 16:42:39,223 - src.audio_mixer - INFO - Target duration: 22826ms
+2025-07-19 16:42:39,224 - src.audio_mixer - INFO - Trimmed music from 22826ms to 22826ms
+2025-07-19 16:42:39,224 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-19 16:42:39,239 - src.audio_mixer - INFO - Voice adjusted by 9.3dB, Music by -7.3dB
+2025-07-19 16:42:39,248 - src.audio_mixer - INFO - ✅ Exact duration match: 22826ms
+2025-07-19 16:42:39,248 - src.audio_mixer - INFO - Audio mixing completed: 22826ms
+2025-07-19 16:42:39,599 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\IndiasThuggeeCultStranglingforKali\mixed_audio_IndiasThuggeeCultStranglingforKali.mp3
+2025-07-19 16:42:39,601 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\IndiasThuggeeCultStranglingforKali\mixed_audio_IndiasThuggeeCultStranglingforKali.mp3
+2025-07-19 16:42:39,602 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 704,667 bytes (0.7 MB)
+2025-07-19 16:42:39,602 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: IndiasThuggeeCultStranglingforKali
+2025-07-19 16:42:39,603 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-19 16:42:39,603 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-19 16:42:39,603 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: IndiasThuggeeCultStranglingforKali
+2025-07-19 16:42:39,733 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-19 16:42:39,733 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-19 16:42:39,734 - autotube.full_pipeline - INFO - ⏱️  Image duration: 1.91 seconds per image
+2025-07-19 16:42:39,734 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\IndiasThuggeeCultStranglingforKali_kenburns.mp4
+2025-07-19 16:42:39,734 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['pan_right', 'zoom_in', 'zoom_out', 'zoom_in', 'pan_right']...
+2025-07-19 16:42:39,734 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-19 16:42:39,734 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 16:42:39,750 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-19 16:42:39,750 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 16:42:39,761 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-19 16:42:39,761 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-19 16:42:39,778 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-19 16:42:39,778 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 16:42:39,802 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-19 16:42:39,802 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 16:42:39,827 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-19 16:42:39,828 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 16:42:39,850 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-19 16:42:39,851 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 16:42:39,877 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-19 16:42:39,877 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 16:42:39,905 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-19 16:42:39,905 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 16:42:39,930 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-19 16:42:39,930 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 16:42:39,958 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-19 16:42:39,958 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 16:42:39,982 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-19 16:42:39,983 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 16:42:40,011 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-19 16:42:40,052 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-19 16:42:40,135 - autotube.full_pipeline - INFO - 📹 Video duration: 22.860s
+2025-07-19 16:42:40,135 - autotube.full_pipeline - INFO - 🎵 Audio duration: 22.860s
+2025-07-19 16:42:40,135 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 22.860s
+2025-07-19 16:42:40,135 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\IndiasThuggeeCultStranglingforKali_kenburns.mp4
+2025-07-19 16:43:53,172 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-19 16:43:53,173 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-19 16:43:53,174 - autotube.full_pipeline - INFO - ✅ Video duration: 22.87 seconds
+2025-07-19 16:43:53,175 - autotube.full_pipeline - INFO - ✅ Video file size: 4.5 MB
+2025-07-19 16:43:53,176 - autotube.full_pipeline - WARNING - ⚠️  File size seems low for HD quality
+2025-07-19 16:43:53,232 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\IndiasThuggeeCultStranglingforKali_kenburns.mp4
+2025-07-19 16:43:53,233 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-19 16:43:53,234 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\IndiasThuggeeCultStranglingforKali_kenburns.mp4
+2025-07-19 16:43:53,235 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-19 16:43:53,237 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-19 16:43:53,239 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-19 16:43:53,240 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-19 16:43:58,264 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-19 16:43:58,267 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-19 16:43:58,269 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-19 16:43:58,717 - faster_whisper - INFO - Processing audio with duration 00:22.826
+2025-07-19 16:44:08,786 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-19 16:44:27,246 - autotube.full_pipeline - INFO - Extracted 81 words with timing
+2025-07-19 16:44:27,247 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 28.98s
+2025-07-19 16:44:27,989 - autotube.full_pipeline - INFO - Video loading took 0.74s
+2025-07-19 16:44:27,990 - autotube.full_pipeline - INFO - Original video - Duration: 22.87s, FPS: 30.0, Audio: True
+2025-07-19 16:44:27,991 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 81 words...
+2025-07-19 16:44:27,992 - autotube.full_pipeline - INFO - Group 1: 3 words (10 chars), 0.00s - 0.40s
+2025-07-19 16:44:27,992 - autotube.full_pipeline - INFO - Group 2: 4 words (18 chars), 0.38s - 1.02s
+2025-07-19 16:44:27,993 - autotube.full_pipeline - INFO - Group 3: 3 words (20 chars), 1.00s - 2.06s
+2025-07-19 16:44:27,993 - autotube.full_pipeline - INFO - Group 4: 3 words (17 chars), 2.04s - 2.98s
+2025-07-19 16:44:27,994 - autotube.full_pipeline - INFO - Group 5: 3 words (25 chars), 2.96s - 4.00s
+2025-07-19 16:44:27,994 - autotube.full_pipeline - INFO - Group 6: 4 words (15 chars), 3.98s - 4.60s
+2025-07-19 16:44:27,995 - autotube.full_pipeline - INFO - Group 7: 4 words (22 chars), 4.58s - 5.72s
+2025-07-19 16:44:27,995 - autotube.full_pipeline - INFO - Group 8: 3 words (25 chars), 5.70s - 6.94s
+2025-07-19 16:44:27,995 - autotube.full_pipeline - INFO - Group 9: 3 words (12 chars), 6.92s - 7.72s
+2025-07-19 16:44:27,996 - autotube.full_pipeline - INFO - Group 10: 3 words (20 chars), 7.70s - 8.60s
+2025-07-19 16:44:27,996 - autotube.full_pipeline - INFO - Group 11: 4 words (24 chars), 8.88s - 10.16s
+2025-07-19 16:44:27,997 - autotube.full_pipeline - INFO - Group 12: 3 words (21 chars), 10.14s - 11.32s
+2025-07-19 16:44:27,997 - autotube.full_pipeline - INFO - Group 13: 3 words (19 chars), 11.30s - 12.16s
+2025-07-19 16:44:27,997 - autotube.full_pipeline - INFO - Group 14: 4 words (21 chars), 12.14s - 13.16s
+2025-07-19 16:44:27,998 - autotube.full_pipeline - INFO - Group 15: 4 words (22 chars), 13.14s - 14.22s
+2025-07-19 16:44:27,998 - autotube.full_pipeline - INFO - Group 16: 3 words (18 chars), 14.20s - 14.86s
+2025-07-19 16:44:27,999 - autotube.full_pipeline - INFO - Group 17: 3 words (22 chars), 15.18s - 16.22s
+2025-07-19 16:44:27,999 - autotube.full_pipeline - INFO - Group 18: 3 words (20 chars), 16.20s - 17.06s
+2025-07-19 16:44:28,000 - autotube.full_pipeline - INFO - Group 19: 4 words (21 chars), 17.22s - 18.00s
+2025-07-19 16:44:28,000 - autotube.full_pipeline - INFO - Group 20: 3 words (12 chars), 17.98s - 18.48s
+2025-07-19 16:44:28,001 - autotube.full_pipeline - INFO - Group 21: 3 words (22 chars), 18.46s - 19.86s
+2025-07-19 16:44:28,001 - autotube.full_pipeline - INFO - Group 22: 4 words (23 chars), 19.84s - 20.64s
+2025-07-19 16:44:28,002 - autotube.full_pipeline - INFO - Group 23: 3 words (16 chars), 20.98s - 21.58s
+2025-07-19 16:44:28,002 - autotube.full_pipeline - INFO - Group 24: 3 words (14 chars), 21.56s - 22.18s
+2025-07-19 16:44:28,003 - autotube.full_pipeline - INFO - Group 25: 1 words (10 chars), 22.16s - 22.54s
+2025-07-19 16:44:28,003 - autotube.full_pipeline - INFO - Created 25 word groups with smart length limiting
+2025-07-19 16:44:28,003 - autotube.full_pipeline - INFO - Creating clips for group 1: 3 words
+2025-07-19 16:44:29,129 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.22s
+2025-07-19 16:44:29,828 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.18s - 0.32s
+2025-07-19 16:44:30,414 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.28s - 0.33s
+2025-07-19 16:44:30,414 - autotube.full_pipeline - INFO - Created clips for 1/25 word groups - ETA: 2s
+2025-07-19 16:44:30,415 - autotube.full_pipeline - INFO - Creating clips for group 2: 4 words
+2025-07-19 16:44:31,487 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 0.38s - 0.60s
+2025-07-19 16:44:32,466 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 0.56s - 0.76s
+2025-07-19 16:44:33,234 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 0.72s - 0.88s
+2025-07-19 16:44:34,160 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 2: 0.84s - 0.95s
+2025-07-19 16:44:34,160 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-19 16:44:35,150 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 1.00s - 1.70s
+2025-07-19 16:44:36,334 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 1.66s - 1.80s
+2025-07-19 16:44:37,485 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 1.76s - 1.99s
+2025-07-19 16:44:37,486 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-19 16:44:38,202 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 2.04s - 2.50s
+2025-07-19 16:44:38,894 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 2.46s - 2.70s
+2025-07-19 16:44:39,533 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 2.66s - 2.91s
+2025-07-19 16:44:39,533 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-19 16:44:40,707 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 2.96s - 3.14s
+2025-07-19 16:44:41,862 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 3.10s - 3.60s
+2025-07-19 16:44:43,164 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 3.56s - 3.93s
+2025-07-19 16:44:43,164 - autotube.full_pipeline - INFO - Creating clips for group 6: 4 words
+2025-07-19 16:44:43,753 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 3.98s - 4.20s
+2025-07-19 16:44:44,273 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 4.16s - 4.28s
+2025-07-19 16:44:45,006 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 4.24s - 4.50s
+2025-07-19 16:44:45,638 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 6: 4.46s - 4.53s
+2025-07-19 16:44:45,638 - autotube.full_pipeline - INFO - Creating clips for group 7: 4 words
+2025-07-19 16:44:46,697 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 4.58s - 4.70s
+2025-07-19 16:44:47,521 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 4.66s - 4.90s
+2025-07-19 16:44:48,366 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 4.86s - 5.64s
+2025-07-19 16:44:49,229 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 7: 5.60s - 5.65s
+2025-07-19 16:44:49,229 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-19 16:44:50,228 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 5.70s - 6.38s
+2025-07-19 16:44:51,247 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 6.34s - 6.68s
+2025-07-19 16:44:52,277 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 6.64s - 6.87s
+2025-07-19 16:44:52,278 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-19 16:44:52,694 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 6.92s - 7.04s
+2025-07-19 16:44:53,116 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 7.00s - 7.64s
+2025-07-19 16:44:53,650 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 7.60s - 7.65s
+2025-07-19 16:44:53,650 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-19 16:44:54,376 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 7.70s - 7.84s
+2025-07-19 16:44:55,176 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 7.80s - 8.60s
+2025-07-19 16:44:56,021 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 8.56s - 8.83s
+2025-07-19 16:44:56,022 - autotube.full_pipeline - INFO - Creating clips for group 11: 4 words
+2025-07-19 16:44:56,926 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 8.88s - 9.16s
+2025-07-19 16:44:58,670 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 9.12s - 9.32s
+2025-07-19 16:45:00,927 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 9.28s - 9.62s
+2025-07-19 16:45:03,184 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 11: 9.58s - 10.09s
+2025-07-19 16:45:03,184 - autotube.full_pipeline - INFO - Created clips for 11/25 word groups - ETA: 35s
+2025-07-19 16:45:03,185 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-19 16:45:04,375 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 10.14s - 10.52s
+2025-07-19 16:45:05,204 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 10.48s - 11.20s
+2025-07-19 16:45:06,044 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 11.16s - 11.25s
+2025-07-19 16:45:06,045 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-19 16:45:06,976 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 11.30s - 11.62s
+2025-07-19 16:45:07,883 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 11.58s - 11.90s
+2025-07-19 16:45:08,704 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 11.86s - 12.09s
+2025-07-19 16:45:08,704 - autotube.full_pipeline - INFO - Creating clips for group 14: 4 words
+2025-07-19 16:45:09,610 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 12.14s - 12.62s
+2025-07-19 16:45:10,666 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 12.58s - 12.80s
+2025-07-19 16:45:11,751 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 12.76s - 12.96s
+2025-07-19 16:45:12,596 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 14: 12.92s - 13.09s
+2025-07-19 16:45:12,596 - autotube.full_pipeline - INFO - Creating clips for group 15: 4 words
+2025-07-19 16:45:13,581 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 13.14s - 13.32s
+2025-07-19 16:45:14,418 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 13.28s - 13.44s
+2025-07-19 16:45:15,345 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 13.40s - 13.92s
+2025-07-19 16:45:16,249 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 15: 13.88s - 14.15s
+2025-07-19 16:45:16,249 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-19 16:45:17,347 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 14.20s - 14.36s
+2025-07-19 16:45:18,124 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 14.32s - 14.62s
+2025-07-19 16:45:19,187 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 14.58s - 15.13s
+2025-07-19 16:45:19,187 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-19 16:45:20,582 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 15.18s - 15.40s
+2025-07-19 16:45:22,016 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 15.36s - 16.06s
+2025-07-19 16:45:23,090 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 16.02s - 16.15s
+2025-07-19 16:45:23,090 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-19 16:45:24,079 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 16.20s - 16.40s
+2025-07-19 16:45:25,140 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 16.36s - 16.66s
+2025-07-19 16:45:26,033 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 16.62s - 17.17s
+2025-07-19 16:45:26,033 - autotube.full_pipeline - INFO - Creating clips for group 19: 4 words
+2025-07-19 16:45:27,035 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 17.22s - 17.44s
+2025-07-19 16:45:28,008 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 17.40s - 17.72s
+2025-07-19 16:45:29,027 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 17.68s - 17.86s
+2025-07-19 16:45:30,193 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 19: 17.82s - 17.93s
+2025-07-19 16:45:30,194 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-19 16:45:30,812 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 17.98s - 18.24s
+2025-07-19 16:45:31,562 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 18.20s - 18.40s
+2025-07-19 16:45:32,283 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 18.36s - 18.41s
+2025-07-19 16:45:32,283 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-19 16:45:33,452 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 18.46s - 19.32s
+2025-07-19 16:45:34,504 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 19.28s - 19.60s
+2025-07-19 16:45:35,529 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 19.56s - 19.79s
+2025-07-19 16:45:35,529 - autotube.full_pipeline - INFO - Created clips for 21/25 word groups - ETA: 68s
+2025-07-19 16:45:35,529 - autotube.full_pipeline - INFO - Creating clips for group 22: 4 words
+2025-07-19 16:45:36,535 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 19.84s - 20.08s
+2025-07-19 16:45:37,577 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 20.04s - 20.28s
+2025-07-19 16:45:38,734 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 20.24s - 20.36s
+2025-07-19 16:45:39,733 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 22: 20.32s - 20.93s
+2025-07-19 16:45:39,734 - autotube.full_pipeline - INFO - Creating clips for group 23: 3 words
+2025-07-19 16:45:40,591 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 20.98s - 21.16s
+2025-07-19 16:45:41,471 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 21.12s - 21.28s
+2025-07-19 16:45:42,311 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 21.24s - 21.51s
+2025-07-19 16:45:42,311 - autotube.full_pipeline - INFO - Creating clips for group 24: 3 words
+2025-07-19 16:45:43,117 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 21.56s - 21.84s
+2025-07-19 16:45:43,892 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 21.80s - 21.92s
+2025-07-19 16:45:44,574 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 21.88s - 22.11s
+2025-07-19 16:45:44,574 - autotube.full_pipeline - INFO - Creating clips for group 25: 1 words
+2025-07-19 16:45:45,085 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 22.16s - 22.74s
+2025-07-19 16:45:45,085 - autotube.full_pipeline - INFO - Created 81 individual subtitle clips
+2025-07-19 16:45:45,087 - autotube.full_pipeline - INFO - Viral subtitle creation took 77.10s
+2025-07-19 16:45:45,087 - autotube.full_pipeline - INFO - Subtitle clips count: 81
+2025-07-19 16:45:45,101 - autotube.full_pipeline - INFO - Video composition took 0.01s
+2025-07-19 16:45:45,101 - autotube.full_pipeline - INFO - Final video - Duration: 22.87s, Audio: True
+2025-07-19 16:45:45,102 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\IndiasThuggeeCultStranglingforKali_final.mp4
+2025-07-19 16:46:43,099 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\IndiasThuggeeCultStranglingforKali_kenburns.mp4, 3096576 bytes wanted but 0 bytes read,at frame 686/687, at time 22.87/22.87 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-07-19 16:46:44,908 - autotube.full_pipeline - INFO - Video writing took 59.81s
+2025-07-19 16:46:44,909 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-19 16:46:46,016 - autotube.full_pipeline - INFO - Output file - Duration: 22.90s, Audio: True, Playable: True
+2025-07-19 16:46:46,098 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\IndiasThuggeeCultStranglingforKali_final.mp4
+2025-07-19 16:46:46,099 - autotube.full_pipeline - INFO - Total processing time: 167.83s
+2025-07-19 16:46:46,101 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\IndiasThuggeeCultStranglingforKali_final.mp4
+2025-07-19 16:46:46,102 - autotube.full_pipeline - INFO - 📊 Final video size: 3,209,391 bytes (3.1 MB)
+2025-07-19 16:46:46,102 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-19 16:46:46,103 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\IndiasThuggeeCultStranglingforKali_kenburns.mp4
+2025-07-19 16:46:46,104 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\IndiasThuggeeCultStranglingforKali_final.mp4
+2025-07-19 16:46:46,186 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (247.49s)
+2025-07-19 16:46:46,187 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-19 16:46:46,200 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_IndiasThuggeeCultStranglingforKali_20250719_164646.json
+2025-07-19 16:46:46,201 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-19 16:46:46,202 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 16:46:46,203 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 301.98s
+2025-07-19 16:46:46,204 - autotube.full_pipeline - INFO - 📁 Story Title: IndiasThuggeeCultStranglingforKali
+2025-07-19 16:46:46,205 - autotube.full_pipeline - INFO - 📁 Sanitized Title: IndiasThuggeeCultStranglingforKali
+2025-07-19 16:46:46,205 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_IndiasThuggeeCultStranglingforKali_20250719_164646.json

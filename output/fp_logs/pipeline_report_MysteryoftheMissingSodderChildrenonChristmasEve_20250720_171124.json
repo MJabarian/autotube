@@ -1,0 +1,56 @@
+{
+  "pipeline_info": {
+    "story_title": "MysteryoftheMissingSodderChildrenonChristmasEve",
+    "sanitized_title": "MysteryoftheMissingSodderChildrenonChristmasEve",
+    "start_time": "2025-07-20T17:07:40.069717",
+    "end_time": "2025-07-20T17:11:24.969890",
+    "total_duration": 224.90017342567444,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753045660.0737214,
+      "end": 1753045718.0003498,
+      "duration": 57.92662835121155,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753045718.0013485,
+      "end": 1753045884.9688897,
+      "duration": 166.96754121780396,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\MysteryoftheMissingSodderChildrenonChristmasEve\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\MysteryoftheMissingSodderChildrenonChristmasEve\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\MysteryoftheMissingSodderChildrenonChristmasEve\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\MysteryoftheMissingSodderChildrenonChristmasEve\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\MysteryoftheMissingSodderChildrenonChristmasEve\\audio_MysteryoftheMissingSodderChildrenonChristmasEve.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\MysteryoftheMissingSodderChildrenonChristmasEve\\audio_MysteryoftheMissingSodderChildrenonChristmasEve_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\MysteryoftheMissingSodderChildrenonChristmasEve\\mixed_audio_MysteryoftheMissingSodderChildrenonChristmasEve.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MysteryoftheMissingSodderChildrenonChristmasEve\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MysteryoftheMissingSodderChildrenonChristmasEve\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MysteryoftheMissingSodderChildrenonChristmasEve\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MysteryoftheMissingSodderChildrenonChristmasEve\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MysteryoftheMissingSodderChildrenonChristmasEve\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MysteryoftheMissingSodderChildrenonChristmasEve\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MysteryoftheMissingSodderChildrenonChristmasEve\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MysteryoftheMissingSodderChildrenonChristmasEve\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MysteryoftheMissingSodderChildrenonChristmasEve\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MysteryoftheMissingSodderChildrenonChristmasEve\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MysteryoftheMissingSodderChildrenonChristmasEve\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MysteryoftheMissingSodderChildrenonChristmasEve\\image_12.jpg"
+    ]
+  },
+  "pipeline_status": "SUCCESS"
+}

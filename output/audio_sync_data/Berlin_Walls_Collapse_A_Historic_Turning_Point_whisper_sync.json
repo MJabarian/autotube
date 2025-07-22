@@ -1,0 +1,241 @@
+{
+  "story_title": "Berlin Wall's Collapse: A Historic Turning Point",
+  "original_story": "[excited] On November 9, 1989, a roar erupted in Berlin as the wall separating East and West crumbled! This 96-mile barrier had divided families and ideologies since 1961. Thousands flooded the streets, tearing down chunks of concrete, symbolizing the end of a repressive regime. The fall not only united Germany but sparked a wave of democratic uprisings across Eastern Europe, toppling regimes in Poland and Czechoslovakia. In just two years, the Soviet Union dissolved! Who would have thought a wall could bring about such monumental change? [pause:1s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.475,
+      "audio_content": "On November 9, 1989, a",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9484439492225647
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.475,
+      "timestamp_end": 4.95,
+      "audio_content": "erupted in Berlin as the wall separating",
+      "words_in_segment": 7,
+      "confidence_avg": 0.966654292174748
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.95,
+      "timestamp_end": 7.425000000000001,
+      "audio_content": "and west crumbled. This 96 -mile barrier",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9582745773451669
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.425000000000001,
+      "timestamp_end": 9.9,
+      "audio_content": "divided families and ideologies since",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9928141415119172
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.9,
+      "timestamp_end": 12.375,
+      "audio_content": "Thousands flooded the streets,",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9931248724460602
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.375,
+      "timestamp_end": 14.850000000000001,
+      "audio_content": "down chunks of concrete, symbolizing the end",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9941527502877372
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.850000000000001,
+      "timestamp_end": 17.325,
+      "audio_content": "a repressive regime. The fall not only",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9849632680416107
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.325,
+      "timestamp_end": 19.8,
+      "audio_content": "Germany but sparked a wave of democratic",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9283133149147034
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.8,
+      "timestamp_end": 22.275000000000002,
+      "audio_content": "across eastern Europe, toppling regimes",
+      "words_in_segment": 5,
+      "confidence_avg": 0.859289038181305
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 22.275000000000002,
+      "timestamp_end": 24.75,
+      "audio_content": "Poland and Czechoslovakia. In just two",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9821830332279206
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 24.75,
+      "timestamp_end": 27.225,
+      "audio_content": "the Soviet Union dissolved. Who",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8419061303138733
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 27.225,
+      "timestamp_end": 29.700000000000003,
+      "audio_content": "have thought a wall could bring about such monumental change?",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9833746671676635
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.475,
+      "audio_content": "On November 9, 1989, a",
+      "image_prompt": "Establishing shot of the Berlin Wall, towering and imposing, with a crowd of excited people gathered below, illuminated by dramatic chiaroscuro lighting. The atmosphere is electric, capturing the moment of anticipation as the first cracks appear, symbolizing the impending change.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9484439492225647,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.475,
+      "timestamp_end": 4.95,
+      "audio_content": "erupted in Berlin as the wall separating",
+      "image_prompt": "Wide shot of jubilant Berliners on November 9, 1989, gathering at the crumbling Berlin Wall. The scene captures a riot of emotions against a backdrop of shattered concrete, with dramatic chiaroscuro lighting highlighting faces filled with joy and disbelief, as shadows elongate in the fading daylight.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.966654292174748,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.95,
+      "timestamp_end": 7.425000000000001,
+      "audio_content": "and west crumbled. This 96 -mile barrier",
+      "image_prompt": "Medium shot of jubilant Berliners, faces illuminated by streetlights, as they tear down pieces of the crumbling Berlin Wall. Shadows dance across their determined expressions, capturing a moment of unity and triumph against a backdrop of darkened, oppressive architecture.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9582745773451669,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.425000000000001,
+      "timestamp_end": 9.9,
+      "audio_content": "divided families and ideologies since",
+      "image_prompt": "Wide shot of jubilant crowds in Berlin, hands reaching toward the crumbling Berlin Wall, with fragments of concrete falling. Dramatic chiaroscuro lighting casts sharp shadows across expressive faces, capturing the raw emotion of unity and liberation as families reunite amidst the chaos.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9928141415119172,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.9,
+      "timestamp_end": 12.375,
+      "audio_content": "Thousands flooded the streets,",
+      "image_prompt": "Medium shot of jubilant Berliners, faces aglow with excitement, as they enthusiastically tear down chunks of the Berlin Wall. The dramatic chiaroscuro lighting casts sharp shadows, highlighting their passionate expressions, embodying the moment of unity and liberation amidst the crumbling concrete.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9931248724460602,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.375,
+      "timestamp_end": 14.850000000000001,
+      "audio_content": "down chunks of concrete, symbolizing the end",
+      "image_prompt": "Medium shot of jubilant Berliners passionately tearing down chunks of the Berlin Wall, their faces illuminated by the dramatic chiaroscuro lighting. The sharp shadows enhance their expressions of joy and defiance, capturing the momentous end of division and the start of unity.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9941527502877372,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.850000000000001,
+      "timestamp_end": 17.325,
+      "audio_content": "a repressive regime. The fall not only",
+      "image_prompt": "Wide shot of the Berlin Wall crumbling as thousands of ecstatic people surge forward, tearing down concrete chunks. Dark, dramatic clouds loom overhead, while rays of sunlight break through, illuminating the chaos and joy of unity. Sharp shadows create a sense of urgency and emotion.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9849632680416107,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.325,
+      "timestamp_end": 19.8,
+      "audio_content": "Germany but sparked a wave of democratic",
+      "image_prompt": "Wide shot of a jubilant crowd in Berlin, hands raised towards the crumbling Berlin Wall under dramatic chiaroscuro lighting, faces illuminated with excitement and hope, concrete debris flying, capturing the spirit of liberation and unity as history unfolds.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9283133149147034,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.8,
+      "timestamp_end": 22.275000000000002,
+      "audio_content": "across eastern Europe, toppling regimes",
+      "image_prompt": "Wide shot of a vibrant Berlin street filled with jubilant crowds, hands raised in celebration as chunks of the Berlin Wall crumble around them. Dramatic chiaroscuro lighting casts sharp shadows, highlighting joyous expressions and the chaotic energy of historic change.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.859289038181305,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 22.275000000000002,
+      "timestamp_end": 24.75,
+      "audio_content": "Poland and Czechoslovakia. In just two",
+      "image_prompt": "Wide shot of a bustling Berlin street on November 9, 1989, as crowds celebrate the fall of the Berlin Wall. Chunks of concrete are being torn down, with jubilant faces illuminated by dramatic chiaroscuro lighting, shadows dancing across the scene, capturing the atmosphere of monumental change.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9821830332279206,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 24.75,
+      "timestamp_end": 27.225,
+      "audio_content": "the Soviet Union dissolved. Who",
+      "image_prompt": "Wide shot of jubilant crowds in Berlin, with fragments of the Berlin Wall crumbling around them. People, faces filled with hope and excitement, raise their arms in celebration. Dramatic chiaroscuro lighting casts sharp shadows, capturing the momentous atmosphere of unity and change.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8419061303138733,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 27.225,
+      "timestamp_end": 29.700000000000003,
+      "audio_content": "have thought a wall could bring about such monumental change?",
+      "image_prompt": "Medium shot of jubilant Berliners with expressions of joy and disbelief, their hands raised as they pull down concrete chunks of the Berlin Wall. Dramatic chiaroscuro lighting casts sharp shadows, emphasizing the raw emotion and historic significance of this monumental moment.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9833746671676635,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 29.700000000000003,
+    "whisper_model": "base"
+  }
+}

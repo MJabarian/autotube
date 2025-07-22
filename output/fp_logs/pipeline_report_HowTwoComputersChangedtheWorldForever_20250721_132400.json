@@ -1,0 +1,55 @@
+{
+  "pipeline_info": {
+    "story_title": "HowTwoComputersChangedtheWorldForever",
+    "sanitized_title": "HowTwoComputersChangedtheWorldForever",
+    "start_time": "2025-07-21T13:20:02.898607",
+    "end_time": "2025-07-21T13:24:00.944727",
+    "total_duration": 238.0461208820343,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753118402.9094932,
+      "end": 1753118473.365201,
+      "duration": 70.45570778846741,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753118473.365201,
+      "end": 1753118640.9437244,
+      "duration": 167.57852339744568,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowTwoComputersChangedtheWorldForever\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowTwoComputersChangedtheWorldForever\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowTwoComputersChangedtheWorldForever\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowTwoComputersChangedtheWorldForever\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\HowTwoComputersChangedtheWorldForever\\audio_HowTwoComputersChangedtheWorldForever.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\HowTwoComputersChangedtheWorldForever\\mixed_audio_HowTwoComputersChangedtheWorldForever.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowTwoComputersChangedtheWorldForever\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowTwoComputersChangedtheWorldForever\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowTwoComputersChangedtheWorldForever\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowTwoComputersChangedtheWorldForever\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowTwoComputersChangedtheWorldForever\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowTwoComputersChangedtheWorldForever\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowTwoComputersChangedtheWorldForever\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowTwoComputersChangedtheWorldForever\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowTwoComputersChangedtheWorldForever\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowTwoComputersChangedtheWorldForever\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowTwoComputersChangedtheWorldForever\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowTwoComputersChangedtheWorldForever\\image_12.jpg"
+    ]
+  },
+  "pipeline_status": "SUCCESS"
+}

@@ -1,0 +1,241 @@
+{
+  "story_title": "Where Did the Roanoke Colony Disappear To?",
+  "original_story": "[mysterious] Get this—over 400 years ago, an entire colony vanished! In 1587, 117 English settlers on Roanoke Island left behind one cryptic clue: 'CROATOAN' carved into a tree. No bodies, no signs of struggle—just silence. This baffling disappearance sparked wild theories, from integration with local tribes to alien abduction! Could they have sought refuge on Croatoan Island, or did nature claim them? To this day, the fate of Roanoke remains one of America's greatest mysteries, leaving historians scratching their heads.",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.811666666666667,
+      "audio_content": "Get this, over 400 years ago, an",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9425994242940631
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.811666666666667,
+      "timestamp_end": 5.623333333333334,
+      "audio_content": "colony vanished. In",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9815110564231873
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.623333333333334,
+      "timestamp_end": 8.435,
+      "audio_content": "117 English settlers on",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9889344945549965
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.435,
+      "timestamp_end": 11.246666666666668,
+      "audio_content": "Island left behind one cryptic clue.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9678445905447006
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 11.246666666666668,
+      "timestamp_end": 14.058333333333335,
+      "audio_content": "Croatone carved into a tree. No",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8816819190979004
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 14.058333333333335,
+      "timestamp_end": 16.87,
+      "audio_content": "no signs of struggle, just silence.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9951867759227753
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 16.87,
+      "timestamp_end": 19.68166666666667,
+      "audio_content": "This baffling disappearance sparked wild",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9868541359901428
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 19.68166666666667,
+      "timestamp_end": 22.493333333333336,
+      "audio_content": "from integration with local tribes to alien",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9516256877354213
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 22.493333333333336,
+      "timestamp_end": 25.305000000000003,
+      "audio_content": "Could they have sought refuge on Croatone",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9866229011898949
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 25.305000000000003,
+      "timestamp_end": 28.11666666666667,
+      "audio_content": "or did nature claim them? To this",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8780754293714251
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 28.11666666666667,
+      "timestamp_end": 30.928333333333338,
+      "audio_content": "the fate of Roanoke remains one of America's greatest",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9258907343502398
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 30.928333333333338,
+      "timestamp_end": 33.74,
+      "audio_content": "leaving historians scratching their heads.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9896149039268494
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.811666666666667,
+      "audio_content": "Get this, over 400 years ago, an",
+      "image_prompt": "Establishing shot of the eerie, fog-covered Roanoke Island at dawn, with silhouettes of ancient trees looming under a haunting light. A single tree stands out, its bark marred by the mysterious carving of 'CROATOAN,' creating an atmosphere of suspense and curiosity.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9425994242940631,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.811666666666667,
+      "timestamp_end": 5.623333333333334,
+      "audio_content": "colony vanished. In",
+      "image_prompt": "Wide shot of the eerie Roanoke Island, shrouded in mist, with an ancient tree at the center. The carving 'CROATOAN' is visible on the trunk, surrounded by dense foliage. A sense of mystery and abandonment lingers in the air, with shadows creeping through the trees.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9815110564231873,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.623333333333334,
+      "timestamp_end": 8.435,
+      "audio_content": "117 English settlers on",
+      "image_prompt": "Wide shot of the mysterious Roanoke Island at dusk, with dense mist rolling over the trees. In the foreground, a partially carved tree stands ominously, the word 'CROATOAN' faintly visible. The atmosphere is thick with suspense, shadows dancing under the fading light.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9889344945549965,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.435,
+      "timestamp_end": 11.246666666666668,
+      "audio_content": "Island left behind one cryptic clue.",
+      "image_prompt": "Wide shot of a misty Roanoke Island at dawn, featuring an ancient tree with the word 'CROATOAN' carved into its bark, surrounded by dense, shadowy woods. The eerie silence envelops the scene, hinting at the mystery of the vanished colony.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9678445905447006,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 11.246666666666668,
+      "timestamp_end": 14.058333333333335,
+      "audio_content": "Croatone carved into a tree. No",
+      "image_prompt": "Medium shot of a rugged tree trunk, the word 'CROATOAN' intricately carved into the bark. The camera captures the surrounding dense forest, dappled sunlight filtering through the leaves, shadows dancing across the ground, evoking a sense of mystery and foreboding.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8816819190979004,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 14.058333333333335,
+      "timestamp_end": 16.87,
+      "audio_content": "no signs of struggle, just silence.",
+      "image_prompt": "Wide shot of Roanoke Island's dense, eerie forest, bathed in twilight. The sun's last rays filter through the thick trees, casting long shadows. In the foreground, the ancient tree stands tall, with the word 'CROATOAN' faintly visible, surrounded by an unsettling silence.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9951867759227753,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 16.87,
+      "timestamp_end": 19.68166666666667,
+      "audio_content": "This baffling disappearance sparked wild",
+      "image_prompt": "Wide shot of a misty Roanoke Island at dawn, with dense forests and a still, eerie atmosphere. In the foreground, a lone tree stands with the word 'CROATOAN' carved into its bark, illuminated by soft, dramatic chiaroscuro lighting, casting sharp shadows on the ground.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9868541359901428,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 19.68166666666667,
+      "timestamp_end": 22.493333333333336,
+      "audio_content": "from integration with local tribes to alien",
+      "image_prompt": "Wide shot of the dense, mysterious forest of Roanoke Island, shrouded in mist. In the foreground, an ancient tree looms with the word 'CROATOAN' carved into its bark, casting deep shadows, while the backdrop hints at hidden paths leading into the unknown.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9516256877354213,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 22.493333333333336,
+      "timestamp_end": 25.305000000000003,
+      "audio_content": "Could they have sought refuge on Croatone",
+      "image_prompt": "Wide shot of the misty Roanoke Island landscape at dawn, revealing the dense forest and serene waters. In the foreground, a weathered tree stands tall, with the word 'CROATOAN' faintly etched into its bark, surrounded by an air of mystery and silence.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9866229011898949,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 25.305000000000003,
+      "timestamp_end": 28.11666666666667,
+      "audio_content": "or did nature claim them? To this",
+      "image_prompt": "Wide shot of a misty Roanoke Island at dawn, dense trees framing the scene, with the eerie silhouette of a carved tree bearing the word 'CROATOAN'. Shadows dance in the soft light, evoking a sense of mystery and the haunting absence of the lost colony.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8780754293714251,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 28.11666666666667,
+      "timestamp_end": 30.928333333333338,
+      "audio_content": "the fate of Roanoke remains one of America's greatest",
+      "image_prompt": "Wide shot of a misty Roanoke Island at dawn, with dense forests and eerie silence. In the foreground, a weathered tree bears the carved word 'CROATOAN'. Shadows loom as the sun struggles to break through, evoking the mystery of the vanished settlers.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9258907343502398,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 30.928333333333338,
+      "timestamp_end": 33.74,
+      "audio_content": "leaving historians scratching their heads.",
+      "image_prompt": "Medium shot of a historian in a dimly lit study, surrounded by old maps and artifacts, a look of perplexity on their face as they examine a carving of 'CROATOAN' on a weathered tree trunk, shadows casting an air of mystery.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9896149039268494,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 33.74,
+    "whisper_model": "base"
+  }
+}

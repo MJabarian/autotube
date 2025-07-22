@@ -1,0 +1,393 @@
+{
+  "story_title": "The Dreyfus Affair: France's Shocking Scandal",
+  "original_story": "[dramatic] In 1894, a Jewish army officer was branded a traitor! Alfred Dreyfus was wrongfully convicted of treason against France, exposing a dark underbelly of anti-Semitism. Picture the moment—a courtroom filled with tension, hushed whispers, and a verdict that would ripple through history. As a member of the French military, Dreyfus faced a staggering 75 years in prison for a crime he didn’t commit. The evidence? Fabricated documents and a blind adherence to prejudice. [curious] But the plot thickens! In 1898, writer Émile Zola penned an open letter, 'J'accuse,' igniting public outrage. Protests erupted as citizens questioned the integrity of their leaders and the military. [sad] By 1906, Dreyfus was exonerated, but not before the scandal revealed a nation divided. This shocking betrayal of justice affected generations and pushed France toward modern civil rights. [whispers] One question remains—how much has really changed since then?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.848,
+      "audio_content": "In 1894, a Jewish army officer was",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9623828700610569
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.848,
+      "timestamp_end": 5.696,
+      "audio_content": "a traitor. Alfred Dreyfus was",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9250778153538703
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.696,
+      "timestamp_end": 8.544,
+      "audio_content": "convicted of treason against France, exposing a",
+      "words_in_segment": 7,
+      "confidence_avg": 0.992216386965343
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.544,
+      "timestamp_end": 11.392,
+      "audio_content": "underbelly of anti -Semitism, picture the",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8570419980420008
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 11.392,
+      "timestamp_end": 14.239999999999998,
+      "audio_content": "a courtroom filled with tension, hushed",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9848264091544681
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 14.239999999999998,
+      "timestamp_end": 17.088,
+      "audio_content": "and a verdict that would ripple through history.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9928559735417366
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 17.088,
+      "timestamp_end": 19.936,
+      "audio_content": "As a member of the French military, Dreyfus faced",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9909604208336936
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 19.936,
+      "timestamp_end": 22.784,
+      "audio_content": "staggering 75 years in prison for a crime",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9913923293352127
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 22.784,
+      "timestamp_end": 25.631999999999998,
+      "audio_content": "didn't commit. The evidence, fabricated",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9967322170734405
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 25.631999999999998,
+      "timestamp_end": 28.479999999999997,
+      "audio_content": "and a blind adherence to prejudice.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9708318064610163
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 28.479999999999997,
+      "timestamp_end": 31.328,
+      "audio_content": "the plot thickens. In 1898,",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9717265188694
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 31.328,
+      "timestamp_end": 34.176,
+      "audio_content": "writer Emil Zola penned an open letter. Jacques",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8638047613203526
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 34.176,
+      "timestamp_end": 37.024,
+      "audio_content": "igniting public outrage.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9422961175441742
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 37.024,
+      "timestamp_end": 39.872,
+      "audio_content": "erupted as citizens questioned the integrity of their",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9851025082170963
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 39.872,
+      "timestamp_end": 42.72,
+      "audio_content": "and the military. By 1906,",
+      "words_in_segment": 5,
+      "confidence_avg": 0.992775148153305
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 42.72,
+      "timestamp_end": 45.568,
+      "audio_content": "Dreyfus was exonerated, but not before the scandal",
+      "words_in_segment": 8,
+      "confidence_avg": 0.95054375876983
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 45.568,
+      "timestamp_end": 48.416,
+      "audio_content": "a nation divided. This shocking",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9793766379356384
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 48.416,
+      "timestamp_end": 51.263999999999996,
+      "audio_content": "of justice affected generations and pushed",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9927951494852701
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 51.263999999999996,
+      "timestamp_end": 54.111999999999995,
+      "audio_content": "toward modern civil rights. One question",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9868286152680715
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 54.111999999999995,
+      "timestamp_end": 56.959999999999994,
+      "audio_content": "how much has really changed since",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9813525080680847
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.848,
+      "audio_content": "In 1894, a Jewish army officer was",
+      "image_prompt": "Establishing shot of a dimly lit 19th-century French courtroom, filled with anxious spectators and military officers. Dramatic chiaroscuro lighting casts sharp shadows, highlighting the tension in the air as the judge prepares to deliver a verdict that will change history.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9623828700610569,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.848,
+      "timestamp_end": 5.696,
+      "audio_content": "a traitor. Alfred Dreyfus was",
+      "image_prompt": "Wide shot of a tense courtroom in 1894, filled with anxious spectators, shadows looming over the judge's bench. Alfred Dreyfus stands in the center, a figure of despair, as the verdict is announced, highlighting the oppressive atmosphere of prejudice and injustice.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9250778153538703,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.696,
+      "timestamp_end": 8.544,
+      "audio_content": "convicted of treason against France, exposing a",
+      "image_prompt": "Wide shot of a tense courtroom scene, filled with anxious spectators. In the foreground, Alfred Dreyfus stands at the defendant's table, his expression a mix of defiance and despair. Dramatic chiaroscuro lighting casts long shadows, emphasizing the gravity of the moment.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.992216386965343,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.544,
+      "timestamp_end": 11.392,
+      "audio_content": "underbelly of anti -Semitism, picture the",
+      "image_prompt": "Medium shot of Alfred Dreyfus in the courtroom, his face a mixture of fear and defiance. Shadows loom over him as whispers ripple through the crowd, capturing the tension of the moment. Dramatic chiaroscuro lighting highlights his expression against the darkened backdrop of the courtroom.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8570419980420008,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 11.392,
+      "timestamp_end": 14.239999999999998,
+      "audio_content": "a courtroom filled with tension, hushed",
+      "image_prompt": "Medium shot of Alfred Dreyfus in the courtroom, his face a portrait of despair and defiance. The shadows loom large around him, highlighting the tension in the air. Spectators whisper, their faces a mix of shock and disbelief, as the weight of injustice hangs heavy.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9848264091544681,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 14.239999999999998,
+      "timestamp_end": 17.088,
+      "audio_content": "and a verdict that would ripple through history.",
+      "image_prompt": "Medium shot of Alfred Dreyfus in the courtroom, his face a mixture of defiance and despair. The shadows of the room loom large, casting intense contrasts against the anxious faces of the onlookers, capturing the weight of a verdict that will change history forever.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9928559735417366,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 17.088,
+      "timestamp_end": 19.936,
+      "audio_content": "As a member of the French military, Dreyfus faced",
+      "image_prompt": "Medium shot of Alfred Dreyfus in a dimly lit courtroom, his face a portrait of despair and defiance, surrounded by shadowy figures whispering judgment. The dramatic chiaroscuro lighting highlights his anguish, capturing the tense atmosphere of betrayal and injustice.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9909604208336936,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 19.936,
+      "timestamp_end": 22.784,
+      "audio_content": "staggering 75 years in prison for a crime",
+      "image_prompt": "Medium shot of Alfred Dreyfus standing in a crowded courtroom, his face a mixture of despair and defiance. Shadows loom over the tense crowd, capturing whispered disbelief. Dramatic chiaroscuro lighting highlights the emotional turmoil as he awaits the verdict that will change his fate.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9913923293352127,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 22.784,
+      "timestamp_end": 25.631999999999998,
+      "audio_content": "didn't commit. The evidence, fabricated",
+      "image_prompt": "Medium shot of Alfred Dreyfus in a tense courtroom, his face a mix of despair and defiance. Shadows loom as the judge delivers the verdict, highlighting the distress of the audience. The atmosphere thick with tension, reflecting the societal divide ignited by his wrongful conviction.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9967322170734405,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 25.631999999999998,
+      "timestamp_end": 28.479999999999997,
+      "audio_content": "and a blind adherence to prejudice.",
+      "image_prompt": "Wide shot of a tense courtroom in 1894, filled with anxious spectators. Shadows loom over the judge's bench as a solemn Alfred Dreyfus stands accused, his face a mixture of disbelief and despair, while whispers of prejudice fill the air.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9708318064610163,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 28.479999999999997,
+      "timestamp_end": 31.328,
+      "audio_content": "the plot thickens. In 1898,",
+      "image_prompt": "Medium shot of Alfred Dreyfus in a tense courtroom, surrounded by shadowy figures. His face reflects a mix of defiance and despair, with dramatic chiaroscuro lighting accentuating the tension. The atmosphere is thick with whispers and uncertainty, capturing the moment's historical weight.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9717265188694,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 31.328,
+      "timestamp_end": 34.176,
+      "audio_content": "writer Emil Zola penned an open letter. Jacques",
+      "image_prompt": "Medium shot of Émile Zola in a dimly lit café, pen in hand, intense expression as he writes 'J'accuse.' Shadows play across his face, emphasizing determination and urgency, while outside, faint silhouettes of protesters gather, embodying the rising tide of outrage.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8638047613203526,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 34.176,
+      "timestamp_end": 37.024,
+      "audio_content": "igniting public outrage.",
+      "image_prompt": "Medium shot of Alfred Dreyfus in the courtroom, his expression a mix of defiance and despair, surrounded by a tense audience. Dramatic chiaroscuro lighting casts sharp shadows, highlighting the gravity of the moment as whispers of outrage ripple through the air.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.9422961175441742,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 37.024,
+      "timestamp_end": 39.872,
+      "audio_content": "erupted as citizens questioned the integrity of their",
+      "image_prompt": "Medium shot of Alfred Dreyfus in the courtroom, his face a mix of despair and determination. Shadows loom from the high windows, highlighting the tension as spectators gasp, their expressions a blend of disbelief and anger, capturing the moment of a nation's betrayal.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9851025082170963,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 39.872,
+      "timestamp_end": 42.72,
+      "audio_content": "and the military. By 1906,",
+      "image_prompt": "Wide shot of a tense courtroom filled with anxious spectators, their faces shadowed by dramatic chiaroscuro lighting. In the foreground, Alfred Dreyfus stands in uniform, looking defiant yet vulnerable, as a judge reads the verdict, casting a long shadow over the scene.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.992775148153305,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 42.72,
+      "timestamp_end": 45.568,
+      "audio_content": "Dreyfus was exonerated, but not before the scandal",
+      "image_prompt": "Medium shot of Alfred Dreyfus standing in a tense courtroom, his face a mix of fear and defiance. Shadows loom over the room, highlighting the anxious faces of the audience, as whispers of betrayal echo in the air, capturing the moment before the verdict.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.95054375876983,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 45.568,
+      "timestamp_end": 48.416,
+      "audio_content": "a nation divided. This shocking",
+      "image_prompt": "Medium shot of Alfred Dreyfus in the courtroom, anguish etched on his face as he hears the verdict. The dramatic chiaroscuro lighting casts sharp shadows, highlighting the tension in the room, with onlookers' expressions ranging from disbelief to anger, capturing the weight of injustice.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9793766379356384,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 48.416,
+      "timestamp_end": 51.263999999999996,
+      "audio_content": "of justice affected generations and pushed",
+      "image_prompt": "Close-up of Alfred Dreyfus in the courtroom, his face a mix of anguish and determination. Shadows cast dramatically across his features as he gazes upward, the tension palpable. The blurred figures of judges loom in the background, embodying the weight of injustice.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9927951494852701,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 51.263999999999996,
+      "timestamp_end": 54.111999999999995,
+      "audio_content": "toward modern civil rights. One question",
+      "image_prompt": "Medium shot of Alfred Dreyfus in a tense courtroom, his face a mix of fear and defiance. Shadows loom over him, accentuating the weight of injustice. The audience is hushed, whispers swirling as the judge prepares to deliver a verdict that will change history.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9868286152680715,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 54.111999999999995,
+      "timestamp_end": 56.959999999999994,
+      "audio_content": "how much has really changed since",
+      "image_prompt": "Close-up of Alfred Dreyfus in the courtroom, his expression a mix of anguish and defiance. Shadows play across his face, highlighting the tears in his eyes as the judge declares the verdict. The intensity of the moment captures the weight of injustice and the fight for truth.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9813525080680847,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    }
+  ],
+  "metadata": {
+    "total_images": 20,
+    "total_duration": 56.959999999999994,
+    "whisper_model": "base"
+  }
+}

@@ -1,0 +1,7 @@
+2025-07-18 14:32:10,218 - autotube.audio_video - INFO - 🚀 Starting audio_video pipeline for topic: TheDayBeesStoleaBaseballGame
+2025-07-18 14:32:10,218 - autotube.audio_video - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory\output\content_gen_logs\TheDayBeesStoleaBaseballGame_audio_video_2025-07-18_14-32-10.log
+2025-07-18 14:32:10,219 - autotube.audio_video - INFO - 📁 Sanitized folder name: TheDayBeesStoleaBaseballGame
+2025-07-18 14:32:10,219 - autotube.audio_video - INFO - 🎚️ Step 0: Audio Mixing for topic: TheDayBeesStoleaBaseballGame
+2025-07-18 14:32:10,221 - autotube.audio_video - INFO - ✅ Found source TTS audio: C:\autotube\ThroughTheLensofHistory\output\audio\TheDayBeesStoleaBaseballGame\audio_TheDayBeesStoleaBaseballGame.mp3
+2025-07-18 14:32:10,221 - autotube.audio_video - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory\output\music_selections\TheDayBeesStoleaBaseballGame\music_selection.json
+2025-07-18 14:32:10,221 - autotube.audio_video - ERROR - ❌ Music file not found: C:\autotube\ThroughTheLensofHistory\data\music\Intense\Intense military music with thunderous war drums h... (7ca62a2c6fd643968fbfae1284d83bb2).wav

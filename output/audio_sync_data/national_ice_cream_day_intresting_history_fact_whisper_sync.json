@@ -1,0 +1,241 @@
+{
+  "story_title": "national ice cream day intresting history fact",
+  "original_story": "[excited] Here’s a scoop – National Ice Cream Day was declared by President Reagan in 1984! How wild is that? To celebrate this sweet treat, he proclaimed July's third Sunday as a day to enjoy ice cream. Turns out, he was a huge fan, even naming it a ‘nutritional benefit’! With over 90% of Americans indulging in ice cream, it’s a national favorite. And get this: ice cream sales soar on this day! So, what’s your favorite flavor? Enjoying any today?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 1.9716666666666667,
+      "audio_content": "Here's a scoop, National Ice Cream",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9025028347969055
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 1.9716666666666667,
+      "timestamp_end": 3.9433333333333334,
+      "audio_content": "was declared by President Reagan in",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9779683947563171
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 3.9433333333333334,
+      "timestamp_end": 5.915,
+      "audio_content": "How wild is that?",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9902259856462479
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 5.915,
+      "timestamp_end": 7.886666666666667,
+      "audio_content": "To celebrate this sweet treat, he",
+      "words_in_segment": 6,
+      "confidence_avg": 0.986865391333898
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 7.886666666666667,
+      "timestamp_end": 9.858333333333334,
+      "audio_content": "July's third Sunday as a day to",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9186462930270604
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 9.858333333333334,
+      "timestamp_end": 11.83,
+      "audio_content": "ice cream. Turns out he was a",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9336654118129185
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 11.83,
+      "timestamp_end": 13.801666666666666,
+      "audio_content": "fan, even naming it a nutritional",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9614531695842743
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 13.801666666666666,
+      "timestamp_end": 15.773333333333333,
+      "audio_content": "With over 90 % of",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9534603953361511
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 15.773333333333333,
+      "timestamp_end": 17.745,
+      "audio_content": "indulging in ice cream, it's a",
+      "words_in_segment": 6,
+      "confidence_avg": 0.991311714053154
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 17.745,
+      "timestamp_end": 19.71666666666667,
+      "audio_content": "favorite. And get this, ice",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9223840355873107
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 19.71666666666667,
+      "timestamp_end": 21.688333333333333,
+      "audio_content": "sales soar on this day. So,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9452435026566187
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 21.688333333333333,
+      "timestamp_end": 23.66,
+      "audio_content": "what's your favorite flavor? Enjoying any today?",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9878122082778386
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 1.9716666666666667,
+      "audio_content": "Here's a scoop, National Ice Cream",
+      "image_prompt": "Wide shot of a bustling summer fair with colorful ice cream stands, children laughing and enjoying ice cream cones, sunlight streaming through the trees, creating a joyful and vibrant atmosphere, hinting at the celebration of National Ice Cream Day declared by President Reagan.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9025028347969055,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 1.9716666666666667,
+      "timestamp_end": 3.9433333333333334,
+      "audio_content": "was declared by President Reagan in",
+      "image_prompt": "Wide shot of a vibrant summer festival, people of all ages joyfully indulging in ice cream cones under colorful tents, with a banner reading 'National Ice Cream Day' fluttering in the breeze, capturing the excitement of President Reagan's proclamation in 1984.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9779683947563171,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 3.9433333333333334,
+      "timestamp_end": 5.915,
+      "audio_content": "How wild is that?",
+      "image_prompt": "Wide shot of a nostalgic 1980s American ice cream shop bustling with families enjoying ice cream cones on a sunny July afternoon, capturing the festive atmosphere of National Ice Cream Day, with colorful signage and laughter filling the air, dramatic chiaroscuro lighting highlighting the joy of the moment.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9902259856462479,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 5.915,
+      "timestamp_end": 7.886666666666667,
+      "audio_content": "To celebrate this sweet treat, he",
+      "image_prompt": "Medium shot of President Reagan joyfully holding an ice cream cone, surrounded by a vibrant crowd enjoying ice cream on a sunny July day. The atmosphere is festive, with people of all ages smiling, laughter echoing, and colorful ice cream stands in the background, capturing the essence of National Ice Cream Day.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.986865391333898,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 7.886666666666667,
+      "timestamp_end": 9.858333333333334,
+      "audio_content": "July's third Sunday as a day to",
+      "image_prompt": "Medium shot of President Reagan in a vibrant 1980s office, passionately proclaiming National Ice Cream Day. Sunlight streams through the window, illuminating his excited expression and a bowl of colorful ice cream on the desk, symbolizing joy and nostalgia.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9186462930270604,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 9.858333333333334,
+      "timestamp_end": 11.83,
+      "audio_content": "ice cream. Turns out he was a",
+      "image_prompt": "Medium shot of President Reagan, animated and smiling, surrounded by children enjoying ice cream on a sunny July day. The scene captures the joyful celebration of National Ice Cream Day, with vibrant ice cream cones in hand and soft shadows dancing across their faces.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9336654118129185,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 11.83,
+      "timestamp_end": 13.801666666666666,
+      "audio_content": "fan, even naming it a nutritional",
+      "image_prompt": "Medium shot of President Reagan at a podium, joyfully announcing National Ice Cream Day, surrounded by cheerful staff and ice cream cones, with warm lighting highlighting his enthusiastic expression and creating playful shadows, capturing the excitement of the declaration.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9614531695842743,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 13.801666666666666,
+      "timestamp_end": 15.773333333333333,
+      "audio_content": "With over 90 % of",
+      "image_prompt": "Medium shot of President Reagan smiling as he enjoys a scoop of ice cream, surrounded by children in a festive park setting, balloons in the background, sunlight streaming through the trees, capturing the joy of National Ice Cream Day.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9534603953361511,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 15.773333333333333,
+      "timestamp_end": 17.745,
+      "audio_content": "indulging in ice cream, it's a",
+      "image_prompt": "Medium shot of a joyful family enjoying ice cream at a park, vibrant cones in hand, sunlight dappling through the trees. Their delighted expressions capture the essence of National Ice Cream Day, with soft shadows and warm hues enhancing the festive atmosphere.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.991311714053154,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 17.745,
+      "timestamp_end": 19.71666666666667,
+      "audio_content": "favorite. And get this, ice",
+      "image_prompt": "Medium shot of a joyful family gathered around a vibrant ice cream stand, colorful cones and cups in hand. Sunlight filters through trees, casting playful shadows, as they share laughter and savor their favorite flavors, embodying the spirit of National Ice Cream Day.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9223840355873107,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 19.71666666666667,
+      "timestamp_end": 21.688333333333333,
+      "audio_content": "sales soar on this day. So,",
+      "image_prompt": "Medium shot of a bustling ice cream shop on National Ice Cream Day, vibrant ice cream cones in hand, customers smiling and enjoying their favorite flavors. A vintage poster of President Reagan hangs on the wall, casting dramatic shadows, as sunlight streams through the windows.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9452435026566187,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 21.688333333333333,
+      "timestamp_end": 23.66,
+      "audio_content": "what's your favorite flavor? Enjoying any today?",
+      "image_prompt": "Medium shot of a joyful group of friends sitting around a picnic table, each holding a colorful ice cream cone. Their excited expressions capture the essence of National Ice Cream Day, with sunlight streaming through trees creating dramatic chiaroscuro effects on their faces.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9878122082778386,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 23.66,
+    "whisper_model": "base"
+  }
+}

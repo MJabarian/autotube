@@ -1,0 +1,393 @@
+{
+  "story_title": "The Hidden Conspiracy Behind Franz Ferdinand's Death",
+  "original_story": "[mysterious] What if Archduke Franz Ferdinand’s assassination was just the tip of the iceberg? On June 28, 1914, as the Archduke drove through Sarajevo, a bomb was thrown by a young nationalist, but that was only the beginning. This incident was a carefully orchestrated plot involving foreign intelligence and secret societies, not just Serbian nationalists. A web of espionage was at play. The Black Hand, a secret organization, aimed to incite a war, but they weren’t alone. Reports suggest that Austrian officials may have even turned a blind eye, hoping to provoke a broader conflict. As tensions escalated, this assassination lit the fuse for World War I, a war that claimed over 16 million lives. The Archduke’s death wasn’t just a tragic event—it was a catalyst for a global catastrophe. So, how deep does this conspiracy go? What if the truth was hidden in plain sight? This plot twist changed history forever.",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.5780000000000003,
+      "audio_content": "What if Archduke Franz Ferdinand's assassination",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8814069794283972
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.5780000000000003,
+      "timestamp_end": 5.156000000000001,
+      "audio_content": "just the tip of the iceberg? On June",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9878562539815903
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.156000000000001,
+      "timestamp_end": 7.734000000000001,
+      "audio_content": "1914, as the Archduke drove through",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9885886675781673
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.734000000000001,
+      "timestamp_end": 10.312000000000001,
+      "audio_content": "a bomb was thrown by a young nationalist,",
+      "words_in_segment": 8,
+      "confidence_avg": 0.986814334988594
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.312000000000001,
+      "timestamp_end": 12.89,
+      "audio_content": "but that was only the beginning. This incident",
+      "words_in_segment": 8,
+      "confidence_avg": 0.99737598747015
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.89,
+      "timestamp_end": 15.468000000000002,
+      "audio_content": "a carefully orchestrated plot involving foreign",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9874320824941
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 15.468000000000002,
+      "timestamp_end": 18.046000000000003,
+      "audio_content": "and secret societies, not just",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9923014044761658
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 18.046000000000003,
+      "timestamp_end": 20.624000000000002,
+      "audio_content": "nationalists. A web of espionage",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9756208936373392
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 20.624000000000002,
+      "timestamp_end": 23.202,
+      "audio_content": "at play. The Black Hand, a secret",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9242024081093925
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 23.202,
+      "timestamp_end": 25.78,
+      "audio_content": "aimed to incite a war, but they",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9795242590563638
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 25.78,
+      "timestamp_end": 28.358000000000004,
+      "audio_content": "alone. Reports suggest that Austrian",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9740876197814942
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 28.358000000000004,
+      "timestamp_end": 30.936000000000003,
+      "audio_content": "may have even turned a blind eye, hoping to",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9574820465511746
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 30.936000000000003,
+      "timestamp_end": 33.514,
+      "audio_content": "a broader conflict. As tensions",
+      "words_in_segment": 5,
+      "confidence_avg": 0.991202712059021
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 33.514,
+      "timestamp_end": 36.092000000000006,
+      "audio_content": "this assassination lit the fuse for",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9335240324338278
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 36.092000000000006,
+      "timestamp_end": 38.67,
+      "audio_content": "War I, a war that claimed over 16",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9411848932504654
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 38.67,
+      "timestamp_end": 41.248000000000005,
+      "audio_content": "lives. The Archduke's death wasn't",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9781543195247651
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 41.248000000000005,
+      "timestamp_end": 43.82600000000001,
+      "audio_content": "a tragic event. It was a catalyst for a",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9963841239611307
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 43.82600000000001,
+      "timestamp_end": 46.404,
+      "audio_content": "catastrophe, so how deep does this conspiracy",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9954999770436969
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 46.404,
+      "timestamp_end": 48.982000000000006,
+      "audio_content": "What if the truth was hidden in plain",
+      "words_in_segment": 8,
+      "confidence_avg": 0.986249253153801
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 48.982000000000006,
+      "timestamp_end": 51.56,
+      "audio_content": "This plot twist changed history forever.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9861317873001099
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.5780000000000003,
+      "audio_content": "What if Archduke Franz Ferdinand's assassination",
+      "image_prompt": "Establishing shot of a dimly lit Sarajevo street in 1914, with cobblestone paths and vintage cars. Shadows loom from nearby buildings, hinting at secretive figures lurking. An air of tension hangs as a distant rumble of thunder echoes, foreshadowing the impending chaos.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8814069794283972,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.5780000000000003,
+      "timestamp_end": 5.156000000000001,
+      "audio_content": "just the tip of the iceberg? On June",
+      "image_prompt": "Wide shot of Sarajevo streets on June 28, 1914, with a vintage car carrying Archduke Franz Ferdinand. Dark clouds loom overhead, casting dramatic shadows, as a figure lurks in the background, hinting at the conspiracy that surrounds this historic moment.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9878562539815903,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.156000000000001,
+      "timestamp_end": 7.734000000000001,
+      "audio_content": "1914, as the Archduke drove through",
+      "image_prompt": "Wide shot of Sarajevo's bustling streets in 1914, capturing a vintage car carrying Archduke Franz Ferdinand amidst a crowd. Dramatic chiaroscuro lighting casts sharp shadows, highlighting the tension in the air as mysterious figures lurk in the background, hinting at the sinister plot unfolding.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9885886675781673,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.734000000000001,
+      "timestamp_end": 10.312000000000001,
+      "audio_content": "a bomb was thrown by a young nationalist,",
+      "image_prompt": "Medium shot of a young nationalist in shadowy alley, adrenaline coursing through his veins as he grips a bomb tightly. The tension is palpable in his expressive face, illuminated by flickering streetlights casting sharp shadows, hinting at the chaos about to unfold.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.986814334988594,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.312000000000001,
+      "timestamp_end": 12.89,
+      "audio_content": "but that was only the beginning. This incident",
+      "image_prompt": "Wide shot of a tense Sarajevo street, early 20th century. The Archduke’s car glides through a crowd, shadowy figures lurk in the background, hints of conspiracy in their expressions. Dramatic chiaroscuro lighting casts sharp shadows, foreshadowing the impending chaos.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.99737598747015,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.89,
+      "timestamp_end": 15.468000000000002,
+      "audio_content": "a carefully orchestrated plot involving foreign",
+      "image_prompt": "Wide shot depicting the bustling streets of Sarajevo on June 28, 1914, with a vintage automobile carrying Archduke Franz Ferdinand. Shadows loom ominously as figures in dark cloaks blend into the crowd, hinting at the conspiracy. The atmosphere is tense, filled with anticipation.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9874320824941,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 15.468000000000002,
+      "timestamp_end": 18.046000000000003,
+      "audio_content": "and secret societies, not just",
+      "image_prompt": "Wide shot of a dimly lit, smoke-filled room with shadowy figures gathered around a table, discussing a conspiracy. The atmosphere is tense, with chiaroscuro lighting casting sharp shadows across their faces, hinting at the secret societies plotting in the backdrop of impending war.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9923014044761658,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 18.046000000000003,
+      "timestamp_end": 20.624000000000002,
+      "audio_content": "nationalists. A web of espionage",
+      "image_prompt": "Wide shot of a shadowy, smoke-filled room filled with shadowy figures in dark suits, whispering conspiratorially. The ambiance is thick with tension and intrigue, illuminated by flickering candlelight casting sharp shadows across the walls, hinting at a secretive meeting plotting the assassination.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9756208936373392,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 20.624000000000002,
+      "timestamp_end": 23.202,
+      "audio_content": "at play. The Black Hand, a secret",
+      "image_prompt": "Wide shot of a shadowy, dimly lit room filled with conspirators of The Black Hand, their faces obscured by shadows, plotting around a large table with maps and documents scattered, evoking a tense atmosphere of secrecy and impending chaos.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9242024081093925,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 23.202,
+      "timestamp_end": 25.78,
+      "audio_content": "aimed to incite a war, but they",
+      "image_prompt": "Wide shot of a shadowy gathering of men in dark suits, their faces obscured by low-hanging light, plotting against the backdrop of a war map, tension palpable as they whisper conspiracies that will lead to chaos.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9795242590563638,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 25.78,
+      "timestamp_end": 28.358000000000004,
+      "audio_content": "alone. Reports suggest that Austrian",
+      "image_prompt": "Wide shot of a dimly lit, smoke-filled room where shadowy figures gather, whispering conspiratorially. The atmosphere is tense, with sharp shadows cast by flickering candlelight, hinting at secrets and hidden agendas that could ignite a global conflict.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9740876197814942,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 28.358000000000004,
+      "timestamp_end": 30.936000000000003,
+      "audio_content": "may have even turned a blind eye, hoping to",
+      "image_prompt": "Wide shot of a dark, smoky room filled with shadowy figures gathered around a table, maps and weapons scattered about. The atmosphere is tense, with flickering candlelight casting sharp shadows, capturing the conspiratorial mood as the secret society plots their next move against the Austro-Hungarian Empire.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9574820465511746,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 30.936000000000003,
+      "timestamp_end": 33.514,
+      "audio_content": "a broader conflict. As tensions",
+      "image_prompt": "Wide shot of a dimly lit 1914 Sarajevo street, with a shadowy figure lurking in the background, as the Archduke's motorcade approaches. The atmosphere is tense, with dramatic chiaroscuro lighting casting sharp shadows, hinting at the conspiracy brewing beneath the surface.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.991202712059021,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 33.514,
+      "timestamp_end": 36.092000000000006,
+      "audio_content": "this assassination lit the fuse for",
+      "image_prompt": "Wide shot of a bustling Sarajevo street in 1914, with vintage cars and people in period attire. The Archduke's vehicle is in the foreground, surrounded by shadows and intrigue, hinting at the imminent chaos. Dramatic chiaroscuro lighting casts sharp shadows, evoking tension.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9335240324338278,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 36.092000000000006,
+      "timestamp_end": 38.67,
+      "audio_content": "War I, a war that claimed over 16",
+      "image_prompt": "Wide shot of a dimly lit Sarajevo street in 1914, with the silhouette of Archduke Franz Ferdinand’s car emerging from the shadows. Dark figures lurk in the background, hinting at a conspiracy. Chiaroscuro lighting casts sharp shadows, creating a tense atmosphere.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9411848932504654,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 38.67,
+      "timestamp_end": 41.248000000000005,
+      "audio_content": "lives. The Archduke's death wasn't",
+      "image_prompt": "Wide shot of a bustling Sarajevo street on June 28, 1914, showcasing the Archduke's car in the foreground. Shadows loom ominously as conspirators blend into the crowd, their expressions tense and furtive, hinting at the brewing chaos and the hidden web of espionage around them.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9781543195247651,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 41.248000000000005,
+      "timestamp_end": 43.82600000000001,
+      "audio_content": "a tragic event. It was a catalyst for a",
+      "image_prompt": "Wide shot of a tense Sarajevo street in 1914, as the Archduke's motorcade approaches. Dark clouds loom overhead, casting sharp shadows. Figures are hidden in the corners, whispering, plotting. The atmosphere is thick with anticipation, hinting at the conspiracy waiting to unfold.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9963841239611307,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 43.82600000000001,
+      "timestamp_end": 46.404,
+      "audio_content": "catastrophe, so how deep does this conspiracy",
+      "image_prompt": "Medium shot of a shadowy figure in period attire, standing in a dimly lit room filled with maps and documents. The figure gazes intently at a detailed map of Europe, reflecting the weight of conspiracy. Dramatic chiaroscuro lighting casts sharp shadows, enhancing the intrigue.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9954999770436969,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 46.404,
+      "timestamp_end": 48.982000000000006,
+      "audio_content": "What if the truth was hidden in plain",
+      "image_prompt": "Medium shot of a shadowy figure in a dimly lit room, leaning over a table scattered with maps and documents, intense focus on their face as they plot the assassination of Archduke Franz Ferdinand, dramatic chiaroscuro lighting casting deep shadows around the conspiratorial scene.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.986249253153801,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 48.982000000000006,
+      "timestamp_end": 51.56,
+      "audio_content": "This plot twist changed history forever.",
+      "image_prompt": "Medium shot of a shadowy figure in a dimly lit room, contemplating a map of Europe, marked with lines and notes. The figure's face is partially obscured, revealing a tense expression illuminated by flickering candlelight, hinting at a deep conspiracy that set the world on fire.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9861317873001099,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 20,
+    "total_duration": 51.56,
+    "whisper_model": "base"
+  }
+}

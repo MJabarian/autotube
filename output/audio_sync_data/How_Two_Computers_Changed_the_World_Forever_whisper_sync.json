@@ -1,0 +1,241 @@
+{
+  "story_title": "How Two Computers Changed the World Forever",
+  "original_story": "[excited] You won't believe it—1983 marked the birth of the Internet! When the first successful communication between two computers happened, a new era began. With the TCP/IP protocol, researchers at UCLA and Stanford connected, paving the way for global communication. This breakthrough transformed how we share information, connecting billions today. Fast forward to now, and over 4.9 billion people are online. That's nearly two-thirds of the world! Can you even imagine a life without the Internet? It's mind-boggling!",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.401666666666667,
+      "audio_content": "You won't believe it. 1983 marked",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9409507910410563
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.401666666666667,
+      "timestamp_end": 4.803333333333334,
+      "audio_content": "birth of the internet. When the",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9252936740716299
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.803333333333334,
+      "timestamp_end": 7.205,
+      "audio_content": "successful communication between two computers",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9718950033187866
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.205,
+      "timestamp_end": 9.606666666666667,
+      "audio_content": "a new era began. With the",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9960562388102213
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.606666666666667,
+      "timestamp_end": 12.008333333333335,
+      "audio_content": "-IP protocol, researchers at",
+      "words_in_segment": 4,
+      "confidence_avg": 0.8717077532783151
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.008333333333335,
+      "timestamp_end": 14.41,
+      "audio_content": "and Stanford connected, paving",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9802182242274284
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.41,
+      "timestamp_end": 16.811666666666667,
+      "audio_content": "way for global communication. This breakthrough",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9936855733394623
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.811666666666667,
+      "timestamp_end": 19.213333333333335,
+      "audio_content": "how we share information,",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9984767735004425
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.213333333333335,
+      "timestamp_end": 21.615000000000002,
+      "audio_content": "billions today, fast forward to now,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9370597700277964
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.615000000000002,
+      "timestamp_end": 24.01666666666667,
+      "audio_content": "over 4 .9 billion people are online.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9915484189987183
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 24.01666666666667,
+      "timestamp_end": 26.418333333333337,
+      "audio_content": "That's nearly two -thirds of the world. Can you even",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9547410354018211
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 26.418333333333337,
+      "timestamp_end": 28.82,
+      "audio_content": "a life without the internet? It's mind -boggling.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.892981106415391
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.401666666666667,
+      "audio_content": "You won't believe it. 1983 marked",
+      "image_prompt": "Wide shot of a bustling 1980s university campus, with students gathered around computers, illuminated by glowing screens. Dramatic chiaroscuro lighting highlights their eager faces, as two researchers enthusiastically shake hands, symbolizing the momentous connection that will change the world forever.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9409507910410563,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.401666666666667,
+      "timestamp_end": 4.803333333333334,
+      "audio_content": "birth of the internet. When the",
+      "image_prompt": "Wide shot of a bustling 1980s computer lab, researchers animatedly connecting cables and typing on bulky computers, illuminated by the glow of screens. Shadows create a dramatic atmosphere, capturing the excitement and anticipation of a groundbreaking moment in technology.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9252936740716299,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.803333333333334,
+      "timestamp_end": 7.205,
+      "audio_content": "successful communication between two computers",
+      "image_prompt": "Wide shot of the UCLA and Stanford campuses in 1983, showcasing researchers gathered around computer terminals, illuminated by dramatic chiaroscuro lighting. Their faces reflect excitement and curiosity as they engage in the groundbreaking moment of the first successful communication between two computers.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9718950033187866,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.205,
+      "timestamp_end": 9.606666666666667,
+      "audio_content": "a new era began. With the",
+      "image_prompt": "Medium shot of a dimly lit room filled with early computer equipment, two researchers animatedly discussing their work, illuminated by the glow of a monitor displaying the first successful TCP/IP connection, their faces reflecting determination and excitement, shadows adding depth to the moment.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9960562388102213,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 9.606666666666667,
+      "timestamp_end": 12.008333333333335,
+      "audio_content": "-IP protocol, researchers at",
+      "image_prompt": "Medium shot of researchers at UCLA and Stanford in a dimly lit lab, focused on their computers. The glow of screens illuminates their excited faces as they communicate over the TCP/IP protocol, a world-changing moment filled with anticipation and innovation.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.8717077532783151,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.008333333333335,
+      "timestamp_end": 14.41,
+      "audio_content": "and Stanford connected, paving",
+      "image_prompt": "Medium shot of a researcher at UCLA, intently typing on a vintage computer, illuminated by the soft glow of the screen. In the background, a wall covered in network diagrams and the faint outlines of Stanford's campus can be seen, symbolizing the historic connection being established.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9802182242274284,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 14.41,
+      "timestamp_end": 16.811666666666667,
+      "audio_content": "way for global communication. This breakthrough",
+      "image_prompt": "Medium shot of a group of researchers at UCLA and Stanford, gathered around early computers, their faces illuminated by the glow of screens. Excitement and curiosity radiate from them as they communicate, symbolizing the dawn of the Internet, with dramatic chiaroscuro lighting highlighting their expressions.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9936855733394623,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 16.811666666666667,
+      "timestamp_end": 19.213333333333335,
+      "audio_content": "how we share information,",
+      "image_prompt": "Medium shot of two researchers in a dimly lit lab, intensely focused on their computer screens. The glow of the monitors reflects on their excited faces as they exchange enthusiastic looks, capturing the moment of the first successful computer communication in 1983, surrounded by vintage technology.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9984767735004425,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 19.213333333333335,
+      "timestamp_end": 21.615000000000002,
+      "audio_content": "billions today, fast forward to now,",
+      "image_prompt": "Medium shot of two researchers in a retro computer lab in the early 1980s, focused intently on their screens. The glow of the monitors casts dramatic shadows on their excited faces as they celebrate the first successful computer communication. Chiaroscuro lighting highlights the historical significance of this moment.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9370597700277964,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 21.615000000000002,
+      "timestamp_end": 24.01666666666667,
+      "audio_content": "over 4 .9 billion people are online.",
+      "image_prompt": "Medium shot of a diverse group of people gathered in a modern café, each engaged with their devices. Their faces illuminated by screens, reflecting excitement and curiosity. Dramatic chiaroscuro lighting highlights their expressions, symbolizing the global connection fostered by the Internet's inception in 1983.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9915484189987183,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 24.01666666666667,
+      "timestamp_end": 26.418333333333337,
+      "audio_content": "That's nearly two -thirds of the world. Can you even",
+      "image_prompt": "Medium shot of two researchers at UCLA and Stanford, excitedly interacting over a computer, their faces illuminated by the glow of the screen. The room is filled with early computer equipment, casting sharp shadows, capturing the moment of connection that heralded the dawn of the Internet.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9547410354018211,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 26.418333333333337,
+      "timestamp_end": 28.82,
+      "audio_content": "a life without the internet? It's mind -boggling.",
+      "image_prompt": "Medium shot of a vintage computer setup in a dimly lit 1980s room, with a researcher excitedly typing on the keyboard. The glow of the screen illuminates their face, expressing wonder and anticipation as they connect with another computer, symbolizing the dawn of the Internet.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.892981106415391,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 28.82,
+    "whisper_model": "base"
+  }
+}

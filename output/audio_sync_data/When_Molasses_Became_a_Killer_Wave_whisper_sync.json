@@ -1,0 +1,393 @@
+{
+  "story_title": "When Molasses Became a Killer Wave",
+  "original_story": "[shocked] On January 15, 1919, a tidal wave of molasses swept through the streets of Boston! Imagine a 2.3 million-gallon tank bursting, sending a thick, brown flood racing down Commercial Street at 35 miles per hour. This sticky disaster, known as the Great Molasses Flood, left 21 people dead and over 150 injured. Witnesses described the horrifying scene: houses rattled, and horses were trapped, struggling against the gooey tide. Local businesses were devastated, and the aftermath required over 100,000 man-hours to clean up. The cause? Structural negligence of the Purity Distilling Company, which faced lawsuits and public outrage. The disaster not only showcased the dangers of industrial negligence but also left a lasting imprint on the community. Today, locals still remember that fateful day, and the area remains notorious for its bizarre history. So, next time you think of molasses, remember that it once wreaked havoc, proving that even the sweetest things can have deadly consequences! [pause:1s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.96,
+      "audio_content": "On January 15, 1919, a tidal wave",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9654762702328819
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.96,
+      "timestamp_end": 5.92,
+      "audio_content": "molasses swept through the streets of Boston.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9930246216910226
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.92,
+      "timestamp_end": 8.879999999999999,
+      "audio_content": "a 2 .3 million gallon tank bursting,",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9433621636458805
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.879999999999999,
+      "timestamp_end": 11.84,
+      "audio_content": "sending a thick brown flood racing down commercial street at",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9402415692806244
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 11.84,
+      "timestamp_end": 14.8,
+      "audio_content": "miles per hour. This sticky disaster,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9515564739704132
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 14.8,
+      "timestamp_end": 17.759999999999998,
+      "audio_content": "known as the Great Molasses Flood, left 21",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9182547368109226
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 17.759999999999998,
+      "timestamp_end": 20.72,
+      "audio_content": "dead and over 150 injured.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9414556384086609
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 20.72,
+      "timestamp_end": 23.68,
+      "audio_content": "described the horrifying scene, houses rattled,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9752821773290634
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 23.68,
+      "timestamp_end": 26.64,
+      "audio_content": "and horses were trapped, struggling against the gooey tide.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9809783928924136
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 26.64,
+      "timestamp_end": 29.6,
+      "audio_content": "businesses were devastated, and the aftermath",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9858596324920654
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 29.6,
+      "timestamp_end": 32.56,
+      "audio_content": "over 100 ,000 man hours",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8955933213233948
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 32.56,
+      "timestamp_end": 35.519999999999996,
+      "audio_content": "clean up. The cause? Structural",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9525648713111877
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 35.519999999999996,
+      "timestamp_end": 38.48,
+      "audio_content": "of the purity distilling company, which faced lawsuits",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9665604680776596
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 38.48,
+      "timestamp_end": 41.44,
+      "audio_content": "public outrage. The disaster not only",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9933652679125468
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 41.44,
+      "timestamp_end": 44.4,
+      "audio_content": "the dangers of industrial negligence, but also",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9954291709831783
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 44.4,
+      "timestamp_end": 47.36,
+      "audio_content": "a lasting imprint on the community. Today, locals",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9891581758856773
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 47.36,
+      "timestamp_end": 50.32,
+      "audio_content": "remember that fateful day, and the area remains",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9856834821403027
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 50.32,
+      "timestamp_end": 53.28,
+      "audio_content": "for its bizarre history. So, next time you think",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9857356680764092
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 53.28,
+      "timestamp_end": 56.24,
+      "audio_content": "molasses, remember that it once wreaked havoc, proving",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8495270609855652
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 56.24,
+      "timestamp_end": 59.2,
+      "audio_content": "even the sweetest things can have deadly consequences.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.989032469689846
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.96,
+      "audio_content": "On January 15, 1919, a tidal wave",
+      "image_prompt": "Establishing shot of Commercial Street in Boston, 1919, with a massive, dark wave of molasses surging towards the viewer. Buildings loom ominously, shadows cast by the overcast sky, evoking a sense of impending disaster. A few shocked onlookers are frozen in horror, bathed in dramatic chiaroscuro lighting.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9654762702328819,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.96,
+      "timestamp_end": 5.92,
+      "audio_content": "molasses swept through the streets of Boston.",
+      "image_prompt": "Wide shot of the chaotic streets of Boston, engulfed in a thick, swirling tide of molasses. Buildings tremble under the weight of the brown flood, while terrified citizens scramble to escape. Chiaroscuro lighting casts dramatic shadows, highlighting the shocking scene of industrial disaster.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9930246216910226,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.92,
+      "timestamp_end": 8.879999999999999,
+      "audio_content": "a 2 .3 million gallon tank bursting,",
+      "image_prompt": "Wide shot of a chaotic Boston street in January 1919, engulfed in a thick wave of brown molasses. Buildings tremble, debris floats, and terrified citizens scramble for safety, their expressions a mix of shock and horror, all under dramatic chiaroscuro lighting.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9433621636458805,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.879999999999999,
+      "timestamp_end": 11.84,
+      "audio_content": "sending a thick brown flood racing down commercial street at",
+      "image_prompt": "Wide shot of a chaotic Boston street in 1919, thick brown molasses flooding down Commercial Street, houses trembling and horses struggling. The scene captures the aftermath of the Great Molasses Flood, with dramatic chiaroscuro lighting highlighting the sticky disaster's surreal impact on the environment.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9402415692806244,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 11.84,
+      "timestamp_end": 14.8,
+      "audio_content": "miles per hour. This sticky disaster,",
+      "image_prompt": "Wide shot of the chaotic streets of Boston on January 15, 1919, engulfed in a thick, brown flood of molasses. Buildings tremble as terrified citizens and trapped horses struggle against the sticky tide, captured in dramatic chiaroscuro lighting, evoking a sense of disaster and urgency.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9515564739704132,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 14.8,
+      "timestamp_end": 17.759999999999998,
+      "audio_content": "known as the Great Molasses Flood, left 21",
+      "image_prompt": "Wide shot of a chaotic Boston street, engulfed in a thick, brown wave of molasses. Buildings tremble, horses struggle against the sticky tide, and shocked onlookers stare in disbelief as the sweet disaster unfolds in dramatic chiaroscuro lighting.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9182547368109226,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 17.759999999999998,
+      "timestamp_end": 20.72,
+      "audio_content": "dead and over 150 injured.",
+      "image_prompt": "Wide shot of a chaotic Boston street engulfed in a thick, brown flood of molasses. Buildings shake, and terrified citizens flee, with horses struggling against the sticky tide. Dramatic chiaroscuro lighting casts sharp shadows, highlighting the horror of the Great Molasses Flood.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9414556384086609,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 20.72,
+      "timestamp_end": 23.68,
+      "audio_content": "described the horrifying scene, houses rattled,",
+      "image_prompt": "Wide shot of a chaotic Boston street inundated with a thick, brown wave of molasses, houses trembling under the pressure. Struggling horses are trapped in the gooey flood, while shocked onlookers watch in horror. Dramatic chiaroscuro lighting accentuates the surreal disaster.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9752821773290634,
+      "content_type": "environment_description",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 23.68,
+      "timestamp_end": 26.64,
+      "audio_content": "and horses were trapped, struggling against the gooey tide.",
+      "image_prompt": "Medium shot of horses struggling in thick, brown molasses, their hooves sinking into the gooey tide. Shadows loom overhead, highlighting their panic and desperation amid the chaos of a flooded Boston street. The scene is drenched in dramatic chiaroscuro lighting, evoking a sense of urgency.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9809783928924136,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 26.64,
+      "timestamp_end": 29.6,
+      "audio_content": "businesses were devastated, and the aftermath",
+      "image_prompt": "Wide shot of Boston's Commercial Street, engulfed in a thick, brown flood of molasses. Buildings stand in disarray, with debris scattered. Shadows stretch across the scene, highlighting the chaos as people rush to escape the sticky tide. The aftermath of the disaster looms ominously.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9858596324920654,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 29.6,
+      "timestamp_end": 32.56,
+      "audio_content": "over 100 ,000 man hours",
+      "image_prompt": "Wide shot of the chaotic aftermath of the Great Molasses Flood in Boston, showcasing thick, brown molasses engulfing streets and buildings, with stranded horses and stunned onlookers, all under dramatic chiaroscuro lighting, highlighting the devastation and shock of the community.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.8955933213233948,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 32.56,
+      "timestamp_end": 35.519999999999996,
+      "audio_content": "clean up. The cause? Structural",
+      "image_prompt": "Wide shot of Boston's Commercial Street engulfed in a thick, brown wave of molasses, houses trembling and horses trapped in the sticky tide. The scene is drenched in dramatic chiaroscuro lighting, casting sharp shadows on the chaotic environment, evoking a sense of horror and disbelief.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9525648713111877,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 35.519999999999996,
+      "timestamp_end": 38.48,
+      "audio_content": "of the purity distilling company, which faced lawsuits",
+      "image_prompt": "Wide shot of the chaotic aftermath of the Great Molasses Flood in Boston, with thick brown molasses flooding the streets, twisted metal from the tank, and shocked onlookers witnessing the devastation, all illuminated by dramatic chiaroscuro lighting that enhances the eerie atmosphere.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9665604680776596,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 38.48,
+      "timestamp_end": 41.44,
+      "audio_content": "public outrage. The disaster not only",
+      "image_prompt": "Wide shot of Boston's Commercial Street engulfed in a thick, brown flood of molasses, with houses shaking and struggling horses caught in the sticky tide, dramatic chiaroscuro lighting casting sharp shadows on the chaotic scene, capturing the horror of the Great Molasses Flood.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9933652679125468,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 41.44,
+      "timestamp_end": 44.4,
+      "audio_content": "the dangers of industrial negligence, but also",
+      "image_prompt": "Wide shot of Boston's Commercial Street, engulfed in a thick, brown tide of molasses. Buildings stand precariously, their foundations rattled. In the foreground, terrified citizens and struggling horses are caught in the sticky flood, with dramatic chiaroscuro lighting emphasizing the chaos of this historic disaster.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9954291709831783,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 44.4,
+      "timestamp_end": 47.36,
+      "audio_content": "a lasting imprint on the community. Today, locals",
+      "image_prompt": "Wide shot of a Boston street in 1919, thick waves of dark brown molasses flooding the cobblestone road, with distressed townsfolk in vintage clothing struggling to escape. The scene is illuminated by dramatic chiaroscuro lighting, casting sharp shadows on the buildings and creating a haunting atmosphere.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9891581758856773,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 47.36,
+      "timestamp_end": 50.32,
+      "audio_content": "remember that fateful day, and the area remains",
+      "image_prompt": "Wide shot of Boston streets engulfed in a thick, brown wave of molasses, buildings trembling under the pressure. The chaos of panicked citizens and struggling horses contrasts with the ominous, shadowy backdrop of a dark, cloudy sky, capturing the eerie aftermath of the Great Molasses Flood.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9856834821403027,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 50.32,
+      "timestamp_end": 53.28,
+      "audio_content": "for its bizarre history. So, next time you think",
+      "image_prompt": "Wide shot of a chaotic Boston street in 1919, engulfed by a torrent of thick brown molasses, splintered wooden structures trembling as the gooey flood surges forward. Shadows loom dramatically, capturing the horror and disbelief of onlookers, horses struggling against the sticky tide, and the aftermath of devastation.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9857356680764092,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 53.28,
+      "timestamp_end": 56.24,
+      "audio_content": "molasses, remember that it once wreaked havoc, proving",
+      "image_prompt": "Wide shot of Commercial Street in Boston, flooded with thick brown molasses, houses partially submerged, and horses struggling in the gooey tide. Dramatic chiaroscuro lighting casts sharp shadows across the chaotic scene, capturing the haunting aftermath of the Great Molasses Flood.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8495270609855652,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 56.24,
+      "timestamp_end": 59.2,
+      "audio_content": "even the sweetest things can have deadly consequences.",
+      "image_prompt": "Wide shot of a chaotic Boston street engulfed in a thick, brown wave of molasses, with houses trembling and horses struggling against the sticky flood. Dramatic chiaroscuro lighting enhances the horror and urgency of the scene, capturing the surreal aftermath of the Great Molasses Flood.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.989032469689846,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 20,
+    "total_duration": 59.2,
+    "whisper_model": "base"
+  }
+}

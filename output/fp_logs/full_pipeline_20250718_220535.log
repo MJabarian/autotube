@@ -1,0 +1,341 @@
+2025-07-18 22:05:35,799 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-18 22:05:35,800 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250718_220535.log
+2025-07-18 22:05:35,800 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-18 22:05:35,800 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 22:05:35,800 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 22:05:35,802 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 22:05:37,397 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:05:38,494 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:05:40,032 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:05:40,954 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:05:41,983 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:05:43,099 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:05:44,153 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:05:45,392 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:05:48,142 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:05:48,595 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:05:48,609 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Day the Moon Landing Was Almost Scrapped  
+**Summary:** Just hours before Neil Armstrong and Buzz Aldrin were set to embark on the historic Apollo 11 moon landing, a critical spacecraft system malfunction almost led mission control to abort the launch, which could have delayed lunar exploration for years.
+2025-07-18 22:05:48,610 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheDaytheMoonLandingWasAlmostScrappedSummaryJ_content_gen_2025-07-18_22-05-48.log
+2025-07-18 22:05:48,610 - autotube.content_gen - INFO - 📁 Sanitized folder name: TheNearMissThatAlmostStoppedApollo11
+2025-07-18 22:05:48,610 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 81 words
+2025-07-18 22:05:48,614 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\TheNearMissThatAlmostStoppedApollo11\story.json (1,282 bytes)
+2025-07-18 22:05:48,614 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\TheNearMissThatAlmostStoppedApollo11\topic.txt (322 bytes)
+2025-07-18 22:05:48,615 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\TheNearMissThatAlmostStoppedApollo11\metadata.json (722 bytes)
+2025-07-18 22:05:48,616 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\TheNearMissThatAlmostStoppedApollo11\story.txt (1,202 bytes)
+2025-07-18 22:05:48,616 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\TheNearMissThatAlmostStoppedApollo11
+2025-07-18 22:05:57,174 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\TheNearMissThatAlmostStoppedApollo11\audio_TheNearMissThatAlmostStoppedApollo11.mp3 (527,509 bytes)
+2025-07-18 22:05:57,269 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 32.97s duration
+2025-07-18 22:05:58,194 - autotube.content_gen - INFO - ✅ Audio speed adjustment: 1.1x, new duration: 30.04s
+2025-07-18 22:05:58,194 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\TheNearMissThatAlmostStoppedApollo11\audio_TheNearMissThatAlmostStoppedApollo11_sped_up.mp3 (527,509 bytes, 30.04s)
+2025-07-18 22:05:58,195 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-18 22:05:58,195 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-18 22:05:58,196 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\TheNearMissThatAlmostStoppedApollo11\audio_TheNearMissThatAlmostStoppedApollo11_sped_up.mp3
+2025-07-18 22:05:58,196 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-18 22:05:59,075 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-18 22:05:59,177 - faster_whisper - INFO - Processing audio with duration 00:29.996
+2025-07-18 22:06:00,016 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 22:06:04,887 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 29.74s
+2025-07-18 22:06:04,887 - whisper_audio_synchronizer - INFO - 📝 Extracted 83 words with timestamps
+2025-07-18 22:06:04,888 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 29.74s, Image duration: 2.48s
+2025-07-18 22:06:04,889 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-18 22:06:04,889 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-18 22:06:06,659 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:06:06,662 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): Establishing shot of NASA's Mission Control, bustl...
+2025-07-18 22:06:08,841 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:06:08,843 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of NASA's Mission Control in 1969, engin...
+2025-07-18 22:06:10,876 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:06:10,878 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/medium_shot): Medium shot of frantic engineers in Mission Contro...
+2025-07-18 22:06:12,767 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:06:12,769 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/medium_shot): Medium shot of engineers in Mission Control, faces...
+2025-07-18 22:06:14,679 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:06:14,682 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (emotional_moment/medium_shot): Medium shot of NASA engineers in a dimly lit contr...
+2025-07-18 22:06:16,752 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:06:16,754 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/medium_shot): Medium shot of NASA engineers huddled around a glo...
+2025-07-18 22:06:18,402 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:06:18,404 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (character_action/medium_shot): Medium shot of engineers huddled around a complex ...
+2025-07-18 22:06:20,875 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:06:20,877 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (character_action/medium_shot): Medium shot of engineers in Mission Control, faces...
+2025-07-18 22:06:22,478 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:06:22,481 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of tense engineers huddled around a co...
+2025-07-18 22:06:25,137 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:06:25,139 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/medium_shot): Medium shot of a tense control room filled with en...
+2025-07-18 22:06:27,294 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:06:27,311 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/medium_shot): Medium shot of tense engineers huddled around a co...
+2025-07-18 22:06:28,913 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 22:06:28,925 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (emotional_moment/close_up): Close-up of a tense engineer's face illuminated by...
+2025-07-18 22:06:28,929 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\The_Near_Miss_That_Almost_Stopped_Apollo_11_whisper_sync.json
+2025-07-18 22:06:28,929 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-18 22:06:28,930 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-18 22:06:28,931 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-18 22:06:28,932 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-18 22:06:28,942 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Intense\everything-is-just-the-beginning-epic-cinematic-277927.mp3 (3,822,654 bytes)
+2025-07-18 22:06:28,944 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\TheNearMissThatAlmostStoppedApollo11\music_selection.json (389 bytes)
+2025-07-18 22:06:28,945 - autotube.content_gen - INFO - ✅ Music selected: everything-is-just-the-beginning-epic-cinematic-277927.mp3
+2025-07-18 22:06:28,947 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-18 22:06:28,948 - src.replicate_image_generator - INFO - Generating images for story: The Near Miss That Almost Stopped Apollo 11
+2025-07-18 22:06:28,948 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-18 22:06:28,948 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-18 22:06:28,949 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-18 22:06:31,063 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:06:32,827 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:06:34,524 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:06:36,136 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:06:37,776 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:06:39,528 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:06:41,225 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:06:42,940 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:06:44,687 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:06:46,424 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:06:48,147 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:06:49,933 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 22:06:51,028 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-18 22:06:51,028 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-18 22:06:51,030 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-18 22:06:51,033 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-18 22:06:51,039 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-18 22:06:51,039 - autotube.content_gen - INFO - 📊 Total time: 75.23s, Cost: $0.0360
+2025-07-18 22:06:51,040 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Day the Moon Landing Was Almost Scrapped  
+**Summary:** Just hours before Neil Armstrong and Buzz Aldrin were set to embark on the historic Apollo 11 moon landing, a critical spacecraft system malfunction almost led mission control to abort the launch, which could have delayed lunar exploration for years.
+2025-07-18 22:06:51,076 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (75.27s)
+2025-07-18 22:06:51,076 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 22:06:51,077 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 22:06:51,077 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: TheNearMissThatAlmostStoppedApollo11
+2025-07-18 22:06:51,078 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: TheNearMissThatAlmostStoppedApollo11
+2025-07-18 22:06:51,078 - autotube.full_pipeline - INFO - ✅ Found source TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\TheNearMissThatAlmostStoppedApollo11\audio_TheNearMissThatAlmostStoppedApollo11.mp3
+2025-07-18 22:06:51,079 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\TheNearMissThatAlmostStoppedApollo11\music_selection.json
+2025-07-18 22:06:51,092 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Intense\everything-is-just-the-beginning-epic-cinematic-277927.mp3
+2025-07-18 22:06:51,115 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-18 22:06:51,115 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\TheNearMissThatAlmostStoppedApollo11\audio_TheNearMissThatAlmostStoppedApollo11.mp3
+2025-07-18 22:06:51,283 - src.audio_mixer - INFO - Loaded audio: 32967ms, 44100Hz, 2 channels
+2025-07-18 22:06:51,284 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Intense\everything-is-just-the-beginning-epic-cinematic-277927.mp3
+2025-07-18 22:06:51,724 - src.audio_mixer - INFO - Loaded audio: 119458ms, 44100Hz, 2 channels
+2025-07-18 22:06:51,724 - src.audio_mixer - INFO - Mixing audio (simple, mobile-optimized)...
+2025-07-18 22:06:51,726 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-18 22:06:51,774 - src.audio_mixer - INFO - Voice adjusted by 8.7dB, Music by -10.3dB
+2025-07-18 22:06:51,802 - src.audio_mixer - INFO - Audio mixing completed: 32967ms
+2025-07-18 22:06:52,752 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\TheNearMissThatAlmostStoppedApollo11\mixed_audio_TheNearMissThatAlmostStoppedApollo11.mp3
+2025-07-18 22:06:52,755 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\TheNearMissThatAlmostStoppedApollo11\mixed_audio_TheNearMissThatAlmostStoppedApollo11.mp3
+2025-07-18 22:06:52,755 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 1,084,399 bytes (1.0 MB)
+2025-07-18 22:06:52,757 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: TheNearMissThatAlmostStoppedApollo11
+2025-07-18 22:06:52,758 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-18 22:06:52,758 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-18 22:06:52,759 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: TheNearMissThatAlmostStoppedApollo11
+2025-07-18 22:06:52,981 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-18 22:06:52,981 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-18 22:06:52,982 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.75 seconds per image
+2025-07-18 22:06:52,983 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\TheNearMissThatAlmostStoppedApollo11_kenburns.mp4
+2025-07-18 22:06:52,983 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['pan_right', 'zoom_out', 'pan_left', 'zoom_in', 'pan_left']...
+2025-07-18 22:06:52,984 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-18 22:06:52,984 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 22:06:53,019 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-18 22:06:53,019 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 22:06:53,049 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-18 22:06:53,050 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 22:06:53,075 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-18 22:06:53,075 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 22:06:53,124 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-18 22:06:53,124 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 22:06:53,164 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-18 22:06:53,164 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 22:06:53,210 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-18 22:06:53,212 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 22:06:53,273 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-18 22:06:53,274 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 22:06:53,324 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-18 22:06:53,324 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 22:06:53,377 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-18 22:06:53,377 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 22:06:53,420 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-18 22:06:53,420 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 22:06:53,463 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-18 22:06:53,464 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 22:06:53,515 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-18 22:06:53,622 - autotube.full_pipeline - INFO - 🎵 Adding audio to video...
+2025-07-18 22:06:53,850 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\TheNearMissThatAlmostStoppedApollo11_kenburns.mp4
+2025-07-18 22:07:39,492 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-18 22:07:39,492 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-18 22:07:39,493 - autotube.full_pipeline - INFO - ✅ Video duration: 33.03 seconds
+2025-07-18 22:07:39,493 - autotube.full_pipeline - INFO - ✅ Video file size: 7.0 MB
+2025-07-18 22:07:39,493 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-18 22:07:39,519 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\TheNearMissThatAlmostStoppedApollo11_kenburns.mp4
+2025-07-18 22:07:39,519 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-18 22:07:39,520 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\TheNearMissThatAlmostStoppedApollo11_kenburns.mp4
+2025-07-18 22:07:39,520 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-18 22:07:39,521 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-18 22:07:39,522 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-18 22:07:39,523 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-18 22:07:40,812 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-18 22:07:40,813 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-18 22:07:40,813 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-18 22:07:40,992 - faster_whisper - INFO - Processing audio with duration 00:32.968
+2025-07-18 22:07:43,786 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 22:07:56,314 - autotube.full_pipeline - INFO - Extracted 83 words with timing
+2025-07-18 22:07:56,315 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 15.50s
+2025-07-18 22:07:56,691 - autotube.full_pipeline - INFO - Video loading took 0.38s
+2025-07-18 22:07:56,692 - autotube.full_pipeline - INFO - Original video - Duration: 33.03s, FPS: 30.0, Audio: True
+2025-07-18 22:07:56,692 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 83 words...
+2025-07-18 22:07:56,692 - autotube.full_pipeline - INFO - Group 1: 4 words (23 chars), 0.00s - 1.36s
+2025-07-18 22:07:56,693 - autotube.full_pipeline - INFO - Group 2: 3 words (30 chars), 1.34s - 2.96s
+2025-07-18 22:07:56,693 - autotube.full_pipeline - INFO - Group 3: 4 words (23 chars), 2.94s - 4.96s
+2025-07-18 22:07:56,693 - autotube.full_pipeline - INFO - Group 4: 3 words (15 chars), 4.94s - 6.28s
+2025-07-18 22:07:56,693 - autotube.full_pipeline - INFO - Group 5: 3 words (27 chars), 6.26s - 7.26s
+2025-07-18 22:07:56,693 - autotube.full_pipeline - INFO - Group 6: 3 words (28 chars), 7.24s - 9.24s
+2025-07-18 22:07:56,693 - autotube.full_pipeline - INFO - Group 7: 3 words (26 chars), 9.22s - 10.58s
+2025-07-18 22:07:56,694 - autotube.full_pipeline - INFO - Group 8: 3 words (20 chars), 10.56s - 11.60s
+2025-07-18 22:07:56,694 - autotube.full_pipeline - INFO - Group 9: 4 words (23 chars), 11.58s - 12.68s
+2025-07-18 22:07:56,694 - autotube.full_pipeline - INFO - Group 10: 3 words (24 chars), 12.66s - 14.02s
+2025-07-18 22:07:56,694 - autotube.full_pipeline - INFO - Group 11: 3 words (14 chars), 14.00s - 15.68s
+2025-07-18 22:07:56,694 - autotube.full_pipeline - INFO - Group 12: 3 words (25 chars), 15.66s - 17.00s
+2025-07-18 22:07:56,694 - autotube.full_pipeline - INFO - Group 13: 3 words (20 chars), 16.98s - 17.98s
+2025-07-18 22:07:56,694 - autotube.full_pipeline - INFO - Group 14: 3 words (24 chars), 17.96s - 19.42s
+2025-07-18 22:07:56,695 - autotube.full_pipeline - INFO - Group 15: 3 words (25 chars), 19.40s - 20.68s
+2025-07-18 22:07:56,695 - autotube.full_pipeline - INFO - Group 16: 3 words (21 chars), 20.66s - 21.76s
+2025-07-18 22:07:56,695 - autotube.full_pipeline - INFO - Group 17: 3 words (15 chars), 21.74s - 22.64s
+2025-07-18 22:07:56,695 - autotube.full_pipeline - INFO - Group 18: 4 words (23 chars), 22.62s - 24.22s
+2025-07-18 22:07:56,695 - autotube.full_pipeline - INFO - Group 19: 4 words (18 chars), 24.20s - 25.38s
+2025-07-18 22:07:56,695 - autotube.full_pipeline - INFO - Group 20: 3 words (15 chars), 25.36s - 26.20s
+2025-07-18 22:07:56,695 - autotube.full_pipeline - INFO - Group 21: 3 words (25 chars), 26.18s - 27.76s
+2025-07-18 22:07:56,695 - autotube.full_pipeline - INFO - Group 22: 3 words (24 chars), 27.74s - 29.00s
+2025-07-18 22:07:56,696 - autotube.full_pipeline - INFO - Group 23: 3 words (23 chars), 28.98s - 30.22s
+2025-07-18 22:07:56,696 - autotube.full_pipeline - INFO - Group 24: 4 words (19 chars), 30.20s - 31.48s
+2025-07-18 22:07:56,696 - autotube.full_pipeline - INFO - Group 25: 3 words (16 chars), 31.46s - 32.32s
+2025-07-18 22:07:56,696 - autotube.full_pipeline - INFO - Group 26: 2 words (12 chars), 32.30s - 32.68s
+2025-07-18 22:07:56,696 - autotube.full_pipeline - INFO - Created 26 word groups with smart length limiting
+2025-07-18 22:07:56,696 - autotube.full_pipeline - INFO - Creating clips for group 1: 4 words
+2025-07-18 22:07:57,621 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.28s
+2025-07-18 22:07:58,420 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.24s - 0.70s
+2025-07-18 22:07:59,156 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.66s - 1.08s
+2025-07-18 22:07:59,854 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 1: 1.04s - 1.29s
+2025-07-18 22:07:59,855 - autotube.full_pipeline - INFO - Created clips for 1/26 word groups - ETA: 3s
+2025-07-18 22:07:59,855 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-18 22:08:01,035 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 1.34s - 2.08s
+2025-07-18 22:08:02,197 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 2.04s - 2.46s
+2025-07-18 22:08:03,401 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 2.42s - 2.89s
+2025-07-18 22:08:03,401 - autotube.full_pipeline - INFO - Creating clips for group 3: 4 words
+2025-07-18 22:08:04,253 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 2.94s - 3.16s
+2025-07-18 22:08:05,095 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 3.12s - 4.54s
+2025-07-18 22:08:05,902 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 4.50s - 4.64s
+2025-07-18 22:08:06,681 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 3: 4.60s - 4.89s
+2025-07-18 22:08:06,681 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-18 22:08:07,133 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 4.94s - 5.44s
+2025-07-18 22:08:07,588 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 5.40s - 5.74s
+2025-07-18 22:08:08,030 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 5.70s - 6.21s
+2025-07-18 22:08:08,030 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-18 22:08:09,051 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 6.26s - 6.50s
+2025-07-18 22:08:10,051 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 6.46s - 6.96s
+2025-07-18 22:08:11,099 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 6.92s - 7.19s
+2025-07-18 22:08:11,099 - autotube.full_pipeline - INFO - Creating clips for group 6: 3 words
+2025-07-18 22:08:12,191 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 7.24s - 8.56s
+2025-07-18 22:08:13,247 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 8.52s - 8.84s
+2025-07-18 22:08:14,280 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 8.80s - 9.17s
+2025-07-18 22:08:14,281 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-18 22:08:15,182 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 9.22s - 9.70s
+2025-07-18 22:08:16,240 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 9.66s - 10.38s
+2025-07-18 22:08:17,208 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 10.34s - 10.51s
+2025-07-18 22:08:17,209 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-18 22:08:18,083 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 10.56s - 11.20s
+2025-07-18 22:08:19,353 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 11.16s - 11.40s
+2025-07-18 22:08:20,348 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 11.36s - 11.53s
+2025-07-18 22:08:20,349 - autotube.full_pipeline - INFO - Creating clips for group 9: 4 words
+2025-07-18 22:08:22,394 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 11.58s - 11.70s
+2025-07-18 22:08:24,685 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 11.66s - 12.00s
+2025-07-18 22:08:26,644 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 11.96s - 12.48s
+2025-07-18 22:08:28,651 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 9: 12.44s - 12.61s
+2025-07-18 22:08:28,652 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-18 22:08:30,439 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 12.66s - 13.02s
+2025-07-18 22:08:31,605 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 12.98s - 13.34s
+2025-07-18 22:08:32,742 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 13.30s - 13.95s
+2025-07-18 22:08:32,742 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-18 22:08:33,345 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 14.00s - 14.32s
+2025-07-18 22:08:33,943 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 14.28s - 15.52s
+2025-07-18 22:08:34,443 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 15.48s - 15.61s
+2025-07-18 22:08:34,443 - autotube.full_pipeline - INFO - Created clips for 11/26 word groups - ETA: 38s
+2025-07-18 22:08:34,444 - autotube.full_pipeline - INFO - Creating clips for group 12: 3 words
+2025-07-18 22:08:36,158 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 15.66s - 16.10s
+2025-07-18 22:08:38,355 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 16.06s - 16.66s
+2025-07-18 22:08:40,065 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 16.62s - 16.93s
+2025-07-18 22:08:40,066 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-18 22:08:41,430 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 16.98s - 17.36s
+2025-07-18 22:08:42,829 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 17.32s - 17.72s
+2025-07-18 22:08:43,947 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 17.68s - 17.91s
+2025-07-18 22:08:43,948 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-18 22:08:45,341 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 17.96s - 18.62s
+2025-07-18 22:08:46,527 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 18.58s - 18.92s
+2025-07-18 22:08:47,914 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 18.88s - 19.35s
+2025-07-18 22:08:47,915 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-18 22:08:49,378 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 19.40s - 19.62s
+2025-07-18 22:08:50,778 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 19.58s - 20.36s
+2025-07-18 22:08:52,240 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 20.32s - 20.61s
+2025-07-18 22:08:52,240 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-18 22:08:53,569 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 20.66s - 21.08s
+2025-07-18 22:08:54,990 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 21.04s - 21.26s
+2025-07-18 22:08:56,107 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 21.22s - 21.69s
+2025-07-18 22:08:56,107 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-18 22:08:56,826 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 21.74s - 22.08s
+2025-07-18 22:08:57,451 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 22.04s - 22.44s
+2025-07-18 22:08:58,023 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 22.40s - 22.57s
+2025-07-18 22:08:58,023 - autotube.full_pipeline - INFO - Creating clips for group 18: 4 words
+2025-07-18 22:08:59,097 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 22.62s - 23.36s
+2025-07-18 22:09:00,922 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 23.32s - 23.70s
+2025-07-18 22:09:02,558 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 23.66s - 24.06s
+2025-07-18 22:09:03,940 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 18: 24.02s - 24.15s
+2025-07-18 22:09:03,941 - autotube.full_pipeline - INFO - Creating clips for group 19: 4 words
+2025-07-18 22:09:05,165 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 24.20s - 24.52s
+2025-07-18 22:09:06,299 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 24.48s - 24.84s
+2025-07-18 22:09:07,439 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 24.80s - 25.12s
+2025-07-18 22:09:08,502 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 19: 25.08s - 25.31s
+2025-07-18 22:09:08,503 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-18 22:09:09,363 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 25.36s - 25.50s
+2025-07-18 22:09:10,209 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 25.46s - 25.74s
+2025-07-18 22:09:11,052 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 25.70s - 26.13s
+2025-07-18 22:09:11,053 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-18 22:09:12,785 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 26.18s - 26.50s
+2025-07-18 22:09:14,419 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 26.46s - 27.18s
+2025-07-18 22:09:16,180 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 27.14s - 27.69s
+2025-07-18 22:09:16,180 - autotube.full_pipeline - INFO - Created clips for 21/26 word groups - ETA: 79s
+2025-07-18 22:09:16,181 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-18 22:09:18,130 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 27.74s - 28.14s
+2025-07-18 22:09:20,899 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 28.10s - 28.54s
+2025-07-18 22:09:23,359 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 28.50s - 28.93s
+2025-07-18 22:09:23,360 - autotube.full_pipeline - INFO - Creating clips for group 23: 3 words
+2025-07-18 22:09:25,906 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 28.98s - 29.28s
+2025-07-18 22:09:27,967 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 29.24s - 29.68s
+2025-07-18 22:09:29,823 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 29.64s - 30.15s
+2025-07-18 22:09:29,823 - autotube.full_pipeline - INFO - Creating clips for group 24: 4 words
+2025-07-18 22:09:31,454 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 30.20s - 30.44s
+2025-07-18 22:09:32,523 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 30.40s - 30.64s
+2025-07-18 22:09:33,372 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 30.60s - 31.36s
+2025-07-18 22:09:34,287 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 24: 31.32s - 31.41s
+2025-07-18 22:09:34,288 - autotube.full_pipeline - INFO - Creating clips for group 25: 3 words
+2025-07-18 22:09:35,135 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 31.46s - 31.68s
+2025-07-18 22:09:35,994 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 31.64s - 31.96s
+2025-07-18 22:09:36,652 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 31.92s - 32.25s
+2025-07-18 22:09:36,652 - autotube.full_pipeline - INFO - Creating clips for group 26: 2 words
+2025-07-18 22:09:37,213 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 26: 32.30s - 32.42s
+2025-07-18 22:09:37,806 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 26: 32.38s - 32.88s
+2025-07-18 22:09:37,806 - autotube.full_pipeline - INFO - Created 83 individual subtitle clips
+2025-07-18 22:09:37,807 - autotube.full_pipeline - INFO - Viral subtitle creation took 101.11s
+2025-07-18 22:09:37,807 - autotube.full_pipeline - INFO - Subtitle clips count: 83
+2025-07-18 22:09:37,828 - autotube.full_pipeline - INFO - Video composition took 0.02s
+2025-07-18 22:09:37,829 - autotube.full_pipeline - INFO - Final video - Duration: 33.03s, Audio: True
+2025-07-18 22:09:37,829 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\TheNearMissThatAlmostStoppedApollo11_final.mp4
+2025-07-18 22:10:23,679 - autotube.full_pipeline - INFO - Video writing took 45.85s
+2025-07-18 22:10:23,679 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-18 22:10:24,080 - autotube.full_pipeline - INFO - Output file - Duration: 33.03s, Audio: True, Playable: True
+2025-07-18 22:10:24,112 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\TheNearMissThatAlmostStoppedApollo11_final.mp4
+2025-07-18 22:10:24,112 - autotube.full_pipeline - INFO - Total processing time: 163.30s
+2025-07-18 22:10:24,113 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\TheNearMissThatAlmostStoppedApollo11_final.mp4
+2025-07-18 22:10:24,114 - autotube.full_pipeline - INFO - 📊 Final video size: 5,166,092 bytes (4.9 MB)
+2025-07-18 22:10:24,114 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-18 22:10:24,114 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\TheNearMissThatAlmostStoppedApollo11_kenburns.mp4
+2025-07-18 22:10:24,115 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\TheNearMissThatAlmostStoppedApollo11_final.mp4
+2025-07-18 22:10:24,161 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (213.08s)
+2025-07-18 22:10:24,161 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-18 22:10:24,166 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_TheNearMissThatAlmostStoppedApollo11_20250718_221024.json
+2025-07-18 22:10:24,167 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-18 22:10:24,167 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 22:10:24,167 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 288.36s
+2025-07-18 22:10:24,167 - autotube.full_pipeline - INFO - 📁 Story Title: TheNearMissThatAlmostStoppedApollo11
+2025-07-18 22:10:24,168 - autotube.full_pipeline - INFO - 📁 Sanitized Title: TheNearMissThatAlmostStoppedApollo11
+2025-07-18 22:10:24,168 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_TheNearMissThatAlmostStoppedApollo11_20250718_221024.json

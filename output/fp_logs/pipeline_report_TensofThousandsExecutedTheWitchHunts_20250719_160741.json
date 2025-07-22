@@ -1,0 +1,58 @@
+{
+  "pipeline_info": {
+    "story_title": "TensofThousandsExecutedTheWitchHunts",
+    "sanitized_title": "TensofThousandsExecutedTheWitchHunts",
+    "start_time": "2025-07-19T16:03:15.266118",
+    "end_time": "2025-07-19T16:07:41.396320",
+    "total_duration": 266.1302034854889,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1752955395.2772996,
+      "end": 1752955458.869465,
+      "duration": 63.59216547012329,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1752955458.869465,
+      "end": 1752955661.3953164,
+      "duration": 202.52585124969482,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\TensofThousandsExecutedTheWitchHunts\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\TensofThousandsExecutedTheWitchHunts\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\TensofThousandsExecutedTheWitchHunts\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\TensofThousandsExecutedTheWitchHunts\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\TensofThousandsExecutedTheWitchHunts\\audio_TensofThousandsExecutedTheWitchHunts.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\TensofThousandsExecutedTheWitchHunts\\audio_TensofThousandsExecutedTheWitchHunts_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\TensofThousandsExecutedTheWitchHunts\\mixed_audio_TensofThousandsExecutedTheWitchHunts.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TensofThousandsExecutedTheWitchHunts\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TensofThousandsExecutedTheWitchHunts\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TensofThousandsExecutedTheWitchHunts\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TensofThousandsExecutedTheWitchHunts\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TensofThousandsExecutedTheWitchHunts\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TensofThousandsExecutedTheWitchHunts\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TensofThousandsExecutedTheWitchHunts\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TensofThousandsExecutedTheWitchHunts\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TensofThousandsExecutedTheWitchHunts\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TensofThousandsExecutedTheWitchHunts\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TensofThousandsExecutedTheWitchHunts\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\TensofThousandsExecutedTheWitchHunts\\image_12.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\videos\\TensofThousandsExecutedTheWitchHunts_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\subtitles_processed_video\\TensofThousandsExecutedTheWitchHunts_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

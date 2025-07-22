@@ -1,0 +1,58 @@
+{
+  "pipeline_info": {
+    "story_title": "MurderThatSparkedaBrazilianPoliticalRevolution",
+    "sanitized_title": "MurderThatSparkedaBrazilianPoliticalRevolution",
+    "start_time": "2025-07-20T12:08:53.649175",
+    "end_time": "2025-07-20T12:12:21.972858",
+    "total_duration": 208.32368350028992,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753027733.6511717,
+      "end": 1753027799.043403,
+      "duration": 65.39223122596741,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753027799.045406,
+      "end": 1753027941.9718587,
+      "duration": 142.92645263671875,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\MurderThatSparkedaBrazilianPoliticalRevolution\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\MurderThatSparkedaBrazilianPoliticalRevolution\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\MurderThatSparkedaBrazilianPoliticalRevolution\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\MurderThatSparkedaBrazilianPoliticalRevolution\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\MurderThatSparkedaBrazilianPoliticalRevolution\\audio_MurderThatSparkedaBrazilianPoliticalRevolution.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\MurderThatSparkedaBrazilianPoliticalRevolution\\audio_MurderThatSparkedaBrazilianPoliticalRevolution_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\MurderThatSparkedaBrazilianPoliticalRevolution\\mixed_audio_MurderThatSparkedaBrazilianPoliticalRevolution.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MurderThatSparkedaBrazilianPoliticalRevolution\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MurderThatSparkedaBrazilianPoliticalRevolution\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MurderThatSparkedaBrazilianPoliticalRevolution\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MurderThatSparkedaBrazilianPoliticalRevolution\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MurderThatSparkedaBrazilianPoliticalRevolution\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MurderThatSparkedaBrazilianPoliticalRevolution\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MurderThatSparkedaBrazilianPoliticalRevolution\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MurderThatSparkedaBrazilianPoliticalRevolution\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MurderThatSparkedaBrazilianPoliticalRevolution\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MurderThatSparkedaBrazilianPoliticalRevolution\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MurderThatSparkedaBrazilianPoliticalRevolution\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\MurderThatSparkedaBrazilianPoliticalRevolution\\image_12.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\videos\\MurderThatSparkedaBrazilianPoliticalRevolution_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\subtitles_processed_video\\MurderThatSparkedaBrazilianPoliticalRevolution_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

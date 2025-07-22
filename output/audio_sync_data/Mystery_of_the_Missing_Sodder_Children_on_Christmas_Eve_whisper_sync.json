@@ -1,0 +1,241 @@
+{
+  "story_title": "Mystery of the Missing Sodder Children on Christmas Eve",
+  "original_story": "[mysterious] What if I told you five children vanished into thin air? On Christmas Eve 1945, a fire engulfed the Sodder home in West Virginia. While the parents and four siblings escaped, the other five disappeared without a trace. Strange clues emerged—a ladder leading to the roof and a suspicious car parked nearby. As the family searched for answers, sightings of the children were reported for years. To this day, their fate remains a chilling mystery. [pause:1s] Where did they go?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.2116666666666664,
+      "audio_content": "What if I told you five children vanished into",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9491792851024203
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.2116666666666664,
+      "timestamp_end": 4.423333333333333,
+      "audio_content": "air? On Christmas Eve,",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9583283960819244
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.423333333333333,
+      "timestamp_end": 6.635,
+      "audio_content": "a fire engulfed the solder home in",
+      "words_in_segment": 7,
+      "confidence_avg": 0.870253446556273
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.635,
+      "timestamp_end": 8.846666666666666,
+      "audio_content": "Virginia. While the parents and four",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9893955886363983
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.846666666666666,
+      "timestamp_end": 11.058333333333332,
+      "audio_content": "escaped, the other five disappeared",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9925800681114196
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.058333333333332,
+      "timestamp_end": 13.27,
+      "audio_content": "a trace. Strange clues",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9712126106023788
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.27,
+      "timestamp_end": 15.481666666666666,
+      "audio_content": "a ladder leading to the roof",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9810065726439158
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.481666666666666,
+      "timestamp_end": 17.69333333333333,
+      "audio_content": "a suspicious car parked nearby.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9881664395332337
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 17.69333333333333,
+      "timestamp_end": 19.904999999999998,
+      "audio_content": "As the family searched for answers,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.970499982436498
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 19.904999999999998,
+      "timestamp_end": 22.116666666666664,
+      "audio_content": "of the children were reported for years.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9982161862509591
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.116666666666664,
+      "timestamp_end": 24.32833333333333,
+      "audio_content": "To this day, their fate remains a chilling",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9922524839639664
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.32833333333333,
+      "timestamp_end": 26.54,
+      "audio_content": "Where did they go?",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9917395263910294
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.2116666666666664,
+      "audio_content": "What if I told you five children vanished into",
+      "image_prompt": "Wide shot of the charred remains of the Sodder home, smoke curling into the night sky. A shadowy figure stands in the foreground, gazing at the ruins, a faint silhouette of a ladder leading up to the roof, bathed in eerie moonlight, suggesting mystery and loss.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9491792851024203,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.2116666666666664,
+      "timestamp_end": 4.423333333333333,
+      "audio_content": "air? On Christmas Eve,",
+      "image_prompt": "Establishing shot of a charred, smoldering house on a cold Christmas Eve night, shadows creeping over the snow-covered ground. A distant, ominous silhouette of a ladder leaning against the roof looms under a pale moonlight, hinting at the mystery of the vanished children.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9583283960819244,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 4.423333333333333,
+      "timestamp_end": 6.635,
+      "audio_content": "a fire engulfed the solder home in",
+      "image_prompt": "Wide shot of the Sodder home ablaze, flames licking the night sky, with dark silhouettes of the parents and siblings escaping. The eerie glow casts long shadows, while a mysterious car looms in the background, hinting at secrets lurking just beyond the fire.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.870253446556273,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 6.635,
+      "timestamp_end": 8.846666666666666,
+      "audio_content": "Virginia. While the parents and four",
+      "image_prompt": "Wide shot of the charred remains of the Sodder home on a cold Christmas Eve, with smoke curling into the night sky. A flickering streetlight casts eerie shadows, illuminating a mysterious ladder leaning against the house and a suspicious car parked nearby, hinting at the chilling secrets within.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9893955886363983,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 8.846666666666666,
+      "timestamp_end": 11.058333333333332,
+      "audio_content": "escaped, the other five disappeared",
+      "image_prompt": "Medium shot of a distraught mother standing in the charred remains of the Sodder home, her face illuminated by flickering flames, casting sharp shadows. In the background, a shadowy figure of a child seems to vanish into the darkness, evoking mystery and heartbreak.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9925800681114196,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 11.058333333333332,
+      "timestamp_end": 13.27,
+      "audio_content": "a trace. Strange clues",
+      "image_prompt": "Wide shot of the charred remnants of the Sodder family home, silhouetted against a dark, starry Christmas Eve sky. A distant figure stands near a suspicious car, while faint shadows hint at a ladder leaning against the roof, evoking a sense of mystery and unanswered questions.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9712126106023788,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 13.27,
+      "timestamp_end": 15.481666666666666,
+      "audio_content": "a ladder leading to the roof",
+      "image_prompt": "Wide shot of a darkened West Virginia landscape on a snowy Christmas Eve, a lone ladder leaning against the charred remains of the Sodder home, ominous shadows stretching across the ground, the faint outline of a suspicious car parked nearby, evoking a sense of mystery and abandonment.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9810065726439158,
+      "content_type": "environment_description",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 15.481666666666666,
+      "timestamp_end": 17.69333333333333,
+      "audio_content": "a suspicious car parked nearby.",
+      "image_prompt": "Medium shot of a dimly lit street, focusing on a suspicious car parked under flickering streetlights. Shadows loom ominously as a figure peeks from behind the car, eyes scanning the surroundings, adding tension to the mystery of the vanished children.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9881664395332337,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 17.69333333333333,
+      "timestamp_end": 19.904999999999998,
+      "audio_content": "As the family searched for answers,",
+      "image_prompt": "Medium shot of a somber family gathered around a flickering fire, their faces illuminated by the flames, searching through old photographs. Shadows dance on the walls, hinting at the mystery that lingers in the air, as they exchange worried glances filled with hope and despair.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.970499982436498,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 19.904999999999998,
+      "timestamp_end": 22.116666666666664,
+      "audio_content": "of the children were reported for years.",
+      "image_prompt": "Medium shot of a somber family standing in front of their charred home on a foggy Christmas Eve, shadows of the past lingering. The parents gaze into the distance, worry etched on their faces, while a faded photograph of the children clutches in the mother's trembling hands.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9982161862509591,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 22.116666666666664,
+      "timestamp_end": 24.32833333333333,
+      "audio_content": "To this day, their fate remains a chilling",
+      "image_prompt": "Close-up of a parent's anguished face illuminated by the flickering glow of a nearby fire, eyes filled with despair and determination, shadows dancing across their features, capturing the raw emotion of loss and the haunting mystery surrounding the vanished children.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9922524839639664,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 24.32833333333333,
+      "timestamp_end": 26.54,
+      "audio_content": "Where did they go?",
+      "image_prompt": "Close-up of a distressed mother's face, eyes filled with tears and fear as she clutches a faded photograph of her five missing children. The shadows play across her features, highlighting the anguish and uncertainty in a dimly lit room, evoking the chilling mystery of their disappearance.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9917395263910294,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 26.54,
+    "whisper_model": "base"
+  }
+}

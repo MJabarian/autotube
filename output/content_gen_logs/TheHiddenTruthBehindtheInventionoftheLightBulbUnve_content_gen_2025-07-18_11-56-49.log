@@ -1,0 +1,20 @@
+2025-07-18 11:56:49,600 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: The Hidden Truth Behind the Invention of the Light Bulb  
+Unveil the shocking reality that Thomas Edison may have manipulated public perception and suppressed competing inventors, including Nikola Tesla, to establish his dominance in the electrical industry.
+2025-07-18 11:56:49,600 - autotube.content_gen - INFO - 📝 Log file: output\content_gen_logs\TheHiddenTruthBehindtheInventionoftheLightBulbUnve_content_gen_2025-07-18_11-56-49.log
+2025-07-18 11:56:49,601 - autotube.content_gen - INFO - 📁 Sanitized folder name: TheDarkSideoftheLightBulbInvention
+2025-07-18 11:56:49,601 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 168 words
+2025-07-18 11:56:49,604 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: output/stories/TheDarkSideoftheLightBulbInvention\story.json (1,803 bytes)
+2025-07-18 11:56:49,604 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: output/stories/TheDarkSideoftheLightBulbInvention\topic.txt (259 bytes)
+2025-07-18 11:56:49,605 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: output/stories/TheDarkSideoftheLightBulbInvention\metadata.json (709 bytes)
+2025-07-18 11:56:49,605 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: output/stories/TheDarkSideoftheLightBulbInvention\story.txt (1,696 bytes)
+2025-07-18 11:56:49,606 - autotube.content_gen - INFO - ✅ Story assets saved to: output/stories/TheDarkSideoftheLightBulbInvention
+2025-07-18 11:57:03,361 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: output\audio\TheDarkSideoftheLightBulbInvention\audio_TheDarkSideoftheLightBulbInvention.mp3 (1,020,283 bytes)
+2025-07-18 11:57:03,457 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 63.76s duration
+2025-07-18 11:57:03,525 - autotube.content_gen - INFO - ✅ TTS audio generated: output\audio\TheDarkSideoftheLightBulbInvention\audio_TheDarkSideoftheLightBulbInvention.mp3 (1,020,283 bytes, 63.76s)
+2025-07-18 11:57:03,526 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-18 11:57:03,527 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-18 11:57:03,527 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: output\audio\TheDarkSideoftheLightBulbInvention\audio_TheDarkSideoftheLightBulbInvention.mp3
+2025-07-18 11:57:03,527 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-18 11:57:04,300 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-18 11:57:04,447 - faster_whisper - INFO - Processing audio with duration 01:03.765
+2025-07-18 11:57:05,242 - faster_whisper - INFO - Detected language 'en' with probability 1.00

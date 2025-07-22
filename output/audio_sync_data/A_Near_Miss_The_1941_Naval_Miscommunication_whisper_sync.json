@@ -1,0 +1,353 @@
+{
+  "story_title": "A Near Miss: The 1941 Naval Miscommunication",
+  "original_story": "[dramatic] What if a single miscommunication could have changed the Pacific War? In 1941, U.S. naval command was on high alert after Pearl Harbor. Just days later, intelligence picked up on Japanese fleet movements in the Pacific. But here’s the twist: a critical message about the Japanese ships was misinterpreted. Instead of preparing for an attack, the U.S. forces were caught off-guard! Visualize naval officers, poring over maps, their faces etched with tension, as ships drifted silently in the water, unaware of their fate. A sudden storm brewed on the horizon, creating a dramatic backdrop. Meanwhile, the Japanese fleet, cloaked in the shadows, was poised for action. If this miscommunication had led to a surprise attack on the Japanese, it could have shifted the entire war’s momentum. Picture the intense naval battles that might have erupted and the lives that could have been saved. In the end, the irony was palpable: sometimes, silence speaks louder than words—what if they had listened more closely? [pause:1s]",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.838,
+      "audio_content": "What if a single miscommunication could have changed the",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9654160870446099
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.838,
+      "timestamp_end": 5.676,
+      "audio_content": "War? In 1941, U .S. naval",
+      "words_in_segment": 6,
+      "confidence_avg": 0.7251720478137335
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.676,
+      "timestamp_end": 8.514,
+      "audio_content": "was on high alert after Pearl Harbor. Just",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9927172958850861
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.514,
+      "timestamp_end": 11.352,
+      "audio_content": "later, intelligence picked up on Japanese fleet",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9837355613708496
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 11.352,
+      "timestamp_end": 14.190000000000001,
+      "audio_content": "in the Pacific. But here's the twist, a",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9868674539029598
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 14.190000000000001,
+      "timestamp_end": 17.028,
+      "audio_content": "message about the Japanese ships was",
+      "words_in_segment": 6,
+      "confidence_avg": 0.991657038529714
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 17.028,
+      "timestamp_end": 19.866,
+      "audio_content": "Instead of preparing for an attack, the U .S.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9893784953488244
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 19.866,
+      "timestamp_end": 22.704,
+      "audio_content": "were caught off guard. Visualize naval",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9507067849238714
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 22.704,
+      "timestamp_end": 25.542,
+      "audio_content": "pouring over maps, their faces",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9841263294219971
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 25.542,
+      "timestamp_end": 28.380000000000003,
+      "audio_content": "with tension, as ships drifted silently in the",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8781894352287054
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 28.380000000000003,
+      "timestamp_end": 31.218,
+      "audio_content": "unaware of their fate, a sudden storm",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9941410081727164
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 31.218,
+      "timestamp_end": 34.056,
+      "audio_content": "on the horizon, creating a dramatic backdrop.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9970787337848118
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 34.056,
+      "timestamp_end": 36.894,
+      "audio_content": "Meanwhile, the Japanese fleet, cloaked in the shadows,",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9883672744035721
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 36.894,
+      "timestamp_end": 39.732,
+      "audio_content": "was poised for action. If this",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9935250331958135
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 39.732,
+      "timestamp_end": 42.57,
+      "audio_content": "had led to a surprise attack on the Japanese,",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9946790337562561
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 42.57,
+      "timestamp_end": 45.408,
+      "audio_content": "could have shifted the entire war's momentum, picture",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9363732449710369
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 45.408,
+      "timestamp_end": 48.246,
+      "audio_content": "intense naval battles that might have erupted and the",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9531637363963656
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 48.246,
+      "timestamp_end": 51.084,
+      "audio_content": "that could have been saved. In the end, the",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9904746545685662
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 51.084,
+      "timestamp_end": 53.922000000000004,
+      "audio_content": "was palpable. Sometimes, silence speaks",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9871698081493377
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 53.922000000000004,
+      "timestamp_end": 56.760000000000005,
+      "audio_content": "than words. What if they had listened more closely?",
+      "words_in_segment": 9,
+      "confidence_avg": 0.8810679482089149
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.838,
+      "audio_content": "What if a single miscommunication could have changed the",
+      "image_prompt": "In a dimly lit naval command room, tense officers huddle over large, detailed maps, their furrowed brows reflecting the weight of impending decisions. Outside, dark storm clouds gather ominously on the horizon, casting a foreboding shadow over silent warships bobbing gently in the water. The atmosphere is thick with anxiety, as whispers of miscommunication hang heavy in the air.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9654160870446099
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.838,
+      "timestamp_end": 5.676,
+      "audio_content": "War? In 1941, U .S. naval",
+      "image_prompt": "In a dimly lit naval command room, anxious officers gather around a large map, their faces illuminated by flickering overhead lights. Tension hangs palpably in the air as they scrutinize the shifting symbols of the Japanese fleet. Outside, dark storm clouds loom ominously over tranquil waters, where unsuspecting ships drift, oblivious to the impending chaos.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.7251720478137335
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.676,
+      "timestamp_end": 8.514,
+      "audio_content": "was on high alert after Pearl Harbor. Just",
+      "image_prompt": "A dimly lit naval command room, filled with tense officers hunched over intricate maps, their brows furrowed in worry. Shadows flicker across their faces as a sudden storm brews outside, dark clouds swirling ominously on the horizon. In the background, silhouettes of ships float silently in the water, unaware of the looming threat, embodying a sense of impending doom.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9927172958850861
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.514,
+      "timestamp_end": 11.352,
+      "audio_content": "later, intelligence picked up on Japanese fleet",
+      "image_prompt": "In a dimly lit naval command room, tense officers huddle over large maps scattered with red markers, their brows furrowed in worry. Outside, a storm brews ominously on the horizon, dark clouds swirling above silent ships bobbing in the harbor. Shadows flicker as the weight of miscommunication hangs in the air, a palpable tension before the storm of conflict.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9837355613708496
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 11.352,
+      "timestamp_end": 14.190000000000001,
+      "audio_content": "in the Pacific. But here's the twist, a",
+      "image_prompt": "In a dimly lit naval command room, anxious officers huddle over detailed maps, their brows furrowed with tension. Outside, ships float motionless in the dark waters, oblivious to impending danger. A storm brews ominously on the horizon, casting foreboding shadows. The air crackles with unspoken dread, as the unseen Japanese fleet lurks just beyond the veil of silence.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9868674539029598
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 14.190000000000001,
+      "timestamp_end": 17.028,
+      "audio_content": "message about the Japanese ships was",
+      "image_prompt": "In a dimly lit naval command center, tense officers huddle around a large, cluttered table strewn with maps and radio equipment. Their furrowed brows and anxious expressions reflect the gravity of a misunderstood message. Outside the window, dark storm clouds gather ominously, casting shadows over silent ships floating in the harbor, oblivious to the impending danger.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.991657038529714
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 17.028,
+      "timestamp_end": 19.866,
+      "audio_content": "Instead of preparing for an attack, the U .S.",
+      "image_prompt": "A dimly lit war room, filled with naval officers huddled around a large, weathered map, faces tense and grave, their brows furrowed in deep concentration. Outside, the ocean is eerily calm, ships bobbing gently in the water, oblivious to the brewing storm on the horizon. Dark clouds loom ominously, casting shadows over the fleet, symbolizing the looming threat of miscommunication.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9893784953488244
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 19.866,
+      "timestamp_end": 22.704,
+      "audio_content": "were caught off guard. Visualize naval",
+      "image_prompt": "Amidst the dimly lit command room, naval officers hunch over large, detailed maps, their brows furrowed in concentration, tension palpable in the air. Outside, the ocean lies eerily still, ships drifting silently, oblivious to their fate. A dark storm looms on the horizon, casting ominous shadows, as the Japanese fleet prepares, hidden in the depths of the encroaching darkness.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9507067849238714
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 22.704,
+      "timestamp_end": 25.542,
+      "audio_content": "pouring over maps, their faces",
+      "image_prompt": "A dimly lit naval command room, maps sprawled across a large table, illuminated by flickering overhead lights. Tension hangs in the air as weary officers, brows furrowed and eyes wide with concern, lean over the charts. Shadows dance on their faces, reflecting the gravity of miscommunication. Outside the window, dark storm clouds gather ominously on the horizon, hinting at the impending chaos.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9841263294219971
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 25.542,
+      "timestamp_end": 28.380000000000003,
+      "audio_content": "with tension, as ships drifted silently in the",
+      "image_prompt": "A dimly lit naval command room, where anxious officers huddle over large, detailed maps, their faces illuminated by flickering overhead lights, revealing deep lines of concern. Outside, the ocean glimmers ominously under a brooding sky, dark clouds gathering as ships float silently, oblivious to the storm brewing on the horizon and the looming threat in the shadows.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8781894352287054
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 28.380000000000003,
+      "timestamp_end": 31.218,
+      "audio_content": "unaware of their fate, a sudden storm",
+      "image_prompt": "In a dimly lit naval command room, anxious officers hover over large, weathered maps, their faces taut with worry and determination. Outside, ominous storm clouds gather, casting a foreboding shadow over the calm sea, where U.S. ships float silently, oblivious to the impending chaos. The tension hangs thick in the air, echoing the weight of miscommunication.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9941410081727164
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 31.218,
+      "timestamp_end": 34.056,
+      "audio_content": "on the horizon, creating a dramatic backdrop.",
+      "image_prompt": "A tense naval command room, dimly lit by flickering overhead lights, reveals officers huddled around a large, worn map, brows furrowed in concentration. Outside, looming storm clouds gather ominously on the horizon, casting dark shadows over the tranquil sea. In the distance, the silhouettes of Japanese ships lie in wait, their presence felt but unseen, as uncertainty thickens in the air.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9970787337848118
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 34.056,
+      "timestamp_end": 36.894,
+      "audio_content": "Meanwhile, the Japanese fleet, cloaked in the shadows,",
+      "image_prompt": "In the dim, turbulent twilight, a shadowy Japanese fleet emerges from the mist, warships gliding silently through dark waters. Tension thickens the air as naval officers on a nearby U.S. ship study crumpled maps, their faces taut with anxiety. Lightning flickers in the distance, illuminating the ominous clouds, while the ominous silence hints at the impending storm of conflict.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9883672744035721
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 36.894,
+      "timestamp_end": 39.732,
+      "audio_content": "was poised for action. If this",
+      "image_prompt": "A tense U.S. naval command room, dimly lit by flickering overhead lights, reveals officers hunched over detailed maps, their faces strained with anxiety. Outside, the ocean churns ominously under darkening skies, hinting at an approaching storm. In the shadows, the sleek silhouette of the Japanese fleet lurks, poised for action, as the winds whisper of impending chaos.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9935250331958135
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 39.732,
+      "timestamp_end": 42.57,
+      "audio_content": "had led to a surprise attack on the Japanese,",
+      "image_prompt": "A tense U.S. naval command room, dimly lit by flickering overhead lights, filled with officers huddled over large, detailed maps. Their furrowed brows and clenched jaws reflect urgency and anxiety. Outside the window, dark storm clouds loom ominously over tranquil waters, while shadows hint at the hidden Japanese fleet, poised to strike. The air is thick with unspoken tension.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9946790337562561
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 42.57,
+      "timestamp_end": 45.408,
+      "audio_content": "could have shifted the entire war's momentum, picture",
+      "image_prompt": "In a dimly lit naval command room, anxious officers huddle around a large table cluttered with maps and intelligence reports, their faces illuminated by flickering overhead lights. Outside, ominous storm clouds gather, casting shadows over the silent fleet drifting in the dark water. In the distance, the silhouette of the Japanese fleet looms, poised for action, as tension hangs thick in the air.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9363732449710369
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 45.408,
+      "timestamp_end": 48.246,
+      "audio_content": "intense naval battles that might have erupted and the",
+      "image_prompt": "A tense scene unfolds on the U.S. naval command deck, where officers, faces drawn and eyes wide with urgency, huddle over large, detailed maps strewn with red markings. Outside, ships drift silently in the churning gray water, their hulls reflecting the brewing storm. Dark clouds loom ominously overhead, foreshadowing the impending chaos of unexpected naval battles that could have changed everything.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9531637363963656
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 48.246,
+      "timestamp_end": 51.084,
+      "audio_content": "that could have been saved. In the end, the",
+      "image_prompt": "In a dimly lit naval command room, anxious officers huddle over large, weathered maps, their faces shadowed with concern. Outside, dark clouds churn ominously on the horizon, casting a foreboding shadow over ships drifting silently in the water. Tension crackles in the air, a silent testament to the lives hanging in the balance, while the unseen Japanese fleet lurks in the depths.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9904746545685662
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 51.084,
+      "timestamp_end": 53.922000000000004,
+      "audio_content": "was palpable. Sometimes, silence speaks",
+      "image_prompt": "In a dimly lit naval command room, officers huddle over weathered maps, their brows furrowed in anxiety. Outside, ominous clouds gather, casting shadows on the tranquil sea where ships float unknowingly. The tension in the air is thick, as if the silence itself is a warning, foreshadowing the storm of conflict about to unfold.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9871698081493377
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 53.922000000000004,
+      "timestamp_end": 56.760000000000005,
+      "audio_content": "than words. What if they had listened more closely?",
+      "image_prompt": "A dimly lit naval command room, shadows dancing on anxious faces of officers huddled over large, detailed maps scattered with markings. Tension hangs thick in the air as a distant storm brews on the horizon, dark clouds swirling ominously. Outside, silent ships float in eerie stillness, unaware of the impending chaos, embodying the haunting irony of unheeded warnings.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.8810679482089149
+    }
+  ],
+  "metadata": {
+    "total_images": 20,
+    "total_duration": 56.760000000000005,
+    "whisper_model": "base"
+  }
+}

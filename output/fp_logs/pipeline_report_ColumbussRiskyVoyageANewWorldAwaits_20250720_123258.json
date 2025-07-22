@@ -1,0 +1,58 @@
+{
+  "pipeline_info": {
+    "story_title": "ColumbussRiskyVoyageANewWorldAwaits",
+    "sanitized_title": "ColumbussRiskyVoyageANewWorldAwaits",
+    "start_time": "2025-07-20T12:29:25.147881",
+    "end_time": "2025-07-20T12:32:58.358286",
+    "total_duration": 213.2104058265686,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753028965.1508782,
+      "end": 1753029022.5746417,
+      "duration": 57.42376351356506,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753029022.5756385,
+      "end": 1753029178.3562853,
+      "duration": 155.78064680099487,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\ColumbussRiskyVoyageANewWorldAwaits\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\ColumbussRiskyVoyageANewWorldAwaits\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\ColumbussRiskyVoyageANewWorldAwaits\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\ColumbussRiskyVoyageANewWorldAwaits\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\ColumbussRiskyVoyageANewWorldAwaits\\audio_ColumbussRiskyVoyageANewWorldAwaits.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\ColumbussRiskyVoyageANewWorldAwaits\\audio_ColumbussRiskyVoyageANewWorldAwaits_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\ColumbussRiskyVoyageANewWorldAwaits\\mixed_audio_ColumbussRiskyVoyageANewWorldAwaits.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\ColumbussRiskyVoyageANewWorldAwaits\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\ColumbussRiskyVoyageANewWorldAwaits\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\ColumbussRiskyVoyageANewWorldAwaits\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\ColumbussRiskyVoyageANewWorldAwaits\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\ColumbussRiskyVoyageANewWorldAwaits\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\ColumbussRiskyVoyageANewWorldAwaits\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\ColumbussRiskyVoyageANewWorldAwaits\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\ColumbussRiskyVoyageANewWorldAwaits\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\ColumbussRiskyVoyageANewWorldAwaits\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\ColumbussRiskyVoyageANewWorldAwaits\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\ColumbussRiskyVoyageANewWorldAwaits\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\ColumbussRiskyVoyageANewWorldAwaits\\image_12.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\videos\\ColumbussRiskyVoyageANewWorldAwaits_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\subtitles_processed_video\\ColumbussRiskyVoyageANewWorldAwaits_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}

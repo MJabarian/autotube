@@ -1,0 +1,56 @@
+{
+  "pipeline_info": {
+    "story_title": "HowaLast-MinuteChangeLitUptheWorld",
+    "sanitized_title": "HowaLast-MinuteChangeLitUptheWorld",
+    "start_time": "2025-07-20T16:02:13.138179",
+    "end_time": "2025-07-20T16:06:14.738479",
+    "total_duration": 241.60030055046082,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1753041733.1431725,
+      "end": 1753041801.6570683,
+      "duration": 68.51389575004578,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1753041801.6580648,
+      "end": 1753041974.7374809,
+      "duration": 173.07941603660583,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowaLast-MinuteChangeLitUptheWorld\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowaLast-MinuteChangeLitUptheWorld\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowaLast-MinuteChangeLitUptheWorld\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\HowaLast-MinuteChangeLitUptheWorld\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\HowaLast-MinuteChangeLitUptheWorld\\audio_HowaLast-MinuteChangeLitUptheWorld.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\HowaLast-MinuteChangeLitUptheWorld\\audio_HowaLast-MinuteChangeLitUptheWorld_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\HowaLast-MinuteChangeLitUptheWorld\\mixed_audio_HowaLast-MinuteChangeLitUptheWorld.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaLast-MinuteChangeLitUptheWorld\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaLast-MinuteChangeLitUptheWorld\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaLast-MinuteChangeLitUptheWorld\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaLast-MinuteChangeLitUptheWorld\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaLast-MinuteChangeLitUptheWorld\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaLast-MinuteChangeLitUptheWorld\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaLast-MinuteChangeLitUptheWorld\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaLast-MinuteChangeLitUptheWorld\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaLast-MinuteChangeLitUptheWorld\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaLast-MinuteChangeLitUptheWorld\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaLast-MinuteChangeLitUptheWorld\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\HowaLast-MinuteChangeLitUptheWorld\\image_12.jpg"
+    ]
+  },
+  "pipeline_status": "SUCCESS"
+}

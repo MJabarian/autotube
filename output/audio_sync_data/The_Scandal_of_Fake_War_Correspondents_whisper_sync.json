@@ -1,0 +1,353 @@
+{
+  "story_title": "The Scandal of Fake War Correspondents",
+  "original_story": "[shocked] In the 19th century, some war heroes never set foot on the battlefield! Journalists like William Russell and Mark Twain crafted sensationalized accounts of conflicts, spinning tales so vivid that they became gospel to the public. [dramatic] But here’s the twist: many of them never witnessed the carnage firsthand. Instead, they relied on gossip, hearsay, and a vivid imagination. [curious] Imagine entire nations swayed by tall tales of heroism and despair, all to sell newspapers! [pause:0.5s] During the Crimean War, Russell’s reports sparked public outrage over military incompetence, changing the course of public opinion. [excited] And Twain? He wrote about the Civil War from afar, creating iconic characters no one ever met! This web of deception shows just how potent the printed word can be. [mysterious] So, what does this say about our modern media? Are we still being fooled by the stories we read? [pause:1s] The past may be fabricated, but the questions linger on…",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.6710000000000003,
+      "audio_content": "In the 19th century, some war heroes never",
+      "words_in_segment": 8,
+      "confidence_avg": 0.960177157074213
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.6710000000000003,
+      "timestamp_end": 5.3420000000000005,
+      "audio_content": "foot on the battlefield. Journalists like William",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9931185500962394
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.3420000000000005,
+      "timestamp_end": 8.013000000000002,
+      "audio_content": "and Mark Twain crafted",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9658776819705963
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.013000000000002,
+      "timestamp_end": 10.684000000000001,
+      "audio_content": "accounts of conflicts, spinning tales so",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9577386776606241
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.684000000000001,
+      "timestamp_end": 13.355,
+      "audio_content": "that they became gospel to the public.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9788901380130223
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 13.355,
+      "timestamp_end": 16.026000000000003,
+      "audio_content": "here's the twist. Many of them never witnessed",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9915199913084507
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 16.026000000000003,
+      "timestamp_end": 18.697000000000003,
+      "audio_content": "carnage first hand. Instead, they relied",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8253259286284447
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 18.697000000000003,
+      "timestamp_end": 21.368000000000002,
+      "audio_content": "gossip, hearsay, and a vivid",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9812716782093048
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 21.368000000000002,
+      "timestamp_end": 24.039,
+      "audio_content": "Imagine entire nations swayed",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9521751031279564
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 24.039,
+      "timestamp_end": 26.71,
+      "audio_content": "tall tales of heroism and despair, all to",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9931193515658379
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 26.71,
+      "timestamp_end": 29.381000000000004,
+      "audio_content": "newspapers. During the Crimean",
+      "words_in_segment": 4,
+      "confidence_avg": 0.8264981433749199
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 29.381000000000004,
+      "timestamp_end": 32.05200000000001,
+      "audio_content": "Russell's report sparked public outrage over",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9235711147387823
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 32.05200000000001,
+      "timestamp_end": 34.723000000000006,
+      "audio_content": "incompetence, changing the course of public",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9906152884165446
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 34.723000000000006,
+      "timestamp_end": 37.394000000000005,
+      "audio_content": "And Twain, he wrote about the civil war from",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9193293088012271
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 37.394000000000005,
+      "timestamp_end": 40.065000000000005,
+      "audio_content": "creating iconic characters no one ever",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9715987245241801
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 40.065000000000005,
+      "timestamp_end": 42.736000000000004,
+      "audio_content": "This web of deception shows just how",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9780777863093785
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 42.736000000000004,
+      "timestamp_end": 45.407000000000004,
+      "audio_content": "the printed word can be. So, what does this",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9914514025052389
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 45.407000000000004,
+      "timestamp_end": 48.078,
+      "audio_content": "about our modern media? Are we still being fooled by",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9953265428543091
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 48.078,
+      "timestamp_end": 50.749,
+      "audio_content": "stories we read? The past",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9912070870399475
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 50.749,
+      "timestamp_end": 53.42,
+      "audio_content": "be fabricated, but the questions linger on.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9872286873204368
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.6710000000000003,
+      "audio_content": "In the 19th century, some war heroes never",
+      "image_prompt": "A dimly lit 19th-century newspaper office, cluttered with stacks of yellowed papers and ink-stained desks. A weary journalist, ink smudged on his fingers, gazes intently at a flickering oil lamp as he scribbles furiously. Shadows dance on the walls, reflecting the weight of his imagination. Outside, a crowd gathers, faces alight with anticipation, ready to believe the sensational tales of war heroes he crafts.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.960177157074213
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.6710000000000003,
+      "timestamp_end": 5.3420000000000005,
+      "audio_content": "foot on the battlefield. Journalists like William",
+      "image_prompt": "A dimly lit 19th-century newspaper office, cluttered with ink-stained papers and typewriters. William Russell, a rugged journalist with piercing eyes, feverishly scribbles notes by flickering candlelight. Shadows loom large on the walls, hinting at the chaos of war. Outside, a distant battlefield is barely visible through a fog, emphasizing his detachment from the real carnage.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9931185500962394
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.3420000000000005,
+      "timestamp_end": 8.013000000000002,
+      "audio_content": "and Mark Twain crafted",
+      "image_prompt": "A dimly lit 19th-century newspaper office, cluttered with papers and ink-stained desks. A passionate Mark Twain, mid-sentence, gestures animatedly as he writes, his brow furrowed with intensity. Shadows dance on the walls, illuminated by flickering gaslight. Outside the window, a bustling street teems with eager readers clutching newspapers, their faces a mix of awe and curiosity, captivated by the tales unfolding within.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9658776819705963
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.013000000000002,
+      "timestamp_end": 10.684000000000001,
+      "audio_content": "accounts of conflicts, spinning tales so",
+      "image_prompt": "A dimly lit 19th-century newsroom, cluttered with crumpled papers and ink-stained quills. William Russell, a passionate journalist, fervently writes at a wooden desk, his brow furrowed in concentration. In the background, shadowy figures of soldiers and civilians are illustrated on the walls, their expressions a mix of fear and courage, as newspaper headlines proclaim tales of heroism. A flickering candle casts dramatic shadows, heightening the tension in the air.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9577386776606241
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.684000000000001,
+      "timestamp_end": 13.355,
+      "audio_content": "that they became gospel to the public.",
+      "image_prompt": "In a dimly lit 19th-century newspaper office, a passionate journalist, quill in hand, scribbles furiously over a parchment covered in dramatic headlines. Shadows dance on the walls as gaslight flickers, illuminating stacks of newspapers proclaiming heroic tales. Outside, a crowd of eager readers gathers, faces alight with excitement and disbelief, embodying the fervor of sensationalized stories gripping the nation.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9788901380130223
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 13.355,
+      "timestamp_end": 16.026000000000003,
+      "audio_content": "here's the twist. Many of them never witnessed",
+      "image_prompt": "A dimly lit 19th-century newsroom, filled with smoke and chaos. A weary journalist, ink-stained fingers, frantically types at a mahogany desk, surrounded by scattered papers and half-empty ink pots. Shadows of soldiers loom on the wall, their faces distorted by flickering candlelight, as whispers of distant battles echo, blurring the line between truth and fiction.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9915199913084507
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 16.026000000000003,
+      "timestamp_end": 18.697000000000003,
+      "audio_content": "carnage first hand. Instead, they relied",
+      "image_prompt": "In a dimly lit, smoke-filled newspaper office, a weary journalist, William Russell, hunches over his typewriter, ink-stained fingers poised above the keys. Shadows dance on the walls, flickering from gas lamps, as stacks of papers bearing sensational headlines loom around him. Outside, a crowd gathers, faces illuminated with anger and curiosity, embodying the fervor of public opinion swayed by his vivid but fabricated tales of war.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8253259286284447
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 18.697000000000003,
+      "timestamp_end": 21.368000000000002,
+      "audio_content": "gossip, hearsay, and a vivid",
+      "image_prompt": "A dimly lit 19th-century newspaper office, where a group of animated journalists huddle around a cluttered wooden desk. Ink-stained fingers clutch quills, as they passionately debate over crumpled papers filled with sensational headlines. Shadows dance across their faces, revealing a mix of excitement and deceit. The air is thick with tension, whispers of \"gossip\" and \"hearsay\" floating like specters among the flickering candlelight.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9812716782093048
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 21.368000000000002,
+      "timestamp_end": 24.039,
+      "audio_content": "Imagine entire nations swayed",
+      "image_prompt": "A bustling 19th-century newspaper office, filled with frantic journalists surrounded by stacks of papers and ink-stained typewriters. A large, dramatic poster of a battlefield looms on the wall, while a group of captivated readers huddle around a glowing lantern, their faces illuminated with awe and disbelief. Outside, a foggy street shrouded in mystery, echoing the power of sensationalized tales.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9521751031279564
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 24.039,
+      "timestamp_end": 26.71,
+      "audio_content": "tall tales of heroism and despair, all to",
+      "image_prompt": "A dimly lit 19th-century newspaper office, filled with the scent of ink and parchment. A journalist, quill in hand, feverishly scribbles sensational headlines about heroism. Shadows of soldiers loom large on the wall, their faces twisted in despair. Outside, a crowd gathers, eyes wide with intrigue and disbelief, as whispers of war and glory swirl through the air like smoke.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9931193515658379
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 26.71,
+      "timestamp_end": 29.381000000000004,
+      "audio_content": "newspapers. During the Crimean",
+      "image_prompt": "A dimly lit news office, cluttered with stacks of newspapers and ink-stained papers. A determined William Russell, quill in hand, fervently writes at a wooden desk, shadows cast dramatically across his face. In the background, a wall adorned with maps of the Crimean War, flickering candlelight illuminating his intense expression as he crafts tales of heroism, embodying the weight of public opinion.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.8264981433749199
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 29.381000000000004,
+      "timestamp_end": 32.05200000000001,
+      "audio_content": "Russell's report sparked public outrage over",
+      "image_prompt": "A dimly lit newspaper office, cluttered with papers and ink-stained fingers, reveals an impassioned William Russell, fervently scribbling at his desk. Shadows dance across the room as candlelight flickers, illuminating his intense expression. Outside, a crowd gathers, faces twisted in outrage, clutching newspapers with bold headlines. The atmosphere crackles with tension, as whispers of military incompetence swirl through the air like a storm brewing.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9235711147387823
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 32.05200000000001,
+      "timestamp_end": 34.723000000000006,
+      "audio_content": "incompetence, changing the course of public",
+      "image_prompt": "A dimly lit newspaper office, cluttered with ink-stained papers and flickering gas lamps. In the foreground, a determined journalist, William Russell, furrows his brow as he types furiously on an old typewriter, surrounded by stacks of papers detailing military incompetence. Shadows dance on the walls, reflecting the urgency and tension of public outrage brewing beyond the office.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9906152884165446
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 34.723000000000006,
+      "timestamp_end": 37.394000000000005,
+      "audio_content": "And Twain, he wrote about the civil war from",
+      "image_prompt": "A dimly lit writer's study, filled with the scent of ink and parchment. Mark Twain, clad in a rumpled suit, sits hunched over a cluttered desk, quill in hand, eyes alight with fervor. Shadows dance on the walls, illuminated by a flickering candle. In the background, maps of the Civil War hang, hinting at distant battles, while crumpled newspaper clippings scatter the floor, echoing tales of heroism.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9193293088012271
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 37.394000000000005,
+      "timestamp_end": 40.065000000000005,
+      "audio_content": "creating iconic characters no one ever",
+      "image_prompt": "A dimly lit study filled with scattered parchment and ink-stained quills, a weary Mark Twain sits at an antique writing desk, his brow furrowed in concentration. Shadows dance across the walls, hinting at the vibrant characters emerging from his imagination. In the background, a flickering candle illuminates a framed portrait of a heroic soldier, evoking both admiration and mystery.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9715987245241801
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 40.065000000000005,
+      "timestamp_end": 42.736000000000004,
+      "audio_content": "This web of deception shows just how",
+      "image_prompt": "A dimly lit 19th-century newspaper office, cluttered with ink-stained papers and quills, where a journalist, eyes wide with fervor, scribbles furiously at his desk. Shadows loom over him, hinting at the weight of deception. In the background, a wall filled with sensationalized headlines captures the chaos of war, echoing the fervent emotions of a misled public.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9780777863093785
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 42.736000000000004,
+      "timestamp_end": 45.407000000000004,
+      "audio_content": "the printed word can be. So, what does this",
+      "image_prompt": "A dimly lit newsroom filled with the chaotic energy of reporters scribbling frantically at their desks, surrounded by scattered newspapers featuring bold headlines. In the foreground, a weary journalist, his face etched with determination, stares intently at a document, while shadows of distant battlefields loom through grimy windows. The air is thick with tension, embodying the power of the printed word and its haunting implications.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9914514025052389
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 45.407000000000004,
+      "timestamp_end": 48.078,
+      "audio_content": "about our modern media? Are we still being fooled by",
+      "image_prompt": "A dimly lit study room filled with stacks of newspapers, the flickering light of a solitary candle casting shadows across the walls. In the foreground, a weary journalist, quill in hand, stares pensively at a blank page, surrounded by portraits of war heroes and maps of battlefields. A ghostly figure of a soldier looms in the background, embodying the stories yet to be told, as a sense of intrigue and deception hangs in the air.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9953265428543091
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 48.078,
+      "timestamp_end": 50.749,
+      "audio_content": "stories we read? The past",
+      "image_prompt": "A dimly lit Victorian parlor, filled with shadowy figures of journalists, hunched over typewriters, ink-stained fingers flying across paper. A cracked window reveals a stormy sky outside, symbolizing turmoil. In the foreground, a newspaper headline screams of war, while a ghostly silhouette of a soldier looms behind, representing the fabricated heroism. The air is thick with tension and intrigue.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9912070870399475
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 50.749,
+      "timestamp_end": 53.42,
+      "audio_content": "be fabricated, but the questions linger on.",
+      "image_prompt": "A dimly lit newspaper office, cluttered with papers and ink pots, where a weary journalist, William Russell, stares intently at his typewriter. Shadows cast by flickering candlelight dance on the walls, creating an eerie atmosphere. In the background, ghostly images of battlefields and heroic soldiers fade in and out, symbolizing the blurred line between truth and fiction. A sense of unease hangs in the air, as questions of authenticity linger like the smoke of a distant war.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9872286873204368
+    }
+  ],
+  "metadata": {
+    "total_images": 20,
+    "total_duration": 53.42,
+    "whisper_model": "base"
+  }
+}

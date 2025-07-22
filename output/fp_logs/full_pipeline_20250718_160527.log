@@ -1,0 +1,476 @@
+2025-07-18 16:05:27,309 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-18 16:05:27,309 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory\output\fp_logs\full_pipeline_20250718_160527.log
+2025-07-18 16:05:27,309 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-18 16:05:27,310 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 16:05:27,310 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 16:05:27,311 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-18 16:05:29,597 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:05:36,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:05:36,569 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:05:36,583 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Dreyfus Affair: A Scandal that Shook France  
+**Summary:** A Jewish army officer, Alfred Dreyfus, was wrongfully convicted of treason, exposing deep-rooted anti-Semitism in French society and sparking a political scandal that revealed the pervasive corruption within the military and government.
+2025-07-18 16:05:36,584 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory\output\content_gen_logs\TitleTheDreyfusAffairAScandalthatShookFranceSummar_content_gen_2025-07-18_16-05-36.log
+2025-07-18 16:05:36,584 - autotube.content_gen - INFO - 📁 Sanitized folder name: TheDreyfusAffairFrancesShockingScandal
+2025-07-18 16:05:36,584 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 144 words
+2025-07-18 16:05:36,595 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\TheDreyfusAffairFrancesShockingScandal\story.json (1,602 bytes)
+2025-07-18 16:05:36,595 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\TheDreyfusAffairFrancesShockingScandal\topic.txt (311 bytes)
+2025-07-18 16:05:36,595 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\TheDreyfusAffairFrancesShockingScandal\metadata.json (654 bytes)
+2025-07-18 16:05:36,596 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory\output\stories\TheDreyfusAffairFrancesShockingScandal\story.txt (1,523 bytes)
+2025-07-18 16:05:36,596 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory\output\stories\TheDreyfusAffairFrancesShockingScandal
+2025-07-18 16:05:49,097 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory\output\audio\TheDreyfusAffairFrancesShockingScandal\audio_TheDreyfusAffairFrancesShockingScandal.mp3 (917,465 bytes)
+2025-07-18 16:05:49,264 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 57.34s duration
+2025-07-18 16:05:49,387 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory\output\audio\TheDreyfusAffairFrancesShockingScandal\audio_TheDreyfusAffairFrancesShockingScandal.mp3 (917,465 bytes, 57.34s)
+2025-07-18 16:05:49,390 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-18 16:05:49,391 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-18 16:05:49,392 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory\output\audio\TheDreyfusAffairFrancesShockingScandal\audio_TheDreyfusAffairFrancesShockingScandal.mp3
+2025-07-18 16:05:49,393 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-18 16:05:51,014 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-18 16:05:51,214 - faster_whisper - INFO - Processing audio with duration 00:57.339
+2025-07-18 16:05:52,240 - faster_whisper - INFO - Detected language 'en' with probability 0.99
+2025-07-18 16:06:01,750 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 56.96s
+2025-07-18 16:06:01,751 - whisper_audio_synchronizer - INFO - 📝 Extracted 144 words with timestamps
+2025-07-18 16:06:01,752 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 56.96s, Image duration: 2.85s
+2025-07-18 16:06:01,755 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 20 images
+2025-07-18 16:06:01,756 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-18 16:06:05,609 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:05,612 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/establishing_shot): Establishing shot of a dimly lit 19th-century Fren...
+2025-07-18 16:06:08,759 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:08,762 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of a tense courtroom in 1894, filled wit...
+2025-07-18 16:06:11,258 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:11,260 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of a tense courtroom scene, filled with ...
+2025-07-18 16:06:14,150 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:14,212 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (emotional_moment/medium_shot): Medium shot of Alfred Dreyfus in the courtroom, hi...
+2025-07-18 16:06:17,491 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:17,507 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (emotional_moment/medium_shot): Medium shot of Alfred Dreyfus in the courtroom, hi...
+2025-07-18 16:06:19,908 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:19,911 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (emotional_moment/medium_shot): Medium shot of Alfred Dreyfus in the courtroom, hi...
+2025-07-18 16:06:21,861 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:21,862 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (emotional_moment/medium_shot): Medium shot of Alfred Dreyfus in a dimly lit court...
+2025-07-18 16:06:24,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:24,821 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (emotional_moment/medium_shot): Medium shot of Alfred Dreyfus standing in a crowde...
+2025-07-18 16:06:27,389 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:27,393 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (emotional_moment/medium_shot): Medium shot of Alfred Dreyfus in a tense courtroom...
+2025-07-18 16:06:29,387 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:29,389 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/wide_shot): Wide shot of a tense courtroom in 1894, filled wit...
+2025-07-18 16:06:31,630 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:31,631 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/medium_shot): Medium shot of Alfred Dreyfus in a tense courtroom...
+2025-07-18 16:06:34,699 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:34,701 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/medium_shot): Medium shot of Émile Zola in a dimly lit café, pen...
+2025-07-18 16:06:37,553 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:37,555 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 13 (emotional_moment/medium_shot): Medium shot of Alfred Dreyfus in the courtroom, hi...
+2025-07-18 16:06:40,042 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:40,044 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 14 (emotional_moment/medium_shot): Medium shot of Alfred Dreyfus in the courtroom, hi...
+2025-07-18 16:06:42,404 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:42,405 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 15 (exposition_setup/wide_shot): Wide shot of a tense courtroom filled with anxious...
+2025-07-18 16:06:45,059 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:45,061 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 16 (exposition_setup/medium_shot): Medium shot of Alfred Dreyfus standing in a tense ...
+2025-07-18 16:06:47,916 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:47,925 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 17 (emotional_moment/medium_shot): Medium shot of Alfred Dreyfus in the courtroom, an...
+2025-07-18 16:06:50,155 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:50,157 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 18 (emotional_moment/close_up): Close-up of Alfred Dreyfus in the courtroom, his f...
+2025-07-18 16:06:53,274 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:53,277 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 19 (exposition_setup/medium_shot): Medium shot of Alfred Dreyfus in a tense courtroom...
+2025-07-18 16:06:55,994 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 16:06:55,996 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 20 (emotional_moment/close_up): Close-up of Alfred Dreyfus in the courtroom, his e...
+2025-07-18 16:06:55,999 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory\output\audio_sync_data\The_Dreyfus_Affair_Frances_Shocking_Scandal_whisper_sync.json
+2025-07-18 16:06:56,000 - whisper_audio_synchronizer - INFO - ✅ Generated 20 story-driven synchronized image prompts with enhanced diversity
+2025-07-18 16:06:56,000 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-18 16:06:56,001 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 20 synchronized segments
+2025-07-18 16:06:56,002 - autotube.content_gen - INFO - ✅ Whisper sync completed: 20 prompts
+2025-07-18 16:06:56,007 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory\data\music\Somber\emotional-cinematic-drone-melody-beautiful-cinematic-drone-191518.mp3 (4,416,992 bytes)
+2025-07-18 16:06:56,008 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory\output\music_selections\TheDreyfusAffairFrancesShockingScandal\music_selection.json (400 bytes)
+2025-07-18 16:06:56,008 - autotube.content_gen - INFO - ✅ Music selected: emotional-cinematic-drone-melody-beautiful-cinematic-drone-191518.mp3
+2025-07-18 16:06:56,009 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-18 16:06:56,010 - src.replicate_image_generator - INFO - Generating images for story: The Dreyfus Affair: France's Shocking Scandal
+2025-07-18 16:06:56,010 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-18 16:06:56,010 - src.replicate_image_generator - INFO - Generating 20 images with mvp_testing quality
+2025-07-18 16:06:56,010 - src.replicate_image_generator - INFO - Estimated cost: $0.060
+2025-07-18 16:06:56,989 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:06:58,557 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:00,055 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:01,530 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:03,073 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:04,593 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:06,103 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:07,549 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:09,038 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:10,541 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:12,062 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:13,646 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:15,100 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:16,611 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:18,150 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:19,658 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:21,184 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:22,735 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:24,614 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:26,242 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-18 16:07:27,123 - src.replicate_image_generator - INFO - Generation complete: 20/20 successful
+2025-07-18 16:07:27,124 - src.replicate_image_generator - INFO - Total cost: $0.060 (avg: $0.0030/image)
+2025-07-18 16:07:27,126 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 20/20 images generated
+2025-07-18 16:07:27,127 - autotube.content_gen - INFO - ✅ Image generation: 20/20 images, cost: $0.0600
+2025-07-18 16:07:27,129 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-18 16:07:27,129 - autotube.content_gen - INFO - 📊 Total time: 119.82s, Cost: $0.0600
+2025-07-18 16:07:27,129 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Dreyfus Affair: A Scandal that Shook France  
+**Summary:** A Jewish army officer, Alfred Dreyfus, was wrongfully convicted of treason, exposing deep-rooted anti-Semitism in French society and sparking a political scandal that revealed the pervasive corruption within the military and government.
+2025-07-18 16:07:27,149 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (119.84s)
+2025-07-18 16:07:27,149 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 16:07:27,150 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-18 16:07:27,150 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: TheDreyfusAffairFrancesShockingScandal
+2025-07-18 16:07:27,150 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: TheDreyfusAffairFrancesShockingScandal
+2025-07-18 16:07:27,151 - autotube.full_pipeline - INFO - ✅ Found source TTS audio: C:\autotube\ThroughTheLensofHistory\output\audio\TheDreyfusAffairFrancesShockingScandal\audio_TheDreyfusAffairFrancesShockingScandal.mp3
+2025-07-18 16:07:27,151 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory\output\music_selections\TheDreyfusAffairFrancesShockingScandal\music_selection.json
+2025-07-18 16:07:27,158 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory\data\music\Somber\emotional-cinematic-drone-melody-beautiful-cinematic-drone-191518.mp3
+2025-07-18 16:07:27,185 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-18 16:07:27,185 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory\output\audio\TheDreyfusAffairFrancesShockingScandal\audio_TheDreyfusAffairFrancesShockingScandal.mp3
+2025-07-18 16:07:27,308 - src.audio_mixer - INFO - Loaded audio: 57339ms, 44100Hz, 2 channels
+2025-07-18 16:07:27,308 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory\data\music\Somber\emotional-cinematic-drone-melody-beautiful-cinematic-drone-191518.mp3
+2025-07-18 16:07:27,557 - src.audio_mixer - INFO - Loaded audio: 138031ms, 44100Hz, 2 channels
+2025-07-18 16:07:27,557 - src.audio_mixer - INFO - Mixing audio (simple, mobile-optimized)...
+2025-07-18 16:07:27,560 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-18 16:07:27,621 - src.audio_mixer - INFO - Voice adjusted by 9.3dB, Music by -9.0dB
+2025-07-18 16:07:27,670 - src.audio_mixer - INFO - Audio mixing completed: 57339ms
+2025-07-18 16:07:28,464 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory\output\mixed_audio\TheDreyfusAffairFrancesShockingScandal\mixed_audio_TheDreyfusAffairFrancesShockingScandal.mp3
+2025-07-18 16:07:28,469 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory\output\mixed_audio\TheDreyfusAffairFrancesShockingScandal\mixed_audio_TheDreyfusAffairFrancesShockingScandal.mp3
+2025-07-18 16:07:28,469 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 1,806,414 bytes (1.7 MB)
+2025-07-18 16:07:28,470 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: TheDreyfusAffairFrancesShockingScandal
+2025-07-18 16:07:28,471 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-18 16:07:28,471 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-18 16:07:28,471 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: TheDreyfusAffairFrancesShockingScandal
+2025-07-18 16:07:28,636 - autotube.full_pipeline - INFO - 📸 Loaded 20 images for video
+2025-07-18 16:07:28,636 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-18 16:07:28,637 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.87 seconds per image
+2025-07-18 16:07:28,637 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory\output\videos\TheDreyfusAffairFrancesShockingScandal_kenburns.mp4
+2025-07-18 16:07:28,638 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['zoom_out', 'pan_left', 'pan_right', 'zoom_out', 'zoom_in']...
+2025-07-18 16:07:28,638 - autotube.full_pipeline - INFO - 📸 Processing image 1/20: image_01.jpg
+2025-07-18 16:07:28,638 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 16:07:28,667 - autotube.full_pipeline - INFO - 📸 Processing image 2/20: image_02.jpg
+2025-07-18 16:07:28,667 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 16:07:28,687 - autotube.full_pipeline - INFO - 📸 Processing image 3/20: image_03.jpg
+2025-07-18 16:07:28,687 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 16:07:28,703 - autotube.full_pipeline - INFO - 📸 Processing image 4/20: image_04.jpg
+2025-07-18 16:07:28,703 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 16:07:28,730 - autotube.full_pipeline - INFO - 📸 Processing image 5/20: image_05.jpg
+2025-07-18 16:07:28,730 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 16:07:28,766 - autotube.full_pipeline - INFO - 📸 Processing image 6/20: image_06.jpg
+2025-07-18 16:07:28,766 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 16:07:28,795 - autotube.full_pipeline - INFO - 📸 Processing image 7/20: image_07.jpg
+2025-07-18 16:07:28,795 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 16:07:28,820 - autotube.full_pipeline - INFO - 📸 Processing image 8/20: image_08.jpg
+2025-07-18 16:07:28,821 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 16:07:28,845 - autotube.full_pipeline - INFO - 📸 Processing image 9/20: image_09.jpg
+2025-07-18 16:07:28,846 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 16:07:28,874 - autotube.full_pipeline - INFO - 📸 Processing image 10/20: image_10.jpg
+2025-07-18 16:07:28,875 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 16:07:28,904 - autotube.full_pipeline - INFO - 📸 Processing image 11/20: image_11.jpg
+2025-07-18 16:07:28,905 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 16:07:28,933 - autotube.full_pipeline - INFO - 📸 Processing image 12/20: image_12.jpg
+2025-07-18 16:07:28,933 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 16:07:28,961 - autotube.full_pipeline - INFO - 📸 Processing image 13/20: image_13.jpg
+2025-07-18 16:07:28,961 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 16:07:28,989 - autotube.full_pipeline - INFO - 📸 Processing image 14/20: image_14.jpg
+2025-07-18 16:07:28,989 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-18 16:07:29,019 - autotube.full_pipeline - INFO - 📸 Processing image 15/20: image_15.jpg
+2025-07-18 16:07:29,019 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 16:07:29,047 - autotube.full_pipeline - INFO - 📸 Processing image 16/20: image_16.jpg
+2025-07-18 16:07:29,048 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 16:07:29,075 - autotube.full_pipeline - INFO - 📸 Processing image 17/20: image_17.jpg
+2025-07-18 16:07:29,076 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 16:07:29,100 - autotube.full_pipeline - INFO - 📸 Processing image 18/20: image_18.jpg
+2025-07-18 16:07:29,101 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-18 16:07:29,130 - autotube.full_pipeline - INFO - 📸 Processing image 19/20: image_19.jpg
+2025-07-18 16:07:29,131 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-18 16:07:29,156 - autotube.full_pipeline - INFO - 📸 Processing image 20/20: image_20.jpg
+2025-07-18 16:07:29,156 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-18 16:07:29,184 - autotube.full_pipeline - INFO - 🔗 Concatenating 20 clips...
+2025-07-18 16:07:29,272 - autotube.full_pipeline - INFO - 🎵 Adding audio to video...
+2025-07-18 16:07:29,341 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory\output\videos\TheDreyfusAffairFrancesShockingScandal_kenburns.mp4
+2025-07-18 16:08:40,390 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-18 16:08:40,390 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-18 16:08:40,390 - autotube.full_pipeline - INFO - ✅ Video duration: 57.40 seconds
+2025-07-18 16:08:40,391 - autotube.full_pipeline - INFO - ✅ Video file size: 9.2 MB
+2025-07-18 16:08:40,391 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-18 16:08:40,414 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory\output\videos\TheDreyfusAffairFrancesShockingScandal_kenburns.mp4
+2025-07-18 16:08:40,415 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-18 16:08:40,415 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory\output\videos\TheDreyfusAffairFrancesShockingScandal_kenburns.mp4
+2025-07-18 16:08:40,415 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-18 16:08:40,417 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-18 16:08:40,418 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-18 16:08:40,418 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-18 16:08:42,006 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-18 16:08:42,007 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-18 16:08:42,007 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-18 16:08:42,314 - faster_whisper - INFO - Processing audio with duration 00:57.340
+2025-07-18 16:08:45,421 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-18 16:09:04,545 - autotube.full_pipeline - INFO - Extracted 144 words with timing
+2025-07-18 16:09:04,545 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 22.54s
+2025-07-18 16:09:04,832 - autotube.full_pipeline - INFO - Video loading took 0.29s
+2025-07-18 16:09:04,832 - autotube.full_pipeline - INFO - Original video - Duration: 57.40s, FPS: 30.0, Audio: True
+2025-07-18 16:09:04,833 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 144 words...
+2025-07-18 16:09:04,833 - autotube.full_pipeline - INFO - Group 1: 4 words (18 chars), 0.00s - 1.86s
+2025-07-18 16:09:04,833 - autotube.full_pipeline - INFO - Group 2: 3 words (17 chars), 1.84s - 2.86s
+2025-07-18 16:09:04,833 - autotube.full_pipeline - INFO - Group 3: 3 words (19 chars), 2.84s - 3.62s
+2025-07-18 16:09:04,834 - autotube.full_pipeline - INFO - Group 4: 3 words (19 chars), 4.30s - 5.34s
+2025-07-18 16:09:04,834 - autotube.full_pipeline - INFO - Group 5: 3 words (24 chars), 5.32s - 6.50s
+2025-07-18 16:09:04,834 - autotube.full_pipeline - INFO - Group 6: 3 words (24 chars), 6.48s - 7.60s
+2025-07-18 16:09:04,834 - autotube.full_pipeline - INFO - Group 7: 3 words (16 chars), 7.88s - 8.74s
+2025-07-18 16:09:04,834 - autotube.full_pipeline - INFO - Group 8: 3 words (19 chars), 8.72s - 9.72s
+2025-07-18 16:09:04,835 - autotube.full_pipeline - INFO - Group 9: 3 words (22 chars), 9.70s - 11.38s
+2025-07-18 16:09:04,835 - autotube.full_pipeline - INFO - Group 10: 3 words (20 chars), 11.36s - 12.52s
+2025-07-18 16:09:04,835 - autotube.full_pipeline - INFO - Group 11: 3 words (21 chars), 12.50s - 13.48s
+2025-07-18 16:09:04,835 - autotube.full_pipeline - INFO - Group 12: 4 words (23 chars), 13.82s - 15.12s
+2025-07-18 16:09:04,836 - autotube.full_pipeline - INFO - Group 13: 3 words (19 chars), 15.10s - 15.80s
+2025-07-18 16:09:04,836 - autotube.full_pipeline - INFO - Group 14: 3 words (24 chars), 15.78s - 16.76s
+2025-07-18 16:09:04,836 - autotube.full_pipeline - INFO - Group 15: 3 words (12 chars), 17.34s - 17.76s
+2025-07-18 16:09:04,836 - autotube.full_pipeline - INFO - Group 16: 4 words (24 chars), 17.74s - 18.78s
+2025-07-18 16:09:04,836 - autotube.full_pipeline - INFO - Group 17: 3 words (16 chars), 19.24s - 20.08s
+2025-07-18 16:09:04,836 - autotube.full_pipeline - INFO - Group 18: 3 words (20 chars), 20.06s - 21.62s
+2025-07-18 16:09:04,836 - autotube.full_pipeline - INFO - Group 19: 3 words (14 chars), 21.60s - 22.36s
+2025-07-18 16:09:04,837 - autotube.full_pipeline - INFO - Group 20: 4 words (18 chars), 22.34s - 23.14s
+2025-07-18 16:09:04,837 - autotube.full_pipeline - INFO - Group 21: 3 words (22 chars), 23.12s - 24.46s
+2025-07-18 16:09:04,837 - autotube.full_pipeline - INFO - Group 22: 3 words (25 chars), 24.98s - 26.28s
+2025-07-18 16:09:04,837 - autotube.full_pipeline - INFO - Group 23: 3 words (18 chars), 26.26s - 27.20s
+2025-07-18 16:09:04,838 - autotube.full_pipeline - INFO - Group 24: 3 words (18 chars), 27.18s - 28.74s
+2025-07-18 16:09:04,838 - autotube.full_pipeline - INFO - Group 25: 4 words (22 chars), 28.72s - 30.24s
+2025-07-18 16:09:04,838 - autotube.full_pipeline - INFO - Group 26: 3 words (19 chars), 30.22s - 31.66s
+2025-07-18 16:09:04,838 - autotube.full_pipeline - INFO - Group 27: 3 words (15 chars), 31.64s - 32.54s
+2025-07-18 16:09:04,839 - autotube.full_pipeline - INFO - Group 28: 3 words (21 chars), 32.52s - 33.88s
+2025-07-18 16:09:04,839 - autotube.full_pipeline - INFO - Group 29: 3 words (24 chars), 33.86s - 35.30s
+2025-07-18 16:09:04,839 - autotube.full_pipeline - INFO - Group 30: 3 words (26 chars), 35.28s - 37.46s
+2025-07-18 16:09:04,839 - autotube.full_pipeline - INFO - Group 31: 3 words (23 chars), 37.44s - 38.52s
+2025-07-18 16:09:04,839 - autotube.full_pipeline - INFO - Group 32: 4 words (23 chars), 38.50s - 39.64s
+2025-07-18 16:09:04,840 - autotube.full_pipeline - INFO - Group 33: 3 words (16 chars), 39.62s - 40.44s
+2025-07-18 16:09:04,840 - autotube.full_pipeline - INFO - Group 34: 3 words (19 chars), 40.42s - 42.40s
+2025-07-18 16:09:04,840 - autotube.full_pipeline - INFO - Group 35: 3 words (24 chars), 42.74s - 43.96s
+2025-07-18 16:09:04,840 - autotube.full_pipeline - INFO - Group 36: 3 words (15 chars), 44.38s - 45.04s
+2025-07-18 16:09:04,841 - autotube.full_pipeline - INFO - Group 37: 4 words (23 chars), 45.02s - 46.20s
+2025-07-18 16:09:04,841 - autotube.full_pipeline - INFO - Group 38: 3 words (21 chars), 46.18s - 47.78s
+2025-07-18 16:09:04,841 - autotube.full_pipeline - INFO - Group 39: 3 words (21 chars), 47.76s - 48.86s
+2025-07-18 16:09:04,841 - autotube.full_pipeline - INFO - Group 40: 3 words (29 chars), 48.84s - 50.48s
+2025-07-18 16:09:04,841 - autotube.full_pipeline - INFO - Group 41: 3 words (18 chars), 50.46s - 51.40s
+2025-07-18 16:09:04,842 - autotube.full_pipeline - INFO - Group 42: 3 words (20 chars), 51.38s - 52.42s
+2025-07-18 16:09:04,842 - autotube.full_pipeline - INFO - Group 43: 3 words (21 chars), 52.40s - 53.98s
+2025-07-18 16:09:04,842 - autotube.full_pipeline - INFO - Group 44: 4 words (22 chars), 53.96s - 55.56s
+2025-07-18 16:09:04,842 - autotube.full_pipeline - INFO - Group 45: 3 words (21 chars), 55.54s - 56.68s
+2025-07-18 16:09:04,842 - autotube.full_pipeline - INFO - Group 46: 1 words (6 chars), 56.66s - 56.96s
+2025-07-18 16:09:04,843 - autotube.full_pipeline - INFO - Created 46 word groups with smart length limiting
+2025-07-18 16:09:04,843 - autotube.full_pipeline - INFO - Creating clips for group 1: 4 words
+2025-07-18 16:09:05,942 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.18s
+2025-07-18 16:09:06,906 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.14s - 1.50s
+2025-07-18 16:09:07,725 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 1.46s - 1.60s
+2025-07-18 16:09:08,674 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 1: 1.56s - 1.79s
+2025-07-18 16:09:08,674 - autotube.full_pipeline - INFO - Created clips for 1/46 word groups - ETA: 4s
+2025-07-18 16:09:08,675 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-18 16:09:10,055 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 1.84s - 2.20s
+2025-07-18 16:09:11,995 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 2.16s - 2.62s
+2025-07-18 16:09:13,774 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 2.58s - 2.79s
+2025-07-18 16:09:13,775 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-18 16:09:15,161 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 2.84s - 3.16s
+2025-07-18 16:09:16,428 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 3.12s - 3.36s
+2025-07-18 16:09:17,552 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 3.32s - 3.92s
+2025-07-18 16:09:17,553 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-18 16:09:18,678 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 4.30s - 4.64s
+2025-07-18 16:09:19,660 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 4.60s - 5.10s
+2025-07-18 16:09:20,878 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 5.06s - 5.27s
+2025-07-18 16:09:20,878 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-18 16:09:22,522 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 5.32s - 5.84s
+2025-07-18 16:09:23,977 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 5.80s - 6.28s
+2025-07-18 16:09:25,705 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 6.24s - 6.43s
+2025-07-18 16:09:25,705 - autotube.full_pipeline - INFO - Creating clips for group 6: 3 words
+2025-07-18 16:09:27,180 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 6.48s - 6.86s
+2025-07-18 16:09:28,455 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 6.82s - 7.16s
+2025-07-18 16:09:29,804 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 7.12s - 7.83s
+2025-07-18 16:09:29,805 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-18 16:09:30,834 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 7.88s - 8.30s
+2025-07-18 16:09:31,826 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 8.26s - 8.50s
+2025-07-18 16:09:32,740 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 8.46s - 8.67s
+2025-07-18 16:09:32,740 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-18 16:09:33,641 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 8.72s - 9.32s
+2025-07-18 16:09:34,705 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 9.28s - 9.44s
+2025-07-18 16:09:35,771 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 9.40s - 9.65s
+2025-07-18 16:09:35,772 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-18 16:09:37,216 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 9.70s - 10.92s
+2025-07-18 16:09:38,271 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 10.88s - 11.18s
+2025-07-18 16:09:39,482 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 11.14s - 11.31s
+2025-07-18 16:09:39,482 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-18 16:09:40,694 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 11.36s - 12.14s
+2025-07-18 16:09:41,962 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 12.10s - 12.26s
+2025-07-18 16:09:43,140 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 12.22s - 12.45s
+2025-07-18 16:09:43,140 - autotube.full_pipeline - INFO - Creating clips for group 11: 3 words
+2025-07-18 16:09:44,250 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 12.50s - 12.88s
+2025-07-18 16:09:45,337 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 12.84s - 13.10s
+2025-07-18 16:09:46,545 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 13.06s - 13.77s
+2025-07-18 16:09:46,545 - autotube.full_pipeline - INFO - Created clips for 11/46 word groups - ETA: 42s
+2025-07-18 16:09:46,546 - autotube.full_pipeline - INFO - Creating clips for group 12: 4 words
+2025-07-18 16:09:48,023 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 13.82s - 14.12s
+2025-07-18 16:09:49,464 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 14.08s - 14.86s
+2025-07-18 16:09:51,520 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 14.82s - 15.02s
+2025-07-18 16:09:53,170 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 12: 14.98s - 15.05s
+2025-07-18 16:09:53,171 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-18 16:09:54,384 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 15.10s - 15.38s
+2025-07-18 16:09:55,515 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 15.34s - 15.64s
+2025-07-18 16:09:56,657 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 15.60s - 15.73s
+2025-07-18 16:09:56,657 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-18 16:09:57,909 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 15.78s - 16.10s
+2025-07-18 16:09:59,267 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 16.06s - 16.36s
+2025-07-18 16:10:00,586 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 16.32s - 17.06s
+2025-07-18 16:10:00,586 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-18 16:10:01,340 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 17.34s - 17.50s
+2025-07-18 16:10:02,032 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 17.46s - 17.60s
+2025-07-18 16:10:02,835 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 17.56s - 17.69s
+2025-07-18 16:10:02,836 - autotube.full_pipeline - INFO - Creating clips for group 16: 4 words
+2025-07-18 16:10:04,222 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 17.74s - 17.96s
+2025-07-18 16:10:05,563 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 17.92s - 18.08s
+2025-07-18 16:10:06,879 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 18.04s - 18.28s
+2025-07-18 16:10:08,262 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 16: 18.24s - 19.08s
+2025-07-18 16:10:08,263 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-18 16:10:09,120 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 19.24s - 19.54s
+2025-07-18 16:10:10,031 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 19.50s - 19.86s
+2025-07-18 16:10:10,863 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 19.82s - 20.01s
+2025-07-18 16:10:10,863 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-18 16:10:12,064 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 20.06s - 20.56s
+2025-07-18 16:10:13,639 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 20.52s - 21.00s
+2025-07-18 16:10:14,925 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 20.96s - 21.55s
+2025-07-18 16:10:14,925 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-18 16:10:15,680 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 21.60s - 21.82s
+2025-07-18 16:10:16,453 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 21.78s - 22.10s
+2025-07-18 16:10:17,323 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 22.06s - 22.29s
+2025-07-18 16:10:17,324 - autotube.full_pipeline - INFO - Creating clips for group 20: 4 words
+2025-07-18 16:10:18,507 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 22.34s - 22.48s
+2025-07-18 16:10:19,754 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 22.44s - 22.76s
+2025-07-18 16:10:21,276 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 22.72s - 22.86s
+2025-07-18 16:10:22,843 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 20: 22.82s - 23.07s
+2025-07-18 16:10:22,845 - autotube.full_pipeline - INFO - Creating clips for group 21: 3 words
+2025-07-18 16:10:24,329 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 23.12s - 24.00s
+2025-07-18 16:10:25,851 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 23.96s - 24.14s
+2025-07-18 16:10:27,512 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 24.10s - 24.76s
+2025-07-18 16:10:27,513 - autotube.full_pipeline - INFO - Created clips for 21/46 word groups - ETA: 83s
+2025-07-18 16:10:27,513 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-18 16:10:30,285 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 24.98s - 25.52s
+2025-07-18 16:10:32,113 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 25.48s - 26.00s
+2025-07-18 16:10:33,812 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 25.96s - 26.21s
+2025-07-18 16:10:33,813 - autotube.full_pipeline - INFO - Creating clips for group 23: 3 words
+2025-07-18 16:10:34,674 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 26.26s - 26.38s
+2025-07-18 16:10:35,369 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 26.34s - 26.64s
+2025-07-18 16:10:36,036 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 26.60s - 27.13s
+2025-07-18 16:10:36,036 - autotube.full_pipeline - INFO - Creating clips for group 24: 3 words
+2025-07-18 16:10:36,737 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 27.18s - 27.40s
+2025-07-18 16:10:37,333 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 27.36s - 28.40s
+2025-07-18 16:10:37,913 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 28.36s - 28.67s
+2025-07-18 16:10:37,913 - autotube.full_pipeline - INFO - Creating clips for group 25: 4 words
+2025-07-18 16:10:38,644 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 28.72s - 28.92s
+2025-07-18 16:10:39,755 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 28.88s - 29.18s
+2025-07-18 16:10:41,988 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 29.14s - 30.16s
+2025-07-18 16:10:43,311 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 25: 30.12s - 30.17s
+2025-07-18 16:10:43,312 - autotube.full_pipeline - INFO - Creating clips for group 26: 3 words
+2025-07-18 16:10:44,237 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 26: 30.22s - 31.20s
+2025-07-18 16:10:45,113 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 26: 31.16s - 31.34s
+2025-07-18 16:10:45,984 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 26: 31.30s - 31.59s
+2025-07-18 16:10:45,985 - autotube.full_pipeline - INFO - Creating clips for group 27: 3 words
+2025-07-18 16:10:46,636 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 27: 31.64s - 32.00s
+2025-07-18 16:10:47,378 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 27: 31.96s - 32.44s
+2025-07-18 16:10:48,134 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 27: 32.40s - 32.47s
+2025-07-18 16:10:48,135 - autotube.full_pipeline - INFO - Creating clips for group 28: 3 words
+2025-07-18 16:10:49,125 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 28: 32.52s - 32.78s
+2025-07-18 16:10:50,614 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 28: 32.74s - 33.70s
+2025-07-18 16:10:52,090 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 28: 33.66s - 33.81s
+2025-07-18 16:10:52,090 - autotube.full_pipeline - INFO - Creating clips for group 29: 3 words
+2025-07-18 16:10:53,227 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 29: 33.86s - 34.60s
+2025-07-18 16:10:54,236 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 29: 34.56s - 34.96s
+2025-07-18 16:10:55,201 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 29: 34.92s - 35.23s
+2025-07-18 16:10:55,201 - autotube.full_pipeline - INFO - Creating clips for group 30: 3 words
+2025-07-18 16:10:56,544 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 30: 35.28s - 36.40s
+2025-07-18 16:10:58,079 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 30: 36.36s - 36.98s
+2025-07-18 16:10:59,605 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 30: 36.94s - 37.39s
+2025-07-18 16:10:59,606 - autotube.full_pipeline - INFO - Creating clips for group 31: 3 words
+2025-07-18 16:11:01,051 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 31: 37.44s - 37.70s
+2025-07-18 16:11:02,159 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 31: 37.66s - 38.02s
+2025-07-18 16:11:03,345 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 31: 37.98s - 38.45s
+2025-07-18 16:11:03,345 - autotube.full_pipeline - INFO - Created clips for 31/46 word groups - ETA: 119s
+2025-07-18 16:11:03,345 - autotube.full_pipeline - INFO - Creating clips for group 32: 4 words
+2025-07-18 16:11:04,464 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 32: 38.50s - 38.78s
+2025-07-18 16:11:05,338 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 32: 38.74s - 39.18s
+2025-07-18 16:11:06,189 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 32: 39.14s - 39.48s
+2025-07-18 16:11:07,074 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 32: 39.44s - 39.57s
+2025-07-18 16:11:07,074 - autotube.full_pipeline - INFO - Creating clips for group 33: 3 words
+2025-07-18 16:11:07,718 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 33: 39.62s - 40.00s
+2025-07-18 16:11:08,406 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 33: 39.96s - 40.30s
+2025-07-18 16:11:09,148 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 33: 40.26s - 40.37s
+2025-07-18 16:11:09,149 - autotube.full_pipeline - INFO - Creating clips for group 34: 3 words
+2025-07-18 16:11:10,012 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 34: 40.42s - 41.56s
+2025-07-18 16:11:11,101 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 34: 41.52s - 41.70s
+2025-07-18 16:11:11,862 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 34: 41.66s - 42.69s
+2025-07-18 16:11:11,862 - autotube.full_pipeline - INFO - Creating clips for group 35: 3 words
+2025-07-18 16:11:13,119 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 35: 42.74s - 43.02s
+2025-07-18 16:11:14,211 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 35: 42.98s - 43.28s
+2025-07-18 16:11:15,302 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 35: 43.24s - 44.26s
+2025-07-18 16:11:15,303 - autotube.full_pipeline - INFO - Creating clips for group 36: 3 words
+2025-07-18 16:11:15,932 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 36: 44.38s - 44.52s
+2025-07-18 16:11:16,567 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 36: 44.48s - 44.72s
+2025-07-18 16:11:17,170 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 36: 44.68s - 44.97s
+2025-07-18 16:11:17,170 - autotube.full_pipeline - INFO - Creating clips for group 37: 4 words
+2025-07-18 16:11:18,160 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 37: 45.02s - 45.20s
+2025-07-18 16:11:19,368 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 37: 45.16s - 45.50s
+2025-07-18 16:11:20,355 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 37: 45.46s - 45.96s
+2025-07-18 16:11:21,426 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 37: 45.92s - 46.13s
+2025-07-18 16:11:21,427 - autotube.full_pipeline - INFO - Creating clips for group 38: 3 words
+2025-07-18 16:11:22,202 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 38: 46.18s - 46.54s
+2025-07-18 16:11:22,921 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 38: 46.50s - 47.60s
+2025-07-18 16:11:23,737 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 38: 47.56s - 47.71s
+2025-07-18 16:11:23,737 - autotube.full_pipeline - INFO - Creating clips for group 39: 3 words
+2025-07-18 16:11:24,727 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 39: 47.76s - 48.18s
+2025-07-18 16:11:25,608 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 39: 48.14s - 48.60s
+2025-07-18 16:11:26,451 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 39: 48.56s - 48.79s
+2025-07-18 16:11:26,452 - autotube.full_pipeline - INFO - Creating clips for group 40: 3 words
+2025-07-18 16:11:27,815 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 40: 48.84s - 49.26s
+2025-07-18 16:11:29,198 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 40: 49.22s - 49.86s
+2025-07-18 16:11:30,778 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 40: 49.82s - 50.41s
+2025-07-18 16:11:30,778 - autotube.full_pipeline - INFO - Creating clips for group 41: 3 words
+2025-07-18 16:11:31,775 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 41: 50.46s - 50.82s
+2025-07-18 16:11:32,549 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 41: 50.78s - 51.08s
+2025-07-18 16:11:33,541 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 41: 51.04s - 51.33s
+2025-07-18 16:11:33,542 - autotube.full_pipeline - INFO - Created clips for 41/46 word groups - ETA: 149s
+2025-07-18 16:11:33,542 - autotube.full_pipeline - INFO - Creating clips for group 42: 3 words
+2025-07-18 16:11:34,375 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 42: 51.38s - 51.74s
+2025-07-18 16:11:35,332 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 42: 51.70s - 52.14s
+2025-07-18 16:11:36,423 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 42: 52.10s - 52.35s
+2025-07-18 16:11:36,424 - autotube.full_pipeline - INFO - Creating clips for group 43: 3 words
+2025-07-18 16:11:37,438 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 43: 52.40s - 53.38s
+2025-07-18 16:11:38,405 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 43: 53.34s - 53.62s
+2025-07-18 16:11:39,215 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 43: 53.58s - 53.91s
+2025-07-18 16:11:39,216 - autotube.full_pipeline - INFO - Creating clips for group 44: 4 words
+2025-07-18 16:11:40,740 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 44: 53.96s - 54.94s
+2025-07-18 16:11:42,600 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 44: 54.90s - 55.12s
+2025-07-18 16:11:43,809 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 44: 55.08s - 55.34s
+2025-07-18 16:11:44,773 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 44: 55.30s - 55.49s
+2025-07-18 16:11:44,773 - autotube.full_pipeline - INFO - Creating clips for group 45: 3 words
+2025-07-18 16:11:45,966 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 45: 55.54s - 55.94s
+2025-07-18 16:11:47,160 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 45: 55.90s - 56.38s
+2025-07-18 16:11:48,144 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 45: 56.34s - 56.61s
+2025-07-18 16:11:48,145 - autotube.full_pipeline - INFO - Creating clips for group 46: 1 words
+2025-07-18 16:11:48,410 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 46: 56.66s - 57.16s
+2025-07-18 16:11:48,411 - autotube.full_pipeline - INFO - Created 144 individual subtitle clips
+2025-07-18 16:11:48,412 - autotube.full_pipeline - INFO - Viral subtitle creation took 163.58s
+2025-07-18 16:11:48,412 - autotube.full_pipeline - INFO - Subtitle clips count: 144
+2025-07-18 16:11:48,429 - autotube.full_pipeline - INFO - Video composition took 0.02s
+2025-07-18 16:11:48,429 - autotube.full_pipeline - INFO - Final video - Duration: 57.40s, Audio: True
+2025-07-18 16:11:48,429 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\TheDreyfusAffairFrancesShockingScandal_final.mp4
+2025-07-18 16:13:02,205 - autotube.full_pipeline - INFO - Video writing took 73.78s
+2025-07-18 16:13:02,205 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-18 16:13:02,519 - autotube.full_pipeline - INFO - Output file - Duration: 57.40s, Audio: True, Playable: True
+2025-07-18 16:13:02,545 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\TheDreyfusAffairFrancesShockingScandal_final.mp4
+2025-07-18 16:13:02,546 - autotube.full_pipeline - INFO - Total processing time: 260.54s
+2025-07-18 16:13:02,547 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\TheDreyfusAffairFrancesShockingScandal_final.mp4
+2025-07-18 16:13:02,547 - autotube.full_pipeline - INFO - 📊 Final video size: 7,224,353 bytes (6.9 MB)
+2025-07-18 16:13:02,547 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-18 16:13:02,548 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory\output\videos\TheDreyfusAffairFrancesShockingScandal_kenburns.mp4
+2025-07-18 16:13:02,548 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory\output\subtitles_processed_video\TheDreyfusAffairFrancesShockingScandal_final.mp4
+2025-07-18 16:13:02,587 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (335.44s)
+2025-07-18 16:13:02,587 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-18 16:13:02,592 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory\output\fp_logs\pipeline_report_TheDreyfusAffairFrancesShockingScandal_20250718_161302.json
+2025-07-18 16:13:02,592 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-18 16:13:02,592 - autotube.full_pipeline - INFO - ============================================================
+2025-07-18 16:13:02,593 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 455.28s
+2025-07-18 16:13:02,593 - autotube.full_pipeline - INFO - 📁 Story Title: TheDreyfusAffairFrancesShockingScandal
+2025-07-18 16:13:02,593 - autotube.full_pipeline - INFO - 📁 Sanitized Title: TheDreyfusAffairFrancesShockingScandal
+2025-07-18 16:13:02,594 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory\output\fp_logs\pipeline_report_TheDreyfusAffairFrancesShockingScandal_20250718_161302.json

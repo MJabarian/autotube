@@ -1,0 +1,353 @@
+{
+  "story_title": "The Elephant Man: A Life Beyond the Circus",
+  "original_story": "[shocked] In 1916, a man known as the 'Elephant Man' captivated both the circus and the medical community. John William Merrick, with his extraordinary physical condition, drew crowds who marveled at his appearance. But behind that exterior lay a mind bursting with curiosity and intellect. [pause:0.5s] Merrick exchanged letters with renowned doctors, discussing his condition as if he were a scientist probing his own existence. [dramatic] Imagine this: a man often displayed as a sideshow attraction, yet deeply engaged in conversations about anatomy and treatment options. [pause:1s] He lived in a world of stark contrasts—glistening circus lights against the shadows of societal prejudice. [curious] Despite being mistreated, Merrick found solace in art, creating exquisite drawings that expressed his inner beauty. [pause:0.5s] His story transcends mere spectacle; it's a poignant reminder of humanity's complexities. [mysterious] What if we looked beyond appearances to discover the genius within? Could we redefine what it means to truly see someone?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 3.073,
+      "audio_content": "In 1916, a man known as the elephant",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8860074654221535
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 3.073,
+      "timestamp_end": 6.146,
+      "audio_content": "captivated both the circus and the medical",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9598434524876731
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 6.146,
+      "timestamp_end": 9.219,
+      "audio_content": "John William Merrick, with his extraordinary physical",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9620873970644814
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 9.219,
+      "timestamp_end": 12.292,
+      "audio_content": "drew crowds who marveled at his appearance,",
+      "words_in_segment": 7,
+      "confidence_avg": 0.981706440448761
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 12.292,
+      "timestamp_end": 15.365,
+      "audio_content": "but behind that exterior lay a mind bursting",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9838980436325073
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 15.365,
+      "timestamp_end": 18.438,
+      "audio_content": "curiosity and intellect. Merrick",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9947321265935898
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 18.438,
+      "timestamp_end": 21.511,
+      "audio_content": "letters with renowned doctors, discussing his condition",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9962105325290135
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 21.511,
+      "timestamp_end": 24.584,
+      "audio_content": "if he were a scientist probing his own existence.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9792303310500251
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 24.584,
+      "timestamp_end": 27.657,
+      "audio_content": "Imagine this. A man often displayed as a",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9837801307439804
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 27.657,
+      "timestamp_end": 30.73,
+      "audio_content": "show attraction, yet deeply engaged in conversations",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8270669707230159
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 30.73,
+      "timestamp_end": 33.803,
+      "audio_content": "anatomy and treatment options.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9902771264314651
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 33.803,
+      "timestamp_end": 36.876,
+      "audio_content": "lived in a world of stark contrasts,",
+      "words_in_segment": 7,
+      "confidence_avg": 0.994781813451222
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 36.876,
+      "timestamp_end": 39.949,
+      "audio_content": "glistening circus lights against the shadows of societal",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9855224912365277
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 39.949,
+      "timestamp_end": 43.022,
+      "audio_content": "Despite being",
+      "words_in_segment": 2,
+      "confidence_avg": 0.9969503879547119
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 43.022,
+      "timestamp_end": 46.095,
+      "audio_content": "Merrick found solace in art, creating",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9294396539529165
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 46.095,
+      "timestamp_end": 49.168,
+      "audio_content": "drawings that expressed his inner beauty. His",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9878407716751099
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 49.168,
+      "timestamp_end": 52.241,
+      "audio_content": "transcends mere spectacle. It's a poignant",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9685284992059072
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 52.241,
+      "timestamp_end": 55.314,
+      "audio_content": "of humanity's complexities. What if we",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9915463080008825
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 55.314,
+      "timestamp_end": 58.387,
+      "audio_content": "beyond appearances to discover the genius within?",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9947714294706073
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 58.387,
+      "timestamp_end": 61.46,
+      "audio_content": "Could we redefine what it means to truly see someone?",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9785436481237412
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 3.073,
+      "audio_content": "In 1916, a man known as the elephant",
+      "image_prompt": "A dimly lit circus tent glows with vibrant, colorful lights, casting dramatic shadows on the faces of captivated spectators. In the center, John Merrick, the 'Elephant Man,' stands tall, his unique features illuminated by a spotlight. His eyes, filled with curiosity and intelligence, contrast sharply with the awe and prejudice surrounding him. Nearby, a stack of letters lies open, hinting at his intellectual exchanges with doctors.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.8860074654221535
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 3.073,
+      "timestamp_end": 6.146,
+      "audio_content": "captivated both the circus and the medical",
+      "image_prompt": "In a bustling circus tent, vibrant colors clash with the darkened corners where shadows linger. A crowd, eyes wide with fascination, surrounds John William Merrick, the 'Elephant Man,' illuminated under a spotlight that highlights his unique features. Doctors in white coats exchange intrigued glances, while Merrick, with a quill in hand, gazes thoughtfully at a canvas, revealing a glimpse of his artistic soul amidst the spectacle.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9598434524876731
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 6.146,
+      "timestamp_end": 9.219,
+      "audio_content": "John William Merrick, with his extraordinary physical",
+      "image_prompt": "In a dimly lit circus tent, John William Merrick stands at the center, his striking physical features illuminated by vibrant, colorful lights. Around him, a captivated audience of diverse faces expresses awe and curiosity. In his hands, he holds a sketchbook filled with intricate drawings, revealing the depth of his intellect and creativity, contrasting the spectacle of his appearance with the beauty of his art.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9620873970644814
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 9.219,
+      "timestamp_end": 12.292,
+      "audio_content": "drew crowds who marveled at his appearance,",
+      "image_prompt": "A dimly lit circus tent bursts with color as onlookers, a mix of awe and shock on their faces, crowd around a central spotlight. In its glow stands John William Merrick, his unique features illuminated against the darkness. The audience's expressions blend fascination with a hint of discomfort, capturing the contrast between spectacle and humanity.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.981706440448761
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 12.292,
+      "timestamp_end": 15.365,
+      "audio_content": "but behind that exterior lay a mind bursting",
+      "image_prompt": "In a dimly lit circus tent, John Merrick sits alone at a wooden table, his face partially shadowed, revealing deep thought in his eyes. Scattered around him are crumpled letters and sketches of human anatomy. The warm glow of lanterns highlights the intricate details of his drawings, contrasting with the vibrant colors of the circus outside, symbolizing his hidden intellect amidst the spectacle.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9838980436325073
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 15.365,
+      "timestamp_end": 18.438,
+      "audio_content": "curiosity and intellect. Merrick",
+      "image_prompt": "In a dimly lit circus tent, John Merrick sits at a small, wooden table, surrounded by scattered letters and anatomical sketches. His eyes sparkle with curiosity, illuminated by a flickering oil lamp. The vibrant colors of the circus outside contrast with the shadows of prejudice within. Merrick's fingers delicately trace the lines of his drawings, revealing a profound intellect hidden beneath his extraordinary exterior.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9947321265935898
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 18.438,
+      "timestamp_end": 21.511,
+      "audio_content": "letters with renowned doctors, discussing his condition",
+      "image_prompt": "In a dimly lit Victorian study, John Merrick, the 'Elephant Man,' sits at a wooden desk cluttered with parchment and ink, fervently writing a letter. A flickering oil lamp casts warm light on his face, revealing a look of intense focus and curiosity. Stacks of medical books surround him, hinting at his scholarly discussions with renowned doctors, while shadows loom, symbolizing societal prejudice just outside the door.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9962105325290135
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 21.511,
+      "timestamp_end": 24.584,
+      "audio_content": "if he were a scientist probing his own existence.",
+      "image_prompt": "In a dimly lit, cluttered study filled with anatomical sketches and medical tomes, John Merrick sits at a wooden desk, quill in hand, his face illuminated by a flickering oil lamp. His expressive eyes radiate curiosity and intellect as he pens a letter, surrounded by shadows that hint at societal prejudice. A framed drawing of a graceful figure hangs nearby, contrasting his physical form, embodying his inner beauty and genius.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9792303310500251
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 24.584,
+      "timestamp_end": 27.657,
+      "audio_content": "Imagine this. A man often displayed as a",
+      "image_prompt": "A dimly lit circus tent, vibrant colors of red and gold contrasting with the shadows. In the center, John Merrick stands, his unique features illuminated by a soft spotlight. Around him, a captivated audience gasps, revealing a mix of wonder and pity. Behind him, faint outlines of drawings hang, hinting at his artistic soul, while a curtain of societal judgment looms in the background.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9837801307439804
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 27.657,
+      "timestamp_end": 30.73,
+      "audio_content": "show attraction, yet deeply engaged in conversations",
+      "image_prompt": "In a dimly lit circus tent, vibrant colors clash with shadows as John Merrick sits at a worn wooden table, surrounded by curious onlookers. His unique features contrast with the awe in their eyes. Letters and anatomical sketches lie scattered before him, illuminated by a single flickering lantern, capturing his contemplative expression—an intellect yearning to be understood amidst the spectacle.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8270669707230159
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 30.73,
+      "timestamp_end": 33.803,
+      "audio_content": "anatomy and treatment options.",
+      "image_prompt": "A dimly lit Victorian study, filled with medical books and anatomical drawings, where John Merrick sits at a large oak desk, quill in hand. His face, partially shadowed, reveals deep concentration as he pens a letter. Around him, the faint glow of gas lamps casts a warm light on scattered sketches of the human form, symbolizing his quest for understanding amidst societal neglect.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.9902771264314651
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 33.803,
+      "timestamp_end": 36.876,
+      "audio_content": "lived in a world of stark contrasts,",
+      "image_prompt": "A dimly lit circus tent, vibrant with splashes of color from glistening lights, casts elongated shadows across the dirt floor. In the foreground, John Merrick, his unique features accentuated by the soft glow, gazes thoughtfully at a canvas in his hands, surrounded by curious onlookers. Their mixed expressions of awe and prejudice illuminate the stark contrasts of his world.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.994781813451222
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 36.876,
+      "timestamp_end": 39.949,
+      "audio_content": "glistening circus lights against the shadows of societal",
+      "image_prompt": "A dimly lit circus tent bursts with glistening lights, casting vibrant reflections on the faces of awestruck spectators. In the foreground, John Merrick stands amidst the shadows, his unique features illuminated by the soft glow, evoking a mix of wonder and unease. Behind him, the darker corners of the tent suggest the societal prejudice he faces, contrasting sharply with the brilliance around him.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9855224912365277
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 39.949,
+      "timestamp_end": 43.022,
+      "audio_content": "Despite being",
+      "image_prompt": "A dimly lit circus tent glows with vibrant colors, shadows dancing across the canvas. In the foreground, John Merrick, the 'Elephant Man,' sits alone at a wooden table, pencil in hand, sketching intricate drawings. His eyes, filled with a mix of sadness and determination, reflect his inner beauty. Nearby, a small audience whispers, their expressions a blend of awe and discomfort, highlighting the stark contrast of his reality.",
+      "words_in_segment": 2,
+      "confidence_avg": 0.9969503879547119
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 43.022,
+      "timestamp_end": 46.095,
+      "audio_content": "Merrick found solace in art, creating",
+      "image_prompt": "In a dimly lit room adorned with faded circus posters, John Merrick sits hunched over a wooden table, his delicate hands skillfully drawing intricate sketches. Soft golden light spills from a nearby window, illuminating his focused expression. Shadows dance around him, contrasting his fragile form with the vibrant art that captures his inner beauty, whispering tales of resilience and creativity.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9294396539529165
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 46.095,
+      "timestamp_end": 49.168,
+      "audio_content": "drawings that expressed his inner beauty. His",
+      "image_prompt": "In a dimly lit room, John William Merrick sits at a small wooden table, his gnarled hands delicately holding a pencil. Surrounding him are his exquisite drawings, illuminating stark shadows with their intricate details. The soft glow of a flickering candle casts a warm light on his focused expression, revealing a depth of intellect and emotion, inviting viewers to see beyond his exterior.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9878407716751099
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 49.168,
+      "timestamp_end": 52.241,
+      "audio_content": "transcends mere spectacle. It's a poignant",
+      "image_prompt": "A dimly lit circus tent glimmers with colorful lights, casting flickering shadows on the faces of a captivated audience. In the foreground, John Merrick, the 'Elephant Man,' sits sketching intently, his delicate hands cradling a pencil, surrounded by crumpled paper filled with intricate drawings. His eyes reflect a deep intelligence, contrasting starkly with the gasps of awe and prejudice from the crowd, evoking a profound sense of humanity hidden within the spectacle.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9685284992059072
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 52.241,
+      "timestamp_end": 55.314,
+      "audio_content": "of humanity's complexities. What if we",
+      "image_prompt": "A dimly lit circus tent, shadows flickering against vibrant red and gold fabric. In the foreground, John Merrick, the 'Elephant Man,' sits hunched, his unique features softened by the warm glow of a nearby lantern. A sketchbook rests on his lap, intricate drawings peeking out, revealing his inner beauty. Spectators' silhouettes loom in the background, faces a mix of curiosity and prejudice, as the atmosphere hums with tension and unspoken stories.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9915463080008825
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 55.314,
+      "timestamp_end": 58.387,
+      "audio_content": "beyond appearances to discover the genius within?",
+      "image_prompt": "In a dimly lit circus tent, a spotlight illumin John Merrick, revealing his striking features against the vibrant chaos of the sideshow. Around him, awed spectators gaze in fascination, their faces a mix of curiosity and discomfort. In his hands, he holds a delicate drawing, showcasing the intricate beauty of his inner world. Shadows dance along the canvas, hinting at the genius that lies beneath the surface.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9947714294706073
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 58.387,
+      "timestamp_end": 61.46,
+      "audio_content": "Could we redefine what it means to truly see someone?",
+      "image_prompt": "In a dimly lit circus tent, a spotlight illumin John Merrick, the 'Elephant Man,' seated at a small wooden table strewn with sketches of anatomical drawings. His face, a canvas of beauty and distortion, reflects a profound curiosity. Surrounding him, a small group of captivated onlookers gazes in awe, their expressions a mixture of wonder and empathy, as shadows dance around them, contrasting the vibrant colors of the circus.",
+      "words_in_segment": 10,
+      "confidence_avg": 0.9785436481237412
+    }
+  ],
+  "metadata": {
+    "total_images": 20,
+    "total_duration": 61.46,
+    "whisper_model": "base"
+  }
+}

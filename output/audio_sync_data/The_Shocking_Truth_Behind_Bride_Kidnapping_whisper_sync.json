@@ -1,0 +1,393 @@
+{
+  "story_title": "The Shocking Truth Behind Bride Kidnapping",
+  "original_story": "[dramatic] In some cultures, love is a crime! Bride kidnapping, a practice dating back centuries, involves men abducting women they desire for marriage. [pause:1s] It’s not just a relic of the past—this shocking custom is still alive today in parts of Central Asia! [curious] Picture a young woman, dressed in her finest attire, suddenly swept off her feet by a man she barely knows. [pause:0.5s] These kidnappings often lead to chaos: families clashing and lives upended. [angry] It’s horrifying to think that, in some regions, this act is celebrated as a romantic adventure. [pause:1s] In fact, many women are pressured to accept their fate, fearing societal backlash. [sad] The trauma can last a lifetime, leaving deep scars on both the victims and the communities involved. [mysterious] Yet, in these turbulent tales, some find ways to reclaim their lives and rewrite their stories. [pause:1s] So, what happens to love when it’s taken by force? [pause:1s] And how can we change a narrative that's been told for generations?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.8609999999999998,
+      "audio_content": "In some cultures, love is a crime. Bride",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9244218021631241
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.8609999999999998,
+      "timestamp_end": 5.7219999999999995,
+      "audio_content": "a practice dating back centuries, involves",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8950770397981008
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.7219999999999995,
+      "timestamp_end": 8.582999999999998,
+      "audio_content": "abducting women they desire for marriage.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9903564949830373
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.582999999999998,
+      "timestamp_end": 11.443999999999999,
+      "audio_content": "It's not just a relic of the past. This",
+      "words_in_segment": 9,
+      "confidence_avg": 0.992672281132804
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 11.443999999999999,
+      "timestamp_end": 14.305,
+      "audio_content": "custom is still alive today in parts of Central",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9535068273544312
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 14.305,
+      "timestamp_end": 17.165999999999997,
+      "audio_content": "Picture a young woman dressed in her",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9507969106946673
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 17.165999999999997,
+      "timestamp_end": 20.026999999999997,
+      "audio_content": "attire, suddenly swept off her feet by a",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9971144311130047
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 20.026999999999997,
+      "timestamp_end": 22.887999999999998,
+      "audio_content": "she barely knows. These kidnappings",
+      "words_in_segment": 5,
+      "confidence_avg": 0.988388192653656
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 22.887999999999998,
+      "timestamp_end": 25.749,
+      "audio_content": "lead to chaos, families clashing, and",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9852984597285589
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 25.749,
+      "timestamp_end": 28.61,
+      "audio_content": "upended. It's horrifying to think that in",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9698446265288762
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 28.61,
+      "timestamp_end": 31.470999999999997,
+      "audio_content": "regions, this act is celebrated as a romantic",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9019345045089722
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 31.470999999999997,
+      "timestamp_end": 34.331999999999994,
+      "audio_content": "In fact, many women are",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9973130106925965
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 34.331999999999994,
+      "timestamp_end": 37.193,
+      "audio_content": "to accept their fate, fearing societal",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9939888815085093
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 37.193,
+      "timestamp_end": 40.053999999999995,
+      "audio_content": "The trauma can last a lifetime,",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9903213580449423
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 40.053999999999995,
+      "timestamp_end": 42.915,
+      "audio_content": "deep scars on both the victims and the communities",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9949850638707479
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 42.915,
+      "timestamp_end": 45.775999999999996,
+      "audio_content": "yet, in these turbulent tales, some",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9871559043725332
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 45.775999999999996,
+      "timestamp_end": 48.63699999999999,
+      "audio_content": "ways to reclaim their lives and rewrite their",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9971812292933464
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 48.63699999999999,
+      "timestamp_end": 51.498,
+      "audio_content": "So, what happens to",
+      "words_in_segment": 4,
+      "confidence_avg": 0.995440661907196
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 51.498,
+      "timestamp_end": 54.358999999999995,
+      "audio_content": "when it's taken by force?",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9957241535186767
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 54.358999999999995,
+      "timestamp_end": 57.22,
+      "audio_content": "how can we change a narrative that's been told for generations?",
+      "words_in_segment": 11,
+      "confidence_avg": 0.9968996156345714
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.8609999999999998,
+      "audio_content": "In some cultures, love is a crime. Bride",
+      "image_prompt": "Establishing shot of a vast, rugged landscape in Central Asia at dusk, with a traditional yurt in the foreground. Shadows stretch across the ground, hinting at the chaos within. The sky is painted in dramatic hues, casting an eerie light that symbolizes the tension of love and abduction.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9244218021631241,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.8609999999999998,
+      "timestamp_end": 5.7219999999999995,
+      "audio_content": "a practice dating back centuries, involves",
+      "image_prompt": "Medium shot of a young woman in traditional attire, her expression a mix of fear and defiance, as a man reaches for her hand in a dimly lit room. The shadows dance across their faces, capturing the tension of an unexpected abduction in a world where love is a crime.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.8950770397981008,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.7219999999999995,
+      "timestamp_end": 8.582999999999998,
+      "audio_content": "abducting women they desire for marriage.",
+      "image_prompt": "Medium shot of a young woman in traditional attire, her eyes wide with fear and confusion, as a man grasps her wrist, pulling her away. The background is dark and shadowy, illuminated by dramatic chiaroscuro lighting that highlights their tense expressions.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9903564949830373,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 8.582999999999998,
+      "timestamp_end": 11.443999999999999,
+      "audio_content": "It's not just a relic of the past. This",
+      "image_prompt": "Medium shot of a young woman in traditional attire, her eyes wide with fear as a man approaches her with outstretched arms in a dimly lit alley. Shadows loom ominously, highlighting the tension of an impending abduction against the backdrop of a chaotic, blurred crowd.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.992672281132804,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 11.443999999999999,
+      "timestamp_end": 14.305,
+      "audio_content": "custom is still alive today in parts of Central",
+      "image_prompt": "Medium shot of a young woman in traditional attire, her expression a mix of fear and defiance, as a man reaches out to her in a dramatic, shadowy alley. The chiaroscuro lighting accentuates the tension between them, capturing the chaos of the moment.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9535068273544312,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 14.305,
+      "timestamp_end": 17.165999999999997,
+      "audio_content": "Picture a young woman dressed in her",
+      "image_prompt": "Medium shot of a young woman in ornate traditional attire, her expression a mix of confusion and fear, as a man confidently approaches her with outstretched arms in a dimly lit room, dramatic shadows highlighting the tension of the moment.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9507969106946673,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 17.165999999999997,
+      "timestamp_end": 20.026999999999997,
+      "audio_content": "attire, suddenly swept off her feet by a",
+      "image_prompt": "Medium shot of a young woman in elaborate traditional attire, her expression a mix of shock and fear, as a rugged man reaches for her hand, dramatic chiaroscuro lighting casting sharp shadows across their faces, capturing the chaotic moment of abduction.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9971144311130047,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 20.026999999999997,
+      "timestamp_end": 22.887999999999998,
+      "audio_content": "she barely knows. These kidnappings",
+      "image_prompt": "Medium shot of a young woman in traditional attire, her eyes wide with fear and confusion, as a shadowy figure looms behind her, capturing the tension of an impending abduction. Dramatic chiaroscuro lighting enhances her emotional turmoil, casting sharp shadows across the ornate walls.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.988388192653656,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 22.887999999999998,
+      "timestamp_end": 25.749,
+      "audio_content": "lead to chaos, families clashing, and",
+      "image_prompt": "Medium shot of a young woman in traditional attire, her expression a mix of fear and confusion, as a man reaches out to grab her arm amidst a chaotic scene. Shadows loom around them, highlighting the tension of the moment, while family members in the background clash in heated arguments.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9852984597285589,
+      "content_type": "character_action",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 25.749,
+      "timestamp_end": 28.61,
+      "audio_content": "upended. It's horrifying to think that in",
+      "image_prompt": "Medium shot of a young woman in exquisite traditional attire, her expression a mix of fear and defiance, as a shadowy figure looms nearby, embodying the chaos of bride kidnapping. Dramatic chiaroscuro lighting casts sharp shadows, emphasizing her emotional turmoil in a Baroque-style setting.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9698446265288762,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 28.61,
+      "timestamp_end": 31.470999999999997,
+      "audio_content": "regions, this act is celebrated as a romantic",
+      "image_prompt": "Medium shot of a young woman in intricate traditional attire, her expression a blend of fear and defiance, as a shadowy figure reaches out to her. The scene is drenched in dramatic chiaroscuro lighting, highlighting the tension in her eyes against sharp shadows, evoking a sense of turmoil and uncertainty.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9019345045089722,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 31.470999999999997,
+      "timestamp_end": 34.331999999999994,
+      "audio_content": "In fact, many women are",
+      "image_prompt": "Medium shot of a young woman in elegant attire, her face a mix of fear and resignation, as she stands in a dimly lit room. Shadows loom around her, highlighting her vulnerability. In the background, a man approaches, his expression a blend of determination and entitlement.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9973130106925965,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 13,
+      "timestamp_start": 34.331999999999994,
+      "timestamp_end": 37.193,
+      "audio_content": "to accept their fate, fearing societal",
+      "image_prompt": "Medium shot of a young woman in a richly adorned dress, her expression a mix of fear and resignation. Shadows loom around her, capturing the tension of the moment as she is surrounded by family members, their faces revealing disapproval and pressure, against a backdrop of dimly lit, ornate walls.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9939888815085093,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 14,
+      "timestamp_start": 37.193,
+      "timestamp_end": 40.053999999999995,
+      "audio_content": "The trauma can last a lifetime,",
+      "image_prompt": "Close-up of a young woman's face, eyes wide with fear and confusion, adorned in traditional bridal attire. Shadows cast dramatically across her features, capturing her turmoil as she is forcefully held by a man, the tension palpable in the dimly lit room.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9903213580449423,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 15,
+      "timestamp_start": 40.053999999999995,
+      "timestamp_end": 42.915,
+      "audio_content": "deep scars on both the victims and the communities",
+      "image_prompt": "Close-up of a young woman's face, her eyes wide with fear and uncertainty, as she stands at the threshold of her abduction. Dramatic chiaroscuro lighting casts sharp shadows, highlighting her delicate features and the tension in her expression, evoking the gravity of her situation.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.9949850638707479,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 16,
+      "timestamp_start": 42.915,
+      "timestamp_end": 45.775999999999996,
+      "audio_content": "yet, in these turbulent tales, some",
+      "image_prompt": "Medium shot of a young woman in exquisite traditional attire, her face a mixture of fear and defiance, as a shadowy figure looms behind her, symbolizing the abruptness of her abduction. The dramatic chiaroscuro lighting highlights her expressive eyes, capturing the turmoil of her emotions.",
+      "words_in_segment": 6,
+      "confidence_avg": 0.9871559043725332,
+      "content_type": "emotional_moment",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 17,
+      "timestamp_start": 45.775999999999996,
+      "timestamp_end": 48.63699999999999,
+      "audio_content": "ways to reclaim their lives and rewrite their",
+      "image_prompt": "Close-up of a young woman's face, eyes filled with determination and sorrow, as she stands in a dimly lit room. Shadows flicker across her features, capturing the weight of her choices, embodying resilience amidst the chaos of her abduction.",
+      "words_in_segment": 8,
+      "confidence_avg": 0.9971812292933464,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 18,
+      "timestamp_start": 48.63699999999999,
+      "timestamp_end": 51.498,
+      "audio_content": "So, what happens to",
+      "image_prompt": "Close-up of a young woman's face, eyes wide with fear and uncertainty, as a shadowy figure looms behind her. Dramatic chiaroscuro lighting highlights her tension and vulnerability, capturing the moment before her life is irrevocably changed. Shadows cast across her delicate attire add to the intensity.",
+      "words_in_segment": 4,
+      "confidence_avg": 0.995440661907196,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 19,
+      "timestamp_start": 51.498,
+      "timestamp_end": 54.358999999999995,
+      "audio_content": "when it's taken by force?",
+      "image_prompt": "Close-up of a young woman's face, eyes filled with fear and defiance, illuminated by dramatic chiaroscuro lighting. A shadowy figure looms behind her, symbolizing the looming threat of bride kidnapping, capturing the emotional turmoil and societal pressure she faces.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9957241535186767,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    },
+    {
+      "image_number": 20,
+      "timestamp_start": 54.358999999999995,
+      "timestamp_end": 57.22,
+      "audio_content": "how can we change a narrative that's been told for generations?",
+      "image_prompt": "Close-up of a young woman’s tearful face, her traditional attire contrasting with the shadows around her. The light catches her anguish and determination, as she gazes off-screen, hinting at the chaos of her abduction and the weight of her unchosen fate.",
+      "words_in_segment": 11,
+      "confidence_avg": 0.9968996156345714,
+      "content_type": "emotional_moment",
+      "shot_type": "close_up"
+    }
+  ],
+  "metadata": {
+    "total_images": 20,
+    "total_duration": 57.22,
+    "whisper_model": "base"
+  }
+}

@@ -1,0 +1,340 @@
+2025-07-19 22:43:58,764 - autotube.full_pipeline - INFO - 🚀 Starting AutoTube Full Pipeline
+2025-07-19 22:43:58,764 - autotube.full_pipeline - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\full_pipeline_20250719_224358.log
+2025-07-19 22:43:58,765 - autotube.full_pipeline - INFO - 🎬 Starting AutoTube Full Pipeline
+2025-07-19 22:43:58,765 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 22:43:58,765 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 22:43:58,767 - autotube.full_pipeline - INFO - 🔄 Starting: Content Generation
+2025-07-19 22:44:00,466 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:03,427 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:03,761 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:03,776 - autotube.content_gen - INFO - 🚀 Starting content_gen pipeline for topic: **Title:** The Dark Side of Marie Antoinette's Court  
+**Summary:** Beneath the opulence of Versailles, Marie Antoinette was implicated in a scandal involving secret gambling rings and lavish parties that drained France's treasury, contributing to the discontent that sparked the Revolution.
+2025-07-19 22:44:03,776 - autotube.content_gen - INFO - 📝 Log file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\content_gen_logs\TitleTheDarkSideofMarieAntoinettesCourtSummaryBene_content_gen_2025-07-19_22-44-03.log
+2025-07-19 22:44:03,777 - autotube.content_gen - INFO - 📁 Sanitized folder name: MarieAntoinettesSecretGamblingScandalRevealed
+2025-07-19 22:44:03,777 - autotube.content_gen - INFO - ✅ Story Generation validation passed: Story has 81 words
+2025-07-19 22:44:03,780 - autotube.content_gen - INFO - ✅ Story JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\MarieAntoinettesSecretGamblingScandalRevealed\story.json (1,238 bytes)
+2025-07-19 22:44:03,781 - autotube.content_gen - INFO - ✅ Topic TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\MarieAntoinettesSecretGamblingScandalRevealed\topic.txt (292 bytes)
+2025-07-19 22:44:03,782 - autotube.content_gen - INFO - ✅ Metadata JSON Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\MarieAntoinettesSecretGamblingScandalRevealed\metadata.json (698 bytes)
+2025-07-19 22:44:03,782 - autotube.content_gen - INFO - ✅ Story TXT Creation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\MarieAntoinettesSecretGamblingScandalRevealed\story.txt (1,158 bytes)
+2025-07-19 22:44:03,783 - autotube.content_gen - INFO - ✅ Story assets saved to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\stories\MarieAntoinettesSecretGamblingScandalRevealed
+2025-07-19 22:44:11,412 - autotube.content_gen - INFO - ✅ TTS Audio Generation validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\MarieAntoinettesSecretGamblingScandalRevealed\audio_MarieAntoinettesSecretGamblingScandalRevealed.mp3 (504,521 bytes)
+2025-07-19 22:44:11,506 - autotube.content_gen - INFO - ✅ TTS Audio Generation audio validation passed: 31.53s duration
+2025-07-19 22:44:12,355 - autotube.content_gen - INFO - ✅ Audio speed adjustment: 1.15x, new duration: 27.56s
+2025-07-19 22:44:12,355 - autotube.content_gen - INFO - ✅ TTS audio generated: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\MarieAntoinettesSecretGamblingScandalRevealed\audio_MarieAntoinettesSecretGamblingScandalRevealed_sped_up.mp3 (504,521 bytes, 27.56s)
+2025-07-19 22:44:12,356 - whisper_audio_synchronizer - INFO - 🎤 Initializing Whisper Audio Synchronizer with model: base
+2025-07-19 22:44:12,356 - whisper_audio_synchronizer - INFO - 🚀 Starting Whisper-based audio synchronization pipeline
+2025-07-19 22:44:12,357 - whisper_audio_synchronizer - INFO - 🎤 Transcribing audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\MarieAntoinettesSecretGamblingScandalRevealed\audio_MarieAntoinettesSecretGamblingScandalRevealed_sped_up.mp3
+2025-07-19 22:44:12,357 - whisper_audio_synchronizer - INFO - 📥 Loading faster-whisper model: base
+2025-07-19 22:44:13,107 - whisper_audio_synchronizer - INFO - ✅ faster-whisper model loaded successfully
+2025-07-19 22:44:13,185 - faster_whisper - INFO - Processing audio with duration 00:27.525
+2025-07-19 22:44:13,854 - faster_whisper - INFO - Detected language 'en' with probability 1.00
+2025-07-19 22:44:16,601 - whisper_audio_synchronizer - INFO - ✅ Transcription completed. Duration: 26.14s
+2025-07-19 22:44:16,601 - whisper_audio_synchronizer - INFO - 📝 Extracted 80 words with timestamps
+2025-07-19 22:44:16,602 - whisper_audio_synchronizer - INFO - ⏱️  Total duration: 26.14s, Image duration: 2.18s
+2025-07-19 22:44:16,603 - whisper_audio_synchronizer - INFO - 📅 Created image timing schedule for 12 images
+2025-07-19 22:44:16,603 - whisper_audio_synchronizer - INFO - 🎨 Generating story-driven synchronized image prompts with enhanced diversity
+2025-07-19 22:44:18,133 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:18,134 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 1 (exposition_setup/wide_shot): Wide shot of a lavish ballroom in Versailles, fill...
+2025-07-19 22:44:19,536 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:19,538 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 2 (exposition_setup/wide_shot): Wide shot of the opulent Versailles ballroom fille...
+2025-07-19 22:44:21,188 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:21,190 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 3 (exposition_setup/wide_shot): Wide shot of the opulent Hall of Mirrors in Versai...
+2025-07-19 22:44:22,894 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:22,895 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 4 (exposition_setup/medium_shot): Medium shot of Marie Antoinette at an opulent soir...
+2025-07-19 22:44:24,870 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:24,873 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 5 (exposition_setup/medium_shot): Medium shot of Marie Antoinette at a lavish party,...
+2025-07-19 22:44:26,477 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:26,479 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 6 (exposition_setup/medium_shot): Medium shot of Marie Antoinette at a lavish party ...
+2025-07-19 22:44:28,088 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:28,090 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 7 (exposition_setup/medium_shot): Medium shot of Marie Antoinette, elegantly dressed...
+2025-07-19 22:44:29,697 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:29,699 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 8 (exposition_setup/medium_shot): Medium shot of Marie Antoinette at a lavish soirée...
+2025-07-19 22:44:31,291 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:31,292 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 9 (exposition_setup/medium_shot): Medium shot of a lavish ballroom in Versailles, wi...
+2025-07-19 22:44:32,757 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:32,758 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 10 (exposition_setup/medium_shot): Medium shot of Marie Antoinette at a lavish soirée...
+2025-07-19 22:44:37,517 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:37,519 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 11 (exposition_setup/medium_shot): Medium shot of Marie Antoinette at a lavish party ...
+2025-07-19 22:44:38,844 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 22:44:38,848 - whisper_audio_synchronizer - INFO - ✅ Generated prompt for image 12 (exposition_setup/medium_shot): Medium shot of Marie Antoinette at an extravagant ...
+2025-07-19 22:44:38,850 - whisper_audio_synchronizer - INFO - 💾 Saved synchronized data to: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio_sync_data\Marie_Antoinettes_Secret_Gambling_Scandal_Revealed_whisper_sync.json
+2025-07-19 22:44:38,850 - whisper_audio_synchronizer - INFO - ✅ Generated 12 story-driven synchronized image prompts with enhanced diversity
+2025-07-19 22:44:38,851 - whisper_audio_synchronizer - INFO - ✅ Whisper-based audio synchronization pipeline completed
+2025-07-19 22:44:38,852 - autotube.content_gen - INFO - ✅ Whisper Audio Synchronization validation passed: 12 synchronized segments
+2025-07-19 22:44:38,852 - autotube.content_gen - INFO - ✅ Whisper sync completed: 12 prompts
+2025-07-19 22:44:38,856 - autotube.content_gen - INFO - ✅ Music Selection validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\lands-over-the-horizon-pompous-orchestral-cinematic-epic-action-270501.mp3 (3,841,044 bytes)
+2025-07-19 22:44:38,857 - autotube.content_gen - INFO - ✅ Music Selection Save validation passed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\MarieAntoinettesSecretGamblingScandalRevealed\music_selection.json (429 bytes)
+2025-07-19 22:44:38,857 - autotube.content_gen - INFO - ✅ Music selected: lands-over-the-horizon-pompous-orchestral-cinematic-epic-action-270501.mp3
+2025-07-19 22:44:38,858 - src.replicate_image_generator - INFO - Initialized OptimizedReplicateImageGenerator with 'mvp_testing' preset
+2025-07-19 22:44:38,858 - src.replicate_image_generator - INFO - Generating images for story: Marie Antoinette's Secret Gambling Scandal Revealed
+2025-07-19 22:44:38,859 - src.replicate_image_generator - INFO - Using quality preset: mvp_testing ($0.00/video)
+2025-07-19 22:44:38,859 - src.replicate_image_generator - INFO - Generating 12 images with mvp_testing quality
+2025-07-19 22:44:38,859 - src.replicate_image_generator - INFO - Estimated cost: $0.036
+2025-07-19 22:44:39,805 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 22:44:41,348 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 22:44:42,849 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 22:44:44,377 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 22:44:45,841 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 22:44:47,294 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 22:44:48,807 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 22:44:50,264 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 22:44:51,717 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 22:44:53,193 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 22:44:54,667 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 22:44:56,162 - httpx - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions "HTTP/1.1 201 Created"
+2025-07-19 22:44:57,006 - src.replicate_image_generator - INFO - Generation complete: 12/12 successful
+2025-07-19 22:44:57,006 - src.replicate_image_generator - INFO - Total cost: $0.036 (avg: $0.0030/image)
+2025-07-19 22:44:57,008 - autotube.content_gen - INFO - ✅ Image Generation validation passed: 12/12 images generated
+2025-07-19 22:44:57,010 - autotube.content_gen - INFO - ✅ Image generation: 12/12 images, cost: $0.0360
+2025-07-19 22:44:57,012 - autotube.content_gen - INFO - 🎉 Content generation pipeline completed successfully!
+2025-07-19 22:44:57,012 - autotube.content_gen - INFO - 📊 Total time: 58.24s, Cost: $0.0360
+2025-07-19 22:44:57,012 - autotube.content_gen - INFO - 📋 Ready for audio/video processing with topic: **Title:** The Dark Side of Marie Antoinette's Court  
+**Summary:** Beneath the opulence of Versailles, Marie Antoinette was implicated in a scandal involving secret gambling rings and lavish parties that drained France's treasury, contributing to the discontent that sparked the Revolution.
+2025-07-19 22:44:57,030 - autotube.full_pipeline - INFO - ✅ Completed: Content Generation (58.26s)
+2025-07-19 22:44:57,031 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-19 22:44:57,031 - autotube.full_pipeline - INFO - 🔄 Starting: Audio/Video Processing
+2025-07-19 22:44:57,032 - autotube.full_pipeline - INFO - 📁 Sanitized folder name: MarieAntoinettesSecretGamblingScandalRevealed
+2025-07-19 22:44:57,032 - autotube.full_pipeline - INFO - 🎚️ Step 0: Audio Mixing for topic: MarieAntoinettesSecretGamblingScandalRevealed
+2025-07-19 22:44:57,032 - autotube.full_pipeline - INFO - ✅ Found sped-up TTS audio: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\MarieAntoinettesSecretGamblingScandalRevealed\audio_MarieAntoinettesSecretGamblingScandalRevealed_sped_up.mp3
+2025-07-19 22:44:57,033 - autotube.full_pipeline - INFO - ✅ Found music selection: C:\autotube\ThroughTheLensofHistory_30seoconds\output\music_selections\MarieAntoinettesSecretGamblingScandalRevealed\music_selection.json
+2025-07-19 22:44:57,039 - autotube.full_pipeline - INFO - ✅ Found music file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\lands-over-the-horizon-pompous-orchestral-cinematic-epic-action-270501.mp3
+2025-07-19 22:44:57,049 - autotube.full_pipeline - INFO - 🎚️ Mixing TTS with background music...
+2025-07-19 22:44:57,049 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\output\audio\MarieAntoinettesSecretGamblingScandalRevealed\audio_MarieAntoinettesSecretGamblingScandalRevealed_sped_up.mp3
+2025-07-19 22:44:57,112 - src.audio_mixer - INFO - Loaded audio: 27525ms (27.525s), 44100Hz, 2 channels
+2025-07-19 22:44:57,112 - src.audio_mixer - INFO - Loading audio file: C:\autotube\ThroughTheLensofHistory_30seoconds\data\music\Mystery\lands-over-the-horizon-pompous-orchestral-cinematic-epic-action-270501.mp3
+2025-07-19 22:44:57,317 - src.audio_mixer - INFO - Loaded audio: 120033ms (120.033s), 44100Hz, 2 channels
+2025-07-19 22:44:57,317 - src.audio_mixer - INFO - Voice duration: 27525ms
+2025-07-19 22:44:57,317 - src.audio_mixer - INFO - Mixing audio with exact duration matching...
+2025-07-19 22:44:57,317 - src.audio_mixer - INFO - Target duration: 27525ms
+2025-07-19 22:44:57,318 - src.audio_mixer - INFO - Trimmed music from 27525ms to 27525ms
+2025-07-19 22:44:57,318 - src.audio_mixer - INFO - Balancing audio levels for mobile...
+2025-07-19 22:44:57,335 - src.audio_mixer - INFO - Voice adjusted by 9.6dB, Music by -13.6dB
+2025-07-19 22:44:57,340 - src.audio_mixer - INFO - Added 500ms fade-out to prevent end artifacts
+2025-07-19 22:44:57,348 - src.audio_mixer - INFO - ✅ Exact duration match: 27525ms
+2025-07-19 22:44:57,348 - src.audio_mixer - INFO - Audio mixing completed: 27525ms
+2025-07-19 22:44:57,678 - src.audio_mixer - INFO - Mixed story audio saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\MarieAntoinettesSecretGamblingScandalRevealed\mixed_audio_MarieAntoinettesSecretGamblingScandalRevealed.mp3
+2025-07-19 22:44:57,679 - autotube.full_pipeline - INFO - ✅ Mixed audio created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\mixed_audio\MarieAntoinettesSecretGamblingScandalRevealed\mixed_audio_MarieAntoinettesSecretGamblingScandalRevealed.mp3
+2025-07-19 22:44:57,679 - autotube.full_pipeline - INFO - 📊 Mixed audio size: 808,581 bytes (0.8 MB)
+2025-07-19 22:44:57,680 - autotube.full_pipeline - INFO - 🎬 Creating Ken Burns video for topic: MarieAntoinettesSecretGamblingScandalRevealed
+2025-07-19 22:44:57,681 - autotube.full_pipeline - INFO - ✅ MoviePy Video Composer initialized
+2025-07-19 22:44:57,681 - autotube.full_pipeline - INFO - 📐 Video dimensions: 768x1344 (maintained throughout pipeline)
+2025-07-19 22:44:57,681 - autotube.full_pipeline - INFO - 🎬 Starting unified video composition for: MarieAntoinettesSecretGamblingScandalRevealed
+2025-07-19 22:44:57,795 - autotube.full_pipeline - INFO - 📸 Loaded 12 images for video
+2025-07-19 22:44:57,795 - autotube.full_pipeline - INFO - 📐 Target dimensions: 768x1344 (no downscaling)
+2025-07-19 22:44:57,795 - autotube.full_pipeline - INFO - ⏱️  Image duration: 2.41 seconds per image
+2025-07-19 22:44:57,796 - autotube.full_pipeline - INFO - 🔗 Creating video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\MarieAntoinettesSecretGamblingScandalRevealed_kenburns.mp4
+2025-07-19 22:44:57,796 - autotube.full_pipeline - INFO - 🎲 Generated random effects sequence: ['pan_left', 'zoom_in', 'pan_left', 'zoom_out', 'zoom_in']...
+2025-07-19 22:44:57,796 - autotube.full_pipeline - INFO - 📸 Processing image 1/12: image_01.jpg
+2025-07-19 22:44:57,796 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 22:44:57,810 - autotube.full_pipeline - INFO - 📸 Processing image 2/12: image_02.jpg
+2025-07-19 22:44:57,810 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 22:44:57,822 - autotube.full_pipeline - INFO - 📸 Processing image 3/12: image_03.jpg
+2025-07-19 22:44:57,822 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 22:44:57,833 - autotube.full_pipeline - INFO - 📸 Processing image 4/12: image_04.jpg
+2025-07-19 22:44:57,834 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-19 22:44:57,859 - autotube.full_pipeline - INFO - 📸 Processing image 5/12: image_05.jpg
+2025-07-19 22:44:57,859 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 22:44:57,884 - autotube.full_pipeline - INFO - 📸 Processing image 6/12: image_06.jpg
+2025-07-19 22:44:57,885 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 22:44:57,907 - autotube.full_pipeline - INFO - 📸 Processing image 7/12: image_07.jpg
+2025-07-19 22:44:57,908 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 22:44:57,931 - autotube.full_pipeline - INFO - 📸 Processing image 8/12: image_08.jpg
+2025-07-19 22:44:57,931 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-19 22:44:57,956 - autotube.full_pipeline - INFO - 📸 Processing image 9/12: image_09.jpg
+2025-07-19 22:44:57,957 - autotube.full_pipeline - INFO - ✨ Applying pan_left effect
+2025-07-19 22:44:57,979 - autotube.full_pipeline - INFO - 📸 Processing image 10/12: image_10.jpg
+2025-07-19 22:44:57,980 - autotube.full_pipeline - INFO - ✨ Applying zoom_out effect
+2025-07-19 22:44:58,006 - autotube.full_pipeline - INFO - 📸 Processing image 11/12: image_11.jpg
+2025-07-19 22:44:58,007 - autotube.full_pipeline - INFO - ✨ Applying pan_right effect
+2025-07-19 22:44:58,030 - autotube.full_pipeline - INFO - 📸 Processing image 12/12: image_12.jpg
+2025-07-19 22:44:58,030 - autotube.full_pipeline - INFO - ✨ Applying zoom_in effect
+2025-07-19 22:44:58,054 - autotube.full_pipeline - INFO - 🔗 Concatenating 12 clips...
+2025-07-19 22:44:58,084 - autotube.full_pipeline - INFO - 🎵 Adding audio to video with exact duration matching...
+2025-07-19 22:44:58,154 - autotube.full_pipeline - INFO - 📹 Video duration: 28.960s
+2025-07-19 22:44:58,155 - autotube.full_pipeline - INFO - 🎵 Audio duration: 28.960s
+2025-07-19 22:44:58,155 - autotube.full_pipeline - INFO - ✅ Perfect audio/video sync: 28.960s
+2025-07-19 22:44:58,155 - autotube.full_pipeline - INFO - 💾 Writing final video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\MarieAntoinettesSecretGamblingScandalRevealed_kenburns.mp4
+2025-07-19 22:45:39,381 - autotube.full_pipeline - INFO - ✅ Video dimensions verified: 768x1344
+2025-07-19 22:45:39,382 - autotube.full_pipeline - INFO - ✅ Video FPS verified: 30.0
+2025-07-19 22:45:39,382 - autotube.full_pipeline - INFO - ✅ Video duration: 28.97 seconds
+2025-07-19 22:45:39,383 - autotube.full_pipeline - INFO - ✅ Video file size: 9.9 MB
+2025-07-19 22:45:39,383 - autotube.full_pipeline - INFO - 🎯 HD Quality: Good file size indicates good quality
+2025-07-19 22:45:39,427 - autotube.full_pipeline - INFO - ✅ Video composition completed: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\MarieAntoinettesSecretGamblingScandalRevealed_kenburns.mp4
+2025-07-19 22:45:39,428 - autotube.full_pipeline - INFO - 🎯 HD Quality Video: 768x1344 @ 30fps
+2025-07-19 22:45:39,428 - autotube.full_pipeline - INFO - ✅ Ken Burns video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\MarieAntoinettesSecretGamblingScandalRevealed_kenburns.mp4
+2025-07-19 22:45:39,429 - autotube.full_pipeline - INFO - 🎬 Adding dynamic subtitles to video
+2025-07-19 22:45:39,430 - autotube.full_pipeline - INFO - Loading cached Whisper model from: C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small
+2025-07-19 22:45:39,431 - autotube.full_pipeline - WARNING - Failed to load from C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small: Unable to open file 'model.bin' in model 'C:\Users\mjjab/.cache/huggingface/hub/models--Systran--faster-whisper-small'
+2025-07-19 22:45:39,432 - autotube.full_pipeline - INFO - Loading Whisper model (small) - will download if not cached...
+2025-07-19 22:45:41,541 - autotube.full_pipeline - INFO - Whisper model loaded successfully
+2025-07-19 22:45:41,541 - autotube.full_pipeline - INFO - Loaded font: C:/Windows/Fonts/impact.ttf
+2025-07-19 22:45:41,542 - autotube.full_pipeline - INFO - Transcribing audio with word-level timing...
+2025-07-19 22:45:41,752 - faster_whisper - INFO - Processing audio with duration 00:27.559
+2025-07-19 22:45:45,605 - faster_whisper - INFO - Detected language 'en' with probability 0.99
+2025-07-19 22:45:55,630 - autotube.full_pipeline - INFO - Extracted 80 words with timing
+2025-07-19 22:45:55,631 - autotube.full_pipeline - INFO - Word timing extraction with story fallback took 14.09s
+2025-07-19 22:45:56,014 - autotube.full_pipeline - INFO - Video loading took 0.38s
+2025-07-19 22:45:56,014 - autotube.full_pipeline - INFO - Original video - Duration: 28.97s, FPS: 30.0, Audio: True
+2025-07-19 22:45:56,015 - autotube.full_pipeline - INFO - Creating individual subtitle clips from 80 words...
+2025-07-19 22:45:56,015 - autotube.full_pipeline - INFO - Group 1: 3 words (16 chars), 0.00s - 0.90s
+2025-07-19 22:45:56,015 - autotube.full_pipeline - INFO - Group 2: 3 words (28 chars), 0.88s - 2.14s
+2025-07-19 22:45:56,015 - autotube.full_pipeline - INFO - Group 3: 3 words (17 chars), 2.12s - 2.68s
+2025-07-19 22:45:56,015 - autotube.full_pipeline - INFO - Group 4: 3 words (17 chars), 2.66s - 3.58s
+2025-07-19 22:45:56,016 - autotube.full_pipeline - INFO - Group 5: 3 words (18 chars), 3.56s - 4.28s
+2025-07-19 22:45:56,016 - autotube.full_pipeline - INFO - Group 6: 3 words (15 chars), 4.26s - 5.56s
+2025-07-19 22:45:56,016 - autotube.full_pipeline - INFO - Group 7: 3 words (24 chars), 5.54s - 6.76s
+2025-07-19 22:45:56,016 - autotube.full_pipeline - INFO - Group 8: 3 words (24 chars), 6.74s - 7.74s
+2025-07-19 22:45:56,016 - autotube.full_pipeline - INFO - Group 9: 3 words (20 chars), 7.72s - 8.54s
+2025-07-19 22:45:56,016 - autotube.full_pipeline - INFO - Group 10: 3 words (27 chars), 8.82s - 9.72s
+2025-07-19 22:45:56,016 - autotube.full_pipeline - INFO - Group 11: 4 words (20 chars), 9.70s - 10.58s
+2025-07-19 22:45:56,017 - autotube.full_pipeline - INFO - Group 12: 4 words (18 chars), 10.56s - 11.56s
+2025-07-19 22:45:56,017 - autotube.full_pipeline - INFO - Group 13: 3 words (19 chars), 11.54s - 12.48s
+2025-07-19 22:45:56,017 - autotube.full_pipeline - INFO - Group 14: 3 words (22 chars), 12.46s - 13.60s
+2025-07-19 22:45:56,017 - autotube.full_pipeline - INFO - Group 15: 3 words (30 chars), 13.58s - 15.28s
+2025-07-19 22:45:56,017 - autotube.full_pipeline - INFO - Group 16: 3 words (22 chars), 15.26s - 16.50s
+2025-07-19 22:45:56,017 - autotube.full_pipeline - INFO - Group 17: 3 words (21 chars), 16.48s - 17.64s
+2025-07-19 22:45:56,018 - autotube.full_pipeline - INFO - Group 18: 3 words (18 chars), 17.62s - 18.44s
+2025-07-19 22:45:56,018 - autotube.full_pipeline - INFO - Group 19: 3 words (19 chars), 18.42s - 19.18s
+2025-07-19 22:45:56,018 - autotube.full_pipeline - INFO - Group 20: 3 words (18 chars), 19.16s - 19.86s
+2025-07-19 22:45:56,018 - autotube.full_pipeline - INFO - Group 21: 4 words (25 chars), 19.84s - 21.98s
+2025-07-19 22:45:56,018 - autotube.full_pipeline - INFO - Group 22: 3 words (17 chars), 21.96s - 23.04s
+2025-07-19 22:45:56,018 - autotube.full_pipeline - INFO - Group 23: 4 words (23 chars), 23.02s - 24.28s
+2025-07-19 22:45:56,018 - autotube.full_pipeline - INFO - Group 24: 3 words (22 chars), 24.26s - 25.36s
+2025-07-19 22:45:56,019 - autotube.full_pipeline - INFO - Group 25: 4 words (20 chars), 25.34s - 26.20s
+2025-07-19 22:45:56,019 - autotube.full_pipeline - INFO - Created 25 word groups with smart length limiting
+2025-07-19 22:45:56,019 - autotube.full_pipeline - INFO - Creating clips for group 1: 3 words
+2025-07-19 22:45:56,691 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 1: 0.00s - 0.22s
+2025-07-19 22:45:57,325 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 1: 0.18s - 0.74s
+2025-07-19 22:45:57,900 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 1: 0.70s - 0.83s
+2025-07-19 22:45:57,900 - autotube.full_pipeline - INFO - Created clips for 1/25 word groups - ETA: 2s
+2025-07-19 22:45:57,900 - autotube.full_pipeline - INFO - Creating clips for group 2: 3 words
+2025-07-19 22:45:59,222 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 2: 0.88s - 1.54s
+2025-07-19 22:46:01,055 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 2: 1.50s - 1.84s
+2025-07-19 22:46:02,564 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 2: 1.80s - 2.07s
+2025-07-19 22:46:02,564 - autotube.full_pipeline - INFO - Creating clips for group 3: 3 words
+2025-07-19 22:46:03,389 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 3: 2.12s - 2.42s
+2025-07-19 22:46:04,469 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 3: 2.38s - 2.52s
+2025-07-19 22:46:05,394 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 3: 2.48s - 2.61s
+2025-07-19 22:46:05,394 - autotube.full_pipeline - INFO - Creating clips for group 4: 3 words
+2025-07-19 22:46:06,655 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 4: 2.66s - 3.18s
+2025-07-19 22:46:08,589 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 4: 3.14s - 3.26s
+2025-07-19 22:46:10,530 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 4: 3.22s - 3.51s
+2025-07-19 22:46:10,531 - autotube.full_pipeline - INFO - Creating clips for group 5: 3 words
+2025-07-19 22:46:11,966 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 5: 3.56s - 3.76s
+2025-07-19 22:46:13,009 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 5: 3.72s - 3.98s
+2025-07-19 22:46:14,695 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 5: 3.94s - 4.21s
+2025-07-19 22:46:14,695 - autotube.full_pipeline - INFO - Creating clips for group 6: 3 words
+2025-07-19 22:46:15,824 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 6: 4.26s - 4.82s
+2025-07-19 22:46:16,729 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 6: 4.78s - 4.88s
+2025-07-19 22:46:18,557 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 6: 4.84s - 5.49s
+2025-07-19 22:46:18,557 - autotube.full_pipeline - INFO - Creating clips for group 7: 3 words
+2025-07-19 22:46:22,013 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 7: 5.54s - 6.24s
+2025-07-19 22:46:23,617 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 7: 6.20s - 6.50s
+2025-07-19 22:46:24,759 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 7: 6.46s - 6.69s
+2025-07-19 22:46:24,759 - autotube.full_pipeline - INFO - Creating clips for group 8: 3 words
+2025-07-19 22:46:26,093 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 8: 6.74s - 7.26s
+2025-07-19 22:46:27,527 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 8: 7.22s - 7.36s
+2025-07-19 22:46:29,552 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 8: 7.32s - 7.67s
+2025-07-19 22:46:29,553 - autotube.full_pipeline - INFO - Creating clips for group 9: 3 words
+2025-07-19 22:46:31,766 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 9: 7.72s - 7.98s
+2025-07-19 22:46:34,549 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 9: 7.94s - 8.24s
+2025-07-19 22:46:36,784 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 9: 8.20s - 8.77s
+2025-07-19 22:46:36,784 - autotube.full_pipeline - INFO - Creating clips for group 10: 3 words
+2025-07-19 22:46:38,761 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 10: 8.82s - 9.12s
+2025-07-19 22:46:39,983 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 10: 9.08s - 9.38s
+2025-07-19 22:46:41,135 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 10: 9.34s - 9.65s
+2025-07-19 22:46:41,135 - autotube.full_pipeline - INFO - Creating clips for group 11: 4 words
+2025-07-19 22:46:41,943 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 11: 9.70s - 10.18s
+2025-07-19 22:46:42,768 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 11: 10.14s - 10.38s
+2025-07-19 22:46:43,550 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 11: 10.34s - 10.48s
+2025-07-19 22:46:44,321 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 11: 10.44s - 10.51s
+2025-07-19 22:46:44,321 - autotube.full_pipeline - INFO - Created clips for 11/25 word groups - ETA: 48s
+2025-07-19 22:46:44,321 - autotube.full_pipeline - INFO - Creating clips for group 12: 4 words
+2025-07-19 22:46:44,909 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 12: 10.56s - 11.10s
+2025-07-19 22:46:45,493 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 12: 11.06s - 11.26s
+2025-07-19 22:46:46,080 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 12: 11.22s - 11.46s
+2025-07-19 22:46:46,654 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 12: 11.42s - 11.49s
+2025-07-19 22:46:46,655 - autotube.full_pipeline - INFO - Creating clips for group 13: 3 words
+2025-07-19 22:46:47,336 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 13: 11.54s - 12.16s
+2025-07-19 22:46:47,997 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 13: 12.12s - 12.26s
+2025-07-19 22:46:48,652 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 13: 12.22s - 12.41s
+2025-07-19 22:46:48,652 - autotube.full_pipeline - INFO - Creating clips for group 14: 3 words
+2025-07-19 22:46:49,496 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 14: 12.46s - 13.14s
+2025-07-19 22:46:50,352 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 14: 13.10s - 13.28s
+2025-07-19 22:46:51,184 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 14: 13.24s - 13.53s
+2025-07-19 22:46:51,184 - autotube.full_pipeline - INFO - Creating clips for group 15: 3 words
+2025-07-19 22:46:52,304 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 15: 13.58s - 14.36s
+2025-07-19 22:46:53,427 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 15: 14.32s - 15.04s
+2025-07-19 22:46:54,570 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 15: 15.00s - 15.21s
+2025-07-19 22:46:54,571 - autotube.full_pipeline - INFO - Creating clips for group 16: 3 words
+2025-07-19 22:46:55,406 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 16: 15.26s - 15.76s
+2025-07-19 22:46:56,232 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 16: 15.72s - 16.06s
+2025-07-19 22:46:57,063 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 16: 16.02s - 16.43s
+2025-07-19 22:46:57,063 - autotube.full_pipeline - INFO - Creating clips for group 17: 3 words
+2025-07-19 22:46:57,867 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 17: 16.48s - 16.74s
+2025-07-19 22:46:58,642 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 17: 16.70s - 17.50s
+2025-07-19 22:46:59,364 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 17: 17.46s - 17.57s
+2025-07-19 22:46:59,364 - autotube.full_pipeline - INFO - Creating clips for group 18: 3 words
+2025-07-19 22:47:00,040 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 18: 17.62s - 18.04s
+2025-07-19 22:47:00,723 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 18: 18.00s - 18.34s
+2025-07-19 22:47:01,404 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 18: 18.30s - 18.37s
+2025-07-19 22:47:01,405 - autotube.full_pipeline - INFO - Creating clips for group 19: 3 words
+2025-07-19 22:47:02,185 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 19: 18.42s - 18.68s
+2025-07-19 22:47:02,925 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 19: 18.64s - 18.98s
+2025-07-19 22:47:03,679 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 19: 18.94s - 19.11s
+2025-07-19 22:47:03,680 - autotube.full_pipeline - INFO - Creating clips for group 20: 3 words
+2025-07-19 22:47:04,304 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 20: 19.16s - 19.46s
+2025-07-19 22:47:04,937 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 20: 19.42s - 19.66s
+2025-07-19 22:47:05,585 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 20: 19.62s - 19.79s
+2025-07-19 22:47:05,585 - autotube.full_pipeline - INFO - Creating clips for group 21: 4 words
+2025-07-19 22:47:07,268 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 21: 19.84s - 20.38s
+2025-07-19 22:47:08,762 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 21: 20.34s - 20.56s
+2025-07-19 22:47:09,941 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 21: 20.52s - 21.84s
+2025-07-19 22:47:11,339 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 21: 21.80s - 21.91s
+2025-07-19 22:47:11,340 - autotube.full_pipeline - INFO - Created clips for 21/25 word groups - ETA: 75s
+2025-07-19 22:47:11,340 - autotube.full_pipeline - INFO - Creating clips for group 22: 3 words
+2025-07-19 22:47:13,124 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 22: 21.96s - 22.38s
+2025-07-19 22:47:15,275 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 22: 22.34s - 22.74s
+2025-07-19 22:47:17,462 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 22: 22.70s - 22.97s
+2025-07-19 22:47:17,463 - autotube.full_pipeline - INFO - Creating clips for group 23: 4 words
+2025-07-19 22:47:18,716 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 23: 23.02s - 23.76s
+2025-07-19 22:47:19,477 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 23: 23.72s - 23.88s
+2025-07-19 22:47:20,398 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 23: 23.84s - 24.12s
+2025-07-19 22:47:22,121 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 23: 24.08s - 24.21s
+2025-07-19 22:47:22,121 - autotube.full_pipeline - INFO - Creating clips for group 24: 3 words
+2025-07-19 22:47:23,244 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 24: 24.26s - 24.50s
+2025-07-19 22:47:24,239 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 24: 24.46s - 25.20s
+2025-07-19 22:47:25,310 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 24: 25.16s - 25.29s
+2025-07-19 22:47:25,310 - autotube.full_pipeline - INFO - Creating clips for group 25: 4 words
+2025-07-19 22:47:26,747 - autotube.full_pipeline - INFO - Created continuous clip for word 1 in group 25: 25.34s - 25.58s
+2025-07-19 22:47:27,949 - autotube.full_pipeline - INFO - Created continuous clip for word 2 in group 25: 25.54s - 25.68s
+2025-07-19 22:47:29,750 - autotube.full_pipeline - INFO - Created continuous clip for word 3 in group 25: 25.64s - 25.88s
+2025-07-19 22:47:31,277 - autotube.full_pipeline - INFO - Created continuous clip for word 4 in group 25: 25.84s - 26.40s
+2025-07-19 22:47:31,278 - autotube.full_pipeline - INFO - Created 80 individual subtitle clips
+2025-07-19 22:47:31,279 - autotube.full_pipeline - INFO - Viral subtitle creation took 95.26s
+2025-07-19 22:47:31,280 - autotube.full_pipeline - INFO - Subtitle clips count: 80
+2025-07-19 22:47:31,295 - autotube.full_pipeline - INFO - Video composition took 0.02s
+2025-07-19 22:47:31,297 - autotube.full_pipeline - INFO - Final video - Duration: 28.97s, Audio: True
+2025-07-19 22:47:31,297 - autotube.full_pipeline - INFO - Writing scientifically optimized viral subtitle video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\MarieAntoinettesSecretGamblingScandalRevealed_final.mp4
+2025-07-19 22:48:04,735 - py.warnings - WARNING - C:\autotube\venv\Lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\MarieAntoinettesSecretGamblingScandalRevealed_kenburns.mp4, 3096576 bytes wanted but 0 bytes read,at frame 869/870, at time 28.97/28.97 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2025-07-19 22:48:05,219 - autotube.full_pipeline - INFO - Video writing took 33.92s
+2025-07-19 22:48:05,219 - autotube.full_pipeline - INFO - Validating output file...
+2025-07-19 22:48:05,653 - autotube.full_pipeline - INFO - Output file - Duration: 29.00s, Audio: True, Playable: True
+2025-07-19 22:48:05,682 - autotube.full_pipeline - INFO - Scientifically optimized viral subtitle video created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\MarieAntoinettesSecretGamblingScandalRevealed_final.mp4
+2025-07-19 22:48:05,683 - autotube.full_pipeline - INFO - Total processing time: 144.14s
+2025-07-19 22:48:05,684 - autotube.full_pipeline - INFO - ✅ Final video with subtitles created: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\MarieAntoinettesSecretGamblingScandalRevealed_final.mp4
+2025-07-19 22:48:05,684 - autotube.full_pipeline - INFO - 📊 Final video size: 6,564,540 bytes (6.3 MB)
+2025-07-19 22:48:05,684 - autotube.full_pipeline - INFO - 🎉 Audio/Video processing completed successfully!
+2025-07-19 22:48:05,685 - autotube.full_pipeline - INFO - 📁 Ken Burns video: C:\autotube\ThroughTheLensofHistory_30seoconds\output\videos\MarieAntoinettesSecretGamblingScandalRevealed_kenburns.mp4
+2025-07-19 22:48:05,685 - autotube.full_pipeline - INFO - 📁 Final video with subtitles: C:\autotube\ThroughTheLensofHistory_30seoconds\output\subtitles_processed_video\MarieAntoinettesSecretGamblingScandalRevealed_final.mp4
+2025-07-19 22:48:05,721 - autotube.full_pipeline - INFO - ✅ Completed: Audio/Video Processing (188.69s)
+2025-07-19 22:48:05,721 - autotube.full_pipeline - WARNING - ⚠️ Step timing not found for: Full Pipeline
+2025-07-19 22:48:05,724 - autotube.full_pipeline - INFO - 📊 Pipeline report saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_MarieAntoinettesSecretGamblingScandalRevealed_20250719_224805.json
+2025-07-19 22:48:05,725 - autotube.full_pipeline - INFO - 🎉 Full Pipeline Completed Successfully!
+2025-07-19 22:48:05,725 - autotube.full_pipeline - INFO - ============================================================
+2025-07-19 22:48:05,725 - autotube.full_pipeline - INFO - 📊 Total Pipeline Time: 246.96s
+2025-07-19 22:48:05,725 - autotube.full_pipeline - INFO - 📁 Story Title: MarieAntoinettesSecretGamblingScandalRevealed
+2025-07-19 22:48:05,726 - autotube.full_pipeline - INFO - 📁 Sanitized Title: MarieAntoinettesSecretGamblingScandalRevealed
+2025-07-19 22:48:05,726 - autotube.full_pipeline - INFO - 📊 Report Saved: C:\autotube\ThroughTheLensofHistory_30seoconds\output\fp_logs\pipeline_report_MarieAntoinettesSecretGamblingScandalRevealed_20250719_224805.json

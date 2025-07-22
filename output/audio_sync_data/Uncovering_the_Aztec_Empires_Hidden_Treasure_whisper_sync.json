@@ -1,0 +1,241 @@
+{
+  "story_title": "Uncovering the Aztec Empire's Hidden Treasure",
+  "original_story": "[mysterious] What if I told you the Aztec Empire hid a treasure worth $2 billion? In 1521, after the Spanish conquest, legend says Emperor Montezuma’s gold was buried to protect it. But only a fraction was ever found! Explorers like Hernán Cortés searched for it, but the secrets of its location vanished with the indigenous people. Today, cities like Mexico City sit atop ancient ruins, hiding unimaginable wealth just beneath our feet. Could you be standing on a treasure trove? [pause:1s] Seriously, how much more could be out there?",
+  "image_schedule": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.525,
+      "audio_content": "What if I told you the Aztec Empire hit a treasure",
+      "words_in_segment": 11,
+      "confidence_avg": 0.9299415440270394
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.525,
+      "timestamp_end": 5.05,
+      "audio_content": "$2 billion? In",
+      "words_in_segment": 3,
+      "confidence_avg": 0.8978833456834158
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.05,
+      "timestamp_end": 7.574999999999999,
+      "audio_content": "after the Spanish conquest, legend",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9143276691436768
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.574999999999999,
+      "timestamp_end": 10.1,
+      "audio_content": "Emperor Montezuma's gold was buried to protect",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9505616916077477
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.1,
+      "timestamp_end": 12.625,
+      "audio_content": "But only a fraction was ever found.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9951649393354144
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.625,
+      "timestamp_end": 15.149999999999999,
+      "audio_content": "Explorers like Hernán Cortez searched for it,",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9263187121777309
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 15.149999999999999,
+      "timestamp_end": 17.675,
+      "audio_content": "but the secrets of its location vanished with the",
+      "words_in_segment": 9,
+      "confidence_avg": 0.989863289727105
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.675,
+      "timestamp_end": 20.2,
+      "audio_content": "people. Today cities like Mexico",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9001456022262573
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 20.2,
+      "timestamp_end": 22.724999999999998,
+      "audio_content": "sit atop ancient ruins, hiding",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9220526397228241
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 22.724999999999998,
+      "timestamp_end": 25.25,
+      "audio_content": "wealth just beneath our feet.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9967712163925171
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 25.25,
+      "timestamp_end": 27.775,
+      "audio_content": "you be standing on a treasure trove?",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9953840587820325
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 27.775,
+      "timestamp_end": 30.299999999999997,
+      "audio_content": "Seriously. How much more could be out",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8722274196999413
+    }
+  ],
+  "synchronized_prompts": [
+    {
+      "image_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 2.525,
+      "audio_content": "What if I told you the Aztec Empire hit a treasure",
+      "image_prompt": "Establishing shot of a dense jungle with ancient ruins peeking through the foliage, dramatic chiaroscuro lighting casting sharp shadows, hinting at hidden treasures. The atmosphere is thick with mystery, evoking a sense of untold stories waiting to be uncovered beneath the earth.",
+      "words_in_segment": 11,
+      "confidence_avg": 0.9299415440270394,
+      "content_type": "exposition_setup",
+      "shot_type": "establishing_shot"
+    },
+    {
+      "image_number": 2,
+      "timestamp_start": 2.525,
+      "timestamp_end": 5.05,
+      "audio_content": "$2 billion? In",
+      "image_prompt": "Wide shot of a bustling modern-day Mexico City, with towering skyscrapers juxtaposed against glimpses of ancient Aztec ruins peeking through. Dramatic chiaroscuro lighting casts sharp shadows, hinting at the hidden treasures buried beneath the surface, evoking a sense of mystery and wonder.",
+      "words_in_segment": 3,
+      "confidence_avg": 0.8978833456834158,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 3,
+      "timestamp_start": 5.05,
+      "timestamp_end": 7.574999999999999,
+      "audio_content": "after the Spanish conquest, legend",
+      "image_prompt": "Wide shot of a bustling modern cityscape of Mexico City, with shadows of ancient Aztec ruins looming beneath the surface, hinting at hidden treasures. Dramatic clouds cast deep shadows, evoking mystery and the weight of untold stories lurking just below.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9143276691436768,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 4,
+      "timestamp_start": 7.574999999999999,
+      "timestamp_end": 10.1,
+      "audio_content": "Emperor Montezuma's gold was buried to protect",
+      "image_prompt": "Wide shot of Mexico City, with modern buildings towering over ancient ruins. The sun casts dramatic shadows, revealing glimpses of hidden treasures buried beneath the surface, evoking a sense of mystery and history intertwined with the bustling city life.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9505616916077477,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 5,
+      "timestamp_start": 10.1,
+      "timestamp_end": 12.625,
+      "audio_content": "But only a fraction was ever found.",
+      "image_prompt": "Wide shot of a bustling modern cityscape, with Mexico City's skyline towering above. In the foreground, ancient ruins are partially visible, shrouded in mist and mystery, suggesting hidden treasures beneath. Dramatic chiaroscuro lighting casts sharp shadows, enhancing the sense of intrigue.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9951649393354144,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 6,
+      "timestamp_start": 12.625,
+      "timestamp_end": 15.149999999999999,
+      "audio_content": "Explorers like Hernán Cortez searched for it,",
+      "image_prompt": "Wide shot of a dense, lush jungle landscape, partially obscured by mist. The ruins of an ancient Aztec temple rise from the undergrowth, with sunlight filtering through the trees, casting dramatic shadows across the weathered stone, hinting at the hidden treasures below.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9263187121777309,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 7,
+      "timestamp_start": 15.149999999999999,
+      "timestamp_end": 17.675,
+      "audio_content": "but the secrets of its location vanished with the",
+      "image_prompt": "Medium shot of an archaeologist kneeling on a dusty street in modern Mexico City, examining ancient ruins partially buried beneath the pavement, with shadows from nearby buildings casting dramatic lines across the scene, evoking a sense of hidden secrets and lost treasures.",
+      "words_in_segment": 9,
+      "confidence_avg": 0.989863289727105,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    },
+    {
+      "image_number": 8,
+      "timestamp_start": 17.675,
+      "timestamp_end": 20.2,
+      "audio_content": "people. Today cities like Mexico",
+      "image_prompt": "Wide shot of modern-day Mexico City with towering skyscrapers, juxtaposed against the ancient ruins of the Aztec Empire. The sun sets in the background, casting dramatic shadows over the hidden treasures beneath the city, evoking a sense of mystery and history waiting to be uncovered.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9001456022262573,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 9,
+      "timestamp_start": 20.2,
+      "timestamp_end": 22.724999999999998,
+      "audio_content": "sit atop ancient ruins, hiding",
+      "image_prompt": "Wide shot of modern Mexico City, bustling with life, juxtaposed against the remnants of ancient Aztec ruins peeking through the urban landscape, with dramatic chiaroscuro lighting casting sharp shadows, hinting at hidden treasures beneath the surface.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9220526397228241,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 10,
+      "timestamp_start": 22.724999999999998,
+      "timestamp_end": 25.25,
+      "audio_content": "wealth just beneath our feet.",
+      "image_prompt": "Wide shot of a bustling modern cityscape, with Mexico City’s skyline emerging above ancient ruins. Shadows stretch across the ground, hinting at hidden treasures underground, while the sun sets, casting dramatic chiaroscuro lighting over the scene.",
+      "words_in_segment": 5,
+      "confidence_avg": 0.9967712163925171,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 11,
+      "timestamp_start": 25.25,
+      "timestamp_end": 27.775,
+      "audio_content": "you be standing on a treasure trove?",
+      "image_prompt": "Wide shot of a bustling Mexico City, blending modern skyscrapers with glimpses of ancient Aztec ruins peeking through the streets, illuminated by dramatic chiaroscuro lighting. The shadows hint at the hidden treasures buried beneath, evoking a sense of mystery and intrigue.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.9953840587820325,
+      "content_type": "exposition_setup",
+      "shot_type": "wide_shot"
+    },
+    {
+      "image_number": 12,
+      "timestamp_start": 27.775,
+      "timestamp_end": 30.299999999999997,
+      "audio_content": "Seriously. How much more could be out",
+      "image_prompt": "Medium shot of an explorer standing atop ancient ruins in modern-day Mexico City, gazing intently at the ground. His face is illuminated by dramatic chiaroscuro lighting, revealing a mix of curiosity and determination as shadows play across the weathered stones beneath his feet.",
+      "words_in_segment": 7,
+      "confidence_avg": 0.8722274196999413,
+      "content_type": "exposition_setup",
+      "shot_type": "medium_shot"
+    }
+  ],
+  "metadata": {
+    "total_images": 12,
+    "total_duration": 30.299999999999997,
+    "whisper_model": "base"
+  }
+}

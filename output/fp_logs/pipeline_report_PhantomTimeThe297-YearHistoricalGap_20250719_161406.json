@@ -1,0 +1,58 @@
+{
+  "pipeline_info": {
+    "story_title": "PhantomTimeThe297-YearHistoricalGap",
+    "sanitized_title": "PhantomTimeThe297-YearHistoricalGap",
+    "start_time": "2025-07-19T16:10:09.123553",
+    "end_time": "2025-07-19T16:14:06.853715",
+    "total_duration": 237.73016238212585,
+    "successful_steps": 2,
+    "total_steps": 2,
+    "success_rate": "100.0%"
+  },
+  "step_timings": {
+    "Content Generation": {
+      "start": 1752955809.1279547,
+      "end": 1752955875.5013263,
+      "duration": 66.37337160110474,
+      "success": true
+    },
+    "Audio/Video Processing": {
+      "start": 1752955875.502321,
+      "end": 1752956046.85073,
+      "duration": 171.34840893745422,
+      "success": true
+    }
+  },
+  "output_files": {
+    "story_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\PhantomTimeThe297-YearHistoricalGap\\metadata.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\PhantomTimeThe297-YearHistoricalGap\\story.json",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\PhantomTimeThe297-YearHistoricalGap\\story.txt",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\stories\\PhantomTimeThe297-YearHistoricalGap\\topic.txt"
+    ],
+    "audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\PhantomTimeThe297-YearHistoricalGap\\audio_PhantomTimeThe297-YearHistoricalGap.mp3",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\audio\\PhantomTimeThe297-YearHistoricalGap\\audio_PhantomTimeThe297-YearHistoricalGap_sped_up.mp3"
+    ],
+    "mixed_audio_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\mixed_audio\\PhantomTimeThe297-YearHistoricalGap\\mixed_audio_PhantomTimeThe297-YearHistoricalGap.mp3"
+    ],
+    "image_files": [
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PhantomTimeThe297-YearHistoricalGap\\image_01.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PhantomTimeThe297-YearHistoricalGap\\image_02.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PhantomTimeThe297-YearHistoricalGap\\image_03.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PhantomTimeThe297-YearHistoricalGap\\image_04.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PhantomTimeThe297-YearHistoricalGap\\image_05.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PhantomTimeThe297-YearHistoricalGap\\image_06.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PhantomTimeThe297-YearHistoricalGap\\image_07.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PhantomTimeThe297-YearHistoricalGap\\image_08.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PhantomTimeThe297-YearHistoricalGap\\image_09.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PhantomTimeThe297-YearHistoricalGap\\image_10.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PhantomTimeThe297-YearHistoricalGap\\image_11.jpg",
+      "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\images\\PhantomTimeThe297-YearHistoricalGap\\image_12.jpg"
+    ],
+    "kenburns_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\videos\\PhantomTimeThe297-YearHistoricalGap_kenburns.mp4",
+    "final_video": "C:\\autotube\\ThroughTheLensofHistory_30seoconds\\output\\subtitles_processed_video\\PhantomTimeThe297-YearHistoricalGap_final.mp4"
+  },
+  "pipeline_status": "SUCCESS"
+}
